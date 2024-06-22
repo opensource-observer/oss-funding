@@ -1,0 +1,49 @@
+import csv
+
+# Data
+data = [
+    {"Project Name": "Protocol Guild", "ETH Funding": 77.3656, "Address": "0xF6CBDd6Ea6EC3C4359e33de0Ac823701Cc56C6c4", "Donors": 146},
+    {"Project Name": "GrowThePie", "ETH Funding": 52.2124, "Address": "0x9438b8B447179740cD97869997a2FCc9b4AA63a2", "Donors": 17},
+    {"Project Name": "NiceNode", "ETH Funding": 52.1261, "Address": "0x9cce47E9cF12C6147c9844adBB81fE85880c4df4", "Donors": 19},
+    {"Project Name": "Shielded Voting", "ETH Funding": 51.9712, "Address": "0xB476Ee7D610DAe7B23B671EBC7Bd6112E9772969", "Donors": 25},
+    {"Project Name": "Web3.js", "ETH Funding": 32.5915, "Address": "0x4C6fd545fc18C6538eC304Ae549717CA58f0D6eb", "Donors": 126},
+    {"Project Name": "Web3.py", "ETH Funding": 32.3391, "Address": "0x5597cD8d55D2Db56b10FF4F8fe69C8922BF6C537", "Donors": 136},
+    {"Project Name": "Hypercerts", "ETH Funding": 27.7443, "Address": "0x2DCDF80f439843D7E0aD1fEF9E7a439B7917eAc9", "Donors": 146},
+    {"Project Name": "Rotki", "ETH Funding": 19.7553, "Address": "0x9531C059098e3d194fF87FebB587aB07B30B1306", "Donors": 146},
+    {"Project Name": "Giveth", "ETH Funding": 13.3081, "Address": "0x6e8873085530406995170Da467010565968C7C62", "Donors": 171},
+    {"Project Name": "Tor Project", "ETH Funding": 0.3909, "Address": "0x15c941a44a343B8c46a28F2BB9aFc7a54E255A4f", "Donors": 157},
+    {"Project Name": "Open Source Observer", "ETH Funding": 0.279, "Address": "0x87fEEd6162CB7dFe6B62F64366742349bF4D1B05", "Donors": 105},
+    {"Project Name": "Gitcoin", "ETH Funding": 0.2109, "Address": "0xde21F729137C5Af1b01d73aF1dC21eFfa2B8a0d6", "Donors": 55},
+    {"Project Name": "Glo Dollar", "ETH Funding": 0.147, "Address": "0x8c89a6bf53cCF63e7B4465Cc1b1330723B4BdcB7", "Donors": 38},
+    {"Project Name": "L2BEAT", "ETH Funding": 0.1396, "Address": "0x0cbF31Ef6545EE30f47651D1A991Bf0aeB03DF29", "Donors": 128},
+    {"Project Name": "Boring Security", "ETH Funding": 0.1337, "Address": "0x52C45Bab6d0827F44a973899666D9Cd18Fd90bCF", "Donors": 16},
+    {"Project Name": "MetaGame", "ETH Funding": 0.1274, "Address": "0x3455FbB4D34C6b47999B66c83aA7BD8FDDade638", "Donors": 27},
+    {"Project Name": "Funding the Commons", "ETH Funding": 0.106, "Address": "0x576edCed7475D8F64a5e2D5227c93Ca57d7f5d20", "Donors": 44},
+    {"Project Name": "Drips", "ETH Funding": 0.1055, "Address": "0xcC7d34C76A9d08aa0109F7Bae35f29C1CE35355A", "Donors": 46},
+    {"Project Name": "Revoke.cash", "ETH Funding": 0.1008, "Address": "0xe126b3E5d052f1F575828f61fEBA4f4f2603652a", "Donors": 132},
+    {"Project Name": "Ethereum Attestation Service", "ETH Funding": 0.0955, "Address": "0xBCA48834b3653ec795411EB0FCBE4038F8527d62", "Donors": 43},
+    {"Project Name": "Ethereum Cat Herders", "ETH Funding": 0.0947, "Address": "0x02Cb3C150BEdca124d0aE8CcCb72fefbe705c953", "Donors": 34},
+    {"Project Name": "EthStaker", "ETH Funding": 0.0635, "Address": "0xF01CEe26213d1A6eaF16422241AE81f7C17B9f98", "Donors": 33},
+    {"Project Name": "ReFi DAO", "ETH Funding": 0.0144, "Address": "0x7340F1a1e4e38F43d2FCC85cdb2b764de36B40c0", "Donors": 17},
+    {"Project Name": "Praise", "ETH Funding": 0.0091, "Address": "0x0B7246eF74Ca7b37Fdc3D15be4f0b49876622F95", "Donors": 30},
+    {"Project Name": "DAO Drops", "ETH Funding": 0.008, "Address": "0x1c01595f9534E33d411035AE99a4317faeC4f6Fe", "Donors": 23},
+    {"Project Name": "Pairwise", "ETH Funding": 0.0076, "Address": "0xd1B8dB70Ded72dB850713b2ce7e1A4FfAfAD95d1", "Donors": 27},
+    {"Project Name": "MetaGov", "ETH Funding": 0.0056, "Address": "0x9be7267002CAD0b8501f7322d50612CB13788Bcf", "Donors": 20},
+    {"Project Name": "StateOfEth", "ETH Funding": 0.0024, "Address": "0x0194325BF525Be0D4fBB0856894cEd74Da3B8356", "Donors": 11},
+    {"Project Name": "ETH Daily", "ETH Funding": 0.0013, "Address": "0xEB40A065854bd90126A4E697aeA0976BA51b2eE7", "Donors": 11},
+    {"Project Name": "Gardens", "ETH Funding": 0.0005, "Address": "0x809C9f8dd8CA93A41c3adca4972Fa234C28F7714", "Donors": 11},
+]
+
+# File name
+filename = "projects_funding.csv"
+
+# Columns
+fields = ["Project Name", "ETH Funding", "Address", "Donors"]
+
+# Writing to CSV file
+with open(filename, 'w', newline='') as csvfile:
+    csvwriter = csv.DictWriter(csvfile, fieldnames=fields)
+    csvwriter.writeheader()
+    csvwriter.writerows(data)
+
+print(f"The file {filename} has been created successfully.")
