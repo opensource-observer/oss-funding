@@ -1,0 +1,566 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "octant",
+    "type": "Foundation",
+    "display_name": "Octant App",
+    "grant_pools": [
+        {
+            "type": "GrantPool",
+            "name": "epoch_1",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "1",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0xCf3efCE169acEC1B281C05E863F78acCF62BD944",
+                    "projectId": "banklessdao",
+                    "projectName": "Bankless DAO",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0xCf3efCE169acEC1B281C05E863F78acCF62BD944",
+                    "fundsAsked": [
+                        {
+                            "amount": 8.4,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 0.0042,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "2",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x78e084445C3F1006617e1f36794dd2261ecE4AE3",
+                    "projectId": "brightid",
+                    "projectName": "BrightID",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x78e084445C3F1006617e1f36794dd2261ecE4AE3",
+                    "fundsAsked": [
+                        {
+                            "amount": 13044.2,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 6.5221,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "3",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0xAb6D6a37c5110d1377832c451C33e4fA16A9BA05",
+                    "projectId": "clrfund",
+                    "projectName": "Clr.fund",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0xAb6D6a37c5110d1377832c451C33e4fA16A9BA05",
+                    "fundsAsked": [
+                        {
+                            "amount": 12923.6,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 6.4618,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "4",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x1c01595f9534E33d411035AE99a4317faeC4f6Fe",
+                    "projectId": "dao-drops-dorgtech",
+                    "projectName": "DAO Drops",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x1c01595f9534E33d411035AE99a4317faeC4f6Fe",
+                    "fundsAsked": [
+                        {
+                            "amount": 14886.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 7.443,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "5",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0xcC7d34C76A9d08aa0109F7Bae35f29C1CE35355A",
+                    "projectId": "drips-network",
+                    "projectName": "drips-network",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0xcC7d34C76A9d08aa0109F7Bae35f29C1CE35355A",
+                    "fundsAsked": [
+                        {
+                            "amount": 26574.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 13.287,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "6",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x02Cb3C150BEdca124d0aE8CcCb72fefbe705c953",
+                    "projectId": "ethereum-cat-herders",
+                    "projectName": "Ethereum Cat Herders",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x02Cb3C150BEdca124d0aE8CcCb72fefbe705c953",
+                    "fundsAsked": [
+                        {
+                            "amount": 16081.800000000001,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 8.0409,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "7",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0xD165df4296C85e780509fa1eace0150d945d49Fd",
+                    "projectId": "ethstaker",
+                    "projectName": "EthStaker",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0xD165df4296C85e780509fa1eace0150d945d49Fd",
+                    "fundsAsked": [
+                        {
+                            "amount": 13645.2,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 6.8226,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "8",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0xde21F729137C5Af1b01d73aF1dC21eFfa2B8a0d6",
+                    "projectId": "gitcoin",
+                    "projectName": "Gitcoin",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0xde21F729137C5Af1b01d73aF1dC21eFfa2B8a0d6",
+                    "fundsAsked": [
+                        {
+                            "amount": 16354.199999999999,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 8.1771,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "9",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x0B7246eF74Ca7b37Fdc3D15be4f0b49876622F95",
+                    "projectId": "givepraise",
+                    "projectName": "Praise",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x0B7246eF74Ca7b37Fdc3D15be4f0b49876622F95",
+                    "fundsAsked": [
+                        {
+                            "amount": 11933.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 5.9665,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "10",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x6e8873085530406995170Da467010565968C7C62",
+                    "projectId": "giveth",
+                    "projectName": "Giveth",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x6e8873085530406995170Da467010565968C7C62",
+                    "fundsAsked": [
+                        {
+                            "amount": 27661.4,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 13.8307,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "11",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x8c89a6bf53cCF63e7B4465Cc1b1330723B4BdcB7",
+                    "projectId": "glo-foundation",
+                    "projectName": "Glo Dollar",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x8c89a6bf53cCF63e7B4465Cc1b1330723B4BdcB7",
+                    "fundsAsked": [
+                        {
+                            "amount": 11531.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 5.7655,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "12",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0xF0652a820dd39EC956659E0018Da022132f2f40a",
+                    "projectId": "gooddollar",
+                    "projectName": "Good Dollar ",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0xF0652a820dd39EC956659E0018Da022132f2f40a",
+                    "fundsAsked": [
+                        {
+                            "amount": 23.8,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 0.0119,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "13",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0xfFbD35255008F86322051F2313D4b343540e0e00",
+                    "projectId": "commonsbuild",
+                    "projectName": "Gravity DAO",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0xfFbD35255008F86322051F2313D4b343540e0e00",
+                    "fundsAsked": [
+                        {
+                            "amount": 9.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 0.0045,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "14",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x4A9a27d614a74Ee5524909cA27bdBcBB7eD3b315",
+                    "projectId": "hausdao",
+                    "projectName": "PublicHAUS",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x4A9a27d614a74Ee5524909cA27bdBcBB7eD3b315",
+                    "fundsAsked": [
+                        {
+                            "amount": 12700.4,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 6.3502,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "15",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x2DCDF80f439843D7E0aD1fEF9E7a439B7917eAc9",
+                    "projectId": "hypercerts",
+                    "projectName": "Hypercerts",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x2DCDF80f439843D7E0aD1fEF9E7a439B7917eAc9",
+                    "fundsAsked": [
+                        {
+                            "amount": 55440.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 27.72,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "16",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x7DAC9Fc15C1Db4379D75A6E3f330aE849dFfcE18",
+                    "projectId": "kernel-community",
+                    "projectName": "Kernel",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x7DAC9Fc15C1Db4379D75A6E3f330aE849dFfcE18",
+                    "fundsAsked": [
+                        {
+                            "amount": 13822.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 6.911,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "17",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x3455FbB4D34C6b47999B66c83aA7BD8FDDade638",
+                    "projectId": "metagame-metafam",
+                    "projectName": "MetaGame",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x3455FbB4D34C6b47999B66c83aA7BD8FDDade638",
+                    "fundsAsked": [
+                        {
+                            "amount": 12719.8,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 6.3599,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "18",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x20a1B17087482de88Fac6D7B5aE23A7175fd1395",
+                    "projectId": "onion-dao",
+                    "projectName": "OnionDAO",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x20a1B17087482de88Fac6D7B5aE23A7175fd1395",
+                    "fundsAsked": [
+                        {
+                            "amount": 20799.2,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 10.3996,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "19",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/Epoch1/0xd1B8dB70Ded72dB850713b2ce7e1A4FfAfAD95d1",
+                    "projectId": "pairwise-general-magic",
+                    "projectName": "Pairwise",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/Epoch1/0xd1B8dB70Ded72dB850713b2ce7e1A4FfAfAD95d1",
+                    "fundsAsked": [
+                        {
+                            "amount": 12104.6,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 6.0523,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "20",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0xF6CBDd6Ea6EC3C4359e33de0Ac823701Cc56C6c4",
+                    "projectId": "protocol-guild",
+                    "projectName": "Protocol Guild",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0xF6CBDd6Ea6EC3C4359e33de0Ac823701Cc56C6c4",
+                    "fundsAsked": [
+                        {
+                            "amount": 87038.4,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 43.5192,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "21",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x149D46eC060e75AE188876AdB6b24024637003C7",
+                    "projectId": "radardao-xyz",
+                    "projectName": "RADAR Launch",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x149D46eC060e75AE188876AdB6b24024637003C7",
+                    "fundsAsked": [
+                        {
+                            "amount": 3.6,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 0.0018,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "22",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x9531C059098e3d194fF87FebB587aB07B30B1306",
+                    "projectId": "rotki",
+                    "projectName": "Rotki",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x9531C059098e3d194fF87FebB587aB07B30B1306",
+                    "fundsAsked": [
+                        {
+                            "amount": 67832.8,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 33.9164,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "23",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x15c941a44a343B8c46a28F2BB9aFc7a54E255A4f",
+                    "projectId": "tor-project",
+                    "projectName": "Tor Project",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x15c941a44a343B8c46a28F2BB9aFc7a54E255A4f",
+                    "fundsAsked": [
+                        {
+                            "amount": 52386.4,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 26.1932,
+                            "denomination": "ETH"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "24",
+                    "grantPoolId": "epoch_1",
+                    "grantPoolName": "epoch_1",
+                    "projectsURI": "https://octant.app/project/1/0x4ADc8CC149A03F44386Bee80bab36F9e8022b195",
+                    "projectId": "unitapapp",
+                    "projectName": "Unitap",
+                    "createdAt": "2023-10-19T00:00:00Z",
+                    "contentURI": "https://octant.app/project/1/0x4ADc8CC149A03F44386Bee80bab36F9e8022b195",
+                    "fundsAsked": [
+                        {
+                            "amount": 17.4,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 0.0087,
+                            "denomination": "ETH"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
