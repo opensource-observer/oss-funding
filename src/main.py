@@ -41,6 +41,7 @@ def main():
 
     csv_outpath = os.path.join(DATA_DIR, OUT_NAME + '.csv')
     df = walk_funding_csvs(DATA_DIR, ignore_list=[csv_outpath])
+    df.set_index(REQ_COLS[0], drop=True)
     df.to_csv(csv_outpath)
     print("Exported to", csv_outpath)
     
