@@ -1,6 +1,6 @@
 {
     "@context": "http://www.daostar.org/schemas",
-    "name": "stellar_community_fund",
+    "name": "stellar_community_foundation",
     "type": "Foundation",
     "grantPools": [
         {
@@ -13,16 +13,16 @@
             },
             "description": "Grants pool for {'name': 'scf-1'}.",
             "isOpen": false,
-            "applicationsURI": "https://stellar_community_fund.org/applications/{'name': 'scf-1'}_example.json",
-            "governanceURI": "https://stellar_community_fund.org/governance/{'name': 'scf-1'}_example.md",
-            "attestationIssuersURI": "https://stellar_community_fund.org/attestations/{'name': 'scf-1'}_example.json",
+            "applicationsURI": "https://stellar_community_foundation.org/applications/{'name': 'scf-1'}_example.json",
+            "governanceURI": "https://stellar_community_foundation.org/governance/{'name': 'scf-1'}_example.md",
+            "attestationIssuersURI": "https://stellar_community_foundation.org/attestations/{'name': 'scf-1'}_example.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
             ],
             "email": "rashmi@daostar.org",
-            "image": "https://stellar_community_fund.org/images/{'name': 'scf-1'}.png",
-            "coverImage": "https://stellar_community_fund.org/images/{'name': 'scf-1'}_cover.png"
+            "image": "https://stellar_community_foundation.org/images/{'name': 'scf-1'}.png",
+            "coverImage": "https://stellar_community_foundation.org/images/{'name': 'scf-1'}_cover.png"
         }
     ]
 }
