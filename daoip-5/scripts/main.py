@@ -49,7 +49,7 @@ def generate_application_uri(csv_file):
         "grant_pools": []
     }
 
-    with open(csv_file, newline='', encoding='utf-8') as csvfile:
+    with open(csv_file, newline='', encoding='utf-8-sig') as csvfile:
         reader = csv.DictReader(csvfile)
         application_id = 1  
 
