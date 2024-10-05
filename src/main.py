@@ -1,3 +1,4 @@
+import json
 import os
 import pandas as pd
 
@@ -37,14 +38,28 @@ def walk_funding_csvs(data_dir, ignore_list=[]):
         print("No CSV files found.")
 
 
+def json_export(dataframe, json_outpath):
+    data = dataframe.to_dict(orient='records')
+    for grant in data:
+        if not isinstance(grant['to_project_name'], str):
+            grant['to_project_name'] = None
+        try:
+            grant['metadata'] = json.loads(grant['metadata'])
+        except json.JSONDecodeError:
+            print(f"Invalid JSON in metadata: {grant['metadata']}")
+            grant['metadata'] = {}
+    with open(json_outpath, 'w') as json_file:
+        json.dump(data, json_file, indent=2)
+    print("Exported to", json_outpath)
+    
+
 def main():
 
     csv_outpath = os.path.join(DATA_DIR, OUT_NAME + '.csv')
     json_outpath = os.path.join(DATA_DIR, OUT_NAME + '.json')
 
     df = walk_funding_csvs(DATA_DIR, ignore_list=[csv_outpath])
-    df.to_json(json_outpath, orient='records', indent=2)
-    print("Exported to", json_outpath)
+    json_export(df, json_outpath)
 
     df.set_index(REQ_COLS[0], drop=True, inplace=True)
     df.to_csv(csv_outpath)
