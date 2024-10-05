@@ -11,7 +11,10 @@ For adding projects (and project naming conventions), please refer to our compan
 
 ## Latest Funding Data
 
-The latest funding data can be found at [`./data/funding_data.csv`](./data/funding_data.csv). A JSON version is also available at [`./data/funding_data.json`](./data/funding_data.json).
+The latest funding data can be found at:
+    - CSV: [`./data/funding_data.csv`](./data/funding_data.csv)
+    - JSON: [`./data/funding_data.json`](./data/funding_data.json)
+    - Google Sheets: [here](https://docs.google.com/spreadsheets/d/1gYwfeZUSEEiUbf2c_A0SWTG7aiy52uWiVFazNVLDaiA/edit?usp=sharing)
 
 ## Schema
 
