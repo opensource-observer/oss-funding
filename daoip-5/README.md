@@ -1,7 +1,7 @@
 
 # DAOIP-5 Grant Pool URI and Applications URI JSON Generator
 
-This script crawls a given folder path, finds YAML and CSV files, and generates structured JSON files based on the DAO grant pool and applications. The JSON files are stored in a newly created folder under `/home/torch/datalake/oss-funding/daoip-5/json`, named after the last part of the provided folder path.
+This script crawls a given folder path, finds YAML and CSV files, and generates structured JSON files based on the DAO grant pool and applications. The JSON files are stored in a newly created folder under `./datalake/oss-funding/daoip-5/json`, named after the last part of the provided folder path.
 
 ## Features
 
@@ -10,7 +10,7 @@ This script crawls a given folder path, finds YAML and CSV files, and generates 
 - **JSON Generation**: Based on the data from the YAML and CSV files, the script generates two types of JSON files:
   - **Grant Pool JSON**: Contains metadata about the DAO and its grant pools.
   - **Applications JSON**: Contains structured information about the grant applications.
-- **Custom Folder Structure**: The generated JSON files are saved in `/home/torch/datalake/oss-funding/daoip-5/json/<folder-name>`, where `<folder-name>` is the last part of the provided folder path.
+- **Custom Folder Structure**: The generated JSON files are saved in `./datalake/oss-funding/daoip-5/json/<folder-name>`, where `<folder-name>` is the last part of the provided folder path.
 
 ## Prerequisites
 
@@ -42,14 +42,14 @@ Where:
 ### Example
 
 ```bash
-python3 main.py --path "/home/torch/datalake/oss-funding/data/funders/stellar"
+python3 main.py --path "./datalake/oss-funding/data/funders/stellar"
 ```
 
 This command:
-1. Crawls through `/home/torch/datalake/oss-funding/data/funders/stellar`.
+1. Crawls through `./datalake/oss-funding/data/funders/stellar`.
 2. Finds the YAML file at the root and the CSV files inside `/uploads`.
 3. Generates JSON files based on the contents of these files.
-4. Saves the generated JSON files in `/home/torch/datalake/oss-funding/daoip-5/json/stellar`.
+4. Saves the generated JSON files in `./datalake/oss-funding/daoip-5/json/stellar`.
 
 ## Directory and File Structure
 
@@ -70,7 +70,7 @@ This command:
   └── grants_pool.json       # Generated Grants Pool JSON
   ```
 
-For example, if you provide the path `/home/torch/datalake/oss-funding/data/funders/stellar`, the output files will be:
+For example, if you provide the path `./datalake/oss-funding/data/funders/stellar`, the output files will be:
 
 ```
 /home/torch/datalake/oss-funding/daoip-5/json/stellar/applications_uri.json
