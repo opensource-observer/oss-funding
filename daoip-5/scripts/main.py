@@ -41,11 +41,11 @@ def process_row(row, application_id):
 
     return application
 
-def generate_application_uri(csv_file):
+def generate_application_uri(csv_file, dao_name, dao_type):
     base_structure = {
         "@context": "http://www.daostar.org/schemas",
-        "name": "Unknown Project",  
-        "type": "DAO",
+        "name": dao_name.capitalize(),  
+        "type": dao_type.capitalize(), 
         "grant_pools": []
     }
 
@@ -72,12 +72,12 @@ def generate_application_uri(csv_file):
 
     return json.dumps(base_structure, indent=4)
 
-def generate_grant_pool_json(yaml_file):
+def generate_grant_pool_json(yaml_file, dao_name, dao_type):
     dao_metadata = load_dao_metadata(yaml_file)
     grant_pool_json = {
         "@context": "http://www.daostar.org/schemas",
-        "name": dao_metadata['name'],
-        "type": dao_metadata['type'],
+        "name": dao_name.capitalize(), 
+        "type": dao_type.capitalize(),
         "grantPools": []
     }
     
@@ -146,20 +146,24 @@ if __name__ == "__main__":
     
     yaml_file, csv_files = find_files(root_path)
 
+    dao_metadata = load_dao_metadata(yaml_file)
+    dao_name = dao_metadata.get('name', 'Unknown Project')  # Default to "Unknown Project" if not found
+    dao_type = dao_metadata.get('type', 'DAO')  # Default to "DAO" if not found
+
     base_json_folder = '/home/torch/datalake/oss-funding/daoip-5/json'
     json_folder = create_folder_based_on_path(base_json_folder, root_path)
 
     for csv_file in csv_files:
         csv_filename = get_csv_filename_without_extension(csv_file)
 
-        applications_uri_json = generate_application_uri(csv_file)
+        applications_uri_json = generate_application_uri(csv_file, dao_name, dao_type)
         applications_file_name = os.path.join(json_folder, f"{csv_filename}_applications_uri.json")
         with open(applications_file_name, 'w') as outfile:
             outfile.write(applications_uri_json)
         print(f"Applications URI JSON has been generated and saved to {applications_file_name}")
 
     grants_pool_file_name = os.path.join(json_folder, 'grants_pool.json')
-    grant_pool_json = generate_grant_pool_json(yaml_file)
+    grant_pool_json = generate_grant_pool_json(yaml_file, dao_name, dao_type)
     with open(grants_pool_file_name, 'w') as outfile:
         outfile.write(grant_pool_json)
     print(f"Grants Pool JSON has been generated and saved to {grants_pool_file_name}")
