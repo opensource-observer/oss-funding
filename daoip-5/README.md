@@ -1,46 +1,80 @@
-# Script Documentation for Grants Pool and Applications URI Generation:
 
-    This script is used to generate two types of JSON files:
-    1. **Applications URI JSON**: Contains grant applications data from a CSV file.
-    2. **Grants Pool JSON**: Contains metadata about grants pools from a YAML file.
+# DAOIP-5 Grant Pool URI and Applications URI JSON Generator
 
-    ### Commands and Options:
+This script crawls a given folder path, finds YAML and CSV files, and generates structured JSON files based on the DAO grant pool and applications. The JSON files are stored in a newly created folder under `/home/torch/datalake/oss-funding/daoip-5/json`, named after the last part of the provided folder path.
 
-    **Basic Usage:**
-    ```
-    python3 main.py --csv_file <path-to-csv> [--yaml_file <path-to-yaml>] [--generate <applications|grants|both>]
-    ```
+## Features
 
-    ### Arguments:
-    - `--csv_file`: **Required**. The path to the CSV file containing project data (e.g., funding amounts, project names, etc.).
-    - `--yaml_file`: **Optional**. The path to the YAML file containing metadata (used to generate the grants pool JSON).
-    - `--generate`: **Optional**. You can specify what to generate:
-      - `applications`: Only generate the Applications URI JSON.
-      - `grants`: Only generate the Grants Pool JSON.
-      - `both` (default): Generate both the Applications URI and Grants Pool JSON.
+- **YAML Parsing**: The script finds a YAML file at the root of the provided folder path. The YAML file contains metadata about the DAO and its grant pools.
+- **CSV Processing**: The script looks for CSV files inside a folder called `uploads` under the provided path. These CSV files hold data about grant applications.
+- **JSON Generation**: Based on the data from the YAML and CSV files, the script generates two types of JSON files:
+  - **Grant Pool JSON**: Contains metadata about the DAO and its grant pools.
+  - **Applications JSON**: Contains structured information about the grant applications.
+- **Custom Folder Structure**: The generated JSON files are saved in `/home/torch/datalake/oss-funding/daoip-5/json/<folder-name>`, where `<folder-name>` is the last part of the provided folder path.
 
-    ### Example Commands:
+## Prerequisites
 
-    1. **Generate Only Applications URI JSON**:
-    ```
-    python3 main.py --csv_file /path/to/projects.csv --generate applications
-    ```
+- **Python 3.x**
+- Required Python libraries:
+  - `csv`
+  - `json`
+  - `yaml`
+  - `argparse`
+  - `os`
 
-    2. **Generate Only Grants Pool JSON** (Requires YAML File):
-    ```
-    python3 main.py --csv_file /path/to/projects.csv --yaml_file /path/to/metadata.yaml --generate grants
-    ```
+Install the required `yaml` library using pip:
 
-    3. **Generate Both Applications URI and Grants Pool JSON**:
-    ```
-    python3 main.py --csv_file /path/to/projects.csv --yaml_file /path/to/metadata.yaml --generate both
-    ```
+```bash
+pip install pyyaml
+```
 
-    ### Output:
-    - The script will generate the following files in the `./json/` folder:
-      - `*_applications_uri.json`: The Applications URI JSON based on the provided CSV data.
-      - `*_grants_pool.json`: The Grants Pool JSON based on the provided YAML metadata (if applicable).
+## Usage
 
-    ### File Structure:
-    - CSV: Contains project-related data such as funding amount, project name, grant pool name, etc.
-    - YAML: Contains metadata about the DAO or organization running the grants program (used for grants pool generation).
+### Command Structure
+
+```bash
+python3 main.py --path "<path-to-your-folder>"
+```
+
+Where:
+- `--path` is the root path to the folder containing the YAML and CSV files.
+
+### Example
+
+```bash
+python3 main.py --path "/home/torch/datalake/oss-funding/data/funders/stellar"
+```
+
+This command:
+1. Crawls through `/home/torch/datalake/oss-funding/data/funders/stellar`.
+2. Finds the YAML file at the root and the CSV files inside `/uploads`.
+3. Generates JSON files based on the contents of these files.
+4. Saves the generated JSON files in `/home/torch/datalake/oss-funding/daoip-5/json/stellar`.
+
+## Directory and File Structure
+
+- **Input**: The script expects the following folder structure:
+  
+  ```
+  <provided-path>
+  ├── metadata.yaml          # YAML file at the root
+  └── uploads/
+      └── applications.csv   # CSV files inside 'uploads' folder
+  ```
+
+- **Output**: The JSON files will be saved in the following structure:
+
+  ```
+  /home/torch/datalake/oss-funding/daoip-5/json/<last-part-of-path>/
+  ├── applications_uri.json  # Generated Applications JSON
+  └── grants_pool.json       # Generated Grants Pool JSON
+  ```
+
+For example, if you provide the path `/home/torch/datalake/oss-funding/data/funders/stellar`, the output files will be:
+
+```
+/home/torch/datalake/oss-funding/daoip-5/json/stellar/applications_uri.json
+/home/torch/datalake/oss-funding/daoip-5/json/stellar/grants_pool.json
+```
+#### Support
+For any support or questions, contact: rashmi@daostar.org
