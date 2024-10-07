@@ -1,0 +1,14 @@
+version: 1
+name: optimism
+type: Foundation
+display_name: Optimism Foundation
+grant_pools:
+  - name: retropgf2
+  - name: retropgf3
+  - name: grants_season_1
+  - name: grants_season_2
+  - name: grants_season_3
+  - name: grants_season_4
+  - name: missions_season_4
+  - name: retrofunding4
+  

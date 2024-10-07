@@ -1,0 +1,634 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Stellar",
+    "type": "Foundation",
+    "grant_pools": [
+        {
+            "type": "GrantPool",
+            "name": "scf-24",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "1",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHnYfdhDsCAmDHf",
+                    "projectId": "php-anchor-sdk",
+                    "projectName": "PHP Anchor SDK",
+                    "createdAt": "2024-03-20T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHnYfdhDsCAmDHf",
+                    "fundsAsked": [
+                        {
+                            "amount": 58200.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 466669.65,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "2",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recam5gal7vWgPt9A",
+                    "projectId": "alterscope",
+                    "projectName": "KYP - Risk Dashboard & Market",
+                    "createdAt": "2024-03-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recam5gal7vWgPt9A",
+                    "fundsAsked": [
+                        {
+                            "amount": 38400.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 273949.14,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "3",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recaEiyFpgJEc9TN2",
+                    "projectId": "js-worker-sdk",
+                    "projectName": "JS Worker SDK",
+                    "createdAt": "2024-03-13T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recaEiyFpgJEc9TN2",
+                    "fundsAsked": [
+                        {
+                            "amount": 12500.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 87045.53,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "4",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfvb645h7vv8HYG",
+                    "projectId": "legacy-suite-on-stellar",
+                    "projectName": "Legacy Suite on Stellar",
+                    "createdAt": "2024-03-05T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfvb645h7vv8HYG",
+                    "fundsAsked": [
+                        {
+                            "amount": 49998.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 343175.77,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "5",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recmo7OFBROky1vev",
+                    "projectId": "satellite-we-work-out",
+                    "projectName": "Satellite + We Work Out",
+                    "createdAt": "2024-03-28T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recmo7OFBROky1vev",
+                    "fundsAsked": [
+                        {
+                            "amount": 75250.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 547435.96,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "6",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqsmOiASUgtmDrI",
+                    "projectId": "okashi",
+                    "projectName": "Okashi - Developer UX Upgrade",
+                    "createdAt": "2024-03-15T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqsmOiASUgtmDrI",
+                    "fundsAsked": [
+                        {
+                            "amount": 100000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 747311.54,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "7",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recrcyLc9CBiDZ8Ev",
+                    "projectId": "kwickbit-corp-defi-accounting",
+                    "projectName": "Kwickbit: Corp DeFi Accounting",
+                    "createdAt": "2024-03-15T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recrcyLc9CBiDZ8Ev",
+                    "fundsAsked": [
+                        {
+                            "amount": 80000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 597849.23,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "8",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsEVEThwFT4tSNI",
+                    "projectId": "soroban-governor-dao",
+                    "projectName": "Soroban Governor",
+                    "createdAt": "2024-03-22T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsEVEThwFT4tSNI",
+                    "fundsAsked": [
+                        {
+                            "amount": 80000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 624779.86,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "9",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuqcat2t0W9ya9o",
+                    "projectId": "bitwave",
+                    "projectName": "Bitwave Stellar Integration",
+                    "createdAt": "2024-03-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuqcat2t0W9ya9o",
+                    "fundsAsked": [
+                        {
+                            "amount": 50000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 356704.62,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "10",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuWJCnqLfUFlLke",
+                    "projectId": "expand-network",
+                    "projectName": "Expand Stellar Integration",
+                    "createdAt": "2024-03-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuWJCnqLfUFlLke",
+                    "fundsAsked": [
+                        {
+                            "amount": 47000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 335302.34,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "11",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxcytdsU9FsAjTA",
+                    "projectId": "blaze",
+                    "projectName": "Blaze: LatAm Launch",
+                    "createdAt": "2024-03-22T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxcytdsU9FsAjTA",
+                    "fundsAsked": [
+                        {
+                            "amount": 90000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 702877.34,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "12",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxj2LCnWfaNjDRt",
+                    "projectId": "flutter-wallet-sdk",
+                    "projectName": "Flutter Wallet SDK",
+                    "createdAt": "2024-03-21T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxj2LCnWfaNjDRt",
+                    "fundsAsked": [
+                        {
+                            "amount": 28000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 209926.52,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "13",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxI1WH8tFYnAwag",
+                    "projectId": "enerdao",
+                    "projectName": "EnerDAO - DeFi for Renewables",
+                    "createdAt": "2024-03-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxI1WH8tFYnAwag",
+                    "fundsAsked": [
+                        {
+                            "amount": 47700.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 340296.2,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "14",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recOcOlGlsC6BUFmx",
+                    "projectId": "dogstar",
+                    "projectName": "Dogstar League",
+                    "createdAt": "2024-03-20T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recOcOlGlsC6BUFmx",
+                    "fundsAsked": [
+                        {
+                            "amount": 86450.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 695486.93,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "15",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recOzgAzEdNvCHOXN",
+                    "projectId": "mykobo",
+                    "projectName": "EURC Cross Border Payments",
+                    "createdAt": "2024-03-15T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recOzgAzEdNvCHOXN",
+                    "fundsAsked": [
+                        {
+                            "amount": 49996.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 373625.88,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "16",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recQhWya5YInPvM1U",
+                    "projectId": "depay",
+                    "projectName": "Democratizing Crypto Finance",
+                    "createdAt": "2024-03-13T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recQhWya5YInPvM1U",
+                    "fundsAsked": [
+                        {
+                            "amount": 42500.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 286943.07,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "17",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recRWimCH2fHeod4L",
+                    "projectId": "dapplooker",
+                    "projectName": "BI Tool For Stellar Community",
+                    "createdAt": "2024-03-26T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recRWimCH2fHeod4L",
+                    "fundsAsked": [
+                        {
+                            "amount": 27700.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 202396.6,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "18",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recSZFx6ph1UtAS2N",
+                    "projectId": "coinsender",
+                    "projectName": "CoinSender",
+                    "createdAt": "2024-03-28T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recSZFx6ph1UtAS2N",
+                    "fundsAsked": [
+                        {
+                            "amount": 23440.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 170523.57,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "19",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recWpw21bCgqWztUk",
+                    "projectId": "perun-state-channels",
+                    "projectName": "Perun Cross-Chain Swaps",
+                    "createdAt": "2024-03-20T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recWpw21bCgqWztUk",
+                    "fundsAsked": [
+                        {
+                            "amount": 90000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 724046.55,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "20",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec05ielYqgWQu4OH",
+                    "projectId": "solarkraft",
+                    "projectName": "Solarkraft: runtime monitoring",
+                    "createdAt": "2024-03-22T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec05ielYqgWQu4OH",
+                    "fundsAsked": [
+                        {
+                            "amount": 50000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 390487.41,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "21",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec2ZLmAvtJlNAmo2",
+                    "projectId": "social-podcast",
+                    "projectName": "Roberto Sanz: Podcast & Social",
+                    "createdAt": "2024-03-21T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec2ZLmAvtJlNAmo2",
+                    "fundsAsked": [
+                        {
+                            "amount": 30000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 224921.27,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "22",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3XoeMveOKOZzQS",
+                    "projectId": "loam",
+                    "projectName": "LOAM - Grow Ambitious Dapps",
+                    "createdAt": "2024-08-15T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3XoeMveOKOZzQS",
+                    "fundsAsked": [
+                        {
+                            "amount": 140900.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 1263448.62,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "23",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec38EACiEgZHpXzk",
+                    "projectId": "decentrio",
+                    "projectName": "Soroban RPC and indexer",
+                    "createdAt": "2024-03-21T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec38EACiEgZHpXzk",
+                    "fundsAsked": [
+                        {
+                            "amount": 50000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 374868.79,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "24",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyhIl215OlC9aTI",
+                    "projectId": "stellar-token-launchpad",
+                    "projectName": "Stellar Token Launchpad",
+                    "createdAt": "2024-03-13T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyhIl215OlC9aTI",
+                    "fundsAsked": [
+                        {
+                            "amount": 40000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 270064.07,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "25",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recc3FaUY1QXUGaEx",
+                    "projectId": "stellar-surge",
+                    "projectName": "Stellar Surge",
+                    "createdAt": "2024-04-09T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recc3FaUY1QXUGaEx",
+                    "fundsAsked": [
+                        {
+                            "amount": 50000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 374437.87,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "26",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rechldOqfuvFHMRrL",
+                    "projectId": "wagelink-sdp-integration",
+                    "projectName": "Wagelink - Soroban Integration",
+                    "createdAt": "2024-04-11T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rechldOqfuvFHMRrL",
+                    "fundsAsked": [
+                        {
+                            "amount": 50000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 387248.67,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "27",
+                    "grantPoolId": "scf-24",
+                    "grantPoolName": "scf-24",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recMbwLXxfYgBJXQy",
+                    "projectId": "stocken-capital-legaltech",
+                    "projectName": "STOCKen CAPITAL Legaltech",
+                    "createdAt": "2024-03-26T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recMbwLXxfYgBJXQy",
+                    "fundsAsked": [
+                        {
+                            "amount": 32579.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 238046.17,
+                            "denomination": "XLM"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
