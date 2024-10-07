@@ -1,0 +1,266 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Stellar",
+    "type": "Foundation",
+    "grant_pools": [
+        {
+            "type": "GrantPool",
+            "name": "scf-15",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "1",
+                    "grantPoolId": "scf-15",
+                    "grantPoolName": "scf-15",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recAn7u7cJ9KA3AEd",
+                    "projectId": "elio-dao",
+                    "projectName": "Elio DAO",
+                    "createdAt": "2023-06-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recAn7u7cJ9KA3AEd",
+                    "fundsAsked": [
+                        {
+                            "amount": 148200.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 1678743.73,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "2",
+                    "grantPoolId": "scf-15",
+                    "grantPoolName": "scf-15",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHahmCLtNhZaCUg",
+                    "projectId": "chainlink-oracles-relayer",
+                    "projectName": "Chainlink Oracles Relayer",
+                    "createdAt": "2023-06-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHahmCLtNhZaCUg",
+                    "fundsAsked": [
+                        {
+                            "amount": 38400.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 433899.95,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "3",
+                    "grantPoolId": "scf-15",
+                    "grantPoolName": "scf-15",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8A43DCXVKh78FI",
+                    "projectId": "anchain-ai",
+                    "projectName": "AnChain.AI - Tenzing Smart Contract Catalog",
+                    "createdAt": "2023-06-08T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8A43DCXVKh78FI",
+                    "fundsAsked": [
+                        {
+                            "amount": 95000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 1062447.53,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "4",
+                    "grantPoolId": "scf-15",
+                    "grantPoolName": "scf-15",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recm80YHqumL7qKsJ",
+                    "projectId": "soroban-smart-option-contract",
+                    "projectName": "Soroban Smart Option Contract (Part 2)",
+                    "createdAt": "2023-06-05T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recm80YHqumL7qKsJ",
+                    "fundsAsked": [
+                        {
+                            "amount": 51500.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 566307.46,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "5",
+                    "grantPoolId": "scf-15",
+                    "grantPoolName": "scf-15",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recoZCxDJu6l9Sy9S",
+                    "projectId": "beans-app",
+                    "projectName": "Beans app",
+                    "createdAt": "2023-06-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recoZCxDJu6l9Sy9S",
+                    "fundsAsked": [
+                        {
+                            "amount": 96640.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 1091981.57,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "6",
+                    "grantPoolId": "scf-15",
+                    "grantPoolName": "scf-15",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIf1jFrLDhF2wvL",
+                    "projectId": "link-io",
+                    "projectName": "LINK Business",
+                    "createdAt": "2023-06-08T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIf1jFrLDhF2wvL",
+                    "fundsAsked": [
+                        {
+                            "amount": 140000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 1590331.25,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "7",
+                    "grantPoolId": "scf-15",
+                    "grantPoolName": "scf-15",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVYQzThUCdFa0N5",
+                    "projectId": "pluto-loans-b2b",
+                    "projectName": "Pluto Loans B2B",
+                    "createdAt": "2023-06-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVYQzThUCdFa0N5",
+                    "fundsAsked": [
+                        {
+                            "amount": 92700.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 1047461.62,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "8",
+                    "grantPoolId": "scf-15",
+                    "grantPoolName": "scf-15",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recWtqpdZ2UzVkfhe",
+                    "projectId": "reflector",
+                    "projectName": "Reflector",
+                    "createdAt": "2023-06-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recWtqpdZ2UzVkfhe",
+                    "fundsAsked": [
+                        {
+                            "amount": 148840.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 1681814.33,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "9",
+                    "grantPoolId": "scf-15",
+                    "grantPoolName": "scf-15",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recdmXC3u5HWsR7tq",
+                    "projectId": "okashi",
+                    "projectName": "useSoroban.app II",
+                    "createdAt": "2023-06-05T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recdmXC3u5HWsR7tq",
+                    "fundsAsked": [
+                        {
+                            "amount": 124800.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 120037.09,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "10",
+                    "grantPoolId": "scf-15",
+                    "grantPoolName": "scf-15",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recq35w2zW5FQu4tY",
+                    "projectId": "trilobyte",
+                    "projectName": "Trilobyte",
+                    "createdAt": "2023-06-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recq35w2zW5FQu4tY",
+                    "fundsAsked": [
+                        {
+                            "amount": 119000.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 1327514.12,
+                            "denomination": "XLM"
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "11",
+                    "grantPoolId": "scf-15",
+                    "grantPoolName": "scf-15",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recQcIB562ZHDFqdJ",
+                    "projectId": "soroswap-finance",
+                    "projectName": "Soroswap Protocol",
+                    "createdAt": "2023-06-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recQcIB562ZHDFqdJ",
+                    "fundsAsked": [
+                        {
+                            "amount": 57600.0,
+                            "denomination": "USD"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": 650849.93,
+                            "denomination": "XLM"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

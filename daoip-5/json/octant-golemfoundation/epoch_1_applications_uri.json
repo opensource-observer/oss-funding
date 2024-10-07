@@ -1,8 +1,7 @@
 {
     "@context": "http://www.daostar.org/schemas",
-    "name": "octant",
+    "name": "Octant-golemfoundation",
     "type": "Foundation",
-    "display_name": "Octant App",
     "grant_pools": [
         {
             "type": "GrantPool",

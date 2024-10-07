@@ -1,8 +1,7 @@
 {
     "@context": "http://www.daostar.org/schemas",
-    "name": "dao_drops",
-    "type": "DAO",
-    "display_name": "DAO Drops",
+    "name": "Dao-drops-dorgtech",
+    "type": "Dao",
     "grant_pools": [
         {
             "type": "GrantPool",

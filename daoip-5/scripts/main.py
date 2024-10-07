@@ -41,11 +41,11 @@ def process_row(row, application_id):
 
     return application
 
-def generate_application_uri(csv_file):
+def generate_application_uri(csv_file, dao_name, dao_type):
     base_structure = {
         "@context": "http://www.daostar.org/schemas",
-        "name": "Unknown Project",  
-        "type": "DAO",
+        "name": dao_name.capitalize(),  
+        "type": dao_type.capitalize(), 
         "grant_pools": []
     }
 
@@ -72,12 +72,12 @@ def generate_application_uri(csv_file):
 
     return json.dumps(base_structure, indent=4)
 
-def generate_grant_pool_json(yaml_file):
+def generate_grant_pool_json(yaml_file, dao_name, dao_type):
     dao_metadata = load_dao_metadata(yaml_file)
     grant_pool_json = {
         "@context": "http://www.daostar.org/schemas",
-        "name": dao_metadata['name'],
-        "type": dao_metadata['type'],
+        "name": dao_name.capitalize(), 
+        "type": dao_type.capitalize(),
         "grantPools": []
     }
     
@@ -88,24 +88,23 @@ def generate_grant_pool_json(yaml_file):
             "name": pool_name,
             "description": f"Grants pool for {pool_name}.", 
             "isOpen": False,
-            "applicationsURI": f"https://{dao_metadata['name']}.org/applications/{pool_name}_example.json",  # Example
-            "governanceURI": f"https://{dao_metadata['name']}.org/governance/{pool_name}_example.md",  # Example
-            "attestationIssuersURI": f"https://{dao_metadata['name']}.org/attestations/{pool_name}_example.json",  # Example
-            "requiredCredentials": ["DAO Attestation", "KYC"],  # Example credentials, can be modified
-            "email": "rashmi@daostar.org",  # Example email
-            "image": f"https://{dao_metadata['name']}.org/images/{pool_name}.png",  # Example image URL
-            "coverImage": f"https://{dao_metadata['name']}.org/images/{pool_name}_cover.png"  # Example cover image URL
+            "applicationsURI": f"https://{dao_metadata['name']}.org/applications/{pool_name}_example.json",  
+            "governanceURI": f"https://{dao_metadata['name']}.org/governance/{pool_name}_example.md",  
+            "attestationIssuersURI": f"https://{dao_metadata['name']}.org/attestations/{pool_name}_example.json",  
+            "requiredCredentials": ["DAO Attestation", "KYC"],  
+            "email": "rashmi@daostar.org",  
+            "image": f"https://{dao_metadata['name']}.org/images/{pool_name}.png",  
+            "coverImage": f"https://{dao_metadata['name']}.org/images/{pool_name}_cover.png"  
         }
         
         grant_pool_json["grantPools"].append(grant_pool)
     
     return json.dumps(grant_pool_json, indent=4)
 
-def ensure_json_folder():
-    folder_path = './daoip-5/json/'
-    if not os.path.exists(folder_path):
-        os.makedirs(folder_path)
-    return folder_path
+def ensure_folder(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+    return path
 
 def get_csv_filename_without_extension(csv_file_path):
     return os.path.splitext(os.path.basename(csv_file_path))[0]
@@ -113,36 +112,58 @@ def get_csv_filename_without_extension(csv_file_path):
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Generate Applications URI and/or Grants Pool JSON')
     
-    parser.add_argument('--csv_file', type=str, required=True, help='Path to the CSV file containing project data')
-    parser.add_argument('--yaml_file', type=str, help='Path to the YAML file containing metadata (required for grants pool generation)')
-    
-    parser.add_argument('--generate', type=str, choices=['applications', 'grants', 'both'], default='both',
-                        help='Choose what to generate: applications, grants, or both')
+    parser.add_argument('--path', type=str, required=True, help='Root path of the folder to crawl')
     
     return parser.parse_args()
 
+def find_files(root_path):
+    yaml_file = None
+    csv_files = []
+
+    # Traverse the directory
+    for dirpath, _, filenames in os.walk(root_path):
+        for file in filenames:
+            if file.endswith('.yaml') and yaml_file is None:
+                yaml_file = os.path.join(dirpath, file)
+            elif file.endswith('.csv') and 'uploads' in dirpath:
+                csv_files.append(os.path.join(dirpath, file))
+    
+    if not yaml_file:
+        raise FileNotFoundError("No YAML file found at the root of the directory")
+    if not csv_files:
+        raise FileNotFoundError("No CSV files found in the 'uploads' subdirectories")
+    
+    return yaml_file, csv_files
+
+def create_folder_based_on_path(base_path, input_path):
+    folder_name = os.path.basename(input_path.rstrip('/'))  # Get the last part of the provided path
+    unique_folder_path = os.path.join(base_path, folder_name)
+    return ensure_folder(unique_folder_path)
+
 if __name__ == "__main__":
     args = parse_arguments()
+    root_path = args.path
+    
+    yaml_file, csv_files = find_files(root_path)
 
-    csv_file = args.csv_file
-    yaml_file = args.yaml_file
+    dao_metadata = load_dao_metadata(yaml_file)
+    dao_name = dao_metadata.get('name', 'Unknown Project')  # Default to "Unknown Project" if not found
+    dao_type = dao_metadata.get('type', 'DAO')  # Default to "DAO" if not found
 
-    json_folder = ensure_json_folder()
+    base_json_folder = '/home/torch/datalake/oss-funding/daoip-5/json'
+    json_folder = create_folder_based_on_path(base_json_folder, root_path)
 
-    if args.generate in ['applications', 'both']:
-        applications_uri_json = generate_application_uri(csv_file)
+    for csv_file in csv_files:
         csv_filename = get_csv_filename_without_extension(csv_file)
+
+        applications_uri_json = generate_application_uri(csv_file, dao_name, dao_type)
         applications_file_name = os.path.join(json_folder, f"{csv_filename}_applications_uri.json")
         with open(applications_file_name, 'w') as outfile:
             outfile.write(applications_uri_json)
         print(f"Applications URI JSON has been generated and saved to {applications_file_name}")
 
-    if args.generate in ['grants', 'both']:
-        if not yaml_file:
-            print("Error: YAML file is required for generating grants pool JSON")
-        else:
-            grant_pool_json = generate_grant_pool_json(yaml_file)
-            grants_pool_file_name = os.path.join(json_folder, f"{get_csv_filename_without_extension(csv_file)}_grants_pool.json")
-            with open(grants_pool_file_name, 'w') as outfile:
-                outfile.write(grant_pool_json)
-            print(f"Grants Pool JSON has been generated and saved to {grants_pool_file_name}")
+    grants_pool_file_name = os.path.join(json_folder, 'grants_pool.json')
+    grant_pool_json = generate_grant_pool_json(yaml_file, dao_name, dao_type)
+    with open(grants_pool_file_name, 'w') as outfile:
+        outfile.write(grant_pool_json)
+    print(f"Grants Pool JSON has been generated and saved to {grants_pool_file_name}")
