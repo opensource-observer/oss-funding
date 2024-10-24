@@ -23,7 +23,6 @@ clikit==0.6.2
 crashtest==0.3.1
 cryptography==3.4.8
 cytoolz==0.12.3
-cython
 dbus-python==1.2.18
 distlib==0.3.4
 distro==1.7.0
@@ -96,7 +95,6 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytz==2024.1
 pyunormalize==15.1.0
-PyYAML==5.4.1
 redis==5.0.4
 referencing==0.34.0
 regex==2023.12.25
