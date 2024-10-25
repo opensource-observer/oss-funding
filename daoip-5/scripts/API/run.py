@@ -13,6 +13,49 @@ def get_grant_systems():
     """
     return [folder for folder in os.listdir(BASE_PATH) if os.path.isdir(os.path.join(BASE_PATH, folder))]
 
+@app.route('/help', methods=['GET'])
+def display_help():
+    """
+    Endpoint to display API documentation.
+    """
+    documentation = {
+        "title": "DAOIP-5 Datalake API",
+        "repository": "https://github.com/opensource-observer/oss-funding/tree/main/daoip-5/json",
+        "endpoints": {
+            "/": {
+                "method": "GET",
+                "description": "List all grant systems (folders) in the JSON directory.",
+                "parameters": None,
+                "response": "A JSON array of grant system names."
+            },
+            "/<grant_system>": {
+                "method": "GET",
+                "description": "List all grant pools (JSON files) within a specific grant system folder.",
+                "parameters": {
+                    "grant_system": "string - The name of the grant system folder to inspect."
+                },
+                "response": "A JSON array of JSON file names (grant pools) in the specified folder."
+            },
+            "/<grant_system>/<filename>.json": {
+                "method": "GET",
+                "description": "Retrieve a specific JSON file within a grant system folder.",
+                "parameters": {
+                    "grant_system": "string - The name of the grant system folder.",
+                    "filename": "string - The name of the JSON file (without .json extension) to retrieve."
+                },
+                "response": "The JSON content of the specified file."
+            },
+            "/help": {
+                "method": "GET",
+                "description": "Display this documentation.",
+                "parameters": None,
+                "response": "A JSON object detailing all API endpoints and their descriptions."
+            }
+        }
+    }
+    return jsonify(documentation), 200
+
+
 
 def get_grant_pools(grant_system):
     """
