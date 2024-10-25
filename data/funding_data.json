@@ -3752,7 +3752,7 @@
     "file_path": "data/funders/optimism/uploads/retropgf3.csv"
   },
   {
-    "to_project_name": "lyra-finance",
+    "to_project_name": "derivexyz",
     "amount": 347827.48,
     "funding_date": "2024-01-01",
     "from_funder_name": "optimism",
@@ -14280,7 +14280,7 @@
     "file_path": "data/funders/optimism/uploads/grants_season_1.csv"
   },
   {
-    "to_project_name": "lyra-finance",
+    "to_project_name": "derivexyz",
     "amount": 3000000.0,
     "funding_date": "2022-07-01",
     "from_funder_name": "optimism",
@@ -18368,7 +18368,7 @@
     "file_path": "data/funders/optimism/uploads/grants_season_4.csv"
   },
   {
-    "to_project_name": "lyra-finance",
+    "to_project_name": "derivexyz",
     "amount": 367500.0,
     "funding_date": "2023-09-01",
     "from_funder_name": "optimism",
@@ -19108,6 +19108,1191 @@
       "token_unit": "OP"
     },
     "file_path": "data/funders/optimism/uploads/grants_season_4.csv"
+  },
+  {
+    "to_project_name": "defi-wonderland",
+    "amount": 102326.74278334368,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "opUSDC",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/opUSDC",
+      "token_amount": 60192.20163726099,
+      "token_unit": "OP",
+      "project_id": "0xb7ab34b29ac7c1f61777caa55b2b0e39de62a3a3f14ca7a48eb26ac6d701d0b2"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "shutter-network",
+    "amount": 115445.55596069543,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Deployment of the Shutterized Optimism (SHOP) testnet with the SHOP SDK.",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Deployment-of-the-Shutterized-Optimism-(SHOP)-testnet-with-the-SHOP-SDK.",
+      "token_amount": 67909.15056511496,
+      "token_unit": "OP",
+      "project_id": "0xb146c27a51c52f663d11de86f32aca56262b4d23f4502debca1416cdc61b3997"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "shutter-network",
+    "amount": 137747.53836219345,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Feasibility study for Front-running protection via shielded mempool for the OP Stack using threshold encryption",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Feasibility-study-for-Front-running-protection-via-shielded-mempool-for-the-OP-Stack-using-threshold-encryption",
+      "token_amount": 81027.96374246673,
+      "token_unit": "OP",
+      "project_id": "0x036fc6760516760a635745917887ae8539ec512f4fde7fd4705a0f3bf3d0cb60"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "dappnode",
+    "amount": 148225.26318689017,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Dappnode",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Dappnode",
+      "token_amount": 87191.33128640598,
+      "token_unit": "OP",
+      "project_id": "0x99f2af658ef373b4c227972a458db4a6149fb7179103ad7418c7d3185d0bfeb5"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "nethermindeth",
+    "amount": 265026.7705781595,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Nethermind Ethereum Execution Client",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Nethermind-Ethereum-Execution-Client",
+      "token_amount": 155898.10034009384,
+      "token_unit": "OP",
+      "project_id": "0xa19d926c47b96113cac94ca5e5ef0448de6a0dae08100e1a4db25744352e6ed1"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "nethermindeth",
+    "amount": 240336.6574090841,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "OP Nethermind",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/OP-Nethermind",
+      "token_amount": 141374.5043582848,
+      "token_unit": "OP",
+      "project_id": "0xc150e51f4f208b725e269deb41f71bb6a3ff55633acbfe5b7895dee18609c1ec"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "runtimeverification",
+    "amount": 163985.1647168969,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Formal Verification of Optimism's L1 pausability mechanism",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Formal-Verification-of-Optimism's-L1-pausability-mechanism",
+      "token_amount": 96461.86159817464,
+      "token_unit": "OP",
+      "project_id": "0x64961108e65c1c897e033c5609361839998fbf117c312b211ba7523100c28569"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "besu-hyperledger",
+    "amount": 205736.66530340348,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Besu",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Besu",
+      "token_amount": 121021.56782553146,
+      "token_unit": "OP",
+      "project_id": "0xdbc857989b31f11432bed73b26e7316ce7aa749662088b0b95739250d6aff9ef"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "reth-paradigmxyz",
+    "amount": 273658.44287955755,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "OP Reth",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/OP-Reth",
+      "token_amount": 160975.55463503386,
+      "token_unit": "OP",
+      "project_id": "0xc6ce7c19e261fb70c69dd6a721637b82fa21a048bf668295487af011c8700186"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 150341.59901245113,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Cantina.xyz - OP Stack Audits",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Cantinaxyz---OP-Stack-Audits",
+      "token_amount": 88436.23471320655,
+      "token_unit": "OP",
+      "project_id": "0x95b0f6f25851da3d3ba17d4cd71e0925b7d234c1db32d5937c846d74ab62fb03"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "testinprod-io",
+    "amount": 220396.06137950945,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "OP Erigon",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/OP-Erigon",
+      "token_amount": 129644.74198794673,
+      "token_unit": "OP",
+      "project_id": "0xfc00945848ac2ee9a42c64242e90d612cd16435b46082d4a363c087bd7e4c742"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "optimism",
+    "amount": 224594.0815962619,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Asterisc",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Asterisc",
+      "token_amount": 132114.16564485995,
+      "token_unit": "OP",
+      "project_id": "0x6190ca70e5196f582a65d1f73236eff346b72cd922df3305da001bd34c17c348"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "testinprod-io",
+    "amount": 222232.6952243386,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Delta Network Upgrade",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Delta-Network-Upgrade",
+      "token_amount": 130725.11483784622,
+      "token_unit": "OP",
+      "project_id": "0x41275977def21cc80eaddabfc98c04cf02df9c92c918070437d9619a8151b9f5"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "immunefi-team",
+    "amount": 106262.3867365492,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Immunefi Bug Bounty Platform",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Immunefi-Bug-Bounty-Platform",
+      "token_amount": 62507.28631561717,
+      "token_unit": "OP",
+      "project_id": "0xd890d5c2369e84688d196a6181ddfde1f1fc9d2d3f4e55ee93a3da851145f96f"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "hermes-probe-lab",
+    "amount": 98125.12422972127,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Hermes - a GossipSub listener and tracer for libp2p-based networks.",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Hermes---a-GossipSub-listener-and-tracer-for-libp2p-based-networks.",
+      "token_amount": 57720.66131160075,
+      "token_unit": "OP",
+      "project_id": "0x19c6b7b2fd40036f3a778cf3c3998ad1ecb19dc285cebdd164b52939fa4ea3b4"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "libp2p",
+    "amount": 129845.3305517158,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "js-libp2p",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/js-libp2p",
+      "token_amount": 76379.60620689165,
+      "token_unit": "OP",
+      "project_id": "0x26745e0179576c46f9e9c310d24f2a44091c4c96a96ea7dee908d5b935301df3"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "libp2p",
+    "amount": 245584.1826800248,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "go-libp2p",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/go-libp2p",
+      "token_amount": 144461.28392942634,
+      "token_unit": "OP",
+      "project_id": "0xb0acb1a252cdb3b2a7dfadc8c5925da71f005082ec045d8bb3855f64ac4774b9"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "libp2p",
+    "amount": 118580.2105495121,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "jvm-libp2p",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/jvm-libp2p",
+      "token_amount": 69753.06502912477,
+      "token_unit": "OP",
+      "project_id": "0xb79e4919dfe7b72d966ad36ff7aa4619204a47d7e281f9bf955114a366f7189b"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "code-423n4",
+    "amount": 183401.0082193775,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Code4rena",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Code4rena",
+      "token_amount": 107882.94601139853,
+      "token_unit": "OP",
+      "project_id": "0xbbea5a9a59dc71358d4a4e687630a8a461efc17e56054f36e8c75246520a4199"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "conduitxyz",
+    "amount": 295400.4278318316,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Conduit OP Stack Contributions",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Conduit-OP-Stack-Contributions",
+      "token_amount": 173764.9575481362,
+      "token_unit": "OP",
+      "project_id": "0x8ce52931f5528de3a378ae58d1281083744b62b47dff98fcd71b54434fa840b5"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "nethermindeth",
+    "amount": 239329.0503267153,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Sedge",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Sedge",
+      "token_amount": 140781.79430983253,
+      "token_unit": "OP",
+      "project_id": "0x38f4b51e1d89c1efce3c71fd155fa253d7fffe73cd239fcbd2f9309e4cc6e67b"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "revm-bluealloy",
+    "amount": 224116.59793857788,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Revm",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Revm",
+      "token_amount": 131833.29290504582,
+      "token_unit": "OP",
+      "project_id": "0x8d73a6f4342f92358b4a46e90336ce2e858d844fc78d3ca5d46f94ac09757918"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "vacp2p",
+    "amount": 106425.73896818714,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "nim-libp2p",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/nim-libp2p",
+      "token_amount": 62603.3758636395,
+      "token_unit": "OP",
+      "project_id": "0x0403926badb0cd173b98ea187d30423bfbd1d8a7c9c6ba5e874d0ed3872b58c7"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 162548.38356883853,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "One-click bare metal node deployment",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/One-click-bare-metal-node-deployment",
+      "token_amount": 95616.69621696384,
+      "token_unit": "OP",
+      "project_id": "0xcf7477b956b4001b44a618139890f8decf0ad34ae55f0db1f01789040a17af0c"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 62847.51159124142,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "An indepedent ethereum execution client contributor",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/An-indepedent-ethereum-execution-client-contributor",
+      "token_amount": 36969.12446543613,
+      "token_unit": "OP",
+      "project_id": "0x89d1fdde640450d31363f3b225210cf7472f1376f5481f644b214a5725b6e6b5"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "ethpandaops",
+    "amount": 265117.9765660022,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Kurtosis optimism package",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Kurtosis-optimism-package",
+      "token_amount": 155951.75092117777,
+      "token_unit": "OP",
+      "project_id": "0xe8bfa7f5bee60dc487b7f61e9f95b933e7302383570de2339ff557f829140268"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "ethereumjs",
+    "amount": 211072.7747781315,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "ethereumjs-monorepo",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/ethereumjs-monorepo",
+      "token_amount": 124160.45575184208,
+      "token_unit": "OP",
+      "project_id": "0x1d333bf10026574b8df913bd83cff4c7e737fa0f2e18f55659672b6c001478eb"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "rig-ethereum",
+    "amount": 109093.79370555114,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "RIG Ethereum Core Research",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/RIG-Ethereum-Core-Research",
+      "token_amount": 64172.81982679479,
+      "token_unit": "OP",
+      "project_id": "0xda3416979010249d4c8095d87a539006743741be970d41c0b5affca2fdfbaeef"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "the-book-of-optimism-fault-proof-joohhnnn",
+    "amount": 118199.24526339822,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "The book of optimism fault proof",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/The-book-of-optimism-fault-proof",
+      "token_amount": 69528.96780199895,
+      "token_unit": "OP",
+      "project_id": "0x6c524b0afee6ab66e507b86f07f0338c5d1e5b7257c4b6fd80efdc56f30899df"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "redprint-ratimon",
+    "amount": 147309.47260925994,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Redprint",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Redprint",
+      "token_amount": 86652.6309466235,
+      "token_unit": "OP",
+      "project_id": "0x8c9dc48abd56b9dd087c330879d38ad10c1be80349adaa14e0cbcc232dbe3918"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "grandinetech",
+    "amount": 118580.2105495121,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Rust KZG",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Rust-KZG",
+      "token_amount": 69753.06502912477,
+      "token_unit": "OP",
+      "project_id": "0x2e12440c85ca56b172a63d1a17061f858e1111f5eb97efc47d4c1bb223ff52e9"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "gelato",
+    "amount": 152702.9853843744,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "1-Click Price Oracle",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/1-Click-Price-Oracle",
+      "token_amount": 89825.28552022023,
+      "token_unit": "OP",
+      "project_id": "0xe4ad25cfe18eccc531582634d03b78b03b7115d5fc77de001e735fe178f768f3"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "gelato",
+    "amount": 211781.7882074771,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Rollup-as-a-Service Platform",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Rollup-as-a-Service-Platform",
+      "token_amount": 124577.52247498653,
+      "token_unit": "OP",
+      "project_id": "0x078cf11f1d64911d10f1d57c1da9c09d67a167472afc530f3412c304ee0f239e"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "ethstorage",
+    "amount": 131188.13177351755,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Research and development on multi-section fault dispute game",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Research-and-development-on-multi-section-fault-dispute-game",
+      "token_amount": 77169.48927853974,
+      "token_unit": "OP",
+      "project_id": "0xdfeced1045accaf24826bb678bc6c44624588c1d1b5a56d6b60ad2774fde4352"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "upnodedev",
+    "amount": 120693.08123163616,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Alt-DA Server & Translation Hub",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Alt-DA-Server-&-Translation-Hub",
+      "token_amount": 70995.93013625656,
+      "token_unit": "OP",
+      "project_id": "0x7ee54d5d8514a8be9172e4ce0dfb54cc3eba6cf57c88b85e76262dc307178832"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "upnodedev",
+    "amount": 189118.79242143716,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "AWS KMS and YubiHSM signer for OP Stack",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/AWS-KMS-and-YubiHSM-signer-for-OP-Stack",
+      "token_amount": 111246.34848319832,
+      "token_unit": "OP",
+      "project_id": "0x3ba0b3e5456e209ea494e8f58197f3b46c20040a3cda99ae448fa355509132f4"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "upnodedev",
+    "amount": 175442.846688482,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Upnode Deploy",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Upnode-Deploy",
+      "token_amount": 103201.67452263647,
+      "token_unit": "OP",
+      "project_id": "0x7b1045ef17287fe42e987ccf2960f710cbe2f6d55c1237f260c7c7801dd9c34c"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "simple-optimism-node-smartcontracts",
+    "amount": 195370.65332793095,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Maintaining simple-optimism-node",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Maintaining-simple-optimism-node",
+      "token_amount": 114923.91372231234,
+      "token_unit": "OP",
+      "project_id": "0x1ebd314438920197b1b37ab41de3678c4f7d5e0b844420527d5e0e2b437bed17"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "zeeve-app",
+    "amount": 112924.2376235441,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Zeeve RaaS for OP Stack",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Zeeve-RaaS-for-OP-Stack",
+      "token_amount": 66426.02213149653,
+      "token_unit": "OP",
+      "project_id": "0x2da519cc5be2bf70ab4fd79c979bf2d7d956e5a11be5eefb1f21d9363928d07f"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "blob-archiver-rs",
+    "amount": 132500.01309125274,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "blob-archiver-rs",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/blob-archiver-rs",
+      "token_amount": 77941.18417132513,
+      "token_unit": "OP",
+      "project_id": "0x6605b6f2cb8bad86dd1d82061b0fb7333a6b8d31b9f8c05a2f47cb7d76d0b14f"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "op-besu-optimism-java",
+    "amount": 160049.52076369137,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "op-besu",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/op-besu",
+      "token_amount": 94146.77691981845,
+      "token_unit": "OP",
+      "project_id": "0x417e4e0fab598eee0958d618dfa22dc4ad60eaaa659b811c4780da1df7c7aad6"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "fe-ethereum",
+    "amount": 118580.2105495121,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Fe Language",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Fe-Language",
+      "token_amount": 69753.06502912477,
+      "token_unit": "OP",
+      "project_id": "0x59b05c5888d0f16bedd7fb467b1e823a76b591b7e9b5b066b3017377ee4f692a"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "protocol-guild",
+    "amount": 379753.1242848125,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Protocol Guild",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Protocol-Guild",
+      "token_amount": 223384.19075577206,
+      "token_unit": "OP",
+      "project_id": "0x3e6e0104e18f3c083a8209cbea0b2b36f51d38fd72e71604eb57d757581998e3"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "derivexyz",
+    "amount": 151391.1040666392,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Derive (Formerly Lyra) OP Custom Gas Limit Research",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Derive-Formerly-Lyra-OP-Custom-Gas-Limit-Research",
+      "token_amount": 89053.59062743482,
+      "token_unit": "OP",
+      "project_id": "0x2b5b44d0e98599b5c877792367dcd0ed8f8f849fb267812a936897aa17baa6c4"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "understanding-optimism-codebase-joohhnnn",
+    "amount": 120934.43440998926,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Understanding-Optimism-Codebase",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Understanding-Optimism-Codebase",
+      "token_amount": 71137.90259411134,
+      "token_unit": "OP",
+      "project_id": "0xdbb1c00bcb783a6d57f89e21708b28a2f46e68012eba282142a05f2616c90dce"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "nodeguardians",
+    "amount": 156296.52266234474,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Node Guardians",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Node-Guardians",
+      "token_amount": 91939.13097784985,
+      "token_unit": "OP",
+      "project_id": "0x6fc3b802b42153f99ca38a0a5b28f9d675b44aafa6317fddb7e33280b50e8d0a"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "zenbiteth",
+    "amount": 106524.76300009624,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "OPcity stack",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/OPcity-stack",
+      "token_amount": 62661.62529417426,
+      "token_unit": "OP",
+      "project_id": "0x04d4b89e72e276bebc4bb4359145bc89e12f64a1edb1d85e97a5aa9c65660da5"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "optimism",
+    "amount": 206897.5218742788,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "TechNERDs Program",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/TechNERDs-Program",
+      "token_amount": 121704.42463192872,
+      "token_unit": "OP",
+      "project_id": "0x6e299c690e4ea63ec248ed245b97dd1a03bcf4d08a7721f660e74c8eae6d50ee"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "ankr-network",
+    "amount": 136759.45732955172,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Asphere Rollup-as-a-Service",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Asphere-Rollup-as-a-Service",
+      "token_amount": 80446.73960561866,
+      "token_unit": "OP",
+      "project_id": "0xcd76f92636f76d63419d461b6e79cfc76979b24598d164226e90f27bd5ad996b"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 141839.09431607788,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Optimism Collective and OP Stack Documentation Improvements",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Optimism-Collective-and-OP-Stack-Documentation-Improvements",
+      "token_amount": 83434.76136239876,
+      "token_unit": "OP",
+      "project_id": "0x596cd6262d7f32e44aa79e79ee75d60d191e28b5eab1206204ed22f24666f23f"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "solidity-ethereum",
+    "amount": 348032.91796281806,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Solidity",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Solidity",
+      "token_amount": 204725.24586048123,
+      "token_unit": "OP",
+      "project_id": "0xb70d28d9ff1d684d80f2c34512d914652c7e8af6bd8ecc64f44f61ba9cd43f52"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "grandinetech",
+    "amount": 95753.52001873104,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Grandine",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Grandine",
+      "token_amount": 56325.60001101826,
+      "token_unit": "OP",
+      "project_id": "0x4b61cd661477522b1243f51329dbaaef13edd3b43130746801ece70ce4d79cb9"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 157425.758128221,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Fault Proofs security research",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Fault-Proofs-security-research",
+      "token_amount": 92603.38713424765,
+      "token_unit": "OP",
+      "project_id": "0x54d4b15fc19bb1d56a611e650d54847ee6fbc24cc19ed3ecb464a4269268270e"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "eth-infinitism-account-abstraction",
+    "amount": 277181.2421594845,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Account Abstraction - ERC-4337",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Account-Abstraction---ERC-4337",
+      "token_amount": 163047.7895055791,
+      "token_unit": "OP",
+      "project_id": "0x5f8e06ced087848712b56730976a7a31f3fbd14a862a75174d6e7fc56eebc627"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "kroma-network",
+    "amount": 129351.49792868832,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Native Account Abstraction on OP Stack",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Native-Account-Abstraction-on-OP-Stack",
+      "token_amount": 76089.11642864019,
+      "token_unit": "OP",
+      "project_id": "0x5a41dd6db9348adfcd8bb0bb0a391a44ac7797094183d536edc8d5677aa985fa"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "kroma-network",
+    "amount": 165821.79856172617,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Permissionless ZK Fault Proof System",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Permissionless-ZK-Fault-Proof-System",
+      "token_amount": 97542.23444807422,
+      "token_unit": "OP",
+      "project_id": "0x29689510e5add50d929566fcbb78a8f85fac28545928859f97ce6c5ca3c97da1"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "erigontech",
+    "amount": 237160.4210990242,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Erigon",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Erigon",
+      "token_amount": 139506.13005824955,
+      "token_unit": "OP",
+      "project_id": "0x8687895d7e9295384b77eea6a3ec763a9b7ac88cc5667104d6746c654acdacd3"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "quic-go",
+    "amount": 93678.36633411456,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "quic-go",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/quic-go",
+      "token_amount": 55104.921373008576,
+      "token_unit": "OP",
+      "project_id": "0xe65a2684781bdc49edc859a49d1e3f692a0f58fabcd8fe49098df3a0f9ad69a6"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "succinctlabs",
+    "amount": 209901.010837628,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "OP Succinct: Full ZK Validity Proving of OP Stack Rollups with SP1",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/OP-Succinct:-Full-ZK-Validity-Proving-of-OP-Stack-Rollups-with-SP1",
+      "token_amount": 123471.18284566354,
+      "token_unit": "OP",
+      "project_id": "0xd33479c5420a69c1ce3c8ba955593a63dcd454feeac43a4de417aa0bb793980a"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "ethereum-miscellania",
+    "amount": 119173.11160225968,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Act",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Act",
+      "token_amount": 70101.8303542704,
+      "token_unit": "OP",
+      "project_id": "0xe8819060824137f5b433d8afa05360173be11509f53358a249c5aa470bb8f446"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "go-ethereum",
+    "amount": 398725.9579727343,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "go-ethereum",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/go-ethereum",
+      "token_amount": 234544.68116043194,
+      "token_unit": "OP",
+      "project_id": "0x4b4627904b97d79cf68f11637d19d05bdb1bc2499e2c16df0c8519841ece9e21"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "alt-research",
+    "amount": 146723.36064927615,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "RaaS and Restaking for OP Stack rollups",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/RaaS-and-Restaking-for-OP-Stack-rollups",
+      "token_amount": 86307.85920545655,
+      "token_unit": "OP",
+      "project_id": "0xac859a911407aa694e23d1616d9ce086d3d53b90789186a94bfbbb8e7294036b"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "lighthouse-sigp",
+    "amount": 237160.42109902416,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Lighthouse",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Lighthouse",
+      "token_amount": 139506.13005824952,
+      "token_unit": "OP",
+      "project_id": "0x0b0732b7b9d8521f68d5b19a99bd6a62d0b66d8035e21596fc599c02060b7e00"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "libp2p",
+    "amount": 158897.48213634625,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Rust Libp2p",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Rust-Libp2p",
+      "token_amount": 93469.10713902721,
+      "token_unit": "OP",
+      "project_id": "0x056236fa3b7b2517f22e884bf78e048e6a29f58f882d5cc186afec84f632664b"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 170544.5713055728,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Fault Dispute Game Audit Contest",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Fault-Dispute-Game-Audit-Contest",
+      "token_amount": 100320.33606210166,
+      "token_unit": "OP",
+      "project_id": "0x37df31043d401a09c24ba1066e602ff34c2906ac92397040b5b90694d74eb8d7"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "eoa-blockchain-labs",
+    "amount": 141703.351606667,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Ethereum on ARM",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Ethereum-on-ARM",
+      "token_amount": 83354.91270980412,
+      "token_unit": "OP",
+      "project_id": "0xefe90dc598c4aa16089ecd6f57fa5270388d42f36e1c5db7f00bacc8f1d46832"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "vyperlang",
+    "amount": 205736.66530340345,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Vyper",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Vyper",
+      "token_amount": 121021.56782553144,
+      "token_unit": "OP",
+      "project_id": "0x15ad7707cbebf66f201e96a81fb821bd0afab6a6e93dc63a82f787bd09dbb53f"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "get-smooth",
+    "amount": 88935.15791213405,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Smoo.th Cryptolib",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Smoo.th-Cryptolib",
+      "token_amount": 52314.79877184356,
+      "token_unit": "OP",
+      "project_id": "0xe69b6f216d79523341253eb2cfec0ff615d0d272723ebc463140702b961d65c0"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "nimbus-status-im",
+    "amount": 180241.92003525843,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Nimbus",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Nimbus",
+      "token_amount": 106024.65884426967,
+      "token_unit": "OP",
+      "project_id": "0x11c3d1437e8ac8ee38b29886eeb14061c06e372a5d5a08ec629d5fdeef8cd1f6"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "sherlock-protocol",
+    "amount": 119118.82365035397,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Sherlock",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Sherlock",
+      "token_amount": 70069.89626491409,
+      "token_unit": "OP",
+      "project_id": "0xc8a03780dc632e8fad9356662e52723f5e6cff9ba457c0f29e15653c2d26fe7c"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "ethereum-attestation-service",
+    "amount": 224856.45785980896,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Ethereum Attestation Service (EAS)",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Ethereum-Attestation-Service-(EAS)",
+      "token_amount": 132268.50462341704,
+      "token_unit": "OP",
+      "project_id": "0x907ab6a3f6b6e724797e52051ac04eb23025462f8d06866ee541c90681e0ec17"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "roll-op-0xfableorg",
+    "amount": 203576.22076770407,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "roll-op",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/roll-op",
+      "token_amount": 119750.71809864945,
+      "token_unit": "OP",
+      "project_id": "0x62855986b48353248f0feaea9e4afceb298505ec0cc1a515c3fc9cbffaff62e0"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "blocknative",
+    "amount": 114429.9031802792,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Blocknative Blob Archive and Research",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Blocknative-Blob-Archive-and-Research",
+      "token_amount": 67311.70775310541,
+      "token_unit": "OP",
+      "project_id": "0x42f449a7238b2d19785a41371e6902a0e782bbf28270d8ff1690b87a43a0b80a"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "op-stack-deployer-aymen-tirchi",
+    "amount": 126209.44204984346,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "OP STACK DEPLOYER",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/OP-STACK-DEPLOYER",
+      "token_amount": 74240.8482646138,
+      "token_unit": "OP",
+      "project_id": "0x5960585d5dd67b7778d390be4b8fce7da98d5f056efd2c892e340faebb1d7bc6"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "hildr-optimism-java",
+    "amount": 160836.64955433249,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "hildr",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/hildr",
+      "token_amount": 94609.7938554897,
+      "token_unit": "OP",
+      "project_id": "0x3fe005facaaa824b2fd2190be9a1fa124577580dbcdf91f85308725161a79990"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "lodestar-chainsafe",
+    "amount": 174016.45898140903,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Lodestar",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Lodestar",
+      "token_amount": 102362.62293024061,
+      "token_unit": "OP",
+      "project_id": "0x716ad2474c6acff63481ec2283e01a2c4bef79250a1e85119324edae7b8d53ce"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "ethereum-pos-testnet-rzmahmood",
+    "amount": 88935.15791213406,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Ethereum POS Testnet",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Ethereum-POS-Testnet",
+      "token_amount": 52314.79877184357,
+      "token_unit": "OP",
+      "project_id": "0x74988422f40235f42bf41a73ed227cf78277c7c92ee0e73b220ddf3411089885"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "builderism-rabbitprincess",
+    "amount": 151607.6269824744,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Builderism",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Builderism",
+      "token_amount": 89180.95704851436,
+      "token_unit": "OP",
+      "project_id": "0xa555f2cc261179e744f961525e3c506a0a53cc02389cb8d59b93c8a9220ed7d7"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
+  },
+  {
+    "to_project_name": "solady-vectorized",
+    "amount": 161623.77834497363,
+    "funding_date": "2024-10-23",
+    "from_funder_name": "optimism",
+    "grant_pool_name": "retrofunding5",
+    "metadata": {
+      "application_name": "Solady",
+      "application_url": "https://retropgfhub.com/explore/RetroPGF5/Solady",
+      "token_amount": 95072.81079116095,
+      "token_unit": "OP",
+      "project_id": "0xd42d5fa61ac3f9488e7b5c5fd24709d9d2b130750a9e06df868fe0bf3d14b849"
+    },
+    "file_path": "data/funders/optimism/uploads/retrofunding5.csv"
   },
   {
     "to_project_name": "abracadabra",
@@ -21126,7 +22311,7 @@
     "file_path": "data/funders/stellar/uploads/scf-27.csv"
   },
   {
-    "to_project_name": "-wadzzo-explore-collect-win-",
+    "to_project_name": "wadzzo-explore-collect-win",
     "amount": 5000.0,
     "funding_date": "2024-06-06",
     "from_funder_name": "stellar",
@@ -23478,7 +24663,7 @@
     "file_path": "data/funders/stellar/uploads/scf-21.csv"
   },
   {
-    "to_project_name": "-fixed-rate-fixie-",
+    "to_project_name": "fixed-rate-fixie",
     "amount": 4900.0,
     "funding_date": "2023-09-29",
     "from_funder_name": "stellar",
@@ -27494,6 +28679,1286 @@
       "token_unit": "XLM"
     },
     "file_path": "data/funders/stellar/uploads/scf-17.csv"
+  },
+  {
+    "to_project_name": "clrfund",
+    "amount": 23753.174630014957,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "clr.fund",
+      "project_url": "https://twitter.com/clrfund",
+      "project_address": "0xab6d6a37c5110d1377832c451c33e4fa16a9ba05",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 656.4486978684098,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "DeFi Argentina",
+      "project_url": "https://www.defiargentina.org/",
+      "project_address": "0xe2541201e3c86b8fbbc9bde051506b9a4f4f8e57",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 235.1618697201384,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Rhino Review",
+      "project_url": "https://rhinoreview.substack.com/",
+      "project_address": "0x0e21348ae515f01b019c5b68e45d17c5900ea0f0",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "theredguild",
+    "amount": 89.44643021006284,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "The Red Guild",
+      "project_url": "https://theredguild.org/",
+      "project_address": "0x9159951ce882c7cebac957f5d865a06f866f479f",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "ethereum-mexico",
+    "amount": 199.28770275715556,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Ethereum M\u00e9xico",
+      "project_url": "https://twitter.com/ethereum_mexico",
+      "project_address": "0xb22981ba3fe1de2325935c91a3b717168fb86714",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 482.36769216790776,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Ethereum Guatemala",
+      "project_url": "https://ethereum.gt/",
+      "project_address": "0x3b9b334374dadadba62fa88282da029b8ed9e3ea",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "bankless-africa",
+    "amount": 135.85947978573947,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Bankless Africa",
+      "project_url": "https://www.banklessafrica.com//",
+      "project_address": "0x770a4896d55a566f0ca35ecac1cc27e58abe5516",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "nacion-bankless",
+    "amount": 298.7451779571357,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Nacion Bankless",
+      "project_url": "https://nacionbankless.substack.com/",
+      "project_address": "0xd31e40b399d515e55b7cd94ffd7eccbbff44282d",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 8.336253084344012,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "NFT Finance Diggest",
+      "project_url": "https://nftfinancedigest.substack.com/",
+      "project_address": "0x4a7d419e85b8b51d8beb094dde4157dcabb0ac95",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "ethstaker",
+    "amount": NaN,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "EthStaker",
+      "project_url": "https://ethstaker.cc/",
+      "project_address": "0x0xd165df4296c85e780509fa1eace0150d945d49fd",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 138.09805188735083,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Ethereum Venezuela Community Projects",
+      "project_url": "https://twitter.com/ETHVenezuela",
+      "project_address": "0xda3dddae8119644f8be18c7afd16850b02a4c841",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "someresatguides",
+    "amount": NaN,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Somer Esat Ethereum Staking Guides (Ubuntu)",
+      "project_url": "https://someresat.medium.com/",
+      "project_address": "0x0x32b74b90407309f6637245292cd90347de658a37",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 788.2187192697182,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "web3beach",
+      "project_url": "https://www.web3beach.io/",
+      "project_address": "0xefedaf9c07e6eb56bb8f82f30018e4461b1c5f4c",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "useweb3",
+    "amount": 57.986455289967296,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "userWeb3",
+      "project_url": "https://www.useweb3.xyz/",
+      "project_address": "0xa512c3cf9a63715ced87de5058c684cbff9f4321",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 184.6789998683074,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "ReFi Medell\u00edn",
+      "project_url": "https://linktr.ee/refimedellin",
+      "project_address": "0x544b3b927d7b199fbc3553531edc8c8a502ba0d7",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 1529.3247040285587,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Fork DAO",
+      "project_url": "https://forkdao.vercel.app/",
+      "project_address": "0x00bfe0c99a593fd686bdcfb2480d6f1acdb157fd",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "definomics-labs",
+    "amount": 330.59577614282074,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "DeFinomics Labs",
+      "project_url": "https://www.definomicslabs.xyz/",
+      "project_address": "0x9390fa8656a161442928b442300358d82bec28b0",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "web3afrika",
+    "amount": 101.84872267850662,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Web3 Afrika",
+      "project_url": "https://www.web3afrika.com/about",
+      "project_address": "0x4baf3334df86fb791a6df6cf4210c685ab6a1766",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "asilodigital",
+    "amount": 703.6393077598849,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Asilo Digital",
+      "project_url": "https://www.asilodigital.com/",
+      "project_address": "0xf0e57c78092ef49bbba945279e09939d2b6bb391",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 7462.813366509242,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Defy Foundation",
+      "project_url": "https://defy.foundation/",
+      "project_address": "0x8bb8b015cce1ea68d6072fc1ee71f6af2b315a88",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "bankless-academy",
+    "amount": 188.12974349365155,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Bankless Academy",
+      "project_url": "https://app.banklessacademy.com/",
+      "project_address": "0xe1887ff140bfa9d3b45d0b2077b7471124acd242",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 161.86990903205222,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Ethereum Bolivia",
+      "project_url": "https://beacons.ai/ethbolivia",
+      "project_address": "0x73949c45af294b97d0cc93c0c0565aee6554dc4b",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 313.0224946732585,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Cryptoversidad",
+      "project_url": "https://cryptoversidad.com/",
+      "project_address": "0x64fed9e56b548343e7bb47c49ecd7ffa9f1a34fe",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "desci-latam",
+    "amount": 144.6226347573224,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "DeSci LATAM",
+      "project_url": "https://descilatam.org/",
+      "project_address": "0x7dd488f03e0a043b550e82d3c2685aa83b96407c",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 9.127482013475994,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "CryptoConexion Developer Hub",
+      "project_url": "https://cryptoconexion.com/",
+      "project_address": "0xefe5789f3853e8916acef2d117736618d274782b",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": NaN,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Blockathon DAO",
+      "project_url": "https://blockathon.xyz/",
+      "project_address": "0x282c5afa09117b2aed23af72e2de22843eca9023",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "unitapapp",
+    "amount": 6878.400362191386,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Unitap",
+      "project_url": "https://unitap.app/",
+      "project_address": "0x95f2177022e7b34d84498f2d9dd63a7457ab5793",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "protocol-guild",
+    "amount": 5122.572631280727,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Protocol Guild",
+      "project_url": "https://protocol-guild.readthedocs.io/en/latest/",
+      "project_address": "0x29031805d0f40e5dcde21a236fb4a69e6e0423b2",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "brightid",
+    "amount": 4256.110484592513,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "BrightID",
+      "project_url": "https://www.brightid.org/",
+      "project_address": "0xdc0046b52e2e38aee2271b6171ebb65ccd337518",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "eoa-blockchain-labs",
+    "amount": 3337.2156767701617,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Ethereum On ARM",
+      "project_url": "https://ethereum-on-arm-documentation.readthedocs.io/",
+      "project_address": "0x7f06ac71366631157551d97559b82975c293fdba",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 2560.925236452187,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "ETH Kipu (ETH Latam)",
+      "project_url": "https://ethkipu.org/",
+      "project_address": "0xa1f8f57237a9f80d46584fcb855dfe7b936bfb01",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "solowcripto",
+    "amount": 2387.7227882186435,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Solow",
+      "project_url": "https://solow.io/",
+      "project_address": "0x929e1b374fb07486c9a64570e5bda99383f48785",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 2302.864656100726,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "$Earth - Solarpunk DAO",
+      "project_url": "https://solarpunkdao.earth/",
+      "project_address": "0xd6b97e042d03edbdc100eb55fbe43eb75f2e3036",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 2238.4153707067094,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Proof of Integrity",
+      "project_url": "https://www.proofofintegrity.org/",
+      "project_address": "0xf21b24e6d87c7e5dec3e419551829f6b39dbb807",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "dappnode",
+    "amount": 2236.9713626424978,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Dappnode",
+      "project_url": "https://dappnode.com/",
+      "project_address": "0x18ee60706ed150f6e21d020c1cede55e4267f409",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 1897.520777372671,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Empowering Ethereum Tegucigalpa Community",
+      "project_url": "http://ethereumhonduras.org/",
+      "project_address": "0x7519cdda3bb7153a1fc8521274a714e8de264f01",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "rotki",
+    "amount": 1416.5614355584123,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "rotki",
+      "project_url": "https://rotki.com/",
+      "project_address": "0x9531c059098e3d194ff87febb587ab07b30b1306",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 1329.7107838416796,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Ethereum Lima",
+      "project_url": "https://ethlima.org/",
+      "project_address": "0x4edfc38ea9e06776ae63fc3c7266f0fbee2907d5",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 1203.4370650822004,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "L2 en Espa\u00f1ol",
+      "project_url": "https://linktr.ee/layer2es",
+      "project_address": "0x6e13e96442af27653b1801ce6fb8edcf7486fba7",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "zenbiteth",
+    "amount": 840.6468718223217,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Supercities",
+      "project_url": "https://zenbit.mx/",
+      "project_address": "0xecb4c1245665e8a1f43826355aab0dd6bf336e05",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 820.9865735346082,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Ethereum San Pedo Sula",
+      "project_url": "http://ethereumsanpedrosula.org/",
+      "project_address": "0xa395b736edfc457bfb4cb6f0ee6cfdc4733a1473",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "ethers-io",
+    "amount": 624.2050147232818,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "ethers.js",
+      "project_url": "https://ethers.org/",
+      "project_address": "0x8ba1f109551bd432803012645ac136ddd64dba72",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "otterscan",
+    "amount": 511.9477682883351,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Otterscan",
+      "project_url": "https://twitter.com/otterscan",
+      "project_address": "0x35d1a101e55da0c641e9379f2e4dfa3e2ae7f37b",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "etheralpha",
+    "amount": 456.8529069403826,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Ether Alpha",
+      "project_url": "https://etheralpha.org/",
+      "project_address": "0x0194325bf525be0d4fbb0856894ced74da3b8356",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 409.9236941418087,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "HER Latam",
+      "project_url": "https://herdaolatam.xyz/",
+      "project_address": "0x5d36a202687fd6bd0f670545334bf0b4827cc1e2",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 417.8032683341233,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Minerva Wallet",
+      "project_url": "https://minerva.digital/",
+      "project_address": "0xb2e361c338aa028668cc6327efd6799518c3c5d4",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 313.97723798523737,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Stereum",
+      "project_url": "https://stereum.net/",
+      "project_address": "0x81d30bf2047cc5ee5f903cc00594edc8d5018d31",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 275.92929647746627,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Ethereum Colombia",
+      "project_url": "https://ethcolombia.co/",
+      "project_address": "0xd164af956e0f34be07a86752fe43ae788f647531",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "blockscout",
+    "amount": 256.80702605503785,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Blockscout",
+      "project_url": "https://www.blockscout.com/",
+      "project_address": "0xbbe45e49e5a0298f525c7f5e364f1c900cd1a086",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "trueblocks",
+    "amount": 251.75310016040973,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "TrueBlocks",
+      "project_url": "https://trueblocks.io/",
+      "project_address": "0xf503017d7baf7fbc0fff7492b751025c6a78179b",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 219.18985355858973,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "FundPG",
+      "project_url": "https://fundpg.xyz/about",
+      "project_address": "0x12a5dcabbfaf963db743377937b3ca00308600f2",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 219.0914920049172,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Ethereum Dominicana",
+      "project_url": "https://ethdom.eth.limo/",
+      "project_address": "0xa9ac44f20dd34b183062f83788c44b6b060a7e3d",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "aestus-relay",
+    "amount": 200.28057839226736,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Aestus Relay",
+      "project_url": "https://aestus.live/",
+      "project_address": "0x9be3570f5454fd668673feb9c43805c533e53ffd",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 177.43245428717887,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Smoothly Protocol",
+      "project_url": "https://0xsmoothly.notion.site/",
+      "project_address": "0xb645ea519d3bb18a03eb0e059e5f6a70a793b4fc",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 173.6732332126383,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Signless",
+      "project_url": "https://signless.xyz/",
+      "project_address": "0x9b1703640907dfa85539eb5297938658204e6b56",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 167.62113743171673,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Ethereum Paraguay",
+      "project_url": "https://twitter.com/ethparaguay",
+      "project_address": "0x0374f0273e01841f594a4c0becdf7bfbd9b13a42",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "lexdao",
+    "amount": 163.34872384626564,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Kali",
+      "project_url": "https://www.kali.gg/",
+      "project_address": "0xfc7e9192d6079b631c9d2e46ae241a9ae121ded0",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 154.34333469825953,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "CriptoCuriosas",
+      "project_url": "https://www.criptocuriosas.com/",
+      "project_address": "0x09479f367332f8f54e38e6415f3892b10bd7bb64",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 145.11917444372187,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Proof of Renewable Electricity Production (PREPchain)",
+      "project_url": "https://prepchain.net/",
+      "project_address": "0xc15677aba8826e78266ff32d3b4bb4bcc8cd9b19",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 104.99757361309312,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "ReFi Tulum",
+      "project_url": "https://refitulum.io/",
+      "project_address": "0x3fb0d1e89693b8709de60d835452a4712d1c9b04",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "impersonator-eth",
+    "amount": 100.42023374359044,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Impersonator",
+      "project_url": "https://impersonator.xyz/",
+      "project_address": "0x63a556c75443b176b5a4078e929e38beb37a1ff2",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 76.43790514043324,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Mujeres en Crypto",
+      "project_url": "https://linktr.ee/mujeresencrypto",
+      "project_address": "0xc7ea70d8cae90bfc61f85922bdc9cc14d02209e3",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 70.77438170145962,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Cryptolaburos",
+      "project_url": "https://twitter.com/cryptolaburos",
+      "project_address": "0xdf12a1cd9beb84896c49c156eae6492a0737cd44",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 417.8032683341233,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "7Energy - Energy Communities without Banks",
+      "project_url": "https://7energy.at/",
+      "project_address": "0xb2e361c338aa028668cc6327efd6799518c3c5d4",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "protobox-xyz",
+    "amount": 50.047895644302464,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Protobox.xyz",
+      "project_url": "https://www.protobox.xyz/",
+      "project_address": "0x361f732eba09fb99fd38b650e90a4ac6d9cc63c3",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 43.50072884256615,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "International Media Nodes (IMN)",
+      "project_url": "https://banklessimn.com/",
+      "project_address": "0x28fa6fed41a82e7d902d1cd66f836de64a5d396b",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "geo-web",
+    "amount": 35.15006856542135,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Geo Web",
+      "project_url": "https://geoweb.network/",
+      "project_address": "0xde798cd9c53f4806b9cc7dd27adf7c641540167c",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "wild-friends",
+    "amount": 32.71468396388762,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Wild Friends",
+      "project_url": "https://wildfriends.xyz/",
+      "project_address": "0x67bb1a9c36405a9e5e307d165e978d3564217e94",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "lexdao",
+    "amount": 30.60413250815821,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "LexDAO interactive AI Chatbot",
+      "project_url": "https://lexdao.coop/",
+      "project_address": "0x966a4b9d5d2e01799170a0865c2d1cbbc1904163",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 28.56142884216453,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "NFT Wallet Tracker",
+      "project_url": "https://dune.com/jacekt/nft-moolah-manager-track-your-nft-profits-and-losses",
+      "project_address": "0xee6fb338e75c43cc9153ff86600700459e9871da",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "citizenwallet",
+    "amount": 26.35774585993156,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Citizen Wallet",
+      "project_url": "https://citizenwallet.xyz/",
+      "project_address": "0xc6be3f50b0b8aac7d8f319571b976d783a97a0f0",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "ens-redirect",
+    "amount": 22.09444531467121,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "ENSRedirect",
+      "project_url": "https://ensredirect.xyz/",
+      "project_address": "0x81ebe8ee7b51741fd5dad31f6987e626a9bb8111",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "whatsabi-shazow",
+    "amount": 20.35043399795956,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "WhatsABI",
+      "project_url": "https://github.com/shazow/whatsabi",
+      "project_address": "0x961aa96febee5465149a0787b03bfa14d8e9033f",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "atlantis-world-core",
+    "amount": 15.847182501820868,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Atlantis",
+      "project_url": "https://www.atlantians.world/",
+      "project_address": "0x405267881f8ffca3e06bcfacbcef0fe8c8119714",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "prettier-solidity",
+    "amount": 5.922425752516828,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Prettier Solidity",
+      "project_url": "https://github.com/prettier-solidity/prettier-plugin-solidity",
+      "project_address": "0xfc756d8632a19cebd76560ce0a6967279e32131b",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": 2.99209,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "La Dream Machine",
+      "project_url": "https://ladreammachine.substack.com/",
+      "project_address": "0xdbb74bb17992fc6e9acc802eb2d4d99a56918120",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "jobstash",
+    "amount": 1.99809,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "JobStash",
+      "project_url": "https://jobstash.xyz/",
+      "project_address": "0xaa163c47065c22d17ed1c47e3e244337d2056c17",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": null,
+    "amount": NaN,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "ETH PACIFICO",
+      "project_url": "https://github.com/ethcali",
+      "project_address": "0x55c9fbf09c056acac807cd674e34f1f8df0e711d",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "candide-labs",
+    "amount": NaN,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Candide Labs",
+      "project_url": "https://github.com/candidelabs/",
+      "project_address": "0xc52fbf3769056ca421656b9c98b14a453a251a28",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
+  },
+  {
+    "to_project_name": "womenbiz",
+    "amount": NaN,
+    "funding_date": "07/18/2023",
+    "from_funder_name": "clrfund",
+    "grant_pool_name": "round_9",
+    "metadata": {
+      "project_name": "Women Biz",
+      "project_url": "https://hiwomenbiz.com/",
+      "project_address": "0xe5df6a208ee99f3d7516d3f6f97416e7b402aeaf",
+      "funder_address": "0x806F08B7DD31fE0267e8c70C4bF8C4BfbBddE760",
+      "funding_currency": "DAI",
+      "funding_network": "Arbitrum"
+    },
+    "file_path": "data/funders/clrfund/uploads/round_9.csv"
   },
   {
     "to_project_name": "0x-boring-security",
