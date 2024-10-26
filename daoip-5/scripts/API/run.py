@@ -18,43 +18,76 @@ def display_help():
     """
     Endpoint to display API documentation.
     """
-    documentation = {
-        "title": "DAOIP-5 Datalake API",
-        "repository": "https://github.com/opensource-observer/oss-funding/tree/main/daoip-5/json",
-        "endpoints": {
-            "/": {
-                "method": "GET",
-                "description": "List all grant systems (folders) in the JSON directory.",
-                "parameters": None,
-                "response": "A JSON array of grant system names."
-            },
-            "/<grant_system>": {
-                "method": "GET",
-                "description": "List all grant pools (JSON files) within a specific grant system folder.",
-                "parameters": {
-                    "grant_system": "string - The name of the grant system folder to inspect."
-                },
-                "response": "A JSON array of JSON file names (grant pools) in the specified folder."
-            },
-            "/<grant_system>/<filename>.json": {
-                "method": "GET",
-                "description": "Retrieve a specific JSON file within a grant system folder.",
-                "parameters": {
-                    "grant_system": "string - The name of the grant system folder.",
-                    "filename": "string - The name of the JSON file (without .json extension) to retrieve."
-                },
-                "response": "The JSON content of the specified file."
-            },
-            "/help": {
-                "method": "GET",
-                "description": "Display this documentation.",
-                "parameters": None,
-                "response": "A JSON object detailing all API endpoints and their descriptions."
-            }
-        }
-    }
-    return jsonify(documentation), 200
-
+    documentation_html = """
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DAOIP-5 Datalake API Documentation</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1 { color: #333; }
+            h2 { color: #0056b3; }
+            p { font-size: 1.1em; }
+            .endpoint { margin-top: 20px; }
+            .param, .response { margin-left: 20px; }
+        </style>
+    </head>
+    <body>
+        <h1>DAOIP-5 Datalake API Documentation</h1>
+        <p><strong>Repository:</strong> <a href="https://github.com/opensource-observer/oss-funding/tree/main/daoip-5/json" target="_blank">DAOIP-5 JSON Repository</a></p>
+        
+        <div class="endpoint">
+            <h2>Endpoint: /</h2>
+            <p><strong>Method:</strong> GET</p>
+            <p><strong>Description:</strong> List all grant systems (folders) in the JSON directory.</p>
+            <p><strong>Parameters:</strong> None</p>
+            <p><strong>Response:</strong> A JSON array of grant system names.</p>
+        </div>
+        
+        <div class="endpoint">
+            <h2>Endpoint: /&lt;grant_system&gt;</h2>
+            <p><strong>Method:</strong> GET</p>
+            <p><strong>Description:</strong> List all grant pools (JSON files) within a specific grant system folder.</p>
+            <div class="param">
+                <p><strong>Parameters:</strong></p>
+                <ul>
+                    <li><strong>grant_system</strong> (string): The name of the grant system folder to inspect.</li>
+                </ul>
+            </div>
+            <div class="response">
+                <p><strong>Response:</strong> A JSON array of JSON file names (grant pools) in the specified folder.</p>
+            </div>
+        </div>
+        
+        <div class="endpoint">
+            <h2>Endpoint: /&lt;grant_system&gt;/&lt;filename&gt;.json</h2>
+            <p><strong>Method:</strong> GET</p>
+            <p><strong>Description:</strong> Retrieve a specific JSON file within a grant system folder.</p>
+            <div class="param">
+                <p><strong>Parameters:</strong></p>
+                <ul>
+                    <li><strong>grant_system</strong> (string): The name of the grant system folder.</li>
+                    <li><strong>filename</strong> (string): The name of the JSON file (without .json extension) to retrieve.</li>
+                </ul>
+            </div>
+            <div class="response">
+                <p><strong>Response:</strong> The JSON content of the specified file.</p>
+            </div>
+        </div>
+        
+        <div class="endpoint">
+            <h2>Endpoint: /help</h2>
+            <p><strong>Method:</strong> GET</p>
+            <p><strong>Description:</strong> Display this documentation.</p>
+            <p><strong>Parameters:</strong> None</p>
+            <p><strong>Response:</strong> A JSON object detailing all API endpoints and their descriptions.</p>
+        </div>
+    </body>
+    </html>
+    """
+    return documentation_html, 200, {'Content-Type': 'text/html'}
 
 
 def get_grant_pools(grant_system):
