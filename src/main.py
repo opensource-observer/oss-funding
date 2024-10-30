@@ -1,4 +1,5 @@
 import json
+import numpy as np
 import os
 import pandas as pd
 
@@ -39,6 +40,8 @@ def walk_funding_csvs(data_dir, ignore_list=[]):
 
 
 def json_export(dataframe, json_outpath):
+    dataframe['amount'] = dataframe['amount'].fillna(0)
+    dataframe['funding_date'] = dataframe['funding_date'].fillna("")
     data = dataframe.to_dict(orient='records')
     for grant in data:
         if not isinstance(grant['to_project_name'], str):

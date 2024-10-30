@@ -1,8 +1,16 @@
 import csv
 import json
+import math
 import yaml
 import argparse
 import os
+
+
+def nan_to_null(value):
+    if isinstance(value, float) and math.isnan(value):
+        return None
+    raise TypeError(f"Object of type {type(value)} is not JSON serializable")
+
 
 def load_dao_metadata(yaml_file):
     with open(yaml_file, 'r') as file:
@@ -70,7 +78,7 @@ def generate_application_uri(csv_file, dao_name, dao_type):
 
         base_structure['grant_pools'] = list(grant_pools_dict.values())
 
-    return json.dumps(base_structure, indent=4)
+    return json.dumps(base_structure, indent=4, default=nan_to_null)
 
 def generate_grant_pool_json(yaml_file, dao_name, dao_type):
     dao_metadata = load_dao_metadata(yaml_file)
@@ -99,7 +107,7 @@ def generate_grant_pool_json(yaml_file, dao_name, dao_type):
         
         grant_pool_json["grantPools"].append(grant_pool)
     
-    return json.dumps(grant_pool_json, indent=4)
+    return json.dumps(grant_pool_json, indent=4, default=nan_to_null)
 
 def ensure_folder(path):
     if not os.path.exists(path):
@@ -150,7 +158,7 @@ if __name__ == "__main__":
     dao_name = dao_metadata.get('name', 'Unknown Project')  # Default to "Unknown Project" if not found
     dao_type = dao_metadata.get('type', 'DAO')  # Default to "DAO" if not found
 
-    base_json_folder = '/home/torch/datalake/oss-funding/daoip-5/json'
+    base_json_folder = './daoip-5/json'
     json_folder = create_folder_based_on_path(base_json_folder, root_path)
 
     for csv_file in csv_files:
