@@ -170,6 +170,27 @@
             "email": "rashmi@daostar.org",
             "image": "https://optimism.org/images/{'name': 'retrofunding4'}.png",
             "coverImage": "https://optimism.org/images/{'name': 'retrofunding4'}_cover.png"
+        },
+        {
+            "type": "GrantPool",
+            "id": {
+                "name": "retrofunding5"
+            },
+            "name": {
+                "name": "retrofunding5"
+            },
+            "description": "Grants pool for {'name': 'retrofunding5'}.",
+            "isOpen": false,
+            "applicationsURI": "https://optimism.org/applications/{'name': 'retrofunding5'}_example.json",
+            "governanceURI": "https://optimism.org/governance/{'name': 'retrofunding5'}_example.md",
+            "attestationIssuersURI": "https://optimism.org/attestations/{'name': 'retrofunding5'}_example.json",
+            "requiredCredentials": [
+                "DAO Attestation",
+                "KYC"
+            ],
+            "email": "rashmi@daostar.org",
+            "image": "https://optimism.org/images/{'name': 'retrofunding5'}.png",
+            "coverImage": "https://optimism.org/images/{'name': 'retrofunding5'}_cover.png"
         }
     ]
 }
