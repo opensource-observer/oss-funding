@@ -89,12 +89,7 @@ def generate_grant_pool_json(yaml_file, dao_name, dao_type):
             "description": f"Grants pool for {pool_name['name']}.", 
             "isOpen": False,
             "applicationsURI": f"https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/{dao_metadata['name']}/{pool_name['name']}_applications_uri.json",  
-            # "governanceURI": f"https://{dao_metadata['name']}.org/governance/{pool_name['name']}_example.md",  
-            # "attestationIssuersURI": f"https://{dao_metadata['name']}.org/attestations/{pool_name['name']}_example.json",  
             "requiredCredentials": ["DAO Attestation", "KYC"],  
-            "email": "rashmi@daostar.org",  
-            "image": f"https://{dao_metadata['name']}.org/images/{pool_name['name']}_cover.png", 
-            "coverImage": f"https://{dao_metadata['name']}.org/images/{pool_name['name']}_cover.png"  
         }
         
         grant_pool_json["grantPools"].append(grant_pool)
