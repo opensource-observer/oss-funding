@@ -5,612 +5,351 @@
     "grantPools": [
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-1"
-            },
-            "name": {
-                "name": "scf-1"
-            },
-            "description": "Grants pool for {'name': 'scf-1'}.",
+            "id": "scf-1",
+            "name": "scf-1",
+            "description": "Grants pool for scf-1.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-1'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-1'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-1'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-1_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-1'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-1'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-2"
-            },
-            "name": {
-                "name": "scf-2"
-            },
-            "description": "Grants pool for {'name': 'scf-2'}.",
+            "id": "scf-2",
+            "name": "scf-2",
+            "description": "Grants pool for scf-2.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-2'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-2'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-2'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-2_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-2'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-2'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-3"
-            },
-            "name": {
-                "name": "scf-3"
-            },
-            "description": "Grants pool for {'name': 'scf-3'}.",
+            "id": "scf-3",
+            "name": "scf-3",
+            "description": "Grants pool for scf-3.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-3'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-3'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-3'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-3_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-3'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-3'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-4"
-            },
-            "name": {
-                "name": "scf-4"
-            },
-            "description": "Grants pool for {'name': 'scf-4'}.",
+            "id": "scf-4",
+            "name": "scf-4",
+            "description": "Grants pool for scf-4.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-4'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-4'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-4'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-4_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-4'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-4'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-5"
-            },
-            "name": {
-                "name": "scf-5"
-            },
-            "description": "Grants pool for {'name': 'scf-5'}.",
+            "id": "scf-5",
+            "name": "scf-5",
+            "description": "Grants pool for scf-5.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-5'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-5'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-5'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-5_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-5'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-5'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-6"
-            },
-            "name": {
-                "name": "scf-6"
-            },
-            "description": "Grants pool for {'name': 'scf-6'}.",
+            "id": "scf-6",
+            "name": "scf-6",
+            "description": "Grants pool for scf-6.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-6'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-6'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-6'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-6_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-6'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-6'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-7"
-            },
-            "name": {
-                "name": "scf-7"
-            },
-            "description": "Grants pool for {'name': 'scf-7'}.",
+            "id": "scf-7",
+            "name": "scf-7",
+            "description": "Grants pool for scf-7.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-7'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-7'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-7'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-7_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-7'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-7'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-8"
-            },
-            "name": {
-                "name": "scf-8"
-            },
-            "description": "Grants pool for {'name': 'scf-8'}.",
+            "id": "scf-8",
+            "name": "scf-8",
+            "description": "Grants pool for scf-8.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-8'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-8'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-8'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-8_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-8'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-8'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-9"
-            },
-            "name": {
-                "name": "scf-9"
-            },
-            "description": "Grants pool for {'name': 'scf-9'}.",
+            "id": "scf-9",
+            "name": "scf-9",
+            "description": "Grants pool for scf-9.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-9'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-9'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-9'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-9_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-9'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-9'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-10"
-            },
-            "name": {
-                "name": "scf-10"
-            },
-            "description": "Grants pool for {'name': 'scf-10'}.",
+            "id": "scf-10",
+            "name": "scf-10",
+            "description": "Grants pool for scf-10.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-10'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-10'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-10'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-10_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-10'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-10'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-11"
-            },
-            "name": {
-                "name": "scf-11"
-            },
-            "description": "Grants pool for {'name': 'scf-11'}.",
+            "id": "scf-11",
+            "name": "scf-11",
+            "description": "Grants pool for scf-11.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-11'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-11'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-11'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-11_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-11'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-11'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-12"
-            },
-            "name": {
-                "name": "scf-12"
-            },
-            "description": "Grants pool for {'name': 'scf-12'}.",
+            "id": "scf-12",
+            "name": "scf-12",
+            "description": "Grants pool for scf-12.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-12'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-12'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-12'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-12_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-12'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-12'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-13"
-            },
-            "name": {
-                "name": "scf-13"
-            },
-            "description": "Grants pool for {'name': 'scf-13'}.",
+            "id": "scf-13",
+            "name": "scf-13",
+            "description": "Grants pool for scf-13.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-13'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-13'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-13'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-13_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-13'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-13'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-14"
-            },
-            "name": {
-                "name": "scf-14"
-            },
-            "description": "Grants pool for {'name': 'scf-14'}.",
+            "id": "scf-14",
+            "name": "scf-14",
+            "description": "Grants pool for scf-14.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-14'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-14'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-14'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-14_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-14'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-14'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-15"
-            },
-            "name": {
-                "name": "scf-15"
-            },
-            "description": "Grants pool for {'name': 'scf-15'}.",
+            "id": "scf-15",
+            "name": "scf-15",
+            "description": "Grants pool for scf-15.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-15'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-15'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-15'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-15_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-15'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-15'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-16"
-            },
-            "name": {
-                "name": "scf-16"
-            },
-            "description": "Grants pool for {'name': 'scf-16'}.",
+            "id": "scf-16",
+            "name": "scf-16",
+            "description": "Grants pool for scf-16.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-16'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-16'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-16'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-16_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-16'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-16'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-17"
-            },
-            "name": {
-                "name": "scf-17"
-            },
-            "description": "Grants pool for {'name': 'scf-17'}.",
+            "id": "scf-17",
+            "name": "scf-17",
+            "description": "Grants pool for scf-17.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-17'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-17'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-17'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-17_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-17'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-17'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-18"
-            },
-            "name": {
-                "name": "scf-18"
-            },
-            "description": "Grants pool for {'name': 'scf-18'}.",
+            "id": "scf-18",
+            "name": "scf-18",
+            "description": "Grants pool for scf-18.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-18'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-18'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-18'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-18_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-18'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-18'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-19"
-            },
-            "name": {
-                "name": "scf-19"
-            },
-            "description": "Grants pool for {'name': 'scf-19'}.",
+            "id": "scf-19",
+            "name": "scf-19",
+            "description": "Grants pool for scf-19.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-19'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-19'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-19'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-19_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-19'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-19'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-20"
-            },
-            "name": {
-                "name": "scf-20"
-            },
-            "description": "Grants pool for {'name': 'scf-20'}.",
+            "id": "scf-20",
+            "name": "scf-20",
+            "description": "Grants pool for scf-20.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-20'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-20'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-20'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-20_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-20'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-20'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-21"
-            },
-            "name": {
-                "name": "scf-21"
-            },
-            "description": "Grants pool for {'name': 'scf-21'}.",
+            "id": "scf-21",
+            "name": "scf-21",
+            "description": "Grants pool for scf-21.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-21'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-21'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-21'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-21_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-21'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-21'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-22"
-            },
-            "name": {
-                "name": "scf-22"
-            },
-            "description": "Grants pool for {'name': 'scf-22'}.",
+            "id": "scf-22",
+            "name": "scf-22",
+            "description": "Grants pool for scf-22.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-22'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-22'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-22'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-22_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-22'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-22'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-23"
-            },
-            "name": {
-                "name": "scf-23"
-            },
-            "description": "Grants pool for {'name': 'scf-23'}.",
+            "id": "scf-23",
+            "name": "scf-23",
+            "description": "Grants pool for scf-23.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-23'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-23'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-23'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-23_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-23'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-23'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-24"
-            },
-            "name": {
-                "name": "scf-24"
-            },
-            "description": "Grants pool for {'name': 'scf-24'}.",
+            "id": "scf-24",
+            "name": "scf-24",
+            "description": "Grants pool for scf-24.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-24'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-24'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-24'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-24_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-24'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-24'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-25"
-            },
-            "name": {
-                "name": "scf-25"
-            },
-            "description": "Grants pool for {'name': 'scf-25'}.",
+            "id": "scf-25",
+            "name": "scf-25",
+            "description": "Grants pool for scf-25.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-25'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-25'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-25'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-25_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-25'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-25'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-26"
-            },
-            "name": {
-                "name": "scf-26"
-            },
-            "description": "Grants pool for {'name': 'scf-26'}.",
+            "id": "scf-26",
+            "name": "scf-26",
+            "description": "Grants pool for scf-26.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-26'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-26'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-26'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-26_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-26'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-26'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-27"
-            },
-            "name": {
-                "name": "scf-27"
-            },
-            "description": "Grants pool for {'name': 'scf-27'}.",
+            "id": "scf-27",
+            "name": "scf-27",
+            "description": "Grants pool for scf-27.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-27'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-27'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-27'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-27_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-27'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-27'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-28"
-            },
-            "name": {
-                "name": "scf-28"
-            },
-            "description": "Grants pool for {'name': 'scf-28'}.",
+            "id": "scf-28",
+            "name": "scf-28",
+            "description": "Grants pool for scf-28.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-28'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-28'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-28'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-28_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-28'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-28'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "scf-29"
-            },
-            "name": {
-                "name": "scf-29"
-            },
-            "description": "Grants pool for {'name': 'scf-29'}.",
+            "id": "scf-29",
+            "name": "scf-29",
+            "description": "Grants pool for scf-29.",
             "isOpen": false,
-            "applicationsURI": "https://stellar.org/applications/{'name': 'scf-29'}_example.json",
-            "governanceURI": "https://stellar.org/governance/{'name': 'scf-29'}_example.md",
-            "attestationIssuersURI": "https://stellar.org/attestations/{'name': 'scf-29'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-29_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://stellar.org/images/{'name': 'scf-29'}.png",
-            "coverImage": "https://stellar.org/images/{'name': 'scf-29'}_cover.png"
+            ]
         }
     ]
 }

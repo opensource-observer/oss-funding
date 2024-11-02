@@ -1,8 +1,16 @@
 import csv
 import json
+import math
 import yaml
 import argparse
 import os
+
+
+def nan_to_null(value):
+    if isinstance(value, float) and math.isnan(value):
+        return None
+    raise TypeError(f"Object of type {type(value)} is not JSON serializable")
+
 
 def load_dao_metadata(yaml_file):
     with open(yaml_file, 'r') as file:
@@ -70,7 +78,7 @@ def generate_application_uri(csv_file, dao_name, dao_type):
 
         base_structure['grant_pools'] = list(grant_pools_dict.values())
 
-    return json.dumps(base_structure, indent=4)
+    return json.dumps(base_structure, indent=4, default=nan_to_null)
 
 def generate_grant_pool_json(yaml_file, dao_name, dao_type):
     dao_metadata = load_dao_metadata(yaml_file)
@@ -84,22 +92,17 @@ def generate_grant_pool_json(yaml_file, dao_name, dao_type):
     for pool_name in dao_metadata['grant_pools']:
         grant_pool = {
             "type": "GrantPool",
-            "id": pool_name,  
-            "name": pool_name,
-            "description": f"Grants pool for {pool_name}.", 
+            "id": pool_name['name'],  
+            "name": pool_name['name'],
+            "description": f"Grants pool for {pool_name['name']}.", 
             "isOpen": False,
-            "applicationsURI": f"https://{dao_metadata['name']}.org/applications/{pool_name}_example.json",  
-            "governanceURI": f"https://{dao_metadata['name']}.org/governance/{pool_name}_example.md",  
-            "attestationIssuersURI": f"https://{dao_metadata['name']}.org/attestations/{pool_name}_example.json",  
+            "applicationsURI": f"https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/{dao_metadata['name']}/{pool_name['name']}_applications_uri.json",  
             "requiredCredentials": ["DAO Attestation", "KYC"],  
-            "email": "rashmi@daostar.org",  
-            "image": f"https://{dao_metadata['name']}.org/images/{pool_name}.png",  
-            "coverImage": f"https://{dao_metadata['name']}.org/images/{pool_name}_cover.png"  
         }
         
         grant_pool_json["grantPools"].append(grant_pool)
     
-    return json.dumps(grant_pool_json, indent=4)
+    return json.dumps(grant_pool_json, indent=4, default=nan_to_null)
 
 def ensure_folder(path):
     if not os.path.exists(path):
@@ -150,7 +153,7 @@ if __name__ == "__main__":
     dao_name = dao_metadata.get('name', 'Unknown Project')  # Default to "Unknown Project" if not found
     dao_type = dao_metadata.get('type', 'DAO')  # Default to "DAO" if not found
 
-    base_json_folder = '/home/torch/datalake/oss-funding/daoip-5/json'
+    base_json_folder = './daoip-5/json'
     json_folder = create_folder_based_on_path(base_json_folder, root_path)
 
     for csv_file in csv_files:
