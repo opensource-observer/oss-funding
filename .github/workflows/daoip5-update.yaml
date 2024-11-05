@@ -21,23 +21,33 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r daoip-5/scripts/requirements.txt
 
       - name: Generate JSON files
+        id: generate_files
         run: |
           # Detecting the updated/added folder in the funders directory
-          FOLDER_PATH=$(git diff --name-only HEAD^ HEAD | grep '^data/funders' | head -1 | xargs dirname)
+          FOLDER_PATH=$(git diff --name-only HEAD^ HEAD | grep '^data/funders' | head -1 | xargs dirname || true)
+          if [ -z "$FOLDER_PATH" ]; then
+            echo "No changes detected in funders directory. Exiting."
+            exit 0
+          fi
           # Running the main.py script with the detected path
           python3 daoip-5/scripts/main.py --path "./$FOLDER_PATH"
 
-      - name: Commit generated files
+      - name: Check for changes and commit
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git add daoip-5/json
-          git commit -m "Auto-generated files for new/updated folder"
+          if [ -n "$(git status --porcelain)" ]; then
+            git config --local user.email "actions@github.com"
+            git config --local user.name "GitHub Actions"
+            git add daoip-5/json
+            git commit -m "Auto-generated files for new/updated folder"
+          else
+            echo "No changes to commit."
+            exit 0
 
       - name: Push changes and create PR
+        if: success() && steps.generate_files.outputs.FOLDER_PATH != ''
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: Auto-generated DAOIP-5 files for new/updated folder
