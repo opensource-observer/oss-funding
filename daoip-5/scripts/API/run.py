@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, abort, send_file
 import json
 import os
+import logging
 
 app = Flask(__name__)
 
@@ -167,6 +168,8 @@ def search_project(project_name):
         # Use existing function to get grant systems
         grant_systems = get_grant_systems()
 
+
+
         for system in grant_systems:
             # Use existing function to get grant pools
             files = get_grant_pools(system)
@@ -199,7 +202,8 @@ def search_project(project_name):
                                     'metadata': {
                                         'grantSystem': system,
                                         'sourceFile': file,
-                                        'grantPool': pool.get('id', 'unknown')
+                                        'grantPoolId': app.get('grantPoolId', 'unknown'),
+                                        'grantPoolName': app.get('grantPoolName', 'unknown')
                                     }
                                 }
                                 results.append(result)
