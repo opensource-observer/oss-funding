@@ -1,10 +1,11 @@
 from flask import Flask, jsonify, abort, send_file
+import json
 import os
 
 app = Flask(__name__)
 
 # Path to the directory where the JSON files are stored (relative to the repository)
-BASE_PATH = '../../json'  
+BASE_PATH = '../../json'
 
 
 def get_grant_systems():
@@ -37,7 +38,7 @@ def display_help():
     <body>
         <h1>DAOIP-5 Datalake API Documentation</h1>
         <p><strong>Repository:</strong> <a href="https://github.com/opensource-observer/oss-funding/tree/main/daoip-5/json" target="_blank">DAOIP-5 JSON Repository</a></p>
-        
+
         <div class="endpoint">
             <h2>Endpoint: /</h2>
             <p><strong>Method:</strong> GET</p>
@@ -45,7 +46,7 @@ def display_help():
             <p><strong>Parameters:</strong> None</p>
             <p><strong>Response:</strong> A JSON array of grant system names.</p>
         </div>
-        
+
         <div class="endpoint">
             <h2>Endpoint: /&lt;grant_system&gt;</h2>
             <p><strong>Method:</strong> GET</p>
@@ -60,7 +61,7 @@ def display_help():
                 <p><strong>Response:</strong> A JSON array of JSON file names (grant pools) in the specified folder.</p>
             </div>
         </div>
-        
+
         <div class="endpoint">
             <h2>Endpoint: /&lt;grant_system&gt;/&lt;filename&gt;.json</h2>
             <p><strong>Method:</strong> GET</p>
@@ -76,7 +77,7 @@ def display_help():
                 <p><strong>Response:</strong> The JSON content of the specified file.</p>
             </div>
         </div>
-        
+
         <div class="endpoint">
             <h2>Endpoint: /help</h2>
             <p><strong>Method:</strong> GET</p>
@@ -151,7 +152,78 @@ def proxy_json_file(grant_system, filename):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/search/<project_name>')
+def search_project(project_name):
+    """
+    Endpoint to search for all applications matching a project name across all grant systems.
+
+    Args:
+        project_name (str): The name of the project to search for
+    Returns:
+        JSON object containing matching applications and result count
+    """
+    try:
+        results = []
+        # Use existing function to get grant systems
+        grant_systems = get_grant_systems()
+
+        for system in grant_systems:
+            # Use existing function to get grant pools
+            files = get_grant_pools(system)
+            applications_files = [f for f in files if 'applications' in f]
+
+            for file in applications_files:
+                try:
+                    # Use existing function to get file path and Flask's send_file
+                    file_path = get_file_path(system, file)
+                    with open(file_path, 'r') as f:
+                        data = json.load(f)
+
+                    if not isinstance(data, dict) or 'grant_pools' not in data:
+                        continue
+
+                    for pool in data['grant_pools']:
+                        if not isinstance(pool, dict) or 'applications' not in pool:
+                            continue
+
+                        for app in pool['applications']:
+                            # More robust project name matching
+                            project_name_match = str(app.get('projectName', '')).lower()
+                            project_id_match = str(app.get('projectId', '')).lower()
+                            search_term = project_name.lower()
+
+                            if search_term in project_name_match or search_term in project_id_match:
+                                # Add metadata to help trace the source
+                                result = {
+                                    **app,
+                                    'metadata': {
+                                        'grantSystem': system,
+                                        'sourceFile': file,
+                                        'grantPool': pool.get('id', 'unknown')
+                                    }
+                                }
+                                results.append(result)
+
+                except (json.JSONDecodeError, Exception) as e:
+                    # Log the error but continue processing other files
+                    logging.error(f"Error processing {file} in {system}: {str(e)}")
+                    continue
+
+        response = {
+            "message": f"Found {len(results)} applications for project: {project_name}",
+            "count": len(results),
+            "results": results
+        }
+
+        return jsonify(response), 200
+
+    except Exception as e:
+        logging.error(f"Search failed for {project_name}: {str(e)}")
+        return jsonify({
+            "error": f"Search failed for {project_name}: {str(e)}",
+            "status": "error"
+        }), 500
 
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 3000))
     app.run(debug=True, host='0.0.0.0', port=port)
