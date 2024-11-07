@@ -153,13 +153,15 @@ def proxy_json_file(grant_system, filename):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/search/', defaults={'project_name': ''})
 @app.route('/search/<project_name>')
 def search_project(project_name):
     """
     Endpoint to search for all applications matching a project name across all grant systems.
+    If no project name or empty string is provided, returns all applications.
 
     Args:
-        project_name (str): The name of the project to search for
+        project_name (str): The name of the project to search for (optional)
     Returns:
         JSON object containing matching applications and result count
     """
@@ -167,8 +169,6 @@ def search_project(project_name):
         results = []
         # Use existing function to get grant systems
         grant_systems = get_grant_systems()
-
-
 
         for system in grant_systems:
             # Use existing function to get grant pools
@@ -190,13 +190,8 @@ def search_project(project_name):
                             continue
 
                         for app in pool['applications']:
-                            # More robust project name matching
-                            project_name_match = str(app.get('projectName', '')).lower()
-                            project_id_match = str(app.get('projectId', '')).lower()
-                            search_term = project_name.lower()
-
-                            if search_term in project_name_match or search_term in project_id_match:
-                                # Add metadata to help trace the source
+                            # If project_name is empty or None, include all applications
+                            if not project_name:
                                 result = {
                                     **app,
                                     'metadata': {
@@ -207,26 +202,45 @@ def search_project(project_name):
                                     }
                                 }
                                 results.append(result)
+                            else:
+                                # More robust project name matching for specific search
+                                project_name_match = str(app.get('projectName', '')).lower()
+                                project_id_match = str(app.get('projectId', '')).lower()
+                                search_term = project_name.lower()
+
+                                if search_term in project_name_match or search_term in project_id_match:
+                                    result = {
+                                        **app,
+                                        'metadata': {
+                                            'grantSystem': system,
+                                            'sourceFile': file,
+                                            'grantPoolId': app.get('grantPoolId', 'unknown'),
+                                            'grantPoolName': app.get('grantPoolName', 'unknown')
+                                        }
+                                    }
+                                    results.append(result)
 
                 except (json.JSONDecodeError, Exception) as e:
                     # Log the error but continue processing other files
                     logging.error(f"Error processing {file} in {system}: {str(e)}")
                     continue
 
+        search_description = "all applications" if not project_name else f"applications for project: {project_name}"
         response = {
-            "message": f"Found {len(results)} applications for project: {project_name}",
+            "message": f"Found {len(results)} {search_description}",
             "count": len(results),
             "results": results
         }
-
         return jsonify(response), 200
 
     except Exception as e:
-        logging.error(f"Search failed for {project_name}: {str(e)}")
+        error_description = "all applications" if not project_name else f"project: {project_name}"
+        logging.error(f"Search failed for {error_description}: {str(e)}")
         return jsonify({
-            "error": f"Search failed for {project_name}: {str(e)}",
+            "error": f"Search failed for {error_description}: {str(e)}",
             "status": "error"
         }), 500
+
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 3000))
