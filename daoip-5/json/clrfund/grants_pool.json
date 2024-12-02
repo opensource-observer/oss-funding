@@ -1,0 +1,19 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Clrfund",
+    "type": "DAO",
+    "grantPools": [
+        {
+            "type": "GrantPool",
+            "id": "round_9",
+            "name": "round_9",
+            "description": "Grants pool for round_9.",
+            "isOpen": false,
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/clrfund/round_9_applications_uri.json",
+            "requiredCredentials": [
+                "DAO Attestation",
+                "KYC"
+            ]
+        }
+    ]
+}

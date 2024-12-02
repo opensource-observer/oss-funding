@@ -17,22 +17,33 @@ def load_dao_metadata(yaml_file):
         dao_metadata = yaml.safe_load(file)
     return dao_metadata
 
+def validate_metadata(metadata):
+    required_keys = ["application_url", "application_name", "token_amount", "token_unit"]
+    for key in required_keys:
+        if key not in metadata:
+            print(f"Warning: Missing key '{key}' in metadata. Using default values.")
+
 def process_row(row, application_id):
     project_name = row['to_project_name']
-    amount = float(row['amount'])
+    # Use a default value (e.g., 0) if 'amount' is missing or invalid
+    try:
+        amount = float(row['amount'])
+    except ValueError:
+        amount = 0  # Default value for invalid or missing 'amount'    
     funding_date = row['funding_date']
     metadata = json.loads(row['metadata'])
+    validate_metadata(metadata)
 
     application = {
         "type": "GrantApplication",
         "id": str(application_id),
         "grantPoolId": row['grant_pool_name'],  
         "grantPoolName": row['grant_pool_name'],  
-        "projectsURI": metadata["application_url"],
+        "projectsURI": metadata.get("application_url", "URL not available"),  # Default value if key is missing
         "projectId": project_name.lower().replace(" ", "-") if project_name else "unknown-project",
-        "projectName": metadata["application_name"],
+        "projectName": metadata.get("application_name", "Unnamed Project"),  # Default value
         "createdAt": funding_date + "T00:00:00Z",
-        "contentURI": metadata["application_url"],
+        "contentURI": metadata.get("application_url", "Content URL not available"),
         "fundsAsked": [
             {
                 "amount": amount,
@@ -41,13 +52,14 @@ def process_row(row, application_id):
         ],
         "fundsApproved": [
             {
-                "amount": metadata["token_amount"],
-                "denomination": metadata["token_unit"]
+                "amount": metadata.get("token_amount", "Unknown"),  # Default to 0
+                "denomination": metadata.get("token_unit", "Unknown")  # Default to "Unknown"
             }
         ]
     }
 
     return application
+
 
 def generate_application_uri(csv_file, dao_name, dao_type):
     base_structure = {
@@ -90,13 +102,15 @@ def generate_grant_pool_json(yaml_file, dao_name, dao_type):
     }
     
     for pool_name in dao_metadata['grant_pools']:
+        pool_name = pool_name['name']
         grant_pool = {
             "type": "GrantPool",
-            "id": pool_name['name'],  
-            "name": pool_name['name'],
-            "description": f"Grants pool for {pool_name['name']}.", 
+            "id": pool_name,
+            "name": pool_name,
+            "description": f"Grants pool for {pool_name}",
             "isOpen": False,
-            "applicationsURI": f"https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/{dao_metadata['name']}/{pool_name['name']}_applications_uri.json",  
+            "applicationsURI": f"https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/{dao_metadata['name']}/{pool_name}_applications_uri.json",  
+            "governanceURI": pool_name.get('governanceURI', 'governanceURI Not Available'),
             "requiredCredentials": ["DAO Attestation", "KYC"],  
         }
         
@@ -138,6 +152,7 @@ def find_files(root_path):
     
     return yaml_file, csv_files
 
+
 def create_folder_based_on_path(base_path, input_path):
     folder_name = os.path.basename(input_path.rstrip('/'))  # Get the last part of the provided path
     unique_folder_path = os.path.join(base_path, folder_name)
@@ -153,7 +168,8 @@ if __name__ == "__main__":
     dao_name = dao_metadata.get('name', 'Unknown Project')  # Default to "Unknown Project" if not found
     dao_type = dao_metadata.get('type', 'DAO')  # Default to "DAO" if not found
 
-    base_json_folder = './daoip-5/json'
+    # Use relative path based on the project's structure
+    base_json_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../json'))
     json_folder = create_folder_based_on_path(base_json_folder, root_path)
 
     for csv_file in csv_files:

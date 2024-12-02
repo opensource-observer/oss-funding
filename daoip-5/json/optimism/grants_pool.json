@@ -5,192 +5,111 @@
     "grantPools": [
         {
             "type": "GrantPool",
-            "id": {
-                "name": "retropgf2"
-            },
-            "name": {
-                "name": "retropgf2"
-            },
-            "description": "Grants pool for {'name': 'retropgf2'}.",
+            "id": "retropgf2",
+            "name": "retropgf2",
+            "description": "Grants pool for retropgf2",
             "isOpen": false,
-            "applicationsURI": "https://optimism.org/applications/{'name': 'retropgf2'}_example.json",
-            "governanceURI": "https://optimism.org/governance/{'name': 'retropgf2'}_example.md",
-            "attestationIssuersURI": "https://optimism.org/attestations/{'name': 'retropgf2'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/optimism/retropgf2_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://optimism.org/images/{'name': 'retropgf2'}.png",
-            "coverImage": "https://optimism.org/images/{'name': 'retropgf2'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "retropgf3"
-            },
-            "name": {
-                "name": "retropgf3"
-            },
-            "description": "Grants pool for {'name': 'retropgf3'}.",
+            "id": "retropgf3",
+            "name": "retropgf3",
+            "description": "Grants pool for retropgf3",
             "isOpen": false,
-            "applicationsURI": "https://optimism.org/applications/{'name': 'retropgf3'}_example.json",
-            "governanceURI": "https://optimism.org/governance/{'name': 'retropgf3'}_example.md",
-            "attestationIssuersURI": "https://optimism.org/attestations/{'name': 'retropgf3'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/optimism/retropgf3_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://optimism.org/images/{'name': 'retropgf3'}.png",
-            "coverImage": "https://optimism.org/images/{'name': 'retropgf3'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "grants_season_1"
-            },
-            "name": {
-                "name": "grants_season_1"
-            },
-            "description": "Grants pool for {'name': 'grants_season_1'}.",
+            "id": "grants_season_1",
+            "name": "grants_season_1",
+            "description": "Grants pool for grants_season_1",
             "isOpen": false,
-            "applicationsURI": "https://optimism.org/applications/{'name': 'grants_season_1'}_example.json",
-            "governanceURI": "https://optimism.org/governance/{'name': 'grants_season_1'}_example.md",
-            "attestationIssuersURI": "https://optimism.org/attestations/{'name': 'grants_season_1'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/optimism/grants_season_1_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://optimism.org/images/{'name': 'grants_season_1'}.png",
-            "coverImage": "https://optimism.org/images/{'name': 'grants_season_1'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "grants_season_2"
-            },
-            "name": {
-                "name": "grants_season_2"
-            },
-            "description": "Grants pool for {'name': 'grants_season_2'}.",
+            "id": "grants_season_2",
+            "name": "grants_season_2",
+            "description": "Grants pool for grants_season_2",
             "isOpen": false,
-            "applicationsURI": "https://optimism.org/applications/{'name': 'grants_season_2'}_example.json",
-            "governanceURI": "https://optimism.org/governance/{'name': 'grants_season_2'}_example.md",
-            "attestationIssuersURI": "https://optimism.org/attestations/{'name': 'grants_season_2'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/optimism/grants_season_2_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://optimism.org/images/{'name': 'grants_season_2'}.png",
-            "coverImage": "https://optimism.org/images/{'name': 'grants_season_2'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "grants_season_3"
-            },
-            "name": {
-                "name": "grants_season_3"
-            },
-            "description": "Grants pool for {'name': 'grants_season_3'}.",
+            "id": "grants_season_3",
+            "name": "grants_season_3",
+            "description": "Grants pool for grants_season_3",
             "isOpen": false,
-            "applicationsURI": "https://optimism.org/applications/{'name': 'grants_season_3'}_example.json",
-            "governanceURI": "https://optimism.org/governance/{'name': 'grants_season_3'}_example.md",
-            "attestationIssuersURI": "https://optimism.org/attestations/{'name': 'grants_season_3'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/optimism/grants_season_3_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://optimism.org/images/{'name': 'grants_season_3'}.png",
-            "coverImage": "https://optimism.org/images/{'name': 'grants_season_3'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "grants_season_4"
-            },
-            "name": {
-                "name": "grants_season_4"
-            },
-            "description": "Grants pool for {'name': 'grants_season_4'}.",
+            "id": "grants_season_4",
+            "name": "grants_season_4",
+            "description": "Grants pool for grants_season_4",
             "isOpen": false,
-            "applicationsURI": "https://optimism.org/applications/{'name': 'grants_season_4'}_example.json",
-            "governanceURI": "https://optimism.org/governance/{'name': 'grants_season_4'}_example.md",
-            "attestationIssuersURI": "https://optimism.org/attestations/{'name': 'grants_season_4'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/optimism/grants_season_4_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://optimism.org/images/{'name': 'grants_season_4'}.png",
-            "coverImage": "https://optimism.org/images/{'name': 'grants_season_4'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "missions_season_4"
-            },
-            "name": {
-                "name": "missions_season_4"
-            },
-            "description": "Grants pool for {'name': 'missions_season_4'}.",
+            "id": "missions_season_4",
+            "name": "missions_season_4",
+            "description": "Grants pool for missions_season_4",
             "isOpen": false,
-            "applicationsURI": "https://optimism.org/applications/{'name': 'missions_season_4'}_example.json",
-            "governanceURI": "https://optimism.org/governance/{'name': 'missions_season_4'}_example.md",
-            "attestationIssuersURI": "https://optimism.org/attestations/{'name': 'missions_season_4'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/optimism/missions_season_4_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://optimism.org/images/{'name': 'missions_season_4'}.png",
-            "coverImage": "https://optimism.org/images/{'name': 'missions_season_4'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "retrofunding4"
-            },
-            "name": {
-                "name": "retrofunding4"
-            },
-            "description": "Grants pool for {'name': 'retrofunding4'}.",
+            "id": "retrofunding4",
+            "name": "retrofunding4",
+            "description": "Grants pool for retrofunding4",
             "isOpen": false,
-            "applicationsURI": "https://optimism.org/applications/{'name': 'retrofunding4'}_example.json",
-            "governanceURI": "https://optimism.org/governance/{'name': 'retrofunding4'}_example.md",
-            "attestationIssuersURI": "https://optimism.org/attestations/{'name': 'retrofunding4'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/optimism/retrofunding4_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://optimism.org/images/{'name': 'retrofunding4'}.png",
-            "coverImage": "https://optimism.org/images/{'name': 'retrofunding4'}_cover.png"
+            ]
         },
         {
             "type": "GrantPool",
-            "id": {
-                "name": "retrofunding5"
-            },
-            "name": {
-                "name": "retrofunding5"
-            },
-            "description": "Grants pool for {'name': 'retrofunding5'}.",
+            "id": "retrofunding5",
+            "name": "retrofunding5",
+            "description": "Grants pool for retrofunding5",
             "isOpen": false,
-            "applicationsURI": "https://optimism.org/applications/{'name': 'retrofunding5'}_example.json",
-            "governanceURI": "https://optimism.org/governance/{'name': 'retrofunding5'}_example.md",
-            "attestationIssuersURI": "https://optimism.org/attestations/{'name': 'retrofunding5'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/optimism/retrofunding5_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://optimism.org/images/{'name': 'retrofunding5'}.png",
-            "coverImage": "https://optimism.org/images/{'name': 'retrofunding5'}_cover.png"
+            ]
         }
     ]
 }

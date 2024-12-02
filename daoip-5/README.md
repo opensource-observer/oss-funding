@@ -71,7 +71,7 @@ This command:
   ```
 
 For example, if you provide the path `./datalake/oss-funding/data/funders/stellar`, the output files will be:
-
+Note: Input Absoulute Path
 ```
 /home/torch/datalake/oss-funding/daoip-5/json/stellar/applications_uri.json
 /home/torch/datalake/oss-funding/daoip-5/json/stellar/grants_pool.json
