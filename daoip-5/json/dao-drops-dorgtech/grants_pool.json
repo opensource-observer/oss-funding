@@ -5,11 +5,11 @@
     "grantPools": [
         {
             "type": "GrantPool",
-            "id": "r",
-            "name": "r",
-            "description": "Grants pool for r.",
+            "id": "round_1",
+            "name": "round_1",
+            "description": "Grants pool for round_1.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/dao-drops-dorgtech/r_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/dao-drops-dorgtech/round_1_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
