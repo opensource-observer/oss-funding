@@ -3,55 +3,55 @@ name: Generate DAOIP-5 Files and Create PR
 on:
   push:
     paths:
-      - 'data/funders/**'  # Trigger on changes in the funders folder
+    - 'data/funders/**' # Trigger on changes in the funders folder
 
 jobs:
   generate_and_pr:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r daoip-5/scripts/requirements.txt
+    - name: Install dependencies
+      run: |
+        pip install -r daoip-5/scripts/requirements.txt
 
-      - name: Generate JSON files
-        id: generate_files
-        run: |
-          # Detecting the updated/added folder in the funders directory
-          FOLDER_PATH=$(git diff --name-only HEAD^ HEAD | grep '^data/funders' | head -1 | xargs dirname || true)
-          if [ -z "$FOLDER_PATH" ]; then
-            echo "No changes detected in funders directory. Exiting."
-            exit 0
-          fi
-          # Running the main.py script with the detected path
-          python3 daoip-5/scripts/main.py --path "./$FOLDER_PATH"
+    - name: Generate JSON files
+      id: generate_files
+      run: |
+        # Detecting the updated/added folder in the funders directory
+        FOLDER_PATH=$(git diff --name-only HEAD^ HEAD | grep '^data/funders' | head -1 | xargs dirname || true)
+        if [ -z "$FOLDER_PATH" ]; then
+          echo "No changes detected in funders directory. Exiting."
+          exit 0
+        fi
+        # Running the main.py script with the detected path
+        python3 daoip-5/scripts/main.py --path "./$FOLDER_PATH"
 
-      - name: Check for changes and commit
-        run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git config --local user.email "actions@github.com"
-            git config --local user.name "GitHub Actions"
-            git add daoip-5/json
-            git commit -m "Auto-generated files for new/updated folder"
-          else
-            echo "No changes to commit."
-            exit 0
+    - name: Check for changes and commit
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add daoip-5/json
+          git commit -m "Auto-generated files for new/updated folder"
+        else
+          echo "No changes to commit."
+          exit 0
+        fi
 
-      - name: Push changes and create PR
-        if: success() && steps.generate_files.outputs.FOLDER_PATH != ''
-        uses: peter-evans/create-pull-request@v5
-        with:
-          commit-message: Auto-generated DAOIP-5 files for new/updated folder
-          branch: auto-generated-pr
-          title: "Auto-generated DAOIP-5 files for new/updated folder"
-          body: "This PR contains files generated automatically."
-          base: main
+    - name: Push changes and create PR
+      if: success() && steps.generate_files.outputs.FOLDER_PATH != ''
+      uses: peter-evans/create-pull-request@v5
+      with:
+        commit-message: Auto-generated DAOIP-5 files for new/updated folder
+        branch: auto-generated-pr
+        title: "Auto-generated DAOIP-5 files for new/updated folder"
+        body: "This PR contains files generated automatically."
+        base: main

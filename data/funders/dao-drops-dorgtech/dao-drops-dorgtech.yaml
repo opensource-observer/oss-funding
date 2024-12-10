@@ -1,6 +1,6 @@
 version: 1
-name: dao-drops-dorgtech
+name: DAO-drops-dorgtech
 type: DAO
 display_name: DAO Drops
 grant_pools:
-  - round_1
+  - name: round_1

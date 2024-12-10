@@ -5,24 +5,15 @@
     "grantPools": [
         {
             "type": "GrantPool",
-            "id": {
-                "name": "stip-1"
-            },
-            "name": {
-                "name": "stip-1"
-            },
-            "description": "Grants pool for {'name': 'stip-1'}.",
+            "id": "stip-1",
+            "name": "stip-1",
+            "description": "Grants pool for stip-1.",
             "isOpen": false,
-            "applicationsURI": "https://arbitrumfoundation.org/applications/{'name': 'stip-1'}_example.json",
-            "governanceURI": "https://arbitrumfoundation.org/governance/{'name': 'stip-1'}_example.md",
-            "attestationIssuersURI": "https://arbitrumfoundation.org/attestations/{'name': 'stip-1'}_example.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/arbitrumfoundation/stip-1_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
-            ],
-            "email": "rashmi@daostar.org",
-            "image": "https://arbitrumfoundation.org/images/{'name': 'stip-1'}.png",
-            "coverImage": "https://arbitrumfoundation.org/images/{'name': 'stip-1'}_cover.png"
+            ]
         }
     ]
 }
