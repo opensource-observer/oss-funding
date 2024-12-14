@@ -16,7 +16,7 @@ GitHub repository: [DAOIP-5 JSON files](https://github.com/opensource-observer/o
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/opensource-observer/oss-funding
-   cd oss-funding/daoip-5
+   cd oss-funding/daoip-5/scripts
    ```
 
 2. **Install dependencies**:
