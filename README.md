@@ -47,7 +47,7 @@ The funder profile should also contain a directory of CSV data at `./data/funder
 
 ## DAOIP-5
 
-Funding data is intended to conform to the DAOIP-5 metadata standard developed by The Metagovernance Project. For more information on DAOIP-5, see [here](https://github.com/metagov/daostar). We have included a conversion utility in [`./daoip-5`](./daoip-5).
+Funding data is intended to conform to the DAOIP-5 metadata standard developed by [DAOstar](https://daostar.org), a project of [Metagov](https://metagov.org). For more information on DAOIP-5, see [here](https://github.com/metagov/daostar). We have included a conversion utility in [`./daoip-5`](./daoip-5).
 
 ## How to Contribute
 
