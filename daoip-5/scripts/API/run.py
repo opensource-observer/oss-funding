@@ -1,5 +1,7 @@
 from flask import Flask, jsonify, abort, send_file
 import os
+from x_to_DAOIP5.allo_to_DAOIP5 import allo_blueprint
+
 
 app = Flask(__name__)
 
@@ -84,6 +86,14 @@ def display_help():
             <p><strong>Parameters:</strong> None</p>
             <p><strong>Response:</strong> A JSON object detailing all API endpoints and their descriptions.</p>
         </div>
+        
+         <div class="endpoint">
+            <h2>Endpoint: /allo/grant_pools.json</h2>
+            <p><strong>Method:</strong> GET</p>
+            <p><strong>Description:</strong> Display Allo Grant Pools</p>
+            <p><strong>Parameters:</strong> None</p>
+            <p><strong>Response:</strong> A JSON object detailing grant pools</p>
+        </div>
     </body>
     </html>
     """
@@ -150,6 +160,9 @@ def proxy_json_file(grant_system, filename):
         return send_file(file_path, mimetype='application/json')
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+# /allo endpoint
+app.register_blueprint(allo_blueprint, url_prefix='/allo')
 
 
 if __name__ == '__main__':
