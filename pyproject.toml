@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "oss-funding"
+version = "0.1.0"
+description = "Registry of grants and other funding to open source software (OSS) projects."
+authors = ["Carl Cervone <carl@karibalabs.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+pandas = "^2.2.3"
+oss-directory = "^0.2.0"
+pathlib = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
