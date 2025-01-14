@@ -78,15 +78,16 @@ def map_grant_pool(pool_data):
         "type": "GrantPool",
         "id": pool_data["id"],
         "name": round_metadata.get("name", f"Grant Round {pool_data['id']}"),
-        "description": round_metadata.get("description", ""),
+        "description": round_metadata.get("eligibility", {}).get("description", "")+" " + 
+                   " ".join([
+                       req.get("requirement", "")
+                       for req in round_metadata.get("eligibility", {}).get("requirements", [])
+        ]),
         "isOpen": is_open,
         "closeDate": applications_end_time,
         "applicationsURI": f"/allo/applications?roundId={pool_data['id']}",
         "contact": round_metadata.get("support", {}).get("info", None),
-        "requiredCredentials": [
-            req.get("requirement", "")
-            for req in round_metadata.get("eligibility", {}).get("requirements", [])
-        ],
+        "requiredCredentials": [ ],
         "governanceURI": f"https://ipfs.io/ipfs/{pool_data['roundMetadataCid']}" if pool_data.get("roundMetadataCid") else None,
         "image": round_metadata.get("logo"),
         "coverImage": round_metadata.get("bannerImage"),
@@ -185,3 +186,134 @@ def list_applications():
         }
     }
     return jsonify(response), 200
+
+@allo_blueprint.route('/', methods=['GET'])
+def allo_docs():
+    """
+    Serve JSON documentation for the Allo endpoints.
+    """
+    docs = {
+        "message": "Welcome to the Allo Protocol API",
+        "endpoints": {
+            "/allo/grant_pools.json": {
+                "method": "GET",
+                "description": "List all grant pools with pagination support.",
+                "parameters": {
+                    "first": {
+                        "type": "integer",
+                        "required": False,
+                        "default": 10,
+                        "description": "Number of grant pools to fetch."
+                    },
+                    "offset": {
+                        "type": "integer",
+                        "required": False,
+                        "default": 0,
+                        "description": "Offset for pagination."
+                    }
+                },
+                "response": {
+                    "type": "object",
+                    "properties": {
+                        "@context": {
+                            "type": "string",
+                            "description": "The schema context URL."
+                        },
+                        "name": {
+                            "type": "string",
+                            "description": "The name of the protocol."
+                        },
+                        "type": {
+                            "type": "string",
+                            "description": "Entity type."
+                        },
+                        "grantPools": {
+                            "type": "array",
+                            "description": "An array of grant pool objects."
+                        },
+                        "pagination": {
+                            "type": "object",
+                            "description": "Pagination metadata.",
+                            "properties": {
+                                "first": {
+                                    "type": "integer",
+                                    "description": "Number of grant pools fetched."
+                                },
+                                "offset": {
+                                    "type": "integer",
+                                    "description": "Offset used for pagination."
+                                },
+                                "returned": {
+                                    "type": "integer",
+                                    "description": "Number of grant pools returned in this response."
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "/allo/applications": {
+                "method": "GET",
+                "description": "List all applications for a specific grant pool.",
+                "parameters": {
+                    "roundId": {
+                        "type": "string",
+                        "required": True,
+                        "description": "The ID of the grant pool to fetch applications for."
+                    },
+                    "first": {
+                        "type": "integer",
+                        "required": False,
+                        "default": 10,
+                        "description": "Number of applications to fetch."
+                    },
+                    "offset": {
+                        "type": "integer",
+                        "required": False,
+                        "default": 0,
+                        "description": "Offset for pagination."
+                    }
+                },
+                "response": {
+                    "type": "object",
+                    "properties": {
+                        "@context": {
+                            "type": "string",
+                            "description": "The schema context URL."
+                        },
+                        "name": {
+                            "type": "string",
+                            "description": "The name of the protocol."
+                        },
+                        "type": {
+                            "type": "string",
+                            "description": "Entity type."
+                        },
+                        "grantPools": {
+                            "type": "array",
+                            "description": "An array of grant pool objects containing applications."
+                        },
+                        "pagination": {
+                            "type": "object",
+                            "description": "Pagination metadata.",
+                            "properties": {
+                                "first": {
+                                    "type": "integer",
+                                    "description": "Number of applications fetched."
+                                },
+                                "offset": {
+                                    "type": "integer",
+                                    "description": "Offset used for pagination."
+                                },
+                                "returned": {
+                                    "type": "integer",
+                                    "description": "Number of applications returned in this response."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return jsonify(docs), 200

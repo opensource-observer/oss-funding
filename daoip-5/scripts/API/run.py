@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, abort, send_file
+from flask import Flask, jsonify, abort, redirect, send_file
 import os
 from x_to_DAOIP5.allo_to_DAOIP5 import allo_blueprint
 
@@ -102,14 +102,21 @@ def display_help():
 
 def get_grant_pools(grant_system):
     """
-    List all JSON files (grant pools) in a given grant system folder.
+    List all JSON files (grant pools) in a given grant system folder,
+    appending 'allo' to the list.
     """
     folder_path = os.path.join(BASE_PATH, grant_system)
     if not os.path.exists(folder_path) or not os.path.isdir(folder_path):
         abort(404, description=f"Grant system '{grant_system}' not found")
 
     # List all .json files in the folder
-    return [file for file in os.listdir(folder_path) if file.endswith('.json')]
+    json_files = [file for file in os.listdir(folder_path) if file.endswith('.json')]
+    print(f"JSON files found: {json_files}")  # Before appending
+    json_files.append("allo")
+    print(f"JSON files after appending 'allo': {json_files}")  # After appending
+
+    return json_files
+
 
 
 def get_file_path(grant_system, filename):
@@ -133,6 +140,7 @@ def list_all_grant_systems():
     """
     try:
         grant_systems = get_grant_systems()
+        grant_systems.append("allo")
         return jsonify(grant_systems), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
