@@ -1,5 +1,7 @@
-from flask import Flask, jsonify, abort, send_file
+from flask import Flask, jsonify, abort, redirect, send_file
 import os
+from x_to_DAOIP5.allo_to_DAOIP5 import allo_blueprint
+
 
 app = Flask(__name__)
 
@@ -84,6 +86,14 @@ def display_help():
             <p><strong>Parameters:</strong> None</p>
             <p><strong>Response:</strong> A JSON object detailing all API endpoints and their descriptions.</p>
         </div>
+        
+         <div class="endpoint">
+            <h2>Endpoint: /allo/grant_pools.json</h2>
+            <p><strong>Method:</strong> GET</p>
+            <p><strong>Description:</strong> Display Allo Grant Pools</p>
+            <p><strong>Parameters:</strong> None</p>
+            <p><strong>Response:</strong> A JSON object detailing grant pools</p>
+        </div>
     </body>
     </html>
     """
@@ -92,14 +102,17 @@ def display_help():
 
 def get_grant_pools(grant_system):
     """
-    List all JSON files (grant pools) in a given grant system folder.
+    List all JSON files (grant pools) in a given grant system folder,
+    appending 'allo' to the list.
     """
     folder_path = os.path.join(BASE_PATH, grant_system)
     if not os.path.exists(folder_path) or not os.path.isdir(folder_path):
         abort(404, description=f"Grant system '{grant_system}' not found")
 
-    # List all .json files in the folder
-    return [file for file in os.listdir(folder_path) if file.endswith('.json')]
+    json_files = [file for file in os.listdir(folder_path) if file.endswith('.json')]
+    json_files.append("allo") # ALl explicit x_to_DAOIP5 endpoints will be appended here
+    return json_files
+
 
 
 def get_file_path(grant_system, filename):
@@ -123,6 +136,7 @@ def list_all_grant_systems():
     """
     try:
         grant_systems = get_grant_systems()
+        grant_systems.append("allo")
         return jsonify(grant_systems), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -150,6 +164,9 @@ def proxy_json_file(grant_system, filename):
         return send_file(file_path, mimetype='application/json')
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+# /allo endpoint
+app.register_blueprint(allo_blueprint, url_prefix='/allo')
 
 
 if __name__ == '__main__':
