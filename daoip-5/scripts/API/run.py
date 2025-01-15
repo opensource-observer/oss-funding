@@ -108,9 +108,7 @@ def get_grant_pools(grant_system):
     folder_path = os.path.join(BASE_PATH, grant_system)
     if not os.path.exists(folder_path) or not os.path.isdir(folder_path):
         abort(404, description=f"Grant system '{grant_system}' not found")
-
     json_files = [file for file in os.listdir(folder_path) if file.endswith('.json')]
-    json_files.append("allo") # ALl explicit x_to_DAOIP5 endpoints will be appended here
     return json_files
 
 
@@ -136,7 +134,7 @@ def list_all_grant_systems():
     """
     try:
         grant_systems = get_grant_systems()
-        grant_systems.append("allo")
+        grant_systems.append("allo") # ALl explicit x_to_DAOIP5 endpoints will be appended here
         return jsonify(grant_systems), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
