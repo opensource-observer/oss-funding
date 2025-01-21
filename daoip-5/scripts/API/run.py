@@ -97,13 +97,59 @@ def display_help():
             <p><strong>Response:</strong> A JSON object detailing grant pools</p>
         </div>
         
-         <div class="endpoint">
-            <h2>Endpoint: /allo/grant_pools.json</h2>
-            <p><strong>Method:</strong> GET</p>
-            <p><strong>Description:</strong> Display Allo Grant Pools</p>
-            <p><strong>Parameters:</strong> None</p>
-            <p><strong>Response:</strong> A JSON object detailing grant pools</p>
-        </div>
+         <div>
+    <h1>Allo Protocol API Documentation</h1>
+    <p><strong>Message:</strong> Welcome to the Allo Protocol API</p>
+
+    <h2>Endpoints</h2>
+
+    <h3>/allo/applications</h3>
+    <p><strong>Description:</strong> List all applications for a specific grant pool.</p>
+    <p><strong>Method:</strong> GET</p>
+
+    <h4>Parameters</h4>
+    <ul>
+        <li><code>first</code> (integer, optional, default: 10) - Number of applications to fetch.</li>
+        <li><code>offset</code> (integer, optional, default: 0) - Offset for pagination.</li>
+        <li><code>roundId</code> (string, required) - The ID of the grant pool to fetch applications for.</li>
+    </ul>
+
+    <h4>Response</h4>
+    <pre>{
+    "@context": "string",
+    "grantPools": "array",
+    "name": "string",
+    "pagination": {
+        "first": "integer",
+        "offset": "integer",
+        "returned": "integer"
+    },
+    "type": "string"
+}</pre>
+
+    <h3>/allo/grant_pools.json</h3>
+    <p><strong>Description:</strong> List all grant pools with pagination support.</p>
+    <p><strong>Method:</strong> GET</p>
+
+    <h4>Parameters</h4>
+    <ul>
+        <li><code>first</code> (integer, optional, default: 10) - Number of grant pools to fetch.</li>
+        <li><code>offset</code> (integer, optional, default: 0) - Offset for pagination.</li>
+    </ul>
+
+    <h4>Response</h4>
+    <pre>{
+    "@context": "string",
+    "grantPools": "array",
+    "name": "string",
+    "pagination": {
+        "first": "integer",
+        "offset": "integer",
+        "returned": "integer"
+    },
+    "type": "string"
+}</pre>
+</div>
     </body>
     </html>
     """
