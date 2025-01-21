@@ -88,22 +88,12 @@ def display_help():
             <p><strong>Parameters:</strong> None</p>
             <p><strong>Response:</strong> A JSON object detailing all API endpoints and their descriptions.</p>
         </div>
-        
-         <div class="endpoint">
-            <h2>Endpoint: /allo/grant_pools.json</h2>
-            <p><strong>Method:</strong> GET</p>
-            <p><strong>Description:</strong> Display Allo Grant Pools</p>
-            <p><strong>Parameters:</strong> None</p>
-            <p><strong>Response:</strong> A JSON object detailing grant pools</p>
-        </div>
-        
+     
          <div>
-    <h1>Allo Protocol API Documentation</h1>
-    <p><strong>Message:</strong> Welcome to the Allo Protocol API</p>
-
+    <h1>Allo Protocol DAOIP-5 API Documentation</h1>
     <h2>Endpoints</h2>
 
-    <h3>/allo/applications</h3>
+    <h3>/allo/applications/&lt;roundId&gt;</h3>
     <p><strong>Description:</strong> List all applications for a specific grant pool.</p>
     <p><strong>Method:</strong> GET</p>
 
