@@ -88,6 +88,28 @@ def display_help():
             <p><strong>Parameters:</strong> None</p>
             <p><strong>Response:</strong> A JSON object detailing all API endpoints and their descriptions.</p>
         </div>
+        
+    <div class="endpoint">
+    <h2>Endpoint: /search/&lt;project_name&gt;</h2>
+    <p><strong>Method:</strong> GET</p>
+    <p><strong>Description:</strong> Search for applications matching a project name across all grant systems. Returns all applications if no project name is provided.</p>
+    
+    <div class="param">
+        <p><strong>Parameters:</strong></p>
+        <ul>
+            <li><strong>project_name</strong> (string): The project name to search for. Must be at least 3 characters if provided.</li>
+        </ul>
+    </div>
+    
+    <div class="response">
+        <p><strong>Response:</strong> A JSON object containing:</p>
+        <ul>
+            <li>message: Description of search results</li>
+            <li>count: Number of matches found</li>
+            <li>results: Array of matching applications with metadata</li>
+        </ul>
+    </div>
+</div>
      
          <div>
     <h1>Allo Protocol DAOIP-5 API Documentation</h1>
