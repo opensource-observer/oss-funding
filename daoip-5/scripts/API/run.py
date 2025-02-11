@@ -1,7 +1,9 @@
-from flask import Flask, jsonify, abort, send_file
-import json
+from flask import Flask, jsonify, abort, redirect, redirect, send_file
 import os
+from x_to_DAOIP5.allo_to_DAOIP5 import allo_blueprint
+import json
 import logging
+from x_to_DAOIP5.allo_to_DAOIP5 import allo_blueprint
 
 app = Flask(__name__)
 
@@ -86,6 +88,58 @@ def display_help():
             <p><strong>Parameters:</strong> None</p>
             <p><strong>Response:</strong> A JSON object detailing all API endpoints and their descriptions.</p>
         </div>
+     
+         <div>
+    <h1>Allo Protocol DAOIP-5 API Documentation</h1>
+    <h2>Endpoints</h2>
+
+    <h3>/allo/applications/&lt;roundId&gt;</h3>
+    <p><strong>Description:</strong> List all applications for a specific grant pool.</p>
+    <p><strong>Method:</strong> GET</p>
+
+    <h4>Parameters</h4>
+    <ul>
+        <li><code>first</code> (integer, optional, default: 10) - Number of applications to fetch.</li>
+        <li><code>offset</code> (integer, optional, default: 0) - Offset for pagination.</li>
+        <li><code>roundId</code> (string, required) - The ID of the grant pool to fetch applications for.</li>
+    </ul>
+
+    <h4>Response</h4>
+    <pre>{
+    "@context": "string",
+    "grantPools": "array",
+    "name": "string",
+    "pagination": {
+        "first": "integer",
+        "offset": "integer",
+        "returned": "integer"
+    },
+    "type": "string"
+}</pre>
+
+    <h3>/allo/grant_pools.json</h3>
+    <p><strong>Description:</strong> List all grant pools with pagination support.</p>
+    <p><strong>Method:</strong> GET</p>
+
+    <h4>Parameters</h4>
+    <ul>
+        <li><code>first</code> (integer, optional, default: 10) - Number of grant pools to fetch.</li>
+        <li><code>offset</code> (integer, optional, default: 0) - Offset for pagination.</li>
+    </ul>
+
+    <h4>Response</h4>
+    <pre>{
+    "@context": "string",
+    "grantPools": "array",
+    "name": "string",
+    "pagination": {
+        "first": "integer",
+        "offset": "integer",
+        "returned": "integer"
+    },
+    "type": "string"
+}</pre>
+</div>
     </body>
     </html>
     """
@@ -94,14 +148,20 @@ def display_help():
 
 def get_grant_pools(grant_system):
     """
-    List all JSON files (grant pools) in a given grant system folder.
+    List all JSON files (grant pools) in a given grant system folder,
+    appending 'allo' to the list,
+    appending 'allo' to the list.
     """
     folder_path = os.path.join(BASE_PATH, grant_system)
     if not os.path.exists(folder_path) or not os.path.isdir(folder_path):
         abort(404, description=f"Grant system '{grant_system}' not found")
+    json_files = [file for file in os.listdir(folder_path) if file.endswith('.json')]
+    return json_files
 
-    # List all .json files in the folder
-    return [file for file in os.listdir(folder_path) if file.endswith('.json')]
+    json_files = [file for file in os.listdir(folder_path) if file.endswith('.json')]
+    json_files.append("allo") # ALl explicit x_to_DAOIP5 endpoints will be appended here
+    return json_files
+
 
 
 def get_file_path(grant_system, filename):
@@ -125,6 +185,7 @@ def list_all_grant_systems():
     """
     try:
         grant_systems = get_grant_systems()
+        grant_systems.append("allo") # ALl explicit x_to_DAOIP5 endpoints will be appended here
         return jsonify(grant_systems), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -152,6 +213,7 @@ def proxy_json_file(grant_system, filename):
         return send_file(file_path, mimetype='application/json')
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
 
 @app.route('/search/', defaults={'project_name': ''})
 @app.route('/search/<project_name>')
@@ -241,6 +303,8 @@ def search_project(project_name):
             "status": "error"
         }), 500
 
+# /allo endpoint
+app.register_blueprint(allo_blueprint, url_prefix='/allo')
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 3000))

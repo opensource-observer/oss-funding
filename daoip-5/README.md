@@ -42,7 +42,7 @@ Where:
 ### Example
 
 ```bash
-python3 main.py --path "./datalake/oss-funding/data/funders/stellar"
+python3 CSV-to-JSON.py --path "./datalake/oss-funding/data/funders/stellar"
 ```
 
 This command:
