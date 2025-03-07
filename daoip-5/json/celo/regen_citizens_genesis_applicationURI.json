@@ -1,0 +1,1742 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Celo Public Goods",
+    "type": "Entity",
+    "grantPools": [
+        {
+            "type": "GrantPool",
+            "name": "Regens Citizens Genesis",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "0",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x905c32755d69e06338d7433c05ac660815b5b9a0eda869912afcbfc9bd7ba342",
+                    "projectName": "Beyond Fossil Fuels - Supporting Indigenous legal efforts to STOP fossil fuel infrastructure",
+                    "createdAt": 1692246331541,
+                    "contentURI": "ipfs://bafkreifbglt4ur2gwhcgqtaeg7nmy5sh7lsuncnxzy4ucyio2ooggfh3le",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "1",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidvvryezdmv6q3xesu2va4h5rqdvt2dicublqo26adyorg5j3pgyq",
+                    "projectId": "0x364fd8491204eada86e2072c12c8b9bcbfbdee617a076c825798761d5f068e70",
+                    "projectName": "Regen Atlas \ud83c\udf0d",
+                    "createdAt": 1722258018546,
+                    "contentURI": "ipfs://bafkreidveai6wfjgyk266erh3ce6oxvh25xktw7uwwexwxx5bcwx4rzb6q",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "10",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0xecb3c06092e6a88a41efc630aa0a25b71b77ce2c7befe342948d91b00e47bbc9",
+                    "projectName": "\"EcoGenesis: Integrating Climate Solutions, Nursery Gardens, and Natural Conservation for Sustainable Ecosystems\"",
+                    "createdAt": 1729063609593,
+                    "contentURI": "ipfs://bafkreibzn6wly7zwa635lrfo4t7ssgabev2mk33jae6s6bwmnkt7a2a26u",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "11",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x68ad73b5ec2a3ea4b86849fdf54168b8874faf9e8c3cc65d186b5488881cb2b4",
+                    "projectName": "The Blockchain Socialist",
+                    "createdAt": 1696256751831,
+                    "contentURI": "ipfs://bafkreidafb5o3eusrklp6y3qapggjvbce3dks5sja6fcfes6657uvwfg7u",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "12",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x2eb02822f4a0096db0afaa0da151d83143677e0d8c2650ada3d49b817641fee4",
+                    "projectName": "Nakul Reddy",
+                    "createdAt": 1729082889807,
+                    "contentURI": "ipfs://bafkreihliec7vyudulyctbe7jzd24kgnv3557gp2oc4ywvg5uvjr2mmlvu",
+                    "fundsApproved": [
+                        {
+                            "amount": "58.73505",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "13",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreigu75sq5evuvadq5etbw2po7s2j7nnjw4w4uhnswj3ek6q4u72dfq",
+                    "projectId": "0xed1bb5aad4937d12c79bb2eae707d08d9dc5b79775f222d493b5b5f6e7b6d3e3",
+                    "projectName": "Irthu ",
+                    "createdAt": 1729085525660,
+                    "contentURI": "ipfs://bafkreievwfbvsastv4hxxgwbotc62jzyuglsi2mbguva6d43fabnqdgfgm",
+                    "fundsApproved": [
+                        {
+                            "amount": "76.35775",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "14",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreicymae7aftalzdla3yjojjmac7zjhyjiyrozjs5xgborlzn5bzimu",
+                    "projectId": "0x88038851d2d1ef58e03ffc616dd9e78d95b28bcbeb3c7edb74e3a5d88e022f11",
+                    "projectName": "Regen Citizen Will T",
+                    "createdAt": 1729099053573,
+                    "contentURI": "ipfs://bafkreigztrkzkp63x6etffhtrnfqtakx4wv4ur3vhbv2rs3fbtkfiympdi",
+                    "fundsApproved": [
+                        {
+                            "amount": "186.83247",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "15",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x730466ad464e174b0272d49ce840b62116eeac43798ff2f3ee4ff385434be595",
+                    "projectName": "Lana Dingwall - GreenPill Steward ",
+                    "createdAt": 1698712433310,
+                    "contentURI": "ipfs://bafkreicb4ksgj4z63vkyfvy2klnnekor6oyer2qodhvrtzxj5gzwjilq44",
+                    "fundsApproved": [
+                        {
+                            "amount": "512.9006",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "16",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreieacbrx5c7r4id2p3tw7p4hhx3jylf3jh6hvedovkltjl32zleioi",
+                    "projectId": "0x1eb7bb418eb638dfb05b6bfbdc1741196e25a3ee82f19818c6e6fca0765951d5",
+                    "projectName": "Regen Citizen Donny Jerri",
+                    "createdAt": 1729115633854,
+                    "contentURI": "ipfs://bafkreiheso73hwgyrdonvxp2icu4olxugcvdziodmiewno6sanxfnxwh34",
+                    "fundsApproved": [
+                        {
+                            "amount": "70.498314",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "17",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0xe3c5497e3073669d3788a015ce9e89fd2ba14028af892c613b7dad8e742d7b46",
+                    "projectName": "1Hive Gardens",
+                    "createdAt": 1673378444183,
+                    "contentURI": "ipfs://bafkreicnkxcwbqagdgwbgk2jcch56coearybf6qh4r4d2ssyqtg3yknfwy",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "18",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreia3gwpczjrit7t3fosl2k6mmti7nmqw3j6u6p37yrxc4nwvf7tooi",
+                    "projectId": "0xff1df9e4fa23c846832f323d6cd201d7cd73b609a911308056aaa9d455a8a633",
+                    "projectName": "ReFi Podcast Season 4 \u2013 Regeneration Nexus",
+                    "createdAt": 1729140287978,
+                    "contentURI": "ipfs://bafkreihmajox7ldtwjjcpa5scyds5kxaz5qa26zidrv2xp445u5owzrosy",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "19",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreifxsznzxskpay6vkmt7qjqpes4623kflbblridqm3nhs453hhaefm",
+                    "projectId": "0x670fa0784efc494aecfbd073499611ba5f08b75ec3b43f359b67d7f1fad4fcfb",
+                    "projectName": "Adam Carr",
+                    "createdAt": 1729148245929,
+                    "contentURI": "ipfs://bafkreibcody3eqz6isa27wwrsgvyrvghhpz27pirgewthavpkh3qaqbwfq",
+                    "fundsApproved": [
+                        {
+                            "amount": "71.87013",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "2",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x4c5c50a8073e2d14967c7c8080807cb089359a39ba44b2debdad7ee60bfad4ce",
+                    "projectName": "Borderless  Web3 Tech Clubs in Campuses",
+                    "createdAt": 1698607084359,
+                    "contentURI": "ipfs://bafkreicqhxl2i4vt3o33xezvkq5sub32htljpofqcpymj5lobii7lvcmuq",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "20",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreiehxj5dizgyvi2325fkdacmvx2xc77rx4dleapw45dvrgtt7qiebq",
+                    "projectId": "0xf07846721903ee9c6d7eac235e9ba938193be369ea2327126ccb6d3eedf0bb66",
+                    "projectName": "shaanpatel.eth",
+                    "createdAt": 1729150469958,
+                    "contentURI": "ipfs://bafkreicawtw2r3pjje46fnvwswwq6q2uj5quxumqb6obisdm4vknovfuy4",
+                    "fundsApproved": [
+                        {
+                            "amount": "51.541607",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "21",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreic3qptsgvib2rna42jrem4fmivcc3ty6dbz2nlevummo3vclorahy",
+                    "projectId": "0xbb4e8e1aa47679b4cd24d54c9848a70fb9a0d90b0c314db5558d0f8b96e07789",
+                    "projectName": "Monty Merlin | ReFi The World",
+                    "createdAt": 1729262784286,
+                    "contentURI": "ipfs://bafkreiescqsvo3xa4lkrrulzbthps6hrsb5cq4nbfvimh43qg424sfwynm",
+                    "fundsApproved": [
+                        {
+                            "amount": "376.06107",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "22",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreiefssaute64coiploi36itix3lfj74ova35kfzlkj2whfwrsvlevy",
+                    "projectId": "0xb71fd9453c9f107657c60378106ab0061bb1a41f4f753a694704d16332b5c5e8",
+                    "projectName": "\ud83c\udf31 Daniel Mihai - Nature's Blockchain Sherpa & Ecological Impact Alchemist",
+                    "createdAt": 1729270224058,
+                    "contentURI": "ipfs://bafkreid52ivqklct43msbe2cqytebq2zjriptqta6hup4db7n2lnwonfz4",
+                    "fundsApproved": [
+                        {
+                            "amount": "193.75989",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "23",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidu2gxyaanaadrhws5wp3kcwfw6cypu3qyjtygzir2ow3qp5yphiy",
+                    "projectId": "0x7aa1b4f8536242406d5062036af616eb84ed472c34d434cdaf8c6cc7a55b1490",
+                    "projectName": "Oscar \"The Regen\"",
+                    "createdAt": 1729294737484,
+                    "contentURI": "ipfs://bafkreieik3rd46clup5g2ha6psdmp3obgk4c54yxtzn6g5jon6w4llvuhi",
+                    "fundsApproved": [
+                        {
+                            "amount": "140.9851",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "24",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x91a510100a3d0513e9e309dc19fe1177216d52e036a16b760e58f53e817df2f3",
+                    "projectName": "Helpers Foundation- Education and climate change initiative",
+                    "createdAt": 1712924872452,
+                    "contentURI": "ipfs://bafkreibjrxax63tfg3iok7aim23chpa2ufiny6h7ggc44ua2x6ceyf2r7i",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "25",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x6266f4f9c429f9cd800091447cbf372fd5a8187e1aa97b165cab3a69e9abe5c5",
+                    "projectName": "The Hill ",
+                    "createdAt": 1711626378456,
+                    "contentURI": "ipfs://bafkreid3g3aaeu7rbcqxj3b3ktht2wuzyaj5ne5sr26b3bqthom36lavnq",
+                    "fundsApproved": [
+                        {
+                            "amount": "331.41342",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "26",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x6cc1d908e4758f34ac66e648496a30862d830320cc40726325f6a3fe62c5d9c5",
+                    "projectName": "MesoReefDAO - Regenerating Reef Conservation with DeSci Web3 tools",
+                    "createdAt": 1709936955577,
+                    "contentURI": "ipfs://bafkreicdhji7nv54omc4sgnykdhgfwmglmhm2pv7ynyy2t5wj3ju5qdyfu",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "27",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x84ed95869dd6851ac8061a0796b23d1b07ba7d8fff423a7fcb177d9cce43070c",
+                    "projectName": "Web3 Grant Proposal: Empowering LGBTQIA+ Communities with Choice",
+                    "createdAt": 1691740769917,
+                    "contentURI": "ipfs://bafkreighbax7w6x4ddx5gvqebk4z6q3nvrncjb56o5ht3x4ddon7qy4iqu",
+                    "fundsApproved": [
+                        {
+                            "amount": "23.878664",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "28",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x65448704f2398e9319fa7da4ebf95b9336bea8f50630d5ce2adc7ed28e25288f",
+                    "projectName": "Byte Onchain (by B<>rder/ess)",
+                    "createdAt": 1712541613905,
+                    "contentURI": "ipfs://bafkreieqv4txpdspf4xhcbufhiwlyd4i7elaxg4e3ot2zioqowmkxhdh44",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "29",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x48b79099b091bad7b95a8a869e867052b0f73ece30fe632ca43297142b124414",
+                    "projectName": "Swift Evo contribution on Public Goods grants",
+                    "createdAt": 1710806088695,
+                    "contentURI": "ipfs://bafkreifste2my424rkgxfjwldy4aptsurbwiqt7ov77fl7732tgeje23jy",
+                    "fundsApproved": [
+                        {
+                            "amount": "111.16493",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "3",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0xf5b7e3c70c0c255d60a6aaf4057966d65267987e49cc9648a1a1ba35aaf02d9c",
+                    "projectName": "Adopt a Tree",
+                    "createdAt": 1712947799826,
+                    "contentURI": "ipfs://bafkreieqiib2h5rbwmx36k2hco47fuv6jrh3u3yvq26wfnvpo7mfdkqb2m",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "30",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreiadtqs35pq43j7rmbfjoyr5q6lqfoip5loacw3yi2td7jebtcops4",
+                    "projectId": "0x504073a1e2b2d4318e88030407748820011f5e8eccce109982387df07913e9d3",
+                    "projectName": "Tokpay ",
+                    "createdAt": 1729463561320,
+                    "contentURI": "ipfs://bafkreielgkpir6ypzuiusfaeij236t62p64qmijm2a6bdzc5zsk3u2hq6y",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "31",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0xd6202706cb5f78ac7e1fcdb8ac66a22ad27060cb66afe09197b3834d2b1c3663",
+                    "projectName": "ReFi Geneva",
+                    "createdAt": 1692009459627,
+                    "contentURI": "ipfs://bafkreiabxcfn44escyyqoz5v46htux2owf6mht4etrkta67j4hpubizhee",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "32",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreib6c4ok4fosy7ptsv7bvw7au33qa5u6avdlx32274kzxpcqwrnpfq",
+                    "projectId": "0x9882bee5b21a3ef153ced36d3d87043f51cd43323bb81a89f19002fbf0b768ec",
+                    "projectName": "Diogo Jorge - Out/2024",
+                    "createdAt": 1729522866822,
+                    "contentURI": "ipfs://bafkreics3h2rfo42ek7wbpq5btxfcjzgde3glsl2ouaerf6nkm2zp4zrau",
+                    "fundsApproved": [
+                        {
+                            "amount": "106.604774",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "33",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreihact4kefjs46lw75xid47quckbudctn7mgvf6vq2lwjjy3kiy4zu",
+                    "projectId": "0x2d674f18f9a3351f4865e6094c124ba38a89894f419529901713d7426082e064",
+                    "projectName": "Meg Rivers Regen Citizen",
+                    "createdAt": 1729525723663,
+                    "contentURI": "ipfs://bafkreifaxoz4s62zd276dil3djbhgeefduizqh7jikdf7f7efdi4rnb2u4",
+                    "fundsApproved": [
+                        {
+                            "amount": "111.963455",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "34",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreihuidbqzzkdppxwws7pdiyljzxvffwwkpovif2da3scapl4gtprp4",
+                    "projectId": "0xde76b334b3b417606e8e8c053ae6cfc1b6a2b187805498034d2444d410e9ed10",
+                    "projectName": "NetX State",
+                    "createdAt": 1729524346665,
+                    "contentURI": "ipfs://bafkreifegj6lqtjpuazz7jko5qwebdz52dvasw6fe4hc55iybmtavfnl7q",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "35",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreihfyzo2ez4fx3k4mer4psaep4mjrkzai5hgykyw7of7ze5wenyh3i",
+                    "projectId": "0x5a792471fdc8cefb41618e763c5cbf14d6570c40ad798b39a9c860b621ba1f23",
+                    "projectName": "Danibelle: A Regenerative Visionary in Action",
+                    "createdAt": 1729535288971,
+                    "contentURI": "ipfs://bafkreihk34ogqxhchf2qqbgxlxgpj7nhufhiuxe3333vy7sgnxjpyf5sn4",
+                    "fundsApproved": [
+                        {
+                            "amount": "182.72752",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "36",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreibcgfrwjucdi5ynmas424v3yapaxoegaelqwdydfqnvyyw6t4none",
+                    "projectId": "0xbe44451cac167424db5ede18f3fff26e21bddbfc66dc5133901527e4acffe41f",
+                    "projectName": "Benjamin Life",
+                    "createdAt": 1729540078152,
+                    "contentURI": "ipfs://bafkreiea4ewtxnfrsrniqzzhs54ldra2xzzzgdtnzegdnzej6uxxg3czvu",
+                    "fundsApproved": [
+                        {
+                            "amount": "480.05286",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "37",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreicqycq2z6tq3qw3zjsljd2rdtogsat76z5zphupsupvlnjzzff52u",
+                    "projectId": "0x3ef11ede389e413aa7c157c19d83177bed9915e5f5c742bd9e32cf12e45e5230",
+                    "projectName": "Artisans of Time - Akasha Rose",
+                    "createdAt": 1729550935402,
+                    "contentURI": "ipfs://bafkreid4cq3vrrsfxen2ky24w4b6vwz4e4m7fx3qodyfv3mppsrz7apuga",
+                    "fundsApproved": [
+                        {
+                            "amount": "72.13055",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "38",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreig3eqheboy5nowzrymc2pzb6dzynkion4ezgvaqlc4pvd32ll2n44",
+                    "projectId": "0x18b54ddf82d6a3c7dcba53ed18c80394e0ea1e7e4bd9c38981211c3404b6f24b",
+                    "projectName": "Rica: from Brazil to the world. ",
+                    "createdAt": 1729552668299,
+                    "contentURI": "ipfs://bafkreif55je4dlh3fbfxhd6wc4bkvtjpmh5kbumuwojpsxplb4wcp2pmgy",
+                    "fundsApproved": [
+                        {
+                            "amount": "63.243317",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "39",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreibskn4ryck5sxyiprihquvg35uaythv55dgy6u6tgpailkjkucabe",
+                    "projectId": "0x9d4393b5bc91a1e75ab4cf674bd7e982c8d9cf300460a695e2bec7b1667e03fb",
+                    "projectName": "x",
+                    "createdAt": 1729556163158,
+                    "contentURI": "ipfs://bafkreiauoxswh3ahoz7w52mmdaixxou27xi7rym5bymdxdorj5pz5arhve",
+                    "fundsApproved": [
+                        {
+                            "amount": "83.68063",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "4",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreifkgc5c2zjlvgz2jcjodfd6tyx7pts364edo6gigqzild2lcvwdve",
+                    "projectId": "0xd7033fea1278ec2f1cbf72d03ff236f302421794300923428fdf85fb3908c8c6",
+                    "projectName": "Anu Initiative",
+                    "createdAt": 1721848695332,
+                    "contentURI": "ipfs://bafkreibtoac377qprdotyua4fvse3xsdfdwwmbnpoxgg6f645a26wcspwi",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "40",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreicvzvf5jajxf4ktbgelcil43ovkpcxzrvw2gj24qkg6gu2ma6hfdi",
+                    "projectId": "0xe6f42b8466cc85de68d7692edbfb87ec8e8a8a2e7eef284fd40fe69e2f8241c0",
+                    "projectName": "Afo",
+                    "createdAt": 1729566938079,
+                    "contentURI": "ipfs://bafkreidow5xzz7etpic7rfb2wxyr6wopimyqocgxm6adffinysjrzipwgi",
+                    "fundsApproved": [
+                        {
+                            "amount": "81.07926",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "41",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreifepoweaggepb7lej4pks7gvb4wd2os65yhjalzyzlvtsyl4n6j3m",
+                    "projectId": "0xbb2dd3b400bf5f0d55d2815d96d15c67fe54f43cc1ed553d70caca4ce3748e10",
+                    "projectName": "Matthew Bonnstetter / Serbian ReFi Hub & online hub",
+                    "createdAt": 1729319148990,
+                    "contentURI": "ipfs://bafkreierc5wuz3qv32svfdyzkd6bc4gnts34wtqn4di3kocjycbus4fbza",
+                    "fundsApproved": [
+                        {
+                            "amount": "42.457268",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "42",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreigfwg76wnrn6ndshhuebr2cqmpu7bwo3uiag7hh6jb7xxhf3k3vam",
+                    "projectId": "0x0921a2c9cd525d9947efe95c18c28639a764e2c59c4432898cebc5afd407554f",
+                    "projectName": "Treegen Carol",
+                    "createdAt": 1729582884238,
+                    "contentURI": "ipfs://bafkreihspbnculcuvins3lnz5ie5irdckd5aae7vqigywyy556qnfjllca",
+                    "fundsApproved": [
+                        {
+                            "amount": "172.43192",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "43",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x8891ebbaf2de0067f8752882f66dca529004c4330fc379b5e418fc9e1b7d2d54",
+                    "projectName": "Coi - Greenpill Brasil & Dev Guild",
+                    "createdAt": 1712124942477,
+                    "contentURI": "ipfs://bafkreiaobymgtkgeja6byfmrse2b4wdpokjdgml4jyktsur6o7vpjjrrla",
+                    "fundsApproved": [
+                        {
+                            "amount": "261.9471",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "44",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreie5r4vsl3itxsr5zlm73oow3aafs557t7ud3oxsv2jbnhptmgobgy",
+                    "projectId": "0x34a9f63cbd2fb9414f2792c8eab7133a0f491a117b0a54b09cca584a21318dbe",
+                    "projectName": "Jon Ruth | Public Goods Are Good",
+                    "createdAt": 1729592755720,
+                    "contentURI": "ipfs://bafkreihme4uituezqgou64qsqbzursog3huymyghacxim7cqijplh2lzme",
+                    "fundsApproved": [
+                        {
+                            "amount": "123.49303",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "45",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x8b8a4274d487118c5fb616b2a7de170e2c12d7a67b9886247b3524b5b687737d",
+                    "projectName": "FABDAO",
+                    "createdAt": 1691641895746,
+                    "contentURI": "ipfs://bafkreigx45ex565v2pw6swarthbczq5qiufb73jkci2fhgpjluwh3b5kxi",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "46",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x24b0aba201419a0ef9898836c4576eda7efb125a064744be5f8387c7119fb82d",
+                    "projectName": "Will Ruddick",
+                    "createdAt": 1729598665309,
+                    "contentURI": "ipfs://bafkreibxuqzhxmsuvylnij26bc7t43fxlsvri3w4dticjcenuz2szzl5sm",
+                    "fundsApproved": [
+                        {
+                            "amount": "89.70523",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "47",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreifa3cg35uf7tkkts3i5bisfwmckovi6o4uzaxnxhmxq72irtf5usq",
+                    "projectId": "0xd3d87ba2cb547c3e592bb729ad93e917f8cb80a0f120a83559b8e0d1a55b2d38",
+                    "projectName": "Pranav Khanna aka checkfit",
+                    "createdAt": 1729617757465,
+                    "contentURI": "ipfs://bafkreiaeqjlzdlyo3riucbgnwkbv4vrqtci4gdckbu3jgpw3cpxqugihuy",
+                    "fundsApproved": [
+                        {
+                            "amount": "92.10388",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "48",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreibvlqybjrjhcwn3e5luladrhuk33eqfhcod3glpw5i7lfg23uy3pu",
+                    "projectId": "0xa5136b8cc6b7600308cc9e30ba6154f66bf1463dd47173ede0232414725f3b5a",
+                    "projectName": "Jimi & Let's GROW DAO",
+                    "createdAt": 1729546656809,
+                    "contentURI": "ipfs://bafkreihnaeujpgawvmr6xtdqqq6yfphodugls3vqtbaug7fbbtxhhnph2m",
+                    "fundsApproved": [
+                        {
+                            "amount": "160.63646",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "49",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreiautga5tufvptkp4mfkbx6z2e5lqfsvd5ammfhgm74vdit6c7vw4e",
+                    "projectId": "0x0867ddb3e1281bb5fe9f0d5eaa459f3fadf51fd37cd9ce74f28afe99010e3f27",
+                    "projectName": "Guru Vishwas",
+                    "createdAt": 1729625892390,
+                    "contentURI": "ipfs://bafkreidjb6klfclowojmnxfjn5hwh5kcfvp4skycrvu4phche4efxusghe",
+                    "fundsApproved": [
+                        {
+                            "amount": "56.843075",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "5",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreia3inrrv267d5koytylfmsc2kjq2pvhhfdo6mkwwplwhgop74hvgq",
+                    "projectId": "0x31101e00850bee63e1b41dc8d1bee35c2f1675485aa5c141ca48df426b4f4dd8",
+                    "projectName": "M\u00f3nica Tal\u00e1n",
+                    "createdAt": 1729006067386,
+                    "contentURI": "ipfs://bafkreicdulmy5ortqinyjmlhzqahm4wkvitu5l6ukxildjjmobgba2y4ve",
+                    "fundsApproved": [
+                        {
+                            "amount": "95.260506",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "50",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreib3vtbxgmkbwa6wg46nqhyt22qpboqr7ohg6r2cx3n4kvuggpznne",
+                    "projectId": "0x4b4cc02bfd62059f585e3a6e58bbf7b0edab0c5b03e6a23bf8a93944d45be466",
+                    "projectName": "The journey of Regenergy",
+                    "createdAt": 1729628914417,
+                    "contentURI": "ipfs://bafkreig4ecowrstd4icqwzqoqpqqxwxgybiutrzuzdtwb2ixrkh2txymsq",
+                    "fundsApproved": [
+                        {
+                            "amount": "56.81326",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "51",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidpjic7el45lc2ykdbnjdazrntlai7cvuvk3eyv3sjjgaiyr565ny",
+                    "projectId": "0x7be286ec36a78dc4fcd3474a3bf572507e20f3dce1bb0cb6b06dd0d74a3a99c5",
+                    "projectName": "Drew Simon - Crypto Altruism",
+                    "createdAt": 1729638921917,
+                    "contentURI": "ipfs://bafkreicnjf6j7yu6suxbctpa45uxgmup5le3sn5o6iv3qdt6cwtw4azixu",
+                    "fundsApproved": [
+                        {
+                            "amount": "89.61956",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "52",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreicvzvf5jajxf4ktbgelcil43ovkpcxzrvw2gj24qkg6gu2ma6hfdi",
+                    "projectId": "0xce5fc846b4c3875781d9b1193de7210cb411b321a7839d1ebf2e6fbb92222326",
+                    "projectName": "kirr0yal ",
+                    "createdAt": 1729645540688,
+                    "contentURI": "ipfs://bafkreieyadc34qe7du52rewfcchoc64wdxvoukvypwr3ftxaglyxhw6mme",
+                    "fundsApproved": [
+                        {
+                            "amount": "342.00323",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "53",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreib25zpx3ife6nnyfbnbkybnliwvv62bkgmppo5wzlkvxmhnoyoos4",
+                    "projectId": "0xea03c689e0b6804e316b4c398f1bdc5248c73f8bd4aec7f4f361d25961b831f6",
+                    "projectName": "Juan Regen Citizen",
+                    "createdAt": 1729648793973,
+                    "contentURI": "ipfs://bafkreibolpfjh6mllegvnr5sautcom23lnpz34dzsjycbk3t4wrlcml6um",
+                    "fundsApproved": [
+                        {
+                            "amount": "528.9285",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "54",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreigch5uzlhxr3ob2rjzjqeyrupgxnawejgm25nozhdlfzc6e7p7vmy",
+                    "projectId": "0x55f4728dd5c55baaa6dff52b0d6a3b8b2d6a1faee6c5aefb984d2f7a1db6975a",
+                    "projectName": "Magenta Ceiba Regen Citizen",
+                    "createdAt": 1729533797034,
+                    "contentURI": "ipfs://bafkreibkp7rjxhog47oamz7u5fj6cvtrqrhnks7e5ymtovrezuo6bvugji",
+                    "fundsApproved": [
+                        {
+                            "amount": "190.77861",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "55",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0xc6a103461dcbc52226e3c977e147d5ed47a9d7d6b8cdd6c82cf138eeaf979443",
+                    "projectName": "Wasabi \ud83e\udd65\ud83c\udf34",
+                    "createdAt": 1710910193873,
+                    "contentURI": "ipfs://bafkreiever4basjagyik3kjln6jybsfwkqijyqdjqnm2f25ug5hjrvn4cq",
+                    "fundsApproved": [
+                        {
+                            "amount": "122.66037",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "56",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreiazv6r2eql3mdmwyhvqzgxxnq7kmtpkwxgrpvlvhfgvclgta4rv34",
+                    "projectId": "0x3868b5469b8618f98a3d7b9cb678679cdea1675b36ce7de308533ca265c95bd9",
+                    "projectName": "Anna Kaic | Regen Citizen \ud83c\udf3b",
+                    "createdAt": 1729664398463,
+                    "contentURI": "ipfs://bafkreihkdmyzkbvbta3yc7qqibsvoewhoddgpdq2ueg7dgphprhtv7z5ye",
+                    "fundsApproved": [
+                        {
+                            "amount": "571.7281",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "57",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreiaojt7xw4sngot473a532xs6nea4ebsrrhmxwyxrt3bvubnf65w3m",
+                    "projectId": "0x98753f4714a4d2a7e77ca277d7cb90ef01366df715dc05230a9ed50f87399a59",
+                    "projectName": "Ceci Sakura's Regen Citizen Journey",
+                    "createdAt": 1729664525358,
+                    "contentURI": "ipfs://bafkreie6fvsjskb5eyxbteftfajrqs6fvkjure76ozrxlwrbpvmfr5ok64",
+                    "fundsApproved": [
+                        {
+                            "amount": "80.1839",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "58",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreicvzvf5jajxf4ktbgelcil43ovkpcxzrvw2gj24qkg6gu2ma6hfdi",
+                    "projectId": "0x5332e6924160b8004f3ab777defe84c0ade6946674514fcf752bb7556396caab",
+                    "projectName": "Matt Strachman",
+                    "createdAt": 1729665275688,
+                    "contentURI": "ipfs://bafkreiat2sfbzblrxisgxjb4l56y5qw6wu7jomoh5pnktsdxeruefjbdfq",
+                    "fundsApproved": [
+                        {
+                            "amount": "170.87338",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "59",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreifgorfdzetvisrh2j5vxwtod7ob2cfmvgrcq44zfwrxlnsvzwkzmu",
+                    "projectId": "0x8a1187760ca409f0eb8f61dea73e18aaa5f1675034cb913d9d5b5e264c73370a",
+                    "projectName": "Celo Mexico",
+                    "createdAt": 1722954965757,
+                    "contentURI": "ipfs://bafkreigsahpslwz7gouf5j6ho75dbtmbbgq2zwqryuch26wjq664v52ope",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "6",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0xeafbd4ce5ff11f1d3851bfcb7a79d8a1e7c8de6d80cdd63af6aa10c0146a9ef6",
+                    "projectName": "Ekonavi",
+                    "createdAt": 1681062330166,
+                    "contentURI": "ipfs://bafkreicibvru6flcwwgoas6q5uawvbbqtowd6kj6wea747im3mlmola2ai",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "60",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreibk7gywsx4tjhspxpahqjjcgsysufdi25cpgtrjem4tk3sopi5ttm",
+                    "projectId": "0x7601129818ba966f6c29f568a977062785f2d92344fc2c2435ff3c28e622df9d",
+                    "projectName": "ReFi Mexico",
+                    "createdAt": 1729674743676,
+                    "contentURI": "ipfs://bafkreifetqhljnwbqfcm4ogdppijizlj2zyfxlr3s4k4yqar57cfcssap4",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "61",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x7a9a4d8fb01828ab1be3843a2bb817f084074f6f6995c1801092bb596af8e7c3",
+                    "projectName": "Solarpunkmaxi (Utkarsh)",
+                    "createdAt": 1711117160882,
+                    "contentURI": "ipfs://bafkreiesjfetfgteaoa5lxlmh2sr5kndxdscev2f7og22auvcooq6b5kre",
+                    "fundsApproved": [
+                        {
+                            "amount": "146.68288",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "62",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidt4lwbhdqs7eggvokpt2iv7oezqw2morszmzxrjtxa7oqw4s2ckq",
+                    "projectId": "0x6e7df47ccda53cd5aecabc9baf13a397f7b060c3e5298fb9287891312bcdd1f8",
+                    "projectName": "Luciano DeAngelo ",
+                    "createdAt": 1729683660533,
+                    "contentURI": "ipfs://bafkreiegzu7bb2ajdy24ptwz4hwphj5xovndbdhovaveyd2px4batvb6nm",
+                    "fundsApproved": [
+                        {
+                            "amount": "62.26595",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "63",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidpuwcjve64x2yesuaq5jqcz6tmpgs5nr2shdjafjhu2i2cubudry",
+                    "projectId": "0x9cf154562f7ebc59af2a035e2cab65b50662b1ffe4dcd4b07b08cf47704df293",
+                    "projectName": "Mangrove Propagule Detection and Counting ",
+                    "createdAt": 1729691890603,
+                    "contentURI": "ipfs://bafkreib72sadna6ux2lltjfecrknsv7jombbgvw55b3tzlh5gy5357jjbi",
+                    "fundsApproved": [
+                        {
+                            "amount": "34.689247",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "64",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0xf633df149538d2622ce447e9bae65304bfeea7abee5046b28d07367b2cd4c8d5",
+                    "projectName": "Izzy",
+                    "createdAt": 1710722440161,
+                    "contentURI": "ipfs://bafkreiacd7wvd25men3bfeq4chhgufuk4t5yazf4asyxenyw2t7m2kviue",
+                    "fundsApproved": [
+                        {
+                            "amount": "201.42064",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "65",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreihoyff2jvajyzeaopfbs6hxb3cfmqpamfauza5qrkfq6q5lmcowjm",
+                    "projectId": "0x5aaeee2772379e2619dcdffc17628a1cd78085ab0a087388e8f4f35d017f07f2",
+                    "projectName": "Sandra, ReFi Warrior and Ocean Actionista",
+                    "createdAt": 1729694628062,
+                    "contentURI": "ipfs://bafkreidya3ltcpnpmh4hl7lt2by2f5wpbn4srmszfckyv5s3bqhpmksseq",
+                    "fundsApproved": [
+                        {
+                            "amount": "107.78114",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "66",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x5ff59c5cda40a60d13424de3db4f907ea28817b981b441c1781a6322ae83d177",
+                    "projectName": "paul2.eth | Gardens \ud83c\udf31",
+                    "createdAt": 1729698933287,
+                    "contentURI": "ipfs://bafkreig34xeqen5fv667cbrk5py3eb5xdncfhjpswoktmjlwdee6ysbpza",
+                    "fundsApproved": [
+                        {
+                            "amount": "48.750816",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "67",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreigfdl3ong7vqe33ffiutqah7jalcckfj2vyxmt4srwiz2gm7fxeme",
+                    "projectId": "0xe90253f0e7e0f82dbe427dad22ce815f8e1448b640ca8f5f4db026eff1aa6e56",
+                    "projectName": "Simon and Adaeze (ReFi Lagos)",
+                    "createdAt": 1729701108641,
+                    "contentURI": "ipfs://bafkreidwlfy4rpa4tbfvk232zemu2dx3jsvkevh42plmc2nifi26wc3vty",
+                    "fundsApproved": [
+                        {
+                            "amount": "113.95839",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "68",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreicvzvf5jajxf4ktbgelcil43ovkpcxzrvw2gj24qkg6gu2ma6hfdi",
+                    "projectId": "0x31e0726828cfa5f3e057e4199ca1fada276e94e1150477f26dac5f6b698ac71f",
+                    "projectName": "\ud83c\udf0c Edward, #ReFi Paladin \ud83c\udf31 and Tech Padawan. \ud83d\ude80",
+                    "createdAt": 1729700597788,
+                    "contentURI": "ipfs://bafkreie34wygwjm7y5brwscgn5hcasrjwkcyu3r3ogicpmv2odyzfvvpqe",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "69",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreickekjqeaq6mdzdvfhh3fdbis4zulwc3y7svffj7aaccibdly77ju",
+                    "projectId": "0xbc3d10f5c7252754aa4c9c55c1956a42b03682ea814631d6847add373a2c5baa",
+                    "projectName": "Sarah Smith | Web3 Regen Initiate",
+                    "createdAt": 1729703887838,
+                    "contentURI": "ipfs://bafkreicuxser3uoao7hat4prgxp6yw7ltffjjwnuuvxnwnyw34xxubk7f4",
+                    "fundsApproved": [
+                        {
+                            "amount": "78.47352",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "7",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreifnjdpzxclfsrrulmfrtaefkliqepoty56d2m5q7f5u5tbw2ybqje",
+                    "projectId": "0x85320d89f5661d267d5d03a8d00bd9e28b14808bdceefcbe67a330084d64bb88",
+                    "projectName": "Bloom Network - ReFi for Community-Led Economic Development",
+                    "createdAt": 1723037106579,
+                    "contentURI": "ipfs://bafkreiel7y7hao4ksvw6m6q4gqyaqfqbdem5g6ragnixhf5vhwxfy6eoqe",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "70",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreigy3a4d35dqyvxywagzkp4eijmlkme3xphrrg5m6h3scnfcw2oswa",
+                    "projectId": "0x1f932fb037d20002916a62712aa0dd4fb52329b7c4726a595aa0d744c8451396",
+                    "projectName": "luizfernando \u2728",
+                    "createdAt": 1729707420076,
+                    "contentURI": "ipfs://bafkreihagpbny3gems27yb6kxxs3zn37tt4d57o5bxjgraplzsepangfku",
+                    "fundsApproved": [
+                        {
+                            "amount": "105.69947",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "71",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x52fc8de933b8904b544107b5c8a23b117a248119b583212ea5a5f7fcd20f8620",
+                    "projectName": "Rodrigo Nu\u00f1\u039ez \ud83c\udf0a",
+                    "createdAt": 1698790858758,
+                    "contentURI": "ipfs://bafkreihdhypcphwema4dvnk3e2ycpwv26x6ptefo6kfrecnqzx2s2bftvu",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "72",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreifuyh4gs2olvb7bby4ihlrnljb77ho33biengksynnnwcgagdeblq",
+                    "projectId": "0xcaf6253e062c72cfc0a8d0a2c263081a1d464f06f45841a8d5eeacdc7183aa9f",
+                    "projectName": "Maya Dentzel | Regen Media \ud83c\udf31\ud83c\udf99\ufe0f",
+                    "createdAt": 1729718201856,
+                    "contentURI": "ipfs://bafkreig4a2mfn2gsl3l54gofe7wxn3rqgdw5hhwnfozxttmzhfb3mozv5u",
+                    "fundsApproved": [
+                        {
+                            "amount": "417.37793",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "73",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreieshrdr53rhw7nloknizku2v47cjm5kxrzcsjw2x4hbpssqn2iy2i",
+                    "projectId": "0x7a253bffd021e1749796bd478b2f9b0a87f90905a3532751f637915fd88d49e6",
+                    "projectName": "Cori Schlicht - Regens Unite",
+                    "createdAt": 1729718204410,
+                    "contentURI": "ipfs://bafkreib5v7kih6ey5myy5fl4wtjorovogvw7xykcak5pvkpftesme3mf5a",
+                    "fundsApproved": [
+                        {
+                            "amount": "73.72483",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "74",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidwob4qk7h2dotmc4kfuvrylbdsq7zyayiq66vpf3dryygayrzwji",
+                    "projectId": "0x277226335d88cf31787a2d96f5a775277cc0bd71ff8de91cd0e21788a415ce0c",
+                    "projectName": "Mars \ud83d\udd2e time traveller from the future",
+                    "createdAt": 1729697988760,
+                    "contentURI": "ipfs://bafkreib5jxmune3uq2z6yb4gnudpxorjewlde4kfj2dx54sv6jxp3hh3cy",
+                    "fundsApproved": [
+                        {
+                            "amount": "1.4035627",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "75",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreiamrqvvmiym3wnx3ojy2ndfhcn4hxxkmssjnxa2sjqstmopeyt53m",
+                    "projectId": "0xfb6778c6a8ee64dd56f4e2c980267f07899b216a3ef414c30506de08f543e08b",
+                    "projectName": "phweb3connect",
+                    "createdAt": 1729726842902,
+                    "contentURI": "ipfs://bafkreibnnu6dcln4ate4n7pdrpic77m2wv7qnlfniko6wmk3vtocgaugze",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "76",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidnhxzyc7pe3lyvcwdk4fmitdlzsnge6g6alluno2t3fcqxyou2y4",
+                    "projectId": "0x7ecfd32b1dc4f5bf522c373cd733709f23f75d4fb974b453426405384934f676",
+                    "projectName": "Nansel.eth",
+                    "createdAt": 1729733920650,
+                    "contentURI": "ipfs://bafkreiesa5yuj3glx7f6fdo4jgnvfdg2syecfxeavklgvu2rlscriq65oy",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "77",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreie7ewlj7vs4u7surv7ivss55n425qxuldncoszwqju3mvyol25ebu",
+                    "projectId": "0xf0b6309abb4aa1a3bd12c7c054b7110aa8526267dea020e2049d764ad61bd49b",
+                    "projectName": "Omka",
+                    "createdAt": 1729753948120,
+                    "contentURI": "ipfs://bafkreiekkbfrtxut63ao2teayy4vewxj4hnidd4vaw3hefvgpibvdwi5gu",
+                    "fundsApproved": [
+                        {
+                            "amount": "57.41856",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "78",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x384573b1a79c3ab3a3ab66bace43c3db914a764b44e53906c374237765a9c576",
+                    "projectName": "KarlaGod loves Gitcoin",
+                    "createdAt": 1710583858249,
+                    "contentURI": "ipfs://bafkreifj5a7v4fwcp3lsgjbjgypkrkoius4kofssu7cht2ia4ymqymcta4",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "79",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x4dcebba7be9ee6c0faa15fae4a00e33934bde5cae2515769bd2e0a90b08dc2d9",
+                    "projectName": "Ayowecca Uganda: Training rural farmers & indigenous communities on regenerative agriculture, providing women & girls with new skills for economic empowerment, and planting fruit trees in schools, health centers & churches.",
+                    "createdAt": 1712433845493,
+                    "contentURI": "ipfs://bafkreifagqh2a52rfaibltq5sfs7n7qsndy5lb4rnxhfc4bblbuhdik5mu",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "8",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreiegt4tuvhjfptlh3c6vufwt4rermoaldbqyogcrnkm372bqm7lvyu",
+                    "projectId": "0x360cb73dfd81f5474ced50a7c7843edb664923b3f78e028df77b6f75c812ac51",
+                    "projectName": "James Magee ",
+                    "createdAt": 1729039220869,
+                    "contentURI": "ipfs://bafkreidl3x3bodr7enyzavoasuhwzzhwcob25wke3gaqyyharwvtadytgi",
+                    "fundsApproved": [
+                        {
+                            "amount": "63.474915",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "80",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreidk5vtkv63i47nknuoct2yefyhdj7pjlmbws5f72b34bv4i4pxvnm",
+                    "projectId": "0x9027eb7b34424ba876618c0d57bba76009f1796f8ce52111094c230ff7d3a41e",
+                    "projectName": "Sejal Rekhan | GreenPill Network",
+                    "createdAt": 1729762269983,
+                    "contentURI": "ipfs://bafkreifoaokjqoe7hbkfa664q6t7xdjtn3dyldaedki4jhth6y4pxaz6yy",
+                    "fundsApproved": [
+                        {
+                            "amount": "108.509445",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "81",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreihaiy47zl3343uk3diebpbr5genkvaqqj7hgbakjema6kd3berwoq",
+                    "projectId": "0x9e64a35f28dd7e36260f17145528816de7d4e5ed9a61c6ea1dc9fd7427bceade",
+                    "projectName": "Sohto Regen Citizen: Sowing Seeds of Change",
+                    "createdAt": 1729780212653,
+                    "contentURI": "ipfs://bafkreifjr7gxy6d2pytsqddpc7w4bb4heja6pr2jhio5ajhad537klqthe",
+                    "fundsApproved": [
+                        {
+                            "amount": "53.20718",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "82",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreieilbe77ukl7it2ilwc5scnzvsocyopthm6r7ya5dctzmhu5vav7a",
+                    "projectId": "0x2664c330224ec6dd326f2874d3fe3786d59a47f55e166e3aca6835a331f36c8a",
+                    "projectName": "Scott Morris | @TheTokenJedi",
+                    "createdAt": 1729786945504,
+                    "contentURI": "ipfs://bafkreifthxxcwsmqhaelo53h6r3hcjkss42tmebalknv6sd5eaohxcaeze",
+                    "fundsApproved": [
+                        {
+                            "amount": "195.07661",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "83",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreifdjdig67kdfwb44whrq2ciumtwnovdnfsktorpy3t5ovrka7rl2u",
+                    "projectId": "0x34f9c127ff126d710167bce35e8a6ab8113fb696cbbf1da8a71a2309c6288d08",
+                    "projectName": "Amio",
+                    "createdAt": 1729787608353,
+                    "contentURI": "ipfs://bafkreihuc6fgn5h2eonu3azrkrk3fmye5j32g4hhf5pwvwumd4apautuy4",
+                    "fundsApproved": [
+                        {
+                            "amount": "34.86782",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "84",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreihdjuiwgjserroxkv74to2cifz2puvj7sb6le5jowumtpv6gnofmy",
+                    "projectId": "0xb74165153fa04fd66787a61f924d33a09fcd7144b2d11e293e910a48fdd4638b",
+                    "projectName": "Mortech.nft Regen Citizen.",
+                    "createdAt": 1729790969080,
+                    "contentURI": "ipfs://bafkreifvgpbxlrh2vcev34bpzvelfae64gecxgkjqxqshgdqh2l2tpa2qm",
+                    "fundsApproved": [
+                        {
+                            "amount": "102.26009",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "85",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreigch2cp2q7sagjjxaxqzwvwzncjzwambhsu3omhusgthmp3a6qgfi",
+                    "projectId": "0xd8cef582ab42abc974377383f322bec7455e5c8d8f53dcbde9af567ff3cfcdb7",
+                    "projectName": "Leen Schelfhout - creating and holding space for regens to unite",
+                    "createdAt": 1729797870708,
+                    "contentURI": "ipfs://bafkreiftrlh7giwmucfarloubnyqkmnd2vp7vvp2myh3fx7gvaqg4b6ome",
+                    "fundsApproved": [
+                        {
+                            "amount": "72.41731",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "86",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreigxqv5745detfgm5jt7b6kg4pl2lhv2p7rkfrbmxny5mfrfwyasi4",
+                    "projectId": "0xb022c7ae4b05c182c598d12832c76bed67efb611fc376326b31a5981a0acd8fd",
+                    "projectName": "Raam",
+                    "createdAt": 1729805161761,
+                    "contentURI": "ipfs://bafkreiclemyxnltz37vt7jrq5pr3iynlvpbbypfzuaqjwly76pk22xbioe",
+                    "fundsApproved": [
+                        {
+                            "amount": "43.2248",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "87",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreifkgc5c2zjlvgz2jcjodfd6tyx7pts364edo6gigqzild2lcvwdve",
+                    "projectId": "0x5cb9ed8aec22c2d7f439ebc5143379bee51328a757513f5a586992a4e9a25f68",
+                    "projectName": "Arquitectura Regenerativa",
+                    "createdAt": 1729802016526,
+                    "contentURI": "ipfs://bafkreifa4swveufr4tk62hwzn6klfd7icl6uzcinindtpmt66molvpasla",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "88",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreigjxbpiphniwzg5xxysvfqa4sjiwyx2xjqrvszrkmx7c2pnd7rwdi",
+                    "projectId": "0x51315a92b941a9c6acfbf1bc68aac5d60b1d763cbac55046463d72931867ccfd",
+                    "projectName": "Wasset",
+                    "createdAt": 1729809229431,
+                    "contentURI": "ipfs://bafkreihvvhqag4i6wmo7luibhkenbjzcinpkincm6su33yaskymsngl3la",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "89",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreiev3gna5qllh6osvca45jmjnk2sfa6wtgq52m7crwtq4zdw6tz4bq",
+                    "projectId": "0x534a57c5959294bebd77aab7cfb24bbbf9ee7ac292358e63391e0cc967e172e8",
+                    "projectName": "Athus Oliveira",
+                    "createdAt": 1729813463257,
+                    "contentURI": "ipfs://bafkreie3ngm2pkjugjkwrcr3nhrvrbqba5iduwrujrczq7qbjncvvzc7uq",
+                    "fundsApproved": [
+                        {
+                            "amount": "109.8785",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "9",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreie7tot26kziasusr3ency5tl6be727pzfnho4ssphjd7n7isnodte",
+                    "projectId": "0xd0b828897f2a2a95dbec14ef3129454178834aaa2a5a6c27c10f93fab8207e9f",
+                    "projectName": "Shifting Solutions DAO & Simba ReFi Serbian & Online ReFi Hubs.",
+                    "createdAt": 1729064012511,
+                    "contentURI": "ipfs://bafkreibdj7aeobkk2ltnwseu3kqhir3gtrhv4vmr6ouoghm3dfqa4yrgti",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "90",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "16",
+                    "grantPoolName": "Regens Citizens Genesis",
+                    "projectsURI": "ipfs://bafkreigp5l266w2rql7dzx473lq6lsqaxp532qaasrwnwvu5quwhgxox5u",
+                    "projectId": "0xab59c98d01ee2e81315a1f371890d06ea3bb47c4b4fedf308f8e94d781dbb9b3",
+                    "projectName": "ProductShare",
+                    "createdAt": 1724095303481,
+                    "contentURI": "ipfs://bafkreigg5xr5ahif4egjvppkply6yf3iouox7di7znwdfeq4ekasstxquy",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                }
+            ]
+        }
+    ]
+}
