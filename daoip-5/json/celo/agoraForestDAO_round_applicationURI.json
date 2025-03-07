@@ -1,0 +1,336 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Celo Public Goods",
+    "type": "Entity",
+    "grantPools": [
+        {
+            "type": "GrantPool",
+            "name": "AgoraForestDAO Round",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "0",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0xecc60c70c55f9586184f18f2cd95fa318c9b332f1c3513b7f8960f0fd481bf2b",
+                    "projectName": "Agroforest SociaLab Coliving",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreihdv4h7elckapn4olb6ag36lb56ik7e2ddkhtflduwypfvvza3v3i",
+                    "fundsApproved": [
+                        {
+                            "amount": "29.513538",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "1",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreibascidyoujjz2enz3p7eb5kseudyx7llvyiwnjdb3uujf4ozpqvq",
+                    "projectId": "0x8d134ceb691e278f7e354d5cb4b59474a5c7556bad4313b20d5b4f14f2fcfc23",
+                    "projectName": "Governance Apprentices - JA1",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreicmcj24n2mg3fhnb6fxxl7cspjm3bzyos4urycq7g5hbmpmtpjldy",
+                    "fundsApproved": [
+                        {
+                            "amount": "31.92342",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "10",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0xf5b7e3c70c0c255d60a6aaf4057966d65267987e49cc9648a1a1ba35aaf02d9c",
+                    "projectName": "Adopt a Tree",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreiawosho6h5tsyzyepzwdmivuvkyrfo756m76rjtvqiuqbetpv6dca",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "11",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreicj3n5uir5qo5ymirdrt5olnx7myko3edskniqgku27wbh3r74i6i",
+                    "projectId": "0x4987eb42335538089faf72acb91b042b87e48ece2c9c8e9a4419ada8f8c4221b",
+                    "projectName": "OCA Terravila Glocal",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreidlsmtivzdqwixgls2o5uxl2l65ylrojnnmsd56yfyherohlzyu7q",
+                    "fundsApproved": [
+                        {
+                            "amount": "39.566765",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "12",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreic66lehazmjefd2yvddizszhwbukudsmzig5ab7eo4rsw2nmw7yx4",
+                    "projectId": "0x48df8e9174ed8047be809c383d589c4513b8a294dd2408dcfc67fc3c07469b7a",
+                    "projectName": "Vale dos Alecrins",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreia3b6zgzhhmyyitu2yeixahfxiksh7af7pcdgjqdljpzomjslgfge",
+                    "fundsApproved": [
+                        {
+                            "amount": "19.32292",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "13",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0x88dc494f9c5608339b395c58aa20cab89d878187f0005c11c7cb20c15ed3ee82",
+                    "projectName": "Hortas conectadas - SAF do Futuro",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreia35sd25ny7ypaldsqhnf26cb2jsjctaobgldudgnzhcb7lhyxkaa",
+                    "fundsApproved": [
+                        {
+                            "amount": "32.9262",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "14",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreidz522abd5yfyfqzt6eb6t5p3ajqbxtkktpylhmsvy7nuuupzjdrm",
+                    "projectId": "0xc8332c6ea13b03d3384dd4633678f4d5eae6764feb343a5953308bf57daea047",
+                    "projectName": "Ecovillage Network in Ukraine: Implementing climate solutions for resilient communities in the context of war.",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreievyyfu5e6zg6igbpqsx3dcgmox5k2ngteq53y5dswtzs3q2tp7vu",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "15",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreiej2jrinvguzaqw7gszd5v7qfg4oneh3nuksu47f3dciygd6e2epa",
+                    "projectId": "0xc1e761c97be053ecea66a444b08e5bdaddd66fb901c5384814e5a1674b29faac",
+                    "projectName": "Bonju\u00e7ara",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreihsdp5vcuzbttagldqbou3or7e52nshz4pfrc2jyrba7xvyngtxmi",
+                    "fundsApproved": [
+                        {
+                            "amount": "17.360455",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "16",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreidcj4uxvvbzpbf4qgeh5vuxwz37yu4gx6mxzfwrnxa5r7hy65gpke",
+                    "projectId": "0xdc3a6913487430f3510efaf88638d9dec9bf0753acf4052fb7f1942fd9e3bf2b",
+                    "projectName": "Sasaki Agroforestry",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreigexl3ggtrs4567rprytpmc7csemjiqckmmphkr3cigl43sqfaogu",
+                    "fundsApproved": [
+                        {
+                            "amount": "27.986012",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "2",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreiflhnr3pv6qlu4rb7cwfrg4q5f4s5q6izbubwjazgclchkts2l7ii",
+                    "projectId": "0x22705e8ef35ff89a9c250e4b1532fb1d405f5f83afaf19959acaec69cdc0e16e",
+                    "projectName": "Ybir\u00e1",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreidhpmxpktbeqrarux2ggaq5mipojk5fyyjzijtaytukz7bk3oznrq",
+                    "fundsApproved": [
+                        {
+                            "amount": "43.72651",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "3",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreigxvud2d5laclolnme7fpf2t7rjup4dbboa4li2kftf4gzhteakvu",
+                    "projectId": "0x015df22f828d4bb5edc355ab4c4f372cf0ff408ca2d5221cdda543535e513d7a",
+                    "projectName": "Reflora",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreig5bjlo45ibf764wokjrdxj445bmzocupjxybzwcbot4j5qjcsal4",
+                    "fundsApproved": [
+                        {
+                            "amount": "0",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": false
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "4",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreigpj5gthk27v5hb5hfgbqw54cqro2cmf2kufvs3ovjvp3xoj2oxhi",
+                    "projectId": "0xa3ea7830c7989b50ed2bde991939110a08823747fdf8a5fe7f7024d966d10344",
+                    "projectName": "Morro da Reden\u00e7\u00e3o | Redemption Hill",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreic3jpvxd3n2mdcubmlrdr7lmj4c5ljbsouuli623k6iow7dsbc5w4",
+                    "fundsApproved": [
+                        {
+                            "amount": "91.79582",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "5",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreibjgkv27hoqbplsmgf4qshq3dntxwig7xbwwmzg6qbxn3m3ywfhiq",
+                    "projectId": "0x6d5f3fad5f0ae64ee0db0551543a8f34bdb840f06686b6a55191da24007e0cbc",
+                    "projectName": "Sana Floresta",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreibxl2y2vttggbetpzrtpvdq6rf5bflppqhaq2lklqqoezqny5qkq4",
+                    "fundsApproved": [
+                        {
+                            "amount": "62.205578",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "6",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreig4xjbuvprmk5qhihmc24fo6fi3b7rn3yt2u5h7p74egbya7x7jti",
+                    "projectId": "0x475b71649fd2083e8bbd74000a33f5434e322ce1579664819a578e26f8a90629",
+                    "projectName": "ArvoreSer",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreih5gp2ufzrk3mdrzrsgkkahz3uzwt4c322bin6paucgjt2u6b75g4",
+                    "fundsApproved": [
+                        {
+                            "amount": "38.122795",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "7",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreicybqghlwa7kgjwv4jptwbbbxekfmtp4jw5bdgrkwxzajbyhldfau",
+                    "projectId": "0xd56df8c1d7efa8591e627ecf8fedb5fcb5853b8f133e36248fab5309abb48b1d",
+                    "projectName": "S.A.F.  AgroforestDAO - Ipia\u00fa - Bahia - Brasil",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreialaptfjpfpcrrispycsi6s4j7tcjeg223twy3ohuvvt6um6jjcg4",
+                    "fundsApproved": [
+                        {
+                            "amount": "151.11415",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "8",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreihlt42qsxuoggrdmhlot4n3xc3hi3to6c5oxamtpxyoxf4qvhbc5i",
+                    "projectId": "0x3b60c3290f17bcb824858cc3dae5e8b9dc1a8c63f9c0df0424733301243dd9d9",
+                    "projectName": "Projeto Reflora",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreigztekav2dci264swpg435zibnb3xckt6bv5l7ucyub7y4umcerfe",
+                    "fundsApproved": [
+                        {
+                            "amount": "30.394436",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "9",
+                    "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celo/grantsPoolURI.json",
+                    "grantPoolId": "22",
+                    "grantPoolName": "AgoraForestDAO Round",
+                    "projectsURI": "ipfs://bafkreia3e7idq4awzuatt5j3mqd5p352257co3t7hji5dcdlj3lcw3h4v4",
+                    "projectId": "0xbfb65711ea1d0b8a559882c94d906ece3812dd3fb71cba232e0ce7f93b943ffc",
+                    "projectName": "\u00d3LEOCH\u00c1",
+                    "createdAt": "",
+                    "contentURI": "ipfs://bafkreifrjmnkwkbqmfvagr4ugapettndx7edjf6wmw64rrykoiy3vwbm2e",
+                    "fundsApproved": [
+                        {
+                            "amount": "36.676315",
+                            "denomination": "USD"
+                        }
+                    ],
+                    "isApproved": true
+                }
+            ]
+        }
+    ]
+}
