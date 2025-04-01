@@ -1,0 +1,539 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "SCF #34",
+      "applications": [
+        {
+          "type": "GrantApplication",
+          "id": "34-1",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Stellar Payments for Tourism & Hotels - Integrate Stellar into Logistech",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Integrate Logistech with the Beans App SDK to enable businesses in the tourism and hospitality industry to accept crypto payments Project:  \nLogistech is a trusted payment processor for cruises, hotels, hostels, and tour companies. By integrating Stellar blockchain technology, it will provide guests with a fast, secure, and cost-effective way to pay.  \n\nSubmission:  \nLogistech, integrated with the Beans Merchant SDK, allows our Merchants\u2019 Guests to pay transactions with Lumens XLM, USDC and other top cryptocurrencies at very low fees compared to traditional payment processors.  \n\nProducts & Services:  \nLogistech is a fully integrated, modular hospitality platform designed to optimize operations for hostels, cruises, resorts and hotels. Our suite of applications enables businesses to manage guests efficiently, process payments seamlessly, and enhance the overall customer experience.  \n\nOur ecosystem includes:\n\n-   Guest Management App \u2013 Streamlines check-ins, guest tracking, and account management.  \n    \n-   Tour Management App \u2013 Handles tour bookings, itineraries, and sales .  \n    \n-   Cashless Point of Sales (POS) \u2013 Allows guests to make purchases using NFC cards or wearables, eliminating cash handling and improving transaction efficiency.  \n    \n-   Website (Beta) \u2013 Offers direct bookings, guest account access, and operational integrations.  \n    \n\n##### How Logistech Works:\n\nGuests use NFC wristbands or cards to make purchases during their stay, which are then settled at check-out via traditional payment methods. While this system is already frictionless, the integration of Stellar through Beans Wallet will further reduce transaction fees and enhance accessibility for international guests.  \n\nBy leveraging Beans Merchant SDK, we aim to:  \n\n1.  Enable QR-based check-outs, allowing guests to settle their bills using Stellar while merchants receive USDC.\n    \n1.  Reduce high transaction fees typically associated with international payments.\n    \n1.  Maintain the familiar guest experience while introducing a lower-cost, crypto-powered alternative.",
+          "contentURI": "https://drive.google.com/file/d/1dNpZnKEGfDqpKX95LBnkG6h9OF4N5uRq/view?usp=drive_link",
+          "status": "approved",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "101120.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "101120.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-2",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "PMS & OEMS for DeFi & RWAs on Stellar - PMS & OEMS for DeFi & RWAs on Stellar",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Institutional adoption of Stellar's DeFi and RWA ecosystem is hindered by the lack of robust trading and portfolio management infrastructure. Autowhale bridges this gap by providing a comprehensive PMS (portfolio management system) and OEMS (order execution management system) tailored for institutional investors. With Autowhale PMS and EMS we are looking to build the infrastructure for those institutions to access Stellar\u2019s DeFi and RWA ecosystem. Institutional adoption of Stellar's DeFi and RWA ecosystem is hindered by the lack of robust trading and portfolio management infrastructure. Autowhale bridges this gap by providing a comprehensive PMS and EMS tailored for institutional investors.\n\nWith Autowhale PMS and EMS we are looking to build the infrastructure for those institutions to access Stellar\u2019s DeFi and RWA ecosystem.\n\n**  \nPortfolio Management System for RWAs and Defi assets on Stellar**\n\n-   Connect to multiple RWA\u2019s and Defi platforms\n    \n-   Know all your positions in a quick glance\n    \n-   Realized + Unrealized PNL Chart\n    \n-   NAV Development over time\n    \n-   Trading Venue distribution\n    \n-   Transaction & Funding history\n    \n-   Risk analysis, delta\n    \n-   Benchmark against Indexes\u00a0\n    \n-   Performance Metrics (Sharpe Ratio, Sortino Ration, Kalmar Ratio, Max Drawdown, etc)\n    \n-   Realtime data\u00a0\n    \n-   LP reporting (Get custom reports for your investors)\n    \n\n  \n\nExecution Management on DEXs\n\n  \n\n-   TWAP & VWAP algorithm to optimize trade execution, minimizing market impact and achieving best execution\n    \n-   A unified interface for managing the entire trade lifecycle\n    \n-   End to end integration for clients for connecting with DEXs\n    \n-   Ability to connect with multiple DEXs from one platform.\n    \n\nFeature Comparison List:\n\n1. Target Users\n\n-   Autowhale: Institutional funds, hedge funds, asset managers\n    \n-   Existing Solutions on Stellar: Retail traders, small DeFi projects\n    \n-   Traditional PMS: Large financial institutions, banks\n    \n\n2. DeFi & RWA Portfolio Management\n\n-   Autowhale: \u2705 Supports Stellar-native RWAs & DeFi tokens\n    \n-   Existing Solutions on Stellar: \u274c Limited or no portfolio tracking\n    \n-   Traditional PMS: \u2705 Covers traditional assets, but lacks crypto/RWAs\n    \n\n3. Execution Management System (EMS)\n\n-   Autowhale: \u2705 Advanced order execution (TWAP, VWAP, limit, multi-path)\n    \n-   Existing Solutions on Stellar: \u274c Only basic buy/sell orders\n    \n-   Traditional PMS: \u2705 Advanced, but not integrated with Stellar DEXs\n    \n\n4. Integration with Stellar DEXs\n\n-   Autowhale: \u2705 Connects to multiple DEXs (Soroswap, Lumenswap, Phoenix)\n    \n-   Existing Solutions on Stellar: \u26a0\ufe0f Limited integrations per platform\n    \n-   Traditional PMS: \u274c No Stellar support\n    \n\n5. On-Chain Execution Vault (Soroban-based)\n\n-   Autowhale: \u2705 Non-custodial, smart contract-based execution\n    \n-   Existing Solutions on Stellar: \u274c Trades happen directly on DEX without optimization\n    \n-   Traditional PMS: \u274c Not available\n    \n\n6. Real-Time Portfolio Analytics\n\n-   Autowhale: \u2705 NAV tracking, realized/unrealized PnL, Sharpe Ratio, risk metrics\n    \n-   Existing Solutions on Stellar: \u274c No in-depth analytics\n    \n-   Traditional PMS: \u2705 Comprehensive, but lacks on-chain visibility\n    \n\n7. Institutional-Grade Trading Strategies\n\n-   Autowhale: \u2705 TWAP/VWAP, multi-path routing, delta hedging\n    \n-   Existing Solutions on Stellar: \u274c Basic trading functionality\n    \n-   Traditional PMS: \u2705 Yes, but not optimized for crypto assets\n    \n\n8. Custom Reporting & Investor LP Dashboards\n\n-   Autowhale: \u2705 Automated, customizable LP reports\n    \n-   Existing Solutions on Stellar: \u274c No reporting features\n    \n-   Traditional PMS: \u2705 Available, but for traditional finance\n    \n\n9. Pricing Model\n\n-   Autowhale: Flexible SaaS model + one-time purchase options\n    \n-   Existing Solutions on Stellar: Free but with limited features\n    \n-   Traditional PMS: Expensive subscription models\n    \n\n10. Security & Compliance\n\n-   Autowhale: \u2705 Self-hosted option for confidentiality\n    \n-   Existing Solutions on Stellar: \u274c Custodial model, less privacy\n    \n-   Traditional PMS: \u2705 High security, but not built for crypto\n    \n\n11. Market Focus\n\n-   Autowhale: Crypto-native institutions, DeFi funds, Stellar ecosystem\n    \n-   Existing Solutions on Stellar: Retail traders, small token projects\n    \n-   Traditional PMS: Legacy financial firms, traditional assets",
+          "contentURI": "https://docsend.com/view/ht5zpjghi3xfj5qg",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/AutowhaleNet"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/autowhale"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "150000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "150000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-3",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Jetpad - JetPad",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Jetpad is focused on changing the Africans Pay, Save, Invest and day-to-day use of stable coins The JetPad Wallet App is a non-custodial neo-bank built on the Stellar Blockchain, designed to serve users seamlessly.\n\n-   USD Balance & Stablecoin Support \u2013 Leverages the Stellar Blockchain and SDF\u2019s USDC stablecoin, integrating with Stellar Anchors for seamless on/off-ramp transactions.\n    \n-   Save & Earn with Yield Protection \u2013 Mitigate inflation by earning yield through Soroban smart contracts and our integration with the Blend Protocol.\n    \n-   Instant, Free Money Transfers \u2013 Send funds locally and internationally at no cost using the Stellar Path Payment API.\n    \n-   Simple & Accessible Signup \u2013 All you need is a smartphone and internet access to get started.\n    \n-   Virtual & Physical Cards \u2013 Supports both online and offline payments through card issuance.\n    \n-   Integrated P2P On/Off-Ramp Marketplace \u2013 A Binance P2P-style platform tailored for Africa\u2019s young and digitally active population.\n    \n-   Bank & Mobile Money Transfers \u2013 Easily send funds to bank accounts or mobile money wallets.\n    \n-   Stablecoin Utility Payments \u2013 Use Stellar USDC for everyday expenses, including water, electricity, cable, and other utility bills.",
+          "contentURI": "",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/JetPad_Finance"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/jetpad-finance"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "75500.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "75500.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-4",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Pay Globally With USDC - PAYRIT",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Send money and pay anyone around the world with your local currency while they get paid in their own local currency. Making payments is challenging for Africans, and global payments are even tougher. Issues like FX scams, long processing times, and difficulty sourcing FX frustrate the process.\n\nPayrit solves these challenges with instant global payment and settlement powered by USDC on Stellar, giving businesses and individuals unprecedented access to global markets. This empowers over 100 million entrepreneurs with a reliable global payment solution for business growth.\n\nThis submission focuses on building this cross-border payment system taking advantage of the stellar robust list of anchors with representation in almost all the continents.\n\nBelow are the following features we plan to work on in this submission\n\nFEATURES\n\n-   Issuing USDC asset for accounts on stellar\n    \n-   Swap/convert from and to Fiat and USDC, using the powerful real-time currency conversion on Stellar and Anchor system for on-ramp and off-ramp\n    \n-   Pay for day-to-day needs powered by USDC, using the path payment strict receive so that the end user can get their exact value\n    \n-   cross-border payment, using anchors\n    \n-   Instant payment at any point of sale internationally, using path payment\n    \n-   Send to bank or mobile money from crypto balance, Using anchor\n    \n\nHOW WE ARE USING STELLAR\n\nTechnically\u00a0\n\nFor swap and international transfers\n\n-   SEP-10: for authentication between anchor and client(payrit)\n    \n-   SEP-24: To allow users to deposit and withdraw assets right from the payrit app\n    \n-   SEP-30: To allow cross-border payments\n    \n\nPay for day-to-day needs powered by USDC\n\n-   Our goal is to bridge the gap between the banked and the unbanked. Allowing anybody to pay anywhere in the world from their local currency using any of the means we have provided, such as scan-to-pay, NFC tech, and real-time bank transfers.\u00a0We are also working on BLE(Bluetooth low energy) technology to increase true-inclusion of the informal financial sector where low to medium literate individuals operate daily.This will be possible with Stellar\u2019s interoperability and scalability ensuring that the system can support both high-volume and low-cost transactions, making it accessible to underserved markets. The path payment will be used to achieve this feature.\n    \n\nSend to bank or mobile money from crypto balance, Using anchor\n\n-   SEP-24: To allow users to deposit and withdraw assets right from the payrit app\n    \n\n#### Stellar\u2019s impact\u00a0on payrit\n\n-   Users can hold multiple assets\n    \n-   Quick and cheap swap to any FIAT currency provided by anchors\n    \n-   Instant settlement during in-person payment in any currencies\n    \n-   Fast international transactions\n    \n-   Prevent FX scams\n    \n-   Fulfill international transactions with ease\n    \n    These advancements will significantly elevate the user experience, minimize transaction costs, and expedite cross-border payment processes. By achieving these goals, Payrit is set to establish itself as a premier digital payment platform in Africa, fostering greater financial inclusion and driving innovation across the region.",
+          "contentURI": "",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/payritHQ"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/payrit/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "47792.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "47792.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-5",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Scalable Currency Tool for Govs & NGOs - Comunitaria",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Comunitaria empowers governments and large NGOs, including our partner Caritas, with a scalable tool to rapidly deploy community currencies as \"multipurpose electronic vouchers\" without the need for complex compliance. This fast-track approach immediately delivers funds to underserved communities and boosts local commerce. Once established, the platform integrates the Stellar Disbursement Platform to enable stablecoin transactions, combining hyperlocal resilience with global liquidity for cross-border disbursements and rapid crisis response. Leveraging Soroban smart contracts to manage multi-party operations efficiently, Comunitaria offers an adaptable financial system that attracts international stakeholders seeking inclusive solutions, while remaining extremely simple for end-users. Comunitaria empowers governments and NGOs to distribute funds via community currencies and stablecoins, fostering circular economies while addressing both local and cross-border financial needs. Our platform combines hyper-local resilience with global liquidity, enabling communities to thrive sustainably. Designed as a scalable tool for governments and large NGOs\u2014like our partner Caritas operating in 160 countries\u2014Comunitaria deploys community currencies for efficient fund distribution. Leveraging Soroban smart contracts, our system simplifies complex currency dynamics while remaining user-friendly. Initially a community currency is deployed as a \"multipurpose electronic voucher\" without compliance requirements for rapid implementation, to later deploy the Stellar Disbursement Platform to enable enhanced functionalities, including stablecoin transactions.\n\n#### Core Offerings:\n\n\u2022 Community Currencies: Programmable tokens for local transactions that ensure funds remain within communities, thereby supporting cultural and economic ties.\n\n\u2022 Stellar Disbursement Platform Integration: Facilitates rapid distribution of stablecoins for scenarios requiring immediate liquidity, such as disaster relief and cross-border aid.\n\nStakeholders Solutions:\n\n##### NGOs/Governments\n\n-   Service: Replace inefficient fund distribution systems with a transparent, fraud-resistant platform.\n    \n-   Product: A comprehensive dashboard offering multi-currency management (community tokens + stablecoins), real-time analytics, automated invoicing powered by Soroban, and integrated compliance tools.\n    \n-   Unique Advantage: Soroban smart contracts streamline complex workflows\u2014such as conditional disbursements and expiration dates\u2014that traditional systems struggle to manage.\n    \n\nBeneficiaries\n\n-   Service: Gain flexible access to funds via community currencies and stablecoins, allowing for local purchases as well as broader financial needs like paying utility bills or facilitating cross-border remittances.\n    \n-   Product: A mobile app (available on iOS and Android) featuring offline functionality, and a built-in marketplace connecting beneficiaries with local merchants.\n    \n\nLocal Merchants\n\n-   Service: Grow revenue by accepting community currencies\u2014retained for local reinvestment\u2014or converting tokens to fiat/stablecoins via Stellar\u2019s decentralized exchange.\n    \n-   Product: A dedicated merchant app offering instant settlement, invoicing, and loyalty program integration.\n    \n\nBy uniting these core offerings and stakeholder solutions, Comunitaria provides a robust, scalable, and transparent platform that drives sustainable economic growth and empowers communities worldwide.",
+          "contentURI": "https://docs.google.com/presentation/d/1Jvl1zAk9vcBwAmGX0G2-lhRAQ7h2fOAZt4B3gJ8Jyok/edit?usp=sharing",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/Comunitaria_com"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/comunitariacom"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "49000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "49000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-6",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Greep Pay - Greep POS/ Greep pay",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "A stablecoin POS that allows Merchants abroad accept African currencies seamlessly, settle instantly and grow globally With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay\u2019s ecosystem by leveraging Stellar\u2019s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar\u2019s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar\u2019s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar\u2019s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar\u2019s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar\u2019s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar\u2019s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
+          "contentURI": "https://docsend.com/view/tkx488ihwxfq2swr",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/greeppay"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/in/greep-pay/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "70000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "70000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-7",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Instant Remittance Self-Service Kiosks - Loto Punto: Automated Remmitance Kiosks",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Delivers instant stablecoin remittances to unbanked communities in LATAM through Stellar Blockchain and self-service kiosks Product\n\nLoto Punto is a kiosk for payments and payouts. It works as a gateway for 12 thousand financial services in banking, utility bills, cell phone top ups and digital wallets. Our system is integrated with Digital Identity and Open Banking services using AI, automating physical payments with high standards of security and fraud prevention.\n\nHow Loto Punto works with Stellar\n\nLoto Punto kiosks enable easy and affordable self-service transactions in local currency within seconds, providing a fast, easy, and inexpensive way to pay, send and receive money. By integrating Stellar Blockchain with Loto Punto\u2019s micro- service-oriented architecture system, we'll offer a more convenient an inexpensive channel for cross border remittances. This is achieved by converting physical FIAT currency into stable cryptocurrency and vice versa, partnering with relevant Stellar Wallets that provide on-ramp and off-ramp services in each LATAM country. For this matter, we have already an alliance with \"Meru Wallet\", that is integrated with Moneygram.\n\nIn the scope of this current project, we'll leverage our existing capabilities, installed capacity and knowledge of cryptoassets transactions, to On-Ramp fiat to crypto in the Stellar network, enabling fund transfers to Stellar accounts of end users. This new functionality will allow end users (senders) to make cost-effective remittances by converting FIAT currency deposited at Loto Punto kiosks into crypto accounts on the Stellar Network. Recipients can redeem their stablecoin digitally or at chosen Stellar anchor physical locations.\n\nBenefits\n\nLoto Punto offers a streamlined approach to financial services. Our kiosks are installed totally free in various points of sale with loyal customers such as convenient stores, drugstores and gas stations. Unlike traditional payment networks that rely on human agents, Loto Punto operates as an automated version, resulting in 50% lower operating costs. By eliminating the need for human sales agents and fixed space leasing costs,Loto Punto efficiently serves up to 40 locations with just one employee. This not only relieves point-of-sale staff from cash management operations and customer service but also provides a clear cost advantage over competitors that require a human interface for end-user transactions\n\nIn aggregate, by integrating Stellar and its Anchors, Loto Punto will serve as a convenient one-stop shop for unbanked users in LATAM.",
+          "contentURI": "https://docs.google.com/presentation/d/1DCfll3RAsSwvXaJ_FBuLYyfCMYSjTcnD/edit?usp=sharing&ouid=114136832013209626510&rtpof=true&sd=true",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/victuol"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/loto-punto/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "75975.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "75975.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-8",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Decentralized Multi-Cloud Storage - Flashback",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "The first multi-cloud platform, enabling Web3 and AI companies to manage and diversify their data storage across both centralized and decentralized cloud providers. We make it cheaper, simpler, and more flexible to store data. Web3 and AI demand for storage is rising, yet centralized cloud storage solutions dominate the market, driving up costs in a fragmented market. DePIN solutions like Filecoin and Arweave fall short, serving primarily archival needs with slow performance and limited incentives for storage providers. This forces businesses to rely on centralized providers due to the lack of seamless integration for decentralized storage.\n\nFlashback is the first agentic AI cloud diversification platform, enabling companies to diversify data across both centralized and decentralized cloud storage providers. It offers services such as credential account management, API orchestration, multi-cloud accessibility (AWS, GCP, Filecoin, StorJ), migration and interoperability, and AI-driven cost optimization and resource allocation.\n\nOne key layer of the platform is Flashback's own storage infrastructure network (DePIN), designed for Web3 businesses needing enhanced privacy, governance, and fast data retrieval. Built jointly with the Stellar Development Foundation, we have built a prototype leveraging Soroban smart contracts for service-level agreements (SLAs) and quality-of-service (QoS) evaluation. This prototype has shown reliable performances and has been approved by the SDF.\n\nWith support from the Stellar Community Fund, we aim to advance R&D on Stellar to develop a decentralized multi-cloud platform that integrates Flashback's DePIN and additional storage providers by developing the following features:\n\nFeature 1: Storage Provision Management\n\nFlashback connects storage infrastructure providers with equipment or cloud storage capacities with the platform's consumers (users and services).  \nIn this first feature, storage infrastructure providers can register and manage storage capacities across geographical regions, design SLAs, and monetize their infrastructure designed by the function of the smart contract and the platform. Providers from multiple cloud providers (centralized and decentralized) can register, add storage units with specific capacity, and manage their status (e.g. Available, Maintenance, Decommissioning). Stellar's built-in account and transaction systems ensure secure provider registration and operation tracking.\n\nFeature 2: User Allocation\n\nUsers who are developers of services using the platform can allocate and manage their storage usage in their reservation space. The platform will gather information from the smart contracts, such as costs and Quality of Services of the storage infrastructure providers, the tracking of their reservation consumption, and the history. In the long term, the consumers will incentivize the storage infrastructure providers for high performance and be able to migrate easily the data and its processes across the different cloud protocols.\n\nFeature 3: Unit Storage States\n\nThe provision from the storage infrastructure providers is segmented into unit storage. Unit storage can be reserved by one or multiple consumers. This feature of the smart contract abstracted by the platform allows storage to be tracked as unit states, including different states such as available, reserved, in-use, maintenance, and decommissioning to guarantee the storage infrastructure provider controls its operation and quality-of-services.\n\nFeature 4: Metric System\n\nThe metric system is crucial for monitoring the performances of consumers and storage infrastructure providers. Flashback must ensure the drawbacks of existing DePin technologies, which are too slow, can be solved with the network of storage infrastructure providers in Flashback. The metric system encoded in the smart contract and abstracted by the Flashback platform will collect real-time tracking of capacity, usage, and performance metrics of the storage infrastructure providers, but also consumers to drive fast data retrieval for instance.\n\nFeature 5: Security and Ownership Module\n\nFlashback is a platform that must fit with the compliance rules in different countries. We implement strict validation, caller authentication, and owner-specific operations. We leverage Stellar\u2019s robust authentication mechanisms to prevent unauthorized access and enforce contract rules to strengthen security and trust in decentralized storage management.\n\nFeature 6: Frontend Libraries/APIs\n\nA good service application can not exist without a good user interface. Flashback offers modular tools to interface with popular Stellar wallets and the Soroban smart contract, enabling developers to integrate Stellar blockchain interactions seamlessly into their applications. Simply, this feature enables the development for third-party applications, expands Stellar\u2019s ecosystem reach, and enhances accessibility for developers building on the platform.\n\nFeature 7: Engine Room Dashboard\n\nConsumers and storage infrastructure providers can track their performance with a dashboard for statistics visualization and interaction emulation for providers and consumers on the testnet. We integrate with Stellar\u2019s testnet to simulate blockchain interactions and provide real-time metrics for data and transaction visualization. We enable operational insights and testing capabilities for developers and stakeholders, enabling data-driven decisions and a smoother transition to mainnet deployment.\n\nBy developing these features, we want to guarantee the Flashback\u2019s DePIN service will empower businesses to have a comfortable and user-friendly granularity of decentralized storage. Leveraging Stellar\u2019s robust smart contracts and authentication mechanisms, this service guarantees secure, compliant, and scalable operations for the modern Web3 ecosystem. Ultimately, we want to unlock unprecedented control and flexibility for developers, enabling them to drive innovation and achieve a competitive edge in a fragmented cloud market. We want to make Stellar technologies the backbone of our platform to bring more decentralization in the Cloud uses.",
+          "contentURI": "",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/FlashbackSocial"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/yy8kyM5qFB"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/flashback-network"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "120000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "120000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-9",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Keys, Wallets and Identity for Stellar - human.tech",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "human.tech provides infrastructure for digital rights such as privacy, security, and financial freedom human.tech presents a comprehensive, multi-phase vision for transforming aid distribution and financial access on Stellar.  \n\nPhase I: Personhood Proofs for Aid Distribution Human ID and Human Passport system will enable the 1 billion people without official identification to create verifiable digital identities on Stellar. This system integrates directly with Stellar's payment operations and compliance features, allowing aid organizations to distribute funds to verified recipients while maintaining complete privacy. Our Sybil-resistant protocols ensure each recipient is unique, addressing the 30-40+% inefficiency in current aid distribution systems. Stellar's low-cost, high-speed transactions are essential for making this system viable at scale.\n\n  \nPhase II: Onboarding with Human Keys Building on our Refunite partnership (connecting 100,000 community leaders representing over 100M people across Africa), we'll develop streamlined onboarding systems using Human Keys to bring large populations onto Stellar. This phase will leverage Stellar's accessible infrastructure to create financial inclusion pathways for previously underserved communities.\n\n  \nPhase III: Human Wallet for Stellar (Future Vision) The final phase will deliver a user-friendly wallet utilizing Human Keys for intuitive authentication while ensuring users maintain full control over their Stellar assets with easy recovery options. This will provide seamless access to Stellar's decentralized exchange and cross-border capabilities.",
+          "contentURI": "https://docsend.com/login",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/0xholonym"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "150000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "150000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-10",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Stellar on Unstoppable Wallet - Unstoppable Wallet",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Offers Stellar integration & cross-chain swaps to help crypto users manage assets & access DeFi seamlessly with a secure, open-source, non-custodial wallet. Unstoppable Wallet is a non-custodial, open-source cryptocurrency wallet that enables users to securely manage their assets across multiple blockchains. The upcoming development focuses on integrating Stellar support, enabling cross-chain swaps, and improving the user experience through intuitive UI components. All components will be open-source, fostering transparency and collaboration within the developer community.\n\nStellar Integration Kit: This will allow seamless interaction with the Stellar blockchain, enabling balance management and transaction execution. Stellar\u2019s fast and low-cost transactions will enhance the wallet\u2019s functionality, improving the user experience on both iOS and Android platforms.\n\nCross-Chain Swap Module: We will integrate a cross-chain swap solution, allowing users to exchange assets between Stellar and other blockchains. Stellar\u2019s interoperability will be leveraged to facilitate liquidity and USDC transfers, driving deeper engagement within the Stellar ecosystem and expanding decentralized finance (DeFi) opportunities.\n\nUI Components for Cross-Chain Swaps: The integration of intuitive UI elements for cross-chain swaps will ensure an efficient and seamless user experience. This feature will enhance ease of use and ensure users can quickly access and manage their assets across blockchains.\n\nThese features will enhance the Unstoppable Wallet, expanding its capabilities, increasing user engagement with Stellar-based assets, and providing more DeFi opportunities through cross-chain interoperability.",
+          "contentURI": "https://docsend.com/view/sarwn2yyr545knj3",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/unstoppablebyhs"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "128900.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "128900.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-11",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Cross-chain Explorer & Intelligence - Range: Cross-chain intelligence platform",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "This proposal seeks to integrate the Stellar ecosystem with Range\u2019s Cross-Chain Explorer and Range Trail, our cross-chain, cross-ecosystem, real-time forensic intelligence platform.  The goal is to provide Stellar teams with new analytical and intelligence tools and improve the onboarding UX for new end users. #1: Cross-Chain Explorer Integration (including Range API)\n\nRange\u2019s Cross-Chain Explorer will incorporate Stellar and data from Allbridge, Axelar, and Tricorn (and other upcoming interoperability protocols), providing real-time, comprehensive asset tracking across the Stellar ecosystem. This will allow users, developers, and product teams to filter and monitor inflows, outflows, bridge routes, and counterparty chains, offering deeper transparency into cross-chain asset movement.\n\nWith this integration, users will gain instant visibility into cross-chain liquidity flows, helping them track bridged assets, analyze cross-chain transactions, and detect anomalies or unusual activity. Builders and product teams can evaluate user behavior trends, optimize liquidity strategies, and respond to shifting market conditions more effectively.\n\nFurthermore, all data from this integration will be accessible via the Range API, enabling developers to build custom dashboards, risk monitoring tools, and analytics solutions tailored to their needs. This ensures that projects in the Stellar ecosystem can seamlessly integrate cross-chain intelligence into their applications, improving decision-making and security across the network.\n\nLearn more about the benefits of the Cross-Chain Explorer and how developers can leverage this data for advanced tracking, compliance, and asset security.\n\n#2: Stellar Bridge Explorer\n\nRange will develop a dedicated public Stellar Bridge Explorer to provide a real-time view of asset transfers to and from Stellar over Allbridge, Axelar, and Tricorn (and other upcoming interoperability protocols).\u00a0\n\nWhile the Cross-Chain Explorer integration above will display Stellar-related transactions in our full explorer for every ecosystem, allowing for cross-ecosystem awareness, this bridge explorer will be specific to Stellar only. It will include relevant cross-chain analytics such as inflows and outflows, key addresses, and volume metrics. See https://ibc.range.org/ibc/flows for reference.\n\nThe Stellar Bridge Explorer (to be hosted at stellar.range.org) will be similar to usdc.range.org, which tracks USDC transfers across Circle\u2019s CCTP, relied on by the team at dYdX, Circle and others for their day-to-day operations.\n\n#3: Advanced Trail Intelligence for Stellar\n\nWe will integrate Stellar into Range\u2019s Trail platform - our leading cross-chain risk, intelligence, and investigation tool. Our platform was instrumental in multiple hack investigations this past year, supporting companies such as Circle, Solana Foundation, and Neutron.\n\nRange Trail will track Stellar wallets\u2019 transaction flows across chains and ecosystems. It will enable transaction flow analysis, user profiling, and cross-chain activity tracking. Teams can visualize asset movements through interactive graphs and address cluster views, making it easier to analyze user behavior, detect suspicious activity, and identify high-risk counterparties This integration streamlines risk management and compliance processes, empowering teams to monitor assets and transactions across ecosystems.\n\nIn the event of a security incident, Range Trail will enable detailed forensic investigations, tracking stolen or compromised assets in real-time across multiple ecosystems. This capability will help teams pinpoint where funds have been moved and how they are being distributed and provide critical intelligence for recovery efforts.\n\nIntegrating Stellar into Range Trail empowers ecosystem teams, security researchers, and compliance officers with a powerful toolset for risk management, asset monitoring, and real-time blockchain forensics.\n\n#4: 6 months of Comprehensive Post Delivery ServiceAdvanced\n\nOnce we have completed the development and launch of the 3 products mentioned above, as part of this proposal, we will deliver six months of our comprehensive Post Delivery Service, which includes:\u00a0\n\n-   Maintenance to ensure compatibility with chain upgrades.\n    \n-   Updates to our parsers and processing to accommodate new types of onchain transactions and feature developments.\n    \n-   Additions or tweaks to the analytics and dashboards we produce to better align with common queries by ecosystem partners.\n    \n-   Exposing any such new metrics to all our API endpoints used by teams in Stellar.\n    \n-   Add new cross-ecosystem interoperability protocols as they onboard Stellar to their protocols.",
+          "contentURI": "https://docs.google.com/document/d/1g1qDRUHcasyOuLCmoCLgJVIkTshMhIe-RnGLJpD3fA8/",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/RangeSecurity"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/rangesecurity"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "150000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "150000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-12",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Stellar Data Engine by Mobula - Mobula Labs",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Provides Stellar blockchain indexing & APIs to help developers access real-time & historical data easily, with structured insights Products & Services:\n\nWith the SCF Build Award, we will integrate Stellar into Mobula by developing a comprehensive data indexing and API suite tailored for the Stellar ecosystem.\n\n-   Indexing Stellar\u2019s blockchain: Capturing transactions, asset movements, and Soroban smart contract interactions in real-time.\n    \n-   Structured and easily accessible data: Reducing complexity for developers to retrieve on-chain data.\n    \n-   Comprehensive API services: Providing seamless access to transaction history, account states, token metadata, and Soroban contract execution data.\n    \n-   Market and asset data aggregation: Enabling tracking of liquidity pools, swaps, and DEX activity within Stellar.\n    \n-   Enhancing accessibility for Stellar developers: Enabling better DeFi applications, analytics services, and financial tools.",
+          "contentURI": "",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/Mobulaio"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/JVT7xKm3AD"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/mobulalabs/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "122000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "122000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-13",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Upwealth - Smart Contract SMAs - Upwealth",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Upwealth empowers financial advisors with Smart Contract SMAs, AI tools & DeFi for crypto investing. It bridges the crypto access gap in a fully SEC and AMF(EU) compliant framework Upwealth is an AI-powered, Web3-native investment and management platform registered with the SEC (US) and AMF (EU), designed for financial professionals (RIAs, wealth managers) to offer digital asset investments to their customers seamlessly.\n\nHere is a list of features based on the integration with Stellar technologies:  \n\nFeature 1: Smart Contract SMAs (Soroban-Based)\n\nHow Stellar Is Used: Leverages Soroban smart contracts for non-custodial portfolios with automated rebalancing, discretionary trading, tax optimization, and compliance.\n\nImpact: Users retain full control of their assets (withdrawals anytime), while Upwealth can execute trades on-chain, ensuring greater transparency and security (currently transitioning from a custodial model via CEXs).  \n\nFeature 2: DEX & Wallet Integrations\n\nHow Stellar Is Used: Connects to Stellar-based wallets (Lobstr, Solar, Albedo) for seamless authentication, investing and fund management.\n\nImpact: Simplifies user onboarding, enables secure storage and transactions, and improves overall user experience with direct Stellar network access.\n\n  \nFeature 3: On-Chain Liquidity & DeFi Access\n\nHow Stellar Is Used: Integrates with Stellar\u2019s AMMs, SDEX and liquidity pools for efficient on-chain trade execution and settlement, plus cross-chain expansion via Allbridge and Blend Protocol.\n\nImpact: Reduces transaction costs and execution times, broadens asset availability, and supports diversified portfolios with DeFi capabilities.  \n\nFeature 4: Security Enhancements\n\nHow Stellar Is Used: Implements pre-authorized transactions, multi-signature security (Vaults), and compliance checks.\n\nImpact: Strengthens asset protection, ensures regulatory alignment, and fosters trust among institutional and retail investors.  \n\nThese integrations will transition Upwealth from an off-chain operational platform to a decentralized, institutional-grade investment platform, leveraging Stellar\u2019s high-speed, low-cost blockchain for secure, scalable digital asset management.",
+          "contentURI": "",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/Upwealth_io"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/up-wealth"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "88000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "88000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-14",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Stellar DappRadar NFTs and DeFi tracking - DappRadar",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Listing and tracking Stellar\u2019s NFTs trading, such as marketplaces, collections and sales, as well as displaying more DeFi-related data such as TVL. At present DappRadar supports full tracking for Stellar dapps in multiple categories such as games, AI, social and tokens. It also supports partial tracking for Stellar DeFi and NFT dapps. If successful with this submission, DappRadar will extend its tracking of Stellar dapps in three ways:\n\n-   Full NFT tracking. This will cover listing, tracking and ranking Stellar\u2019s NFT collections and supporting the following metrics:\u00a0\n    \n    -   Collection floor price\n        \n    -   Average price\n        \n    -   Collection market cap\n        \n    -   Trading volume\n        \n    -   Number of traders\n        \n    -   Number of sales\n        \n    -   Full historical data\n        \n    -   Tracking of (and display of) individual NFT trades between users  \n        \n-   NFT marketplaces. This will cover listing, tracking and ranking Stellar\u2019s NFT marketplaces, and supporting the following metrics:\u00a0\n    \n    -   Average NFT prices on marketplaces\n        \n    -   Number of traders\n        \n    -   Number of sales and trading volume\n        \n    -   Historical data (meaning that past activity will be fully represented)  \n        \n-   Full DeFi tracking. This will entail the following metrics added to Stellar\u2019s DeFi dapps:\u00a0\n    \n    -   TVL\n        \n    -   Adjusted TVL\n        \n    -   TVL with token market cap ratio",
+          "contentURI": "",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/dappradar"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.com/invite/4ybbssrHkm"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "95000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "95000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-15",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Randomness beacon for Soroban - NebulaVRF",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "NebulaVRF provides developers with a fully on-chain VRF for Soroban, ensuring secure, verifiable randomness without external oracles. NebulaVRF is a Verifiable Random Function (VRF) for Soroban, providing secure, unbiased, and cryptographically verifiable randomness for decentralized applications. It eliminates reliance on centralized randomness sources, ensuring tamper-proof and trustless randomness.\n\nEnsuring pure randomness is critical in decentralized systems because predictable randomness leads to manipulation and exploits. A well-known issue is the last-mover attack (vector bias), where the final participant in a randomness-based event\u2014such as a lottery or validator selection\u2014can delay or withhold their commitment until they see a favorable outcome. This exploit allows malicious actors to influence supposedly fair processes by selectively participating only when the randomness favors them. Without a cryptographic guarantee, many existing blockchain randomness implementations remain vulnerable to such attacks, making them unsuitable for high-stakes applications like DeFi, governance, gaming, and secure voting.\n\nOur current (tentative) approach being the VRF is, the VRF function generates randomness by taking a seed (optional, BytesN) for user-provided entropy, block metadata (BytesN) including block hash and timestamp for unpredictability, and a public identifier (String) like a user address or contract call ID to differentiate requests. The function outputs a 32-byte cryptographically generated random value along with a 64-byte verifiable proof, ensuring the randomness is tamper-proof and can be validated later.\n\nDevelopers can integrate NebulaVRF in three ways:\n\n1.  On-Chain Soroban Contract \u2013 For fully trustless and verifiable randomness, ideal for DeFi, DAO governance, and NFT trait assignment.\n    \n1.  Fast API Endpoint \u2013 For low-latency randomness, useful in gaming, real-time lotteries, and airdrops, with optional on-chain proof verification.\n    \n1.  Rust-Based SDK (Cargo Package) \u2013 For backend applications needing secure randomness without blockchain overhead, such as AI models, or Web3 marketplaces.\n    \n\nUse Cases\n\n-   Gaming & Lotteries \u2013 Fair dice rolls, loot box rewards, randomized game mechanics.\n    \n-   NFTs & Metaverse \u2013 Randomized trait distribution, rarity assignment.\n    \n-   DeFi & Airdrops \u2013 Random token distributions, fair reward allocation.\n    \n-   DAO Governance \u2013 Unbiased committee selection, randomized voting mechanics.",
+          "contentURI": "",
+          "status": "approved",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "34000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "34000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-16",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "Laina to mainnet! - Laina",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Defi made simple. Laina - an open source loan platform focusing on single-token lending pools. We are launching a decentralized finance platform focused on efficient lending and borrowing. The initial product is a robust, user-friendly platform designed to overcome common DeFi complexities while minimizing liquidity fragmentation. Users will gain access to high-yield opportunities for their assets and low-fee loans against their crypto holdings. The platform addresses key issues in DeFi by simplifying processes, offering better rates due to low spreads, and introducing collateral swapping for greater borrowing flexibility.",
+          "contentURI": "",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/Lainadefi"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/2tdzZmXSSF"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "115000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "115000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34-17",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 34,
+          "grantPoolName": "SCF #34",
+          "projectsURI": "",
+          "projectName": "JLending Protocol on Stellar - JLending",
+          "createdAt": "2025-02-09T00:00:00",
+          "projectDescription": "Efficient lending protocol with a looping feature ensuring seamless service and reliable security for lenders and borrowers JLending provides a secure lending and borrowing platform with looping functionality. Built on the Stellar network, JLending leverages its low transaction fees and fast settlement for seamless user experiences. By implementing over-collateralized loans, dynamic interest rates, and integrations with Stellar wallets and price oracles, JLending enhances the DeFi ecosystem on Stellar, offering accessible service to lenders, borrowers, and loopers.",
+          "contentURI": "",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/JPoolSolana"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/in/alex-a-ray/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "145000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "145000.00",
+          "payoutAddress": {},
+          "payouts": []
+        }
+      ]
+    }
+  ]
+}
