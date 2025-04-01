@@ -1,189 +1,197 @@
 {
-    "@context": "http://www.daostar.org/schemas",
-    "name": "Stellar Community Fund",
-    "type": "Entity",
-    "grantPools": [
-      {
-        "type": "GrantPool",
-        "name": "SCF #1",
-        "applications": [
-          {
-            "type": "GrantApplication",
-            "id": "1",
-            "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/grants_pool.json",
-            "grantPoolId": 1,
-            "grantPoolName": "SCF #1",
-            "projectsURI": "",
-            "projectName": "Lumenaut Pool - Lumenaut Pool",
-            "createdAt": "",
-            "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recoN8vGUgyzU9MKv",
-            "status": "funded",
-            "socials": [],
-            "fundsApproved": [
-              {
-                "amount": "37844.32",
-                "denomination": "USD"
-              }
-            ],
-            "fundsApprovedInUSD": "37844.32",
-            "payoutAddress": {},
-            "payouts": []
-          },
-          {
-            "type": "GrantApplication",
-            "id": "2",
-            "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/grants_pool.json",
-            "grantPoolId": 1,
-            "grantPoolName": "SCF #1",
-            "projectsURI": "",
-            "projectName": "StellarGuard - Security for your Stellar account - StellarGuard",
-            "createdAt": "",
-            "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recCm1a3tDKd0Whro",
-            "status": "funded",
-            "socials": [],
-            "fundsApproved": [
-              {
-                "amount": "53824.92",
-                "denomination": "USD"
-              }
-            ],
-            "fundsApprovedInUSD": "53824.92",
-            "payoutAddress": {},
-            "payouts": []
-          },
-          {
-            "type": "GrantApplication",
-            "id": "3",
-            "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/grants_pool.json",
-            "grantPoolId": 1,
-            "grantPoolName": "SCF #1",
-            "projectsURI": "",
-            "projectName": "Equilibre.io ~ A Portfolio Balancer for Stellar - Equilibre.io",
-            "createdAt": "",
-            "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recOfX9DBePHbRry1",
-            "status": "funded",
-            "socials": [],
-            "fundsApproved": [
-              {
-                "amount": "31377.49",
-                "denomination": "USD"
-              }
-            ],
-            "fundsApprovedInUSD": "31377.49",
-            "payoutAddress": {},
-            "payouts": []
-          },
-          {
-            "type": "GrantApplication",
-            "id": "4",
-            "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/grants_pool.json",
-            "grantPoolId": 1,
-            "grantPoolName": "SCF #1",
-            "projectsURI": "",
-            "projectName": "Astrograph \u2014 Explore the new horizons of Stellar network - Astrograph",
-            "createdAt": "",
-            "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recpR7pkCjncJOfT3",
-            "status": "funded",
-            "socials": [],
-            "fundsApproved": [
-              {
-                "amount": "10050.82",
-                "denomination": "USD"
-              }
-            ],
-            "fundsApprovedInUSD": "10050.82",
-            "payoutAddress": {},
-            "payouts": []
-          },
-          {
-            "type": "GrantApplication",
-            "id": "5",
-            "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/grants_pool.json",
-            "grantPoolId": 1,
-            "grantPoolName": "SCF #1",
-            "projectsURI": "",
-            "projectName": "SWPLUG - SWPLUG",
-            "createdAt": "",
-            "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec8qIbuHeFZl2XVL",
-            "status": "funded",
-            "socials": [],
-            "fundsApproved": [
-              {
-                "amount": "35717.93",
-                "denomination": "USD"
-              }
-            ],
-            "fundsApprovedInUSD": "35717.93",
-            "payoutAddress": {},
-            "payouts": []
-          },
-          {
-            "type": "GrantApplication",
-            "id": "6",
-            "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/grants_pool.json",
-            "grantPoolId": 1,
-            "grantPoolName": "SCF #1",
-            "projectsURI": "",
-            "projectName": "Stellar Python SDK - Python Stellar SDK",
-            "createdAt": "",
-            "contentURI": "https://communityfund.stellar.org/dashboard/submissions/reciEJw932bi9fM5Y",
-            "status": "funded",
-            "socials": [],
-            "fundsApproved": [
-              {
-                "amount": "29860.59",
-                "denomination": "USD"
-              }
-            ],
-            "fundsApprovedInUSD": "29860.59",
-            "payoutAddress": {},
-            "payouts": []
-          },
-          {
-            "type": "GrantApplication",
-            "id": "7",
-            "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/grants_pool.json",
-            "grantPoolId": 1,
-            "grantPoolName": "SCF #1",
-            "projectsURI": "",
-            "projectName": "Timed Transactions API - Schedule payments on the Stellar network! - Timed Transactions API",
-            "createdAt": "",
-            "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recOamGIP0chX9mhu",
-            "status": "funded",
-            "socials": [],
-            "fundsApproved": [
-              {
-                "amount": "19994.09",
-                "denomination": "USD"
-              }
-            ],
-            "fundsApprovedInUSD": "19994.09",
-            "payoutAddress": {},
-            "payouts": []
-          },
-          {
-            "type": "GrantApplication",
-            "id": "8",
-            "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/grants_pool.json",
-            "grantPoolId": 1,
-            "grantPoolName": "SCF #1",
-            "projectsURI": "",
-            "projectName": "Stellar Community Forum - Stellar Community Forum",
-            "createdAt": "",
-            "contentURI": "https://communityfund.stellar.org/dashboard/submissions/receQ7xIMdPbzPK31",
-            "status": "funded",
-            "socials": [],
-            "fundsApproved": [
-              {
-                "amount": "21509.98",
-                "denomination": "USD"
-              }
-            ],
-            "fundsApprovedInUSD": "21509.98",
-            "payoutAddress": {},
-            "payouts": []
-          }
-        ]
-      }
-    ]
-  }
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "SCF #1",
+      "applications": [
+        {
+          "type": "GrantApplication",
+          "id": "1-628",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 1,
+          "grantPoolName": "SCF #1",
+          "projectsURI": "",
+          "projectName": "Lumenaut Pool - Lumenaut Pool",
+          "createdAt": "2019-06-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recoN8vGUgyzU9MKv",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "37844.32",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "37844.32",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "1-629",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 1,
+          "grantPoolName": "SCF #1",
+          "projectsURI": "",
+          "projectName": "StellarGuard - Security for your Stellar account - StellarGuard",
+          "createdAt": "2019-06-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recCm1a3tDKd0Whro",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "53824.92",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "53824.92",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "1-630",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 1,
+          "grantPoolName": "SCF #1",
+          "projectsURI": "",
+          "projectName": "Equilibre.io ~ A Portfolio Balancer for Stellar - Equilibre.io",
+          "createdAt": "2019-06-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recOfX9DBePHbRry1",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "31377.49",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "31377.49",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "1-631",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 1,
+          "grantPoolName": "SCF #1",
+          "projectsURI": "",
+          "projectName": "Astrograph \u2014 Explore the new horizons of Stellar network - Astrograph",
+          "createdAt": "2019-06-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recpR7pkCjncJOfT3",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "10050.82",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "10050.82",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "1-632",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 1,
+          "grantPoolName": "SCF #1",
+          "projectsURI": "",
+          "projectName": "SWPLUG - SWPLUG",
+          "createdAt": "2019-06-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec8qIbuHeFZl2XVL",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "35717.93",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "35717.93",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "1-633",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 1,
+          "grantPoolName": "SCF #1",
+          "projectsURI": "",
+          "projectName": "Stellar Python SDK - Python Stellar SDK",
+          "createdAt": "2019-06-22T00:00:00",
+          "projectDescription": "Py-stellar-sdk is a Python library for communicating with a Stellar Horizon server. It is used for building Stellar apps on Python. nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/reciEJw932bi9fM5Y",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "29860.59",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "29860.59",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "1-634",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 1,
+          "grantPoolName": "SCF #1",
+          "projectsURI": "",
+          "projectName": "Timed Transactions API - Schedule payments on the Stellar network! - Timed Transactions API",
+          "createdAt": "2019-06-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recOamGIP0chX9mhu",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "19994.09",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "19994.09",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "1-635",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 1,
+          "grantPoolName": "SCF #1",
+          "projectsURI": "",
+          "projectName": "Stellar Community Forum - Stellar Community Forum",
+          "createdAt": "2019-06-22T00:00:00",
+          "projectDescription": "nan nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/receQ7xIMdPbzPK31",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "21509.98",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "21509.98",
+          "payoutAddress": {},
+          "payouts": []
+        }
+      ]
+    }
+  ]
+}

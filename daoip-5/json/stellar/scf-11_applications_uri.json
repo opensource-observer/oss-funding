@@ -1,473 +1,524 @@
 {
-    "@context": "http://www.daostar.org/schemas",
-    "name": "Stellar",
-    "type": "Foundation",
-    "grant_pools": [
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "SCF #11",
+      "applications": [
         {
-            "type": "GrantPool",
-            "name": "scf-11",
-            "applications": [
-                {
-                    "type": "GrantApplication",
-                    "id": "1",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHtbbed2g2fGLlZ",
-                    "projectId": "kata-games",
-                    "projectName": "Kata.Games - Sharing platform",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHtbbed2g2fGLlZ",
-                    "fundsAsked": [
-                        {
-                            "amount": 25000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 286730,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "2",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHSkknw3I5dlCDK",
-                    "projectId": "paystreme",
-                    "projectName": "Paystreme",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHSkknw3I5dlCDK",
-                    "fundsAsked": [
-                        {
-                            "amount": 50000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 573460,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "3",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec98Nb2sLU0GFRvp",
-                    "projectId": "elsa-wallet-banking-filipinos",
-                    "projectName": "Elsa Wallet: Banking Filipinos",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec98Nb2sLU0GFRvp",
-                    "fundsAsked": [
-                        {
-                            "amount": 95000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1089574,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "4",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9ylKAGxTVT4Lex",
-                    "projectId": "kotani-pay",
-                    "projectName": "Kotani Pay",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9ylKAGxTVT4Lex",
-                    "fundsAsked": [
-                        {
-                            "amount": 100000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1146920,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "5",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recekYNQEoPjP1Did",
-                    "projectId": "horizon-as-a-service",
-                    "projectName": "Horizon-as-a-service",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recekYNQEoPjP1Did",
-                    "fundsAsked": [
-                        {
-                            "amount": 2500.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 28673,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "6",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqUH2wcPLJ4Yy7j",
-                    "projectId": "chronospay",
-                    "projectName": "Chronospay",
-                    "createdAt": "2022-12-15T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqUH2wcPLJ4Yy7j",
-                    "fundsAsked": [
-                        {
-                            "amount": 65000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 745498,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "7",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuNwIpd0qywbkzi",
-                    "projectId": "anchain-ai",
-                    "projectName": "CISO/BEI Stellar integration",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuNwIpd0qywbkzi",
-                    "fundsAsked": [
-                        {
-                            "amount": 195000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 2236495,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "8",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJj84gbiQVNojVa",
-                    "projectId": "scam-flagging-system",
-                    "projectName": "Scam Flagging System",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJj84gbiQVNojVa",
-                    "fundsAsked": [
-                        {
-                            "amount": 10000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 114692,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "9",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLsBtTbsX1MST6w",
-                    "projectId": "empowch",
-                    "projectName": "Empowch",
-                    "createdAt": "2022-12-14T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLsBtTbsX1MST6w",
-                    "fundsAsked": [
-                        {
-                            "amount": 25000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 286730,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "10",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recRhRDNW8zDJZBPA",
-                    "projectId": "cashabroad",
-                    "projectName": "CashAbroad",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recRhRDNW8zDJZBPA",
-                    "fundsAsked": [
-                        {
-                            "amount": 10000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 114692,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "11",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTgnhXkShvxMuZb",
-                    "projectId": "bravepay-",
-                    "projectName": "BravePay: New Era of payments",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTgnhXkShvxMuZb",
-                    "fundsAsked": [
-                        {
-                            "amount": 200000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 2293841,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "12",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVFqjqi3AZbPdfb",
-                    "projectId": "mythforge",
-                    "projectName": "Mythforge",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVFqjqi3AZbPdfb",
-                    "fundsAsked": [
-                        {
-                            "amount": 15000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 172038,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "13",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec2zLlTCpBSzq6XL",
-                    "projectId": "mojoflower",
-                    "projectName": "Flora",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec2zLlTCpBSzq6XL",
-                    "fundsAsked": [
-                        {
-                            "amount": 47500.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 544787,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "14",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec7rqjVZKmExp44A",
-                    "projectId": "snnac",
-                    "projectName": "SNNAC - Stellar NFT NFC ACcess",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec7rqjVZKmExp44A",
-                    "fundsAsked": [
-                        {
-                            "amount": 7500.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 86019,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "15",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rectAXtdhsFXyPWfP",
-                    "projectId": "wirecash",
-                    "projectName": "Wirecash",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rectAXtdhsFXyPWfP",
-                    "fundsAsked": [
-                        {
-                            "amount": 100000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1146920,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "16",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLcwrhYkZd6qH2o",
-                    "projectId": "stellarcarbon",
-                    "projectName": "Stellarcarbon",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLcwrhYkZd6qH2o",
-                    "fundsAsked": [
-                        {
-                            "amount": 37000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 424360,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "17",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recPl3UvHNe1nngVy",
-                    "projectId": "sorobanpulse",
-                    "projectName": "StellarPulse",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recPl3UvHNe1nngVy",
-                    "fundsAsked": [
-                        {
-                            "amount": 30000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 344076,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "18",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recYsvymcjyhXY4XV",
-                    "projectId": "stex",
-                    "projectName": "sTeX",
-                    "createdAt": "2022-12-12T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recYsvymcjyhXY4XV",
-                    "fundsAsked": [
-                        {
-                            "amount": 17000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 194976,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "19",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recY3x0bUhYwPUUSY",
-                    "projectId": "spacewalk",
-                    "projectName": "Spacewalk",
-                    "createdAt": "2022-12-09T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recY3x0bUhYwPUUSY",
-                    "fundsAsked": [
-                        {
-                            "amount": 100000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1146920,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "20",
-                    "grantPoolId": "scf-11",
-                    "grantPoolName": "scf-11",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZ1SF2QkpUgMr2U",
-                    "projectId": "zig3v2",
-                    "projectName": "Zig3v2",
-                    "createdAt": "2022-12-12T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZ1SF2QkpUgMr2U",
-                    "fundsAsked": [
-                        {
-                            "amount": 2500.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 28673,
-                            "denomination": "XLM"
-                        }
-                    ]
-                }
-            ]
+          "type": "GrantApplication",
+          "id": "11-522",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Flora - Mojoflower",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "Flora is a marketplace where users can access apps, integrations, transaction templates, and third-party Soroban Smart Contracts. Problem. There are a lot of practical web3 applications that people can use, but adoption could be much higher. One big hurdle for user adoption is access to services, steep learning curves, and complicated user experiences. We want to simplify the user experience and promote the use cases rather than the underlying technology.\n\nFlora makes it easier for users to transact and engage. We want to make it easy for our users to access a variety of curated services that helps them make use of the Stellar network. Flora gives users access to apps and services for specific use cases, focuses on business, and aims to allow business owners to assemble their value chain much more quickly. These apps include transactions, governance tools, voting modules, invoicing, payment services, and third-party services.\n\nFirst, we will focus on transactions and transaction templates. Users can set transaction parameters through intuitive wizards and with human-friendly language. Some templates will include legal guidance to help users attach documents as legal proof of their transactions and improve user comfort.\n\nTransaction templates can be described as UI components for Stellar for smart contracts, both Classic Stellar Smart Contracts and transactions and later for Soroban Smart Contracts. Our focus is on business owners and project creators that want to bring their traditional business closer to DeFi and web3.\n\nAll users will require a Stellar wallet to keep their assets safe and secure. We will seek a relationship with developers on Stellar for support and the development of more apps and integrations, support growth, and contribute to user adoption on the network.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec2zLlTCpBSzq6XL",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/home/Mojoflower"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/mojoflower/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "47500.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "47500.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-523",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "SNNAC - Stellar NFT NFC ACcess - SNNAC",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "SNNAC users engage in seamless transactions using Stellar Lumens, Non-Fungible Tokens (NFTs) & Near Field Communications (NFC). NFT gated access is widely applicable. From concert tickets to security access to social club membership, our free and open-source software (FOSS) can be used by anyone to create NFT based ecosystems utilizing the Stellar blockchain. We plan to bundle the hardware preloaded with the software for purchase and easy non-technical setup.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec7rqjVZKmExp44A",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "7500.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "7500.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-524",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "CashAbroad - CashAbroad",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "Cashabroad helps businesses do abroad payments as easy as with locals, with low-cost and instant transactions. \ud83c\udf81 Product\n\nCashAbroad is a web platform where businesses in Latam can send and receive cross-border payments from international merchants and vendors with low-cost, instant transactions and a group of smart features that make your paying journey a pleasure.\n\n\ud83e\udd14 Problem\n\nPaying vendors is disorganized and inefficient because approvals, invoices, and payments are often on different channels, like WhatsApp, emails, and paper bills. Moreover, Mexican companies lose up to +9-12% in revenue in cross-border payments and spend up to 30 hours or more a month on payment transactions, a time that would be best spent on strategy. These businesses also struggle with liquidity due to long settlement times, which push them to use credits or loans (more costs!) to keep their businesses running. On top of that, they spend effort and time redoing their invoices due to constant exchange rate fluctuations. We are creating features to help them do their job smoothly and pain-free.\n\n- Pay/receive directly with your local currency to merchants abroad in dollars or their local currency.\n- Automatic Payments | Schedule a one-time/recurrent date to pay one or multiple recipients; great for utility bills or salaries.\n- Mass Payments | Pay simultaneously to multiple users. Great for paying salaries!\n- Invoices | Sent invoices with smart adjustments to request payments (USD/local currency).\n- Accounting Imports | Download your transaction history to use it on your favorite accounting software.\n- Approvals | Invite collaborators and request approvals, for example, from accounting or you!\n\nWith Cashabroad, businesses of small and medium sizes like developing, design, marketing agencies, people that give courses online, consultants, real estate, and others will be able to open their frontiers.\n\n\u2692\ufe0f How it Works\n\nIn partnership with Wyre, we create a custodial wallet for each user and through Stellar Blockchain have compliant FIAT to crypto On/Off ramps. Plus KYB and AML compliance. We use Spreedly to be PCI compliant.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recRhRDNW8zDJZBPA",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/CashAbroadApp"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/cashabroad/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "10000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "10000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-525",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Mythforge - Mythforge",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "A game utilizing XLM to provide players a way to immortalize their favourite in-game items MMORPG\n\nA game that allows players to immortalize and secure the items they create by minting NFTs and linking their item to the Stellar blockchain. Future features will utilize Smart Contracts to enable players to loan their NFT gear out to other players and set the rental fees.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recVFqjqi3AZbPdfb",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "15000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "15000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-526",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Elsa Wallet: Banking Filipinos - Elsa Wallet: Banking Filipinos",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "A wallet for Filipinos to receive, spend and earn from their remittances \u2013 bringing them closer to their overseas loved ones elsa.care is an all-in-one platform where Overseas Filipinos and their loved ones can deal with all-things-money: send, receive, hold, and earn in a flexible, social, and easy way for senders and receivers. FEE-FREE CROSS-BORDER PAYMENTS APP FOR OVERSEAS WORKERS. Our app allows overseas Filipino workers to transfer money without fixed fees at the best rates \u2013 saving an average 7.5% in fees on their hard-earned money. By removing fees, migrant workers are empowered with the opportunity to send what their families need, when they most need it. We built a network of +25,000 offramp locations nationwide \u2013 covering grocery chains, drugstores, hospitals, clinics, financial institutions, and cash networks, as well as utility suppliers including load and data providers, electricity, and water billers. RECEIVER WALLET: LAUNCHING THE FIRST TWO-SIDED REMITTANCE SERVICE. But remittances are naturally a two-way dynamic between migrant workers sending and those receiving funds \u2013 currently only served through remittance solutions on the send-side. +50 million people in the Philippines rely on remittances to make ends meet. More often than not, these people have been left behind by the financial system. The elsa.care Receiver App allows distant families to communicate and manage their family finances in a one-stop-shop. Through our wallet, Elsa revolutionizes the off-ramping experience for those whose lifeline depends on cross-border inflows. Allowing recipients to receive and track remittances, hold it in a local currency token \u2013 or USDC to hedge inflation \u2013 generate a yield on their balance, redeem through our nationwide network, and even earn rewards from our partners. A NEXT-GEN APP FOR FINANCIAL INCLUSION OF THE UNDERBANKED. We aim to onboard non crypto-savvy users to benefit from Stellar by building non-custodial wallets for the underbanked Filipinos. This project will be the first step towards building an ecosystem of decentralized financial services that empowers 50% of the Philippine adult population to save, spend, and even access fair credit and loans. This wallet serves as the cornerstone of our vision: helping make payments more fair, and the financial system more accessible for +60m Filipinos!",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec98Nb2sLU0GFRvp",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "95000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "95000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-527",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Empowch - Empowch",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "Offering a mobile wallet to the unbanked the MENA region by connecting them with family members abroad. We are offering a mobile wallet for the Lebanese diaspora to send remittances to their family members back home easier, faster, and cheaper. It also allows freelancers in Lebanon to get paid directly to their mobile app and use the cash within our ecosystem. We are building on Stellar and offering a self-custody wallet. With the increasing anchor network, we can help people in Lebanon get included in the modern economy.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recLsBtTbsX1MST6w",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "25000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "25000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-528",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Zig3v2 - Zig3v2",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "Easy, Fast & Secure Stellar Biometric Account Creation, Storage and Signing wallet protocol The Zig3v2 project has clear objectives in mind: Reduce cognitive complexity to enter the Stellar ecosystem by providing a secure way to create accounts, sign for Stellar transactions, all with a touch of the thumb or a snapshot of the face via biometrics, without having to install a browser extension or download an app. We believe this facility for the Stellar community would be great for low-value transactions and a move to a new Decentralised Standard.\n\nCreate a wallet to provide the easiest way to create accounts, sign transactions, and store keys securely on users' devices to ensure decentralisation. Ensure the wallet incorporates multiple login/signing popular options such as Albedo, Freighter, Rabet, Ledger, and Trezor. Provide Sep24 payment flows to ensure Stellar Anchor interoperability. Allow simple send and receive features within the wallet session time. Integrate Stellar swap functionality such as those features in the Albedo, LumenSwap, and Xbull wallet.\n\nThe Problem: To use the Stellar network, a user needs to create an account on Stellar, fund it via buying XLM to activate it. Then there are three main choices: Install a browser extension, use their private key directly on the website where they wish to spend their assets, or use a hard cold storage type wallet.\n\nNumerous people will find this off-putting due to the cost of a hard cold storage wallet. Simply because those people doing so, many find the concept of installing a browser extension can be annoying or even in some cases too complex. Most users would find this user experience to be too time-consuming and overly challenging. It\u2019s a time-consuming and laborious task that can lead to users like mum and dad or even Granny and Grandad excluding themselves from the Stellar experience.\n\nIn any case, \u201cEnter your password to complete this login\u201d is well understood by most. The only way to implement this login otherwise today is to use the private key directly on the website that generates the transaction, but users can\u2019t be certain of what the website will actually do with their private keys.\n\nStoring users' keys securely on their own devices. Enabling users to access their keys for login or signing with finger or face biometrics. Ensuring users don\u2019t even need to copy-paste keys, potentially losing them by accident. And utilizing The Simple Sign open-source widget for complete online protection.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recZ1SF2QkpUgMr2U",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "2500.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "2500.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-529",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Chronospay - Chronospay",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "A new low cost processing system to help businesses in South America. Chronospay is a platform for businesses to get payments in all ways, digital (on the internet) or physical (in person).\n\nWeb-based solution (eWallet + WebPOS + Business Dashboard):\n- Multi-currency\n- Dashboard (balance of each currency, digital and fiat)\n- Deposit and withdraw\n- Send and receive\n- Make payment request (link or button payment)\n- Web POS\n- Details of transaction\n- Details of payment requests (status, refunds, standby)\n- Payment FIAT/crypto gateway (sBTC, sETH, BTC, ETH, USDC, USDT, XLM, ARSX, BRL)\n\nMobile version (iOS and Android) (eWallet):\n- Multicurrency (FIAT & Crypto)\n- Deposit and withdraw (Bank account, credit card, and ATM)\n- Send and receive\n- Make payment request (link or button payment)\n- Details of transaction\n- Details of payment requests (status, refunds, standby)\n\nAdministration Backend:\n- General Dashboard Financial and Performance KPI (balance of FIAT and crypto accounts)\n- Onboarding administration: KYC, Screening, and compliance\n- User administration: Profile, status, and performance\n- Transaction details and administration\n- AML algorithm parametrization\n- Referral program administration\n- Reporting (crypto, fiat, users, etc.)",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recqUH2wcPLJ4Yy7j",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "65000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "65000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-530",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Stellarcarbon - Stellarcarbon",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "Stellarcarbon provides transparent nature-based carbon offsetting with proof of retirement on Stellar and in the Verra Registry. With Stellarcarbon, anyone with a Stellar account can do a voluntary carbon offset that is registered both on-chain and off-chain. We have been building the infrastructure needed to connect legacy carbon markets with the new digital economy taking place on public ledgers. Other companies building on Stellar will be able to integrate our backend service into their products and services, to give users easy access to carbon offsets. On top of this infrastructure, Stellarcarbon itself wants to develop and launch a retail shop for carbon offsetting aimed at individuals and businesses.\n\nA major problem that voluntary carbon markets have faced over the past decades is low trustworthiness, on both the supply and demand side. While several governance bodies have stepped up to increase the integrity of carbon markets, it is still possible for providers to offer carbon credits without any oversight. Stellarcarbon addresses this problem by only working with a subset of VCS and CCB certified offsets, and by individually vetting projects.\n\nCentralized registries are still essential, and we need to rely on them for the safeguards they provide. Unfortunately, they offer no way to intervene when an offset is used to make inaccurate claims about a company\u2019s sustainability, or is even used to cover up environmental or social damage caused elsewhere. Stellarcarbon will develop terms of purchase that, together with a clawback mechanism, will allow us to invalidate malicious offsets on-chain.\n\nStellar provides us with the payment rails to fund offsets, and with transparent accounts onto which we can lock a carbon offset. An offsetter can pay with any liquid asset in their account to receive CARBON, select a vetted offset project to fund, and receive CarbonSINK as on-chain proof of retirement. Their offset is recorded in the Verra Registry, and the offsetter receives an off-chain certificate directly from Verra.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recLcwrhYkZd6qH2o",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/stellarcarbon"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "37000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "37000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-531",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Paystreme - Paystreme",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "A payment streaming platform that enables customers to pay in real time for services. The company is developing a payment streaming platform called Paystreme that enables users to pay in real time for services. By using a Layer 2 payment channel on Stellar called Starlight, we will create the effect of streaming payments. Users will be able to send payments on a per-second basis as they consume any service. Consumers will not be required to pay monthly subscriptions to access streaming platforms like Netflix and Spotify or sign up for any service, eliminating the need for usernames and passwords. Consumers only need a pre-funded compatible wallet on their PC or mobile phone and choose what they want to read, see, listen, or use. By further applying this technology, we will develop the concept of payment bandwidth, which will translate to some amount of money per minute or second. Cell phone carriers, for example, could opt to charge different payment bandwidths for 3G, 4G, or 5G pay-as-you-go download speeds.\n\nToday, 70% of Latin America's population remains unbanked or underbanked, and 58% of point-of-sales purchases are still made in cash. Consequently, over 400 million prepaid aggregate service subscribers in Latin America struggle with paying for utility services every month. Being excluded from the financial system and paying for recurring services is not only inconvenient and tiring; it is expensive. When handling prepaid customers, utility companies and merchants are subject to high fees, deductions, commissions from prepaid cards by vendors, and sometimes even interest. Paradoxically, these inefficiencies make the poor pay higher rates for services, making it expensive to be poor.\n\nBy building on Stellar, Paystreme will provide the fastest, most convenient, and most efficient way of paying for services. By using Stellar's Layer 2 payment channel, Starlight, we can process over 1 million payments per second per channel, making our platform highly scalable and efficient. Also, by partnering with MoneyGram and Stellar, we will be able to use hundreds of thousands of locations to onboard cash clients onto crypto. Unbanked consumers can use cash to pay for services at more competitive rates than before. Lastly, by integrating into Stellar's Anchor Platform, we will access traditional FIAT rails and allow banked users to easily top off their wallets.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recHSkknw3I5dlCDK",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/WalletGuruLLC"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/walletguru/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "50000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "50000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-532",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Kata.Games - Sharing platform - Kata.Games",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "Hosts games to help players open up to new ideas and use cryptos/ Offers a tool that empowers game devs to create online & share We build a marketplace implemented through a web app. It matches players and game creators in a non-standard and fun way. For more info see the \u201cOverview\u201d section.\n\nWhat problems do we solve?\n\nKata.Games deletes 3 problems simultaneously:\n\n1) How can one create games and share them online efficiently?\nWe provide creators with a toolbox and the access (via KataSDK) to a brand new infrastructure. It allows anyone to create, host, share his/her independent game. The key benefit here is simplicity of use.\n\n2) How do players connect with game creators in a fast and convenient way?\nWe\u2019ve built a proprietary technology capable of \u201cstreaming\u201d and running any kind of 2D game in the browser, along with its dedicated hosting solution for games.\n\n3) How to make cryptocurrencies widely adopted widely?\nWe build a product that will attract and retain a large number of users due to its features and its innovative design. Using the Stellar network adds benefits: for players the diversity of games will be greater (because the barrier to entry is lowered for creators) and players will learn real-world technologies/skills while using our system!\n\nKata.Games' Stellar integration\n\nUsing Stellar allows us to:\n\n- Provide a unified digital identity for the user. Such an identity can be used throughout many games, this is convenient. During registration, every new avatar gets associated with a pair: Stellar address, extra details\u2026 Once it\u2019s done the Stellar address contributes to authenticating a user. We use the Freighter wallet at Sign in and Sign up time, and integration of Albedo will be added.\n- Secure the ownership of virtual goods. If the user buys a very valuable item in a given game, we will store the ownership on the Blockchain via an NFT. An extra benefit is being able to use the SDEX for trading virtual goods minted by us. Also, we\u2019ve introduced special game entities called \u201cportals\u201d. Every portal is represented by an NFT-like token. Owning a portal implies that you can configure it to redirect to the game of your choice. In other words, you can own a part of our virtual world!\n- Enhance the freemium model, speed up microtransactions. Transactions done via our system will be faster and more inclusive compared to competitors. Paying one\u2019s premium status on Kata.Games will be done via cryptos. More specifically, we want to operate like a crypto exchange: fiat deposits will be possible (withdrawals too, but later in our company development) but fiat money will not be used at all when users are active within the system, only cryptos will.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recHtbbed2g2fGLlZ",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/createplayearn"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "25000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "25000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-533",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Kotani Pay - Kotani Pay",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "Stablecoin payments without the need for an Internet connection or a bank account Kotani Pay API\n\nThe Kotani Pay API enables businesses to convert between digital assets and fiat and receive that through local payment channels in Africa. The API provides a single codebase for business with this need. This means businesses can receive money into mobile money or bank accounts in minutes over the Stellar Blockchain through the API.\n\nKotani Pay SMS/USSD Wallet\n\nThe Kotani Pay non-custodial wallet enables both non-internet enabled and internet enabled devices to interact with Blockchain protocols such as Stellar. The user simply dials a short code and is able to transact on the Stellar network. With the SMS wallet, one can receive, send, withdraw and access DeFi services.\n\nWe use the Stellar blockchain to hold the digital assets on-chain. The blockchain provides holding accounts for wallet users. The user interacts with the on-chain wallet through a USSD interface. Additionally, the Stellar blockchain acts as the transfer layer for on-chain remittance, cash-transfers, cross-border and gig-work transactions. A user sends funds from their blockchain account to another user\u2019s account via Stellar.\n\n\u200d\nhttps://uploads-ssl.webflow.com/62ea95eedf96d876cdc904ef/63581e5187243434a53046de_Kotani%20Pay%20USSD.png",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec9ylKAGxTVT4Lex",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "100000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "100000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-534",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Wirecash - Wirecash",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "Wirecash offers virtual currency payments to suit all your needs, whether you're a small or large company, or an individual. Online payments\nAccepting online payments might be difficult and expensive with traditional methods. With Wirecash, anyone can easily accept crypto payments on their website or mobile app through our APIs and tools. You create an order and our Checkout handles everything for you. It enables accepting 20+ cryptocurrencies on different networks, including Stellar for every one of them.\n\nIn-person payments\nIf you have a physical store and want to accept cryptocurrency payments, but don\u2019t have any experience with APIs or crypto; you can directly request a payment on our dashboard and your customer can access the checkout link via QR code or link.\n\nInvoices\nYou can create an invoice to notify your customer about a pending payment. After entering the recipient's details, amount, and due date, the recipient gets an email with a link to the checkout page.\n\nMerchant Tools\nWe\u2019re offering a bunch of tools for merchants. A merchant can decide which currency to accept, which one to convert to a stablecoin when it is received, and can also enable auto-approval if the paid amount is lower than a specified percentage threshold and customize checkout with their own brand colors and more.\n\nReal-time exchange\nWhen auto-conversion is enabled, we will automatically convert your received crypto payment to a stablecoin in real-time, which can eliminate any price fluctuations that may happen in the market. For Stellar payments, we\u2019re using Stellar DEX, and it enables us to access XLM-USDC liquidity in real time.\n\nBridging Assets through SEP6\nBy becoming an anchor, we are bringing our payment methods to the Stellar network. That means you can deposit BUSD on Binance Smart Chain and receive it on Stellar through Wirecash platform or SEP and vice versa.\n\nCashID\nWe created it for receiving payments like an email. Currently it is only valid on Wirecash platform. Thanks to Stellar federation protocol, we will enable receiving payments through CashID such as yourname*w.cash on the Stellar network too.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rectAXtdhsFXyPWfP",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "100000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "100000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-535",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "BravePay: New Era of payments - BravePay",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "BravePay makes cashless payments accessible to on and offline retailers, transforming any smartphone & website in a zero-fees POS THE PROBLEM\n\nCashless payments come at the cost of local businesses. In a world where cashless payments are becoming the norm, retailers bear up to 3.5% transaction fees that go to Banks, card issuing Companies and Payment Service Providers. Cashless convenience comes at the cost of local businesses. With the boom of blockchain, more and more customers are hunger to use their digital assets to pay on and offline. But current payment solutions are not network agnostic and replicate the traditional fee-based model, coming again at retailers\u2019 cost.\n\nABOUT BRAVEPAY\n\nBravePay is a zero fees payment platform that makes cashless payments universally accessible for on and offline retailers. BravePay enables on and offline businesses to receive instant bank card or crypto payments, and safely store transaction value in USDC (Stellar). BravePay doesn't require any special hardware: it seamlessly works on any smartphone or can be integrated in any website in just a matter of minutes. BravePay also provides retailers with \"tech steroids\" to take their businesses to the next level: AI Powered age-verification, access controls, ERP, NFT tickets, crypto direct debit automation, crypto-payroll...\n\nBRAVEPAY & STELLAR\n\nUnleashing the power of Stellar to disrupt retail payments. Built on Stellar, BravePay leverages the speed, security and low fees of one of the most popular and efficient blockchain networks. But BravePay also gives value back to the Stellar Community: BravePay seamlessly bridges fiat and other crypto assets (BTC, LTC, ETH\u2026) into Stellar, enhancing liquidity through retail transactions.\n\nHOW BRAVEPAY WORKS\n\nBravePay transforms any business into a crypto-friendly store that unites fiat and crypto payments in one place. The fundamentals of BravePay cashless payments are very simple: Customers pay cashless using their debit or credit card as usual, with any crypto wallet, with ETH, BTC, LTC\u2026and 15+ popular assets, or with BravePay app, an iOS and Android virtual wallet that they can charge with fiat or any crypto currency. Retailers get crypto. Retailers collect those payments from any smartphone or through our web widget, converted into USDC (Stellar) straight into their BravePay enterprise account. From there, they can transfer funds to any other Stellar Address or to their verified business bank account.\n\nBRAVEPAY WALLET\n\nWith BravePay wallet we make crypto payments simple and accessible to any consumer. Crypto can be overwhelming sometimes: Public Keys, Secret Keys, recovery phrases, trustlines, order books\u2026are complicated concepts, even scary to new users. At Brave we are obsessed to remove all those barriers that create unnecessary consumer friction, in order to make crypto experiences as they should really be, instant and simple. Get BravePay App for iOS / Android. Wallet set up. Setting up your BravePay wallet in your smartphone just takes one minute: Download BravePay app from the Apple or Google Play store. Sign up using your email or connecting your Google or Apple Account. And go through a selfie age verification, for our AI to create your anonymous age-tag. And you will be all set! Adding funds. You can add funds to your BravePay wallet anytime, using your bankcard, ApplePay, GooglePay or with a long list of popular crypto assets such as BTC, LTC, ETH, XLM... Simply select the amount in your local currency and follow intuitive on-screen instructions for every method selected. Age Verification. BravePay also provides you with an anonymous age-ID that grants you access to content, products and services with age restrictions, without disclosing your identity nor any personal data. Simply unlock the \u201cActivate button\u201d, with your pin, touch or faceID, and scan the QR Code to get your instant access. Subscriptions. Straight from your BravePay wallet, you can authorize crypto direct-debit orders that will be automatically credited from your account on due date. On your customer profile, you can get all relevant information about your active subscriptions, payment history or cancel them in just one click. NFT tickets. With BravePay, you can purchase NFT tickets to get access to events, venues or value added services. Tickets can be easily accessed and managed in \u201cMy Tickets\u201d section.\n\nBRAVEPRO POINT OF SALE SYSTEM\n\nChanging the paradigm in retail payments. Most payment systems require dedicated hardware, an old-fashioned approach that only benefits the service provider. BravePro transforms any smartphone or website into a Point of Sale terminal that collects fiat and crypto payments from bank cards and crypto wallets. Get BravePro App for iOS / Android. User credentials. Your Staff can log in to the Android or iOS App with just an email and the password of their choice. BravePro credentials for staff members can be easily managed by business owners at our Customer Portal. Charge amount. With BravePro you can set the amount of your store checks, like with any other conventional data phones. To authorize the payment, customers must get their contactless bank card near your staff\u2019s smartphone or use their BravePay wallet to authorize the transaction. Charge product. Staff can also add items from your store product list and create detailed checkout tickets for your customers. Subscriptions. With BravePro, staff can set up recurring direct debit orders that are automatically credited from your customer\u2019s BravePay wallet on a due date. Store\u2019s subscriptions can be easily tailored to your needs in our customer\u2019s portal and will show up automatically on your BravePro app. E-commerce integration. With BravePro web widget online stores can seamlessly integrate crypto payments and access controls in their websites.\n\nBRAVEPRO CUSTOMER PORTAL\n\nA professional crypto e-banking. BravePro Customer portal is a responsive web application that gives business owners full control of their finances. Conceived as a crypto e-banking service, our Customer Portal is a business solution that takes away all the complexity of blockchain. The access to BravePro Portal follows strict KYC rules to ensure total compliance with international anti money-laundering regulations. Setting up your organization. At our portal, you can create business units such as Stores or Events in just a few clicks. You can assign Teams to your business units, create roles and manage the access of your employees. With BravePro you will be fully in control of your store operations. Manage your inventory. You can also set a product list and better manage your stock and get real-time information of the best selling items of your store. Subscriptions. At BravePro Customer Portal, you can create and manage recurring direct debit orders that will show up automatically on your BravePro apps. You can tailor to your needs the parameters of your store subscriptions: set an initial payment, the frequency, amount, payment dates\u2026 NFT Tickets. Easily mint NFT tickets for your event, venue or added value services. Select the validity period, the units, select your preferred image\u2026Unlike regular ticket, NFTs tickets can only be sold, exchanged and validated in the BravePay ecosystem. Transfer funds. From your BravePro Customer portal you can easily transfer crypto assets to any other Stellar Address or to convert them into FIAT straight to your professional Bank Account.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recTgnhXkShvxMuZb",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "200000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "200000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-536",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "StellarPulse - SorobanPulse",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "Track the development activity among different Stellar organisations on Github Stellar has increasingly grown the open source developer ecosystem. But there is currently no way to get an activity overview and easily track the development among different Stellar organisations on Github, understand what is their status, track the contributions made by developers and get an idea on how the repositories evolve. It is really hard to understand how the Stellar ecosystem is progressing since the data is scattered all over GitHub, with contributors, commits, issues, repositories and PRs data.\n\nThe solution that CrossChain Labs presents is going to address the problems described above and will offer clarity on the open source Stellar\u2019s developer ecosystem. This will be done by scraping the data related to Stellar\u2019s organisations on GitHub and exposing it in a nicely designed dashboard that allows tracking the number of commits, repositories, contributors, PRs, the top contributors of the month, the evolution of commits and active contributors for each month over the last year and monitoring the recent commits that are being done in the various Stellar organisations.\n\nThe StellarPulse project will enable the interested parties to track the development among different Stellar organisations on Github, to follow the number of commits, repositories, contributors, PRs, the top contributors of the month, the evolution of commits and active contributors for each month over the last year and monitor the recent commits that are being done in the various Stellar organisations.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recPl3UvHNe1nngVy",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "30000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "30000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-537",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Horizon-as-a-service - Horizon-as-a-Service",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "Give teams building on Stellar, Customized and Private Horizon server access to the Stellar Network with only the data they need What is the product? Managed Horizon Instances\n\nWhat problem does it solve? The need for access to the Stellar network tailored to the business use case of the team.\n\nHow does this solve that problem? We configure and customize the Horizon instance for what you need to know for your business case and deploy it to cloud or on-prem infrastructure solutions.\n\nWho is the audience? Teams need access to the Stellar beyond the limits of the free Horizon instances and they just don't have the time or expertise to deploy their own infrastructure.\n\nWhat are the benefits? Speed and Support. Getting Horizon instances up and running quickly for teams building on Stellar Network. Support for those Horizon instances, so teams don\u2019t have to worry about them.\n\nHow does it work and how does it use Stellar? Horizon is the gateway to the Stellar Network and this solution is geared towards deploying those Horizon instances.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recekYNQEoPjP1Did",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/withobsrvr"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "2500.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "2500.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-538",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "CISO/BEI Stellar integration - AnChain.AI",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "AnChain.AI is offering to onboard the Stellar blockchain into its risk management products and open them up to the ecosystem. BEI\u2122 API for ecosystem monitoring: \n- Allows users to query wallet data for risk scores, sanction involvement, and other activity. Used by crypto businesses to conduct Wallet Screening and Transaction Monitoring and build with a risk-based approach, as recommended by the Financial Action Task Force (FATF).\n- Built on a custom risk engine for Stellar which screens sanction and other high-risk wallets, powered by our patented AI-engine.\n\nCISO\u2122 Investigation Tool:\n- Tool to enable compliance and security analysts to conduct onboarding and monitoring operations for compliance, and incident response events such as hacks.\n- Includes \u201cAuto-trace\u201d to immediately identify origin of funds, and out off ramps.\n\nWeb3guard:\n- Stellar community tool for reporting scams and fraud. Investigation services made available to the community.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recuNwIpd0qywbkzi",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/AnChainAI"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/anchainai/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "195000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "195000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-539",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Spacewalk - Spacewalk",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "The first bridge to Polkadot: giving Stellar users more access to the DeFi world Bridge to Polkadot\n\nSpacewalk is the first bridge between the Stellar network and the Polkadot ecosystem. Bridging to one of the most popular Web3 ecosystems gives Stellar users more access to DeFi opportunities. Based on already tested infrastructure (XCLAIM and interBTC), Spacewalk is implemented as a Substrate (the blockchain framework on which Polkadot is built) pallet and allows any Substrate-based blockchain to implement a direct Stellar bridge.\n\nStellar Oracle\n\nA key component of the bridge is the Stellar oracle, which relays the state of the Stellar network to external services (like a bridge). The Stellar oracle is decentralized and by design at least as secure as the Stellar network itself. While this oracle is developed with Spacewalk in mind, it can be used by other bridge services. By giving this oracle to the Stellar community, we hope to see more bridges being built to connect Stellar with the broader DeFi/Web3 world.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recY3x0bUhYwPUUSY",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "100000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "100000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-540",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "sTeX - sTeX",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "A modern cloud LaTeX editor with a google docs alike UX and UI, and a built-in Stellar decentralised documents marketplace. The product I am presenting is sTeX, a cloud-based LaTeX editor featuring a modern user interface, as well as a fast and efficient user experience that aims to replicate Google Docs\u2019 one. At its core, the app will feature a decentralized marketplace for documents (including but not limited to sTeX\u2019s) which is built upon the multisig safety of Stellar turrets.\n\nLaTeX is a document preparation system that enables its users to write highly customizable and professional PDF documents. Rather than writing documents with formatted text, LaTeX lets you write documents in plain text, and uses markup tagging to define how the document looks like.\n\nFor example, both I and tdep#4794 use LaTeX almost on a daily basis for a variety of tasks: taking notes, product behavior design, writing whitepapers, technical writing, blogging, and working on financial instruments (for writing math).\n\nMost LaTeX editors aren\u2019t cloud-based and require you to install both the app and a TeX compiler as well, and the existing cloud-based LaTeX editors have room for improvement, especially in terms of user experience, interface, and sometimes speed (more on the competitors section in \u201cadditional information\u201c). That is why I have decided to start working with tdep#4794 to build a brand-new modern LaTeX editor inspired by Google Docs.\n\nThe sTeX app will implement a decentralized marketplace at its core. Users will be able to effortlessly bring sTeX\u2019s documents on-chain and have full control over them (sTeX\u2019s app won\u2019t have any signing power on your on-chain documents).\n\nOnce a document is on-chain (as a stellar account), we can officially call it a non-fungible-token (despite not being an actual stellar asset, tdep#4794 will discuss this NFT implementation later on this section). These NFTs can then be traded on a turrets-powered decentralized marketplace. The current progress in the marketplace as well as in sTeX\u2019s \u201cdocument detach\u201d API endpoints allow to: write a LaTeX document, create that document on-chain, place a sell offer through the marketplace to sell that document at a certain price, and place a buy offer through the marketplace to buy a document at its price.\n\nThanks to the design of the tokenized documents, they can be edited by the owner, meaning that interesting features like proofed document management can be achieved through the marketplace. For instance, you can issue an agreement contract you wrote to other two interested parties and set that the super-majority (2/3) consensus must be reached to edit the contract (for example three signers with a weight of 10 each and a medium threshold of 20).\n\nThe market is non-custodial and decentralized, based on stellar turrets. Turrets were initially called Turing Signing Server since what they actually do is leverage multisig and let serverless workers sign a \u201ccontract\u2019s\u201c transaction. This means that by using more than one turret which aren\u2019t owned by the same entity we can achieve a certain degree of decentralization. We have chosen Turrets over Soroban for a couple of reasons: since we want to keep the document-as-account design, turrets seem like our only option given the limited access of soroban contracts to stellar \u201cclassic\u201c data; we don\u2019t need the degree of decentralization that native contracts offer given the fairly simple nature of our \u201ccontract\u201d; it will probably be much cheaper to run the contract on Turrets rather than using a soroban contract (though that\u2019s TBD depending on how soroban\u2019s cost model works out); our contract is on its own concurrency-safe, thus it doesn\u2019t need such model as described here.\n\nOverall, by using Turrets we save time and resources since Stellar already provides all the features we need for this contract.\n\nLastly, we also mention a possibility for an in-app freelancing mechanism supported by the marketplace, but we won\u2019t implement for now since it would require high community participation in voting for disputes, which is currently out of scope of our app\u2019s simple and intuitive design.\n\nEditor Features: secure and tested authentication and authorization, real-time compiler (our editor will display changes in the pdf as you finish writing your sentences), basic features (create, edit, share, manage access), templates (in development), advanced auto-completion, vs-code alike editor, commenting (in development), multiple themes (in development).\n\nThese are the features that are currently present in our editor, but feel free to recommend any that you deem interesting or necessary which we haven\u2019t or aren\u2019t implementing.\n\nIn the first submission, sTeX\u2019s goal was to directly store document content on-chain. This approach had some advantages especially in delegating authorization to Stellar validators, and mostly by also allowing non-custodial users in our app. However, tests showed that the approach held important disadvantages in terms of speed and efficiency. That is why we opted to using native storage for sTeX\u2019s API. This does not mean that we don\u2019t use stellar anymore at our app\u2019s core, as a matter of fact, all our infrastructure is made of ed25519 keypairs that are ready to become stellar accounts once sTeX\u2019s users begin creating documents on chain or start interacting with the marketplace. When documents are on-chain, sTeX still enables to modify those documents re-using the code in sTeX\u2019s \u201cfirst version\u201c where every update corresponds to a stellar transaction. The only difference is that now users that are only interested in writing LaTeX documents in a fast and friendly environment can do so without suffering decreased speed for something they do not need, and those interested in editing their on-chain documents can do so in a completely non-custodial way by signing transactions as they update their documents.\n\nThe above only talks about the Stellar integration in the most \u201ctraditional\u201c part of our codebase (create, edit and share documents), the rest is completely reliant on both Horizon and Stellar (bridge to detach documents, bridge to reattach documents, the DeFi marketplace).\n\nYou can review part of our code here, but that\u2019s just the marketplace\u2019s prototype contract since we don\u2019t want to make our API public (maybe yet). What we focus on is balancing and intersecting our \u201ctraditional\u201c codebase with our stellar-based one, and making sure that every interaction with Horizon is non-custodial on the user\u2019s end.\n\nOn its own sTeX doesn\u2019t bind much with Stellar being a LaTeX cloud environment, but with the built-in marketplace users who have probably never interacted with Stellar can experience for the first time Stellar in terms of payments speed and ease of possibly making of their documents a source of income.\n\nsTeX\u2019s backend facilitates the process of onboarding on-chain users without storing secrets or adding our signers to the users\u2019 accounts, allowing them to start interacting on-chain on their own and not only through our service.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recYsvymcjyhXY4XV",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "17000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "17000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11-541",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 11,
+          "grantPoolName": "SCF #11",
+          "projectsURI": "",
+          "projectName": "Scam Flagging System - Scam Flagging System",
+          "createdAt": "2022-10-30T00:00:00",
+          "projectDescription": "I will contribute to the open source StellarExpert directory to help protect users from questionable tokens and scam accounts The first product: Improvement and expansion of the open Database used by Stellar Expert to flag verified questionable domains that is based on accurate and verified data collection.\n\nThe problem it solves: Many new Stellar Blockchain users are deceived by outright scams illegally imitating names, brands, logos, trademarks, etc. Since the blockchain cannot be modified to stop future such activities, it is up to third-party services to help users, the community, and ecosystem applications get accurate information when evaluating token projects.\n\nHow it will work: The Database parameters will be open source and will continue to let Stellar.Expert be the best SDEX explorer for any Stellar Blockchain user, community member, or ecosystem application. Only verifiable data from TOML files, URL data, minted token info, etc. will be used. Any contact from the legal asset creator will be indicated.\n\nThe second product: New data will be regularly entered in the Open Source Database.\n\nThe problem it solves: This will help users, the community, and ecosystem applications save hundreds of hours searching for this information to help make better-informed decisions. This will help make the Stellar community feel safer using the Stellar Blockchain.\n\nHow it will work: Input from users and manual investigating will be used on a continual basis to make regular updates to the Open Source Database.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recJj84gbiQVNojVa",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "10000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "10000.00",
+          "payoutAddress": {},
+          "payouts": []
         }
-    ]
+      ]
+    }
+  ]
 }

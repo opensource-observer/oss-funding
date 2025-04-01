@@ -1,36 +1,36 @@
 {
-    "@context": "http://www.daostar.org/schemas",
-    "name": "Stellar",
-    "type": "Foundation",
-    "grant_pools": [
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "SCF #12",
+      "applications": [
         {
-            "type": "GrantPool",
-            "name": "scf-12",
-            "applications": [
-                {
-                    "type": "GrantApplication",
-                    "id": "1",
-                    "grantPoolId": "scf-12",
-                    "grantPoolName": "scf-12",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
-                    "projectId": "soroban-pre-order-contract",
-                    "projectName": "Soroban Pre-Order Contract",
-                    "createdAt": "2023-02-27T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
-                    "fundsAsked": [
-                        {
-                            "amount": 1000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 11252.39,
-                            "denomination": "XLM"
-                        }
-                    ]
-                }
-            ]
+          "type": "GrantApplication",
+          "id": "12-521",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 12,
+          "grantPoolName": "SCF #12",
+          "projectsURI": "",
+          "projectName": "Soroban Pre-Order Contract - Soroban Pre-Order Contract",
+          "createdAt": "2023-02-05T00:00:00",
+          "projectDescription": "Develops a novel Soroban contract that helps to fairly manage \"first come, first served\" sales processes. Are you selling a product or service that will take some time to produce or procure? Would you like to get paid through a blockchain, but don't want the hassle of processing refunds manually? Then this Soroban pre-order contract (SPOC) may be for you. SPOC is in an early stage of development. It is ready to welcome external contributors but not yet ready for end-users. The initial contract development is expected to take several months, after which it will enter an experimental phase for some time to come. After all, Soroban itself isn't production-ready yet.\n\nThe idea for SPOC originated with a need that Stellarcarbon expects to have in the future. Stellarcarbon buys carbon credits from carefully selected project developers, which can involve a lot of back and forth communication and can lead to relatively long procurement processes. When discussing the volume of credits to be purchased from a particular project, it would be very helpful to know how much demand there is for these credits. Similar considerations apply to other tokenized real-world assets. For instance, someone making boutique hand-knitted sweaters\u2014perhaps with a matching NFT\u2014would like to make these to order. Others who tokenize real estate may want to know which kinds of properties and areas are most desirable for their audience of investors.\n\nSPOC aims to provide a fair solution for both buyers and sellers. It asks the buyer to commit to their order of a product or service by providing an up-front payment for it. This gives the seller a specified amount of time to produce or procure the pre-ordered product. The Soroban contract itself serves as an escrow for payments and ensures that all specified terms are followed by both the buyer and the seller. The payment is either unlocked for the seller upon successful delivery, or is refundable to (and by) the buyer when the order expires, and also if the seller needs to cancel orders because their fulfillment isn't possible anymore.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recROR4Y8QHKD5rDF",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "1000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "1000.00",
+          "payoutAddress": {},
+          "payouts": []
         }
-    ]
+      ]
+    }
+  ]
 }
