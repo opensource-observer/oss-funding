@@ -1,355 +1,727 @@
 {
-    "@context": "http://www.daostar.org/schemas",
-    "name": "Stellar",
-    "type": "Foundation",
-    "grantPools": [
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Entity",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "id": 36,
+      "name": "SCF #36",
+      "description": "SCF grant round #36",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": "true",
+      "closeDate": "2025-05-04T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-36_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
         {
-            "type": "GrantPool",
-            "id": "scf-1",
-            "name": "scf-1",
-            "description": "Grants pool for scf-1.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-1_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-2",
-            "name": "scf-2",
-            "description": "Grants pool for scf-2.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-2_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-3",
-            "name": "scf-3",
-            "description": "Grants pool for scf-3.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-3_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-4",
-            "name": "scf-4",
-            "description": "Grants pool for scf-4.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-4_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-5",
-            "name": "scf-5",
-            "description": "Grants pool for scf-5.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-5_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-6",
-            "name": "scf-6",
-            "description": "Grants pool for scf-6.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-6_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-7",
-            "name": "scf-7",
-            "description": "Grants pool for scf-7.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-7_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-8",
-            "name": "scf-8",
-            "description": "Grants pool for scf-8.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-8_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-9",
-            "name": "scf-9",
-            "description": "Grants pool for scf-9.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-9_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-10",
-            "name": "scf-10",
-            "description": "Grants pool for scf-10.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-10_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-11",
-            "name": "scf-11",
-            "description": "Grants pool for scf-11.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-11_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-12",
-            "name": "scf-12",
-            "description": "Grants pool for scf-12.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-12_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-13",
-            "name": "scf-13",
-            "description": "Grants pool for scf-13.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-13_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-14",
-            "name": "scf-14",
-            "description": "Grants pool for scf-14.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-14_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-15",
-            "name": "scf-15",
-            "description": "Grants pool for scf-15.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-15_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-16",
-            "name": "scf-16",
-            "description": "Grants pool for scf-16.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-16_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-17",
-            "name": "scf-17",
-            "description": "Grants pool for scf-17.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-17_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-18",
-            "name": "scf-18",
-            "description": "Grants pool for scf-18.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-18_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-19",
-            "name": "scf-19",
-            "description": "Grants pool for scf-19.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-19_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-20",
-            "name": "scf-20",
-            "description": "Grants pool for scf-20.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-20_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-21",
-            "name": "scf-21",
-            "description": "Grants pool for scf-21.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-21_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-22",
-            "name": "scf-22",
-            "description": "Grants pool for scf-22.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-22_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-23",
-            "name": "scf-23",
-            "description": "Grants pool for scf-23.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-23_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-24",
-            "name": "scf-24",
-            "description": "Grants pool for scf-24.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-24_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-25",
-            "name": "scf-25",
-            "description": "Grants pool for scf-25.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-25_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-26",
-            "name": "scf-26",
-            "description": "Grants pool for scf-26.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-26_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-27",
-            "name": "scf-27",
-            "description": "Grants pool for scf-27.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-27_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-28",
-            "name": "scf-28",
-            "description": "Grants pool for scf-28.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-28_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
-        },
-        {
-            "type": "GrantPool",
-            "id": "scf-29",
-            "name": "scf-29",
-            "description": "Grants pool for scf-29.",
-            "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-29_applications_uri.json",
-            "requiredCredentials": [
-                "DAO Attestation",
-                "KYC"
-            ]
+          "amount": "NaN",
+          "denomination": "USD"
         }
-    ]
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 35,
+      "name": "SCF #35",
+      "description": "For this SCF grant funding round #35, we received 6 total applications. SCF #35 is currently in the Award Submission phase. If you received an invitation to submit a Build Award Submission Form this round, please do so before 2025-04-13T00:00:00.000Z by heading to the \"My Projects\" page and filling out a submission form for your project. If you haven't submitted your project at all, head to the \"My Projects\" page and complete the project form before next round's deadline.",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2025-03-23T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-35_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "NaN",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/H8lXBTbMlqKh4UTP8DDbLA/C4gBpaSxX6K00il1xMBljNaD-Cd3lcYfgloAHWeC46smYb9wJRkCLBcY_40krbgFe-zwDQOo92qsPZwFqXTrll432lA927rTiEzNBFyX1bxj6-mG8YTmEraxgCk0bhNFlxKa68kxtbfrGNmYgwCV5NJleb45h4iYBVetBJEIIxdmhPKLebnRMM-ZL8AII7yO/I9pKUwU0cqc3L-060Jnrgy8JbScVr5djWuYAdv0S6tI"
+    },
+    {
+      "type": "GrantPool",
+      "id": 34,
+      "name": "SCF #34 ",
+      "description": "For this SCF grant funding round #34, we received 78 total applications and 17 were awarded. SCF #34  is currently in the Notification and Award Distribution phase. If your Build Award submission passed Community Vote, we will notify you by email with next steps on information collection and award distribution. If your Build Award submission didn't pass Community Vote, we will notify you by email with feedback.",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2025-02-09T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-34_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1717287.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/5_AznmlNySgGJ3jG7qa3tw/htQa5zklbbmd_-s_pCUPtmbHRgK1fdGjAD5UwH0hwUvM9cdInCJH1OB64YXSVWZ5lheo0zKPuXUjQK4EKK7_O6DWAjmNkvvd8Zb7yUUUJLUk3wUDc27rr8P2144Gn7AbHfmNvrhHMA7cM0H75NOhD807Ixp6x0li1z-AWCybp0c/iz_nrJ9HhmrJs-azugK1kMc2lLoc2iOHUQQ40iRLepA"
+    },
+    {
+      "type": "GrantPool",
+      "id": 33,
+      "name": "SCF #33",
+      "description": "For this SCF grant funding round #33, we received 95 total applications and 14 were awarded. SCF #33 has ended. We will post a recap soon.",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2025-01-05T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-33_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1033620.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/uSxRqLwMn5bIerppjsUHlw/lozVOLNJYmI0mCLWP-KRFX1_HjOkxe3vnJ9mO8SujQgmUbFmLYPiSs2-bQJfaeFCEN0gJbuUf3ccQ4lyTxs1GxST6ciAd2HPmoxXZ3IIkHtWku4j875fqJb44ofxm8LSi1Mr6Sl9LxO6jCwJYsDBKR9xPH3XJSZJrqPpZPukoa8/YWD5irp7hEaO3ygUYXkJDy8x8qG70zlNKC5JM-ZTKpw"
+    },
+    {
+      "type": "GrantPool",
+      "id": 32,
+      "name": "SCF #32",
+      "description": "For this SCF grant funding round #32, we received 92 total applications and 17 were awarded. SCF #32 has ended. Find results here: https://medium.com/stellar-community/scf-31-round-recap-296125f6ff1e",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2024-11-24T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-32_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1377495.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/tI2ZeGxKiTWpXfQ_lg6tkA/veWYm28O0gtcsrrpU2H3myvHlsNDAX34Xx0Z970vsD1XHLI-4BDOb_HNbI1yPrTHfyJAoqE5zfFtl6_4sPw-pAkZEIDGM23SgzayFDOyefKifckPeRPSIr-FgwtTiWmXLEfVzfsTB1rn994luYxJq8DmsRwadHr61q2YmwvhEeY/XZ9u0Q3skM1m-SUM4qr2JVN0m1tTY9MG5FIkkPVUqpI"
+    },
+    {
+      "type": "GrantPool",
+      "id": 31,
+      "name": "SCF #31",
+      "description": "For this SCF grant funding round #31, we received 124 total applications and 22 were awarded. SCF #31 has ended. Find results here: https://medium.com/stellar-community/scf-31-round-recap-296125f6ff1e?source=collection_home---4------2-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2024-10-27T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-31_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "2068710.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/UPMMN-hQMXB4uDFps2sjsw/8OcjfJWXXOVHehWDWTF5Qh0AGV18xbQqgiBOQpe4t06YSp57xs2OIAy964EnF0MnPXAq88URMfw7-HfROrYkkCfSlVS4lE5CtxOGTuPhJDQhjrxsPnY7CWrO4FEo_WDD93A0x2-R__jp1N61_rlxgYeucSYhvT6FgJiHm8SLiRs/Tw93FPKFMA5BJc2pXpOeWr2rF0yjWDNI0rnE_DNWXHo"
+    },
+    {
+      "type": "GrantPool",
+      "id": 30,
+      "name": "SCF #30",
+      "description": "For this SCF grant funding round #30, we received 150 total applications and 22 were awarded. SCF #30 has ended. Find results here: https://medium.com/stellar-community/scf-30-round-recap-3da4be482add?source=collection_home---4------3-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2024-09-25T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-30_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "2167917.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/4OqgHWw7EBn8XAayW2r6ow/tvBVhMoEGf5Ar8IzbQOl2SysYYa0w2L6_7dYBTGwOlOkJRu8Xwg9wsF48nLNXU2Bkd0F3y7PvuIVsjw-fOX2y0On1jWaIq30__nF3LW1WppfXKm9CXYwNtvqIXVqHGvcqhdETjFM_jCsnYqWWNneTn_t0VWVaZasUcDY-emWIEc/ecIsaZO6-FrlHDZjwJRPVZHtqoAjnQQnMqY9u-yt14M"
+    },
+    {
+      "type": "GrantPool",
+      "id": 29,
+      "name": "SCF #29",
+      "description": "For this SCF grant funding round #29, we received 131 total applications and 40 were awarded. SCF #29 has ended. Find results here: https://medium.com/stellar-community/scf-29-round-recap-f105a8038c29?source=collection_home---6------1-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2024-07-14T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-29_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "2278557.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/qncZV0my4b_pNN1UWUS-Ow/5LWzuOReW5HFEOp199XhMSZXTvW7YvfyXR2-YZxJbD5ZwGYrEpBo4lLpy6rcYJdjbctfvBQy0oB1F4ihG9eIMQ-bxIUb96kOxfgzLDPTk_JmcHfHpc3vsnD5WTo1PdWPqoCnDxuaeGicEUAjnggGUMfoGWaRrmZvSOgoory2ogU/kTN7MxZ2fhQpd0Y_ZsX0KuMHfNlczFDeEsSWIcic9Ss"
+    },
+    {
+      "type": "GrantPool",
+      "id": 28,
+      "name": "SCF #28",
+      "description": "For this SCF grant funding round #28, we received 108 total applications and 30 were awarded. SCF #28 has ended. Find results here: https://medium.com/stellar-community/scf-28-round-recap-1bb0174b13ca?source=collection_home---4------0-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2024-06-09T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-28_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1557809.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/pjam17qN0fsC1zbDQU_4ww/I4-uyy0SHRw5VSnWeqYLXr8npT5at5QZ6p4-6hVERD3g65-zO7GtSo-4R2jhW2tOqfmRkiY0fuah7swwmDfkiVmSvjdH5fI7T23ZLKFi0CDpuPERZ6P1rzJaQfGOjnXw-fDT-_YvHQ0XH3ICF486Mx1RfvgTc166r1KlOD3mR2o/AnyIuxWeOubUJv5mzVjta7rJEt1cJUY5le-I2qyGZHg"
+    },
+    {
+      "type": "GrantPool",
+      "id": 27,
+      "name": "SCF #27",
+      "description": "For this SCF grant funding round #27, we received 117 total applications and 36 were awarded. SCF #27 has ended. Find results here: https://medium.com/stellar-community/scf-27-round-recap-ebb806ee0616?source=collection_home---4------3-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2024-05-12T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-27_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1489730.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/x3Y7xya7H9pJ2Z9kp4y3Mw/10lhjEGAI3lUyr_WKk6znu_TBEhSMrz2M0V7RKmXirDpe79YIFJbTBZLPABXe6KKDJzXRvbVew597oXtCTdFnvas384MvYeRgEfvleik4VO8S_yJZQdj5BU6agbn3qk81ytAuCrWdbq9QcMhpEWugxf_4fICtogbpwczR73Wsis/Lg_2vaRaRMWBJzUBh8L5jH2u46sXMXMDJL-KPVrYxQA"
+    },
+    {
+      "type": "GrantPool",
+      "id": 26,
+      "name": "SCF #26",
+      "description": "For this SCF grant funding round #26, we received 113 total applications and 43 were awarded. SCF #26 has ended. Find results here: https://medium.com/stellar-community/scf-26-round-recap-bc9b3f9529be?source=collection_home---6------0-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2024-04-14T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-26_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "2289878.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/-RDRAn91O2LNRJ5qj6d2pg/aknVblxNv-Nubm_VbOHaubcFhxEJ5930rWUy8o5OgMh1S0EvaqUU6B4jL9WIxEcPsxGeIuVLu9BnnZsXrWjDZ8oMP77DGEXEA28HuiWxikpHwnl0shJPbwArmJJCL7OSql6lNtQ0X4NGbdVWo2fid5hMH0OIJ1_V6xYQZ-Rj44E/c9mCxbuywgpjcHMKTe0cmI6W_XbESyoY0yIZd-s6E_c"
+    },
+    {
+      "type": "GrantPool",
+      "id": 25,
+      "name": "SCF #25",
+      "description": "For this SCF grant funding round #25, we received 84 total applications and 27 were awarded. SCF #25 has ended. Find results here: https://medium.com/stellar-community/scf-25-round-recap-d458d5ebf0d2?source=collection_home---6------3-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2024-03-17T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-25_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1349860.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/SkdxrqyPL0Dp4-5ctuUcCQ/jWfoWY10tzhyzl3ZOyblzBWJvSh76iLjajaeBk0I6ct8qQTrwsyTs9Kh2KwEyC7edsDdLxRixRzUt4564m07CHJPVTHyUaIeARq4zyIJadpLFOT_YYG_ROV5VOjpk6d8ZF7xpiB1rxQPK2OqUwr0r9I_LnUfzvvO-8RWPe9i7CM/0O6eK90-Dce-l0HlSMCJKte-1fsl8X3MZNrFUUA3YyE"
+    },
+    {
+      "type": "GrantPool",
+      "id": 24,
+      "name": "SCF #24",
+      "description": "For this SCF grant funding round #24, we received 103 total applications and 27 were awarded. SCF #24 has ended. Find results here: https://medium.com/stellar-community/scf-24-round-recap-07af99295a30?source=collection_home---6------5-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2024-02-18T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-24_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1427713.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/vt-IKEl6VHwiGzvDqIWZdw/M5ktHMXrcdeVBX2Yh8PhLNPuLU2dVIdYC68bG6r4rTmzCbj1PBexvszhuvCJD685M4E3AXrlSSy59E3lX6bw00lqggRVS3bqIcGTftSh56xnxNwlpdnQIquSfFszsieH22jTePiOR0x9M9qkhHxbbw/T9n3VQ8yn5Mu1fcVR4Vrkcg1QiNYwLoYQ9iKYhGn_ac"
+    },
+    {
+      "type": "GrantPool",
+      "id": 23,
+      "name": "SCF #23",
+      "description": "For this SCF grant funding round #23, we received 90 total applications and 25 were awarded. SCF #23 has ended. Find results here: https://medium.com/stellar-community/scf-23-recap-48d64ac4d5c7?source=collection_home---4------1-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2024-01-14T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-23_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1606125.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/Fxno4GuVRuDKB7LzadX7gQ/Pl2NcLxSjbdj8akQhQeba9yzezLmwi4-KzfKEDjfqDS322ozPKHVdFjBVkgppqW9pXiLtydsMO4ya8IdNYsk7KGgQqLJohUmpS0uKSu_ugzM84jYXUKGSxNUQLVfTp-uG6BaTLbg0WuurClT5uTY7g/nZlUupeMou9iBC-P2zyL7-ZnfYa8WBzJzNOyTXnii78"
+    },
+    {
+      "type": "GrantPool",
+      "id": 22,
+      "name": "SCF #22",
+      "description": "For this SCF grant funding round #22, we received 72 total applications and 33 were awarded. SCF #22 has ended. Find results here: https://medium.com/stellar-community/scf-22-recap-0d4a4c2b3655?source=collection_home---4------2-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2023-12-03T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-22_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1417342.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/USKF_pxrZB8VF0oZoi76rg/PwRucTYWfxS3JW7gwozXFNvmO1rrygV2P440Y2gtpzGGzccofg7vpnQWqn1DWs0Sa5Jm175rnQrKq8RhVy4MU8bPTblVG9DJj7Q5qa5ddf0EwPwUMMjAxuIdxUjdzIDsct13Jg73DZ6IdjXeWR2rJg/EbEuo87lcCN-28vpsuH9c3ECPsO4h9iAfxxM2_tk0Qk"
+    },
+    {
+      "type": "GrantPool",
+      "id": 21,
+      "name": "SCF #21",
+      "description": "For this SCF grant funding round #21, we received 66 total applications and 27 were awarded. SCF #21 has ended. Find results here: https://medium.com/stellar-community/scf-21-recap-294449beac1d?source=collection_home---4------3-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2023-11-05T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-21_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1479419.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/JdhSvVURvP0j_Vcdk6Q1Yw/3eyeqr1fGL6T4bEBi_l0ft3vdUaW76-gu-6xlgW2_1gVK6eNttbdh3cxykbvbuqJXWpN2pDvK4biTgu2bpAfVcgUFgMPgbZZheVkYTAZEKvUh29rncfgB_NoIln3SL_86CXRonWLamtUZeBEQtSkRg/pSKgWd3XU4YO6KBTtacOAIwRC_IOFIWj5pk_b79PIk8"
+    },
+    {
+      "type": "GrantPool",
+      "id": 20,
+      "name": "SCF #20",
+      "description": "For this SCF grant funding round #20, we received 90 total applications and 33 were awarded. SCF #20 has ended. Find results here: https://medium.com/stellar-community/scf-20-recap-88ef88935257?source=collection_home---6------0-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2023-10-15T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-20_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1402622.10",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": "https://v5.airtableusercontent.com/v3/u/39/39/1743537600000/D1qbppeW7b4kNERxoh1-bw/qSYfgS5Wr2X73i58sPq2fOdPq6AuapjRa26fwa39oNlFVT8P5Sd5BegI-BugzWUUuDOZonPgPYGRKXFliXC_C-HFJQp8O51goGz58Vj54lNHNzqA596Ns4B9wibIAq-3q9tFMGP2Ey4I8bGPkStO0g/mLu9vL8QCBhfOi69-qxFxQdbsd4rGXPamlNfuqwUo7c"
+    },
+    {
+      "type": "GrantPool",
+      "id": 19,
+      "name": "SCF #19",
+      "description": "For this SCF grant funding round #19, we received 68 total applications and 16 were awarded. SCF #19 has ended. We will post a recap soon.",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2023-09-10T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-19_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1253476.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 18,
+      "name": "SCF #18",
+      "description": "For this SCF grant funding round #18, we received 55 total applications and 14 were awarded. SCF #18 has ended. We will post a recap soon.",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2023-08-13T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-18_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1411676.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 17,
+      "name": "SCF #17",
+      "description": "For this SCF grant funding round #17, we received 51 total applications and 19 were awarded. SCF #17 has ended. We will post a recap soon.",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2023-07-09T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-17_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1959307.50",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 16,
+      "name": "SCF #16",
+      "description": "For this SCF grant funding round #16, we received 52 total applications and 21 were awarded. SCF #16 has ended. We will post a recap soon.",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2023-06-11T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-16_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1901782.50",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 15,
+      "name": "SCF #15",
+      "description": "For this SCF grant funding round #15, we received 66 total applications and 11 were awarded. SCF #15 has ended. We will post a recap soon.",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2023-05-14T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-15_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1112680.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 14,
+      "name": "SCF #14",
+      "description": "For this SCF grant funding round #14, we received 66 total applications and 12 were awarded. SCF #14 has ended. We will post a recap soon.",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2023-04-09T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-14_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "509125.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 13,
+      "name": "SCF #13",
+      "description": "For this SCF grant funding round #13, we received 97 total applications and 14 were awarded. SCF #13 has ended. We will post a recap soon.",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2023-03-12T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-13_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1267252.95",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 12,
+      "name": "SCF #12",
+      "description": "For this SCF grant funding round #12, we received 10 total applications and 1 were awarded. SCF #12 has ended. We will post a recap soon.",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2023-02-05T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-12_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1000.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 11,
+      "name": "SCF #11",
+      "description": "For this SCF grant funding round #11, we received 151 total applications and 20 were awarded. SCF #11 has ended. Find results here: https://medium.com/stellar-community/scf-11-announcing-the-winners-8bcd5606fc09",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2022-10-30T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-11_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1134000.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 10,
+      "name": "SCF #10",
+      "description": "For this SCF grant funding round #10, we received 152 total applications and 15 were awarded. SCF #10 has ended. Find results here: https://medium.com/stellar-community/announcing-the-winners-of-scf-10-317a7da78209",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2022-05-29T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-10_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "1124180.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 9,
+      "name": "SCF #9",
+      "description": "For this SCF grant funding round #9, we received 82 total applications and 14 were awarded. SCF #9 has ended. Find results here: https://medium.com/stellar-community/announcing-the-winners-of-scf-9-db1e0c770e54?source=collection_detail----89c348dcf743-----10-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2021-11-21T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-9_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "918200.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 8,
+      "name": "SCF #8",
+      "description": "For this SCF grant funding round #8, we received 65 total applications and 8 were awarded. SCF #8 has ended. Find results here: https://medium.com/stellar-community/announcing-the-winners-of-scf-8-d3d31167a52d",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2021-08-22T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-8_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "611263.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 7,
+      "name": "SCF #7",
+      "description": "For this SCF grant funding round #7, we received 59 total applications and 8 were awarded. SCF #7 has ended. Find results here: https://medium.com/stellar-community/announcing-stellar-community-seed-fund-1-finalists-3e9e95d41793",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2021-01-19T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-7_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "2135963.38",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 6,
+      "name": "SCF #6",
+      "description": "For this SCF grant funding round #6, we received 20 total applications and 8 were awarded. SCF #6 has ended. Find results here: https://medium.com/stellar-community/scf-lab-fund-1-retrospective-6fc4d9fa7ce7?source=collection_detail----89c348dcf743-----31-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2020-09-20T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-6_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "45409.41",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 5,
+      "name": "SCF #5",
+      "description": "For this SCF grant funding round #5, we received 19 total applications and 9 were awarded. SCF #5 has ended. Find results here: https://medium.com/stellar-community/stellar-community-fund-round-5-finals-postmortem-b7b627531fff?source=collection_detail----89c348dcf743-----47-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2020-06-21T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-5_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "315203.28",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 4,
+      "name": "SCF #4",
+      "description": "For this SCF grant funding round #4, we received 17 total applications and 8 were awarded. SCF #4 has ended. Find results here: https://medium.com/stellar-community/stellar-community-fund-round-4-results-b3ed5f6acbe1?source=collection_detail----89c348dcf743-----63-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2020-03-22T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-4_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "0.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 3,
+      "name": "SCF #3",
+      "description": "For this SCF grant funding round #3, we received 31 total applications and 8 were awarded. SCF #3 has ended. Find results here: https://medium.com/stellar-community/stellar-community-fund-round-3-results-9d99e7cfec32?source=collection_detail----89c348dcf743-----87-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2019-12-14T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-3_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "0.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 2,
+      "name": "SCF #2",
+      "description": "For this SCF grant funding round #2, we received 37 total applications and 8 were awarded. SCF #2 has ended. Find results here: https://medium.com/stellar-community/stellar-community-fund-2-the-results-69b3f6a6040e?source=collection_detail----89c348dcf743-----100-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2019-09-29T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-2_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "0.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    },
+    {
+      "type": "GrantPool",
+      "id": 1,
+      "name": "SCF #1",
+      "description": "For this SCF grant funding round #1, we received 40 total applications and 8 were awarded. SCF #1 has ended. Find results here: https://medium.com/stellar-community/stellar-community-fund-round-1-winners-1957314d15cc?source=collection_detail----89c348dcf743-----113-----------------------",
+      "grantFundingMechanism": "Direct Grants",
+      "isOpen": false,
+      "closeDate": "2019-06-22T00:00:00",
+      "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-1_applications_uri.json",
+      "governanceURI": "https://stellarcommunityfund.gitbook.io/scf-handbook/community-involvement/governance",
+      "requiredCredentials": [],
+      "totalGrantPoolSize": [
+        {
+          "amount": "0.00",
+          "denomination": "USD"
+        }
+      ],
+      "email": "communityfund@stellar.org",
+      "image": ""
+    }
+  ]
 }
