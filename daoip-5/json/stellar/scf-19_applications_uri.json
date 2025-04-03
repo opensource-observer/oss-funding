@@ -1,381 +1,464 @@
 {
-    "@context": "http://www.daostar.org/schemas",
-    "name": "Stellar",
-    "type": "Foundation",
-    "grant_pools": [
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "SCF #19",
+      "applications": [
         {
-            "type": "GrantPool",
-            "name": "scf-19",
-            "applications": [
-                {
-                    "type": "GrantApplication",
-                    "id": "1",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recB7Lz9t4Zl69bac",
-                    "projectId": "soroban-explorer",
-                    "projectName": "Soroban Explorer",
-                    "createdAt": "2023-09-29T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recB7Lz9t4Zl69bac",
-                    "fundsAsked": [
-                        {
-                            "amount": 61000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 521324.47,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "2",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recd8vP3BvCKs2zqY",
-                    "projectId": "nownodes",
-                    "projectName": "NOWNodes",
-                    "createdAt": "2023-10-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recd8vP3BvCKs2zqY",
-                    "fundsAsked": [
-                        {
-                            "amount": 28090.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 249598.73,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "3",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfjZWvOsCHoeqOV",
-                    "projectId": "canfy",
-                    "projectName": "Canfy",
-                    "createdAt": "2023-10-06T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfjZWvOsCHoeqOV",
-                    "fundsAsked": [
-                        {
-                            "amount": 50100.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 448554.38,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "4",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recnHUE6Wv5qJbloO",
-                    "projectId": "goldsky",
-                    "projectName": "Goldsky",
-                    "createdAt": "2023-10-06T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recnHUE6Wv5qJbloO",
-                    "fundsAsked": [
-                        {
-                            "amount": 128000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1140221.36,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "5",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recpYqqIa55PTnKF3",
-                    "projectId": "litemint",
-                    "projectName": "Litemint",
-                    "createdAt": "2023-10-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recpYqqIa55PTnKF3",
-                    "fundsAsked": [
-                        {
-                            "amount": 103110.9,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 916211.33,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "6",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recp9KDwOeRFfD6Fx",
-                    "projectId": "haciendo-stellar",
-                    "projectName": "Haciendo Stellar",
-                    "createdAt": "2023-10-06T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recp9KDwOeRFfD6Fx",
-                    "fundsAsked": [
-                        {
-                            "amount": 29040.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 261881.14,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "7",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recs3a3kKPgwjWT1Y",
-                    "projectId": "ctx-com",
-                    "projectName": "CTX.com Spend",
-                    "createdAt": "2023-10-06T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recs3a3kKPgwjWT1Y",
-                    "fundsAsked": [
-                        {
-                            "amount": 88200.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 779730.14,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "8",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recwq69g0TVuylMjO",
-                    "projectId": "mercury",
-                    "projectName": "Mercury",
-                    "createdAt": "2023-09-29T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recwq69g0TVuylMjO",
-                    "fundsAsked": [
-                        {
-                            "amount": 72000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 617480.19,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "9",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJEHkfUrrbLVcg8",
-                    "projectId": "alfred",
-                    "projectName": "alfred ",
-                    "createdAt": "2023-08-31T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJEHkfUrrbLVcg8",
-                    "fundsAsked": [
-                        {
-                            "amount": 120000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 978568.47,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "10",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recRZEosG6FWORKcP",
-                    "projectId": "multiclique",
-                    "projectName": "MultiClique",
-                    "createdAt": "2023-10-11T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recRZEosG6FWORKcP",
-                    "fundsAsked": [
-                        {
-                            "amount": 97500.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 930010.32,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "11",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec6pAYRxRQmNDwFm",
-                    "projectId": "assetdesk",
-                    "projectName": "AssetDesk",
-                    "createdAt": "2023-12-06T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec6pAYRxRQmNDwFm",
-                    "fundsAsked": [
-                        {
-                            "amount": 77000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 615974.18,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "12",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recaIeMYytTyQmjRu",
-                    "projectId": "constellation-protocol",
-                    "projectName": "Unlock - Stellar Index",
-                    "createdAt": "2023-10-25T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recaIeMYytTyQmjRu",
-                    "fundsAsked": [
-                        {
-                            "amount": 110000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 952089.72,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "13",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reccBR6CyNvbjqL2E",
-                    "projectId": "stellar-on-metamask",
-                    "projectName": "Stellar On Metamask",
-                    "createdAt": "2023-10-11T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reccBR6CyNvbjqL2E",
-                    "fundsAsked": [
-                        {
-                            "amount": 71000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 674028.95,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "14",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receYuwM1ucRK5MB2",
-                    "projectId": "stellarchain-io",
-                    "projectName": "Stellarchain.io",
-                    "createdAt": "2023-09-29T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receYuwM1ucRK5MB2",
-                    "fundsAsked": [
-                        {
-                            "amount": 140635.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1202589.22,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "15",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recnQwmWOJN7EZPmj",
-                    "projectId": "syklo",
-                    "projectName": "Syklo WooCommerce integration",
-                    "createdAt": "2023-10-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recnQwmWOJN7EZPmj",
-                    "fundsAsked": [
-                        {
-                            "amount": 25100.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 221407.83,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "16",
-                    "grantPoolId": "scf-19",
-                    "grantPoolName": "scf-19",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec7WPgnHqLHBaH3E",
-                    "projectId": "sorosplits",
-                    "projectName": "SoroSplits",
-                    "createdAt": "2023-10-06T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec7WPgnHqLHBaH3E",
-                    "fundsAsked": [
-                        {
-                            "amount": 59700.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 531806.37,
-                            "denomination": "XLM"
-                        }
-                    ]
-                }
-            ]
+          "type": "GrantApplication",
+          "id": "19-414",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "CTX.com Spend - CTX.com",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "Spend your XLM and USDC at thousands of physical and online stores. This project will enable Stellar USDC and XLM to be spent at 100,000+ locations and hundreds of online stores. CTX.com CTX is a crypto payments processor, we have processed over $800k in payments and offer a web point-of-sale, merchant API, rates engine, hardware devices, nfc payment cards and more. This project will build on our experience, tech and infrastructure to create a new service for users to spend USDC & XLM across the US with plans to expand internationally following release.\n\nGift Card System The main part of this project is a comprehensive gift card procurement and delivery system. It will enable anyone to shop with Stellar in over 100,000 locations across the US as well as online at 100+ major retailers. For the in-store version, a user will be able to visit and make an order at their local Subway, Walgreens, Olive garden, GameStop and many other participating merchants. Once they are ready to pay they enter their total into the app, pay using XLM or USDC and receive a gift card for their exact amount with a barcode to display to the merchant to complete their purchase. Alongside the in-store solution will be one for online stores, allowing users to purchase gift cards from large online merchants. Additionally users will receive cashback in the form of a USDC credit to their account that they can withdraw or use towards a future purchase. This is an ambitious and high-value project with multiple moving parts including gift card procurement, user authentication, payment processing and cash flow handling for settlement, provided by user-friendly apps for all major platforms. We are an efficient agile team and through leveraging our existing systems we will be able to deliver a v1.0 at end of this cycle.\n\nAdding Stellar support to the existing CTX.com payment processing stack We'll be adding multiple load balanced core nodes or horizon + captive core instances to our infrastructure to enable real-time transaction processing as well as extending our back-end systems accordingly. We'll also be updating our front-ends and related platform infrastructure to enable merchants to accept XLM & USDC.\n\nAdding USDC & XLM to our rates engine To provide the conversion rates for 168 local currencies we source data from 14 different providers like Binance & Kraken. We can then calculate any route, even through numerous hops (e.g. XLM>USD>HKD) to create a composite after removing outliers to provide accurate current rates. You can view this API here: http://rates.ctx.com/ This API has served hundreds of millions of queries since 2019 with 99.99% up-time. This service is open to public use albeit rate limited and without guarantee. We're always happy to empower other developers and their applications to leverage real-time price data.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recs3a3kKPgwjWT1Y",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "88200.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "88200.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-415",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "Stellar On Metamask - Stellar-MetaMask",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "We Will put Stellar on Metamask, to grow stellar ecosystem. Through the use of a metamask snap. We will build a complete Stellar-Lumens wallet that seamlessly integrates into Metamask Browser Extension. This means that all 30 Million MetaMask users can be easily onboarded into the stellar-lumens/soroban ecosystem. We believe this will lead to explosive growth of the web3 leg of the Stellar ecosystem, due to the sheer popularity of the Metamask Extension and familiar developer experience. This allows new Dapps to see Stellar-Lumens as a more viable platform to build with, and allows existing Dapps to reach lots of new users.\n\nA snap is like a MetaMask plug-in. It\u2019s a piece of code that runs inside the metamask extension itself. Importantly, snaps do not require a lengthy installation process like most plugins, and are simply installed automatically, after being requested by a website, and a user gives consent. Once installed, the wallet will never have to be reinstalled, and all keys and accounts are recoverable through the same process as recovering the metamask wallet as a whole.\n\nIn order to create a better developer experience, we will also provide a wallet SDK. This will allow developers to integrate MetaMask into their stellar Dapp with as little headache as possible. Meaning that existing Soroban and stellar apps can start accommodating metamask users sooner.\n\nWhen a user goes to a Stellar Dapp, they will have the option to connect with metamask. If they choose this option, MetaMask will automatically install stellar into their wallet, and from there the dapp will be able to interact with MetaMask just like any other stellar wallet. Importantly, this means new users won't have to download and install a Stellar wallet to use a Dapp, as long as they have MetaMask. Metamask also provides these users with a familiar interface which cuts down on confusion, and ultimately leads to greater adoption of stellar in web3.\n\nWeb3 Developers often have a difficult time choosing a platform when developing a new Dapp. By putting Stellar Lumens on MetaMask, developers don\u2019t have to worry about a given user losing interest while getting a stellar wallet set up. On top of this, many developers are already familiar with developing for metamask, which cuts down on the learning curve when onboarding new developers into the Stellar/Soroban ecosystem.\n\nKeys are generated on the fly using entropy requested from the MetaMask wallet. This results in users having complete control over their keys (a non-custodial wallet). And because this entropy is programmatically derived from a user's private Ethereum keys, recovering a MetaMask wallet will also recover the user's Stellar wallet.\n\nWe take security very seriously, and all code running inside a user's MetaMask will be code audited and executed in a restricted Secure JavaScript Execution Environment. All storage in the wallet is encrypted, and unsigned transactions are never sent over the wire.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/reccBR6CyNvbjqL2E",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/R2wd9ZJ89X"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "71000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "71000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-416",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "Syklo WooCommerce integration - Syklo",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "We are building the bridges and roads for mass adoption of self-custodial USDC in LATAM. By installing the Syklo Pay WooCommerce plugin, businesses would allow their customers to pay with any off-chain local currency (ARS, BRL, COP, VES, etc\u2026) and receive USDC on Stellar. \n\nMonetary protocols from many countries (e.g. Argentina and Venezuela) are not working. These countries are organically transitioning to blockchain-based dollars. Currently, USDT on Tron is very popular. USDC on Polygon would be better. However, USDC on Stellar would be the best solution, especially for businesses that receive small payments and need USD convertibility to pay providers. \n\nOnline businesses would benefit from being able to charge local currency anywhere, receive instead USDC on Stellar at low fees, and later use it to pay providers. 43% of sites use WordPress, some 35 million sites. WooCommerce\u2019s market share in ecommerce platforms is 25% and over 3.5 million websites use WooCommerce checkout. Syklo Pay would help them be internationally available. The difference with other crypto plugins is that with Syklo, the business\u2019 customers can obtain USDC via P2P with many local currencies and payment methods. \n\nUsers would need to install the Syklo Payment Gateway for WooCommerce, signup/signin their Syklo account, and click on Syklo Pay in WooCommerce \u2192 Settings \u2192 Payments \u2192 Syklo \u2192 Manage. In Syklo, create an API Key and copy it. In WooCommerce, paste the API key. In WooCommerce, copy the endpoint URL. In Syklo, click add an endpoint, paste the endpoint URL. In Syklo, click show shared secret and copy the shared secret. In WooCommerce, paste the shared secret. Business\u2019 customers would then be able to pay with Stellar USDC. \n\nOnce the plugin is configured and users click on pay with Syklo, they will be redirected to pay.syklo.io and shown a QR code with the business\u2019 USDC address. The customer would then open the Syklo mobile app, with a few clicks purchase Stellar USDC with their local currency and send to the payment QR. The site will detect when the payment is sent and will return to the business checkout so the order is processed. \n\nThe business will be able to see WooCommerce transactions and details in a dashboard and refund them if needed. Users hold assets on individual Stellar wallets that would be able to pay in WooCommerce websites, send assets to other users, exchange off-chain assets with the help of a temporary on-chain multisig escrow, create escrow (create multisig wallet, setup signers [buyer, seller, jury], establish trustline for USDC, transfer funds from seller to the escrow), release escrow (collect the required signatures to release the funds, submit the transaction to the network), and mediation (if there is a disagreement during the transaction flow, users can raise a dispute regarding the transaction where a jury (currently a Syklo support member) will review the case and sign the transaction in favor of a winner). \n\nAll transactions are currently sponsored by Syklo. The transactions use channels to ensure reliability and prevent sequence number collisions. Also, transactions use sponsorship future reserves to allow users to submit transactions to the network without needing a minimum XLM reserve. Multisig wallets are ephemeral; once the escrow is released, the escrow account is merged into the creator account. We currently use the Stellar blockchain in our Android app due to its efficient design and reliability. The production address is: GBMUZ7DCFWJ47CI2FGFR4NIVSZNPPZENJJWNG7THSRWQWFZVNUNZJTR4.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recnQwmWOJN7EZPmj",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/syklo_app"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "25100.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "25100.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-417",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "alfred  - Alfred",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "Powering Latin America's Digital and Cash Economy Core Product is a Checkout widget that connects you to the two following services:\n\nBank Ramps: This product enables near instant fiat to crypto on/off ramping through local bank accounts across key geographies in Latin America. What Problem it Solves, How it solves, and audience: This product provides a solution to the fragmentation of access from crypto to bank accounts across important geographies in Latin America. We solve this by providing a simple widget powered by SEP 24 which gives users direct connection from on chain stellar USDC to their local bank accounts. The audience this is catered to is folks inside of the Latin America banking system who want to interact with USDC and DeFi ecosystems from their local accounts. How it uses Stellar: This widget is powered by SEP 24.\n\nCash Ramps: This product enables cash to crypto on/off ramping catered towards the underserved/underbanked in the Latin American Region. With a total of 100,000 physical locations via retail stores and ATM's, alfred is becoming a true alternative to MoneyGram Access. What Problem it Solves, How it solves, and audience: Over 70% of Latin America is unbanked or underbanked meaning that main use cases that are very attractive for the region such as crypto powered remittances and borderless USD accounts are unaccessible for the folks who need it most. Our cash ramps product caters to this demographic enabling them to access crypto and Stellar USDC products without the need of being banked. How it uses Stellar: This widget is powered by SEP 24. With the support of the SCF we will be able to develop and launch these products in Mexico, Guatemala, Dominican Republic.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recJEHkfUrrbLVcg8",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/alfredlatam/"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/alfredpay/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "120000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "120000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-418",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "Litemint - Litemint",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "Gives creators the power to distribute their work directly to their fans, no middleman allowed! NFT Royalties\n\nRoyalties play a pivotal role in digital economies. The industry has encountered numerous obstacles in achieving decentralized payment enforcements (as we discussed in Meridian 2022, see video excerpt here). Presently, most marketplaces retain significant control over enforcing royalty payments (see this Tweet from OpenSea), which poses challenges to creators and businesses. Royalty smart contracts adopting a restrictive approach by controlling trade execution can also have adverse effects, significantly narrowing the sales funnel for creators. While Litemint is working on incorporating support for such contracts, we recognize that it is just one aspect of the solution. These contracts are decentralized in principle, however they might not offer the openness required for general use cases. To address these challenges, we have identified a unique combination of Soroban smart contracts, a dedicated Oracle, and Stellar classic primitives (pre-auth transactions). These present an exceptional opportunity to implement the first comprehensive solution for decentralized NFT royalty payment enforcements. In this implementation, smart contracts are not used to control trade execution flow but rather to offer creators the assurance that they can revoke ownership if specific conditions are met (such as missed royalty payments). Concurrently, current owners are guaranteed that their ownership remains irrevocable as long as those conditions are not met. We are also working on making these features as accessible as possible to creators (including mobile and desktop), please check our video or the screenshots attached.\n\nAdvanced Auctions\n\nWe have been providing decentralized, no escrow, time-limited auctions, with full SDEX execution (aka Live Auctions) on our platform since September 2021. Check this blog for technical details. These live auctions account for 35% of NFT sales on Litemint. Yet there are unavoidable limits (e.g. preventing auction sniping or implementing advanced models like second price auctions\u2026). With the advent of Soroban smart contracts, we have the opportunity to extend our auction system for publishers. Besides our in-house solution which should cover common use cases, we will be incorporating support for third-party contracts, like for royalties.\n\nReal-time and Historical Price Indexer\n\nOne of the most expected features on Litemint is the ability to track, filter and search assets by interest (bids/offers across all markets), collections, creators and provide some essential charting tools. We currently run a price indexer to provide cross-market history for sales, however it is currently not fit for real-time data queries (several hours latency over blockchain activity). As part of V2, our existing search engine has undergone refactoring using Azure Search. We intend to utilize this infrastructure to support the historical price indexer. This work is also a needed component for our Oracle-based solution for royalties.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recpYqqIa55PTnKF3",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/LitemintHQ"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://litemint.gg"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/litemint"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "103110.90",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "103110.90",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-419",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "Stellarchain.io - Stellarchain.io",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "Stellar Explorer - Soroban and analytics for the stellar ecosystem Building upon the existing foundation of our blockchain explorer, we're excited to present the next phase of StellarChain Explorer's evolution. This extension is geared towards bolstering its efficiency, practicality, and comprehensiveness. Users will be able to access the ledger history with improved speed and convenience, extending the overall user experience. The search functionality is set to be advanced, allowing for precise data retrieval based on diverse parameters. Keeping up with our commitment to real-time information delivery, we will further refine the system's ability to provide live updates of the Stellar network activities. An amplified focus on the transaction details will provide a holistic view of each transaction, enhancing understanding and transparency. Enhancements are also planned to ease the transition between Stellar's Testnet and Mainnet, promoting a fluid, user-friendly exploration experience across different environments. As part of our efforts to provide comprehensive historical insights, we will ensure substantial historical data retention, allowing efficient tracking of the ledger's evolution over time. Lastly, we will amplify the platform's visualisation and analytical tools, promoting an intuitive understanding of complex ledger data. Overall, this new phase will enhance user interaction with blockchain data, promising a seamless and enriched experience while maintaining the familiarity of the existing system.\n\nTo build the StellarChain explorer, the integration process involves: Retrieving data from Stellar RPC using available APIs and endpoints. Designing a Database Cluster schema for storing the blockchain data. Implementing data flow processes for polling transactions and running process jobs. Utilizing a tech stack including PHP, JavaScript, Laravel, Vue.js, and RabbitMQ. Setting up an initial development stage on DigitalOcean with CPU-optimized machines. Optimizing performance, scaling infrastructure, and enhancing data processing. Creating a REST API and user interface for seamless interaction and exploration. Testing, debugging, and ensuring a stable system with monitoring and maintenance. Scaling up infrastructure, importing complete blockchain data, and deploying a Stellar node. Documenting technical details, providing user guides, and engaging with the Stellar community for continuous improvement.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/receYuwM1ucRK5MB2",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "140635.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "140635.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-420",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "Unlock - Stellar Index - Constellation Protocol",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "Gives users the ability to create indices via smart contract, providing ownership of multiple underlying assets transparently. Unlock is an index protocol that would allow the Stellar community to create and manage indices that provide exposure to various underlying assets. Unlock would achieve this with public-good smart contracts that provide the indexing functionality with meaningful utility in its own right, and as a component of more advanced DeFi products. The index protocol would enable a user to define two or more underlying assets, such as XLM and USDC, assign them a share of the overall \u201cindex\u201d being tokenized, and create the resulting index token. Critically, Unlock\u2019s approach would allow for the newly created tokenized asset to capture the proportional yield of underlying assets, unlocking diversification and yield-generating strategies, as well as enabling the move of Real World Assets on-chain.\n\nProblem: While exposure to crypto, NFTs, and other on-chain assets provide opportunities to invest in the future of the internet, these assets lack many of the aspects of traditional financial instruments that enhance outcomes for market participants. Specifically, Web3 assets are inherently volatile and subject to meaningful price fluctuations and do not feature a straightforward way to diversify idiosyncratic risk. With traditional financial assets, intermediaries or \u201ctrusted\u201d third parties provide indexed solutions that are responsible for purchasing the underlying assets and constructing the index to diversify risk. An indexed solution is particularly attractive for on-chain assets not only due to the diversification it can provide, but critically that it performs the indexing via smart contract, in a trustless manner.\n\nHow it works: Unlock will build upon and extend the Stellar Asset Contract (SAC), adding the concept of an index fund token that holds other tokens as underlying components. Index fund tokens (IFTs) have the property that they can only be minted by transferring each of the underlying assets in specific amounts to the IFT contract. The IFT contract also guarantees that fund tokens can always be redeemed (burned) in exchange for each of its components. This way, IFT holders can rely on the fund token\u2019s net asset value (NAV = holdings of underlying components * price) being realizable. The Stellar Asset Contract can also be used to wrap native assets issued on the Stellar blockchain. This means the entire universe of transferable assets on Stellar today is ready to be used as components inside of fund tokens. Classic assets on Stellar come with powerful features that help both issuers and holders of assets have control over which counterparties they trust. IFTs can be configured to inherit the authorizations attached to components. For example, an IFT could respect the KYC/AML policies of each asset it holds. The attached diagram (Figure 1) shows how Unlock\u2019s Token Factory smart contracts let users deploy a new index fund token by specifying an arbitrary-length array of SAC-wrapped classic assets and Soroban tokens as components.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recaIeMYytTyQmjRu",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "110000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "110000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-421",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "Goldsky - Goldsky",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "Offering builders access to real-time, high-performance Soroban data indexing and to a CC0-licensed public good dataset Goldsky Mirror (real-time data replication)\n\nProblem: Accessing blockchain data is complex and time-consuming, requiring builders to run a node, write complex code, and/or set up data engineering pipelines. This process diverts valuable time from app dev.\n\nSolution: Goldsky Mirror is a real-time data replication system that allows builders to pipe decoded blockchain data to where their app is: where to take data from, how to process it, and where to persist results.\n\nBenefits: Compared to other approaches to indexing blockchain data, Goldsky Mirror offers a few specific and differentiated benefits:\n\nSelf-hosted: Results are persisted in a database / as flat files rather than being served only via a remote API. This allows for seamless integration with other app/user data, simplifying builders' data stack.\n\nSelf-healing: Quality checks, fixes, and improvements to data are applied automatically w/ upserts & deletes, allowing builders to focus on using the database vs. maintaining it.\n\nScalable: Builders can index data from multiple sources (and push to multiple sinks) with infinite horizontal scaling. This allows for complete historical backfills in record speed and seamless multi-chain apps.\n\nSimple: Mirror pipelines can be set up through a 5-step interactive CLI, or in JSON for more flexibility. This ease of use makes building with Mirror incredibly easy yet scalable from hackathons to production use cases with millions of users.\n\nindexed.xyz (open public dataset)\n\nProblem: Web3 analytics often require a costly cloud datastore, limiting large-scale web3 data accessibility to pro users and institutions.\n\nSolution: indexed.xyz is a public, open, and CC0-licensed blockchain dataset that allows anyone to freely download, copy, and use the data without any restrictions.\n\nBenefits: For analytics use cases where chain-level data aggregation and transformation is useful, existing solutions can be limiting and indexed.xyz offers several differentiated benefits:\n\nOpen and unrestricted access: Unlike many cloud-based data solutions that impose limitations and charge for access, indexed.xyz is completely unrestricted - not even requiring an account. This allows developers, analysts, and app-builders to freely download, copy, and use the data with greater control and flexibility.\n\nUser-friendly data format: indexed.xyz uses the widely adopted .parquet format, which is natively compressed, queryable, and compatible with popular data tooling and platforms. This user-friendly format streamlines the data analysis process and makes it easier for developers to work with the data and increase developer velocity.\n\nLocal-first: Our local-first approach enables users to leverage their existing storage and compute resources, bypassing the need for a sustained internet connection and the costs associated with cloud-based storage and compute (eg. BigQuery compute fees). This allows users to work with data more efficiently and at a lower cost, especially for macro analysis.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recnHUE6Wv5qJbloO",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/goldskyio"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "128000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "128000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-422",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "Mercury - Mercury",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "Mercury is the fastest and cheapest data indexer on Futurenet, and comes with tooling. nan",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recwq69g0TVuylMjO",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/xyclooLabs"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/caqz3MeXCv"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "72000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "72000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-423",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "NOWNodes - NOWNodes",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "Offers access to extensive data on Soroban to assist developers in tracking blockchain events and launching dApps and contracts Our Soroban project is essentially a few enterprise-grade tools for developers which will enable the community to build more, build easier, build faster and promote mass adoption. We will be integrating Soroban into the thriving NOWNodes ecosystem of blockchain services, which entails the following: shared access to Futurenet RPC endpoints via NOWNodes API; dedicated access to Futurenet RPC endpoints by request; shared and dedicated access to Soroban testnet and mainnet endpoints once they launch; a public block explorer for the Soroban network, available on our website free for everyone in the world.\n\nWhat this means for developers: you won\u2019t have to host your own nodes and pay for maintenance and other expenses; you\u2019ll have a ready-made and easy-to-use API to access key blockchain data, simplifying dApp development; the community will have a user-friendly explorer with all network data at their fingertips.\n\nWe will be using official Stellar and Soroban tools to develop these services: the Soroban RPC Server and Soroban CLI.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recd8vP3BvCKs2zqY",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/NOWNodes"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/nownodesio/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "28090.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "28090.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-424",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "SoroSplits - SoroSplits",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "Develop an open-source smart contract that enables the Stellar community to split on-chain payments in a trustless manner. Product: SoroSplits is a set of smart contracts & interfaces to enable split transactions and revenue sharing across multiple parties in the Stellar ecosystem. The core functionality of the smart contract would allow any assets (tokens) that exist on Stellar to be split in a trustless, automated, & transparent way across addresses and the user interface would enable all Stellar community members & projects to leverage the technology as a public good. This functionality is a fundamental component to move the ecosystem away from off-chain counterparties and \u201ctrusted\u201d middlemen to a truly decentralized contracting & payment structure, a critical building block for the continued growth of the Stellar ecosystem.\n\nProblem: A fundamental aspect of Web3 is the ability for users to collaborate in a joint venture in a decentralized manner. While this has enabled incredible technology to be built, the resulting creation & capture of value is often not directly aligned with those users. This allocation problem is inherent in many decentralized endeavors. While this problem manifests itself throughout Web3, specific examples that exist today include: DAOs. Rewarding members & contributors their share of treasury rewards and/or earned revenue with a single payment, rather than constantly managing a list of addresses, reducing the administrative burden to manage payments. Web3 platforms. Lacking a trusted solution to distribute payment, on-chain, to groups of users who provide services. Creatives. Distributing share of the economics, in a transparent way that is verifiable prior to execution, to backers of projects & fans. NFT projects. Providing a mechanism to distribute a portion of royalty fees to holders, in a trustless manner.\n\nHow it works: Initialization - The contract is set up with a list of recipients and their respective percentage shares. These recipients will receive native tokens based on these shares. An administrator is assigned who can manage the contract. Updating Shares - If the contract is marked as \"mutable,\" the administrator can update the list of recipients and their shares. Shares represent how much of the total tokens recipients receive. The administrator can adjust the percentages assigned to each recipient, as long as the total percentages remain 100%. Locking the Contract - The administrator has the option to lock the contract, preventing any further changes to the recipient shares and other settings. Once locked, the contract becomes immutable. Distributing Native Tokens - The administrator initiates the distribution of native tokens to recipients based on their assigned percentage shares. The contract calculates the amount of tokens each recipient should receive and distributes them accordingly. Querying the Contract - Users can query the contract to retrieve information about its configuration, individual shares, and recipients. This helps anyone interested in verifying the contract's state & distribution of tokens.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec7WPgnHqLHBaH3E",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "59700.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "59700.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-425",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "MultiClique - MultiClique",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "A flexible policy framework and multisig wallet for the soroban ecosystem You can read the full proposal with images and additional information here. Introduction As blockchain technology continues to evolve, its widespread adoption is impeded by its complexity and user-unfriendliness. The difficulties many users face, such as the risk of fund loss and the technical challenges of managing wallets and public-private key pairs, inhibit the full potential of blockchain applications. This issue is even more pertinent for DAOs and other organizational groups, which require advanced and reliable workflows beyond just simple signing. Having a multisig wallet is crucial for a thriving ecosystem as it enables projects and business models such as custody solution, key retrieval, DAOs amongst others.\n\nOur Solution: MultiClique Our proposed solution is the development of MultiClique, a protocol designed for the Soroban/Stellar network. MultiClique enhances security through a multi-signature mechanism, which significantly mitigates the risk of fund theft if a single private key is compromised. Moreover, it provides a user-friendly interface for interacting with Soroban and managing digital assets in a more intuitive way, offering users both convenience and peace of mind. Beyond security and convenience, MultiClique also introduces flexibility by allowing for customizable policies prior to executing transactions.\n\nHow We Use Soroban Our team, consisting of former members of DSTOQ who previously tokenized stocks on the Stellar network, greatly appreciates the visionary aspect of account abstraction as implemented in the native Stellar protocol. This concept allowed for advanced schemes such as Key Recovery and Sponsored Payments long before ERC-4337 was drafted. As pioneers in implementing an FMA (Financial Market Authorities) approved Key Recovery Scheme and sponsored payments in our DSTOQ protocol, we now aim to bring advanced account abstraction to Soroban with a clean user interface through MultiClique. MultiClique is a CustomAccount Protocol that employs Soroban\u2019s built-in __check_auth mechanism to create a policy system for managing members and signing thresholds for asset transfer and contract calls. The core policy can be extended by hook points that are integrated into the policy flow, making the policy system flexible and extendable. It's not just a protocol, but a complete application stack with a user interface that simplifies the usage of multi-signature policies and council-managed contract calls, providing an easy-to-use, no-code experience.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recRZEosG6FWORKcP",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/Multiclique_org"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.com/channels/897514728459468821/1159218967890624584"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "97500.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "97500.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-426",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "Canfy - Canfy",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "A developer copilot trained on extensive knowledge of Stellar and Soroban to navigate the complexities and assist on apps creation Our solution will accelerate development on top of Stellar and Soroban for community members of all levels, increase the adoption rate due to easy onboarding and continuous support - including assistance in development, debugging issues, interpreting complex cases, and finding solutions for user-generated content. Both newcomers and experienced members of the Stellar community will be able to focus on their main tasks - CanFY will take care of the rest for them.\n\nDocuments and Code AI Assistant: This tool will assist new Soroban users during onboarding and provide guidance for more experienced users through development documentation, including code generation and issue resolution. Canfy is a modular system encompassing a unique data processing and search engine. This system maximizes the efficiency of modern OSS LLMs (large language models) and OpenAI GPT models. In the initial phase, we'll create and fine-tune an independent instance of Canfy specifically for the Soroban community. This instance will host and routinely update all current documentation, example code, and all public issues and discussions related to Soroban.\n\nDiscord Canfy Integration for the Soroban Community: This will be a boon for the entire community. The Canfy system will utilize public Discord chat data to assist in resolving complex cases and answering even more specialized questions. We'll develop a Discord bot that syncs data from Discord to the Canfy instance database. This bot will also serve as an additional interface to address questions and assist with issues.\n\nCustom Encoder and OSS LLM for the Soroban Community: This is the project's primary deliverable. It promises an unparalleled understanding of Soroban data, significantly enhancing the accuracy of answers and solutions provided by the system. The community can also use it for private and sensitive data in internal projects. With a custom OSS LLM, Canfy becomes a wholly independent, self-hosted system that ensures data remains within its components and is not transmitted elsewhere. To achieve this, we'll use data from the first two steps and generate additional dialogs with the help of our LLMs, which are trained specifically for this purpose. Armed with this new dataset, we'll be able to fine-tune our encoder and LLM to concentrate on the Soroban-specific data domain.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recfjZWvOsCHoeqOV",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/canfy/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "50100.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "50100.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-427",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "Soroban Explorer - Soroban Explorer",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "Enable users to verify smart contracts by compiling the underlying code, helping avoid malicious contracts & actors. Soroban Explorer will allow all users on Stellar to validate the underlying code behind smart contracts on the protocol, increasing transparency, trust, and ultimately adoption of the Stellar network. To enable this reality, our team will build the underlying functionality to compile source code and the interface that allows users to interface with the explorer. This smart contract explorer will provide the community with a user-centric experience, requiring minimal expertise or highly technical input from Stellar users while verifying a streamlined process to verify & publish contract smart code. The core verification operation would involve utilizing hosted Docker containers to generate a hash of the underlying byte code and comparing the hash with the underlying contract code - verifying the smart contract based on user input parameters, all presented in a webform user interface and providing a simple \u201cgreen check\u201d for validation to the community. The compiler will initially provide support across a targeted set of parameters (i.e. only code written in Rust, only using the most current Soroban compiler version, etc.), focusing on the primary anticipated use cases, allowing us to deliver value to the community as quickly as possible and glean valuable user feedback that will inform plans for expanded support and additional features over time. We envision supporting an increased set of parameters (additional languages, etc.) over time, driven by where the community demand is most acute. Our team\u2019s core product can also reside within the StellarExpert platform, enhancing a de facto existing community standard for exploring on-chain activity across Stellar and providing value to users while not asking them to deviate from their existing habits & patterns of use. We have been in contact with the StellarExpert team and look forward to plugging our Smart Contract Explorer functionality into their existing platform, enhancing value for users and trust across the Stellar ecosystem. Our proposal would address a critical need, verifying the underlying code behind smart contracts in the Stellar ecosystem, for any and all users across Stellar. The envisioned solution would be user-centric, with a clear output to users with a streamlined user interface that is designed to enhance existing user journeys across the Stellar ecosystem. Additionally, we plan to architect and design our solution in a modifiable and scalable way, enabling our team to adjust both the core operations and interface based on community feedback and tailor our product to be the highest possible value-add it can be.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recB7Lz9t4Zl69bac",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "61000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "61000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-428",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "Haciendo Stellar - Haciendo Stellar",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "We are a communication and content platform designed to empower the Stellar community in the Latam and Spanish-speaking region. We will continue creating content for the community: Social media content, Website content, Educational content (Main focus), Webinars, Hackathons, Courses, Tips, Among others :)",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recp9KDwOeRFfD6Fx",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/haciendostellar"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/3StMXdjGt3"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "29040.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "29040.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19-429",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 19,
+          "grantPoolName": "SCF #19",
+          "projectsURI": "",
+          "projectName": "AssetDesk - AssetDesk",
+          "createdAt": "2023-09-10T00:00:00",
+          "projectDescription": "AssetDesk on Soroban is a decentralized non-custodial liquidity protocol where users can participate as depositors or borrowers. AssetDesk on Soroban is a decentralized non-custodial liquidity protocol where users can participate as depositors or borrowers and utilize margin and limit positions inside the protocol. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetually) or undercollateralized (one-block liquidity) fashion.\n\nProduct Roadmap:\n\nVersion 1: Basic lending and borrowing function: A decentralized non-custodial liquidity protocol where users can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetually) fashion.\n\nMargin positions: Effectively portfolio + global margining margin account: user can deposit to a subaccount owned by the contract but belongs to the user. The user can create positions and orders from the subaccount that\u2019s immediately counted as collateral.\n\nFlash loans.\n\nStable coins markets: The Stablecoins markets feature maximizes capital efficiency when collateral and borrowed assets have correlated prices. For example, DAI, USDC, USDT are all stablecoins pegged to USD. These stablecoins are all within the same category. Accordingly, a user supplying DAI in this category will have higher collateralization power when borrowing assets like USDC or USDT.\n\nCollateral switch: The Collateral switch feature allows the user to switch supplied liquidity in one asset type to another asset type without a separate withdrawal and supply transaction (for example switching USDC to DAI in a single transaction).\n\nVersion 2: V2 Permissionless lending/collateral assets. Achieved by having an ecosystem of locked bids for a fixed time period. User also effectively have debt limits. User should utilize deposited stables to bid so that locked bids can earn yield.\n\nGovernance Isolation Mode: Isolation mode allows Governance to list new assets as isolated assets, which have a specific debt ceiling. Only certain assets can be borrowed in isolation mode \u2013 specifically, approved stablecoins. In order for an asset to become approved for borrowing, assets are voted on by Governance through the forum. Each isolated asset will have a specific debt ceiling, which means that it is only possible to borrow up to the specified debt ceiling amount. The debt ceiling is visible on the reserves page of each asset.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec6pAYRxRQmNDwFm",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/AssetDesk"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "77000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "77000.00",
+          "payoutAddress": {},
+          "payouts": []
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,450 +1,564 @@
 {
-    "@context": "http://www.daostar.org/schemas",
-    "name": "Stellar",
-    "type": "Foundation",
-    "grant_pools": [
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "SCF #17",
+      "applications": [
         {
-            "type": "GrantPool",
-            "name": "scf-17",
-            "applications": [
-                {
-                    "type": "GrantApplication",
-                    "id": "1",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recDCdserATw05JGr",
-                    "projectId": "excellar",
-                    "projectName": "Excellar",
-                    "createdAt": "2023-07-07T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recDCdserATw05JGr",
-                    "fundsAsked": [
-                        {
-                            "amount": 88750.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 659457.38,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "2",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHtAS5rmHwAFWhn",
-                    "projectId": "oinc",
-                    "projectName": "Oinc - Automated Personal Finance",
-                    "createdAt": "2023-08-04T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHtAS5rmHwAFWhn",
-                    "fundsAsked": [
-                        {
-                            "amount": 105000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 791381.9,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "3",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recka4IUGyCSpMaKW",
-                    "projectId": "perun-state-channels",
-                    "projectName": "Perun State Channels",
-                    "createdAt": "2023-07-28T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recka4IUGyCSpMaKW",
-                    "fundsAsked": [
-                        {
-                            "amount": 84800.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 558415.07,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "4",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckUpTGpkrfpxLT0",
-                    "projectId": "basement",
-                    "projectName": "Basement",
-                    "createdAt": "2023-08-03T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckUpTGpkrfpxLT0",
-                    "fundsAsked": [
-                        {
-                            "amount": 12130.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 86162.8,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "5",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recpomNZXKFtufheP",
-                    "projectId": "soroban-vscode-extension",
-                    "projectName": "Soroban-VSCode Extension",
-                    "createdAt": "2023-07-27T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recpomNZXKFtufheP",
-                    "fundsAsked": [
-                        {
-                            "amount": 39880.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 264059.85,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "6",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recp4q5jA9dXq7to6",
-                    "projectId": "decaf-pay",
-                    "projectName": "Decaf Pay",
-                    "createdAt": "2023-08-03T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recp4q5jA9dXq7to6",
-                    "fundsAsked": [
-                        {
-                            "amount": 150000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1106683.03,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "7",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJ1m2AzJdAiqm8Q",
-                    "projectId": "rust-soroban-client-library",
-                    "projectName": "Rust Soroban Client Library",
-                    "createdAt": "2023-07-26T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJ1m2AzJdAiqm8Q",
-                    "fundsAsked": [
-                        {
-                            "amount": 25000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 183854.28,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "8",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recMpM56WpU1AMLd1",
-                    "projectId": "emigro",
-                    "projectName": "Emigro",
-                    "createdAt": "2023-07-27T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recMpM56WpU1AMLd1",
-                    "fundsAsked": [
-                        {
-                            "amount": 46400.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 310546.6,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "9",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recOiKOyCVxtjSbaG",
-                    "projectId": "easya",
-                    "projectName": "#SummerOfSoroban",
-                    "createdAt": "2023-08-03T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recOiKOyCVxtjSbaG",
-                    "fundsAsked": [
-                        {
-                            "amount": 136800.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1018070.55,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "10",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recPZV9KigYc4et2I",
-                    "projectId": "slender",
-                    "projectName": "Slender",
-                    "createdAt": "2023-08-24T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recPZV9KigYc4et2I",
-                    "fundsAsked": [
-                        {
-                            "amount": 149250.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1227325.01,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "11",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recRUJxeF1PdlM6aV",
-                    "projectId": "aquarius",
-                    "projectName": "Soroban & Aquarius",
-                    "createdAt": "2023-08-10T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recRUJxeF1PdlM6aV",
-                    "fundsAsked": [
-                        {
-                            "amount": 147000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1106915.11,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "12",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recUIdWohR9eqJIg8",
-                    "projectId": "plutus",
-                    "projectName": "Plutus",
-                    "createdAt": "2023-08-14T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recUIdWohR9eqJIg8",
-                    "fundsAsked": [
-                        {
-                            "amount": 98600.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 747717.04,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "13",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec01tLmsvSK8wwj4",
-                    "projectId": "arcturus",
-                    "projectName": "Arcturus",
-                    "createdAt": "2023-07-28T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec01tLmsvSK8wwj4",
-                    "fundsAsked": [
-                        {
-                            "amount": 105120.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 689676.06,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "14",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5zyGnVx1mUR50F",
-                    "projectId": "mojoflower",
-                    "projectName": "Bloom and Petal",
-                    "createdAt": "2023-08-24T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5zyGnVx1mUR50F",
-                    "fundsAsked": [
-                        {
-                            "amount": 100000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 832696.75,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "15",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reczm3NWCRztmpQAK",
-                    "projectId": "ripe",
-                    "projectName": "Stellar USDC to GCash off-ramp",
-                    "createdAt": "2023-08-04T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reczm3NWCRztmpQAK",
-                    "fundsAsked": [
-                        {
-                            "amount": 100000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 742657.94,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "16",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recDy2knwdmwAPWBd",
-                    "projectId": "soroswap-finance",
-                    "projectName": "Soroswap Protocol",
-                    "createdAt": "2023-07-26T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recDy2knwdmwAPWBd",
-                    "fundsAsked": [
-                        {
-                            "amount": 139150.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 144244.12,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "17",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recb7lLAeoG5poknB",
-                    "projectId": "uils",
-                    "projectName": "uils",
-                    "createdAt": "2023-07-28T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recb7lLAeoG5poknB",
-                    "fundsAsked": [
-                        {
-                            "amount": 141027.5,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 940827.82,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "18",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reccDyvfqZISOWHI7",
-                    "projectId": "anclap",
-                    "projectName": "Stellar Prepaid Cards",
-                    "createdAt": "2023-07-27T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reccDyvfqZISOWHI7",
-                    "fundsAsked": [
-                        {
-                            "amount": 146400.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 963036.83,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "19",
-                    "grantPoolId": "scf-17",
-                    "grantPoolName": "scf-17",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recWR4fbwZYJ72i34",
-                    "projectId": "ultra-stellar-lobstr",
-                    "projectName": "Ultra Stellar / Soroban Integration",
-                    "createdAt": "2023-07-26T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recWR4fbwZYJ72i34",
-                    "fundsAsked": [
-                        {
-                            "amount": 144000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1069290.13,
-                            "denomination": "XLM"
-                        }
-                    ]
-                }
-            ]
+          "type": "GrantApplication",
+          "id": "17-444",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Perun State Channels - Perun State Channels",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "We extend Perun State Channels for developers in the Stellar ecosystem so they can utilize off-chain payments and more. This proposal aims to integrate Perun Channels with Stellar. This will, in the first phase, foster fast and secure payment settlement on Stellar. The resulting payment toolkit can be used by developers within the Stellar ecosystem. In a future proposal, these payment channels can be extended to State Channels or other functionalities such as cross-chain swaps (see Outlook).\n\nPerun Channel technology enables fast and cheap transactions on and across blockchains. The technology is based on peer-reviewed research that has been published at top conferences and is being implemented in the form of the open-source library go-perun written in Go. One of its main features is its blockchain-agnostic design, which means that most parts of the library do not depend on a concrete blockchain implementation, but are rather implemented against abstract blockchain backend components. Currently, we have backends for Ethereum, Cosmos, Polkadot, Cardano and Hyperledger Fabric.\n\nWe propose to adapt the go-perun framework so that two-party single-asset payment channels between users on Stellar can be created, processed, closed and disputed. We propose to release this work open-source under the Apache 2.0 license.\n\nWe currently focus on two-party single-asset payment channels between users on the same Stellar chain. For the future, we consider adding state channel functionality, multi-asset support, multi-party support, and cross-chain functionality for establishing channels between Stellar and all other chains supported by Perun.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recka4IUGyCSpMaKW",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/PolyCrypt_"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.com/channels/897514728459468821/1082054199187083264/threads/1129011157789851748"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/perun-network/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "84800.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "84800.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-445",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Stellar USDC to GCash off-ramp - Ripe",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "We offer Filipinos a way to cash out crypto right to their favorite mobile e-wallet, without hassle, multiple apps, or high fees We're building an anchor to off-ramp Stellar USDC directly into GCash, the most popular e-wallet in the Philippines. Cross-border remittance is notorious for high fees and inconvenience. Exacerbating the problem is the fact that recipients are often poor, underbanked, and are the least able to afford the fees and the time to deal with money agents. Crypto shows promise by removing some of the fees. Stellar's integration with Moneygram is another step in making crypto more usable for remittance. We believe there's a further opportunity to improve usability by off-ramping directly into a recipient's mobile e-wallet, and that's what we're building for this project.\n\nMobile money has existed for more than a decade, with M-PESA in Kenya being the first practical and well-known deployment. The idea has evolved, and mobile e-wallets such as Alipay in China and UPI in India have shown mobile money's new power given the recent ubiquity of smartphones. Many countries, such as the Philippines, have learned from China and India and have developed their local versions. During the COVID lockdown, the adoption of these mobile e-wallets exploded as everyone needed an alternative to physical cash. We see this as an opening to provide digital services to the unbanked that were previously stuck with the limitations of the cash economy. Cheap and convenient cross-border remittance is the next natural step to build for e-wallet users.\n\nWe\u2019re building the anchor around the SEP-24 standard, so it will be compatible with all standard Stellar wallets. We plan to use Beans as the reference wallet as we have had the founder as our mentor during the SCF Startup Camp. Specifically, we plan to use Stellar's Anchor Platform for Hosted Deposits and Withdrawals to ensure standards compliance. On the other side, we're working with GCash to integrate the payment function to deposit Philippine pesos into a user's e-wallet. From a user's point of view, within a Stellar wallet such as Beans, when choosing to cash out into Philippine pesos, we will show up as one of the options. After choosing us, if it's the first time the user uses Ripe, she'll be asked to provide her KYC and GCash account information. This naturally includes a phone number (which is how one identifies a GCash account), and we'll send an OTP to ensure the user's association with the phone number. Afterward, and in subsequent visits, she will simply be asked to enter the amount to cash out. Our service will clearly show the exchange rate and any associated fees.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/reczm3NWCRztmpQAK",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/RipePayments"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/ripemoney/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "100000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "100000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-446",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Bloom and Petal - Mojoflower",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Bloom - Entity assembly with Soroban-smart contracts & Petal decentralized document signing service. We want to launch two services using Soroban - smart contracts. Bloom is a smart-contract suite for on-chain entity assembly. By using Soroban smart contracts, we aim to provide a more efficient, transparent, and streamlined solution for building on-chain entities. The main smart contract we are building will act as the on-chain entity, handle all asset issuance logic, and be capable of interacting with other smart contracts and creating assets with different properties, visible on-chain, including all asset types available in tradFi today plus all others that can be created via smart contracts. This will allow companies to have more control and clarity over their on-chain entities (and assets) and greater flexibility in the functions and processes they execute, bringing them closer to a DAO-like governance than is currently possible in Stellar classic. This will also make Mojoflower-created entities less dependent on a centralized company (like Mojoflower) for handling their assets.\n\nPetal is a decentralized document signing service that stores signatures and document/contract receipts as an enhanced ERC721 smart contract on EVM equivalent chains and L2s (Arbitrum/Polygon). The flow is: 1. A user connects using a wallet of their choice. 2. Uploads documents to IPFS and inputs which entities to gather signatures from and optionally how to send them a notification of where to view and sign said document. 3. The possible signees view the document and choose whether to sign or reject. When they have chosen their action, the signature for that action is requested from their wallet and stored on-chain with the NFT representing the document in question. We want to build a Soroban version of the document signing service plus add Stellar wallet signing capabilities. Currently, there is no document signing service, that we know of, that allows users to send documents via Stellar in a decentralized way and users cannot use their Stellar wallets to sign documents.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec5zyGnVx1mUR50F",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/home/Mojoflower"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/mojoflower/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "100000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "100000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-447",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "uils - uils",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Double-sided wallet to empower mobility gig workers to store value against inflation Did you know that +25M of mobility gig workers do not have access to credit in Latam? We are enabling the traditional financial system to reach a hugely in-need underserved population through a unique and proprietary driving credit score that replaces outdated inefficient risk assessment mechanisms. We are the company behind the tech: we have a mobile app with a fiat wallet, a 100% automatic back-office platform and a behavioral scoring engine that can effectively capture the risk of the customer segment we are trying to serve.\n\nIn emerging markets, inflation forces users to find alternative ways of storing value. Argentina is one of the Latin American countries hit hardest by ever-increasing inflation. With an average annual inflation rate of 24% over the past 20 years in Argentina, the depreciation of the peso ranks as the most relevant issue for Argentines. To protect themselves from devaluation, people typically preserve their wealth by exchanging the Argentine peso for the US dollar. This process usually involves opening foreign bank accounts and holding onto the physical bills at home. This leaves them with no safe way to store or use their money.\n\nWe want to enhance our value proposal, adding a USDC alternative account to our existing fiat wallet. After the implementation of the blockchain-based wallet, the user will be able to receive a Stellar address automatically, right after his KYC has been accepted. If they want to buy (or sell) USDC, they will get the transaction quote automatically in real time. We will collect the corresponding amount from the user\u2019s national currency virtual account and will send the corresponding USDC balance to their Stellar address in a few seconds. This new feature will provide our users a new saving strategy in countries where unstable economies push them to escape from their own currency because of its constant devaluation. This happens in Argentina, where we are already operating, and other Latin American countries.\n\nWe have participated in the Stellar Community Bootcamp where we had the chance to design, prototype and validate our ideas with real users. During the interviews, 8 real users of our wallet were invited to complete 2 different processes. First, the purchase of USDC using available funds in their fiat wallet. Second, to perform a cashout of USDC to a different account. Our users are not familiar with crypto so we did some research on that as well. From all the users interviewed, only 2 mentioned that they are able to save, but 7 said they would do it through our wallet\u2026 one of them wanted to do it NOW! A few learnings in the process: wording is important\u2026 withdraw and transfer may not be understood the same way; security during cashout\u2026 some users mentioned they wanted to schedule an \u201cautomatic\u201d purchase once they collected their wages in the wallet; and some minor details but really useful to learn! \n\nBootcamp workspace - https://drive.google.com/drive/folders/1C6S5GRQg7Hv76Bi3An5WSomV5fln9i6v",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recb7lLAeoG5poknB",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "www.twitter.com/somosuils"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "141027.50",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "141027.50",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-448",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Emigro - Emigro",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "The traveler's digital wallet. Cross-border, card-less, instant payments for the tourism industry. \"International Pix\" Although I believe that there'll be multiple use-cases for Soroban on Emigro, it doesn't make sense for me to start there. I have to get payments working and get a client base on the core product, before working on more sophisticated features. The first product is a smart-phone based cross-border payments app for retail tourism-related payments, whereas the tourist and vendor will both need the app at this time, but with the goal of moving towards app to account payments. A tourist will pre-load their (recoverable) self-custody Emigro wallet through an anchor in their home country, via the Emigro interface. They're then able to travel to other countries and make cash-less and card-less retail payments where Emigro is accepted for their trip expenses via QR codes containing the vendor info plus the payment details for them to scan. With path payments the currency exchange, at the best rate, and payment is completed at the point-of-sale, therefore a traveler doesn't need to exchange and hold currencies other than their own. But, the ability to exchange and hold other currencies does exist if the traveler/vendor wants to hedge against fluctuating exchange rates. The payment will settle instantly with the vendor in the currency that they chose and can be instantly off-ramped to their bank account by their home country anchor via the Emigro interface. Although fiat-backed stablecoins are used, (with XLM as an intermediary), the traveler/vendor doesn't need any knowledge of crypto, and all of the confusing web3 UX is stripped away. The traveler/vendor doesn't have to deal with gas or wallet address strings, their wallet key is their email address or another code they choose, mimicking how Pix operates in Brazil and that others will follow. This is a safe way for people to get started with and use digital currency, and can be a gateway for future products. There are problems solved for both the travelers and the vendors; Travelers - no need to exchange and carry cash for regular tourism payments, saving money and also being less susceptible to losing money via theft - no need to carry credit cards for regular tourism payments as they're not universally accepted, the vendor may add a fee to accept the card, and international cards are not available to all (plus their high fees) - transparency regarding the fees involved in making payments, with the small on/off ramp fees, but free transfers (payments) and no markup on the exchange rate Vendors - no need to hold large amounts cash from tourism clients, with more safety and no in-person bank deposits required - no need to have a point-of-sale credit card machine if you are a very small vendor, or you can save money by accepting fewer credit cards as a larger vendor. there is also more access to consumers as only smart phones are required for the payments - instant settlement with no charge-backs, and the ability to immediately send the money to a bank account or another user (free)",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recMpM56WpU1AMLd1",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/emigrobr"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/emigro-inc/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "46400.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "46400.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-449",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Oinc - Automated Personal Finance - Oinc",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Oinc is a seamless personal finance solution for LATAM young adults, conveniently enabling better financial decision making We know the potential of crypto/blockchain in creating a more efficient and freer financial environment. And LATAM, a region with so many financial barriers, can benefit greatly from it. But these tools are still only used by a small segment of our population. We want to bring the benefits of Stellar Network to the average person, especially to the 150M+ young adults in LATAM who already are users of mobile banking solutions. There's a lot of momentum in Latam (specially Brazil) for truly building user focused financial solutions, due to Open Banking. Now, the user owns his data and can share it in order to pursue better options for himself, not only on what his own bank/broker can offer. We already operate in Brazil, serving 9000+ active users. Oinc is similar to the US-based service called Acorns. Especially built for Brazilians our system automates the process of saving and investing. We want to create our new infrastructure using Stellar, to be able to expand it to more countries across LATAM. Our first priority is to launch a digital wallet to support Stellar assets such as USDC and digital BRL. Wallets will represent the individual accounts and support cash-in/cash-out, pay and exchange money. Second, we need to enable the users to invest/exchange asset-backed tokens and stablecoins of stronger currencies. Third, we need to connect the Open Banking infrastructure with the new solution. And after having a broader understanding of what can be best for the user, enjoy possibilities to use Stellar infra on lending, international wire, and more. In that way, using crypto/blockchain potential to provide a simple and efficient financial solution for young adults, while also making it easier for them to hold assets in a stronger currency and move money. Thus, providing financial freedom and wealth growth. Prototype of our solution here (made during SCF Bootcamp): https://www.figma.com/proto/IJb82qMJYOl1d9YjirR74T/Stellar-Camp---Oinc---Prototype?page-id=0%3A1&node-id=64-7055&viewport=-535%2C697%2C0.31&scaling=contain&starting-point-node-id=64%3A7055 For detailed tech specs (process maps on integrations, prototype, infrastructure guidelines,...): https://useoinc.notion.site/Oinc-Stellar-Tech-Specs-20e4748620a647a3b7189e424d7f8544?pvs=4",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recHtAS5rmHwAFWhn",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/useoinc"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "105000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "105000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-450",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Decaf Pay - Decaf Pay",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "The cheapest and fastest way to send money internationally International payments and initially focus on the US to Mexico channel. This will use our MoneyGram integration and mass payments functionality like the Stellar Development Aid Program. Soroban - smart contracts for recurring USDC payments. Things like daily/monthly payments recurring payments from Decaf Pay. Sep24 - we have built this integration with MoneyGram, we were the first wallet outside of Lobster and Vibrant, and the use is growing rapidly. We will leverage this to integrate with other on/off ramps (anchors) such as AIRTM, Kado finance, possibly VISA, Circle and other anchors in the future. SEP 7 - we will help develop Stellar Pay with Jee and the SDF team. We are the main Point of Sales used within the Solana Pay ecosystem and have a wealth of insights around payments UX and want to build this for MoneyGram to utilize at their retail stores. We also want to use QR code payments to help users top up balances with the Decaf Pay product for easier sending of money. SEP 10/24 - we have previously built this functionality which will allow us to integrate into savings/yield functionality like Ultra Stellar, or Franklin Templeton yield/investment products. We are still researching and looking for the appropriate, safe, yield/investment options.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recp4q5jA9dXq7to6",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/decafpay"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "150000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "150000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-451",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Ultra Stellar / Soroban Integration - Ultra Stellar + Lobstr",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Ultra Stellar seeks to enrich LOBSTR and StellarX by integrating Soroban smart contracts, enhancing user interaction and utility. With the support of the Stellar Community Fund (SCF), Ultra Stellar plans to substantially advance our two key products, LOBSTR and StellarX, by integrating Soroban smart contracts. Soroban's innovative smart contract system offers a valuable opportunity to enrich the functionalities and user experience of both platforms. For LOBSTR, we aim to incorporate smart contract functionality. This integration will allow our over one million users to seamlessly interact with smart contracts directly within the wallet interface. Users will be able to manage assets and engage with products built upon smart contracts by others, thereby broadening the wallet's utility and streamlining the user experience. Similarly, we plan to introduce Soroban smart contracts into StellarX. This will enable users to interact with and manage assets and services that utilize smart contracts, expanding StellarX's functionality. Our goal is to make interaction with smart contracts as accessible and user-friendly as possible. By doing so, we anticipate stimulating broader adoption and innovative uses of smart contracts within the Stellar ecosystem. Moreover, we are committed to working in tandem with the wider Stellar community. We aim to integrate the advantages of smart contracts and adopt products created by other developers into LOBSTR and StellarX. We believe that combining different elements from across the community can spur innovation and enable us to deliver superior services for Stellar. In summary, through the support of the SCF, we are eager to transform LOBSTR and StellarX into powerful platforms for managing and interacting with smart contract-based assets and services.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recWR4fbwZYJ72i34",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/ultrastellar"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "144000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "144000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-452",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Basement - Basement",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Basement gives developers performant and easy access to onchain data in as little as a few lines of code, using SQL and GraphQL. Basement aims to help kickstart a developer community for Stellar Soroban, using our fast and easy-to-use SQL and GraphQL APIs. Available within Basement\u2019s free tier, for a testnet and its mainnet once ready. Indexing can be an expensive and time-consuming task. We assume crypto startups spend on average at least one FTE in engineering costs for their data pipelines. This data is essential to build business logic and interfaces for protocols. Basement reduces this to as little as a few lines of code, saving engineering teams tons of time. This time can now be dedicated to work on product features instead.\n\nAn indexer extracts and transforms historical and real-time data from a blockchain and converts that to a format or a set of APIs more suitable for developing applications. Indexers are crucial because execution layer nodes are optimized for write performance, resulting in slow response times when reading large sets of data. Basement connects this data to warehouses such as Postgres and Parquet, which are more suited for reading data on a large scale.\n\nThere are three different indexers we're building here:\n- Tip of the chain: To keep data real-time, we'll leverage the getLedgerEntries and getEvents RPC methods to extract new data and store that in our data warehouses used by the SQL/GraphQL API.\n- Archival: To verify state and backfill historical data, we'll build a service that parses history_archive files from Tier 1 validators. This data will then be transformed to our custom schemas and loaded into our data warehouses. Developers can then query these through SQL and GraphQL APIs in a performant way, without having to sift through these files themselves.\n- Custom primitives: Some events, such as TokenTransfers, are stored in a different table, with indices on common fields. Because these events are commonly queried, we want to make sure developers can query them without having to parse these themselves.\n\nWith SQL, developers can query transactions, events, and decoded data. With the click of a button, these queries can be turned into production-grade RESTful endpoints. SQL is well-suited for advanced analytics of on-chain interactions. Our customers on other chains use this to measure usage of their protocol, build graphs, and classify potential users based on activity. The entities that will be available through SQL are Transactions, Events, TokenTransfers, and TokenContracts. These entities can be queried through a PostgreSQL-flavored query language, using our SQL IDE available on basement.dev.\n\nAll entities in SQL will be available in GraphQL as well. GraphQL is better suited for quick data access directly in a builder's app or interface and is easy to use through our JavaScript SDK. GraphQL also offers other quality-of-life improvements, such as batch querying contract state such as Balances and Name Services, automatically decoding XDRs when available, and paginated data for easy integration into any interface.",
+          "contentURI": "",
+          "status": "approved",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "twitter.com/basementapp_xyz"
+            },
+            {
+              "platform": "Discord",
+              "url": "discord.gg/rr5R7UYvGC"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/82955478/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "12130.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "12130.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-453",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Soroban-VSCode Extension - stellarpro.dev",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Develop a Visual Studio Code extension that provides Stellar/Soroban developers a unified tooling user experience and workflow. The Problem\n\nDeveloper productivity relies on having great tools and that includes an industry-grade IDE. In addition to a great IDE, you also probably rely on a multitude of other tools to get your job done. Currently, Stellar/Soroban development requires you to switch between quite a few tools: the Stellar Laboratory, the Soroban-CLI, RunKit, Postman, curl, and your own scripts and code snippets, among others, to leverage core features of the platform. While there are online solutions (specialized IDEs) helping users to streamline workflow, and they are great for your first steps, once you deep-dive for a while you outgrow them very quickly or find their features limiting. Also, having to \u201clearn\u201d how they work, only puts more cognitive load when you are already on a steep learning curve for Stellar/Soroban.\n\nThe Solution\n\nWhy re-invent the wheel? Let\u2019s Stellar/Soroban-ize a tool already used by millions: Visual Studio Code.\n\nThe roadmap ahead\n\nOur extension will provide easy access from within Visual Studio Code to built-in Soroban platform services and features, such as: Calling RPC/API endpoints, such as getLedgerEntries, getTransaction, and sendTransaction. Translate XDR to/from UTF-8. Create and Send Transactions (local and on-chain) in an easier manner. Manage Identities such as Accounts and Contracts. Manage Networks and Server connections. View and record Events, with filtering support. Download contract code, so bindings/interfaces can be extracted. ... among others.\n\nThe roadmap even further ahead\n\nVisual Studio Code also runs in a web browser: www.vscode.dev, and while not all extensions can be added and used in that environment (there are certain restrictions), it certainly does potentially allow to have a fully-featured, completely web-based Visual Studio Code user experience (no local installs and cloud-based development flow). The current problem (which can be solved by using remote development and/or Codespaces, but both of these solutions are cost-prohibitive), is related to usage of the Rust toolchain currently required for Soroban development. Once this general problem is solved, our solution could be deployed to Visual Studio Code on the web, making it the #1 developer choice for building projects, which unfortunately can result in downgrading of other Stellar/Soroban-specialized online IDEs currently out there (or make them more of a user choice or preference).\n\nA note on global audience\n\nThere are no distribution restrictions on Visual Studio Code extensions, so our potential market is every developer wanting a better experience when building Stellar/Soroban projects. However, we do want to point out that we plan to launch v.1 with i10n support, and we will support both English (default) and Spanish.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recpomNZXKFtufheP",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "39880.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "39880.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-454",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Arcturus - Arcturus",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Use natural language to access Stellar and Soroban real-time data, compose and send transactions via the Arcturus ChatGPT Plugin. Arcturus is a ChatGPT plugin that will be able to retrieve and combine real-time data from the Stellar Blockchain and Soroban. Once the user activates the plugin from the ChatGPT store, he can request and receive text-based, real-time information from the Stellar Blockchain and Soroban by prompting ChatGPT. The main advantage of the plugin is the improvement of usability, which will allow users and developers to use natural language to obtain data from the Stellar Blockchain and Soroban. It will also allow users to easily create transactions and send them to the Network by prompting the AI Model using natural language. In this first step, I want to implement the core functionality, so that the Arcturus Stellar ChatGPT Plugin can request and interpret data from Stellar Horizon and Soroban RPC. To do so, the Arcturus API needs to be implemented and the specifications and examples for the AI Model need to be prepared and extensively tested. Furthermore, the Arcturus Plugin will be capable of composing transactions and after external signing, able to send them to Stellar Horizon and Soroban RPC via the Arcturus API. External signing will be implemented via WalletConnect. Over time, the system will evolve by implementing different SEPs and using additional services like for example Stellar Expert and Soroban Assistant AI. Another benefit is that Arcturus can increase the visibility and popularity of Stellar and Soroban, as ChatGPT is becoming more and more popular.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec01tLmsvSK8wwj4",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "105120.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "105120.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-455",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Rust Soroban Client Library - Rust Soroban Client Library",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "rs-soroban-client is a Rust library for communicating with a Soroban RPC server and using it on the client side. This library will enable developers to seamlessly integrate Soroban functionality into their Rust-based applications and services. The key features and services I plan to develop include:\n\nTransaction Processing: We aim to provide a comprehensive set of functions and utilities for creating, signing, and submitting transactions to the Stellar network using Soroban. This will empower developers to easily build secure and efficient transaction processing capabilities into their applications.\n\nAccount Management: The library will offer convenient methods for managing Stellar accounts, including generating key pairs, retrieving balances, fetching transaction histories, and monitoring account events. These functionalities will simplify the process of interacting with Stellar accounts while ensuring data integrity and security.\n\nAsset Issuance and Management: This will provide tools for creating and managing custom assets on the Stellar network, enabling developers to tokenize real-world assets, issue stablecoins, or implement their own unique digital assets. Our library will streamline the asset issuance process and provide necessary functionalities for asset management.\n\nIntegration Support: To enhance ease of adoption, the library will offer extensive documentation, code examples, and integration guides. I will actively engage with the developer community to provide support, address queries, and incorporate feedback, ensuring a smooth and efficient integration experience.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recJ1m2AzJdAiqm8Q",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "25000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "25000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-456",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "#SummerOfSoroban - EasyA",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "EasyA creates a Soroban crash course and gets devs from its huge network of 500k+ engineers building on Soroban via its app. What is EasyA? With 500k+ developers from top universities, companies, and projects across the US, UK, and Europe, EasyA has grown into one of the world\u2019s most trusted and engaged developer communities in the last 3 years. EasyA developer projects have been funded by a16z, Polygon Labs, and many other top VCs. Founded by Oxbridge/Ivy League grads, EasyA works very closely with 250+ of the world\u2019s best blockchain clubs, frequently ranks as one of the top apps on the App Store, and has been featured as Apple\u2019s App of the Day. Our crash courses and hackathons with the world\u2019s leading Web3 networks such as Polkadot, Algorand, Polygon, Tezos, Binance, ImmutableX, Solana, and many more attract the world\u2019s most talented hackers, since EasyA is a powerful signal to them of quality and excellence.\n\nThe Problem: Why does Stellar need EasyA? Most developers think Stellar is only a payments/asset-transfer network. They don\u2019t know about the huge opportunities Soroban will unlock once it brings smart contracts to Mainnet later this year. Soroban therefore needs to inspire these developers to attract them to build in the ecosystem. This is of paramount importance to securing Stellar\u2019s position as a world-leading chain. Soroban needs to: Increase monthly active Stellar developers via EasyA\u2019s unique, direct-to-developer channels. Teach developers about the novel use-cases Stellar is looking for, so these can inspire more developers to build on Stellar. Build a funnel of top projects for VC funding. Boost Stellar's Electric Capital score by actively increasing GitHub repository activity. Via this proposal, EasyA will target all 4 of these goals and ensure Stellar cements its reputation as a world-leading chain for all builders and innovators (not just for payments). The secondary effects of this will also be very powerful. Increasing developer activity will itself improve the perception of Stellar in metrics tracked by builders when choosing a chain (such as the Electric Capital / a16z Developer Report).\n\nTarget audience: Builders who want to found their own startups on Soroban. Web2/Web3 developers who want to learn about Soroban but just want the technical TL;DR. Students who are excited about Web3 and want to build their BIG idea on Soroban.\n\nHow: Through Stellar educational content in the EasyA mobile app, EasyA gets its unique network of the world\u2019s best developers (in the US, UK, and Europe) learning about and building on Soroban. Via the EasyA app, we will funnel a consistent and proven pipeline of top developers into the Soroban ecosystem. These developers will be from EasyA\u2019s huge network of 500,000+ developers at top institutions from Harvard to Meta to Google and other leading Web3 projects.\n\nOutcome: 1,500 developers onboarded to Stellar, with 300 developers graduating.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recOiKOyCVxtjSbaG",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/EasyA_App"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/30108824/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "136800.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "136800.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-457",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Soroban & Aquarius - Aquarius",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Aquarius is leveraging Soroban to build AMMs, incentivize LPs with AQUA rewards, and introduce Stellar smart contracts to users. With the support of the Stellar Community Fund (SCF), we aim to achieve the following milestones for the growth and development of the Aquarius ecosystem: Soroban-powered AMMs: Soroban brings new opportunities to Stellar, so our first aim is to experiment and build a set of Automated Market Maker (AMM) smart contracts running on Soroban futurenet. We will launch a simple demo AMM interface to showcase the new capabilities. We will experiment with various AMM design ideas and do the initial research needed to build a more complex AMM that will power Aquarius when Soroban goes live. Add Rewards for Liquidity Providers on Soroban: We plan to use Soroban to build the distribution engine for AQUA liquidity rewards. AQUA rewards will incentivize users to provide liquidity to the Soroban AMM. The distribution engine will run as a set of Soroban smart contracts (on futurenet) and will calculate and distribute liquidity rewards to LPs accordingly. This goes in line with our goals to further decentralization of Aquarius. Introduce Aquarius Users to Stellar Smart Contracts: Our goal is to familiarize the existing user base, ecosystem projects, and 122,000 AQUA token holders (165K trustline holders) with upcoming smart contracts on Stellar, and encourage them to experiment with Soroban futurenet and learn more about Soroban-powered solutions. In summary, with SCF's support, we will move towards expanding and improving Aquarius' ecosystem, leveraging Soroban's smart contract capabilities to develop innovative DeFi products.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recRUJxeF1PdlM6aV",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/aqua_token"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/sgzFscHp4C"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "147000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "147000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-458",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Soroswap Protocol - Soroswap.Finance",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Open-source AMM protocol with Ecosystem Interoperability for providing liquidity and trading Stellar Assets in Soroban. For this SCF round, we will focus on three key areas: Development of a Router and Library contract to facilitate interactions with Soroswap for other protocols, wallets, or other types of users. Ecosystem Expansion: We aim to foster inter-protocol operability by collaborating with ecosystem partners. User experience enhancement of the frontend by refining its design and usability, making it more intuitive and user-friendly. To achieve these goals, the Soroswap Team will continue its dedicated support and development of the @soroban-react library. This library serves as a crucial connector between the frontend and smart contract. As with all our initiatives, our products and contributions will remain 100% open-source.\n\nIn the following, we explain each of these areas: Smart Contract Development. The Router Smart Contract: We will develop the Router Smart Contract, similar to UniswapV2Router02, to facilitate advanced trading functionalities. What does this solve?: Swap of tokens when a direct pair does not exist, by calculating optimal paths. It will also handle liquidity provision and manage deposit and withdrawal functions for liquidity providers within the Soroswap ecosystem.\n\nThe Library Smart Contract: Create the Library contract, similar to the UniswapV2Library contract. What does this solve?: Won\u2019t need to write again functions and calculations used in the Soroswap Protocol, enabling efficient and optimized code execution across different contracts.\n\nEcosystem Expansion: Inter-protocol operability. We will conduct research and reach out to potential ecosystem partners interested in integrating the Soroswap AMM into their products. Some of the ecosystem players we have already established contact with include stream payments solution SStream, banking and cross-border payments solution Meru, and gamified DeFi interface Dogstar. Other players could be LP staking incentives protocols like Aquarius.\n\nChoose 2 partners. We will select two partners based on our research to collaborate on creating proof-of-concept smart contracts, libraries, or codes that will interact with Soroswap. Documentation. We will create documentation, tutorials, and content to help other protocols interact with Soroswap. We'll share our experiences, publish code, and even conduct YouTube interviews. Our goal is to provide valuable resources and foster collaboration within the ecosystem.\n\nUser Experience Enhancement: We will improve the frontend design for a polished and visually appealing experience. Our focus is on intuitive navigation, responsive design, seamless transactions, and attractive aesthetics. Our goal is to deliver a refined frontend ready for the Soroban Mainnet launch.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recDy2knwdmwAPWBd",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/soroswap"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/JdTz2Tbd"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/soroswap/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "139150.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "139150.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-459",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Plutus - Plutus",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Build infrastructure and sample application for conditional NFT ownership to enable use cases like rental, mortgage, and lending. The protocol's core idea is a lien mechanism, which allows users to create conditional ownership of digital assets. By leveraging smart contracts, the protocol enables users to engage in various financial transactions, such as borrowing funds against the digital assets or purchasing assets and paying over time.\n\nUse Cases:\nMortgage: Users can buy and own assets, such as real estate or vehicles, by representing them as digital assets and paying the value over a specified period.\nRent: Users can rent digital assets, allowing them to utilize the asset for a predefined period without having to own it fully.\nBorrowing: Users can borrow funds by collateralizing their digital assets and receiving loans in cryptocurrencies or other digital assets.\n\nTechnical Details:\nBelow is a potential interface for the protocol:\ncreateLien(address owner, address asset, u32 amount): This function allows users to create a lien on a specified digital asset. The input parameters include:\nowner: The address of the user creating the lien\nasset: The address of the digital asset\namount: The amount of the digital asset being encumbered by the lien\n\nremoveLien(address owner, address asset, u32 amount): This function enables users to remove a lien on a specified digital asset. The input parameters include:\nowner: The address of the lien's creator\nasset: The address of the digital asset\namount: The amount of the digital asset to release from the lien\n\ngetLien(address owner, address asset) returns (u32): This function retrieves the lien amount of a specified digital asset for a given user. The input parameters include:\nowner: The address of the user\nasset: The address of the digital asset\n\nBy utilizing the Stellar-based DeFi protocol, users can engage in various financial transactions with digital assets, unlocking new opportunities for decentralized finance in real-world asset management.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recUIdWohR9eqJIg8",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "98600.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "98600.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-460",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Stellar Prepaid Cards - Anclap",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Connecting Stellar to real world payments by enabling/extending SEP-Compliant on-off ramp to physical ARS Prepaid Debit Cards We want to scale our ability to provide Stellar based tokens prepaid cards in Argentina, and make them available to any third party platform user through the on-off ramp mechanism. Our service empowers Stellar based projects to offer their users an international plastic card, enabling seamless fund transfers between their Stellar accounts, facilitating purchases at any retail store, and providing real-time transaction history and card balance tracking. Problem: Limited Access to Traditional Financial Systems. Significant unbanked population. Solution: We provide people with access to a broader range of payments services and the ability to use their Stellar funds in real-world transactions, even if they have no bank account! Comments: Main Stellar FIAT Anchors focus on banking integration, which is great considering that banks are the primary providers of \"traditional finance\" services. However, it raises the question: What about the unbanked population? World Bank data reveals that approximately 50% of Argentina adult population lacks access to formal financial services or a bank account, driving retail transactions to heavily rely on cash. Problem: Complex Fund Movements and Transaction Tracking Solution: Our service simplifies the process of request, load, unload, track their transactions and balance in real-time by ensuring full compliance with SEP-6 and SEP-24, enabling seamless interaction with any anchor. This solution also implies modifications to the current SEPs versions due to the fact that SEPs doesn\u2019t consider this use case in detail. Audience: Our service benefits any platform that integrates with Stellar and have or seek to have users in Argentina. It is particularly useful for those who face limited access to traditional financial systems, bank account, or those who prefer to avoid the banking system. However, and due to the dollar exchange rate restrictions here in Argentina, it is particularly beneficial for those who save or earn in dollars be able to spend at the real market exchange rate! How it works: The card is an internationally accepted prepaid credit card, affiliated with either VISA or Mastercard (to be determined; today is Mastercard), and denominated in Argentine Pesos. We have the capability to issue physical and virtual cards to any KYC\u2019ed customer, and ship the card directly to the customer's designated address. When a customer requests a withdrawal, we initiate a process where we transfer the corresponding FIAT amount to our provider, thus topping up the specific card's balance. We support several tokens, including XLM, USDC, yUSDC, and Anclap\u2019s ARS, which can be used to fund the card. We will enable the mechanism to request cards, get card transactions (payments) and get balance, but we need to work carefully to make the best standard proposal that ensures interoperability and compatibility.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/reccDyvfqZISOWHI7",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/AnclapFintech"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "146400.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "146400.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-461",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Slender - Slender",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "P2P money markets for Stellar ecosystem. Slender is a Soroban implementation of a P2P pooled lending protocol. Slender is a decentralized non-custodial liquidity protocol where users can participate as lenders or borrowers. Lenders provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralized (perpetual) or undercollateralized (single block liquidity) fashion. The interest rate in Slender is dynamically determined by the market supply and demand mechanics. Therefore, the borrow and supply interests could vary in different blocks. The main factor which the interest rate relies on is utilization which represents the relative amount of borrows to the total cash in the given market. Classical protocols such as Aave and Compound utilize step-wise functions to control interests when utilization is high. We propose to use a hyperbolic function for the same purposes, as it's smooth, doesn\u2019t have any inflection points, and behaves similarly in nature. Slender codebase will serve as an important resource for the growth Stellar DeFi ecosystem. Providing a secure Soroban proof-of-concept implementation of the codebase will make it easier for new teams to enter the ecosystem and begin building. We will release the simple UI for the interaction with the protocol. This protocol will serve as a proof of concept and will be released as open-source software. There will be no DAO or utility token, just an open-source protocol that any Soroban project can use as a building block. We further plan to make a follow-up application that will extensively experiment with the no-liquidation approach in relation to collateralized position management within the protocol. The idea is akin to delta-hedging. The collateral portfolio will be periodically traded in and out of stablecoins depending on its performance, imitating the behavior of the protective put option and eliminating the need for position liquidation. However, we must admit that this setup is only possible with 3rd party AMM liquidity and oracles/backend to control periodic portfolio rebalancing.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recPZV9KigYc4et2I",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://x.com/Slender_fi"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "149250.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "149250.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17-462",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 17,
+          "grantPoolName": "SCF #17",
+          "projectsURI": "",
+          "projectName": "Excellar - Excellar",
+          "createdAt": "2023-07-09T00:00:00",
+          "projectDescription": "Excellar is building financial products on-chain for real world assets. Why build a real-world asset tokenization platform and an associated lending protocol\n\nDAO treasuries, crypto funds, crypto native startups, and Crypto OTC desks sit on large amounts of stablecoins and other crypto assets. The DeFi TVL crashed after Q2 2022, so most crypto native assets are not participating in the DeFi ecosystem. Meanwhile, real-world assets such as Treasury bills and Agency-backed MBS in the US have become productive due to the rising inflation and central banks who have responded by raising rates. This has increased the rate of high-quality fixed-income assets such as US treasuries and RMBS securities. The prominence of real-world fixed-income assets is here to stay as the era of quantitative easing and free money is ending. This means that the DeFi native assets would remain uncompetitive with the real-world assets unless the inflation rates in the real economy go down significantly, which is an unlikely scenario based on historical patterns.\n\nWhat are the products\n\nExcellar will create two products on Sorobon, Excellar Mint, which will be used for asset tokenization, and Excellar Repo (xRepo protocol), which will be a repo-like lending protocol. Excellar Mint will tokenize public and private funds holding real-world assets. Note that the tokenization platform will be hosted at http://excellar.finance. Excellar Repo will allow token holders to borrow stables against those tokens unlocking liquidity for the short term if needed. Note that the lenders of stables on the Excellar repo lending protocol would differ from the borrowers due to their different liquidity, duration, and risk tolerance profile. Note that the tokenization platform will be hosted at http://xrepo.finance. Further, crypto holders can borrow stables against their crypto from DeFi protocols such as AAVE and then use those stables to mint the tokens and earn higher net rates on their crypto as the rates on real-world assets will be higher than those in DeFi. This will also push up DeFi rates.\n\nExcellar Short-Term US Government Treasury Fund (XUSG)\n\nFund Holdings: Our first tokenized fund (XUSG) would be a Short-term US Government Treasury Fund holding iShares Short-Term Treasury Bond ETF (NASDAQ: SHV) and cash. The ETF documentation is available here https://www.ishares.com/us/products/239466/ishares-short-treasury-bond-etf. Transparency: The fund administrator is an independent service provider who does an independent valuation of the fund and publishes a Net Asset Value (NAV) at a frequency specified in the fund prospectus. The administrator also publishes reports of the asset holdings of the fund. This fund is a typical Regulation D private fund offering in TradFi, where investors receive a prospectus, limited partnership agreement, and a subscription document. Together these documents detail the operations of the fund, the assets holdings, and details of the service providers, such as the fund attorney, administrator, and auditor. Please note that we will tokenize more funds in the future, each with a clear specification of the fund asset holdings in its prospectus. Full documentation on the tokenized fund and the repo-lending protocol is available here.\n\nDocuments for Excellar Finance Tokenization Platform: https://scife-stella-protocol.vercel.app/docs\n\nDocuments for xRepo Lending Protocol: https://scife-xrepo.vercel.app/docs",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recDCdserATw05JGr",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "88750.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "88750.00",
+          "payoutAddress": {},
+          "payouts": []
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,358 +1,436 @@
 {
-    "@context": "http://www.daostar.org/schemas",
-    "name": "Stellar",
-    "type": "Foundation",
-    "grant_pools": [
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar Community Fund",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "SCF #13",
+      "applications": [
         {
-            "type": "GrantPool",
-            "name": "scf-13",
-            "applications": [
-                {
-                    "type": "GrantApplication",
-                    "id": "1",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyLIn8jG3DJVJz3",
-                    "projectId": "public-node",
-                    "projectName": "Public Node",
-                    "createdAt": "2023-04-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyLIn8jG3DJVJz3",
-                    "fundsAsked": [
-                        {
-                            "amount": 150000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1440467.95,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "2",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recAC4HtF0qVZ5yww",
-                    "projectId": "fxdao",
-                    "projectName": "FxDAO",
-                    "createdAt": "2023-04-04T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recAC4HtF0qVZ5yww",
-                    "fundsAsked": [
-                        {
-                            "amount": 74800.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 719082.52,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "3",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recDYN78xOLfo2AUv",
-                    "projectId": "dogstar",
-                    "projectName": "Dogstar",
-                    "createdAt": "2023-05-01T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recDYN78xOLfo2AUv",
-                    "fundsAsked": [
-                        {
-                            "amount": 14755.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 157861.5,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "4",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recG7Kj7ouwAFP2XY",
-                    "projectId": "comet",
-                    "projectName": "Comet",
-                    "createdAt": "2023-04-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recG7Kj7ouwAFP2XY",
-                    "fundsAsked": [
-                        {
-                            "amount": 150000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1425870.79,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "5",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9lcpC8qKgb7Tyc",
-                    "projectId": "haciendo-stellar",
-                    "projectName": "Haciendo Stellar",
-                    "createdAt": "2023-05-02T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9lcpC8qKgb7Tyc",
-                    "fundsAsked": [
-                        {
-                            "amount": 27420.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 291585.29,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "6",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfi8EB1253ZsHjO",
-                    "projectId": "bes-metaverse",
-                    "projectName": "BES Metaverse",
-                    "createdAt": "2023-03-31T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfi8EB1253ZsHjO",
-                    "fundsAsked": [
-                        {
-                            "amount": 7500.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 68138.45,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "7",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKUYCRQLT6Vq3Pj",
-                    "projectId": "spatium-wallet",
-                    "projectName": "Integration of Stellar blockchain into Spatium Wallet Builder solution",
-                    "createdAt": "2023-04-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKUYCRQLT6Vq3Pj",
-                    "fundsAsked": [
-                        {
-                            "amount": 148000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1418885.88,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "8",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recSJaZLVz2YEGn0b",
-                    "projectId": "chaincerts",
-                    "projectName": "Chaincerts",
-                    "createdAt": "2023-04-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recSJaZLVz2YEGn0b",
-                    "fundsAsked": [
-                        {
-                            "amount": 75000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 719030.01,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "9",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recYP22jRMBNgKhaU",
-                    "projectId": "horizon-as-a-service",
-                    "projectName": "Horizon-as-a-Service",
-                    "createdAt": "2023-04-06T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recYP22jRMBNgKhaU",
-                    "fundsAsked": [
-                        {
-                            "amount": 30000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 288066.29,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "10",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5E23kDxA8mUFZP",
-                    "projectId": "qolaq-mutual-aid-platform",
-                    "projectName": "Qolaq Mutual Aid Platform (MAP)",
-                    "createdAt": "2023-04-04T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5E23kDxA8mUFZP",
-                    "fundsAsked": [
-                        {
-                            "amount": 150000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1442010.41,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "11",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recbjvBMO5YVW5op0",
-                    "projectId": "xycloans",
-                    "projectName": "XycLoans",
-                    "createdAt": "2023-04-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recbjvBMO5YVW5op0",
-                    "fundsAsked": [
-                        {
-                            "amount": 31800.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 304868.72,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "12",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgHtdnSOVB0qjp0",
-                    "projectId": "sorobix",
-                    "projectName": "Sorobix",
-                    "createdAt": "2023-04-06T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgHtdnSOVB0qjp0",
-                    "fundsAsked": [
-                        {
-                            "amount": 40000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 384088.39,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "13",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recrMvxb9uFph97RM",
-                    "projectId": "okashi",
-                    "projectName": "useSoroban.app",
-                    "createdAt": "2023-04-04T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recrMvxb9uFph97RM",
-                    "fundsAsked": [
-                        {
-                            "amount": 82000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 788299.02,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "14",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recwogHqVCwITwGrG",
-                    "projectId": "the-blue-marble",
-                    "projectName": "The Blue Marble - Web3 Made Easy",
-                    "createdAt": "2023-04-06T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recwogHqVCwITwGrG",
-                    "fundsAsked": [
-                        {
-                            "amount": 148000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 1421127.07,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "15",
-                    "grantPoolId": "scf-13",
-                    "grantPoolName": "scf-13",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxS5yNLj2xXzQiO",
-                    "projectId": "tellus-cooperative",
-                    "projectName": "Tellus Cooperative",
-                    "createdAt": "2023-04-04T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxS5yNLj2xXzQiO",
-                    "fundsAsked": [
-                        {
-                            "amount": 85232.96,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 819378.67,
-                            "denomination": "XLM"
-                        }
-                    ]
-                }
-            ]
+          "type": "GrantApplication",
+          "id": "13-507",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "BES Metaverse - Azores Metaverse",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "Decentralized virtual worlds on Stellar - enabling users to play, create and interact with others in a blockchain-based metaverse. BES Metaverse is planning to launch a suite of new products using Stellar Soroban smart contracts with the support of the Stellar Community Fund. These products include an NFT marketplace, swap, and staking mechanism. Additionally, BES Metaverse is building a decentralized web platform that enables users to mint, trade, and stake their NFTs on the Stellar blockchain. We will also develop a user-friendly interface for seamless navigation of the virtual worlds and be dedicated to creating a system for designing and customizing land in the Metaverse to enhance user experience and personalization.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recfi8EB1253ZsHjO",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/BESmetaverse"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "7500.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "7500.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-508",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "The Blue Marble - Web3 Made Easy - The Blue Marble",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "The Blue Marble removes all friction from Web3, allowing brands to launch customer focused NFT campaigns with a few clicks. The Blue Marble was part of the Stellar community supporting the development of Turrets, the Layer 2 smart contract technology that was the precursor to Soroban Layer 1. Just prior to our brand launch, Soroban was announced as a replacement for Turrets - so we made the decision to get to market using Turrets and continue with the launch with a view to migrate to Soroban as soon as feasible. Our smart contracts control royalty payments and allow the trading of NFTs on Stellar without requiring use of Stroops as the NFT unit. The royalty system enables NFT creators and businesses to provide support for social and environmental causes when they sell or trade assets.\n\nOur current Turret smart contracts:\n- Have full authorisation over the NFT assets we mint once the Primary Sale is closed\n- They ensure only integer asset transactions take place and avoid the need to use Stroops as the base unit, permitting easier trading\n- They control the buy and sell operations which optionally include royalties: \n  1. to the creator of the NFT, as a percentage of all secondary sales and \n  2. to causes the creator would like to support such as charities and nonprofits who receive an ongoing percentage of secondary sales\n\nOur aim with Soroban is:\n- Develop Soroban based contracts to replace our existing Turret contracts as soon as Soroban goes live\n- Add to our existing smart contract operations so that the new Soroban contracts are fully complete and support all relevant activities required to manage NFT assets\n- Work with the Stellar community to ensure the new contracts are as cross compatible and easy to adopt by other NFT platforms and wallets on the Stellar ecosystem\n- Generate content and materials during our process of development in order to provide market knowledge and insights into the use and execution of Soroban based platforms, to act as a case study for The Stellar Development Foundation",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recwogHqVCwITwGrG",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/thebluemarbleio"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/5288550"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "148000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "148000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-509",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "Integration of Stellar blockchain into Spatium Wallet Builder solution - Spatium Wallet",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "Spatium offers an open-source Web3 Wallet Builder for businesses which allows to break barriers for mass adoption Spatium is a solution for businesses that would like to provide their users with the gateway to WEB3. So any business can develop a non-custodial wallet, pack it with the best features industry has: multi-party computation instead of the private key, biometric backup instead of seed phrase, blockchain agnostic signature, DApp browser and much more. Many traditional businesses coming to Web3 and crypto native projects want to step in with their own wallets to give end-users not only unique functionality they have, but also to guide them through Web3. Unfortunately, at a certain point they understand that building and developing a non-custodial wallet is not a simple task - it might take from three months to never. Even those who managed to overcome the initial release face countless support issues. That is where Wallet Builder steps ahead. Wallet Builder is a platform where businesses can create their own non-custodial wallet based on native and custom modules. Such approach allows to significantly decrease the amount of resources required by the business to design, develop, launch and support crypto wallets, and introduce new features. We are distributing our crypto wallet via B2B2C and our potential clients are both traditional and crypto-native businesses. We already have got partners with over 100k users onboarded and we have rather ambitious plans for attracting new clients. Our team is going to implement Stellar blockchain in our Wallet Builder. So the increase in demand for our solution will help the inclusion of the Stellar chain into the ecosystem of our current and future customers and subsequently their users will be able to use the Stellar blockchain advantages. Our solution implies to have flexible integration options: Box Solution (customized mobile App) or Wallet SDK. Thus, our Wallet Builder with integrated Stellar blockchain functionality can be used both for integrating into existing clients\u2019 application or as a stand-alone application.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recKUYCRQLT6Vq3Pj",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/spatium_news"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/spatium-capital/"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "148000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "148000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-510",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "Qolaq Mutual Aid Platform (MAP) - Qolaq Mutual Aid Platform",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "Developing the first Web3 mutual aid platform to drive financial inclusion for people who do not have traditional insurance cover. Qolaq plans to develop the following products/services with the support of SCF: 1) smart contract to launch MAP's initial Simple Critical Illness and Life Programs, 2) MAP's Disability/Health Programs, and 3) building Qolaq's global community for financial inclusion. Qolaq's MAP is a Web3 solution to the restrictive practices and inefficiencies of global health and life insurance, providing the underserved with mutual aid programs that enable Members to support each other in times of need. Qolaq is not an insurance company, so does not conduct underwriting, collect premiums or maintain reserves to pay claims. Qolaq provides programs and the MAP for its Members. Qolaq receives contributions from Members to operate the MAP. Qolaq's MAP follows proven, successful mutual aid models of the past and is developing a Web3 platform with Soroban to facilitate immediate claim settlement and permit Members to collectively decide on claims with full transparency, removing conflicts of interest. Full Member privacy can be achieved while delivering fair and impartial participation. The costs for administering MAP will be transparent and can be recorded on chain. MAP's decentralized approach also removes significant operating costs/commissions of typical insurers. MAP programs are designed for the underserved seeking coverage but either do not have access to traditional insurers, have been rejected due to underwriting requirements, do not understand complex insurance policy terms or cannot afford monthly premiums. Leveraging Soroban will enable automated remittance of claims upon Members' approval. Qolaq also seeks to access the existing financial rails through Stellar/Soroban to provide fiat on/off ramps for payments. Based on Stellar's commitment to financial inclusion, such collaboration will support Qolaq to reach beyond its initial markets to provide our decentralized MAP internationally.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec5E23kDxA8mUFZP",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "@qolaq_org"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://linkfly.to/qolaqfoundation"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "150000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "150000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-511",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "Horizon-as-a-Service - Horizon-as-a-Service",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "Providing a Web3 development platform for teams building on Soroban and Stellar without the hassle of infrastructure management. Horizon-as-a-Service is the beginning. We are looking to build a development platform for Stellar like we see with Alchemy and Infura. Our initial focus is on providing production-ready infrastructure API endpoints for Horizon API servers and Soroban RPC nodes, as well as managed instances. We want to make sure we provide a platform that is reliable and developer-friendly. One problem that we are looking to solve is that teams may not want to run their own infrastructure, so we are available to run and manage that for them. Another problem is that other solutions may be cost prohibitive, so we want to provide an affordable option that is more accessible.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recYP22jRMBNgKhaU",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/withobsrvr"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "30000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "30000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-512",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "Chaincerts - Chaincerts",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "kommit is creating a platform to unlock the future of certifications with trusted Soulbound Tokens managed by smart contracts Chaincerts is a cutting-edge platform that revolutionizes the way certifications are issued, verified, and showcased. Our platform issues certifications as secure, non-transferable, and verifiable Soulbound Tokens (SBTs) on the Stellar network. These SBTs, managed through Soroban smart contracts, serve as unique identity tokens that showcase an individual or entity's characteristics, features, traits, and accomplishments in a visually appealing format. With its unique combination of decentralization, innovative visualization, and simple verification, Chaincerts provides unparalleled security, reliability, and transparency to the certificate management process.\n\nCertification systems are outdated and unreliable. Traditional methods such as paper certificates, digital images, and PDFs are susceptible to falsification and manipulation, making it challenging to verify their authenticity. This is a significant issue for individuals and organizations who need to provide verifiable certifications to others.\n\nChaincerts offers a modern solution to the outdated and unreliable certification system, using blockchain technology to eliminate the limitations of traditional diplomas, PDFs, and cumbersome verification processes. Chaincerts is a transparent, tamper-proof, and visually appealing solution that aims to revolutionize the world of certifications.\n\nChaincerts leverages the strengths of the Stellar blockchain and Soroban's smart contracts. Stellar will ensure the security, verifiability, decentralization, revocability, uniqueness, non-transferability, and singularity of certificates. By incorporating Soroban's smart contracts, we will enhance the transparency and credibility of certificate management operations, providing unparalleled security and reliability. Our goal is to introduce the innovative concept of Soulbound Tokens within the context of Stellar and Soroban, giving new meaning to certificates.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recSJaZLVz2YEGn0b",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/kommitco"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "https://co.linkedin.com/company/kommit-co"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "75000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "75000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-513",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "Public Node - Public Node",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "A nonprofit organization that supports and brings a trusted and meaningful public voice to open and inclusive blockchain networks. As the Stellar Network grows, we\u2019ve seen an increased number of projects reach out to us to provide a critical piece to future trustless services \u2013 such as trustless key recovery for users of the \u201cBean App\u201d (a SCF round 10 winner). Similarly, the SDF has been encouraging a potential Public Node role in Allbridge\u2019s trust-minimized cross-chain bridge. We expect similar opportunities will only grow with the introduction of Soroban. Any funds received from SCF round 12 will be used to expand our stellar-supporting hardware, implement ongoing trustless opportunities, and seek out new partnerships and methods to provide trust-minimized services to developers using Stellar.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recyLIn8jG3DJVJz3",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/publicnode"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/pVR29p5NxK"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "150000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "150000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-514",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "useSoroban.app - Okashi",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "Online Soroban playground with a fully emulated host environment and instant contract calls, designed for onboarding web devs. The product I'm building - useSoroban.app - will provide an accessible environment for anyone with a web development background to experiment with Soroban. With an in-browser host environment, users will be able to instantly see their contract call outcomes, see ledger changes, compose and execute complex transactions involving multiple accounts and contracts, among other things.\n\nSmart contract platform onboarding is tricky, especially when you want to reach web developers - the biggest developer demographic. The time it takes for a curious web dev to interact with their first contract is a point of churn. Web devs are used to amazing, zero-setup tools that work in the browser, and by reducing the time-to-interaction to essentially zero - we keep them engaged. Moreover, once you click that button to \"compile\" a contract and you start interacting with it, you've created something - you have left your mark on the blockchain. This could provide extra incentive to stick around.\n\nThe product is composed of 4 services and packages. A compiler service that uses Rust and Cargo to configure and compile Soroban contracts into executables. I'm using Node to indirectly interface with Cargo, without interacting with the Soroban CLI. A custom WebAssembly disassembler/reassembler to inspect and optimize contract executables written in JavaScript. I also want to instrument contract executables to further enhance the playground experience. Web app that is the primary point of contact with useSoroban.app, written in JavaScript + React. I'm leveraging the JavaScript interface for WebAssembly to simulate a host environment for contracts within the browser. A custom JavaScript SDK for Soroban. It's something I started building for sorobandev.com and abstracted into its own public package. This SDK is required to enable simplified contract-based transactions using minimal syntax. The SDK will also be used when users export their playground projects to continue work locally.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recrMvxb9uFph97RM",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/Okashidev"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "82000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "82000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-515",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "Sorobix - Sorobix",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "An online IDE to compile, deploy, invoke and debug Soroban Smart Contracts on-the-fly using a browser without any local setup! What can you do with Sorobix?\n\nDeploy Contracts to Futurenet using 0 compute resources of your own. No setup required to try out Soroban. Easily write your own smart contracts on our online IDE. Build and test out functions written in your contract and easily debug your contract before deploying. Deploy contracts to the futurenet with a single click. You don't even need a wallet to deploy on testnet! (We automatically create one and provide the keys to you!) Invoke existing deployed smart contracts using their Contract ID.\n\nHow does this benefit Soroban/Stellar Ecosystem?\n\nWith the launch of Soroban Smart Contracts on the Stellar Network, we expect a huge influx of developers joining the ecosystem to get their hands dirty. Setting up Rust (the language Soroban Contracts are written in) in a local environment has always been tricky. This has always been a point of friction for first-timers onboarding or trying out the Soroban ecosystem. This is where Sorobix jumps in. With its online IDE capabilities, users can quickly write their own smart contracts from the browser itself and also try out pre-written sample codebases provided by the community! Soroban being at a nascent stage with its FutureNet launch last quarter, we want to scale it together using Sorobix to increase user adoption in the developer community of Soroban and benefit Stellar Network.\n\nBefore Sorobix:\n- Install Rust on a local system (5 mins)\n- Install the wasm32-unknown toolchain for rust (3 mins)\n- Install the soroban-cli (10 mins)\n- Initialise Cargo Project and Copy starter code from Docs (2 mins)\n- Build the Contract (10 mins)\n- Deploy/Invoke/Test the Contract (10 mins) [Depends on PC Spec]\n- Total Time Taken: 40 mins\n\nAfter Sorobix:\n- Click on the Try out Code Button on the Soroban Docs/Visit our website and find the starter code (1 min)\n- Deploy/Invoke/Test the contract (4 mins) [Superior remote build system]\n- Total Time Taken: 5 mins\n\nAs you can see, we have made the process 8x faster for newer developers and adopters to try out Soroban!",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recgHtdnSOVB0qjp0",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/sorobix_ide"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "40000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "40000.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-516",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "Haciendo Stellar - Haciendo Stellar",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "We are a Spanish-language communication platform for Stellar and Soroban, focused on the Latin American and Spanish market. At Haciendo Stellar, we will not be launching technological projects ourselves, but rather assisting those who wish to launch or have already launched their project with Stellar & Soroban to gain greater promotion for their projects.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/rec9lcpC8qKgb7Tyc",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/haciendostellar"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/3StMXdjGt3"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "27420.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "27420.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-517",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "Tellus Cooperative - Tellus Cooperative",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "Empower LATAM with innovative solutions for a decentralized, thriving local economy and engaged participatory democracy! With the support of the Stellar Community Fund, we plan to launch and grow three main products and services to help advance the adoption of cryptocurrencies in Chile and the growth of DAOs in the overall Stellar Ecosystem:\n\nWallet App: We plan to launch a mobile wallet app for Chile and Latin America, specifically designed for cooperative (multi-signature) savings and providing an on/off ramp for crypto and fiat with MoneygramAccess integration. The app aims to boost local economies by incentivizing sustainable behavior by providing discounts and rewards on local businesses and cooperative organizations. The app will be an all-in-one solution for the unbanked people in Chile to save, shift demand towards sustainable practices, and boost local economies.\n\nDAO Tools: We are growing a DAO community by building tools in the Stellar Network such as voting systems for community governance proposals and a bounties app to incentivize native developers. These developments will help build decentralized systems of governance and asset management and push for Soroban Smart Contract research and development.\n\nOpen Source PoS: We are building open source hardware running horizon to incentivize local shops to reward customer loyalty through tokenized coupons and points. We envision users tapping their wallet app or NFC cards on these terminals at shops or events. It currently uses a LibreBoard and RFID-RC522 Reader, and Python. The case is 3D printed. The goal is to provide the instructions for a DIY affordable terminal as well as providing production-ready commercial hardware to expand the Stellar Network and sustain the project.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recxS5yNLj2xXzQiO",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "@telluscoop"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/ysuxyKJ34c"
+            },
+            {
+              "platform": "LinkedIn",
+              "url": "Tellus Cooperative"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "85232.96",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "85232.96",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-518",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "FxDAO - FxDAO",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "A proof of concept of a decentralized borrowing protocol for the issuance of stablecoins backed by Lumens Decentralized stablecoins backed by Lumens. Stablecoins are key for blockchain adoption and are one of the reasons why the DeFi space has evolved so quickly. Unfortunately, current stablecoin providers across the blockchain ecosystem haven't been transparent enough, and we see more and more red flags from stablecoin issuers. But decentralized solutions like DAI and others have proven there is value in decentralized stablecoins because transparency is built into them by default. For that reason and many more, it seems reasonable to be inspired by their success and create a similar solution.\n\nEnter FxDAO, a decentralized borrowing protocol that enables the issuance of stablecoins by backing them up with Lumens. Who will use such a type of protocol? We might ask \"why\" and \"who will use it?\" There are multiple reasons for such a type of protocol or its decentralized stablecoins. Let's list some of them:\n\n- People who want liquidity against their Lumens but don't want to sell them\n- People who prefer to diversify their funds between multiple stablecoins; currently, on Stellar, the only highly liquid and trusted stablecoin is USDC\n- People who would like to participate in the protocol to earn its asset\n- People who want to benefit from rewards given by the protocol\n- And many more!\n\nHow will it work? We get into more details in our first draft available at https://docs.fxdao.io, but here is a quick view: A core contract takes care of the issuance and burn of the stablecoins. If a user deposits Lumens into the protocol, they will receive 85%* of the value in the stablecoin selected (the target is to have multiple stablecoin denominations, i.e., USD, EUR, etc.). Later, that user can liquidate the position by depositing the stablecoin and getting their Lumens back. *Percentage is from our first draft but it can change during development.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recAC4HtF0qVZ5yww",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/FxDAO_io"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "74800.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "74800.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-519",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "XycLoans - XycLoans",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "A flash loans protocol with its own liquidity management on Soroban. Our goal is to finish building in ~3 months the working prototype of a decentralized ecosystem to borrow money through flash loans and to generate healthy yield by lending. As the term \"ecosystem\" hints, we envision XycLoans not only as a protocol but as a protocol + other components, making it effectively an ecosystem. There are 4 main components in XycLoans: the smart contracts, backend functions to build a database, scale, and make the front end faster, a web app to graphically develop contracts that use flash loans without coding knowledge, and a high-quality web app for lenders to manage their liquidity.\n\nWe have already written the PoC contracts for the protocol, which can be found here. We also already have simple tests that show how borrowing and lending would work and we are looking forward to making more complex tests for edge cases. The specifics of how the protocol works are written in the Litepaper, which we recommend reading (sections 4 and 5) if you wish to understand the math and workflows under the hood when lending and borrowing.\n\nIn order to scale more efficiently and make the front ends faster, we'll write and deploy a set of backend functions that listen for contract events such as when the vault mints new fee shares or when the vault pays out the yield to lenders. The functions will subsequently build a database that can be queried by the front end (for example, the total profit of a lending token pool).\n\nFlash loans usually target developers and other DeFi protocols, but having a web app like Furucombo that allows leveraging flash loans and profit from them will expand the target audience also network-wise.\n\nIn a DeFi protocol, a high-quality web app that allows investors to manage their money is crucial. This web app will allow lenders to efficiently provide and monitor their liquidity in the various token pools, and know how much yield they are earning.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recbjvBMO5YVW5op0",
+          "status": "funded",
+          "socials": [
+            {
+              "platform": "Twitter",
+              "url": "https://twitter.com/xyclooLabs"
+            },
+            {
+              "platform": "Discord",
+              "url": "https://discord.gg/gGvB2Bj2S5"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": "31800.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "31800.00",
+          "payoutAddress": {},
+          "payouts": []
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13-520",
+          "grantPoolsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/GrantsPool.json",
+          "grantPoolId": 13,
+          "grantPoolName": "SCF #13",
+          "projectsURI": "",
+          "projectName": "Comet - Comet",
+          "createdAt": "2023-03-12T00:00:00",
+          "projectDescription": "Comet is a weighted AMM protocol that offers soroban projects a flexible solution set when picking liquidity venues Comet is a Soroban implementation of Balancer\u2019s weighted automated market maker protocol. It utilizes an N-dimensional surface-based cost function to enable the creation of arbitrary weight, arbitrary asset count, AMM pools. So instead of being limited to the standard 50/50 seen in classic XYK AMM pools, users could deploy 2-asset pools with asset weights of 80/20 or even 4-asset pools with weights of 10/15/15/60. This increased flexibility allows AMMs to serve a much wider array of use cases for users and projects. These capabilities, and their effect on ecosystem liquidity, make weighted AMMs a natural fit for the Stellar ecosystem.\n\nStellar has persistent issues maintaining liquidity. There are two main ways to address this. (1) you find more liquidity providers - weighted AMMs help here as they make passive token holders more likely to provide liquidity due to impermanent loss reduction. (2) you make liquidity provisioning more efficient \u2013 here, weighted AMMs help by enabling AMM pools with more than two assets, allowing asset pairs to share liquidity.\n\nComet\u2019s codebase will serve as an important resource for the growth Stellar DeFi ecosystem. Balancer is the second most forked AMM protocol, with many forks expanding on the core technology. Providing a secure Soroban proof-of-concept implementation of the codebase will make it easier for new teams to enter the ecosystem and begin building. We will get the protocol audited and release a basic user interface for those uncomfortable interacting with the smart contracts directly on Testnet. This protocol will serve as a proof of concept and will not be deployed on Mainnet. Specifically, this proof of concept will be solely deployed to Testnet, and released as open-source software. As for plans after we develop a Testnet proof of concept, there are none. Comet is designed to be a public good. There will be no DAO or token, just an open-source protocol that any Soroban project can use as a building block.",
+          "contentURI": "https://communityfund.stellar.org/dashboard/submissions/recG7Kj7ouwAFP2XY",
+          "status": "funded",
+          "socials": [],
+          "fundsApproved": [
+            {
+              "amount": "150000.00",
+              "denomination": "USD"
+            }
+          ],
+          "fundsApprovedInUSD": "150000.00",
+          "payoutAddress": {},
+          "payouts": []
         }
-    ]
+      ]
+    }
+  ]
 }
