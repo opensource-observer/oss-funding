@@ -7,6 +7,32 @@ This repository contains a curated registry of grants and other funding to open 
 
 This directory is a public good, free to use and distribute. We hope it serves the needs of researchers, developers, foundations, and other users looking to better understand the OSS ecosystem!
 
+## Installation
+
+This project uses [Poetry](https://python-poetry.org/) for dependency management. To get started:
+
+1. Install Poetry (if you haven't already):
+   ```bash
+   curl -sSL https://install.python-poetry.org | python3 -
+   ```
+
+2. Clone this repository and install dependencies:
+   ```bash
+   git clone https://github.com/opensource-observer/oss-funding.git
+   cd oss-funding
+   poetry install
+   ```
+
+3. Activate the virtual environment:
+   ```bash
+   poetry env activate
+   ```
+
+4. Run the script:
+   ```bash
+   poetry run python src/main.py
+   ```
+
 For adding projects (and project naming conventions), please refer to our companion repo: https://github.com/opensource-observer/oss-directory
 
 ## Latest Funding Data
