@@ -1,21 +1,28 @@
-[tool.poetry]
+[project]
 name = "oss-funding"
 version = "0.1"
 description = "Registry of grants and other funding to open source software (OSS) projects"
-authors = ["Open Source Observer", "DAOSTAR"]
-license = "Apache-2.0"
+authors = [
+    { name = "Open Source Observer" },
+    { name = "DAOSTAR" },
+]
+requires-python = ">=3.11,<3.13"
 readme = "README.md"
-repository = "https://github.com/opensource-observer/oss-funding"
-homepage = "https://www.opensource.observer"
-documentation = "https://docs.opensource.observer/"
-package-mode = false
+license = "Apache-2.0"
+dependencies = [
+    "jsonschema>=4.22.0,<5",
+    "oss-directory>=0.2.5",
+    "pyoso>=0.4.0,<0.5",
+]
 
+[project.urls]
+Homepage = "https://www.opensource.observer"
+Repository = "https://github.com/opensource-observer/oss-funding"
+Documentation = "https://docs.opensource.observer/"
 
-[tool.poetry.dependencies]
-python = ">=3.8,<3.13"
-jsonschema = "^4.22.0"
-pyoso = "^0.4.0"
+[tool.uv]
+package = false
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
