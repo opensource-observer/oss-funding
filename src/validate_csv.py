@@ -1,64 +1,85 @@
+import argparse
 import csv
 import sys
-import requests
-from typing import List, Dict
+from collections import defaultdict
+from pathlib import Path
+from typing import Dict, List, Set
 
-def fetch_oso_projects() -> List[str]:
-    url = "https://www.opensource.observer/api/v1/graphql"
-    query = """
-    query projects {
-      oso_projectsV1 {
-        projectName
-      }
-    }
+from ossdirectory import fetch_data
+from ossdirectory.fetch import OSSDirectory
+
+
+def fetch_oss_projects() -> Set[str]:
+    """Fetch all project names from the OSS Directory."""
+    data: OSSDirectory = fetch_data()
+    return {project["name"] for project in data.projects}
+
+
+def validate_csv(csv_path: Path, oss_projects: Set[str]) -> Dict[str, List[str]]:
     """
-    
-    response = requests.post(url, json={"query": query})
-    if response.status_code == 200:
-        data = response.json()
-        projects = [item["projectName"] for item in data["data"]["oso_projectsV1"]]
-        return projects
-    else:
-        print(f"Error fetching data from OSO API: {response.status_code}")
+    Validate project names in CSV file against OSS Directory.
+
+    Args:
+        csv_path: Path to the CSV file
+        oss_projects: Set of valid project names
+
+    Returns:
+        Dictionary with 'valid' and 'invalid' project lists
+    """
+    results = defaultdict(list)
+
+    try:
+        with csv_path.open("r", encoding="utf-8") as file:
+            csv_reader = csv.DictReader(file)
+            for row in csv_reader:
+                project_name = row.get("to_project_name", "").strip()
+                if not project_name:
+                    continue
+
+                category = "valid" if project_name in oss_projects else "invalid"
+                results[category].append(project_name)
+    except FileNotFoundError:
+        print(f"Error: File '{csv_path}' not found.")
+        sys.exit(1)
+    except csv.Error as e:
+        print(f"Error reading CSV file: {e}")
         sys.exit(1)
 
-def validate_csv(csv_file: str, oso_projects: List[str]) -> Dict[str, List[str]]:
-    valid_projects = []
-    invalid_projects = []
-    
-    with open(csv_file, 'r') as file:
-        csv_reader = csv.DictReader(file)
-        for row in csv_reader:
-            project_name = row.get('to_project_name', '').strip()
-            if project_name:
-                if project_name in oso_projects:
-                    valid_projects.append(project_name)
-                else:
-                    invalid_projects.append(project_name)
-    
-    return {"valid": valid_projects, "invalid": invalid_projects}
+    return dict(results)
+
+
+def display_results(results: Dict[str, List[str]]) -> None:
+    """Display validation results in a formatted way."""
+    print("\nValidation Results:")
+    print(f"Valid projects: {len(results.get('valid', []))}")
+    print(f"Invalid projects: {len(results.get('invalid', []))}")
+
+    if results.get("invalid"):
+        print("\nThe following project names don't exist in the OSS Directory:")
+        for project in sorted(results["invalid"]):
+            print(f"- {project}")
+
 
 def main():
-    if len(sys.argv) != 2:
-        print("Usage: python script.py <csv_file>")
-        sys.exit(1)
-    
-    csv_file = sys.argv[1]
-    
-    print("Fetching project data from OSO API...")
-    oso_projects = fetch_oso_projects()
-    
-    print("Validating projects in the CSV file...")
-    results = validate_csv(csv_file, oso_projects)
-    
-    print("\nValidation Results:")
-    print(f"Valid projects: {len(results['valid'])}")
-    print(f"Invalid projects: {len(results['invalid'])}")
-    
-    if results['invalid']:
-        print("\nThe following project names don't exist in the OSO database:")
-        for project in results['invalid']:
-            print(f"- {project}")
+    """Main entry point for the script."""
+    parser = argparse.ArgumentParser(
+        description="Validate project names in a CSV file against the OSS Directory."
+    )
+    parser.add_argument(
+        "csv_file", type=Path, help="Path to the CSV file containing project names"
+    )
+    args = parser.parse_args()
+
+    print("Fetching project data from OSS directory...")
+    oss_projects = fetch_oss_projects()
+
+    print(f"Validating projects in '{args.csv_file}'...")
+    results = validate_csv(args.csv_file, oss_projects)
+
+    display_results(results)
+
+    sys.exit(1 if results.get("invalid") else 0)
+
 
 if __name__ == "__main__":
     main()
