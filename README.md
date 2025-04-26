@@ -9,28 +9,23 @@ This directory is a public good, free to use and distribute. We hope it serves t
 
 ## Installation
 
-This project uses [Poetry](https://python-poetry.org/) for dependency management. To get started:
+This project uses [uv](https://github.com/astral-sh/uv) for dependency management. To get started:
 
-1. Install Poetry (if you haven't already):
+1. Install uv (if you haven't already):
    ```bash
-   curl -sSL https://install.python-poetry.org | python3 -
+   curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
 2. Clone this repository and install dependencies:
    ```bash
    git clone https://github.com/opensource-observer/oss-funding.git
    cd oss-funding
-   poetry install
+   uv sync
    ```
 
-3. Activate the virtual environment:
+3. Run the script:
    ```bash
-   poetry env activate
-   ```
-
-4. Run the script:
-   ```bash
-   poetry run python src/main.py
+   uv run python src/main.py
    ```
 
 For adding projects (and project naming conventions), please refer to our companion repo: https://github.com/opensource-observer/oss-directory

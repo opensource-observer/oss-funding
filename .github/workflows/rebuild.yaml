@@ -1,0 +1,51 @@
+name: Rebuild Funding Data
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/**/*.csv"
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Rebuild funding data
+        run: uv run src/main.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add data/funding_data{.json,.csv}
+          git commit -m "chore: rebuild \`funding\` data"
+
+      - name: Push changes and create PR
+        if: success()
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "chore: rebuild `funding` data"
+          branch: ci/rebuild-funding-data
+          title: "chore: rebuild `funding` data"
+          body: "Rebuild the `funding` data files"
+          base: main
+          delete-branch: true
+          add-paths: |
+            data/funding_data.json
+            data/funding_data.csv
