@@ -30,14 +30,21 @@ jobs:
         run: uv run src/main.py
 
       - name: Commit changes
+        id: commit
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add data/funding_data{.json,.csv}
-          git commit -m "chore: rebuild \`funding\` data"
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "chore: rebuild \`funding\` data"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Push changes and create PR
-        if: success()
+        if: steps.commit.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: "chore: rebuild `funding` data"
