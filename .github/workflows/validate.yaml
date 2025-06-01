@@ -30,18 +30,22 @@ jobs:
       - name: Find modified CSV files
         id: find_csv
         run: |
-          git fetch origin ${{ github.base_ref }}
+          set -x
           FILES=$(git diff --name-only origin/${{ github.base_ref }} | grep '\.csv$' || echo "")
-          echo "Modified CSV files:"
+          echo "Modified CSV files (raw):"
           echo "$FILES"
-          echo "csv_files=$FILES" >> $GITHUB_OUTPUT
-          if [ -z "$FILES" ]; then
+          # Join files into a comma-separated list, to avoid multiline output issues
+          FILES_COMMA=$(echo "$FILES" | paste -sd, -)
+          echo "Modified CSV files (comma-separated):"
+          echo "$FILES_COMMA"
+          echo "csv_files=$FILES_COMMA" >> $GITHUB_OUTPUT
+          if [ -z "$FILES_COMMA" ]; then
             echo "No CSV files were modified. Skipping validation."
             echo "csv_found=false" >> $GITHUB_OUTPUT
           else
             echo "csv_found=true" >> $GITHUB_OUTPUT
           fi
-
+        
       - name: Validate project names in CSV files
         if: steps.find_csv.outputs.csv_found == 'true'
         id: validate
