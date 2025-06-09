@@ -29,11 +29,11 @@ jobs:
         id: find_csv
         shell: bash
         run: |
-          # get newline-separated list, then turn into a space-separated one
           FILES=$(git diff --name-only origin/${{ github.base_ref }} | grep '\.csv$' || true)
-          echo "Modified CSV files:"
+          echo ">> raw list:"
           echo "$FILES"
           if [[ -n "$FILES" ]]; then
+            # replace newlines with spaces
             FILES="${FILES//$'\n'/ }"
             echo "csv_files=$FILES" >> $GITHUB_OUTPUT
             echo "csv_found=true"   >> $GITHUB_OUTPUT
@@ -46,25 +46,25 @@ jobs:
         id: validate
         shell: bash
         run: |
-          set +e                      # disable “exit on first error”
+          set +e
           CSV_LIST="${{ steps.find_csv.outputs.csv_files }}"
+          echo ">> iterating over these files:"
+          echo "$CSV_LIST"
 
           echo "# 🔍 CSV Validation Results" > validation_results.md
-          INVALID_FOUND=false
+          INVALID=false
           TOTAL=0
           FAILS=0
 
           for file in $CSV_LIST; do
             (( TOTAL++ ))
-            echo "---"
-            echo "🌱 Validating $file"
+            echo "🌱 Validating: $file"
             OUTPUT=$(uv run src/validate_csv.py "$file" 2>&1)
-            echo "$OUTPUT"           # always print the full log
+            echo "$OUTPUT"      # always print raw results
 
-            # detect any “Invalid projects: X” where X>0
             COUNT=$(echo "$OUTPUT" | grep -Eo 'Invalid projects: [0-9]+' | awk '{print $3}')
             if [[ "$COUNT" -gt 0 ]]; then
-              INVALID_FOUND=true
+              INVALID=true
               (( FAILS++ ))
               {
                 echo "## ❌ [$file]($file) FAILED"
@@ -77,21 +77,21 @@ jobs:
             fi
           done
 
-          if [[ "$INVALID_FOUND" == false ]]; then
+          if [[ "$INVALID" == false ]]; then
             echo "## ✅ All CSV Files Passed Validation" >> validation_results.md
           else
-            echo "## ❌ Summary: $FAILS of $TOTAL files failed validation" >> validation_results.md
+            echo "## ❌ $FAILS of $TOTAL files failed validation" >> validation_results.md
             exit 1
           fi
 
       - name: Comment on PR with validation results
-        if: steps.find_csv.outputs.csv_found == 'true'
+        if: always() && steps.find_csv.outputs.csv_found == 'true'
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const body = require('fs').readFileSync('validation_results.md', 'utf8');
-            github.rest.issues.createComment({
+            await github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner:        context.repo.owner,
               repo:         context.repo.repo,
