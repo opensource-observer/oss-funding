@@ -9,20 +9,18 @@ on:
 jobs:
   validate_csv:
     runs-on: ubuntu-latest
-
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set up Python
+      - name: Set up Python & uv
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install uv
-        uses: astral-sh/setup-uv@v5
+      - uses: astral-sh/setup-uv@v5
 
       - name: Install dependencies
         run: uv sync
@@ -31,15 +29,13 @@ jobs:
         id: find_csv
         shell: bash
         run: |
-          # get newline-separated list of changed CSVs
-          CSV_FILES=$(git diff --name-only origin/${{ github.base_ref }} | grep '\.csv$' || true)
+          # get newline-separated list, then turn into a space-separated one
+          FILES=$(git diff --name-only origin/${{ github.base_ref }} | grep '\.csv$' || true)
           echo "Modified CSV files:"
-          echo "$CSV_FILES"
-
-          if [[ -n "$CSV_FILES" ]]; then
-            # convert newlines → spaces for easy for-loop splitting
-            CSV_SPACE=$(echo "$CSV_FILES" | tr '\n' ' ')
-            echo "csv_files=$CSV_SPACE" >> $GITHUB_OUTPUT
+          echo "$FILES"
+          if [[ -n "$FILES" ]]; then
+            FILES="${FILES//$'\n'/ }"
+            echo "csv_files=$FILES" >> $GITHUB_OUTPUT
             echo "csv_found=true"   >> $GITHUB_OUTPUT
           else
             echo "csv_found=false"  >> $GITHUB_OUTPUT
@@ -50,45 +46,43 @@ jobs:
         id: validate
         shell: bash
         run: |
+          set +e                      # disable “exit on first error”
+          CSV_LIST="${{ steps.find_csv.outputs.csv_files }}"
+
           echo "# 🔍 CSV Validation Results" > validation_results.md
-
           INVALID_FOUND=false
-          TOTAL_FILES=0
-          FAILED_FILES=0
+          TOTAL=0
+          FAILS=0
 
-          for file in ${{ steps.find_csv.outputs.csv_files }}; do
-            (( TOTAL_FILES++ ))
-            echo "----"
+          for file in $CSV_LIST; do
+            (( TOTAL++ ))
+            echo "---"
             echo "🌱 Validating $file"
-
-            # run the script and capture all output
             OUTPUT=$(uv run src/validate_csv.py "$file" 2>&1)
-            echo "$OUTPUT"
+            echo "$OUTPUT"           # always print the full log
 
-            # pull out the invalid count
-            INVALID_COUNT=$(echo "$OUTPUT" | grep "Invalid projects:" | sed 's/Invalid projects: //')
-
-            if [[ "$INVALID_COUNT" -gt 0 ]]; then
+            # detect any “Invalid projects: X” where X>0
+            COUNT=$(echo "$OUTPUT" | grep -Eo 'Invalid projects: [0-9]+' | awk '{print $3}')
+            if [[ "$COUNT" -gt 0 ]]; then
               INVALID_FOUND=true
-              (( FAILED_FILES++ ))
-
-              echo "## ❌ [$file]($file) FAILED"        >> validation_results.md
-              echo ''                                >> validation_results.md
-              echo '```bash'                         >> validation_results.md
-              echo "$OUTPUT"                         >> validation_results.md
-              echo '```'                             >> validation_results.md
-              echo ''                                >> validation_results.md
+              (( FAILS++ ))
+              {
+                echo "## ❌ [$file]($file) FAILED"
+                echo ""
+                echo '```bash'
+                echo "$OUTPUT"
+                echo '```'
+                echo ""
+              } >> validation_results.md
             fi
           done
 
           if [[ "$INVALID_FOUND" == false ]]; then
             echo "## ✅ All CSV Files Passed Validation" >> validation_results.md
           else
-            echo "## ❌ Summary: $FAILED_FILES of $TOTAL_FILES files failed validation" >> validation_results.md
+            echo "## ❌ Summary: $FAILS of $TOTAL files failed validation" >> validation_results.md
+            exit 1
           fi
-
-          # export for the next step
-          echo "invalid_found=$INVALID_FOUND" >> $GITHUB_OUTPUT
 
       - name: Comment on PR with validation results
         if: steps.find_csv.outputs.csv_found == 'true'
@@ -96,17 +90,10 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const fs = require('fs');
-            const body = fs.readFileSync('validation_results.md', 'utf8');
+            const body = require('fs').readFileSync('validation_results.md', 'utf8');
             github.rest.issues.createComment({
               issue_number: context.issue.number,
-              owner:       context.repo.owner,
-              repo:        context.repo.repo,
+              owner:        context.repo.owner,
+              repo:         context.repo.repo,
               body,
-            });
-
-      - name: Fail workflow if invalid projects found
-        if: steps.validate.outputs.invalid_found == 'true'
-        run: |
-          echo "::error::Invalid project names found. See PR comment for details."
-          exit 1
+            })
