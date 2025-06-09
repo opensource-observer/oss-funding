@@ -77,7 +77,8 @@ Currently the main way to contribute is by submitting a pull request. You can ad
 Submissions will be validated to ensure they conform to the schema and don't contain any funding events that are already in the  registry. To test whether your submission is valid, you may run the processing script from your CLI in the root directory:
 
 ```
-python src/main.py
+uv run python src/main.py
+uv run python src/validate_csv.py data/funding_data.csv
 ```
 
 If you do something cool with the data (eg, a visualization or analysis), please share it with us!
