@@ -9,91 +9,75 @@ on:
 jobs:
   validate_csv:
     runs-on: ubuntu-latest
-    steps:
 
+    steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Set up Python & uv
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - uses: astral-sh/setup-uv@v5
+          cache: 'uv'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
 
       - name: Install dependencies
         run: uv sync
 
-      - name: Find modified CSV files
-        id: find_csv
-        shell: bash
-        run: |
-          # get newline-separated list, then turn into a space-separated one
-          FILES=$(git diff --name-only origin/${{ github.base_ref }} | grep '\.csv$' || true)
-          echo ">> raw list:"
-          echo "$FILES"
-          if [[ -n "$FILES" ]]; then
-            FILES="${FILES//$'\n'/ }"
-            echo "csv_files=$FILES" >> $GITHUB_OUTPUT
-            echo "csv_found=true"   >> $GITHUB_OUTPUT
-          else
-            echo "csv_found=false"  >> $GITHUB_OUTPUT
-          fi
-
-      - name: Validate project names in CSV files
-        if: steps.find_csv.outputs.csv_found == 'true'
+      - name: Run validation
         id: validate
-        shell: bash
         run: |
-          set +e
-          CSV_LIST="${{ steps.find_csv.outputs.csv_files }}"
-          echo ">> iterating over these files:"
-          echo "$CSV_LIST"
-
           echo "# 🔍 CSV Validation Results" > validation_results.md
-          INVALID=false
-          TOTAL=0
-          FAILS=0
+          echo "" >> validation_results.md
 
-          for file in $CSV_LIST; do
-            (( TOTAL++ ))
-            echo "🌱 Validating: $file"
-            OUTPUT=$(uv run src/validate_csv.py "$file" 2>&1)
-            echo "$OUTPUT"
-
-            COUNT=$(echo "$OUTPUT" | grep -Eo 'Invalid projects: [0-9]+' | awk '{print $3}')
-            if [[ "$COUNT" -gt 0 ]]; then
-              INVALID=true
-              (( FAILS++ ))
-              {
-                echo "## ❌ [$file]($file) FAILED"
-                echo ""
-                echo '```bash'
-                echo "$OUTPUT"
-                echo '```'
-                echo ""
-              } >> validation_results.md
-            fi
-          done
-
-          if ! $INVALID; then
-            echo "## ✅ All CSV Files Passed Validation" >> validation_results.md
-          else
-            echo "## ❌ $FAILS of $TOTAL files failed validation" >> validation_results.md
+          # Run main.py first
+          echo "Running main.py..."
+          if ! uv run python src/main.py; then
+            echo "## ❌ Failed to run main.py" >> validation_results.md
+            echo "Please check the workflow logs for details." >> validation_results.md
+            echo "validation_failed=true" >> $GITHUB_OUTPUT
             exit 1
           fi
 
+          # Run validate_csv.py
+          echo "Running validate_csv.py..."
+          OUTPUT=$(uv run python src/validate_csv.py data/funding_data.csv 2>&1)
+          if [ $? -ne 0 ]; then
+            echo "## ❌ Validation Failed" >> validation_results.md
+            echo "" >> validation_results.md
+            echo "**Error output:**" >> validation_results.md
+            echo "\`\`\`" >> validation_results.md
+            echo "$OUTPUT" >> validation_results.md
+            echo "\`\`\`" >> validation_results.md
+            echo "validation_failed=true" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+          # If we get here, validation passed
+          echo "## ✅ Validation Passed" >> validation_results.md
+          echo "" >> validation_results.md
+          echo "All project names are valid." >> validation_results.md
+          echo "validation_failed=false" >> $GITHUB_OUTPUT
+
       - name: Comment on PR with validation results
-        if: always() && steps.find_csv.outputs.csv_found == 'true'
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            const body = require('fs').readFileSync('validation_results.md', 'utf8');
-            await github.rest.issues.createComment({
+            const fs = require('fs');
+            const results = fs.readFileSync('validation_results.md', 'utf8');
+
+            github.rest.issues.createComment({
               issue_number: context.issue.number,
-              owner:        context.repo.owner,
-              repo:         context.repo.repo,
-              body,
-            })
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: results
+            });
+
+      - name: Fail workflow if validation failed
+        if: steps.validate.outputs.validation_failed == 'true'
+        run: |
+          echo "::error::Validation failed. See PR comment for details."
+          exit 1
