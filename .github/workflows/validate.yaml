@@ -18,7 +18,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: 'uv'
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
@@ -26,58 +25,75 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Run validation
+      - name: Find modified CSV files
+        id: find_csv
+        run: |
+          FILES=$(git diff --name-only origin/${{ github.base_ref }} | grep '\.csv$' || echo "")
+          echo "Modified CSV files:"
+          echo "$FILES"
+          echo "csv_files=$FILES" >> $GITHUB_OUTPUT
+          if [ -z "$FILES" ]; then
+            echo "No CSV files were modified. Skipping validation."
+            echo "csv_found=false" >> $GITHUB_OUTPUT
+          else
+            echo "csv_found=true" >> $GITHUB_OUTPUT
+          fi
+      - name: Validate project names in CSV files
+        if: steps.find_csv.outputs.csv_found == 'true'
         id: validate
         run: |
+          # Create a file to store validation results
           echo "# 🔍 CSV Validation Results" > validation_results.md
           echo "" >> validation_results.md
-
-          # Run main.py first
-          echo "Running main.py..."
-          if ! uv run python src/main.py; then
-            echo "## ❌ Failed to run main.py" >> validation_results.md
-            echo "Please check the workflow logs for details." >> validation_results.md
-            echo "validation_failed=true" >> $GITHUB_OUTPUT
-            exit 1
-          fi
-
-          # Run validate_csv.py
-          echo "Running validate_csv.py..."
-          OUTPUT=$(uv run python src/validate_csv.py data/funding_data.csv 2>&1)
-          if [ $? -ne 0 ]; then
-            echo "## ❌ Validation Failed" >> validation_results.md
+          INVALID_FOUND=false
+          TOTAL_FILES=0
+          FAILED_FILES=0
+          for file in ${{ steps.find_csv.outputs.csv_files }}; do
+            TOTAL_FILES=$((TOTAL_FILES + 1))
+            FILENAME=$(basename "$file")
+            OUTPUT=$(uv run src/validate_csv.py "$file")
+            INVALID_COUNT=$(echo "$OUTPUT" | grep "Invalid projects:" | sed 's/Invalid projects: //')
+            if [ "$INVALID_COUNT" -gt 0 ]; then
+              INVALID_FOUND=true
+              FAILED_FILES=$((FAILED_FILES + 1))
+              echo "## ❌ [\`$FILENAME\`]($file) - FAILED" >> validation_results.md
+              echo "" >> validation_results.md
+              echo "**Invalid project names:**" >> validation_results.md
+              echo "" >> validation_results.md
+              INVALID_PROJECTS=$(echo "$OUTPUT" | sed -n '/The following project names/,$p' | grep "^- " | sort)
+              echo "\`\`\`" >> validation_results.md
+              echo "$INVALID_PROJECTS" >> validation_results.md
+              echo "\`\`\`" >> validation_results.md
+              echo "" >> validation_results.md
+              echo "---" >> validation_results.md
+            fi
+          done
+          if [ "$INVALID_FOUND" = false ]; then
+            echo "## ✅ All CSV Files Passed Validation" >> validation_results.md
             echo "" >> validation_results.md
-            echo "**Error output:**" >> validation_results.md
-            echo "\`\`\`" >> validation_results.md
-            echo "$OUTPUT" >> validation_results.md
-            echo "\`\`\`" >> validation_results.md
-            echo "validation_failed=true" >> $GITHUB_OUTPUT
-            exit 1
+            echo "All $TOTAL_FILES CSV files contain valid project names recognized in the OSO database." >> validation_results.md
+          else
+            echo "## ❌ Summary: $FAILED_FILES of $TOTAL_FILES files failed validation" >> validation_results.md
+            echo "" >> validation_results.md
+            echo "This PR cannot be merged until **all** project names are valid." >> validation_results.md
           fi
-
-          # If we get here, validation passed
-          echo "## ✅ Validation Passed" >> validation_results.md
-          echo "" >> validation_results.md
-          echo "All project names are valid." >> validation_results.md
-          echo "validation_failed=false" >> $GITHUB_OUTPUT
-
+          echo "invalid_found=$INVALID_FOUND" >> $GITHUB_OUTPUT
       - name: Comment on PR with validation results
+        if: steps.find_csv.outputs.csv_found == 'true'
         uses: actions/github-script@v6
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
             const fs = require('fs');
             const results = fs.readFileSync('validation_results.md', 'utf8');
-
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: results
             });
-
-      - name: Fail workflow if validation failed
-        if: steps.validate.outputs.validation_failed == 'true'
+      - name: Fail workflow if invalid projects found
+        if: steps.validate.outputs.invalid_found == 'true'
         run: |
-          echo "::error::Validation failed. See PR comment for details."
+          echo "::error::Invalid project names found in CSV files. See PR comment for details."
           exit 1
