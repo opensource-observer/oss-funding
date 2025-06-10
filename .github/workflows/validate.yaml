@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,6 +30,7 @@ jobs:
       - name: Find modified CSV files
         id: find_csv
         run: |
+          git fetch origin ${{ github.base_ref }}
           FILES=$(git diff --name-only origin/${{ github.base_ref }} | grep '\.csv$' || echo "")
           echo "Modified CSV files:"
           echo "$FILES"
@@ -38,6 +41,7 @@ jobs:
           else
             echo "csv_found=true" >> $GITHUB_OUTPUT
           fi
+
       - name: Validate project names in CSV files
         if: steps.find_csv.outputs.csv_found == 'true'
         id: validate
@@ -45,19 +49,26 @@ jobs:
           # Create a file to store validation results
           echo "# 🔍 CSV Validation Results" > validation_results.md
           echo "" >> validation_results.md
+
           INVALID_FOUND=false
           TOTAL_FILES=0
           FAILED_FILES=0
+
           for file in ${{ steps.find_csv.outputs.csv_files }}; do
             TOTAL_FILES=$((TOTAL_FILES + 1))
             FILENAME=$(basename "$file")
+
             OUTPUT=$(uv run src/validate_csv.py "$file")
+
             INVALID_COUNT=$(echo "$OUTPUT" | grep "Invalid projects:" | sed 's/Invalid projects: //')
+
             if [ "$INVALID_COUNT" -gt 0 ]; then
               INVALID_FOUND=true
               FAILED_FILES=$((FAILED_FILES + 1))
+
               echo "## ❌ [\`$FILENAME\`]($file) - FAILED" >> validation_results.md
               echo "" >> validation_results.md
+
               echo "**Invalid project names:**" >> validation_results.md
               echo "" >> validation_results.md
               INVALID_PROJECTS=$(echo "$OUTPUT" | sed -n '/The following project names/,$p' | grep "^- " | sort)
@@ -68,6 +79,7 @@ jobs:
               echo "---" >> validation_results.md
             fi
           done
+
           if [ "$INVALID_FOUND" = false ]; then
             echo "## ✅ All CSV Files Passed Validation" >> validation_results.md
             echo "" >> validation_results.md
@@ -77,7 +89,9 @@ jobs:
             echo "" >> validation_results.md
             echo "This PR cannot be merged until **all** project names are valid." >> validation_results.md
           fi
+
           echo "invalid_found=$INVALID_FOUND" >> $GITHUB_OUTPUT
+
       - name: Comment on PR with validation results
         if: steps.find_csv.outputs.csv_found == 'true'
         uses: actions/github-script@v6
@@ -86,12 +100,14 @@ jobs:
           script: |
             const fs = require('fs');
             const results = fs.readFileSync('validation_results.md', 'utf8');
+
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: results
             });
+
       - name: Fail workflow if invalid projects found
         if: steps.validate.outputs.invalid_found == 'true'
         run: |
