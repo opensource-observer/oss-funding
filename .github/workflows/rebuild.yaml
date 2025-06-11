@@ -42,5 +42,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: rebuild funding data [skip ci]"
-            git push
+            git push origin main
           fi
