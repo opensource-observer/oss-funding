@@ -1,6 +1,7 @@
 name: Rebuild Funding Data
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -10,9 +11,9 @@ on:
 jobs:
   rebuild:
     runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
     permissions:
       contents: write
-      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -32,30 +33,14 @@ jobs:
       - name: Rebuild funding data
         run: uv run src/main.py
 
-      - name: Commit changes
-        id: commit
+      - name: Commit and push changes
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add data/funding_data{.json,.csv}
           if git diff --staged --quiet; then
             echo "No changes to commit"
-            echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            git commit -m "chore: rebuild \`funding\` data"
-            echo "has_changes=true" >> $GITHUB_OUTPUT
+            git commit -m "chore: rebuild funding data [skip ci]"
+            git push
           fi
-
-      - name: Push changes and create PR
-        if: steps.commit.outputs.has_changes == 'true'
-        uses: peter-evans/create-pull-request@v5
-        with:
-          commit-message: "chore: rebuild `funding` data"
-          branch: ci/rebuild-funding-data
-          title: "chore: rebuild `funding` data"
-          body: "Rebuild the `funding` data files"
-          base: main
-          delete-branch: true
-          add-paths: |
-            data/funding_data.json
-            data/funding_data.csv
