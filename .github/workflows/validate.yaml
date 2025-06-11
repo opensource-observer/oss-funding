@@ -34,7 +34,8 @@ jobs:
           FILES=$(git diff --name-only origin/${{ github.base_ref }} | grep '\.csv$' || echo "")
           echo "Modified CSV files:"
           echo "$FILES"
-          echo "csv_files=$FILES" >> $GITHUB_OUTPUT
+          FILES_OUTPUT=$(echo "$FILES" | tr '\n' ' ')
+          echo "csv_files=$FILES_OUTPUT" >> $GITHUB_OUTPUT
           if [ -z "$FILES" ]; then
             echo "No CSV files were modified. Skipping validation."
             echo "csv_found=false" >> $GITHUB_OUTPUT
