@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, abort, redirect, redirect, send_file
 import os
 from x_to_DAOIP5.allo_to_DAOIP5 import allo_blueprint
-from x_to_DAOIP5.questbook_to_DAOIP5 import questbook_blueprint
+#from x_to_DAOIP5.questbook_to_DAOIP5 import questbook_blueprint
 import json
 import logging
 app = Flask(__name__)
@@ -178,7 +178,7 @@ def get_grant_pools(grant_system):
 
     json_files = [file for file in os.listdir(folder_path) if file.endswith('.json')]
     json_files.append("allo") # ALl explicit x_to_DAOIP5 endpoints will be appended here
-    json_files.append("questbook")  # Add Questbook endpoint
+    #json_files.append("questbook")  # Add Questbook endpoint
 
     return json_files
 
@@ -206,7 +206,7 @@ def list_all_grant_systems():
     try:
         grant_systems = get_grant_systems()
         grant_systems.append("allo") # ALl explicit x_to_DAOIP5 endpoints will be appended here
-        grant_systems.append("questbook")  # Add Questbook endpoint
+        #grant_systems.append("questbook")  # Add Questbook endpoint
 
         return jsonify(grant_systems), 200
     except Exception as e:
@@ -327,7 +327,7 @@ def search_project(project_name):
 
 # /allo endpoint
 app.register_blueprint(allo_blueprint, url_prefix='/allo')
-app.register_blueprint(questbook_blueprint, url_prefix='/questbook')
+#app.register_blueprint(questbook_blueprint, url_prefix='/questbook')
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
