@@ -1,0 +1,36 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "grant_pools": [
+    {
+      "applications": [
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
+          "createdAt": "2023-02-27T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 11252.39,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 1000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-12",
+          "grantPoolName": "scf-12",
+          "id": "1",
+          "projectId": "soroban-pre-order-contract",
+          "projectName": "Soroban Pre-Order Contract",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
+          "type": "GrantApplication"
+        }
+      ],
+      "name": "scf-12",
+      "type": "GrantPool"
+    }
+  ],
+  "name": "Stellar",
+  "type": "Foundation"
+}

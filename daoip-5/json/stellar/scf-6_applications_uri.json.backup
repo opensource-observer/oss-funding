@@ -1,0 +1,197 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "grant_pools": [
+    {
+      "applications": [
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recdDizcOwENDizno",
+          "createdAt": "2020-11-20T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 51158,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 4514.95,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-6",
+          "grantPoolName": "scf-6",
+          "id": "1",
+          "projectId": "relax",
+          "projectName": "Relax",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recdDizcOwENDizno",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recmPFaKMX2it9tRt",
+          "createdAt": "2020-11-20T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 51480,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 4543.37,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-6",
+          "grantPoolName": "scf-6",
+          "id": "2",
+          "projectId": "blocknify",
+          "projectName": "Blocknify",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recmPFaKMX2it9tRt",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsOeH8VBQkVx4KL",
+          "createdAt": "2020-11-20T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 40862,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 3606.28,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-6",
+          "grantPoolName": "scf-6",
+          "id": "3",
+          "projectId": "crypto-link",
+          "projectName": "Crypto Link",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsOeH8VBQkVx4KL",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recu69dUtviRW6oC7",
+          "createdAt": "2020-11-20T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 76898,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 6786.63,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-6",
+          "grantPoolName": "scf-6",
+          "id": "4",
+          "projectId": "lumenswap",
+          "projectName": "Lumenswap",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recu69dUtviRW6oC7",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJBwJZzLVSH5ppK",
+          "createdAt": "2020-12-09T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 97168,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 16737.09,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-6",
+          "grantPoolName": "scf-6",
+          "id": "5",
+          "projectId": "ayadee-trak",
+          "projectName": "Ayadee TRAK Supply Chain System",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJBwJZzLVSH5ppK",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTuXIwr6ihJov7c",
+          "createdAt": "2020-11-20T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 35392,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 3123.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-6",
+          "grantPoolName": "scf-6",
+          "id": "6",
+          "projectId": "edunode",
+          "projectName": "EduNode: Meet, learn and build on the Stellar Network",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTuXIwr6ihJov7c",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZLr4loEBkuuARn",
+          "createdAt": "2020-11-20T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 7400,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 653.09,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-6",
+          "grantPoolName": "scf-6",
+          "id": "7",
+          "projectId": "deb",
+          "projectName": "DEB",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZLr4loEBkuuARn",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGmQ4CAX2gjf7qz",
+          "createdAt": "2020-11-30T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 27027,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 5445.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-6",
+          "grantPoolName": "scf-6",
+          "id": "8",
+          "projectId": "stellarscam-report",
+          "projectName": "Stellarscam.report",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGmQ4CAX2gjf7qz",
+          "type": "GrantApplication"
+        }
+      ],
+      "name": "scf-6",
+      "type": "GrantPool"
+    }
+  ],
+  "name": "Stellar",
+  "type": "Foundation"
+}

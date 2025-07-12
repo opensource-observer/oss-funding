@@ -1,197 +1,197 @@
 {
-    "@context": "http://www.daostar.org/schemas",
-    "name": "Stellar",
-    "type": "Foundation",
-    "grant_pools": [
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "scf-2",
+      "applications": [
         {
-            "type": "GrantPool",
-            "name": "scf-2",
-            "applications": [
-                {
-                    "type": "GrantApplication",
-                    "id": "1",
-                    "grantPoolId": "scf-2",
-                    "grantPoolName": "scf-2",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec91ZpPLUGNsfPSw",
-                    "projectId": "city-states-medieval",
-                    "projectName": "City States: Medieval",
-                    "createdAt": "2019-10-29T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec91ZpPLUGNsfPSw",
-                    "fundsAsked": [
-                        {
-                            "amount": 22284.91,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 338463,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "2",
-                    "grantPoolId": "scf-2",
-                    "grantPoolName": "scf-2",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recg4KmfUXrrNOHbG",
-                    "projectId": "centaurus",
-                    "projectName": "Centaurus - second layer payment network, exchange, and scaling solution",
-                    "createdAt": "2019-10-29T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recg4KmfUXrrNOHbG",
-                    "fundsAsked": [
-                        {
-                            "amount": 32409.68,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 492306,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "3",
-                    "grantPoolId": "scf-2",
-                    "grantPoolName": "scf-2",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckAPLIsrEDIE0Zb",
-                    "projectId": "ultra-stellar-lobstr",
-                    "projectName": "LOBSTR",
-                    "createdAt": "2019-10-29T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckAPLIsrEDIE0Zb",
-                    "fundsAsked": [
-                        {
-                            "amount": 35462.64,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 538458,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "4",
-                    "grantPoolId": "scf-2",
-                    "grantPoolName": "scf-2",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTEBVyna1Qu0sly",
-                    "projectId": "getblockcard-com",
-                    "projectName": "GetBlockCard.com - Use XLM where VISA is accepted (50 million merchants)",
-                    "createdAt": "2019-10-29T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTEBVyna1Qu0sly",
-                    "fundsAsked": [
-                        {
-                            "amount": 28114.73,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 426924,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "5",
-                    "grantPoolId": "scf-2",
-                    "grantPoolName": "scf-2",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZlfegu12ecDh0e",
-                    "projectId": "astrocore",
-                    "projectName": "Astrocore \u2014 rusted Stellar-core",
-                    "createdAt": "2019-10-29T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZlfegu12ecDh0e",
-                    "fundsAsked": [
-                        {
-                            "amount": 14470.61,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 219231,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "6",
-                    "grantPoolId": "scf-2",
-                    "grantPoolName": "scf-2",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recpMYd0rjGNLniyz",
-                    "projectId": "stellarport",
-                    "projectName": "Stellarport - Stellar Wallet, DEX & Anchor",
-                    "createdAt": "2019-10-29T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recpMYd0rjGNLniyz",
-                    "fundsAsked": [
-                        {
-                            "amount": 19747.51,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 300000,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "7",
-                    "grantPoolId": "scf-2",
-                    "grantPoolName": "scf-2",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNRH9HXfzuEZIjZ",
-                    "projectId": "stellarpay",
-                    "projectName": "StellarPay - Shopify Merchants Can Now Accept Stellar Payments",
-                    "createdAt": "2019-10-29T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNRH9HXfzuEZIjZ",
-                    "fundsAsked": [
-                        {
-                            "amount": 17469.04,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 265386,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "8",
-                    "grantPoolId": "scf-2",
-                    "grantPoolName": "scf-2",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recUupl1g4dKZ18Fq",
-                    "projectId": "stellarauth",
-                    "projectName": "StellarAuth \u2022 The best way to integrate Stellar into your apps",
-                    "createdAt": "2019-10-29T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recUupl1g4dKZ18Fq",
-                    "fundsAsked": [
-                        {
-                            "amount": 27608.18,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 419232,
-                            "denomination": "XLM"
-                        }
-                    ]
-                }
-            ]
+          "type": "GrantApplication",
+          "id": "1",
+          "grantPoolId": "scf-2",
+          "grantPoolName": "scf-2",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec91ZpPLUGNsfPSw",
+          "projectId": "city-states-medieval",
+          "projectName": "City States: Medieval",
+          "createdAt": "2019-10-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec91ZpPLUGNsfPSw",
+          "fundsAsked": [
+            {
+              "amount": 22284.91,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 338463,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2",
+          "grantPoolId": "scf-2",
+          "grantPoolName": "scf-2",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recg4KmfUXrrNOHbG",
+          "projectId": "centaurus",
+          "projectName": "Centaurus - second layer payment network, exchange, and scaling solution",
+          "createdAt": "2019-10-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recg4KmfUXrrNOHbG",
+          "fundsAsked": [
+            {
+              "amount": 32409.68,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 492306,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3",
+          "grantPoolId": "scf-2",
+          "grantPoolName": "scf-2",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckAPLIsrEDIE0Zb",
+          "projectId": "ultra-stellar-lobstr",
+          "projectName": "LOBSTR",
+          "createdAt": "2019-10-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckAPLIsrEDIE0Zb",
+          "fundsAsked": [
+            {
+              "amount": 35462.64,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 538458,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4",
+          "grantPoolId": "scf-2",
+          "grantPoolName": "scf-2",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTEBVyna1Qu0sly",
+          "projectId": "getblockcard-com",
+          "projectName": "GetBlockCard.com - Use XLM where VISA is accepted (50 million merchants)",
+          "createdAt": "2019-10-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTEBVyna1Qu0sly",
+          "fundsAsked": [
+            {
+              "amount": 28114.73,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 426924,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "5",
+          "grantPoolId": "scf-2",
+          "grantPoolName": "scf-2",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZlfegu12ecDh0e",
+          "projectId": "astrocore",
+          "projectName": "Astrocore — rusted Stellar-core",
+          "createdAt": "2019-10-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZlfegu12ecDh0e",
+          "fundsAsked": [
+            {
+              "amount": 14470.61,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 219231,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6",
+          "grantPoolId": "scf-2",
+          "grantPoolName": "scf-2",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recpMYd0rjGNLniyz",
+          "projectId": "stellarport",
+          "projectName": "Stellarport - Stellar Wallet, DEX & Anchor",
+          "createdAt": "2019-10-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recpMYd0rjGNLniyz",
+          "fundsAsked": [
+            {
+              "amount": 19747.51,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 300000,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "7",
+          "grantPoolId": "scf-2",
+          "grantPoolName": "scf-2",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNRH9HXfzuEZIjZ",
+          "projectId": "stellarpay",
+          "projectName": "StellarPay - Shopify Merchants Can Now Accept Stellar Payments",
+          "createdAt": "2019-10-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNRH9HXfzuEZIjZ",
+          "fundsAsked": [
+            {
+              "amount": 17469.04,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 265386,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "8",
+          "grantPoolId": "scf-2",
+          "grantPoolName": "scf-2",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recUupl1g4dKZ18Fq",
+          "projectId": "stellarauth",
+          "projectName": "StellarAuth • The best way to integrate Stellar into your apps",
+          "createdAt": "2019-10-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recUupl1g4dKZ18Fq",
+          "fundsAsked": [
+            {
+              "amount": 27608.18,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 419232,
+              "denomination": "XLM"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

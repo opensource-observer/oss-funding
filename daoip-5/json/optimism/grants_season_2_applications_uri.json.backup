@@ -1,0 +1,726 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "grant_pools": [
+    {
+      "applications": [
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-across-protocol-updated-template/3401",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 750000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 937500.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "1",
+          "projectId": "across",
+          "projectName": "Across Protocol",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-across-protocol-updated-template/3401",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-cycle-8-proposal-alchemix/3764/2",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 250000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 312500.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "2",
+          "projectId": "alchemix",
+          "projectName": "Alchemix",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-cycle-8-proposal-alchemix/3764/2",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-angle-protocol/2552",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 250000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 312500.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "3",
+          "projectId": "angle-protocol",
+          "projectName": "Angle",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-angle-protocol/2552",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-bankless-academy-v2/3353",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 33000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 41250.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "4",
+          "projectId": "bankless-academy",
+          "projectName": "Bankless Academy v2",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-bankless-academy-v2/3353",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-curve/3089",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 504828.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 631035.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "5",
+          "projectId": "curve",
+          "projectName": "Curve",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-curve/3089",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-dhedge-v2-revised/3321",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 350000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 437500.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "6",
+          "projectId": "d-hedge",
+          "projectName": "dHEDGE DAO",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-dhedge-v2-revised/3321",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-defillama/3562",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 300000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 375000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "7",
+          "projectId": "defi-llama",
+          "projectName": "DefiLlama",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-defillama/3562",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-cycle-7-dope-wars/3592",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 300000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 375000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "8",
+          "projectId": "dopedao",
+          "projectName": "Dope Wars",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-cycle-7-dope-wars/3592",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-cycle-8-ethernautdao/3800",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 120000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 150000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "9",
+          "projectId": "ethernautdao",
+          "projectName": "EthernautDAO",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-cycle-8-ethernautdao/3800",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-insuredao/3584",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 100000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 125000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "10",
+          "projectId": "insuredao",
+          "projectName": "InsureDAO",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-insuredao/3584",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-interest-protocol-development-deployment-to-optimism/2951?u=gfxlabs",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 31764.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 39705.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "11",
+          "projectId": "interest-protocol",
+          "projectName": "Interest Protocol 2",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-interest-protocol-development-deployment-to-optimism/2951?u=gfxlabs",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-cycle-6-kromatika/3306",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 300000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 375000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "12",
+          "projectId": "kromatika-finance",
+          "projectName": "Kromatika",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-cycle-6-kromatika/3306",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-li-fi/3360",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 200000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 250000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "13",
+          "projectId": "lifinance",
+          "projectName": "LI.FI",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-li-fi/3360",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-otterspace-v2/3583",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 50000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 62500.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "14",
+          "projectId": "otterspace-xyz",
+          "projectName": "Otterspace",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-otterspace-v2/3583",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-overnight-fi-v2/3772",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 400000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 500000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "15",
+          "projectId": "overnight",
+          "projectName": "Overnight.fi",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-overnight-fi-v2/3772",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-pooltogether/3747",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 550000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 687500.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "16",
+          "projectId": "pool-together",
+          "projectName": "PoolTogether",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-pooltogether/3747",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-optimism-rainbow/3564",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 420069.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 525086.25,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "17",
+          "projectId": "rainbow",
+          "projectName": "Rainbow Wallet",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-optimism-rainbow/3564",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-revert-finance-compoundor/3242",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 240000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 300000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "18",
+          "projectId": "revert-finance",
+          "projectName": "Revert Compoundor",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-revert-finance-compoundor/3242",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-updated-template-safe/3426",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 500000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 625000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "19",
+          "projectId": "safe-global",
+          "projectName": "Safe",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-updated-template-safe/3426",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-karma-delegate-dashboard/3411/1",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 10000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 12500.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "20",
+          "projectId": "show-karma",
+          "projectName": "Karma Dashboard",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-karma-delegate-dashboard/3411/1",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-karma-discourse-forum-plugin/3412",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 15000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 18750.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "21",
+          "projectId": "show-karma",
+          "projectName": "Karma Discourse",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-karma-discourse-forum-plugin/3412",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-socket/3647/2",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 500000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 625000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "22",
+          "projectId": "socket",
+          "projectName": "Socket",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-socket/3647/2",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-sushi-part-1/3301",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 504000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 630000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "23",
+          "projectId": "sushi",
+          "projectName": "Sushiswap",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-sushi-part-1/3301",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-optimism-tally-ho/3517/41",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 400000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 500000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "24",
+          "projectId": "taho-wallet",
+          "projectName": "Tally Ho ",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-optimism-tally-ho/3517/41",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-voting-cycle-7-tarot/3567",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 540000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 675000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "25",
+          "projectId": "tarot-finance",
+          "projectName": "Tarot",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-voting-cycle-7-tarot/3567",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-voting-cycle-7-overtime-markets/3579",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 300000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 375000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "26",
+          "projectId": "thales",
+          "projectName": "Overtime Markets",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-voting-cycle-7-overtime-markets/3579",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-velodrome-finance/3736",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 4000000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 5000000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "27",
+          "projectId": "velodrome",
+          "projectName": "Velodrome",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-velodrome-finance/3736",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-agora/3752",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 50000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 62500.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "28",
+          "projectId": "voteagora",
+          "projectName": "Agora",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-proposal-agora/3752",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-yearn/3509/6",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 1000000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 1250000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "29",
+          "projectId": "yearn",
+          "projectName": "Yearn",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-yearn/3509/6",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/review-gf-phase-1-mochi/3427/3",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 100000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 125000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "30",
+          "projectId": "unknown-project",
+          "projectName": "Mochi",
+          "projectsURI": "https://gov.optimism.io/t/review-gf-phase-1-mochi/3427/3",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-optichads-nft-project/3430",
+          "createdAt": "2022-11-01T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 50000.0,
+              "denomination": "OP"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 62500.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "grants_season_2",
+          "grantPoolName": "grants_season_2",
+          "id": "31",
+          "projectId": "unknown-project",
+          "projectName": "OptiChads",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-optichads-nft-project/3430",
+          "type": "GrantApplication"
+        }
+      ],
+      "name": "grants_season_2",
+      "type": "GrantPool"
+    }
+  ],
+  "name": "Optimism",
+  "type": "Foundation"
+}

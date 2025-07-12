@@ -1,0 +1,197 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "grant_pools": [
+    {
+      "applications": [
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyhzzgGCQVXFo7r",
+          "createdAt": "2020-05-29T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 233644,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 30551.22,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-4",
+          "grantPoolName": "scf-4",
+          "id": "1",
+          "projectId": "nicetrade",
+          "projectName": "NiceTrade",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyhzzgGCQVXFo7r",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recDLqNaPrMbRxI77",
+          "createdAt": "2020-05-29T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 364485,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 26477.72,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-4",
+          "grantPoolName": "scf-4",
+          "id": "2",
+          "projectId": "sendit",
+          "projectName": "SendIt - Payment via Email",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recDLqNaPrMbRxI77",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recEs9206olVJrm5i",
+          "createdAt": "2020-05-29T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 523364,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 38019.29,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-4",
+          "grantPoolName": "scf-4",
+          "id": "3",
+          "projectId": "apay-io",
+          "projectName": "Papaya anchor (apay.io)",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recEs9206olVJrm5i",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recP2TjM2jW0hPBrk",
+          "createdAt": "2020-05-29T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 224299,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 16972.9,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-4",
+          "grantPoolName": "scf-4",
+          "id": "4",
+          "projectId": "lumenscan",
+          "projectName": "Lumenscan - Stellar Ledger Explorer",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recP2TjM2jW0hPBrk",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTcTox813mQJThm",
+          "createdAt": "2020-05-29T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 635514,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 46166.28,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-4",
+          "grantPoolName": "scf-4",
+          "id": "5",
+          "projectId": "whalestack",
+          "projectName": "COINQVEST",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTcTox813mQJThm",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recXb0s7x1Lm8XyXY",
+          "createdAt": "2020-05-29T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 242990,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 25798.8,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-4",
+          "grantPoolName": "scf-4",
+          "id": "6",
+          "projectId": "sdk-for-stellar-qt",
+          "projectName": "SDK for Stellar Qt",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recXb0s7x1Lm8XyXY",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLG9qWeD5OX4xTP",
+          "createdAt": "2020-05-29T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 420560,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 14257.23,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-4",
+          "grantPoolName": "scf-4",
+          "id": "7",
+          "projectId": "stellar-tip",
+          "projectName": "Stellar Tip - Tipping for content creators and developers",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLG9qWeD5OX4xTP",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec4OC7H7Ywe9d5gN",
+          "createdAt": "2020-05-29T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 355140,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 26477.72,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-4",
+          "grantPoolName": "scf-4",
+          "id": "8",
+          "projectId": "stellot",
+          "projectName": "Stellot - e-Voting platform",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec4OC7H7Ywe9d5gN",
+          "type": "GrantApplication"
+        }
+      ],
+      "name": "scf-4",
+      "type": "GrantPool"
+    }
+  ],
+  "name": "Stellar",
+  "type": "Foundation"
+}

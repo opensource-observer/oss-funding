@@ -1,36 +1,36 @@
 {
-    "@context": "http://www.daostar.org/schemas",
-    "name": "Stellar",
-    "type": "Foundation",
-    "grant_pools": [
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "scf-12",
+      "applications": [
         {
-            "type": "GrantPool",
-            "name": "scf-12",
-            "applications": [
-                {
-                    "type": "GrantApplication",
-                    "id": "1",
-                    "grantPoolId": "scf-12",
-                    "grantPoolName": "scf-12",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
-                    "projectId": "soroban-pre-order-contract",
-                    "projectName": "Soroban Pre-Order Contract",
-                    "createdAt": "2023-02-27T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
-                    "fundsAsked": [
-                        {
-                            "amount": 1000.0,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 11252.39,
-                            "denomination": "XLM"
-                        }
-                    ]
-                }
-            ]
+          "type": "GrantApplication",
+          "id": "1",
+          "grantPoolId": "scf-12",
+          "grantPoolName": "scf-12",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
+          "projectId": "soroban-pre-order-contract",
+          "projectName": "Soroban Pre-Order Contract",
+          "createdAt": "2023-02-27T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
+          "fundsAsked": [
+            {
+              "amount": 1000.0,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 11252.39,
+              "denomination": "XLM"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

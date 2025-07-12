@@ -1,0 +1,197 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "grant_pools": [
+    {
+      "applications": [
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recoN8vGUgyzU9MKv",
+          "createdAt": "2019-07-16T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 483282.67,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 37844.32,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-1",
+          "grantPoolName": "scf-1",
+          "id": "1",
+          "projectId": "lumenaut-pool",
+          "projectName": "Lumenaut Pool",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recoN8vGUgyzU9MKv",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recpR7pkCjncJOfT3",
+          "createdAt": "2019-07-16T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 127659.57,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 10050.82,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-1",
+          "grantPoolName": "scf-1",
+          "id": "2",
+          "projectId": "astrograph",
+          "projectName": "Astrograph — Explore the new horizons of Stellar network",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recpR7pkCjncJOfT3",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recOfX9DBePHbRry1",
+          "createdAt": "2019-07-16T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 401215.81,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 31377.49,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-1",
+          "grantPoolName": "scf-1",
+          "id": "3",
+          "projectId": "equilibre-io",
+          "projectName": "Equilibre.io ~ A Portfolio Balancer for Stellar",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recOfX9DBePHbRry1",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recCm1a3tDKd0Whro",
+          "createdAt": "2019-07-16T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 683890.58,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 53824.92,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-1",
+          "grantPoolName": "scf-1",
+          "id": "4",
+          "projectId": "stellarguard",
+          "projectName": "StellarGuard - Security for your Stellar account",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recCm1a3tDKd0Whro",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8qIbuHeFZl2XVL",
+          "createdAt": "2019-07-12T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 364741.64,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 35717.93,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-1",
+          "grantPoolName": "scf-1",
+          "id": "5",
+          "projectId": "swplug",
+          "projectName": "SWPLUG",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8qIbuHeFZl2XVL",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receQ7xIMdPbzPK31",
+          "createdAt": "2019-07-16T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 273556.23,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 21509.98,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-1",
+          "grantPoolName": "scf-1",
+          "id": "6",
+          "projectId": "stellar-community-forum",
+          "projectName": "Stellar Community Forum",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receQ7xIMdPbzPK31",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reciEJw932bi9fM5Y",
+          "createdAt": "2019-07-16T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 373860.18,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 29860.59,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-1",
+          "grantPoolName": "scf-1",
+          "id": "7",
+          "projectId": "python-stellar-sdk",
+          "projectName": "Stellar Python SDK",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reciEJw932bi9fM5Y",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recOamGIP0chX9mhu",
+          "createdAt": "2019-08-16T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 291793.31,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 19994.09,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-1",
+          "grantPoolName": "scf-1",
+          "id": "8",
+          "projectId": "timed-transactions-api",
+          "projectName": "Timed Transactions API - Schedule payments on the Stellar network!",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recOamGIP0chX9mhu",
+          "type": "GrantApplication"
+        }
+      ],
+      "name": "scf-1",
+      "type": "GrantPool"
+    }
+  ],
+  "name": "Stellar",
+  "type": "Foundation"
+}

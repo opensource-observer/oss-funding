@@ -1,0 +1,335 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "grant_pools": [
+    {
+      "applications": [
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFle2Dv0grIDayf",
+          "createdAt": "2023-06-27T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 62924.12,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 30600.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "1",
+          "projectId": "scalps",
+          "projectName": "Scalps",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFle2Dv0grIDayf",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9DwGpGqqgxK4I4",
+          "createdAt": "2023-09-11T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 88684.77,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 11200.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "2",
+          "projectId": "ortege-ai",
+          "projectName": "Ortege",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9DwGpGqqgxK4I4",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recjwQ8Ebg6OIV4BT",
+          "createdAt": "2023-07-27T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 186439.62,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 150000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "3",
+          "projectId": "hiyield",
+          "projectName": "HiYield",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recjwQ8Ebg6OIV4BT",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rect2OQxgI4OYMgTd",
+          "createdAt": "2023-08-31T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 350380.84,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 41860.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "4",
+          "projectId": "assemblyscript-soroban-sdk",
+          "projectName": "AS Soroban SDK",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rect2OQxgI4OYMgTd",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recI9BE8VwhuHqyBp",
+          "createdAt": "2023-08-31T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 1140821.96,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 136294.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "5",
+          "projectId": "kometpay",
+          "projectName": "KometPay",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recI9BE8VwhuHqyBp",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIRbsKDA1ayFXCF",
+          "createdAt": "2023-09-06T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 1183978.5,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 141000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "6",
+          "projectId": "comet",
+          "projectName": "Comet - Weighted Pool AMM",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIRbsKDA1ayFXCF",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recQVkzclAdYosQ1y",
+          "createdAt": "2023-07-27T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 111863.76,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 90000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "7",
+          "projectId": "blaze",
+          "projectName": "Blaze",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recQVkzclAdYosQ1y",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recR2IbUJQTFDHKpA",
+          "createdAt": "2023-08-04T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 199060.14,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 139999.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "8",
+          "projectId": "blockeden-xyz",
+          "projectName": "BlockEden.xyz Stellar Soroban Indexer",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recR2IbUJQTFDHKpA",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recUtPJPaKlIhvc6E",
+          "createdAt": "2023-07-27T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 170902.98,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 137500.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "9",
+          "projectId": "ottersec",
+          "projectName": "OtterSec",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recUtPJPaKlIhvc6E",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recYkjDsD5FKqcfy0",
+          "createdAt": "2023-09-06T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 1235664.59,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 149458.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "10",
+          "projectId": "nebula",
+          "projectName": "Nebula and Quasar",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recYkjDsD5FKqcfy0",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec49lAtSKVy2QIJp",
+          "createdAt": "2023-11-20T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 851709.6,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 103125.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "11",
+          "projectId": "chaincerts",
+          "projectName": "Chaincerts",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec49lAtSKVy2QIJp",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recv7q71W4I8LcYAw",
+          "createdAt": "2023-07-18T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 151448.6,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 98640.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "12",
+          "projectId": "subquery-network",
+          "projectName": "SubQuery Network",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recv7q71W4I8LcYAw",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recO97yX78hdHD9WX",
+          "createdAt": "2023-08-31T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 263795.2,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 32000.0,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "13",
+          "projectId": "stellar-rust-sdk",
+          "projectName": "Stellar Rust SDK",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recO97yX78hdHD9WX",
+          "type": "GrantApplication"
+        },
+        {
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5a6qOoWCjaHweW",
+          "createdAt": "2023-11-27T00:00:00Z",
+          "fundsApproved": [
+            {
+              "amount": 1295896,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsAsked": [
+            {
+              "amount": 150004.63,
+              "denomination": "USD"
+            }
+          ],
+          "grantPoolId": "scf-18",
+          "grantPoolName": "scf-18",
+          "id": "14",
+          "projectId": "wombat-exchange",
+          "projectName": "Wombat Exchange",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5a6qOoWCjaHweW",
+          "type": "GrantApplication"
+        }
+      ],
+      "name": "scf-18",
+      "type": "GrantPool"
+    }
+  ],
+  "name": "Stellar",
+  "type": "Foundation"
+}

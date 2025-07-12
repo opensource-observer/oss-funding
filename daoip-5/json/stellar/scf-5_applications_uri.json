@@ -1,220 +1,220 @@
 {
-    "@context": "http://www.daostar.org/schemas",
-    "name": "Stellar",
-    "type": "Foundation",
-    "grant_pools": [
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "scf-5",
+      "applications": [
         {
-            "type": "GrantPool",
-            "name": "scf-5",
-            "applications": [
-                {
-                    "type": "GrantApplication",
-                    "id": "1",
-                    "grantPoolId": "scf-5",
-                    "grantPoolName": "scf-5",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFHsO8eBVbiOIAg",
-                    "projectId": "cosmic-vote",
-                    "projectName": "Cosmic.vote ~ Working Toward Decentralized Organizations ",
-                    "createdAt": "2020-08-18T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFHsO8eBVbiOIAg",
-                    "fundsAsked": [
-                        {
-                            "amount": 17947.28,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 166007.91,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "2",
-                    "grantPoolId": "scf-5",
-                    "grantPoolName": "scf-5",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHn7buQXsekeDpI",
-                    "projectId": "rigel",
-                    "projectName": "Rigel - Monetize Links for Payments and Donations in Seconds Stellar",
-                    "createdAt": "2020-08-18T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHn7buQXsekeDpI",
-                    "fundsAsked": [
-                        {
-                            "amount": 14101.43,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 130434.78,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "3",
-                    "grantPoolId": "scf-5",
-                    "grantPoolName": "scf-5",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recd1qeJidXyA4Lpm",
-                    "projectId": "free-voting-platform-",
-                    "projectName": "Free Voting Platform ",
-                    "createdAt": "2020-08-18T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recd1qeJidXyA4Lpm",
-                    "fundsAsked": [
-                        {
-                            "amount": 48714.05,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 450592.89,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "4",
-                    "grantPoolId": "scf-5",
-                    "grantPoolName": "scf-5",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recei4RC1NYovsqZi",
-                    "projectId": "opensolar",
-                    "projectName": "OpenSolar: Securitized project financing powered by Stellar",
-                    "createdAt": "2020-08-18T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recei4RC1NYovsqZi",
-                    "fundsAsked": [
-                        {
-                            "amount": 24357.02,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 225296.44,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "5",
-                    "grantPoolId": "scf-5",
-                    "grantPoolName": "scf-5",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVosDQk5KM5Vj7Y",
-                    "projectId": "lettuce",
-                    "projectName": "Lettuce: Stellar-based point of sale (POS) Application ",
-                    "createdAt": "2020-08-18T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVosDQk5KM5Vj7Y",
-                    "fundsAsked": [
-                        {
-                            "amount": 48714.05,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 450592.89,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "6",
-                    "grantPoolId": "scf-5",
-                    "grantPoolName": "scf-5",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5yVPK5GlSQgpOG",
-                    "projectId": "mxlet",
-                    "projectName": "MXlet - Open Stellar Hardware Wallet ",
-                    "createdAt": "2020-08-18T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5yVPK5GlSQgpOG",
-                    "fundsAsked": [
-                        {
-                            "amount": 19229.23,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 177865.61,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "7",
-                    "grantPoolId": "scf-5",
-                    "grantPoolName": "scf-5",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqwxZuu8Ox6MgqP",
-                    "projectId": "stellarmint",
-                    "projectName": "Stellarmint",
-                    "createdAt": "2020-08-18T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqwxZuu8Ox6MgqP",
-                    "fundsAsked": [
-                        {
-                            "amount": 51277.94,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 474308.3,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "8",
-                    "grantPoolId": "scf-5",
-                    "grantPoolName": "scf-5",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxPA89AEpKyJpcP",
-                    "projectId": "the-interstellar-platform",
-                    "projectName": "The Interstellar Platform",
-                    "createdAt": "2020-08-18T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxPA89AEpKyJpcP",
-                    "fundsAsked": [
-                        {
-                            "amount": 44868.2,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 415019.76,
-                            "denomination": "XLM"
-                        }
-                    ]
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "9",
-                    "grantPoolId": "scf-5",
-                    "grantPoolName": "scf-5",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZNvq8ujTrxpxgJ",
-                    "projectId": "stellar-update",
-                    "projectName": "Stellar Update - Dedicated Blog about everything Stellar",
-                    "createdAt": "2020-08-24T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZNvq8ujTrxpxgJ",
-                    "fundsAsked": [
-                        {
-                            "amount": 56319.82,
-                            "denomination": "USD"
-                        }
-                    ],
-                    "fundsApproved": [
-                        {
-                            "amount": 545454.55,
-                            "denomination": "XLM"
-                        }
-                    ]
-                }
-            ]
+          "type": "GrantApplication",
+          "id": "1",
+          "grantPoolId": "scf-5",
+          "grantPoolName": "scf-5",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFHsO8eBVbiOIAg",
+          "projectId": "cosmic-vote",
+          "projectName": "Cosmic.vote ~ Working Toward Decentralized Organizations ",
+          "createdAt": "2020-08-18T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFHsO8eBVbiOIAg",
+          "fundsAsked": [
+            {
+              "amount": 17947.28,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 166007.91,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2",
+          "grantPoolId": "scf-5",
+          "grantPoolName": "scf-5",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHn7buQXsekeDpI",
+          "projectId": "rigel",
+          "projectName": "Rigel - Monetize Links for Payments and Donations in Seconds Stellar",
+          "createdAt": "2020-08-18T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recHn7buQXsekeDpI",
+          "fundsAsked": [
+            {
+              "amount": 14101.43,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 130434.78,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3",
+          "grantPoolId": "scf-5",
+          "grantPoolName": "scf-5",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recd1qeJidXyA4Lpm",
+          "projectId": "free-voting-platform-",
+          "projectName": "Free Voting Platform ",
+          "createdAt": "2020-08-18T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recd1qeJidXyA4Lpm",
+          "fundsAsked": [
+            {
+              "amount": 48714.05,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 450592.89,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4",
+          "grantPoolId": "scf-5",
+          "grantPoolName": "scf-5",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recei4RC1NYovsqZi",
+          "projectId": "opensolar",
+          "projectName": "OpenSolar: Securitized project financing powered by Stellar",
+          "createdAt": "2020-08-18T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recei4RC1NYovsqZi",
+          "fundsAsked": [
+            {
+              "amount": 24357.02,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 225296.44,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "5",
+          "grantPoolId": "scf-5",
+          "grantPoolName": "scf-5",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVosDQk5KM5Vj7Y",
+          "projectId": "lettuce",
+          "projectName": "Lettuce: Stellar-based point of sale (POS) Application ",
+          "createdAt": "2020-08-18T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVosDQk5KM5Vj7Y",
+          "fundsAsked": [
+            {
+              "amount": 48714.05,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 450592.89,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6",
+          "grantPoolId": "scf-5",
+          "grantPoolName": "scf-5",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5yVPK5GlSQgpOG",
+          "projectId": "mxlet",
+          "projectName": "MXlet - Open Stellar Hardware Wallet ",
+          "createdAt": "2020-08-18T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5yVPK5GlSQgpOG",
+          "fundsAsked": [
+            {
+              "amount": 19229.23,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 177865.61,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "7",
+          "grantPoolId": "scf-5",
+          "grantPoolName": "scf-5",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqwxZuu8Ox6MgqP",
+          "projectId": "stellarmint",
+          "projectName": "Stellarmint",
+          "createdAt": "2020-08-18T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqwxZuu8Ox6MgqP",
+          "fundsAsked": [
+            {
+              "amount": 51277.94,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 474308.3,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "8",
+          "grantPoolId": "scf-5",
+          "grantPoolName": "scf-5",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxPA89AEpKyJpcP",
+          "projectId": "the-interstellar-platform",
+          "projectName": "The Interstellar Platform",
+          "createdAt": "2020-08-18T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxPA89AEpKyJpcP",
+          "fundsAsked": [
+            {
+              "amount": 44868.2,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 415019.76,
+              "denomination": "XLM"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "9",
+          "grantPoolId": "scf-5",
+          "grantPoolName": "scf-5",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZNvq8ujTrxpxgJ",
+          "projectId": "stellar-update",
+          "projectName": "Stellar Update - Dedicated Blog about everything Stellar",
+          "createdAt": "2020-08-24T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZNvq8ujTrxpxgJ",
+          "fundsAsked": [
+            {
+              "amount": 56319.82,
+              "denomination": "USD"
+            }
+          ],
+          "fundsApproved": [
+            {
+              "amount": 545454.55,
+              "denomination": "XLM"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
