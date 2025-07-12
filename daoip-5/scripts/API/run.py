@@ -28,44 +28,57 @@ def display_help():
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DAOIP-5 Datalake API Documentation</title>
         <style>
-            body { font-family: Arial, sans-serif; margin: 20px; }
-            h1 { color: #333; }
-            h2 { color: #0056b3; }
+            body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; line-height: 1.6; }
+            h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+            h2 { color: #34495e; margin-top: 30px; }
+            h3 { color: #7f8c8d; }
             p { font-size: 1.1em; }
-            .endpoint { margin-top: 20px; }
+            .endpoint { margin-top: 25px; padding: 15px; border-left: 4px solid #3498db; background-color: #f8f9fa; }
             .param, .response { margin-left: 20px; }
+            .method { background-color: #27ae60; color: white; padding: 2px 8px; border-radius: 3px; font-weight: bold; }
+            .url { font-family: monospace; background-color: #ecf0f1; padding: 2px 4px; border-radius: 3px; }
+            .json-example { background-color: #2c3e50; color: #ecf0f1; padding: 10px; border-radius: 5px; font-family: monospace; font-size: 0.9em; }
+            .warning { background-color: #f39c12; color: white; padding: 10px; border-radius: 5px; margin: 10px 0; }
         </style>
     </head>
     <body>
         <h1>DAOIP-5 Datalake API Documentation</h1>
         <p><strong>Repository:</strong> <a href="https://github.com/opensource-observer/oss-funding/tree/main/daoip-5/json" target="_blank">DAOIP-5 JSON Repository</a></p>
+        
+        <div class="warning">
+            <strong>⚠️ Note:</strong> The Allo Protocol endpoint has been deprecated. Use the static JSON files for grant data access.
+        </div>
+
+        <h2>API Overview</h2>
+        <p>This API provides access to grant funding data following the DAOIP-5 standard. Data is organized by grant systems (foundations/organizations) and includes both grant pool metadata and application details.</p>
 
         <div class="endpoint">
-            <h2>Endpoint: /</h2>
-            <p><strong>Method:</strong> GET</p>
+            <h3><span class="method">GET</span> <span class="url">/</span></h3>
             <p><strong>Description:</strong> List all grant systems (folders) in the JSON directory.</p>
             <p><strong>Parameters:</strong> None</p>
             <p><strong>Response:</strong> A JSON array of grant system names.</p>
+            <div class="json-example">
+["arbitrumfoundation", "clrfund", "octant-golemfoundation", "optimism", "stellar"]</div>
         </div>
 
         <div class="endpoint">
-            <h2>Endpoint: /&lt;grant_system&gt;</h2>
-            <p><strong>Method:</strong> GET</p>
+            <h3><span class="method">GET</span> <span class="url">/&lt;grant_system&gt;</span></h3>
             <p><strong>Description:</strong> List all grant pools (JSON files) within a specific grant system folder.</p>
             <div class="param">
                 <p><strong>Parameters:</strong></p>
                 <ul>
-                    <li><strong>grant_system</strong> (string): The name of the grant system folder to inspect.</li>
+                    <li><strong>grant_system</strong> (string): The name of the grant system folder to inspect (e.g., "optimism", "arbitrumfoundation").</li>
                 </ul>
             </div>
             <div class="response">
                 <p><strong>Response:</strong> A JSON array of JSON file names (grant pools) in the specified folder.</p>
+                <div class="json-example">
+["grants_pool.json", "grants_season_4_applications_uri.json", "retrofunding5_applications_uri.json"]</div>
             </div>
         </div>
 
         <div class="endpoint">
-            <h2>Endpoint: /&lt;grant_system&gt;/&lt;filename&gt;.json</h2>
-            <p><strong>Method:</strong> GET</p>
+            <h3><span class="method">GET</span> <span class="url">/&lt;grant_system&gt;/&lt;filename&gt;.json</span></h3>
             <p><strong>Description:</strong> Retrieve a specific JSON file within a grant system folder.</p>
             <div class="param">
                 <p><strong>Parameters:</strong></p>
@@ -75,17 +88,64 @@ def display_help():
                 </ul>
             </div>
             <div class="response">
-                <p><strong>Response:</strong> The JSON content of the specified file.</p>
+                <p><strong>Response:</strong> The JSON content of the specified file following DAOIP-5 schema.</p>
             </div>
         </div>
 
         <div class="endpoint">
-            <h2>Endpoint: /help</h2>
-            <p><strong>Method:</strong> GET</p>
+            <h3><span class="method">GET</span> <span class="url">/search/</span></h3>
+            <h3><span class="method">GET</span> <span class="url">/search/&lt;project_name&gt;</span></h3>
+            <p><strong>Description:</strong> Search for applications across all grant systems by project name.</p>
+            <div class="param">
+                <p><strong>Parameters:</strong></p>
+                <ul>
+                    <li><strong>project_name</strong> (string, optional): The name of the project to search for. If omitted, returns all applications.</li>
+                </ul>
+            </div>
+            <div class="response">
+                <p><strong>Response:</strong> JSON object containing matching applications with metadata about their source grant system.</p>
+            </div>
+        </div>
+
+        <div class="endpoint">
+            <h3><span class="method">GET</span> <span class="url">/help</span></h3>
             <p><strong>Description:</strong> Display this documentation.</p>
             <p><strong>Parameters:</strong> None</p>
-            <p><strong>Response:</strong> A JSON object detailing all API endpoints and their descriptions.</p>
+            <p><strong>Response:</strong> HTML documentation page.</p>
         </div>
+
+        <h2>Data Quality & Schema</h2>
+        <p>All JSON files follow the DAOIP-5 schema standard. Key features:</p>
+        <ul>
+            <li><strong>Consistent Schema:</strong> All grant systems use standardized field names and types</li>
+            <li><strong>Field Mapping:</strong> Each grant system includes a <span class="url">field_mapping.yaml</span> file documenting schema compliance</li>
+            <li><strong>Quality Reports:</strong> Data quality reports are available for each grant system</li>
+            <li><strong>Validation:</strong> Automated validation ensures data consistency</li>
+        </ul>
+
+        <h2>Available Grant Systems</h2>
+        <ul>
+            <li><strong>arbitrumfoundation:</strong> Arbitrum Foundation grants and incentive programs</li>
+            <li><strong>clrfund:</strong> CLR Fund quadratic funding rounds</li>
+            <li><strong>dao-drops-dorgtech:</strong> DAO Drops funding rounds</li>
+            <li><strong>octant-golemfoundation:</strong> Octant (Golem Foundation) funding epochs</li>
+            <li><strong>optimism:</strong> Optimism Foundation grants and RetroPGF rounds</li>
+            <li><strong>stellar:</strong> Stellar Development Foundation community fund rounds</li>
+        </ul>
+
+        <h2>Example Usage</h2>
+        <div class="json-example">
+# Get all grant systems
+curl https://your-api-domain.com/
+
+# Get Optimism grant pools
+curl https://your-api-domain.com/optimism
+
+# Get specific grant pool data
+curl https://your-api-domain.com/optimism/grants_pool.json
+
+# Search for a specific project
+curl https://your-api-domain.com/search/uniswap</div>
     </body>
     </html>
     """
@@ -94,9 +154,7 @@ def display_help():
 
 def get_grant_pools(grant_system):
     """
-    List all JSON files (grant pools) in a given grant system folder,
-    appending 'allo' to the list,
-    appending 'allo' to the list.
+    List all JSON files (grant pools) in a given grant system folder.
     """
     folder_path = os.path.join(BASE_PATH, grant_system)
     if not os.path.exists(folder_path) or not os.path.isdir(folder_path):
