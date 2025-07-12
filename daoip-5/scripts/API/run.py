@@ -133,19 +133,6 @@ def display_help():
             <li><strong>stellar:</strong> Stellar Development Foundation community fund rounds</li>
         </ul>
 
-        <h2>Example Usage</h2>
-        <div class="json-example">
-# Get all grant systems
-curl https://your-api-domain.com/
-
-# Get Optimism grant pools
-curl https://your-api-domain.com/optimism
-
-# Get specific grant pool data
-curl https://your-api-domain.com/optimism/grants_pool.json
-
-# Search for a specific project
-curl https://your-api-domain.com/search/uniswap</div>
     </body>
     </html>
     """
