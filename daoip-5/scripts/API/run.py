@@ -2,18 +2,43 @@ from flask import Flask, jsonify, abort, redirect, redirect, send_file
 import os
 import json
 import logging
+from functools import lru_cache
+from threading import Lock
+import time
 
 app = Flask(__name__)
 
 # Path to the directory where the JSON files are stored (relative to the repository)
 BASE_PATH = '../../json'
 
+# Global cache for file data and metadata
+_file_cache = {}
+_cache_lock = Lock()
+_cache_ttl = 300  # 5 minutes TTL
 
+
+def _is_cache_valid(cache_entry):
+    """Check if cache entry is still valid based on TTL"""
+    return time.time() - cache_entry['timestamp'] < _cache_ttl
+
+def _get_file_modified_time(file_path):
+    """Get file modification time"""
+    try:
+        return os.path.getmtime(file_path)
+    except OSError:
+        return 0
+
+@lru_cache(maxsize=32)
 def get_grant_systems():
     """
     List all grant systems (folders) in the json directory.
+    Cached for performance.
     """
-    return [folder for folder in os.listdir(BASE_PATH) if os.path.isdir(os.path.join(BASE_PATH, folder))]
+    try:
+        return [folder for folder in os.listdir(BASE_PATH) if os.path.isdir(os.path.join(BASE_PATH, folder))]
+    except OSError as e:
+        logging.error(f"Error listing grant systems: {e}")
+        return []
 
 @app.route('/help', methods=['GET'])
 def display_help():
@@ -142,12 +167,31 @@ def display_help():
 def get_grant_pools(grant_system):
     """
     List all JSON files (grant pools) in a given grant system folder.
+    Cached for performance.
     """
+    cache_key = f"pools_{grant_system}"
+    
+    with _cache_lock:
+        if cache_key in _file_cache and _is_cache_valid(_file_cache[cache_key]):
+            return _file_cache[cache_key]['data']
+    
     folder_path = os.path.join(BASE_PATH, grant_system)
     if not os.path.exists(folder_path) or not os.path.isdir(folder_path):
         abort(404, description=f"Grant system '{grant_system}' not found")
-    json_files = [file for file in os.listdir(folder_path) if file.endswith('.json')]
-    return json_files
+    
+    try:
+        json_files = [file for file in os.listdir(folder_path) if file.endswith('.json')]
+        
+        with _cache_lock:
+            _file_cache[cache_key] = {
+                'data': json_files,
+                'timestamp': time.time()
+            }
+        
+        return json_files
+    except OSError as e:
+        logging.error(f"Error listing grant pools for {grant_system}: {e}")
+        abort(500, description="Internal server error")
 
 
 
@@ -163,6 +207,37 @@ def get_file_path(grant_system, filename):
         abort(404, description=f"File '{filename}' not found in '{grant_system}'")
 
     return file_path
+
+def get_cached_json_file(grant_system, filename):
+    """
+    Get JSON file content with caching and modification time checking.
+    """
+    file_path = get_file_path(grant_system, filename)
+    cache_key = f"json_{grant_system}_{filename}"
+    file_mtime = _get_file_modified_time(file_path)
+    
+    with _cache_lock:
+        if cache_key in _file_cache:
+            cache_entry = _file_cache[cache_key]
+            if (cache_entry['mtime'] == file_mtime and 
+                _is_cache_valid(cache_entry)):
+                return cache_entry['data']
+    
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        with _cache_lock:
+            _file_cache[cache_key] = {
+                'data': data,
+                'mtime': file_mtime,
+                'timestamp': time.time()
+            }
+        
+        return data
+    except (json.JSONDecodeError, IOError) as e:
+        logging.error(f"Error loading JSON file {file_path}: {e}")
+        abort(500, description="Error loading file")
 
 
 @app.route('/', methods=['GET'])
@@ -192,11 +267,11 @@ def list_grant_pools(grant_system):
 @app.route('/<grant_system>/<filename>.json', methods=['GET'])
 def proxy_json_file(grant_system, filename):
     """
-    Endpoint to serve a specific JSON file from a grant system folder (acting as a proxy).
+    Optimized endpoint to serve JSON files using cached loading.
     """
     try:
-        file_path = get_file_path(grant_system, f"{filename}.json")
-        return send_file(file_path, mimetype='application/json')
+        data = get_cached_json_file(grant_system, f"{filename}.json")
+        return jsonify(data), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -205,58 +280,46 @@ def proxy_json_file(grant_system, filename):
 @app.route('/search/<project_name>')
 def search_project(project_name):
     """
-    Endpoint to search for all applications matching a project name across all grant systems.
-    If no project name or empty string is provided, returns all applications.
-
-    Args:
-        project_name (str): The name of the project to search for (optional)
-    Returns:
-        JSON object containing matching applications and result count
+    Optimized endpoint to search for applications across all grant systems.
+    Uses caching and early termination for better performance.
     """
     try:
         results = []
-        # Use existing function to get grant systems
+        search_term = project_name.lower() if project_name else None
         grant_systems = get_grant_systems()
+        
+        # Early termination for specific searches with limit
+        max_results = 1000 if not project_name else 100
 
         for system in grant_systems:
-            # Use existing function to get grant pools
-            files = get_grant_pools(system)
-            applications_files = [f for f in files if 'applications' in f]
+            try:
+                files = get_grant_pools(system)
+                applications_files = [f for f in files if 'applications' in f.lower()]
 
-            for file in applications_files:
-                try:
-                    # Use existing function to get file path and Flask's send_file
-                    file_path = get_file_path(system, file)
-                    with open(file_path, 'r') as f:
-                        data = json.load(f)
+                for file in applications_files:
+                    try:
+                        # Use cached JSON loading
+                        data = get_cached_json_file(system, file)
 
-                    if not isinstance(data, dict) or 'grant_pools' not in data:
-                        continue
-
-                    for pool in data['grant_pools']:
-                        if not isinstance(pool, dict) or 'applications' not in pool:
+                        # Support both 'grant_pools' and 'grantPools' naming
+                        pools = data.get('grant_pools') or data.get('grantPools', [])
+                        if not isinstance(pools, list):
                             continue
 
-                        for app in pool['applications']:
-                            # If project_name is empty or None, include all applications
-                            if not project_name:
-                                result = {
-                                    **app,
-                                    'metadata': {
-                                        'grantSystem': system,
-                                        'sourceFile': file,
-                                        'grantPoolId': app.get('grantPoolId', 'unknown'),
-                                        'grantPoolName': app.get('grantPoolName', 'unknown')
-                                    }
-                                }
-                                results.append(result)
-                            else:
-                                # More robust project name matching for specific search
-                                project_name_match = str(app.get('projectName', '')).lower()
-                                project_id_match = str(app.get('projectId', '')).lower()
-                                search_term = project_name.lower()
+                        for pool in pools:
+                            if not isinstance(pool, dict) or 'applications' not in pool:
+                                continue
 
-                                if search_term in project_name_match or search_term in project_id_match:
+                            applications = pool.get('applications', [])
+                            if not isinstance(applications, list):
+                                continue
+
+                            for app in applications:
+                                if len(results) >= max_results:
+                                    break
+                                
+                                # If no search term, include all applications
+                                if not search_term:
                                     result = {
                                         **app,
                                         'metadata': {
@@ -267,18 +330,54 @@ def search_project(project_name):
                                         }
                                     }
                                     results.append(result)
+                                else:
+                                    # Optimized string matching
+                                    project_name_str = str(app.get('projectName', '')).lower()
+                                    project_id_str = str(app.get('projectId', '')).lower()
 
-                except (json.JSONDecodeError, Exception) as e:
-                    # Log the error but continue processing other files
-                    logging.error(f"Error processing {file} in {system}: {str(e)}")
-                    continue
+                                    if (search_term in project_name_str or 
+                                        search_term in project_id_str):
+                                        result = {
+                                            **app,
+                                            'metadata': {
+                                                'grantSystem': system,
+                                                'sourceFile': file,
+                                                'grantPoolId': app.get('grantPoolId', 'unknown'),
+                                                'grantPoolName': app.get('grantPoolName', 'unknown')
+                                            }
+                                        }
+                                        results.append(result)
+                            
+                            if len(results) >= max_results:
+                                break
+                        
+                        if len(results) >= max_results:
+                            break
+
+                    except Exception as e:
+                        logging.error(f"Error processing {file} in {system}: {str(e)}")
+                        continue
+                
+                if len(results) >= max_results:
+                    break
+
+            except Exception as e:
+                logging.error(f"Error processing system {system}: {str(e)}")
+                continue
 
         search_description = "all applications" if not project_name else f"applications for project: {project_name}"
+        truncated = len(results) >= max_results
+        
         response = {
             "message": f"Found {len(results)} {search_description}",
             "count": len(results),
+            "truncated": truncated,
             "results": results
         }
+        
+        if truncated:
+            response["message"] += f" (limited to {max_results} results)"
+        
         return jsonify(response), 200
 
     except Exception as e:
@@ -291,6 +390,48 @@ def search_project(project_name):
 
 
 
+@app.route('/admin/clear-cache', methods=['POST'])
+def clear_cache():
+    """
+    Administrative endpoint to clear the internal cache.
+    """
+    try:
+        with _cache_lock:
+            _file_cache.clear()
+        get_grant_systems.cache_clear()
+        return jsonify({"message": "Cache cleared successfully"}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/admin/cache-stats', methods=['GET'])
+def cache_stats():
+    """
+    Administrative endpoint to get cache statistics.
+    """
+    try:
+        with _cache_lock:
+            cache_info = {
+                "cache_entries": len(_file_cache),
+                "cache_ttl_seconds": _cache_ttl,
+                "grant_systems_cache_info": get_grant_systems.cache_info()._asdict()
+            }
+        return jsonify(cache_info), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 if __name__ == '__main__':
+    # Configure logging for better performance monitoring
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    )
+    
+    # Warm up cache with grant systems
+    try:
+        get_grant_systems()
+        logging.info("Cache warmed up successfully")
+    except Exception as e:
+        logging.error(f"Cache warmup failed: {e}")
+    
     port = int(os.environ.get("PORT", 5000))
-    app.run(debug=True, host='0.0.0.0', port=port)
+    app.run(debug=True, host='0.0.0.0', port=port, threaded=True)
