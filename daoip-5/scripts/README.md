@@ -1,4 +1,3 @@
-
 # DAOIP-5 Scripts Documentation
 
 This directory contains scripts for data validation, quality assurance, and critical issue fixes for the DAOIP-5 grant funding dataset.
@@ -97,7 +96,7 @@ schema_fixes:
 data_quality:
   date_format: "ISO8601"
   required_fields: ["projectName", "projectId", "grantPoolId"]
-  
+
 validation:
   date_fields: ["createdAt", "closeDate"]
   url_fields: ["projectsURI", "contentURI"]
@@ -232,3 +231,27 @@ For issues or questions:
 - Review field mapping configurations
 - Run validation scripts for detailed diagnostics
 - Consult the comprehensive quality report for global patterns
+
+This analysis reveals that while the overall structure is consistent, there are significant data quality and naming consistency issues that should be addressed to improve API reliability and client integration.
+
+## GitHub Actions Integration
+
+The repository includes automated workflows for processing new funders:
+
+### Automatic Processing
+- **Trigger**: Any push/PR that modifies files in `data/funders/`
+- **Actions**:
+  1. Detects changed funder directories
+  2. Validates directory structure (YAML + uploads/CSV files)
+  3. Converts CSV to DAOIP-5 JSON format
+  4. Runs data quality validation
+  5. Applies critical fixes automatically
+  6. Creates PR with generated files and reports
+
+### Manual Workflow Dispatch
+You can also trigger the workflow manually from the GitHub Actions tab.
+
+### Workflow Files
+- `.github/workflows/daoip5-update.yaml` - Main automation workflow
+
+The workflow ensures all new funders are properly validated and converted to the DAOIP-5 standard before integration.

@@ -1,57 +1,165 @@
+
 name: Generate DAOIP-5 Files and Create PR
 
 on:
   push:
     paths:
-    - 'data/funders/**' # Trigger on changes in the funders folder
+      - 'data/funders/**'
+  pull_request:
+    paths:
+      - 'data/funders/**'
 
 jobs:
-  generate_and_pr:
+  generate_and_validate:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 2
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'
+        python-version: '3.11'
 
     - name: Install dependencies
       run: |
         pip install -r daoip-5/scripts/requirements.txt
 
-    - name: Generate JSON files
-      id: generate_files
+    - name: Detect changed folders
+      id: detect_changes
       run: |
-        # Detecting the updated/added folder in the funders directory
-        FOLDER_PATH=$(git diff --name-only HEAD^ HEAD | grep '^data/funders' | head -1 | xargs dirname || true)
-        if [ -z "$FOLDER_PATH" ]; then
-          echo "No changes detected in funders directory. Exiting."
+        echo "Detecting changes in data/funders..."
+        CHANGED_FOLDERS=$(git diff --name-only HEAD~1 HEAD | grep '^data/funders/' | cut -d'/' -f1-3 | sort -u)
+        if [ -z "$CHANGED_FOLDERS" ]; then
+          echo "No changes detected in funders directory."
+          echo "skip=true" >> $GITHUB_OUTPUT
           exit 0
         fi
-        # Running the main.py script with the detected path
-        python3 daoip-5/scripts/main.py --path "./$FOLDER_PATH"
+        echo "Changed folders: $CHANGED_FOLDERS"
+        echo "folders<<EOF" >> $GITHUB_OUTPUT
+        echo "$CHANGED_FOLDERS" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+        echo "skip=false" >> $GITHUB_OUTPUT
+
+    - name: Process changed folders
+      if: steps.detect_changes.outputs.skip == 'false'
+      run: |
+        echo "${{ steps.detect_changes.outputs.folders }}" | while read folder; do
+          if [ -n "$folder" ] && [ -d "$folder" ]; then
+            echo "Processing folder: $folder"
+            
+            # Check if folder has required structure
+            if [ -f "$folder"/*.yaml ] && [ -d "$folder/uploads" ] && ls "$folder/uploads"/*.csv 1> /dev/null 2>&1; then
+              echo "✅ Valid structure found in $folder"
+              
+              # Convert CSV to JSON
+              python3 daoip-5/scripts/CSV-to-JSON.py --path "$folder"
+              
+              # Extract system name from folder path
+              SYSTEM_NAME=$(basename "$folder")
+              JSON_PATH="daoip-5/json/$SYSTEM_NAME"
+              
+              if [ -d "$JSON_PATH" ]; then
+                echo "✅ JSON files generated for $SYSTEM_NAME"
+                
+                # Run data quality validation
+                echo "🔍 Running data quality validation for $SYSTEM_NAME..."
+                python3 daoip-5/scripts/validate_data_quality.py "$JSON_PATH"
+                
+                # Check if validation passed
+                if [ $? -eq 0 ]; then
+                  echo "✅ Data quality validation passed for $SYSTEM_NAME"
+                else
+                  echo "⚠️ Data quality validation had issues for $SYSTEM_NAME (check reports)"
+                fi
+              else
+                echo "❌ Failed to generate JSON files for $SYSTEM_NAME"
+                exit 1
+              fi
+            else
+              echo "⚠️ Skipping $folder - missing required YAML file or uploads directory with CSV files"
+            fi
+          fi
+        done
+
+    - name: Run comprehensive validation
+      if: steps.detect_changes.outputs.skip == 'false'
+      run: |
+        echo "🔍 Running comprehensive data quality validation..."
+        cd daoip-5/scripts
+        python3 validate_all_systems.py
+
+    - name: Apply critical fixes if needed
+      if: steps.detect_changes.outputs.skip == 'false'
+      run: |
+        echo "🔧 Applying critical fixes..."
+        cd daoip-5/scripts
+        python3 fix_critical_issues.py ../json all
 
     - name: Check for changes and commit
+      if: steps.detect_changes.outputs.skip == 'false'
       run: |
-        if [ -n "$(git status --porcelain)" ]; then
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git add daoip-5/json
-          git commit -m "Auto-generated files for new/updated folder"
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        
+        # Add all generated files
+        git add daoip-5/json/
+        
+        # Check if there are changes to commit
+        if ! git diff --staged --quiet; then
+          git commit -m "Auto-generated DAOIP-5 files and quality reports
+
+Generated files for: ${{ steps.detect_changes.outputs.folders }}
+- Converted CSV data to DAOIP-5 compliant JSON
+- Applied critical schema fixes
+- Generated data quality reports
+- Validated against DAOIP-5 standards"
+          echo "changes=true" >> $GITHUB_OUTPUT
         else
           echo "No changes to commit."
-          exit 0
+          echo "changes=false" >> $GITHUB_OUTPUT
         fi
 
-    - name: Push changes and create PR
-      if: success() && steps.generate_files.outputs.FOLDER_PATH != ''
+    - name: Create Pull Request
+      if: steps.detect_changes.outputs.skip == 'false' && github.event_name == 'push' && github.ref == 'refs/heads/main'
       uses: peter-evans/create-pull-request@v5
       with:
-        commit-message: Auto-generated DAOIP-5 files for new/updated folder
-        branch: auto-generated-pr
-        title: "Auto-generated DAOIP-5 files for new/updated folder"
-        body: "This PR contains files generated automatically."
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: "Auto-generated DAOIP-5 files and quality reports"
+        branch: auto-generated-daoip5-${{ github.run_number }}
+        title: "🤖 Auto-generated DAOIP-5 files for updated funders"
+        body: |
+          ## Auto-generated DAOIP-5 Files
+          
+          This PR contains automatically generated DAOIP-5 compliant files for updated funder data.
+          
+          ### Changes:
+          - 📊 Converted CSV data to DAOIP-5 JSON format
+          - 🔧 Applied critical schema fixes
+          - 📋 Generated data quality reports
+          - ✅ Validated against DAOIP-5 standards
+          
+          ### Affected Systems:
+          ${{ steps.detect_changes.outputs.folders }}
+          
+          ### Quality Reports:
+          - Individual system reports: `daoip-5/json/<system>/data_quality_report.json`
+          - Comprehensive report: `daoip-5/json/comprehensive_data_quality_report.json`
+          
+          **Note:** Please review the quality reports before merging.
         base: main
+        delete-branch: true
+
+    - name: Summary
+      if: always()
+      run: |
+        if [ "${{ steps.detect_changes.outputs.skip }}" == "true" ]; then
+          echo "✅ No changes detected in data/funders directory"
+        else
+          echo "✅ Workflow completed for folders: ${{ steps.detect_changes.outputs.folders }}"
+          echo "📊 Generated JSON files and quality reports"
+          echo "🔍 Check individual system reports in daoip-5/json/<system>/data_quality_report.json"
+        fi

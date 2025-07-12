@@ -26,6 +26,36 @@ args = "python3"
 task = "shell.exec"
 args = "python3 run.py"
 
+[[workflows.workflow]]
+name = "Quality Check"
+author = 2104566
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd daoip-5/scripts"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 run_data_quality_check.py full-check"
+
+[[workflows.workflow]]
+name = "Process New Funder"
+author = 2104566
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd daoip-5/scripts"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "echo \"Usage: python3 run_data_quality_check.py process ../data/funders/FUNDER_NAME\""
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "echo \"Replace FUNDER_NAME with the actual folder name\""
+
 [[ports]]
 localPort = 5000
 externalPort = 80
