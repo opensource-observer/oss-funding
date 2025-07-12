@@ -1,0 +1,31 @@
+modules = ["python-3.12"]
+run = "cd daoip-5/scripts/API/ && pip install -r requirements.txt && python3 run.py"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "cd oss-funding/daoip-5/scripts/API && pip install -r requirements.txt && python3 run.py"]
+
+[workflows]
+
+[[workflows.workflow]]
+name = "Boot"
+mode = "sequential"
+author = 2104566
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd daoip-5/scripts/API/"
+
+[[workflows.workflow.tasks]]
+task = "packager.installForLanguage"
+args = "python3"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 run.py"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
