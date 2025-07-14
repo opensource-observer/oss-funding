@@ -69,6 +69,16 @@ def apply_critical_fixes(target="all"):
     return run_command(command, cwd=script_dir)
 
 
+def standardize_ids():
+    """Standardize all IDs to DAOIP-5 format."""
+    script_dir = get_script_dir()
+    id_script = script_dir / "update_ids_format.py"
+    
+    print("🔄 Standardizing IDs to DAOIP-5 format...")
+    command = f"python3 {id_script}"
+    return run_command(command, cwd=script_dir)
+
+
 def convert_csv_to_json(funder_path):
     """Convert CSV data to DAOIP-5 JSON format."""
     script_dir = get_script_dir()
@@ -172,6 +182,9 @@ def main():
     check_parser = subparsers.add_parser('check', help='Check funder directory structure')
     check_parser.add_argument('funder_path', help='Path to the funder directory')
     
+    # Standardize IDs
+    subparsers.add_parser('standardize-ids', help='Standardize all IDs to DAOIP-5 format')
+    
     # Full pipeline
     subparsers.add_parser('full-check', help='Run complete data quality pipeline')
     
@@ -195,11 +208,14 @@ def main():
         success = process_new_funder(args.funder_path)
     elif args.command == 'check':
         success = check_system_structure(args.funder_path)
+    elif args.command == 'standardize-ids':
+        success = standardize_ids()
     elif args.command == 'full-check':
         print("🚀 Running full data quality pipeline...")
         success = (
             validate_all_systems() and
             apply_critical_fixes() and
+            standardize_ids() and
             validate_all_systems()  # Re-validate after fixes
         )
     
