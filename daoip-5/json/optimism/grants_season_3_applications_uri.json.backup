@@ -1,1117 +1,1117 @@
 {
   "@context": "http://www.daostar.org/schemas",
-  "grant_pools": [
+  "name": "Optimism",
+  "type": "Foundation",
+  "grantPools": [
     {
+      "type": "GrantPool",
+      "name": "grants_season_3",
       "applications": [
         {
-          "contentURI": "https://gov.optimism.io/t/ready-builders-cycle-11-integration-of-optimism-into-airgap-vault-airgap-wallet-and-airgap-coin-lib/5402",
+          "type": "GrantApplication",
+          "id": "1",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/ready-builders-cycle-11-integration-of-optimism-into-airgap-vault-airgap-wallet-and-airgap-coin-lib/5402",
+          "projectId": "airgap-it",
+          "projectName": "Airgap Wallet",
           "createdAt": "2023-02-01T00:00:00Z",
-          "fundsApproved": [
-            {
-              "amount": 18000.0,
-              "denomination": "OP"
-            }
-          ],
+          "contentURI": "https://gov.optimism.io/t/ready-builders-cycle-11-integration-of-optimism-into-airgap-vault-airgap-wallet-and-airgap-coin-lib/5402",
           "fundsAsked": [
             {
               "amount": 27000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "1",
-          "projectId": "airgap-it",
-          "projectName": "Airgap Wallet",
-          "projectsURI": "https://gov.optimism.io/t/ready-builders-cycle-11-integration-of-optimism-into-airgap-vault-airgap-wallet-and-airgap-coin-lib/5402",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/another-world-growth-experiments-cycle-11/5538",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 50000.0,
+              "amount": 18000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/another-world-growth-experiments-cycle-11/5538",
+          "projectId": "another-world",
+          "projectName": "Another World",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/another-world-growth-experiments-cycle-11/5538",
           "fundsAsked": [
             {
               "amount": 75000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "2",
-          "projectId": "another-world",
-          "projectName": "Another World",
-          "projectsURI": "https://gov.optimism.io/t/another-world-growth-experiments-cycle-11/5538",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-attestation-station-interface/4827",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 20000.0,
+              "amount": 50000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-attestation-station-interface/4827",
+          "projectId": "attestation-station-interface-sbvegan",
+          "projectName": "Attestation Station Interface",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-attestation-station-interface/4827",
           "fundsAsked": [
             {
               "amount": 30000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "3",
-          "projectId": "attestation-station-interface-sbvegan",
-          "projectName": "Attestation Station Interface",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-attestation-station-interface/4827",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-charmverse/5546",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 50000.0,
+              "amount": 20000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-charmverse/5546",
+          "projectId": "charmverse",
+          "projectName": "CharmVerse",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-charmverse/5546",
           "fundsAsked": [
             {
               "amount": 75000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "4",
-          "projectId": "charmverse",
-          "projectName": "CharmVerse",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-charmverse/5546",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-clique/4980",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 25000.0,
+              "amount": 50000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "5",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-clique/4980",
+          "projectId": "cliqueofficial",
+          "projectName": "Clique",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-clique/4980",
           "fundsAsked": [
             {
               "amount": 37500.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "5",
-          "projectId": "cliqueofficial",
-          "projectName": "Clique",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-clique/4980",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-cycle-11-proposall-dforce-one-stop-shop-for-defi-solutions-on-optimism/5482",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 200000.0,
+              "amount": 25000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-cycle-11-proposall-dforce-one-stop-shop-for-defi-solutions-on-optimism/5482",
+          "projectId": "dforce-network",
+          "projectName": "dForce",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-cycle-11-proposall-dforce-one-stop-shop-for-defi-solutions-on-optimism/5482",
           "fundsAsked": [
             {
               "amount": 300000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "6",
-          "projectId": "dforce-network",
-          "projectName": "dForce",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-cycle-11-proposall-dforce-one-stop-shop-for-defi-solutions-on-optimism/5482",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/dm3-protocol-messaging-as-a-public-good/5505",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 50000.0,
+              "amount": 200000.0,
               "denomination": "OP"
             }
-          ],
-          "fundsAsked": [
-            {
-              "amount": 75000.0,
-              "denomination": "USD"
-            }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "7",
           "grantPoolId": "grants_season_3",
           "grantPoolName": "grants_season_3",
-          "id": "7",
+          "projectsURI": "https://gov.optimism.io/t/dm3-protocol-messaging-as-a-public-good/5505",
           "projectId": "dm3-protocol",
           "projectName": "dm3 Protocol",
-          "projectsURI": "https://gov.optimism.io/t/dm3-protocol-messaging-as-a-public-good/5505",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/gf-phase-1-proposal-edge-wallet-integration-of-optimism-velodrome-lp-staking-swaps-tarot-lp-staking/3994",
           "createdAt": "2023-02-01T00:00:00Z",
-          "fundsApproved": [
-            {
-              "amount": 50000.0,
-              "denomination": "OP"
-            }
-          ],
+          "contentURI": "https://gov.optimism.io/t/dm3-protocol-messaging-as-a-public-good/5505",
           "fundsAsked": [
             {
               "amount": 75000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "8",
-          "projectId": "edgeapp",
-          "projectName": "Edge Wallet",
-          "projectsURI": "https://gov.optimism.io/t/gf-phase-1-proposal-edge-wallet-integration-of-optimism-velodrome-lp-staking-swaps-tarot-lp-staking/3994",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/ready-fairmint-growth-experiments-cycle-11/5508",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 250000.0,
+              "amount": 50000.0,
               "denomination": "OP"
             }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "8",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/gf-phase-1-proposal-edge-wallet-integration-of-optimism-velodrome-lp-staking-swaps-tarot-lp-staking/3994",
+          "projectId": "edgeapp",
+          "projectName": "Edge Wallet",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/gf-phase-1-proposal-edge-wallet-integration-of-optimism-velodrome-lp-staking-swaps-tarot-lp-staking/3994",
+          "fundsAsked": [
+            {
+              "amount": 75000.0,
+              "denomination": "USD"
+            }
           ],
+          "fundsApproved": [
+            {
+              "amount": 50000.0,
+              "denomination": "OP"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "9",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/ready-fairmint-growth-experiments-cycle-11/5508",
+          "projectId": "fairmint",
+          "projectName": "Fairmint",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/ready-fairmint-growth-experiments-cycle-11/5508",
           "fundsAsked": [
             {
               "amount": 375000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "9",
-          "projectId": "fairmint",
-          "projectName": "Fairmint",
-          "projectsURI": "https://gov.optimism.io/t/ready-fairmint-growth-experiments-cycle-11/5508",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/footprint-analytics-optimism-builders-grant-cycle-11/5603",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 30000.0,
+              "amount": 250000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "10",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/footprint-analytics-optimism-builders-grant-cycle-11/5603",
+          "projectId": "footprintanalytics",
+          "projectName": "Footprint Analytics",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/footprint-analytics-optimism-builders-grant-cycle-11/5603",
           "fundsAsked": [
             {
               "amount": 45000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "10",
-          "projectId": "footprintanalytics",
-          "projectName": "Footprint Analytics",
-          "projectsURI": "https://gov.optimism.io/t/footprint-analytics-optimism-builders-grant-cycle-11/5603",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/growth-experiments-grant-optimism-oat-subsidization-on-galxe-cycle-11/5535",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 200000.0,
+              "amount": 30000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "11",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/growth-experiments-grant-optimism-oat-subsidization-on-galxe-cycle-11/5535",
+          "projectId": "galxe",
+          "projectName": "Galxe (Oat)",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/growth-experiments-grant-optimism-oat-subsidization-on-galxe-cycle-11/5535",
           "fundsAsked": [
             {
               "amount": 300000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "11",
-          "projectId": "galxe",
-          "projectName": "Galxe (Oat)",
-          "projectsURI": "https://gov.optimism.io/t/growth-experiments-grant-optimism-oat-subsidization-on-galxe-cycle-11/5535",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/geo-web-growth-experiments-cycle-11/5594",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 2000.0,
+              "amount": 200000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "12",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/geo-web-growth-experiments-cycle-11/5594",
+          "projectId": "geo-web",
+          "projectName": "Geo Web",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/geo-web-growth-experiments-cycle-11/5594",
           "fundsAsked": [
             {
               "amount": 3000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "12",
-          "projectId": "geo-web",
-          "projectName": "Geo Web",
-          "projectsURI": "https://gov.optimism.io/t/geo-web-growth-experiments-cycle-11/5594",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/giveth-growth-experiment/5637",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 40000.0,
+              "amount": 2000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "13",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/giveth-growth-experiment/5637",
+          "projectId": "giveth",
+          "projectName": "Giveth",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/giveth-growth-experiment/5637",
           "fundsAsked": [
             {
               "amount": 60000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "13",
-          "projectId": "giveth",
-          "projectName": "Giveth",
-          "projectsURI": "https://gov.optimism.io/t/giveth-growth-experiment/5637",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/cycle-11-herodotus-storage-proofs/5630",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 50000.0,
+              "amount": 40000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "14",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/cycle-11-herodotus-storage-proofs/5630",
+          "projectId": "herodotusdev",
+          "projectName": "Herodotus",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/cycle-11-herodotus-storage-proofs/5630",
           "fundsAsked": [
             {
               "amount": 75000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "14",
-          "projectId": "herodotusdev",
-          "projectName": "Herodotus",
-          "projectsURI": "https://gov.optimism.io/t/cycle-11-herodotus-storage-proofs/5630",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/infinity-keys-build-grant-cycle-11/5635",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 25000.0,
+              "amount": 50000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "15",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/infinity-keys-build-grant-cycle-11/5635",
+          "projectId": "infinity-keys",
+          "projectName": "Infinity Keys",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/infinity-keys-build-grant-cycle-11/5635",
           "fundsAsked": [
             {
               "amount": 37500.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "15",
-          "projectId": "infinity-keys",
-          "projectName": "Infinity Keys",
-          "projectsURI": "https://gov.optimism.io/t/infinity-keys-build-grant-cycle-11/5635",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/builders-cycle-11-inverter-network-conditional-streaming-protocol-on-optimism/5623",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 50000.0,
+              "amount": 25000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "16",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/builders-cycle-11-inverter-network-conditional-streaming-protocol-on-optimism/5623",
+          "projectId": "inverternetwork",
+          "projectName": "Inverter",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/builders-cycle-11-inverter-network-conditional-streaming-protocol-on-optimism/5623",
           "fundsAsked": [
             {
               "amount": 75000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "16",
-          "projectId": "inverternetwork",
-          "projectName": "Inverter",
-          "projectsURI": "https://gov.optimism.io/t/builders-cycle-11-inverter-network-conditional-streaming-protocol-on-optimism/5623",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/jiffyscan-builder-grant-cycle-11/5562",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 46000.0,
+              "amount": 50000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "17",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/jiffyscan-builder-grant-cycle-11/5562",
+          "projectId": "jiffy-labs",
+          "projectName": "JiffyScan",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/jiffyscan-builder-grant-cycle-11/5562",
           "fundsAsked": [
             {
               "amount": 69000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "17",
-          "projectId": "jiffy-labs",
-          "projectName": "JiffyScan",
-          "projectsURI": "https://gov.optimism.io/t/jiffyscan-builder-grant-cycle-11/5562",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-kyberswap/4068",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 250000.0,
+              "amount": 46000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "18",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-kyberswap/4068",
+          "projectId": "kyber-swap",
+          "projectName": "KyberSwap",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-kyberswap/4068",
           "fundsAsked": [
             {
               "amount": 375000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "18",
-          "projectId": "kyber-swap",
-          "projectName": "KyberSwap",
-          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-kyberswap/4068",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/metalswap-growth-experiments-grant-cycle-11/5613",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 30000.0,
+              "amount": 250000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "19",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/metalswap-growth-experiments-grant-cycle-11/5613",
+          "projectId": "metalswap-defi-foundation",
+          "projectName": "Metalswap",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/metalswap-growth-experiments-grant-cycle-11/5613",
           "fundsAsked": [
             {
               "amount": 45000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "19",
-          "projectId": "metalswap-defi-foundation",
-          "projectName": "Metalswap",
-          "projectsURI": "https://gov.optimism.io/t/metalswap-growth-experiments-grant-cycle-11/5613",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-metronomo/5021",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 22500.0,
+              "amount": 30000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "20",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-metronomo/5021",
+          "projectId": "metronomo-xyz",
+          "projectName": "Metronomo",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-metronomo/5021",
           "fundsAsked": [
             {
               "amount": 33750.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "20",
-          "projectId": "metronomo-xyz",
-          "projectName": "Metronomo",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-metronomo/5021",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-mux-protocol/5037",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 250000.0,
+              "amount": 22500.0,
               "denomination": "OP"
             }
-          ],
-          "fundsAsked": [
-            {
-              "amount": 375000.0,
-              "denomination": "USD"
-            }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "21",
           "grantPoolId": "grants_season_3",
           "grantPoolName": "grants_season_3",
-          "id": "21",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-mux-protocol/5037",
           "projectId": "mux-world",
           "projectName": "Mux",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-mux-protocol/5037",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-nested/4965",
           "createdAt": "2023-02-01T00:00:00Z",
-          "fundsApproved": [
-            {
-              "amount": 250000.0,
-              "denomination": "OP"
-            }
-          ],
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-mux-protocol/5037",
           "fundsAsked": [
             {
               "amount": 375000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "22",
-          "projectId": "nested",
-          "projectName": "Nested",
-          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-nested/4965",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-opti-domains-interoperable-domain-name-for-the-op-stack/5510",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 50000.0,
+              "amount": 250000.0,
               "denomination": "OP"
             }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "22",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-nested/4965",
+          "projectId": "nested",
+          "projectName": "Nested",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-nested/4965",
+          "fundsAsked": [
+            {
+              "amount": 375000.0,
+              "denomination": "USD"
+            }
           ],
+          "fundsApproved": [
+            {
+              "amount": 250000.0,
+              "denomination": "OP"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "23",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-opti-domains-interoperable-domain-name-for-the-op-stack/5510",
+          "projectId": "opti-domains",
+          "projectName": "Opti.domains",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-opti-domains-interoperable-domain-name-for-the-op-stack/5510",
           "fundsAsked": [
             {
               "amount": 75000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "23",
-          "projectId": "opti-domains",
-          "projectName": "Opti.domains",
-          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-opti-domains-interoperable-domain-name-for-the-op-stack/5510",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-ens-wildcard-domains/5044",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 45000.0,
+              "amount": 50000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "24",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-ens-wildcard-domains/5044",
+          "projectId": "optinames-optimismresolver",
+          "projectName": "ENS Wildcard Domains",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-ens-wildcard-domains/5044",
           "fundsAsked": [
             {
               "amount": 67500.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "24",
-          "projectId": "optinames-optimismresolver",
-          "projectName": "ENS Wildcard Domains",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-ens-wildcard-domains/5044",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/final-chaintrap-builders-cycle-11/5526",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 10000.0,
+              "amount": 45000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "25",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/final-chaintrap-builders-cycle-11/5526",
+          "projectId": "polysensus-chaintrap",
+          "projectName": "Chaintrap",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/final-chaintrap-builders-cycle-11/5526",
           "fundsAsked": [
             {
               "amount": 15000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "25",
-          "projectId": "polysensus-chaintrap",
-          "projectName": "Chaintrap",
-          "projectsURI": "https://gov.optimism.io/t/final-chaintrap-builders-cycle-11/5526",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-premia/5034",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 235000.0,
+              "amount": 10000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "26",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-premia/5034",
+          "projectId": "premiafinance",
+          "projectName": "Premia",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-premia/5034",
           "fundsAsked": [
             {
               "amount": 352500.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "26",
-          "projectId": "premiafinance",
-          "projectName": "Premia",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-premia/5034",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-rabbithole-quests-on-optimism/5377",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 248500.0,
+              "amount": 235000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "27",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-rabbithole-quests-on-optimism/5377",
+          "projectId": "rabbithole",
+          "projectName": "Rabbit Hole",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-rabbithole-quests-on-optimism/5377",
           "fundsAsked": [
             {
               "amount": 372750.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "27",
-          "projectId": "rabbithole",
-          "projectName": "Rabbit Hole",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-rabbithole-quests-on-optimism/5377",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/denotify-builder-grant-cycle-11/5480",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 25000.0,
+              "amount": 248500.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "28",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/denotify-builder-grant-cycle-11/5480",
+          "projectId": "robo-labs",
+          "projectName": "DeNotify",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/denotify-builder-grant-cycle-11/5480",
           "fundsAsked": [
             {
               "amount": 37500.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "28",
-          "projectId": "robo-labs",
-          "projectName": "DeNotify",
-          "projectsURI": "https://gov.optimism.io/t/denotify-builder-grant-cycle-11/5480",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-rotki/5025",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 40000.0,
+              "amount": 25000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "29",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-rotki/5025",
+          "projectId": "rotki",
+          "projectName": "Rotki",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-rotki/5025",
           "fundsAsked": [
             {
               "amount": 60000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "29",
-          "projectId": "rotki",
-          "projectName": "Rotki",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-rotki/5025",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/gf-phase-1-proposal-rubicon/5068",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 200000.0,
+              "amount": 40000.0,
               "denomination": "OP"
             }
-          ],
-          "fundsAsked": [
-            {
-              "amount": 300000.0,
-              "denomination": "USD"
-            }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "30",
           "grantPoolId": "grants_season_3",
           "grantPoolName": "grants_season_3",
-          "id": "30",
+          "projectsURI": "https://gov.optimism.io/t/gf-phase-1-proposal-rubicon/5068",
           "projectId": "rubicon",
           "projectName": "Rubicon",
-          "projectsURI": "https://gov.optimism.io/t/gf-phase-1-proposal-rubicon/5068",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/gf-phase-2-growth-proposal-shapeshift-dao/5568",
           "createdAt": "2023-02-01T00:00:00Z",
-          "fundsApproved": [
-            {
-              "amount": 200000.0,
-              "denomination": "OP"
-            }
-          ],
+          "contentURI": "https://gov.optimism.io/t/gf-phase-1-proposal-rubicon/5068",
           "fundsAsked": [
             {
               "amount": 300000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "31",
-          "projectId": "shapeshift",
-          "projectName": "ShapeShift",
-          "projectsURI": "https://gov.optimism.io/t/gf-phase-2-growth-proposal-shapeshift-dao/5568",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-karma-delegate-registry/4982",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 50000.0,
+              "amount": 200000.0,
               "denomination": "OP"
             }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "31",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/gf-phase-2-growth-proposal-shapeshift-dao/5568",
+          "projectId": "shapeshift",
+          "projectName": "ShapeShift",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/gf-phase-2-growth-proposal-shapeshift-dao/5568",
+          "fundsAsked": [
+            {
+              "amount": 300000.0,
+              "denomination": "USD"
+            }
           ],
+          "fundsApproved": [
+            {
+              "amount": 200000.0,
+              "denomination": "OP"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "32",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-karma-delegate-registry/4982",
+          "projectId": "show-karma",
+          "projectName": "Karma delegate registry",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-karma-delegate-registry/4982",
           "fundsAsked": [
             {
               "amount": 75000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "32",
-          "projectId": "show-karma",
-          "projectName": "Karma delegate registry",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-karma-delegate-registry/4982",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-front-running-protection-via-shielded-mempool-for-op-stack-using-threshold-encryption/5036",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 30000.0,
+              "amount": 50000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "33",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-front-running-protection-via-shielded-mempool-for-op-stack-using-threshold-encryption/5036",
+          "projectId": "shutter-network",
+          "projectName": "Front running protection",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-front-running-protection-via-shielded-mempool-for-op-stack-using-threshold-encryption/5036",
           "fundsAsked": [
             {
               "amount": 45000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "33",
-          "projectId": "shutter-network",
-          "projectName": "Front running protection",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-front-running-protection-via-shielded-mempool-for-op-stack-using-threshold-encryption/5036",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-2-gf-phase-1-proposal-sonne-finance/4779",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 250000.0,
+              "amount": 30000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "34",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-2-gf-phase-1-proposal-sonne-finance/4779",
+          "projectId": "sonne-finance",
+          "projectName": "Sonne Finance",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-2-gf-phase-1-proposal-sonne-finance/4779",
           "fundsAsked": [
             {
               "amount": 375000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "34",
-          "projectId": "sonne-finance",
-          "projectName": "Sonne Finance",
-          "projectsURI": "https://gov.optimism.io/t/draft-2-gf-phase-1-proposal-sonne-finance/4779",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/synpress-builders-grant-cycle-11/5578",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 50000.0,
+              "amount": 250000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "35",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/synpress-builders-grant-cycle-11/5578",
+          "projectId": "synthetix",
+          "projectName": "Synpress",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/synpress-builders-grant-cycle-11/5578",
           "fundsAsked": [
             {
               "amount": 75000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "35",
-          "projectId": "synthetix",
-          "projectName": "Synpress",
-          "projectsURI": "https://gov.optimism.io/t/synpress-builders-grant-cycle-11/5578",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-thales/4984",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 250000.0,
+              "amount": 50000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "36",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-thales/4984",
+          "projectId": "thales",
+          "projectName": "Thales",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-thales/4984",
           "fundsAsked": [
             {
               "amount": 375000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "36",
-          "projectId": "thales",
-          "projectName": "Thales",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-thales/4984",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-growth-experiments-grant-btc-holders-bridge-to-ethereum-in-a-trust-minimized-way/5638",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 200000.0,
+              "amount": 250000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "37",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-growth-experiments-grant-btc-holders-bridge-to-ethereum-in-a-trust-minimized-way/5638",
+          "projectId": "threshold-network",
+          "projectName": "Threshold",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-growth-experiments-grant-btc-holders-bridge-to-ethereum-in-a-trust-minimized-way/5638",
           "fundsAsked": [
             {
               "amount": 300000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "37",
-          "projectId": "threshold-network",
-          "projectName": "Threshold",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-growth-experiments-grant-btc-holders-bridge-to-ethereum-in-a-trust-minimized-way/5638",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/ready-vesper-finance/5389",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 75000.0,
+              "amount": 200000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "38",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/ready-vesper-finance/5389",
+          "projectId": "vesper",
+          "projectName": "Vesper",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/ready-vesper-finance/5389",
           "fundsAsked": [
             {
               "amount": 112500.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "38",
-          "projectId": "vesper",
-          "projectName": "Vesper",
-          "projectsURI": "https://gov.optimism.io/t/ready-vesper-finance/5389",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/gf-phase-1-proposal-via-protocol/4917",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 250000.0,
+              "amount": 75000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "39",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/gf-phase-1-proposal-via-protocol/4917",
+          "projectId": "via-protocol",
+          "projectName": "Via Protocol",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/gf-phase-1-proposal-via-protocol/4917",
           "fundsAsked": [
             {
               "amount": 375000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "39",
-          "projectId": "via-protocol",
-          "projectName": "Via Protocol",
-          "projectsURI": "https://gov.optimism.io/t/gf-phase-1-proposal-via-protocol/4917",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-atomic-links/5029",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 50000.0,
+              "amount": 250000.0,
               "denomination": "OP"
             }
-          ],
-          "fundsAsked": [
-            {
-              "amount": 75000.0,
-              "denomination": "USD"
-            }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "40",
           "grantPoolId": "grants_season_3",
           "grantPoolName": "grants_season_3",
-          "id": "40",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-atomic-links/5029",
           "projectId": "unknown-project",
           "projectName": "Atomic Links",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-atomic-links/5029",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/growth-experiment-bored-town-nft-art-community/5612",
           "createdAt": "2023-02-01T00:00:00Z",
-          "fundsApproved": [
-            {
-              "amount": 50000.0,
-              "denomination": "OP"
-            }
-          ],
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-atomic-links/5029",
           "fundsAsked": [
             {
               "amount": 75000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "41",
-          "projectId": "unknown-project",
-          "projectName": "Bored Town",
-          "projectsURI": "https://gov.optimism.io/t/growth-experiment-bored-town-nft-art-community/5612",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-crypto-lfdm/5030",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 10000.0,
+              "amount": 50000.0,
               "denomination": "OP"
             }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "41",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/growth-experiment-bored-town-nft-art-community/5612",
+          "projectId": "unknown-project",
+          "projectName": "Bored Town",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/growth-experiment-bored-town-nft-art-community/5612",
+          "fundsAsked": [
+            {
+              "amount": 75000.0,
+              "denomination": "USD"
+            }
           ],
+          "fundsApproved": [
+            {
+              "amount": 50000.0,
+              "denomination": "OP"
+            }
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "42",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-crypto-lfdm/5030",
+          "projectId": "unknown-project",
+          "projectName": "Crypto LDFM",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-crypto-lfdm/5030",
           "fundsAsked": [
             {
               "amount": 15000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "42",
-          "projectId": "unknown-project",
-          "projectName": "Crypto LDFM",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-crypto-lfdm/5030",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/gf-phase-1-proposal-defunds-co-decentralized-finance/4912",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 2500.0,
+              "amount": 10000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "43",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/gf-phase-1-proposal-defunds-co-decentralized-finance/4912",
+          "projectId": "unknown-project",
+          "projectName": "DeFunds",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/gf-phase-1-proposal-defunds-co-decentralized-finance/4912",
           "fundsAsked": [
             {
               "amount": 3750.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "43",
-          "projectId": "unknown-project",
-          "projectName": "DeFunds",
-          "projectsURI": "https://gov.optimism.io/t/gf-phase-1-proposal-defunds-co-decentralized-finance/4912",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-opweave-coverage-of-everything-optimism/4990",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 0.0,
+              "amount": 2500.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "44",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-opweave-coverage-of-everything-optimism/4990",
+          "projectId": "unknown-project",
+          "projectName": "OPWeave",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-opweave-coverage-of-everything-optimism/4990",
           "fundsAsked": [
             {
               "amount": 0.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "44",
-          "projectId": "unknown-project",
-          "projectName": "OPWeave",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-opweave-coverage-of-everything-optimism/4990",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/optiland-quests/5425",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 20000.0,
+              "amount": 0.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "45",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/optiland-quests/5425",
+          "projectId": "unknown-project",
+          "projectName": "Optiland Quests",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/optiland-quests/5425",
           "fundsAsked": [
             {
               "amount": 30000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "45",
-          "projectId": "unknown-project",
-          "projectName": "Optiland Quests",
-          "projectsURI": "https://gov.optimism.io/t/optiland-quests/5425",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-parcel/5032",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 150000.0,
+              "amount": 20000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "46",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-parcel/5032",
+          "projectId": "unknown-project",
+          "projectName": "Parcel",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-parcel/5032",
           "fundsAsked": [
             {
               "amount": 225000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "46",
-          "projectId": "unknown-project",
-          "projectName": "Parcel",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-parcel/5032",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-paytrie-stablecoin-on-off-ramp-in-canada/5380",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 50000.0,
+              "amount": 150000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "47",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-paytrie-stablecoin-on-off-ramp-in-canada/5380",
+          "projectId": "unknown-project",
+          "projectName": "Paytrie",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-paytrie-stablecoin-on-off-ramp-in-canada/5380",
           "fundsAsked": [
             {
               "amount": 75000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "47",
-          "projectId": "unknown-project",
-          "projectName": "Paytrie",
-          "projectsURI": "https://gov.optimism.io/t/ready-gf-phase-1-proposal-paytrie-stablecoin-on-off-ramp-in-canada/5380",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-the-optimistic-series/4911",
-          "createdAt": "2023-02-01T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 30000.0,
+              "amount": 50000.0,
               "denomination": "OP"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "48",
+          "grantPoolId": "grants_season_3",
+          "grantPoolName": "grants_season_3",
+          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-the-optimistic-series/4911",
+          "projectId": "unknown-project",
+          "projectName": "The Optimistic Series",
+          "createdAt": "2023-02-01T00:00:00Z",
+          "contentURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-the-optimistic-series/4911",
           "fundsAsked": [
             {
               "amount": 45000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "grants_season_3",
-          "grantPoolName": "grants_season_3",
-          "id": "48",
-          "projectId": "unknown-project",
-          "projectName": "The Optimistic Series",
-          "projectsURI": "https://gov.optimism.io/t/draft-gf-phase-1-proposal-the-optimistic-series/4911",
-          "type": "GrantApplication"
+          "fundsApproved": [
+            {
+              "amount": 30000.0,
+              "denomination": "OP"
+            }
+          ]
         }
-      ],
-      "name": "grants_season_3",
-      "type": "GrantPool"
+      ]
     }
-  ],
-  "name": "Optimism",
-  "type": "Foundation"
+  ]
 }

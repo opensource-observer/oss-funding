@@ -1,197 +1,197 @@
 {
   "@context": "http://www.daostar.org/schemas",
-  "grant_pools": [
+  "name": "Stellar",
+  "type": "Foundation",
+  "grantPools": [
     {
+      "type": "GrantPool",
+      "name": "scf-8",
       "applications": [
         {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgqIwRqnhPG0BD7",
+          "type": "GrantApplication",
+          "id": "1",
+          "grantPoolId": "scf-8",
+          "grantPoolName": "scf-8",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgqIwRqnhPG0BD7",
+          "projectId": "cryptocannoneer",
+          "projectName": "CryptoCannoneer",
           "createdAt": "2021-09-29T00:00:00Z",
-          "fundsApproved": [
-            {
-              "amount": 18241.5,
-              "denomination": "XLM"
-            }
-          ],
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgqIwRqnhPG0BD7",
           "fundsAsked": [
             {
               "amount": 5000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-8",
-          "grantPoolName": "scf-8",
-          "id": "1",
-          "projectId": "cryptocannoneer",
-          "projectName": "CryptoCannoneer",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgqIwRqnhPG0BD7",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recldMd7LbhGVEOB5",
-          "createdAt": "2021-09-29T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 54724.5,
+              "amount": 18241.5,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2",
+          "grantPoolId": "scf-8",
+          "grantPoolName": "scf-8",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recldMd7LbhGVEOB5",
+          "projectId": "cryptocannoneer",
+          "projectName": "CryptoCannoneer Coin Carnival",
+          "createdAt": "2021-09-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recldMd7LbhGVEOB5",
           "fundsAsked": [
             {
               "amount": 15000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-8",
-          "grantPoolName": "scf-8",
-          "id": "2",
-          "projectId": "cryptocannoneer",
-          "projectName": "CryptoCannoneer Coin Carnival",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recldMd7LbhGVEOB5",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsWgGMe0r36Gza0",
-          "createdAt": "2021-09-30T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 863783.29,
+              "amount": 54724.5,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3",
+          "grantPoolId": "scf-8",
+          "grantPoolName": "scf-8",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsWgGMe0r36Gza0",
+          "projectId": "ebioro",
+          "projectName": "OrunPay",
+          "createdAt": "2021-09-30T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsWgGMe0r36Gza0",
           "fundsAsked": [
             {
               "amount": 239164.32,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-8",
-          "grantPoolName": "scf-8",
-          "id": "3",
-          "projectId": "ebioro",
-          "projectName": "OrunPay",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsWgGMe0r36Gza0",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxPZW5xXAdnBNSq",
-          "createdAt": "2021-09-30T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 182415.18,
+              "amount": 863783.29,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4",
+          "grantPoolId": "scf-8",
+          "grantPoolName": "scf-8",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxPZW5xXAdnBNSq",
+          "projectId": "instantdao",
+          "projectName": "InstantDao",
+          "createdAt": "2021-09-30T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxPZW5xXAdnBNSq",
           "fundsAsked": [
             {
               "amount": 50000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-8",
-          "grantPoolName": "scf-8",
-          "id": "4",
-          "projectId": "instantdao",
-          "projectName": "InstantDao",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxPZW5xXAdnBNSq",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recSS7NnNEi1Fa3eM",
-          "createdAt": "2021-10-01T00:00:00Z",
           "fundsApproved": [
             {
               "amount": 182415.18,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "5",
+          "grantPoolId": "scf-8",
+          "grantPoolName": "scf-8",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recSS7NnNEi1Fa3eM",
+          "projectId": "fijicoin",
+          "projectName": "FijiCoin",
+          "createdAt": "2021-10-01T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recSS7NnNEi1Fa3eM",
           "fundsAsked": [
             {
               "amount": 53569.87,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-8",
-          "grantPoolName": "scf-8",
-          "id": "5",
-          "projectId": "fijicoin",
-          "projectName": "FijiCoin",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recSS7NnNEi1Fa3eM",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recEdENntL5PSd0GS",
-          "createdAt": "2021-09-29T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 820868.3,
+              "amount": 182415.18,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6",
+          "grantPoolId": "scf-8",
+          "grantPoolName": "scf-8",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recEdENntL5PSd0GS",
+          "projectId": "stellar-php-sdk",
+          "projectName": "Stellar PHP SDK",
+          "createdAt": "2021-09-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recEdENntL5PSd0GS",
           "fundsAsked": [
             {
               "amount": 225000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-8",
-          "grantPoolName": "scf-8",
-          "id": "6",
-          "projectId": "stellar-php-sdk",
-          "projectName": "Stellar PHP SDK",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recEdENntL5PSd0GS",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGobXzcpx41BHmA",
-          "createdAt": "2021-09-29T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 17511.86,
+              "amount": 820868.3,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "7",
+          "grantPoolId": "scf-8",
+          "grantPoolName": "scf-8",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGobXzcpx41BHmA",
+          "projectId": "wally",
+          "projectName": "Wally",
+          "createdAt": "2021-09-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGobXzcpx41BHmA",
           "fundsAsked": [
             {
               "amount": 4800.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-8",
-          "grantPoolName": "scf-8",
-          "id": "7",
-          "projectId": "wally",
-          "projectName": "Wally",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGobXzcpx41BHmA",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNO4RNaF9ack4Kq",
-          "createdAt": "2021-09-29T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 107624.95,
+              "amount": 17511.86,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "8",
+          "grantPoolId": "scf-8",
+          "grantPoolName": "scf-8",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNO4RNaF9ack4Kq",
+          "projectId": "tellus-cooperative",
+          "projectName": "Tellus Cooperative",
+          "createdAt": "2021-09-29T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNO4RNaF9ack4Kq",
           "fundsAsked": [
             {
               "amount": 29500.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-8",
-          "grantPoolName": "scf-8",
-          "id": "8",
-          "projectId": "tellus-cooperative",
-          "projectName": "Tellus Cooperative",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNO4RNaF9ack4Kq",
-          "type": "GrantApplication"
+          "fundsApproved": [
+            {
+              "amount": 107624.95,
+              "denomination": "XLM"
+            }
+          ]
         }
-      ],
-      "name": "scf-8",
-      "type": "GrantPool"
+      ]
     }
-  ],
-  "name": "Stellar",
-  "type": "Foundation"
+  ]
 }

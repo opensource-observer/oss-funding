@@ -5,7 +5,7 @@
     "grantPools": [
         {
             "type": "GrantPool",
-            "id": "daoip5:optimism:grantPool:retropgf2",
+            "id": "retropgf2",
             "name": "retropgf2",
             "description": "Grants pool for retropgf2",
             "isOpen": false,
@@ -17,7 +17,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:optimism:grantPool:retropgf3",
+            "id": "retropgf3",
             "name": "retropgf3",
             "description": "Grants pool for retropgf3",
             "isOpen": false,
@@ -29,7 +29,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:optimism:grantPool:grants_season_1",
+            "id": "grants_season_1",
             "name": "grants_season_1",
             "description": "Grants pool for grants_season_1",
             "isOpen": false,
@@ -41,7 +41,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:optimism:grantPool:grants_season_2",
+            "id": "grants_season_2",
             "name": "grants_season_2",
             "description": "Grants pool for grants_season_2",
             "isOpen": false,
@@ -53,7 +53,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:optimism:grantPool:grants_season_3",
+            "id": "grants_season_3",
             "name": "grants_season_3",
             "description": "Grants pool for grants_season_3",
             "isOpen": false,
@@ -65,7 +65,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:optimism:grantPool:grants_season_4",
+            "id": "grants_season_4",
             "name": "grants_season_4",
             "description": "Grants pool for grants_season_4",
             "isOpen": false,
@@ -77,7 +77,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:optimism:grantPool:missions_season_4",
+            "id": "missions_season_4",
             "name": "missions_season_4",
             "description": "Grants pool for missions_season_4",
             "isOpen": false,
@@ -89,7 +89,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:optimism:grantPool:retrofunding4",
+            "id": "retrofunding4",
             "name": "retrofunding4",
             "description": "Grants pool for retrofunding4",
             "isOpen": false,
@@ -101,7 +101,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:optimism:grantPool:retrofunding5",
+            "id": "retrofunding5",
             "name": "retrofunding5",
             "description": "Grants pool for retrofunding5",
             "isOpen": false,

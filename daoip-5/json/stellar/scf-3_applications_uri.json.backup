@@ -1,197 +1,197 @@
 {
   "@context": "http://www.daostar.org/schemas",
-  "grant_pools": [
+  "name": "Stellar",
+  "type": "Foundation",
+  "grantPools": [
     {
+      "type": "GrantPool",
+      "name": "scf-3",
       "applications": [
         {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receayD2QsCLZdyXP",
+          "type": "GrantApplication",
+          "id": "1",
+          "grantPoolId": "scf-3",
+          "grantPoolName": "scf-3",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receayD2QsCLZdyXP",
+          "projectId": "blue-orion",
+          "projectName": "Blue Orion - Stellar Workshops & Seminars",
           "createdAt": "2020-02-07T00:00:00Z",
-          "fundsApproved": [
-            {
-              "amount": 365385,
-              "denomination": "XLM"
-            }
-          ],
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receayD2QsCLZdyXP",
           "fundsAsked": [
             {
               "amount": 26170.7,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-3",
-          "grantPoolName": "scf-3",
-          "id": "1",
-          "projectId": "blue-orion",
-          "projectName": "Blue Orion - Stellar Workshops & Seminars",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receayD2QsCLZdyXP",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIehhTK99OHm3UH",
-          "createdAt": "2020-02-07T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 264423,
+              "amount": 365385,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "2",
+          "grantPoolId": "scf-3",
+          "grantPoolName": "scf-3",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIehhTK99OHm3UH",
+          "projectId": "cosmic-link",
+          "projectName": "Cosmic.link ~ Transactions over URL",
+          "createdAt": "2020-02-07T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIehhTK99OHm3UH",
           "fundsAsked": [
             {
               "amount": 18939.3,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-3",
-          "grantPoolName": "scf-3",
-          "id": "2",
-          "projectId": "cosmic-link",
-          "projectName": "Cosmic.link ~ Transactions over URL",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIehhTK99OHm3UH",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTdRTrjdI0eg1BW",
-          "createdAt": "2020-01-18T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 413463,
+              "amount": 264423,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "3",
+          "grantPoolId": "scf-3",
+          "grantPoolName": "scf-3",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTdRTrjdI0eg1BW",
+          "projectId": "litemint",
+          "projectName": "Litemint",
+          "createdAt": "2020-01-18T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTdRTrjdI0eg1BW",
           "fundsAsked": [
             {
               "amount": 25285.27,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-3",
-          "grantPoolName": "scf-3",
-          "id": "3",
-          "projectId": "litemint",
-          "projectName": "Litemint",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTdRTrjdI0eg1BW",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTji3f3i7o27OUM",
-          "createdAt": "2020-01-17T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 543270,
+              "amount": 413463,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "4",
+          "grantPoolId": "scf-3",
+          "grantPoolName": "scf-3",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTji3f3i7o27OUM",
+          "projectId": "public-node",
+          "projectName": "Public Node – Nodes funded by community",
+          "createdAt": "2020-01-17T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTji3f3i7o27OUM",
           "fundsAsked": [
             {
               "amount": 33223.62,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-3",
-          "grantPoolName": "scf-3",
-          "id": "4",
-          "projectId": "public-node",
-          "projectName": "Public Node – Nodes funded by community",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTji3f3i7o27OUM",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3aAt6DPzGOh5bO",
-          "createdAt": "2020-02-07T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 259614,
+              "amount": 543270,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "5",
+          "grantPoolId": "scf-3",
+          "grantPoolName": "scf-3",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3aAt6DPzGOh5bO",
+          "projectId": "lumens-for-charity",
+          "projectName": "Lumens for Charity - Donate XLM directly to Global Charities",
+          "createdAt": "2020-02-07T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3aAt6DPzGOh5bO",
           "fundsAsked": [
             {
               "amount": 18594.92,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-3",
-          "grantPoolName": "scf-3",
-          "id": "5",
-          "projectId": "lumens-for-charity",
-          "projectName": "Lumens for Charity - Donate XLM directly to Global Charities",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3aAt6DPzGOh5bO",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec4C0qVstIHsPgm0",
-          "createdAt": "2020-02-07T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 394230,
+              "amount": 259614,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "6",
+          "grantPoolId": "scf-3",
+          "grantPoolName": "scf-3",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec4C0qVstIHsPgm0",
+          "projectId": "paysapp",
+          "projectName": "Paysapp - Stellar payments in Whatsapp",
+          "createdAt": "2020-02-07T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec4C0qVstIHsPgm0",
           "fundsAsked": [
             {
               "amount": 28236.8,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-3",
-          "grantPoolName": "scf-3",
-          "id": "6",
-          "projectId": "paysapp",
-          "projectName": "Paysapp - Stellar payments in Whatsapp",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec4C0qVstIHsPgm0",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGp2bg7OQlVFllx",
-          "createdAt": "2020-01-18T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 288462,
+              "amount": 394230,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "7",
+          "grantPoolId": "scf-3",
+          "grantPoolName": "scf-3",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGp2bg7OQlVFllx",
+          "projectId": "stellarterm",
+          "projectName": "Stellar Term",
+          "createdAt": "2020-01-18T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGp2bg7OQlVFllx",
           "fundsAsked": [
             {
               "amount": 17640.89,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-3",
-          "grantPoolName": "scf-3",
-          "id": "7",
-          "projectId": "stellarterm",
-          "projectName": "Stellar Term",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGp2bg7OQlVFllx",
-          "type": "GrantApplication"
-        },
-        {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8ayEkTa0W6PBNr",
-          "createdAt": "2020-02-07T00:00:00Z",
           "fundsApproved": [
             {
-              "amount": 471153,
+              "amount": 288462,
               "denomination": "XLM"
             }
-          ],
+          ]
+        },
+        {
+          "type": "GrantApplication",
+          "id": "8",
+          "grantPoolId": "scf-3",
+          "grantPoolName": "scf-3",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8ayEkTa0W6PBNr",
+          "projectId": "stellar-battle",
+          "projectName": "Stellar Battle",
+          "createdAt": "2020-02-07T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8ayEkTa0W6PBNr",
           "fundsAsked": [
             {
               "amount": 33746.41,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-3",
-          "grantPoolName": "scf-3",
-          "id": "8",
-          "projectId": "stellar-battle",
-          "projectName": "Stellar Battle",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8ayEkTa0W6PBNr",
-          "type": "GrantApplication"
+          "fundsApproved": [
+            {
+              "amount": 471153,
+              "denomination": "XLM"
+            }
+          ]
         }
-      ],
-      "name": "scf-3",
-      "type": "GrantPool"
+      ]
     }
-  ],
-  "name": "Stellar",
-  "type": "Foundation"
+  ]
 }

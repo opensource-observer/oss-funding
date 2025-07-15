@@ -1,1853 +1,1853 @@
 {
-  "@context": "http://www.daostar.org/schemas",
-  "name": "Clrfund",
-  "type": "DAO",
-  "grantPools": [
-    {
-      "type": "GrantPool",
-      "name": "round_9",
-      "applications": [
-        {
-          "type": "GrantApplication",
-          "id": "1",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "clrfund",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 23753.174630014953,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "2",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 656.4486978684098,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "3",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 235.16186972013836,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "4",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "theredguild",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 89.44643021006284,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "5",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "ethereum-mexico",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 199.28770275715553,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "6",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 482.36769216790776,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "7",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "bankless-africa",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 135.85947978573947,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "8",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "nacion-bankless",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 298.7451779571357,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "9",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 8.336253084344012,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "10",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "ethstaker",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 0,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "11",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 138.09805188735083,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "12",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "someresatguides",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 0,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "13",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 788.2187192697182,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "14",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "useweb3",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 57.986455289967296,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "15",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 184.6789998683074,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "16",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 1529.3247040285587,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "17",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "definomics-labs",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 330.59577614282074,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "18",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "web3afrika",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 101.84872267850662,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "19",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "asilodigital",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 703.6393077598849,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "20",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 7462.813366509242,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "21",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "bankless-academy",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 188.12974349365155,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "22",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 161.86990903205222,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "23",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 313.0224946732585,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "24",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "desci-latam",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 144.6226347573224,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "25",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 9.127482013475994,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "26",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 0,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "27",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unitapapp",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 6878.400362191386,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "28",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "protocol-guild",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 5122.572631280727,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "29",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "brightid",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 4256.110484592513,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "30",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "eoa-blockchain-labs",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 3337.2156767701617,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "31",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 2560.925236452187,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "32",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "solowcripto",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 2387.7227882186435,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "33",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 2302.864656100726,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "34",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 2238.4153707067094,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "35",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "dappnode",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 2236.9713626424978,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "36",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 1897.520777372671,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "37",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "rotki",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 1416.5614355584123,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "38",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 1329.7107838416796,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "39",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 1203.4370650822004,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "40",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "zenbiteth",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 840.6468718223217,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "41",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 820.9865735346082,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "42",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "ethers-io",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 624.2050147232818,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "43",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "otterscan",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 511.94776828833506,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "44",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "etheralpha",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 456.85290694038264,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "45",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 409.92369414180865,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "46",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 417.8032683341233,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "47",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 313.97723798523737,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "48",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 275.92929647746627,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "49",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "blockscout",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 256.80702605503785,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "50",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "trueblocks",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 251.75310016040973,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "51",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 219.18985355858973,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "52",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 219.09149200491717,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "53",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "aestus-relay",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 200.28057839226736,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "54",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 177.43245428717887,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "55",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 173.6732332126383,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "56",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 167.62113743171673,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "57",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "lexdao",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 163.34872384626564,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "58",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 154.34333469825953,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "59",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 145.11917444372187,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "60",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 104.99757361309312,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "61",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "impersonator-eth",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 100.42023374359044,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "62",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 76.43790514043324,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "63",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 70.77438170145962,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "64",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 417.8032683341233,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "65",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "protobox-xyz",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 50.047895644302464,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "66",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 43.50072884256615,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "67",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "geo-web",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 35.15006856542135,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "68",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "wild-friends",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 32.71468396388762,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "69",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "lexdao",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 30.60413250815821,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "70",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 28.561428842164535,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "71",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "citizenwallet",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 26.35774585993156,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "72",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "ens-redirect",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 22.09444531467121,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "73",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "whatsabi-shazow",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 20.35043399795956,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "74",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "atlantis-world-core",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 15.847182501820868,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "75",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "prettier-solidity",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 5.922425752516828,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "76",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 2.99209,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "77",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "jobstash",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 1.99809,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "78",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "unknown-project",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 0,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "79",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "candide-labs",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 0,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
-        },
-        {
-          "type": "GrantApplication",
-          "id": "80",
-          "grantPoolId": "round_9",
-          "grantPoolName": "round_9",
-          "projectsURI": "URL not available",
-          "projectId": "womenbiz",
-          "projectName": "Unnamed Project",
-          "createdAt": "2023-07-18T00:00:00Z",
-          "contentURI": "Content URL not available",
-          "fundsAsked": [
-            {
-              "amount": 0,
-              "denomination": "DAI"
-            }
-          ],
-          "fundsApproved": [
-            {
-              "amount": null,
-              "denomination": null
-            }
-          ]
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Clrfund",
+    "type": "DAO",
+    "grantPools": [
+        {
+            "type": "GrantPool",
+            "name": "round_9",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:1",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "clrfund",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 23753.174630014953,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:2",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 656.4486978684098,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:3",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 235.16186972013836,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:4",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "theredguild",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 89.44643021006284,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:5",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "ethereum-mexico",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 199.28770275715553,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:6",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 482.36769216790776,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:7",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "bankless-africa",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 135.85947978573947,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:8",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "nacion-bankless",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 298.7451779571357,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:9",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 8.336253084344012,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:10",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "ethstaker",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 0,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:11",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 138.09805188735083,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:12",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "someresatguides",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 0,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:13",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 788.2187192697182,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:14",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "useweb3",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 57.986455289967296,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:15",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 184.6789998683074,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:16",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 1529.3247040285587,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:17",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "definomics-labs",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 330.59577614282074,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:18",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "web3afrika",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 101.84872267850662,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:19",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "asilodigital",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 703.6393077598849,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:20",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 7462.813366509242,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:21",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "bankless-academy",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 188.12974349365155,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:22",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 161.86990903205222,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:23",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 313.0224946732585,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:24",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "desci-latam",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 144.6226347573224,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:25",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 9.127482013475994,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:26",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 0,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:27",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unitapapp",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 6878.400362191386,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:28",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "protocol-guild",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 5122.572631280727,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:29",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "brightid",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 4256.110484592513,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:30",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "eoa-blockchain-labs",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 3337.2156767701617,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:31",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 2560.925236452187,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:32",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "solowcripto",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 2387.7227882186435,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:33",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 2302.864656100726,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:34",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 2238.4153707067094,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:35",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "dappnode",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 2236.9713626424978,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:36",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 1897.520777372671,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:37",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "rotki",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 1416.5614355584123,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:38",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 1329.7107838416796,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:39",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 1203.4370650822004,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:40",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "zenbiteth",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 840.6468718223217,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:41",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 820.9865735346082,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:42",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "ethers-io",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 624.2050147232818,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:43",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "otterscan",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 511.94776828833506,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:44",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "etheralpha",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 456.85290694038264,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:45",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 409.92369414180865,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:46",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 417.8032683341233,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:47",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 313.97723798523737,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:48",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 275.92929647746627,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:49",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "blockscout",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 256.80702605503785,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:50",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "trueblocks",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 251.75310016040973,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:51",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 219.18985355858973,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:52",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 219.09149200491717,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:53",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "aestus-relay",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 200.28057839226736,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:54",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 177.43245428717887,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:55",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 173.6732332126383,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:56",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 167.62113743171673,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:57",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "lexdao",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 163.34872384626564,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:58",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 154.34333469825953,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:59",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 145.11917444372187,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:60",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 104.99757361309312,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:61",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "impersonator-eth",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 100.42023374359044,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:62",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 76.43790514043324,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:63",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 70.77438170145962,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:64",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 417.8032683341233,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:65",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "protobox-xyz",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 50.047895644302464,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:66",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 43.50072884256615,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:67",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "geo-web",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 35.15006856542135,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:68",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "wild-friends",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 32.71468396388762,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:69",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "lexdao",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 30.60413250815821,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:70",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 28.561428842164535,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:71",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "citizenwallet",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 26.35774585993156,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:72",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "ens-redirect",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 22.09444531467121,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:73",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "whatsabi-shazow",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 20.35043399795956,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:74",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "atlantis-world-core",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 15.847182501820868,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:75",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "prettier-solidity",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 5.922425752516828,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:76",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 2.99209,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:77",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "jobstash",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 1.99809,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:78",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "unknown-project",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 0,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:79",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "candide-labs",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 0,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:clrfund:grantApplication:80",
+                    "grantPoolId": "daoip5:clrfund:grantPool:round_9",
+                    "grantPoolName": "round_9",
+                    "projectsURI": "URL not available",
+                    "projectId": "womenbiz",
+                    "projectName": "Unnamed Project",
+                    "createdAt": "2023-07-18T00:00:00Z",
+                    "contentURI": "Content URL not available",
+                    "fundsAsked": [
+                        {
+                            "amount": 0,
+                            "denomination": "DAI"
+                        }
+                    ],
+                    "fundsApproved": [
+                        {
+                            "amount": null,
+                            "denomination": null
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

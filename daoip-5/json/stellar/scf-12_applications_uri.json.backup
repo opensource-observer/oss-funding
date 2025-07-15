@@ -1,36 +1,36 @@
 {
   "@context": "http://www.daostar.org/schemas",
-  "grant_pools": [
+  "name": "Stellar",
+  "type": "Foundation",
+  "grantPools": [
     {
+      "type": "GrantPool",
+      "name": "scf-12",
       "applications": [
         {
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
+          "type": "GrantApplication",
+          "id": "1",
+          "grantPoolId": "scf-12",
+          "grantPoolName": "scf-12",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
+          "projectId": "soroban-pre-order-contract",
+          "projectName": "Soroban Pre-Order Contract",
           "createdAt": "2023-02-27T00:00:00Z",
-          "fundsApproved": [
-            {
-              "amount": 11252.39,
-              "denomination": "XLM"
-            }
-          ],
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
           "fundsAsked": [
             {
               "amount": 1000.0,
               "denomination": "USD"
             }
           ],
-          "grantPoolId": "scf-12",
-          "grantPoolName": "scf-12",
-          "id": "1",
-          "projectId": "soroban-pre-order-contract",
-          "projectName": "Soroban Pre-Order Contract",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
-          "type": "GrantApplication"
+          "fundsApproved": [
+            {
+              "amount": 11252.39,
+              "denomination": "XLM"
+            }
+          ]
         }
-      ],
-      "name": "scf-12",
-      "type": "GrantPool"
+      ]
     }
-  ],
-  "name": "Stellar",
-  "type": "Foundation"
+  ]
 }
