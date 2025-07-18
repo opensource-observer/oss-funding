@@ -5,7 +5,7 @@
     "grantPools": [
         {
             "type": "GrantPool",
-            "id": "epoch_1",
+            "id": "daoip5:octant-golemfoundation:grantPool:epoch_1",
             "name": "epoch_1",
             "description": "Grants pool for epoch_1.",
             "isOpen": false,
@@ -17,7 +17,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "epoch_2",
+            "id": "daoip5:octant-golemfoundation:grantPool:epoch_2",
             "name": "epoch_2",
             "description": "Grants pool for epoch_2.",
             "isOpen": false,
@@ -29,7 +29,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "epoch_3",
+            "id": "daoip5:octant-golemfoundation:grantPool:epoch_3",
             "name": "epoch_3",
             "description": "Grants pool for epoch_3.",
             "isOpen": false,
