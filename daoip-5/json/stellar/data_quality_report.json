@@ -1,0 +1,256 @@
+{
+  "system_name": "stellar",
+  "timestamp": "2025-07-18T10:29:03.131074",
+  "quality_score": 95,
+  "statistics": {
+    "total_applications": 543,
+    "total_grant_pools": 58,
+    "files_processed": 30,
+    "valid_applications": 543
+  },
+  "files": [
+    {
+      "file": "grants_pool.json",
+      "valid": true,
+      "applications_count": 0,
+      "grant_pools_count": 29
+    },
+    {
+      "file": "scf-10_applications_uri.json",
+      "valid": true,
+      "applications_count": 15,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-11_applications_uri.json",
+      "valid": true,
+      "applications_count": 20,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-12_applications_uri.json",
+      "valid": true,
+      "applications_count": 1,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-13_applications_uri.json",
+      "valid": true,
+      "applications_count": 15,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-14_applications_uri.json",
+      "valid": true,
+      "applications_count": 12,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-15_applications_uri.json",
+      "valid": true,
+      "applications_count": 11,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-16_applications_uri.json",
+      "valid": true,
+      "applications_count": 21,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-17_applications_uri.json",
+      "valid": true,
+      "applications_count": 19,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-18_applications_uri.json",
+      "valid": true,
+      "applications_count": 14,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-19_applications_uri.json",
+      "valid": true,
+      "applications_count": 16,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-1_applications_uri.json",
+      "valid": true,
+      "applications_count": 8,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-20_applications_uri.json",
+      "valid": true,
+      "applications_count": 33,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-21_applications_uri.json",
+      "valid": true,
+      "applications_count": 27,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-22_applications_uri.json",
+      "valid": true,
+      "applications_count": 33,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-23_applications_uri.json",
+      "valid": true,
+      "applications_count": 25,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-24_applications_uri.json",
+      "valid": true,
+      "applications_count": 27,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-25_applications_uri.json",
+      "valid": true,
+      "applications_count": 27,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-26_applications_uri.json",
+      "valid": true,
+      "applications_count": 43,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-27_applications_uri.json",
+      "valid": true,
+      "applications_count": 36,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-28_applications_uri.json",
+      "valid": true,
+      "applications_count": 30,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-29_applications_uri.json",
+      "valid": true,
+      "applications_count": 39,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-2_applications_uri.json",
+      "valid": true,
+      "applications_count": 8,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-3_applications_uri.json",
+      "valid": true,
+      "applications_count": 8,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-4_applications_uri.json",
+      "valid": true,
+      "applications_count": 8,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-5_applications_uri.json",
+      "valid": true,
+      "applications_count": 9,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-6_applications_uri.json",
+      "valid": true,
+      "applications_count": 8,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-7_applications_uri.json",
+      "valid": true,
+      "applications_count": 8,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-8_applications_uri.json",
+      "valid": true,
+      "applications_count": 8,
+      "grant_pools_count": 1
+    },
+    {
+      "file": "scf-9_applications_uri.json",
+      "valid": true,
+      "applications_count": 14,
+      "grant_pools_count": 1
+    }
+  ],
+  "issues": {
+    "critical": [
+      "Invalid date format in application daoip5:stellar:grantApplication:15 createdAt: T00:00:00Z"
+    ],
+    "schema": [],
+    "data_quality": [],
+    "warnings": []
+  },
+  "field_mapping": {
+    "system_name": "Stellar Development Foundation",
+    "system_type": "Foundation",
+    "schema_fixes": {
+      "root_level": [
+        {
+          "from": "grant_pools",
+          "to": "grantPools",
+          "status": "needs_fix"
+        }
+      ]
+    },
+    "data_quality": {
+      "date_format": "ISO8601",
+      "required_fields": [
+        "projectName",
+        "projectId",
+        "grantPoolId",
+        "createdAt"
+      ],
+      "null_handling": {
+        "fundsApproved": {
+          "amount": "number|null",
+          "denomination": "string"
+        },
+        "fundsAsked": {
+          "amount": "number",
+          "denomination": "string"
+        }
+      }
+    },
+    "issues": {
+      "critical": [],
+      "data_quality": []
+    },
+    "validation": {
+      "date_fields": [
+        "createdAt",
+        "closeDate"
+      ],
+      "url_fields": [
+        "projectsURI",
+        "contentURI",
+        "applicationsURI"
+      ],
+      "required_not_null": [
+        "projectName",
+        "grantPoolId"
+      ],
+      "no_placeholder_values": [
+        "Unknown",
+        "not available"
+      ]
+    }
+  }
+}
