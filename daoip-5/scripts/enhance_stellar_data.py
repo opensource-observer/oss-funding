@@ -194,56 +194,44 @@ class StellarDataEnhancer:
         if category:
             enhanced_app['category'] = category
         
-        # DAOIP-5 Extension fields with proper stellar. prefix for ecosystem-specific data
+        # DAOIP-5 Extensions Field according to specification - ecosystem-specific data with stellar prefix
         extensions = {}
         
-        # Stellar-specific technical fields
-        stellar_tech = {}
+        # Stellar-specific technical fields using dot notation for namespacing
         if self.clean_value(raw_data.get('Technical Architecture')):
-            stellar_tech['technicalArchitecture'] = self.clean_value(raw_data['Technical Architecture'])
+            extensions['stellar.technicalArchitecture'] = self.clean_value(raw_data['Technical Architecture'])
         
         if self.clean_value(raw_data.get('Products & Services')):
-            stellar_tech['productsAndServices'] = self.clean_value(raw_data['Products & Services'])
+            extensions['stellar.productsAndServices'] = self.clean_value(raw_data['Products & Services'])
         
         uses_soroban = self.parse_boolean(raw_data.get('Use Soroban?'))
         if uses_soroban is not None:
-            stellar_tech['usesSoroban'] = uses_soroban
-        
-        if stellar_tech:
-            extensions['stellar.technical'] = stellar_tech
+            extensions['stellar.usesSoroban'] = uses_soroban
         
         # Stellar-specific success metrics
-        stellar_metrics = {}
         if self.clean_value(raw_data.get('Success Criteria')):
-            stellar_metrics['successCriteria'] = self.clean_value(raw_data['Success Criteria'])
+            extensions['stellar.successCriteria'] = self.clean_value(raw_data['Success Criteria'])
         
         if self.clean_value(raw_data.get('Traction Evidence')):
-            stellar_metrics['tractionEvidence'] = self.clean_value(raw_data['Traction Evidence'])
-        
-        if stellar_metrics:
-            extensions['stellar.metrics'] = stellar_metrics
+            extensions['stellar.tractionEvidence'] = self.clean_value(raw_data['Traction Evidence'])
         
         # Stellar-specific business information
         if self.clean_value(raw_data.get('Go-To-Market Plan')):
             extensions['stellar.goToMarketPlan'] = self.clean_value(raw_data['Go-To-Market Plan'])
         
         # Stellar-specific project deliverables
-        stellar_deliverables = {}
         if self.clean_value(raw_data.get('Tranche 1 - Deliverables')):
-            stellar_deliverables['tranche1'] = self.clean_value(raw_data['Tranche 1 - Deliverables'])
+            extensions['stellar.tranche1Deliverables'] = self.clean_value(raw_data['Tranche 1 - Deliverables'])
         if self.clean_value(raw_data.get('Tranche 2 - Testnet')):
-            stellar_deliverables['tranche2'] = self.clean_value(raw_data['Tranche 2 - Testnet'])
+            extensions['stellar.tranche2Testnet'] = self.clean_value(raw_data['Tranche 2 - Testnet'])
         if self.clean_value(raw_data.get('Tranche 3 - Mainnet')):
-            stellar_deliverables['tranche3'] = self.clean_value(raw_data['Tranche 3 - Mainnet'])
-        
-        if stellar_deliverables:
-            extensions['stellar.deliverables'] = stellar_deliverables
+            extensions['stellar.tranche3Mainnet'] = self.clean_value(raw_data['Tranche 3 - Mainnet'])
         
         # Stellar-specific team information
         if self.clean_value(raw_data.get('Team Members')):
             extensions['stellar.teamMembers'] = self.clean_value(raw_data['Team Members'])
         
-        # Stellar-specific URLs
+        # Stellar-specific URLs - grouped under stellar.urls namespace
         stellar_urls = {}
         if self.clean_value(raw_data.get('Website')):
             stellar_urls['website'] = self.clean_value(raw_data['Website'])
@@ -257,7 +245,7 @@ class StellarDataEnhancer:
         if stellar_urls:
             extensions['stellar.urls'] = stellar_urls
         
-        # Stellar-specific social media
+        # Stellar-specific social media - grouped under stellar.socialMedia namespace
         stellar_social = {}
         if self.clean_value(raw_data.get('LinkedIn (from Project)')):
             stellar_social['linkedIn'] = self.clean_value(raw_data['LinkedIn (from Project)'])

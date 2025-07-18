@@ -63,54 +63,41 @@ extension_fields:
       sources: ["Total Paid (USD)", "Total Paid (XLM)"]
       type: "funding_array"
 
-  stellar_technical_fields:
-    - field: "extensions.stellar.technical.technicalArchitecture"
+  stellar_extension_fields:
+    # DAOIP-5 Extensions Field - Stellar ecosystem-specific data using dot notation namespacing
+    - field: "extensions.stellar.technicalArchitecture"
       source: "Technical Architecture"
       type: "string"
-    - field: "extensions.stellar.technical.productsAndServices"
+    - field: "extensions.stellar.productsAndServices"
       source: "Products & Services"
       type: "string"
-    - field: "extensions.stellar.technical.usesSoroban"
+    - field: "extensions.stellar.usesSoroban"
       source: "Use Soroban?"
       type: "boolean"
-
-  stellar_business_fields:
-    - field: "extensions.stellar.metrics.successCriteria"
+    - field: "extensions.stellar.successCriteria"
       source: "Success Criteria"
       type: "string"
     - field: "extensions.stellar.goToMarketPlan"
       source: "Go-To-Market Plan"
       type: "string"
-    - field: "extensions.stellar.metrics.tractionEvidence"
+    - field: "extensions.stellar.tractionEvidence"
       source: "Traction Evidence"
       type: "string"
-
-  stellar_deliverables:
-    - field: "extensions.stellar.deliverables.tranche1"
+    - field: "extensions.stellar.tranche1Deliverables"
       source: "Tranche 1 - Deliverables"
       type: "string"
-    - field: "extensions.stellar.deliverables.tranche2"
+    - field: "extensions.stellar.tranche2Testnet"
       source: "Tranche 2 - Testnet"
       type: "string"
-    - field: "extensions.stellar.deliverables.tranche3"
+    - field: "extensions.stellar.tranche3Mainnet"
       source: "Tranche 3 - Mainnet"
       type: "string"
-
-  stellar_team_social:
     - field: "extensions.stellar.teamMembers"
       source: "Team Members"
       type: "string"
-    - field: "extensions.stellar.socialMedia.linkedIn"
-      source: "LinkedIn (from Project)"
-      type: "url"
-    - field: "extensions.stellar.socialMedia.twitter"
-      source: "X (from Project)"
-      type: "url"
-    - field: "extensions.stellar.socialMedia.discord"
-      source: "Discord (from Project)"
-      type: "url"
-
-  stellar_urls:
+    
+  stellar_urls_group:
+    # Grouped URL extensions under stellar.urls namespace
     - field: "extensions.stellar.urls.website"
       source: "Website"
       type: "url"
@@ -123,6 +110,18 @@ extension_fields:
     - field: "extensions.stellar.urls.pitchDeck"
       source: "Pitch Deck (from Project)"
       type: "url"
+      
+  stellar_social_group:
+    # Grouped social media extensions under stellar.socialMedia namespace
+    - field: "extensions.stellar.socialMedia.linkedIn"
+      source: "LinkedIn (from Project)"
+      type: "url"
+    - field: "extensions.stellar.socialMedia.twitter"
+      source: "X (from Project)"
+      type: "url"
+    - field: "extensions.stellar.socialMedia.discord"
+      source: "Discord (from Project)"
+      type: "url"
 
 # Known issues and fixes needed
 issues:
@@ -132,8 +131,9 @@ issues:
 # Validation rules
 validation:
   date_fields: ["createdAt", "closeDate", "mostRecentPaymentDate"]
-  url_fields: ["projectsURI", "contentURI", "applicationsURI", "extensions.urls.website", "extensions.urls.codeRepository", "extensions.urls.videoURL", "extensions.urls.pitchDeck"]
+  url_fields: ["projectsURI", "contentURI", "applicationsURI", "extensions.stellar.urls.website", "extensions.stellar.urls.codeRepository", "extensions.stellar.urls.videoURL", "extensions.stellar.urls.pitchDeck", "extensions.stellar.socialMedia.linkedIn", "extensions.stellar.socialMedia.twitter", "extensions.stellar.socialMedia.discord"]
   required_not_null: ["projectName", "grantPoolId"]
   no_placeholder_values: ["Unknown", "not available", "N/A", "TBD"]
-  boolean_fields: ["extensions.usesSoroban"]
+  boolean_fields: ["extensions.stellar.usesSoroban"]
   percentage_fields: ["completionPercentage"]
+  extension_fields: ["extensions.stellar.*"]  # DAOIP-5 extension validation
