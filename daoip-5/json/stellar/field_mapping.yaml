@@ -1,6 +1,12 @@
-# Field Mapping Configuration for Stellar
+# Field Mapping Configuration for Stellar DAOIP-5 Schema Compliance
 system_name: "Stellar Development Foundation"
 system_type: "Foundation"
+
+# DAOIP-5 Schema Compliance Status
+schema_compliance:
+  status: "compliant"
+  version: "1.0"
+  last_updated: "2024-12-18"
 
 # Schema standardization
 schema_fixes:
@@ -127,9 +133,52 @@ issues:
   critical: []
   data_quality: []
 
-# Validation rules
+# DAOIP-5 Schema Validation Rules
 validation:
+  # Standard DAOIP-5 core fields for GrantApplication
+  standard_fields: 
+    - "type"
+    - "id" 
+    - "grantPoolId"
+    - "grantPoolName"
+    - "projectsURI"
+    - "projectId"
+    - "projectName"
+    - "createdAt"
+    - "contentURI"
+    - "fundsApproved"
+    - "status"
+  
+  # Additional accepted core fields
+  accepted_core_fields:
+    - "title"
+    - "description"
+    - "fundsPaid"
+    - "fundsApprovedInUSD"
+    - "mostRecentPaymentDate"
+    - "latestTranche"
+    - "awardType"
+    - "category"
+  
+  # All other fields moved to extensions.stellar.*
+  extensions_prefix: "stellar"
+  
   date_fields: ["createdAt", "closeDate", "mostRecentPaymentDate"]
+  
+  # Schema compliance requirements
+  extensions_required_for:
+    - "technicalArchitecture"
+    - "productsAndServices" 
+    - "usesSoroban"
+    - "successCriteria"
+    - "goToMarketPlan"
+    - "tractionEvidence"
+    - "tranche1Deliverables"
+    - "tranche2Testnet"
+    - "tranche3Mainnet"
+    - "teamMembers"
+    - "urls.*"
+    - "socialMedia.*"
   url_fields: ["projectsURI", "contentURI", "applicationsURI", "extensions.stellar.urls.website", "extensions.stellar.urls.codeRepository", "extensions.stellar.urls.videoURL", "extensions.stellar.urls.pitchDeck", "extensions.stellar.socialMedia.linkedIn", "extensions.stellar.socialMedia.twitter", "extensions.stellar.socialMedia.discord"]
   required_not_null: ["projectName", "grantPoolId"]
   no_placeholder_values: ["Unknown", "not available", "N/A", "TBD"]
