@@ -17,18 +17,13 @@
                     "projectName": "BrightID",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x78e084445C3F1006617e1f36794dd2261ecE4AE3",
-                    "fundsAsked": [
-                        {
-                            "amount": 9.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 0.0036,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 9
                 },
                 {
                     "type": "GrantApplication",
@@ -40,18 +35,13 @@
                     "projectName": "Clr.fund",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0xAb6D6a37c5110d1377832c451C33e4fA16A9BA05",
-                    "fundsAsked": [
-                        {
-                            "amount": 16.25,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 0.0065,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 16
                 },
                 {
                     "type": "GrantApplication",
@@ -63,18 +53,13 @@
                     "projectName": "Token Engineering Commons",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0xE2f413190Bb5D6AAcB4A056F1B5E1fD5B8141045",
-                    "fundsAsked": [
-                        {
-                            "amount": 20.75,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 0.0083,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 20
                 },
                 {
                     "type": "GrantApplication",
@@ -86,18 +71,13 @@
                     "projectName": "DAO Drops",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x1c01595f9534E33d411035AE99a4317faeC4f6Fe",
-                    "fundsAsked": [
-                        {
-                            "amount": 12303.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 4.9214,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 12303
                 },
                 {
                     "type": "GrantApplication",
@@ -109,18 +89,13 @@
                     "projectName": "drips-network",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0xcC7d34C76A9d08aa0109F7Bae35f29C1CE35355A",
-                    "fundsAsked": [
-                        {
-                            "amount": 53461.25,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 21.3845,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 53461
                 },
                 {
                     "type": "GrantApplication",
@@ -132,18 +107,13 @@
                     "projectName": "Ethereum Cat Herders",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x02Cb3C150BEdca124d0aE8CcCb72fefbe705c953",
-                    "fundsAsked": [
-                        {
-                            "amount": 15475.75,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 6.1903,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 15475
                 },
                 {
                     "type": "GrantApplication",
@@ -155,18 +125,13 @@
                     "projectName": "EthStaker",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0xD165df4296C85e780509fa1eace0150d945d49Fd",
-                    "fundsAsked": [
-                        {
-                            "amount": 45864.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 18.3456,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 45864
                 },
                 {
                     "type": "GrantApplication",
@@ -178,18 +143,13 @@
                     "projectName": "Gitcoin",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0xde21F729137C5Af1b01d73aF1dC21eFfa2B8a0d6",
-                    "fundsAsked": [
-                        {
-                            "amount": 14114.25,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 5.6457,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 14114
                 },
                 {
                     "type": "GrantApplication",
@@ -201,18 +161,13 @@
                     "projectName": "Praise",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x0B7246eF74Ca7b37Fdc3D15be4f0b49876622F95",
-                    "fundsAsked": [
-                        {
-                            "amount": 13586.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 5.4344,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 13586
                 },
                 {
                     "type": "GrantApplication",
@@ -224,18 +179,13 @@
                     "projectName": "Giveth",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x6e8873085530406995170Da467010565968C7C62",
-                    "fundsAsked": [
-                        {
-                            "amount": 25575.25,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 10.2301,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 25575
                 },
                 {
                     "type": "GrantApplication",
@@ -247,18 +197,13 @@
                     "projectName": "Glo Dollar",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x8c89a6bf53cCF63e7B4465Cc1b1330723B4BdcB7",
-                    "fundsAsked": [
-                        {
-                            "amount": 12538.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 5.0154,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 12538
                 },
                 {
                     "type": "GrantApplication",
@@ -270,18 +215,13 @@
                     "projectName": "PublicHAUS",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x4A9a27d614a74Ee5524909cA27bdBcBB7eD3b315",
-                    "fundsAsked": [
-                        {
-                            "amount": 17.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 0.007,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 17
                 },
                 {
                     "type": "GrantApplication",
@@ -293,18 +233,13 @@
                     "projectName": "Hypercerts",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x2DCDF80f439843D7E0aD1fEF9E7a439B7917eAc9",
-                    "fundsAsked": [
-                        {
-                            "amount": 40950.74999999999,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 16.3803,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 40950
                 },
                 {
                     "type": "GrantApplication",
@@ -316,18 +251,13 @@
                     "projectName": "Kernel",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x7DAC9Fc15C1Db4379D75A6E3f330aE849dFfcE18",
-                    "fundsAsked": [
-                        {
-                            "amount": 10.25,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 0.0041,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 10
                 },
                 {
                     "type": "GrantApplication",
@@ -339,18 +269,13 @@
                     "projectName": "L2BEAT",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x0cbF31Ef6545EE30f47651D1A991Bf0aeB03DF29",
-                    "fundsAsked": [
-                        {
-                            "amount": 40264.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 16.1058,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 40264
                 },
                 {
                     "type": "GrantApplication",
@@ -362,18 +287,13 @@
                     "projectName": "MetaGame",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x3455FbB4D34C6b47999B66c83aA7BD8FDDade638",
-                    "fundsAsked": [
-                        {
-                            "amount": 28475.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 11.39,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 28475
                 },
                 {
                     "type": "GrantApplication",
@@ -385,18 +305,13 @@
                     "projectName": "Open Source Observer",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x87fEEd6162CB7dFe6B62F64366742349bF4D1B05",
-                    "fundsAsked": [
-                        {
-                            "amount": 32405.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 12.962,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 32405
                 },
                 {
                     "type": "GrantApplication",
@@ -408,18 +323,13 @@
                     "projectName": "Pairwise",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0xd1B8dB70Ded72dB850713b2ce7e1A4FfAfAD95d1",
-                    "fundsAsked": [
-                        {
-                            "amount": 19974.75,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 7.9899,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 19974
                 },
                 {
                     "type": "GrantApplication",
@@ -431,18 +341,13 @@
                     "projectName": "Protocol Guild",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0xF6CBDd6Ea6EC3C4359e33de0Ac823701Cc56C6c4",
-                    "fundsAsked": [
-                        {
-                            "amount": 91380.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 36.552,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 91380
                 },
                 {
                     "type": "GrantApplication",
@@ -454,18 +359,13 @@
                     "projectName": "Revoke.cash",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0xe126b3E5d052f1F575828f61fEBA4f4f2603652a",
-                    "fundsAsked": [
-                        {
-                            "amount": 38274.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 15.3098,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 38274
                 },
                 {
                     "type": "GrantApplication",
@@ -477,18 +377,13 @@
                     "projectName": "Rotki",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x9531C059098e3d194fF87FebB587aB07B30B1306",
-                    "fundsAsked": [
-                        {
-                            "amount": 27660.75,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 11.0643,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 27660
                 },
                 {
                     "type": "GrantApplication",
@@ -500,18 +395,13 @@
                     "projectName": "Shielded Voting",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0xB476Ee7D610DAe7B23B671EBC7Bd6112E9772969",
-                    "fundsAsked": [
-                        {
-                            "amount": 13003.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 5.2012,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 13003
                 },
                 {
                     "type": "GrantApplication",
@@ -523,18 +413,13 @@
                     "projectName": "Tor Project",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x15c941a44a343B8c46a28F2BB9aFc7a54E255A4f",
-                    "fundsAsked": [
-                        {
-                            "amount": 22372.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 8.949,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 22372
                 },
                 {
                     "type": "GrantApplication",
@@ -546,18 +431,13 @@
                     "projectName": "Funding the Commons",
                     "createdAt": "2024-01-17T00:00:00Z",
                     "contentURI": "https://octant.app/project/2/0x576edCed7475D8F64a5e2D5227c93Ca57d7f5d20",
-                    "fundsAsked": [
-                        {
-                            "amount": 30367.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 12.147,
                             "denomination": "ETH"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 30367
                 }
             ]
         }

@@ -17,18 +17,13 @@
                     "projectName": "0xSplits",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x9ebC8E61f87A301fF25a606d7C06150f856F24E2",
-                    "fundsAsked": [
-                        {
-                            "amount": 78231.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 52154.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 78231
                 },
                 {
                     "type": "GrantApplication",
@@ -40,18 +35,13 @@
                     "projectName": "0xPARC",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x5401745963974c22F8f8254a2A904Ea5f54ddc22",
-                    "fundsAsked": [
-                        {
-                            "amount": 309081.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 206054.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 309081
                 },
                 {
                     "type": "GrantApplication",
@@ -63,18 +53,13 @@
                     "projectName": "Across Protocol",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x33DB27C21E0f7a2f3351A4C6DDceDFB9F713410b",
-                    "fundsAsked": [
-                        {
-                            "amount": 22558.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 15039.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 22558
                 },
                 {
                     "type": "GrantApplication",
@@ -86,18 +71,13 @@
                     "projectName": "Akula",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x9d6d3b09F8AC8615805bd82e53B80D956F451CFa",
-                    "fundsAsked": [
-                        {
-                            "amount": 59496.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 39664.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 59496
                 },
                 {
                     "type": "GrantApplication",
@@ -109,18 +89,13 @@
                     "projectName": "Ankr",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x5eEeB9F8a2050533BBEd20F87d445Dcf309a5eA7",
-                    "fundsAsked": [
-                        {
-                            "amount": 12904.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 8603.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 12904
                 },
                 {
                     "type": "GrantApplication",
@@ -132,18 +107,13 @@
                     "projectName": "Ante",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xa5b4f91FDE4E35Be891eA97C47D1052D8a4D75f7",
-                    "fundsAsked": [
-                        {
-                            "amount": 19393.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 12929.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 19393
                 },
                 {
                     "type": "GrantApplication",
@@ -155,18 +125,13 @@
                     "projectName": "Atlantis World",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x036C545Ae4f68059b4C83f7E3814429d4c73c089",
-                    "fundsAsked": [
-                        {
-                            "amount": 35484.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 23656.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 35484
                 },
                 {
                     "type": "GrantApplication",
@@ -178,18 +143,13 @@
                     "projectName": "ERC-5560: Redeemable NFTs",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x5874D5D530D1f969FD962579c445A0f3A8682D48",
-                    "fundsAsked": [
-                        {
-                            "amount": 1609.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 1073.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 1609
                 },
                 {
                     "type": "GrantApplication",
@@ -201,18 +161,13 @@
                     "projectName": "Attestation Station Interface",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x5EfF4B8c042AA6003cBDA6E32C4aA23657d3b6AF",
-                    "fundsAsked": [
-                        {
-                            "amount": 66513.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 44342.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 66513
                 },
                 {
                     "type": "GrantApplication",
@@ -224,18 +179,13 @@
                     "projectName": "Bankless Academy",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xB30dD1198Feed1e22EC969f61EEd04cB75937adf",
-                    "fundsAsked": [
-                        {
-                            "amount": 87100.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 58067.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 87100
                 },
                 {
                     "type": "GrantApplication",
@@ -247,18 +197,13 @@
                     "projectName": "BanklessDAO Projects",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x958c20A43F5206F186B0195cCB61Acb724b2EE1E",
-                    "fundsAsked": [
-                        {
-                            "amount": 41352.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 27568.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 41352
                 },
                 {
                     "type": "GrantApplication",
@@ -270,18 +215,13 @@
                     "projectName": "beaconcha.in",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xd9ED89A0f4cfbC1be4b7b1aA744b5bd25ACA9979",
-                    "fundsAsked": [
-                        {
-                            "amount": 158755.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 105837.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 158755
                 },
                 {
                     "type": "GrantApplication",
@@ -293,18 +233,13 @@
                     "projectName": "Hyperledger Besu",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xe4Eb51D709D22FE02C42F68A0483fa70A772e984",
-                    "fundsAsked": [
-                        {
-                            "amount": 72729.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 48486.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 72729
                 },
                 {
                     "type": "GrantApplication",
@@ -316,18 +251,13 @@
                     "projectName": "Blobscan",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xd7BDE01888B8A2a97924444009E31C8d8c2391F3",
-                    "fundsAsked": [
-                        {
-                            "amount": 60018.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 40012.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 60018
                 },
                 {
                     "type": "GrantApplication",
@@ -339,18 +269,13 @@
                     "projectName": "Blockscout",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x245cE6de47A5D44E5B73f923F1aDA4cc1688D22b",
-                    "fundsAsked": [
-                        {
-                            "amount": 97888.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 65259.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 97888
                 },
                 {
                     "type": "GrantApplication",
@@ -362,18 +287,13 @@
                     "projectName": "blst by Supranational",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x0a6CD04Ca9Ce730c709276C6868D9F2C4D9Ef1D6",
-                    "fundsAsked": [
-                        {
-                            "amount": 60921.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 40614.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 60921
                 },
                 {
                     "type": "GrantApplication",
@@ -385,18 +305,13 @@
                     "projectName": "Boardroom",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xc1a69F906Ce4366C0C77e0219b3132FeA0969231",
-                    "fundsAsked": [
-                        {
-                            "amount": 48720.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 32480.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 48720
                 },
                 {
                     "type": "GrantApplication",
@@ -408,18 +323,13 @@
                     "projectName": "BuidlGuidl",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x34aA3F359A9D614239015126635CE7732c18fDF3",
-                    "fundsAsked": [
-                        {
-                            "amount": 336261.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 224174.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 336261
                 },
                 {
                     "type": "GrantApplication",
@@ -431,18 +341,13 @@
                     "projectName": "BwareLabs",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xE0D76bDF0Dcf83685dc41570Dd4536649119D304",
-                    "fundsAsked": [
-                        {
-                            "amount": 3327.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2218.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 3327
                 },
                 {
                     "type": "GrantApplication",
@@ -454,18 +359,13 @@
                     "projectName": "CANDIDE Wallet",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xC2842A7653b9c2272F424a18DFf468C32d1f874D",
-                    "fundsAsked": [
-                        {
-                            "amount": 56833.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 37889.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 56833
                 },
                 {
                     "type": "GrantApplication",
@@ -477,18 +377,13 @@
                     "projectName": "Rust-cannon-template",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xc0017405E287476443Ab1B342B86f2ea92Ef9F73",
-                    "fundsAsked": [
-                        {
-                            "amount": 8994.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 5996.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 8994
                 },
                 {
                     "type": "GrantApplication",
@@ -500,18 +395,13 @@
                     "projectName": "Clique",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x0B27BFb649919bE208F62244E4a09A41b0f962D0",
-                    "fundsAsked": [
-                        {
-                            "amount": 27052.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 18035.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 27052
                 },
                 {
                     "type": "GrantApplication",
@@ -523,18 +413,13 @@
                     "projectName": "Commons Stack",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xC5A756D63C5fe67b438acBE468aA62a52093fDEf",
-                    "fundsAsked": [
-                        {
-                            "amount": 90057.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 60038.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 90057
                 },
                 {
                     "type": "GrantApplication",
@@ -546,18 +431,13 @@
                     "projectName": "Crate-Crypto",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x90B005a9C7B19E1E962178deA63c1becc409B90f",
-                    "fundsAsked": [
-                        {
-                            "amount": 18174.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 12116.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 18174
                 },
                 {
                     "type": "GrantApplication",
@@ -569,18 +449,13 @@
                     "projectName": "CryptoStats",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x69aa21403244889832609963B0028e337a834953",
-                    "fundsAsked": [
-                        {
-                            "amount": 27823.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 18549.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 27823
                 },
                 {
                     "type": "GrantApplication",
@@ -592,18 +467,13 @@
                     "projectName": "CryptoZombies",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xbb105E3c6D6406A3F0aAB98cD8D0E3a127bD6436",
-                    "fundsAsked": [
-                        {
-                            "amount": 195867.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 130578.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 195867
                 },
                 {
                     "type": "GrantApplication",
@@ -615,18 +485,13 @@
                     "projectName": "Dapp-Learning",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x1F7b953113f4dFcBF56a1688529CC812865840e1",
-                    "fundsAsked": [
-                        {
-                            "amount": 32440.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 21627.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 32440
                 },
                 {
                     "type": "GrantApplication",
@@ -638,18 +503,13 @@
                     "projectName": "Optimism DAppNode Package",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x523d007855B3543797E0d3D462CB44B601274819",
-                    "fundsAsked": [
-                        {
-                            "amount": 37056.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 24704.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 37056
                 },
                 {
                     "type": "GrantApplication",
@@ -661,18 +521,13 @@
                     "projectName": "DefiLlama",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x3754a10c1cA723961068B2653109E6201982Dd9c",
-                    "fundsAsked": [
-                        {
-                            "amount": 256939.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 171293.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 256939
                 },
                 {
                     "type": "GrantApplication",
@@ -684,18 +539,13 @@
                     "projectName": "Chainlist",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x40bbF4468495197b919591Dae8cb5d3fE2F52e7E",
-                    "fundsAsked": [
-                        {
-                            "amount": 74970.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 49980.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 74970
                 },
                 {
                     "type": "GrantApplication",
@@ -707,18 +557,13 @@
                     "projectName": "Smock",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x3B1E17b3FC8B2B2c5FBb995Fb3E1dE95a4D7cF7D",
-                    "fundsAsked": [
-                        {
-                            "amount": 20526.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 13684.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 20526
                 },
                 {
                     "type": "GrantApplication",
@@ -730,18 +575,13 @@
                     "projectName": "Chaineye",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x112E372bb5EC17c1ea6b1d679EA72aFBD2A94404",
-                    "fundsAsked": [
-                        {
-                            "amount": 8520.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 5680.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 8520
                 },
                 {
                     "type": "GrantApplication",
@@ -753,18 +593,13 @@
                     "projectName": "delegation.tools",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xA47669cBc53985333423e4d3D00188f4049fB695",
-                    "fundsAsked": [
-                        {
-                            "amount": 35461.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 23641.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 35461
                 },
                 {
                     "type": "GrantApplication",
@@ -776,18 +611,13 @@
                     "projectName": "TypeChain",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x4d2F0Efdb2AD1d709d8522E7b5aa9f5181563617",
-                    "fundsAsked": [
-                        {
-                            "amount": 67408.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 44939.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 67408
                 },
                 {
                     "type": "GrantApplication",
@@ -799,18 +629,13 @@
                     "projectName": "DexKit",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x5265Bde27F57E738bE6c1F6AB3544e82cdc92a8f",
-                    "fundsAsked": [
-                        {
-                            "amount": 3654.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2436.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 3654
                 },
                 {
                     "type": "GrantApplication",
@@ -822,18 +647,13 @@
                     "projectName": "dm3 protocol",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x1d921dff757610FbDB0073479e12c0a07d382677",
-                    "fundsAsked": [
-                        {
-                            "amount": 15295.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 10197.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 15295
                 },
                 {
                     "type": "GrantApplication",
@@ -845,18 +665,13 @@
                     "projectName": "OP Medicine",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x8dc640a257DE18857F8d24e1Ae2645F8bBa1E034",
-                    "fundsAsked": [
-                        {
-                            "amount": 10794.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 7196.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 10794
                 },
                 {
                     "type": "GrantApplication",
@@ -868,18 +683,13 @@
                     "projectName": "Erigon",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x9D20893054afC4A74b856089c44F9A09d1C38Db0",
-                    "fundsAsked": [
-                        {
-                            "amount": 212475.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 141650.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 212475
                 },
                 {
                     "type": "GrantApplication",
@@ -891,18 +701,13 @@
                     "projectName": "Esteroids",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xc967dEdcF086b7FE1eAB492F2EB2b74F1E5947b8",
-                    "fundsAsked": [
-                        {
-                            "amount": 7140.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 4760.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 7140
                 },
                 {
                     "type": "GrantApplication",
@@ -914,18 +719,13 @@
                     "projectName": "Infinitism (ERC-4337) - Account Abstraction",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xdb5781a835b60110298fF7205D8ef9678Ff1f800",
-                    "fundsAsked": [
-                        {
-                            "amount": 91999.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 61333.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 91999
                 },
                 {
                     "type": "GrantApplication",
@@ -937,18 +737,13 @@
                     "projectName": "eth.limo",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xB352bB4E2A4f27683435f153A259f1B207218b1b",
-                    "fundsAsked": [
-                        {
-                            "amount": 138405.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 92270.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 138405
                 },
                 {
                     "type": "GrantApplication",
@@ -960,18 +755,13 @@
                     "projectName": "EthereansOS",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xdc0090f8aDD5DB06De0897A54e753af143668668",
-                    "fundsAsked": [
-                        {
-                            "amount": 8985.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 5990.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 8985
                 },
                 {
                     "type": "GrantApplication",
@@ -983,18 +773,13 @@
                     "projectName": "EthereumETL",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x9FD0C742D81B6f08817F3eF11D09Cb4a9f54eE5f",
-                    "fundsAsked": [
-                        {
-                            "amount": 46566.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 31044.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 46566
                 },
                 {
                     "type": "GrantApplication",
@@ -1006,18 +791,13 @@
                     "projectName": "EthernautDAO",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x3B3980936707A8299AFb5424Fa807c1CBac37cCb",
-                    "fundsAsked": [
-                        {
-                            "amount": 95157.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 63438.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 95157
                 },
                 {
                     "type": "GrantApplication",
@@ -1029,18 +809,13 @@
                     "projectName": "Ethers",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x8ba1f109551bD432803012645Ac136ddd64DBA72",
-                    "fundsAsked": [
-                        {
-                            "amount": 313711.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 209141.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 313711
                 },
                 {
                     "type": "GrantApplication",
@@ -1052,18 +827,13 @@
                     "projectName": "ETHGlobal",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xe993486B257Cd1481aef74b3B909A2627Fc8d305",
-                    "fundsAsked": [
-                        {
-                            "amount": 345009.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 230006.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 345009
                 },
                 {
                     "type": "GrantApplication",
@@ -1075,18 +845,13 @@
                     "projectName": "Filosofía Código",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xb6F5414bAb8d5ad8F33E37591C02f7284E974FcB",
-                    "fundsAsked": [
-                        {
-                            "amount": 20118.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 13412.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 20118
                 },
                 {
                     "type": "GrantApplication",
@@ -1098,18 +863,13 @@
                     "projectName": "Flipside Crypto",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x62a43123FE71f9764f26554b3F5017627996816a",
-                    "fundsAsked": [
-                        {
-                            "amount": 60120.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 40080.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 60120
                 },
                 {
                     "type": "GrantApplication",
@@ -1121,18 +881,13 @@
                     "projectName": "Forta",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xD5Abb5086E5d18b6BdB8F0943b7786f2a0Af7Df2",
-                    "fundsAsked": [
-                        {
-                            "amount": 16312.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 10875.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 16312
                 },
                 {
                     "type": "GrantApplication",
@@ -1144,18 +899,13 @@
                     "projectName": "Foundry",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x4BAa1fcAe9Ba8F9e1247b5CFD71e2463e85b2284",
-                    "fundsAsked": [
-                        {
-                            "amount": 223009.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 148673.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 223009
                 },
                 {
                     "type": "GrantApplication",
@@ -1167,18 +917,13 @@
                     "projectName": "Fractal Visions",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xC4FC57Dedd2463314A3fD2DBadB86B4404C257e5",
-                    "fundsAsked": [
-                        {
-                            "amount": 11383.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 7589.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 11383
                 },
                 {
                     "type": "GrantApplication",
@@ -1190,18 +935,13 @@
                     "projectName": "Frame",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x7c929EfA9a8A2A1524BA90aBc2B70801413fFD4c",
-                    "fundsAsked": [
-                        {
-                            "amount": 71739.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 47826.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 71739
                 },
                 {
                     "type": "GrantApplication",
@@ -1213,18 +953,13 @@
                     "projectName": "GasHawk",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xC1FDB60CFB2FbbD6EDc9b445D9B508Da2dBF2c9b",
-                    "fundsAsked": [
-                        {
-                            "amount": 15804.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 10536.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 15804
                 },
                 {
                     "type": "GrantApplication",
@@ -1236,18 +971,13 @@
                     "projectName": "Gelato",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x587e9cbc67Af10a9d95F3e38836943667b331392",
-                    "fundsAsked": [
-                        {
-                            "amount": 26974.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 17983.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 26974
                 },
                 {
                     "type": "GrantApplication",
@@ -1259,18 +989,13 @@
                     "projectName": "Gitcoin",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x48A63097E1Ac123b1f5A8bbfFafA4afa8192FaB0",
-                    "fundsAsked": [
-                        {
-                            "amount": 227241.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 151494.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 227241
                 },
                 {
                     "type": "GrantApplication",
@@ -1282,18 +1007,13 @@
                     "projectName": "Praise",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xE2d2Ac26Cb9dE9a8BBc6d2698CC40b154fAc920d",
-                    "fundsAsked": [
-                        {
-                            "amount": 13930.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 9287.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 13930
                 },
                 {
                     "type": "GrantApplication",
@@ -1305,18 +1025,13 @@
                     "projectName": "GiveStation",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x96Cd3AC1e5c2E4FB021B97dA3a6D57e8e665EDc3",
-                    "fundsAsked": [
-                        {
-                            "amount": 1653.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 1102.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 1653
                 },
                 {
                     "type": "GrantApplication",
@@ -1328,18 +1043,13 @@
                     "projectName": "Giveth",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xDCfe20E6C1d14c26930a28B1f92fB981CDa26884",
-                    "fundsAsked": [
-                        {
-                            "amount": 194721.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 129814.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 194721
                 },
                 {
                     "type": "GrantApplication",
@@ -1351,18 +1061,13 @@
                     "projectName": "geth",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x60AdC0F89a41AF237ce73554EDe170D733ec14E0",
-                    "fundsAsked": [
-                        {
-                            "amount": 345885.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 230590.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 345885
                 },
                 {
                     "type": "GrantApplication",
@@ -1374,18 +1079,13 @@
                     "projectName": "Gov",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xa30189949cD8F662582b10eB6E353374419EDf67",
-                    "fundsAsked": [
-                        {
-                            "amount": 1620.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 1080.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 1620
                 },
                 {
                     "type": "GrantApplication",
@@ -1397,18 +1097,13 @@
                     "projectName": "Guild",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xab12931a2c0C519a62794C24105E2f66eE35CFE7",
-                    "fundsAsked": [
-                        {
-                            "amount": 76501.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 51001.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 76501
                 },
                 {
                     "type": "GrantApplication",
@@ -1420,18 +1115,13 @@
                     "projectName": "hildobby's Dune dashboards",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x09a5943a6d10919571eE2C9F63380aEA747ECA97",
-                    "fundsAsked": [
-                        {
-                            "amount": 46756.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 31171.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 46756
                 },
                 {
                     "type": "GrantApplication",
@@ -1443,18 +1133,13 @@
                     "projectName": "Hop Protocol",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x816a684f40b8B4B060A4Df7A10caD589Ef64E95e",
-                    "fundsAsked": [
-                        {
-                            "amount": 57894.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 38596.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 57894
                 },
                 {
                     "type": "GrantApplication",
@@ -1466,18 +1151,13 @@
                     "projectName": "Infinity Wallet & Web3 Browser",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xb7D6937F3aa9E09817C045b7d5b5Fb5064370671",
-                    "fundsAsked": [
-                        {
-                            "amount": 3763.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2509.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 3763
                 },
                 {
                     "type": "GrantApplication",
@@ -1489,18 +1169,13 @@
                     "projectName": "IC3",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xBF430a49C4d85AeeD3908619D5387A1fbF8E74A9",
-                    "fundsAsked": [
-                        {
-                            "amount": 68023.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 45349.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 68023
                 },
                 {
                     "type": "GrantApplication",
@@ -1512,18 +1187,13 @@
                     "projectName": "Ipsilon",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xF96Aa4A25fDe246d9dD498B145F52Fab0eAd29f3",
-                    "fundsAsked": [
-                        {
-                            "amount": 35296.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 23531.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 35296
                 },
                 {
                     "type": "GrantApplication",
@@ -1535,18 +1205,13 @@
                     "projectName": "ITU Blockchain",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xBEC643BD5b7F5e9190617CA4187ef0455950C51C",
-                    "fundsAsked": [
-                        {
-                            "amount": 39670.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 26447.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 39670
                 },
                 {
                     "type": "GrantApplication",
@@ -1558,18 +1223,13 @@
                     "projectName": "JiffyScan",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x3b036793Ea6dD8D9b352847f32818FA253eB759d",
-                    "fundsAsked": [
-                        {
-                            "amount": 28492.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 18995.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 28492
                 },
                 {
                     "type": "GrantApplication",
@@ -1581,18 +1241,13 @@
                     "projectName": "Kernel",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xC728DEa8B2972E6e07493BE8DC2F0314F7dC3E98",
-                    "fundsAsked": [
-                        {
-                            "amount": 198052.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 132035.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 198052
                 },
                 {
                     "type": "GrantApplication",
@@ -1604,18 +1259,13 @@
                     "projectName": "timdaub’s work as ETH Magician",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x005241438cAF3eaCb05bB6543151f7AF894C5B58",
-                    "fundsAsked": [
-                        {
-                            "amount": 15109.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 10073.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 15109
                 },
                 {
                     "type": "GrantApplication",
@@ -1627,18 +1277,13 @@
                     "projectName": "L2BEAT",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xa142aB9eab9264807A41F0E5cbDab877D204E233",
-                    "fundsAsked": [
-                        {
-                            "amount": 384441.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 256294.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 384441
                 },
                 {
                     "type": "GrantApplication",
@@ -1650,18 +1295,13 @@
                     "projectName": "L2planet",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xf23F9C10D1559885dABEE67c59c4554E6152697b",
-                    "fundsAsked": [
-                        {
-                            "amount": 10267.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 6845.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 10267
                 },
                 {
                     "type": "GrantApplication",
@@ -1673,18 +1313,13 @@
                     "projectName": "OPCraft & MUD (Lattice)",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xD8ce5Ae15E2A9C8528FDce195AD43015782C5079",
-                    "fundsAsked": [
-                        {
-                            "amount": 275022.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 183348.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 275022
                 },
                 {
                     "type": "GrantApplication",
@@ -1696,18 +1331,13 @@
                     "projectName": "Layer2DAO",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x062a07cBf4848fdA67292A96a5E02C97E402233F",
-                    "fundsAsked": [
-                        {
-                            "amount": 2199.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 1466.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 2199
                 },
                 {
                     "type": "GrantApplication",
@@ -1719,18 +1349,13 @@
                     "projectName": "Lighthouse",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x59cc06BF5CF5e07790432599060B7D402F9d2cA8",
-                    "fundsAsked": [
-                        {
-                            "amount": 248190.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 165460.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 248190
                 },
                 {
                     "type": "GrantApplication",
@@ -1742,18 +1367,13 @@
                     "projectName": "LlamaFolio",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x2cd0ac587Fc0E6FBcF8A47A449971649E7dab835",
-                    "fundsAsked": [
-                        {
-                            "amount": 12369.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 8246.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 12369
                 },
                 {
                     "type": "GrantApplication",
@@ -1765,18 +1385,13 @@
                     "projectName": "Lodestar",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x6Fa4C420E9567203Aa65eB38da5DBe361fD61ff2",
-                    "fundsAsked": [
-                        {
-                            "amount": 119494.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 79663.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 119494
                 },
                 {
                     "type": "GrantApplication",
@@ -1788,18 +1403,13 @@
                     "projectName": "MerkleTreeJS",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x358fdcCDE25e0aae7fBA01F088Da89b08aBF61DB",
-                    "fundsAsked": [
-                        {
-                            "amount": 87390.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 58260.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 87390
                 },
                 {
                     "type": "GrantApplication",
@@ -1811,18 +1421,13 @@
                     "projectName": "Messari Protocol Services",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x47A6a1B6492B6dF811606B8294A02b4268e86dAD",
-                    "fundsAsked": [
-                        {
-                            "amount": 28629.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 19086.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 28629
                 },
                 {
                     "type": "GrantApplication",
@@ -1834,18 +1439,13 @@
                     "projectName": "Multicall3",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x60A5dcB2fC804874883b797f37CbF1b0582ac2dD",
-                    "fundsAsked": [
-                        {
-                            "amount": 28198.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 18799.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 28198
                 },
                 {
                     "type": "GrantApplication",
@@ -1857,18 +1457,13 @@
                     "projectName": "MUX Protocol",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x7b4c5F852AA6b44Bd01F9252C3F93Ae1aa1c63e9",
-                    "fundsAsked": [
-                        {
-                            "amount": 1479.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 986.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 1479
                 },
                 {
                     "type": "GrantApplication",
@@ -1880,18 +1475,13 @@
                     "projectName": "Nested",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x0BE55326919F08Af4D14A42aAfb3B68F95738355",
-                    "fundsAsked": [
-                        {
-                            "amount": 12996.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 8664.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 12996
                 },
                 {
                     "type": "GrantApplication",
@@ -1903,18 +1493,13 @@
                     "projectName": "Nethermind",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xFED0e586cB372Fd0b17ead9F8cb1347BF8a5937f",
-                    "fundsAsked": [
-                        {
-                            "amount": 203436.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 135624.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 203436
                 },
                 {
                     "type": "GrantApplication",
@@ -1926,18 +1511,13 @@
                     "projectName": "NFTEarth",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xD131F1BcDd547e067Af447dD3C36C99d6be9FdEB",
-                    "fundsAsked": [
-                        {
-                            "amount": 891.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 594.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 891
                 },
                 {
                     "type": "GrantApplication",
@@ -1949,18 +1529,13 @@
                     "projectName": "NiceNode",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x9cce47E9cF12C6147c9844adBB81fE85880c4df4",
-                    "fundsAsked": [
-                        {
-                            "amount": 32283.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 21522.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 32283
                 },
                 {
                     "type": "GrantApplication",
@@ -1972,18 +1547,13 @@
                     "projectName": "Nimbus",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x4413E96F6b46e59326a7695eF871FA902Ff7935d",
-                    "fundsAsked": [
-                        {
-                            "amount": 126027.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 84018.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 126027
                 },
                 {
                     "type": "GrantApplication",
@@ -1995,18 +1565,13 @@
                     "projectName": "Node Guardians",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x6ef87E0Aaadb2c3d07fD98a098Af5FaD0aD45811",
-                    "fundsAsked": [
-                        {
-                            "amount": 30417.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 20278.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 30417
                 },
                 {
                     "type": "GrantApplication",
@@ -2018,18 +1583,13 @@
                     "projectName": "Michael Vander Meiden",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x6EdA5aCafF7F5964E1EcC3FD61C62570C186cA0C",
-                    "fundsAsked": [
-                        {
-                            "amount": 84508.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 56339.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 84508
                 },
                 {
                     "type": "GrantApplication",
@@ -2041,18 +1601,13 @@
                     "projectName": "OpenZeppelin",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x6084fBE2Aa96Bb131D6Bc7Bd3BE786882cfA250F",
-                    "fundsAsked": [
-                        {
-                            "amount": 272647.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 181765.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 272647
                 },
                 {
                     "type": "GrantApplication",
@@ -2064,18 +1619,13 @@
                     "projectName": "Layer 2 Landscape",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x7a48A728d9Fd2d5a55c545c4378E5bA909349E90",
-                    "fundsAsked": [
-                        {
-                            "amount": 38110.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 25407.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 38110
                 },
                 {
                     "type": "GrantApplication",
@@ -2087,18 +1637,13 @@
                     "projectName": "Optimism Prices Contracts",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x82D54397B88CE80Ea2Df9aD049213ACb47dc2523",
-                    "fundsAsked": [
-                        {
-                            "amount": 8959.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 5973.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 8959
                 },
                 {
                     "type": "GrantApplication",
@@ -2110,18 +1655,13 @@
                     "projectName": "Optinames | ENS on Optimism",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x1208a26FAa0F4AC65B42098419EB4dAA5e580AC6",
-                    "fundsAsked": [
-                        {
-                            "amount": 20895.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 13930.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 20895
                 },
                 {
                     "type": "GrantApplication",
@@ -2133,18 +1673,13 @@
                     "projectName": "Orbiter Finance",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xd923CA098dBBFb0d24677a3150fa3aA97be461b5",
-                    "fundsAsked": [
-                        {
-                            "amount": 10045.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 6697.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 10045
                 },
                 {
                     "type": "GrantApplication",
@@ -2156,18 +1691,13 @@
                     "projectName": "Otterscan",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xd31b671F1a398B519222FdAba5aB5464B9F2a3Fa",
-                    "fundsAsked": [
-                        {
-                            "amount": 103252.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 68835.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 103252
                 },
                 {
                     "type": "GrantApplication",
@@ -2179,18 +1709,13 @@
                     "projectName": "Otterspace",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x0AB7C4123e84c975008fcfcb14f07152bb711F82",
-                    "fundsAsked": [
-                        {
-                            "amount": 15750.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 10500.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 15750
                 },
                 {
                     "type": "GrantApplication",
@@ -2202,18 +1727,13 @@
                     "projectName": "Pairwise",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x4d5Dd4d81D773c05cE27AbA03e2f3E346c3F8E54",
-                    "fundsAsked": [
-                        {
-                            "amount": 11707.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 7805.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 11707
                 },
                 {
                     "type": "GrantApplication",
@@ -2225,18 +1745,13 @@
                     "projectName": "Pocket Network",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xb89e800719a96c609dB746397b7d2c3B917694e0",
-                    "fundsAsked": [
-                        {
-                            "amount": 87271.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 58181.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 87271
                 },
                 {
                     "type": "GrantApplication",
@@ -2248,18 +1763,13 @@
                     "projectName": "EIP-5164 / PoolTogether Inc",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x0a09cd09B0107Bb98a83f211704F036ECa94B92e",
-                    "fundsAsked": [
-                        {
-                            "amount": 81826.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 54551.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 81826
                 },
                 {
                     "type": "GrantApplication",
@@ -2271,18 +1781,13 @@
                     "projectName": "Prettier Solidity",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xFc756d8632A19CEbd76560CE0A6967279E32131b",
-                    "fundsAsked": [
-                        {
-                            "amount": 65751.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 43834.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 65751
                 },
                 {
                     "type": "GrantApplication",
@@ -2294,18 +1799,13 @@
                     "projectName": "Protocol Guild",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x4C0a466DF0628FE8699051b3Ac6506653191cc21",
-                    "fundsAsked": [
-                        {
-                            "amount": 835951.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 557301.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 835951
                 },
                 {
                     "type": "GrantApplication",
@@ -2317,18 +1817,13 @@
                     "projectName": "Quark ID",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x5A930B098Ed8D58dD4590577af85a8E864A8F6fE",
-                    "fundsAsked": [
-                        {
-                            "amount": 6043.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 4029.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 6043
                 },
                 {
                     "type": "GrantApplication",
@@ -2340,18 +1835,13 @@
                     "projectName": "Questbook",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x45755F5e7d3b1cdB1AaF1Fe786c415e47Bed2f43",
-                    "fundsAsked": [
-                        {
-                            "amount": 1522.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 1015.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 1522
                 },
                 {
                     "type": "GrantApplication",
@@ -2363,18 +1853,13 @@
                     "projectName": "RadicalxChange",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x3945D766185E2264900C84faC10958B3619C2bD4",
-                    "fundsAsked": [
-                        {
-                            "amount": 106482.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 70988.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 106482
                 },
                 {
                     "type": "GrantApplication",
@@ -2386,18 +1871,13 @@
                     "projectName": "RareSkills",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x4879DF2Ba195a69C178133F44E278c0f64797Ca5",
-                    "fundsAsked": [
-                        {
-                            "amount": 12673.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 8449.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 12673
                 },
                 {
                     "type": "GrantApplication",
@@ -2409,18 +1889,13 @@
                     "projectName": "Remix Project",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x2ba1aebA3fBd69aa74944F17326Bfdc229fD986E",
-                    "fundsAsked": [
-                        {
-                            "amount": 227514.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 151676.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 227514
                 },
                 {
                     "type": "GrantApplication",
@@ -2432,18 +1907,13 @@
                     "projectName": "Revoke.cash",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xe126b3E5d052f1F575828f61fEBA4f4f2603652a",
-                    "fundsAsked": [
-                        {
-                            "amount": 110235.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 73490.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 110235
                 },
                 {
                     "type": "GrantApplication",
@@ -2455,18 +1925,13 @@
                     "projectName": "Revolte",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xAC4DDaf8FBfFba0f1e8c7619720335FD4f03EaCD",
-                    "fundsAsked": [
-                        {
-                            "amount": 4201.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2801.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 4201
                 },
                 {
                     "type": "GrantApplication",
@@ -2478,18 +1943,13 @@
                     "projectName": "Rigoblock",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x080f08076e8EAdC66006C3CbFEd28a34918A1fA6",
-                    "fundsAsked": [
-                        {
-                            "amount": 1392.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 928.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 1392
                 },
                 {
                     "type": "GrantApplication",
@@ -2501,18 +1961,13 @@
                     "projectName": "rotki",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x9531C059098e3d194fF87FebB587aB07B30B1306",
-                    "fundsAsked": [
-                        {
-                            "amount": 217909.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 145273.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 217909
                 },
                 {
                     "type": "GrantApplication",
@@ -2524,18 +1979,13 @@
                     "projectName": "Safe (previously Gnosis Safe)",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x9F87C1aCaF3Afc6a5557c58284D9F8609470b571",
-                    "fundsAsked": [
-                        {
-                            "amount": 179376.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 119584.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 179376
                 },
                 {
                     "type": "GrantApplication",
@@ -2547,18 +1997,13 @@
                     "projectName": "Flexible Voting",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x8f5906963Ae276E1631EFA8Ff1a9CaE6499EC5E3",
-                    "fundsAsked": [
-                        {
-                            "amount": 28585.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 19057.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 28585
                 },
                 {
                     "type": "GrantApplication",
@@ -2570,18 +2015,13 @@
                     "projectName": "Umbra",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x5C04E7808455ee0e22c2773328C151d0DD79dC62",
-                    "fundsAsked": [
-                        {
-                            "amount": 51267.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 34178.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 51267
                 },
                 {
                     "type": "GrantApplication",
@@ -2593,18 +2033,13 @@
                     "projectName": "Scry",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x9D31e30003f253563Ff108BC60B16Fdf2c93abb5",
-                    "fundsAsked": [
-                        {
-                            "amount": 7987.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 5325.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 7987
                 },
                 {
                     "type": "GrantApplication",
@@ -2616,18 +2051,13 @@
                     "projectName": "Slither",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xA6826463a53bBe3d673f7e61E94a6099581FfC7d",
-                    "fundsAsked": [
-                        {
-                            "amount": 58389.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 38926.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 58389
                 },
                 {
                     "type": "GrantApplication",
@@ -2639,18 +2069,13 @@
                     "projectName": "Small Brain Games",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xc152Cc22488f1383E675f5738dF9a4244fB113a5",
-                    "fundsAsked": [
-                        {
-                            "amount": 42391.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 28261.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 42391
                 },
                 {
                     "type": "GrantApplication",
@@ -2662,18 +2087,13 @@
                     "projectName": "Snapshot",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xf9551c66995eD3Ff9bb05C9Fd7ff148Bd75dc99a",
-                    "fundsAsked": [
-                        {
-                            "amount": 218548.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 145699.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 218548
                 },
                 {
                     "type": "GrantApplication",
@@ -2685,18 +2105,13 @@
                     "projectName": "🐍 snekmate",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x07bF3CDA34aA78d92949bbDce31520714AB5b228",
-                    "fundsAsked": [
-                        {
-                            "amount": 72121.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 48081.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 72121
                 },
                 {
                     "type": "GrantApplication",
@@ -2708,18 +2123,13 @@
                     "projectName": "Solady",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x1F5D295778796a8b9f29600A585Ab73D452AcB1c",
-                    "fundsAsked": [
-                        {
-                            "amount": 67528.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 45019.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 67528
                 },
                 {
                     "type": "GrantApplication",
@@ -2731,18 +2141,13 @@
                     "projectName": "Solhint",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x5fC34D03cFdf145Db5f3c5B5558e39a4164AAa30",
-                    "fundsAsked": [
-                        {
-                            "amount": 34459.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 22973.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 34459
                 },
                 {
                     "type": "GrantApplication",
@@ -2754,18 +2159,13 @@
                     "projectName": "Solidity",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x151EF20A3ADe1CC1161391594f8a32461389a54e",
-                    "fundsAsked": [
-                        {
-                            "amount": 326074.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 217383.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 326074
                 },
                 {
                     "type": "GrantApplication",
@@ -2777,18 +2177,13 @@
                     "projectName": "Sourcify",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xAA6042aa65eb93C6439cDaeBC27B3bd09c5DFe94",
-                    "fundsAsked": [
-                        {
-                            "amount": 46116.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 30744.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 46116
                 },
                 {
                     "type": "GrantApplication",
@@ -2800,18 +2195,13 @@
                     "projectName": "ChugSplash",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x4856e043a1F2CAA8aCEfd076328b4981Aca91000",
-                    "fundsAsked": [
-                        {
-                            "amount": 41952.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 27968.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 41952
                 },
                 {
                     "type": "GrantApplication",
@@ -2823,18 +2213,13 @@
                     "projectName": "Synpress",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xd35E119782059A27FEAd4EddA8B555f393650BC8",
-                    "fundsAsked": [
-                        {
-                            "amount": 137830.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 91887.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 137830
                 },
                 {
                     "type": "GrantApplication",
@@ -2846,18 +2231,13 @@
                     "projectName": "Teku",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xFF7B65dDc2Ffb7f6AC527b4C2F048946B3A5eaF3",
-                    "fundsAsked": [
-                        {
-                            "amount": 117300.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 78200.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 117300
                 },
                 {
                     "type": "GrantApplication",
@@ -2869,18 +2249,13 @@
                     "projectName": "TrueBlocks",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xf503017D7baF7FBC0fff7492b751025c6A78179b",
-                    "fundsAsked": [
-                        {
-                            "amount": 107800.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 71867.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 107800
                 },
                 {
                     "type": "GrantApplication",
@@ -2892,18 +2267,13 @@
                     "projectName": "⚡️TurboETH - Web3 Build System",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x761d584f1C2d43cBc3F42ECd739701a36dFFAa31",
-                    "fundsAsked": [
-                        {
-                            "amount": 27408.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 18272.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 27408
                 },
                 {
                     "type": "GrantApplication",
@@ -2915,18 +2285,13 @@
                     "projectName": "Cannon",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x07Aeeb7E544A070a2553e142828fb30c214a1F86",
-                    "fundsAsked": [
-                        {
-                            "amount": 135361.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 90241.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 135361
                 },
                 {
                     "type": "GrantApplication",
@@ -2938,18 +2303,13 @@
                     "projectName": "Sugar",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x892Ff98a46e5bd141E2D12618f4B2Fe6284debac",
-                    "fundsAsked": [
-                        {
-                            "amount": 1654.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 1103.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 1654
                 },
                 {
                     "type": "GrantApplication",
@@ -2961,18 +2321,13 @@
                     "projectName": "Agora",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xFdFC6E1BbEc01288447222fC8F1AEE55a7C72b7B",
-                    "fundsAsked": [
-                        {
-                            "amount": 152988.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 101992.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 152988
                 },
                 {
                     "type": "GrantApplication",
@@ -2984,18 +2339,13 @@
                     "projectName": "Vyper",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xAbfA48BCc0F96Fc70be7a4156b0a74Ea350167fD",
-                    "fundsAsked": [
-                        {
-                            "amount": 202839.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 135226.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 202839
                 },
                 {
                     "type": "GrantApplication",
@@ -3007,18 +2357,13 @@
                     "projectName": "WakeUp Labs",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xab4f5A7fcd1Bb66C8c5f01bB77F6142759f46107",
-                    "fundsAsked": [
-                        {
-                            "amount": 16993.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 11329.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 16993
                 },
                 {
                     "type": "GrantApplication",
@@ -3030,18 +2375,13 @@
                     "projectName": "Web3j",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xe8a17e2f1bd4bFcBfBecb8a90be08780949a0cac",
-                    "fundsAsked": [
-                        {
-                            "amount": 29677.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 19785.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 29677
                 },
                 {
                     "type": "GrantApplication",
@@ -3053,18 +2393,13 @@
                     "projectName": "Week in Ethereum News",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x13ebd3443fa5575F0Eb173e323D8419F7452CfB1",
-                    "fundsAsked": [
-                        {
-                            "amount": 182550.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 121700.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 182550
                 },
                 {
                     "type": "GrantApplication",
@@ -3076,18 +2411,13 @@
                     "projectName": "wagmi",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xd2135CfB216b74109775236E36d4b433F1DF507B",
-                    "fundsAsked": [
-                        {
-                            "amount": 234694.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 156463.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 234694
                 },
                 {
                     "type": "GrantApplication",
@@ -3099,18 +2429,13 @@
                     "projectName": "hardhat-deploy",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xF78cD306b23031dE9E739A5BcDE61764e82AD5eF",
-                    "fundsAsked": [
-                        {
-                            "amount": 93973.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 62649.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 93973
                 },
                 {
                     "type": "GrantApplication",
@@ -3122,18 +2447,13 @@
                     "projectName": "Women Biz - Optimism education",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x0693401dF5CbAE158be6bbAdDD69d52283a8076E",
-                    "fundsAsked": [
-                        {
-                            "amount": 31602.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 21068.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 31602
                 },
                 {
                     "type": "GrantApplication",
@@ -3145,18 +2465,13 @@
                     "projectName": "RainbowKit Login for WordPress",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x0F9Bd2a9E0D30f121c525DB5419A07b08Fce8440",
-                    "fundsAsked": [
-                        {
-                            "amount": 13842.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 9228.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 13842
                 },
                 {
                     "type": "GrantApplication",
@@ -3168,18 +2483,13 @@
                     "projectName": "WTF Academy",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x25df6DA2f4e5C178DdFF45038378C0b08E0Bce54",
-                    "fundsAsked": [
-                        {
-                            "amount": 29128.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 19419.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 29128
                 },
                 {
                     "type": "GrantApplication",
@@ -3191,18 +2501,13 @@
                     "projectName": "Keccak hashing",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xD06CaC3a900Dd34FE9CCd32F15DCC75E2423b816",
-                    "fundsAsked": [
-                        {
-                            "amount": 94257.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 62838.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 94257
                 },
                 {
                     "type": "GrantApplication",
@@ -3214,18 +2519,13 @@
                     "projectName": "Eneagon by zenbit.eth",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x04cc6b487566B1C821bEa04d7ac0d23CEDe05cC9",
-                    "fundsAsked": [
-                        {
-                            "amount": 2304.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 1536.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 2304
                 },
                 {
                     "type": "GrantApplication",
@@ -3237,18 +2537,13 @@
                     "projectName": "Apetimism Launchpad",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x2117085E7e4eE35825A9C71bbE46AAd8c01789f3",
-                    "fundsAsked": [
-                        {
-                            "amount": 20653.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 13769.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 20653
                 },
                 {
                     "type": "GrantApplication",
@@ -3260,18 +2555,13 @@
                     "projectName": "Basic course in crypto literacy",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xff95a2f9bf8fe8019d1f705B5b1e3cb8a8F223C0",
-                    "fundsAsked": [
-                        {
-                            "amount": 6756.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 4504.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 6756
                 },
                 {
                     "type": "GrantApplication",
@@ -3283,18 +2573,13 @@
                     "projectName": "Big Sybil'or",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x8B93910594e2a09c30D7e97883f6d35d8772801d",
-                    "fundsAsked": [
-                        {
-                            "amount": 4194.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2796.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 4194
                 },
                 {
                     "type": "GrantApplication",
@@ -3306,18 +2591,13 @@
                     "projectName": "Blocktrend (區塊勢)",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x36F322fC85B24aB13263CFE9217B28f8E2b38381",
-                    "fundsAsked": [
-                        {
-                            "amount": 9534.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 6356.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 9534
                 },
                 {
                     "type": "GrantApplication",
@@ -3329,18 +2609,13 @@
                     "projectName": "Bored Town",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x6fF5723435b7dfC2371B57Fb5cB4c373E5995C78",
-                    "fundsAsked": [
-                        {
-                            "amount": 6163.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 4109.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 6163
                 },
                 {
                     "type": "GrantApplication",
@@ -3352,18 +2627,13 @@
                     "projectName": "Cryptocurrency and Friends",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xEc087478B0bC2F1a18Ff01717e381f44B791114A",
-                    "fundsAsked": [
-                        {
-                            "amount": 95860.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 63907.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 95860
                 },
                 {
                     "type": "GrantApplication",
@@ -3375,18 +2645,13 @@
                     "projectName": "Cryptoversidad",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x281BA4E9B7e28982d6CB53EE3836865f1453e12F",
-                    "fundsAsked": [
-                        {
-                            "amount": 16399.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 10933.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 16399
                 },
                 {
                     "type": "GrantApplication",
@@ -3398,18 +2663,13 @@
                     "projectName": "DeFi Library",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x4e3D9399C28c724293dd545225Ec843Ac4c9e953",
-                    "fundsAsked": [
-                        {
-                            "amount": 9606.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 6404.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 9606
                 },
                 {
                     "type": "GrantApplication",
@@ -3421,18 +2681,13 @@
                     "projectName": "Duniversity (Dune Education)",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xAA857AC645733FbF3105b0406417d35BA1576ff8",
-                    "fundsAsked": [
-                        {
-                            "amount": 17173.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 11449.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 17173
                 },
                 {
                     "type": "GrantApplication",
@@ -3444,18 +2699,13 @@
                     "projectName": "EIP4844 collection",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/eip-4844",
-                    "fundsAsked": [
-                        {
-                            "amount": 293512.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 195675.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 293512
                 },
                 {
                     "type": "GrantApplication",
@@ -3467,18 +2717,13 @@
                     "projectName": "ETHEREUM MÉXICO",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xC0aC93ABb5539769Edac951D9EbD5BCbFB854b0f",
-                    "fundsAsked": [
-                        {
-                            "amount": 23604.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 15736.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 23604
                 },
                 {
                     "type": "GrantApplication",
@@ -3490,18 +2735,13 @@
                     "projectName": "Espacio Cripto",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xcE36608441F24E2d5642932F2A511D98BBBC06A9",
-                    "fundsAsked": [
-                        {
-                            "amount": 14865.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 9910.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 14865
                 },
                 {
                     "type": "GrantApplication",
@@ -3513,18 +2753,13 @@
                     "projectName": "Fire",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x57B02589d6e24203FC43e442ce9A4803E290293b",
-                    "fundsAsked": [
-                        {
-                            "amount": 23661.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 15774.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 23661
                 },
                 {
                     "type": "GrantApplication",
@@ -3536,18 +2771,13 @@
                     "projectName": "Goerli",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/goerli",
-                    "fundsAsked": [
-                        {
-                            "amount": 215262.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 143508.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 215262
                 },
                 {
                     "type": "GrantApplication",
@@ -3559,18 +2789,13 @@
                     "projectName": "H.E.R. DAO LATAM",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x1F9E7984eDdb135ab6D6f354E229970bB332dCC4",
-                    "fundsAsked": [
-                        {
-                            "amount": 37321.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 24881.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 37321
                 },
                 {
                     "type": "GrantApplication",
@@ -3582,18 +2807,13 @@
                     "projectName": "Jrocki - YouTube & Podcast",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xFC10A71B1E7974401D840fd15ceBf08Ed7E115Cc",
-                    "fundsAsked": [
-                        {
-                            "amount": 41412.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 27608.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 41412
                 },
                 {
                     "type": "GrantApplication",
@@ -3605,18 +2825,13 @@
                     "projectName": "Launchifi",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x64249ED5Ef7a004d268A508092851e987482a175",
-                    "fundsAsked": [
-                        {
-                            "amount": 5136.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 3424.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 5136
                 },
                 {
                     "type": "GrantApplication",
@@ -3628,18 +2843,13 @@
                     "projectName": "Layer 2 Weekly Roundup",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x24b0529c7226AE66968B9A8b521b266A2cA4a898",
-                    "fundsAsked": [
-                        {
-                            "amount": 34017.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 22678.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 34017
                 },
                 {
                     "type": "GrantApplication",
@@ -3651,18 +2861,13 @@
                     "projectName": "MarcoV (Optimism Dashboards)",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x283266045Ab2aB0793a62CADC21D55f685636Ae0",
-                    "fundsAsked": [
-                        {
-                            "amount": 4866.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 3244.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 4866
                 },
                 {
                     "type": "GrantApplication",
@@ -3674,18 +2879,13 @@
                     "projectName": "MetricsDAO",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x4c6E3610a222E4518cc7ef3d8826Ee8640995c5C",
-                    "fundsAsked": [
-                        {
-                            "amount": 4290.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2860.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 4290
                 },
                 {
                     "type": "GrantApplication",
@@ -3697,18 +2897,13 @@
                     "projectName": "Monorepo Dependencies Collection",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/monorepo-dependencies",
-                    "fundsAsked": [
-                        {
-                            "amount": 283500.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 189000.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 283500
                 },
                 {
                     "type": "GrantApplication",
@@ -3720,18 +2915,13 @@
                     "projectName": "OAYC",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x81B7E9d8409B857D70aD14073E785c486945CaF4",
-                    "fundsAsked": [
-                        {
-                            "amount": 3223.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2149.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 3223
                 },
                 {
                     "type": "GrantApplication",
@@ -3743,18 +2933,13 @@
                     "projectName": "OP Dashboards  by Springzhang",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xdbE38D1d3631a04875d3FAd945D0dFcb2C20f91c",
-                    "fundsAsked": [
-                        {
-                            "amount": 19753.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 13169.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 19753
                 },
                 {
                     "type": "GrantApplication",
@@ -3766,18 +2951,13 @@
                     "projectName": "Odos",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xF86BaD4E03D731de4d67B4f3943743f0B4C2084c",
-                    "fundsAsked": [
-                        {
-                            "amount": 3928.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2619.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 3928
                 },
                 {
                     "type": "GrantApplication",
@@ -3789,18 +2969,13 @@
                     "projectName": "OptiChads",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x10850762bAc0dc6660630c1EfFe188A7cbFDdc88",
-                    "fundsAsked": [
-                        {
-                            "amount": 12910.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 8607.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 12910
                 },
                 {
                     "type": "GrantApplication",
@@ -3812,18 +2987,13 @@
                     "projectName": "Optimism Ambassador collection",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/ambassadors",
-                    "fundsAsked": [
-                        {
-                            "amount": 78361.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 52241.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 78361
                 },
                 {
                     "type": "GrantApplication",
@@ -3835,18 +3005,13 @@
                     "projectName": "Optimism Cult Merch",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x59E6Ca75DFb201BAFF565303CA52A3113DD6F223",
-                    "fundsAsked": [
-                        {
-                            "amount": 2794.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 1863.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 2794
                 },
                 {
                     "type": "GrantApplication",
@@ -3858,18 +3023,13 @@
                     "projectName": "Optimism FM",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x09c41efc1C7E2C2A11Bb153eF39AFFeaFf2CeDcD",
-                    "fundsAsked": [
-                        {
-                            "amount": 22809.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 15206.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 22809
                 },
                 {
                     "type": "GrantApplication",
@@ -3881,18 +3041,13 @@
                     "projectName": "Optimism en Español",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x61d10BFDa1aa5010795985FD9a49F21Fb7570982",
-                    "fundsAsked": [
-                        {
-                            "amount": 68989.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 45993.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 68989
                 },
                 {
                     "type": "GrantApplication",
@@ -3904,18 +3059,13 @@
                     "projectName": "OptimismArabia",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x6e4E55A49a8C8938BD8D8668E18DE95962740Fe1",
-                    "fundsAsked": [
-                        {
-                            "amount": 7984.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 5323.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 7984
                 },
                 {
                     "type": "GrantApplication",
@@ -3927,18 +3077,13 @@
                     "projectName": "OptimismGuru",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x8E72a24221517E51502f20f387415a06b27A5b51",
-                    "fundsAsked": [
-                        {
-                            "amount": 3216.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2144.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 3216
                 },
                 {
                     "type": "GrantApplication",
@@ -3950,18 +3095,13 @@
                     "projectName": "Ospace",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x941D8Cd7378432Bc4952bA0Dcc9e120C18C92975",
-                    "fundsAsked": [
-                        {
-                            "amount": 891.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 594.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 891
                 },
                 {
                     "type": "GrantApplication",
@@ -3973,18 +3113,13 @@
                     "projectName": "Perpetuals Dune Abstraction",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x08290908a251119a1C75bb9C36A7A41e9BF2f1E3",
-                    "fundsAsked": [
-                        {
-                            "amount": 3103.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2069.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 3103
                 },
                 {
                     "type": "GrantApplication",
@@ -3996,18 +3131,13 @@
                     "projectName": "Polynya",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x429F9aDA43e9F345CbB85EC88681BB70Df808892",
-                    "fundsAsked": [
-                        {
-                            "amount": 148236.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 98824.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 148236
                 },
                 {
                     "type": "GrantApplication",
@@ -4019,18 +3149,13 @@
                     "projectName": "Proof of Integrity",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xf21b24E6D87C7e5dEC3e419551829F6B39dBB807",
-                    "fundsAsked": [
-                        {
-                            "amount": 23598.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 15732.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 23598
                 },
                 {
                     "type": "GrantApplication",
@@ -4042,18 +3167,13 @@
                     "projectName": "RockX",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x56262562506967a08Bf60a5aC5a5cEEAc02BECD2",
-                    "fundsAsked": [
-                        {
-                            "amount": 3829.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2553.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 3829
                 },
                 {
                     "type": "GrantApplication",
@@ -4065,18 +3185,13 @@
                     "projectName": "Rollup Economics Dashboard",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x701E37643DADa13DE79e66A74E7d6187FC48faD2",
-                    "fundsAsked": [
-                        {
-                            "amount": 22993.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 15329.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 22993
                 },
                 {
                     "type": "GrantApplication",
@@ -4088,18 +3203,13 @@
                     "projectName": "SEED LATAM (formerly DeFi LATAM)",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xbe0fc34488CaA2766C3225B56ade0c1E409c0De7",
-                    "fundsAsked": [
-                        {
-                            "amount": 82593.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 55062.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 82593
                 },
                 {
                     "type": "GrantApplication",
@@ -4111,18 +3221,13 @@
                     "projectName": "Support NERDs collection",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/support-nerds",
-                    "fundsAsked": [
-                        {
-                            "amount": 140526.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 93684.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 140526
                 },
                 {
                     "type": "GrantApplication",
@@ -4134,18 +3239,13 @@
                     "projectName": "TE Academy",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x3b067Af83F540cB827825a6Ee5480441a4237E77",
-                    "fundsAsked": [
-                        {
-                            "amount": 86347.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 57565.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 86347
                 },
                 {
                     "type": "GrantApplication",
@@ -4157,18 +3257,13 @@
                     "projectName": "The Optimistic Series",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x03143EE031AA7bD7b6846750d066A27f18D39edd",
-                    "fundsAsked": [
-                        {
-                            "amount": 28821.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 19214.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 28821
                 },
                 {
                     "type": "GrantApplication",
@@ -4180,18 +3275,13 @@
                     "projectName": "Thumbs Up Finance",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x4d85e4F760fb58E380f02657AE5Aafb8bd010601",
-                    "fundsAsked": [
-                        {
-                            "amount": 1087.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 725.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 1087
                 },
                 {
                     "type": "GrantApplication",
@@ -4203,18 +3293,13 @@
                     "projectName": "Token Terminal",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xeB67e286faf667A047e435EC90107122b0bC2C01",
-                    "fundsAsked": [
-                        {
-                            "amount": 38932.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 25955.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 38932
                 },
                 {
                     "type": "GrantApplication",
@@ -4226,18 +3311,13 @@
                     "projectName": "Translators Collection",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/translators",
-                    "fundsAsked": [
-                        {
-                            "amount": 128485.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 85657.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 128485
                 },
                 {
                     "type": "GrantApplication",
@@ -4249,18 +3329,13 @@
                     "projectName": "Web3 Data Degens",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x2Ae8c972fB2E6c00ddED8986E2dc672ED190DA06",
-                    "fundsAsked": [
-                        {
-                            "amount": 14485.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 9657.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 14485
                 },
                 {
                     "type": "GrantApplication",
@@ -4272,18 +3347,13 @@
                     "projectName": "Web3beach",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0xEFEdaf9c07E6eB56BB8F82f30018e4461B1c5F4c",
-                    "fundsAsked": [
-                        {
-                            "amount": 16102.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 10735.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 16102
                 },
                 {
                     "type": "GrantApplication",
@@ -4295,18 +3365,13 @@
                     "projectName": "Where has the OP Gone?",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x4f41877773e44F2275dA1942FEe898556821bf66",
-                    "fundsAsked": [
-                        {
-                            "amount": 97584.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 65056.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 97584
                 },
                 {
                     "type": "GrantApplication",
@@ -4318,18 +3383,13 @@
                     "projectName": "ZachXBT",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x9D727911B54C455B0071A7B682FcF4Bc444B5596",
-                    "fundsAsked": [
-                        {
-                            "amount": 282861.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 188574.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 282861
                 },
                 {
                     "type": "GrantApplication",
@@ -4341,18 +3401,13 @@
                     "projectName": "Zapper",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x7f9D4208D404d86396F856C4f3db0195bB677f17",
-                    "fundsAsked": [
-                        {
-                            "amount": 41689.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 27793.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 41689
                 },
                 {
                     "type": "GrantApplication",
@@ -4364,18 +3419,13 @@
                     "projectName": "cp0x",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x6f9BB7e454f5B3eb2310343f0E99269dC2BB8A1d",
-                    "fundsAsked": [
-                        {
-                            "amount": 6567.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 4378.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 6567
                 },
                 {
                     "type": "GrantApplication",
@@ -4387,18 +3437,13 @@
                     "projectName": "diligit",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x25a2dF1d1310da75e8BC115cc797673E777B7e27",
-                    "fundsAsked": [
-                        {
-                            "amount": 47223.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 31482.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 47223
                 },
                 {
                     "type": "GrantApplication",
@@ -4410,18 +3455,13 @@
                     "projectName": "donnoh",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x33D66941465ac776C38096cb1bc496C673aE7390",
-                    "fundsAsked": [
-                        {
-                            "amount": 15195.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 10130.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 15195
                 },
                 {
                     "type": "GrantApplication",
@@ -4433,18 +3473,13 @@
                     "projectName": "jordanmmck",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x2B1Bfc5dCD4E21CeAA5F512e350b00c585dAE894",
-                    "fundsAsked": [
-                        {
-                            "amount": 8350.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 5567.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 8350
                 },
                 {
                     "type": "GrantApplication",
@@ -4456,18 +3491,13 @@
                     "projectName": "raise_exception (rotate.eth)",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x400aBc3DAE98Ec5aEEF2681b40D4CEd0A5aff934",
-                    "fundsAsked": [
-                        {
-                            "amount": 3066.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 2044.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 3066
                 },
                 {
                     "type": "GrantApplication",
@@ -4479,18 +3509,13 @@
                     "projectName": "thesleeper.eth Thai OP contents",
                     "createdAt": "2023-04-01T00:00:00Z",
                     "contentURI": "https://app.optimism.io/retropgf-discovery/0x00409fC839a2Ec2e6d12305423d37Cd011279C09",
-                    "fundsAsked": [
-                        {
-                            "amount": 30571.5,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 20381.0,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 30571
                 }
             ]
         }

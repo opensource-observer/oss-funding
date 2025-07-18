@@ -17,18 +17,13 @@
                     "projectName": "opUSDC",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/opUSDC",
-                    "fundsAsked": [
-                        {
-                            "amount": 102326.74278334368,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 60192.20163726099,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 102326
                 },
                 {
                     "type": "GrantApplication",
@@ -40,18 +35,13 @@
                     "projectName": "Deployment of the Shutterized Optimism (SHOP) testnet with the SHOP SDK.",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Deployment-of-the-Shutterized-Optimism-(SHOP)-testnet-with-the-SHOP-SDK.",
-                    "fundsAsked": [
-                        {
-                            "amount": 115445.55596069543,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 67909.15056511496,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 115445
                 },
                 {
                     "type": "GrantApplication",
@@ -63,18 +53,13 @@
                     "projectName": "Feasibility study for Front-running protection via shielded mempool for the OP Stack using threshold encryption",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Feasibility-study-for-Front-running-protection-via-shielded-mempool-for-the-OP-Stack-using-threshold-encryption",
-                    "fundsAsked": [
-                        {
-                            "amount": 137747.53836219345,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 81027.96374246673,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 137747
                 },
                 {
                     "type": "GrantApplication",
@@ -86,18 +71,13 @@
                     "projectName": "Dappnode",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Dappnode",
-                    "fundsAsked": [
-                        {
-                            "amount": 148225.26318689017,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 87191.33128640598,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 148225
                 },
                 {
                     "type": "GrantApplication",
@@ -109,18 +89,13 @@
                     "projectName": "Nethermind Ethereum Execution Client",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Nethermind-Ethereum-Execution-Client",
-                    "fundsAsked": [
-                        {
-                            "amount": 265026.7705781595,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 155898.10034009384,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 265026
                 },
                 {
                     "type": "GrantApplication",
@@ -132,18 +107,13 @@
                     "projectName": "OP Nethermind",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/OP-Nethermind",
-                    "fundsAsked": [
-                        {
-                            "amount": 240336.65740908412,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 141374.5043582848,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 240336
                 },
                 {
                     "type": "GrantApplication",
@@ -155,18 +125,13 @@
                     "projectName": "Formal Verification of Optimism's L1 pausability mechanism",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Formal-Verification-of-Optimism's-L1-pausability-mechanism",
-                    "fundsAsked": [
-                        {
-                            "amount": 163985.1647168969,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 96461.86159817464,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 163985
                 },
                 {
                     "type": "GrantApplication",
@@ -178,18 +143,13 @@
                     "projectName": "Besu",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Besu",
-                    "fundsAsked": [
-                        {
-                            "amount": 205736.66530340348,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 121021.56782553146,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 205736
                 },
                 {
                     "type": "GrantApplication",
@@ -201,18 +161,13 @@
                     "projectName": "OP Reth",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/OP-Reth",
-                    "fundsAsked": [
-                        {
-                            "amount": 273658.44287955755,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 160975.55463503386,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 273658
                 },
                 {
                     "type": "GrantApplication",
@@ -224,18 +179,13 @@
                     "projectName": "Cantina.xyz - OP Stack Audits",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Cantinaxyz---OP-Stack-Audits",
-                    "fundsAsked": [
-                        {
-                            "amount": 150341.59901245113,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 88436.23471320655,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 150341
                 },
                 {
                     "type": "GrantApplication",
@@ -247,18 +197,13 @@
                     "projectName": "OP Erigon",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/OP-Erigon",
-                    "fundsAsked": [
-                        {
-                            "amount": 220396.06137950945,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 129644.74198794673,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 220396
                 },
                 {
                     "type": "GrantApplication",
@@ -270,18 +215,13 @@
                     "projectName": "Asterisc",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Asterisc",
-                    "fundsAsked": [
-                        {
-                            "amount": 224594.0815962619,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 132114.16564485995,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 224594
                 },
                 {
                     "type": "GrantApplication",
@@ -293,18 +233,13 @@
                     "projectName": "Delta Network Upgrade",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Delta-Network-Upgrade",
-                    "fundsAsked": [
-                        {
-                            "amount": 222232.6952243386,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 130725.11483784622,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 222232
                 },
                 {
                     "type": "GrantApplication",
@@ -316,18 +251,13 @@
                     "projectName": "Immunefi Bug Bounty Platform",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Immunefi-Bug-Bounty-Platform",
-                    "fundsAsked": [
-                        {
-                            "amount": 106262.38673654919,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 62507.28631561717,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 106262
                 },
                 {
                     "type": "GrantApplication",
@@ -339,18 +269,13 @@
                     "projectName": "Hermes - a GossipSub listener and tracer for libp2p-based networks.",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Hermes---a-GossipSub-listener-and-tracer-for-libp2p-based-networks.",
-                    "fundsAsked": [
-                        {
-                            "amount": 98125.12422972127,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 57720.66131160075,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 98125
                 },
                 {
                     "type": "GrantApplication",
@@ -362,18 +287,13 @@
                     "projectName": "js-libp2p",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/js-libp2p",
-                    "fundsAsked": [
-                        {
-                            "amount": 129845.3305517158,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 76379.60620689165,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 129845
                 },
                 {
                     "type": "GrantApplication",
@@ -385,18 +305,13 @@
                     "projectName": "go-libp2p",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/go-libp2p",
-                    "fundsAsked": [
-                        {
-                            "amount": 245584.18268002477,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 144461.28392942634,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 245584
                 },
                 {
                     "type": "GrantApplication",
@@ -408,18 +323,13 @@
                     "projectName": "jvm-libp2p",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/jvm-libp2p",
-                    "fundsAsked": [
-                        {
-                            "amount": 118580.2105495121,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 69753.06502912477,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 118580
                 },
                 {
                     "type": "GrantApplication",
@@ -431,18 +341,13 @@
                     "projectName": "Code4rena",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Code4rena",
-                    "fundsAsked": [
-                        {
-                            "amount": 183401.0082193775,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 107882.94601139853,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 183401
                 },
                 {
                     "type": "GrantApplication",
@@ -454,18 +359,13 @@
                     "projectName": "Conduit OP Stack Contributions",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Conduit-OP-Stack-Contributions",
-                    "fundsAsked": [
-                        {
-                            "amount": 295400.42783183156,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 173764.9575481362,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 295400
                 },
                 {
                     "type": "GrantApplication",
@@ -477,18 +377,13 @@
                     "projectName": "Sedge",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Sedge",
-                    "fundsAsked": [
-                        {
-                            "amount": 239329.0503267153,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 140781.79430983253,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 239329
                 },
                 {
                     "type": "GrantApplication",
@@ -500,18 +395,13 @@
                     "projectName": "Revm",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Revm",
-                    "fundsAsked": [
-                        {
-                            "amount": 224116.59793857788,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 131833.29290504582,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 224116
                 },
                 {
                     "type": "GrantApplication",
@@ -523,18 +413,13 @@
                     "projectName": "nim-libp2p",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/nim-libp2p",
-                    "fundsAsked": [
-                        {
-                            "amount": 106425.73896818714,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 62603.3758636395,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 106425
                 },
                 {
                     "type": "GrantApplication",
@@ -546,18 +431,13 @@
                     "projectName": "One-click bare metal node deployment",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/One-click-bare-metal-node-deployment",
-                    "fundsAsked": [
-                        {
-                            "amount": 162548.38356883853,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 95616.69621696384,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 162548
                 },
                 {
                     "type": "GrantApplication",
@@ -569,18 +449,13 @@
                     "projectName": "An indepedent ethereum execution client contributor",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/An-indepedent-ethereum-execution-client-contributor",
-                    "fundsAsked": [
-                        {
-                            "amount": 62847.51159124142,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 36969.12446543613,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 62847
                 },
                 {
                     "type": "GrantApplication",
@@ -592,18 +467,13 @@
                     "projectName": "Kurtosis optimism package",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Kurtosis-optimism-package",
-                    "fundsAsked": [
-                        {
-                            "amount": 265117.9765660022,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 155951.75092117777,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 265117
                 },
                 {
                     "type": "GrantApplication",
@@ -615,18 +485,13 @@
                     "projectName": "ethereumjs-monorepo",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/ethereumjs-monorepo",
-                    "fundsAsked": [
-                        {
-                            "amount": 211072.7747781315,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 124160.45575184208,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 211072
                 },
                 {
                     "type": "GrantApplication",
@@ -638,18 +503,13 @@
                     "projectName": "RIG Ethereum Core Research",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/RIG-Ethereum-Core-Research",
-                    "fundsAsked": [
-                        {
-                            "amount": 109093.79370555114,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 64172.81982679479,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 109093
                 },
                 {
                     "type": "GrantApplication",
@@ -661,18 +521,13 @@
                     "projectName": "The book of optimism fault proof",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/The-book-of-optimism-fault-proof",
-                    "fundsAsked": [
-                        {
-                            "amount": 118199.24526339822,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 69528.96780199895,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 118199
                 },
                 {
                     "type": "GrantApplication",
@@ -684,18 +539,13 @@
                     "projectName": "Redprint",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Redprint",
-                    "fundsAsked": [
-                        {
-                            "amount": 147309.47260925994,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 86652.6309466235,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 147309
                 },
                 {
                     "type": "GrantApplication",
@@ -707,18 +557,13 @@
                     "projectName": "Rust KZG",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Rust-KZG",
-                    "fundsAsked": [
-                        {
-                            "amount": 118580.2105495121,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 69753.06502912477,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 118580
                 },
                 {
                     "type": "GrantApplication",
@@ -730,18 +575,13 @@
                     "projectName": "1-Click Price Oracle",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/1-Click-Price-Oracle",
-                    "fundsAsked": [
-                        {
-                            "amount": 152702.9853843744,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 89825.28552022023,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 152702
                 },
                 {
                     "type": "GrantApplication",
@@ -753,18 +593,13 @@
                     "projectName": "Rollup-as-a-Service Platform",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Rollup-as-a-Service-Platform",
-                    "fundsAsked": [
-                        {
-                            "amount": 211781.7882074771,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 124577.52247498653,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 211781
                 },
                 {
                     "type": "GrantApplication",
@@ -776,18 +611,13 @@
                     "projectName": "Research and development on multi-section fault dispute game",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Research-and-development-on-multi-section-fault-dispute-game",
-                    "fundsAsked": [
-                        {
-                            "amount": 131188.13177351755,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 77169.48927853974,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 131188
                 },
                 {
                     "type": "GrantApplication",
@@ -799,18 +629,13 @@
                     "projectName": "Alt-DA Server & Translation Hub",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Alt-DA-Server-&-Translation-Hub",
-                    "fundsAsked": [
-                        {
-                            "amount": 120693.08123163616,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 70995.93013625656,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 120693
                 },
                 {
                     "type": "GrantApplication",
@@ -822,18 +647,13 @@
                     "projectName": "AWS KMS and YubiHSM signer for OP Stack",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/AWS-KMS-and-YubiHSM-signer-for-OP-Stack",
-                    "fundsAsked": [
-                        {
-                            "amount": 189118.79242143713,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 111246.34848319832,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 189118
                 },
                 {
                     "type": "GrantApplication",
@@ -845,18 +665,13 @@
                     "projectName": "Upnode Deploy",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Upnode-Deploy",
-                    "fundsAsked": [
-                        {
-                            "amount": 175442.846688482,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 103201.67452263647,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 175442
                 },
                 {
                     "type": "GrantApplication",
@@ -868,18 +683,13 @@
                     "projectName": "Maintaining simple-optimism-node",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Maintaining-simple-optimism-node",
-                    "fundsAsked": [
-                        {
-                            "amount": 195370.65332793098,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 114923.91372231234,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 195370
                 },
                 {
                     "type": "GrantApplication",
@@ -891,18 +701,13 @@
                     "projectName": "Zeeve RaaS for OP Stack",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Zeeve-RaaS-for-OP-Stack",
-                    "fundsAsked": [
-                        {
-                            "amount": 112924.2376235441,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 66426.02213149653,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 112924
                 },
                 {
                     "type": "GrantApplication",
@@ -914,18 +719,13 @@
                     "projectName": "blob-archiver-rs",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/blob-archiver-rs",
-                    "fundsAsked": [
-                        {
-                            "amount": 132500.01309125274,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 77941.18417132513,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 132500
                 },
                 {
                     "type": "GrantApplication",
@@ -937,18 +737,13 @@
                     "projectName": "op-besu",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/op-besu",
-                    "fundsAsked": [
-                        {
-                            "amount": 160049.52076369137,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 94146.77691981845,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 160049
                 },
                 {
                     "type": "GrantApplication",
@@ -960,18 +755,13 @@
                     "projectName": "Fe Language",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Fe-Language",
-                    "fundsAsked": [
-                        {
-                            "amount": 118580.2105495121,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 69753.06502912477,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 118580
                 },
                 {
                     "type": "GrantApplication",
@@ -983,18 +773,13 @@
                     "projectName": "Protocol Guild",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Protocol-Guild",
-                    "fundsAsked": [
-                        {
-                            "amount": 379753.1242848125,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 223384.19075577206,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 379753
                 },
                 {
                     "type": "GrantApplication",
@@ -1006,18 +791,13 @@
                     "projectName": "Derive (Formerly Lyra) OP Custom Gas Limit Research",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Derive-Formerly-Lyra-OP-Custom-Gas-Limit-Research",
-                    "fundsAsked": [
-                        {
-                            "amount": 151391.1040666392,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 89053.59062743482,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 151391
                 },
                 {
                     "type": "GrantApplication",
@@ -1029,18 +809,13 @@
                     "projectName": "Understanding-Optimism-Codebase",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Understanding-Optimism-Codebase",
-                    "fundsAsked": [
-                        {
-                            "amount": 120934.43440998926,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 71137.90259411134,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 120934
                 },
                 {
                     "type": "GrantApplication",
@@ -1052,18 +827,13 @@
                     "projectName": "Node Guardians",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Node-Guardians",
-                    "fundsAsked": [
-                        {
-                            "amount": 156296.52266234474,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 91939.13097784985,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 156296
                 },
                 {
                     "type": "GrantApplication",
@@ -1075,18 +845,13 @@
                     "projectName": "OPcity stack",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/OPcity-stack",
-                    "fundsAsked": [
-                        {
-                            "amount": 106524.76300009624,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 62661.62529417426,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 106524
                 },
                 {
                     "type": "GrantApplication",
@@ -1098,18 +863,13 @@
                     "projectName": "TechNERDs Program",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/TechNERDs-Program",
-                    "fundsAsked": [
-                        {
-                            "amount": 206897.5218742788,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 121704.42463192872,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 206897
                 },
                 {
                     "type": "GrantApplication",
@@ -1121,18 +881,13 @@
                     "projectName": "Asphere Rollup-as-a-Service",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Asphere-Rollup-as-a-Service",
-                    "fundsAsked": [
-                        {
-                            "amount": 136759.45732955172,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 80446.73960561866,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 136759
                 },
                 {
                     "type": "GrantApplication",
@@ -1144,18 +899,13 @@
                     "projectName": "Optimism Collective and OP Stack Documentation Improvements",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Optimism-Collective-and-OP-Stack-Documentation-Improvements",
-                    "fundsAsked": [
-                        {
-                            "amount": 141839.09431607788,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 83434.76136239876,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 141839
                 },
                 {
                     "type": "GrantApplication",
@@ -1167,18 +917,13 @@
                     "projectName": "Solidity",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Solidity",
-                    "fundsAsked": [
-                        {
-                            "amount": 348032.91796281806,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 204725.24586048123,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 348032
                 },
                 {
                     "type": "GrantApplication",
@@ -1190,18 +935,13 @@
                     "projectName": "Grandine",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Grandine",
-                    "fundsAsked": [
-                        {
-                            "amount": 95753.52001873104,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 56325.60001101826,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 95753
                 },
                 {
                     "type": "GrantApplication",
@@ -1213,18 +953,13 @@
                     "projectName": "Fault Proofs security research",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Fault-Proofs-security-research",
-                    "fundsAsked": [
-                        {
-                            "amount": 157425.758128221,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 92603.38713424765,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 157425
                 },
                 {
                     "type": "GrantApplication",
@@ -1236,18 +971,13 @@
                     "projectName": "Account Abstraction - ERC-4337",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Account-Abstraction---ERC-4337",
-                    "fundsAsked": [
-                        {
-                            "amount": 277181.2421594845,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 163047.7895055791,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 277181
                 },
                 {
                     "type": "GrantApplication",
@@ -1259,18 +989,13 @@
                     "projectName": "Native Account Abstraction on OP Stack",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Native-Account-Abstraction-on-OP-Stack",
-                    "fundsAsked": [
-                        {
-                            "amount": 129351.49792868832,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 76089.11642864019,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 129351
                 },
                 {
                     "type": "GrantApplication",
@@ -1282,18 +1007,13 @@
                     "projectName": "Permissionless ZK Fault Proof System",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Permissionless-ZK-Fault-Proof-System",
-                    "fundsAsked": [
-                        {
-                            "amount": 165821.79856172617,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 97542.23444807422,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 165821
                 },
                 {
                     "type": "GrantApplication",
@@ -1305,18 +1025,13 @@
                     "projectName": "Erigon",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Erigon",
-                    "fundsAsked": [
-                        {
-                            "amount": 237160.4210990242,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 139506.13005824955,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 237160
                 },
                 {
                     "type": "GrantApplication",
@@ -1328,18 +1043,13 @@
                     "projectName": "quic-go",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/quic-go",
-                    "fundsAsked": [
-                        {
-                            "amount": 93678.36633411457,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 55104.921373008576,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 93678
                 },
                 {
                     "type": "GrantApplication",
@@ -1351,18 +1061,13 @@
                     "projectName": "OP Succinct: Full ZK Validity Proving of OP Stack Rollups with SP1",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/OP-Succinct:-Full-ZK-Validity-Proving-of-OP-Stack-Rollups-with-SP1",
-                    "fundsAsked": [
-                        {
-                            "amount": 209901.010837628,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 123471.18284566354,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 209901
                 },
                 {
                     "type": "GrantApplication",
@@ -1374,18 +1079,13 @@
                     "projectName": "Act",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Act",
-                    "fundsAsked": [
-                        {
-                            "amount": 119173.11160225967,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 70101.8303542704,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 119173
                 },
                 {
                     "type": "GrantApplication",
@@ -1397,18 +1097,13 @@
                     "projectName": "go-ethereum",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/go-ethereum",
-                    "fundsAsked": [
-                        {
-                            "amount": 398725.9579727343,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 234544.68116043194,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 398725
                 },
                 {
                     "type": "GrantApplication",
@@ -1420,18 +1115,13 @@
                     "projectName": "RaaS and Restaking for OP Stack rollups",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/RaaS-and-Restaking-for-OP-Stack-rollups",
-                    "fundsAsked": [
-                        {
-                            "amount": 146723.36064927615,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 86307.85920545655,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 146723
                 },
                 {
                     "type": "GrantApplication",
@@ -1443,18 +1133,13 @@
                     "projectName": "Lighthouse",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Lighthouse",
-                    "fundsAsked": [
-                        {
-                            "amount": 237160.42109902418,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 139506.13005824952,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 237160
                 },
                 {
                     "type": "GrantApplication",
@@ -1466,18 +1151,13 @@
                     "projectName": "Rust Libp2p",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Rust-Libp2p",
-                    "fundsAsked": [
-                        {
-                            "amount": 158897.48213634625,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 93469.10713902721,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 158897
                 },
                 {
                     "type": "GrantApplication",
@@ -1489,18 +1169,13 @@
                     "projectName": "Fault Dispute Game Audit Contest",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Fault-Dispute-Game-Audit-Contest",
-                    "fundsAsked": [
-                        {
-                            "amount": 170544.5713055728,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 100320.33606210166,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 170544
                 },
                 {
                     "type": "GrantApplication",
@@ -1512,18 +1187,13 @@
                     "projectName": "Ethereum on ARM",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Ethereum-on-ARM",
-                    "fundsAsked": [
-                        {
-                            "amount": 141703.351606667,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 83354.91270980412,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 141703
                 },
                 {
                     "type": "GrantApplication",
@@ -1535,18 +1205,13 @@
                     "projectName": "Vyper",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Vyper",
-                    "fundsAsked": [
-                        {
-                            "amount": 205736.66530340345,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 121021.56782553144,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 205736
                 },
                 {
                     "type": "GrantApplication",
@@ -1558,18 +1223,13 @@
                     "projectName": "Smoo.th Cryptolib",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Smoo.th-Cryptolib",
-                    "fundsAsked": [
-                        {
-                            "amount": 88935.15791213405,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 52314.79877184356,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 88935
                 },
                 {
                     "type": "GrantApplication",
@@ -1581,18 +1241,13 @@
                     "projectName": "Nimbus",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Nimbus",
-                    "fundsAsked": [
-                        {
-                            "amount": 180241.92003525843,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 106024.65884426967,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 180241
                 },
                 {
                     "type": "GrantApplication",
@@ -1604,18 +1259,13 @@
                     "projectName": "Sherlock",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Sherlock",
-                    "fundsAsked": [
-                        {
-                            "amount": 119118.82365035395,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 70069.89626491409,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 119118
                 },
                 {
                     "type": "GrantApplication",
@@ -1627,18 +1277,13 @@
                     "projectName": "Ethereum Attestation Service (EAS)",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Ethereum-Attestation-Service-(EAS)",
-                    "fundsAsked": [
-                        {
-                            "amount": 224856.45785980896,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 132268.50462341704,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 224856
                 },
                 {
                     "type": "GrantApplication",
@@ -1650,18 +1295,13 @@
                     "projectName": "roll-op",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/roll-op",
-                    "fundsAsked": [
-                        {
-                            "amount": 203576.22076770407,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 119750.71809864945,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 203576
                 },
                 {
                     "type": "GrantApplication",
@@ -1673,18 +1313,13 @@
                     "projectName": "Blocknative Blob Archive and Research",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Blocknative-Blob-Archive-and-Research",
-                    "fundsAsked": [
-                        {
-                            "amount": 114429.90318027919,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 67311.70775310541,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 114429
                 },
                 {
                     "type": "GrantApplication",
@@ -1696,18 +1331,13 @@
                     "projectName": "OP STACK DEPLOYER",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/OP-STACK-DEPLOYER",
-                    "fundsAsked": [
-                        {
-                            "amount": 126209.44204984346,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 74240.8482646138,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 126209
                 },
                 {
                     "type": "GrantApplication",
@@ -1719,18 +1349,13 @@
                     "projectName": "hildr",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/hildr",
-                    "fundsAsked": [
-                        {
-                            "amount": 160836.64955433249,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 94609.7938554897,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 160836
                 },
                 {
                     "type": "GrantApplication",
@@ -1742,18 +1367,13 @@
                     "projectName": "Lodestar",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Lodestar",
-                    "fundsAsked": [
-                        {
-                            "amount": 174016.45898140903,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 102362.62293024061,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 174016
                 },
                 {
                     "type": "GrantApplication",
@@ -1765,18 +1385,13 @@
                     "projectName": "Ethereum POS Testnet",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Ethereum-POS-Testnet",
-                    "fundsAsked": [
-                        {
-                            "amount": 88935.15791213406,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 52314.79877184357,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 88935
                 },
                 {
                     "type": "GrantApplication",
@@ -1788,18 +1403,13 @@
                     "projectName": "Builderism",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Builderism",
-                    "fundsAsked": [
-                        {
-                            "amount": 151607.6269824744,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 89180.95704851436,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 151607
                 },
                 {
                     "type": "GrantApplication",
@@ -1811,18 +1421,13 @@
                     "projectName": "Solady",
                     "createdAt": "2024-10-23T00:00:00Z",
                     "contentURI": "https://retropgfhub.com/explore/RetroPGF5/Solady",
-                    "fundsAsked": [
-                        {
-                            "amount": 161623.77834497363,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 95072.81079116095,
                             "denomination": "OP"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 161623
                 }
             ]
         }

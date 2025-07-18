@@ -17,18 +17,13 @@
                     "projectName": "CLOB (A Central Limit Order Book)",
                     "createdAt": "2023-10-24T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recybx0H21Mma9nmz",
-                    "fundsAsked": [
-                        {
-                            "amount": 14792.1,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 125378.03,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 14792
                 },
                 {
                     "type": "GrantApplication",
@@ -40,18 +35,13 @@
                     "projectName": "Phoenix Hub v2",
                     "createdAt": "2023-11-14T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyJLOWkdnsGtimI",
-                    "fundsAsked": [
-                        {
-                            "amount": 100000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 831808.4,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 100000
                 },
                 {
                     "type": "GrantApplication",
@@ -63,18 +53,13 @@
                     "projectName": "@soroban-react and Boilerplate",
                     "createdAt": "2023-11-07T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recBHrtJV6ztGGICQ",
-                    "fundsAsked": [
-                        {
-                            "amount": 25000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 200288.4,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 25000
                 },
                 {
                     "type": "GrantApplication",
@@ -86,18 +71,13 @@
                     "projectName": "Scout - Soroban Smart Contract",
                     "createdAt": "2023-11-09T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9qEUMQyHnfk1ln",
-                    "fundsAsked": [
-                        {
-                            "amount": 50000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 386518.2,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 50000
                 },
                 {
                     "type": "GrantApplication",
@@ -109,18 +89,13 @@
                     "projectName": "Skopa",
                     "createdAt": "2023-12-05T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recagcYqPo0lfLMtO",
-                    "fundsAsked": [
-                        {
-                            "amount": 37840.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 314100.7,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 37840
                 },
                 {
                     "type": "GrantApplication",
@@ -132,18 +107,13 @@
                     "projectName": "Allbridge Core",
                     "createdAt": "2023-11-07T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recbUS7phMUCfxP6V",
-                    "fundsAsked": [
-                        {
-                            "amount": 50000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 400576.8,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 50000
                 },
                 {
                     "type": "GrantApplication",
@@ -155,18 +125,13 @@
                     "projectName": "Reflector | Expansion",
                     "createdAt": "2023-11-15T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfrasfvgSGAXEZD",
-                    "fundsAsked": [
-                        {
-                            "amount": 96000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 800200.1,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 96000
                 },
                 {
                     "type": "GrantApplication",
@@ -178,18 +143,13 @@
                     "projectName": "Aura | A Stellar EURC on-ramp",
                     "createdAt": "2023-11-15T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recjKlTlDgoV5dgAr",
-                    "fundsAsked": [
-                        {
-                            "amount": 36300.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 302575.6,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 36300
                 },
                 {
                     "type": "GrantApplication",
@@ -201,18 +161,13 @@
                     "projectName": "CommuniDAO - A NFT Member DAO",
                     "createdAt": "2023-11-14T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJqAK96rS4QEe0v",
-                    "fundsAsked": [
-                        {
-                            "amount": 75600.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 628847.1,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 75600
                 },
                 {
                     "type": "GrantApplication",
@@ -224,18 +179,13 @@
                     "projectName": "DIA Oracles on Soroban",
                     "createdAt": "2023-11-15T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recQH7t1KOVb8jBOH",
-                    "fundsAsked": [
-                        {
-                            "amount": 38000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 316745.9,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 38000
                 },
                 {
                     "type": "GrantApplication",
@@ -247,18 +197,13 @@
                     "projectName": "Formal VerSo",
                     "createdAt": "2023-11-15T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recSrr56oFNwtem56",
-                    "fundsAsked": [
-                        {
-                            "amount": 50000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 416770.9,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 50000
                 },
                 {
                     "type": "GrantApplication",
@@ -270,18 +215,13 @@
                     "projectName": "Solidity Contracts on Soroban",
                     "createdAt": "2023-11-09T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recWWbmWDvFunh3xR",
-                    "fundsAsked": [
-                        {
-                            "amount": 15000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 115955.5,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 15000
                 },
                 {
                     "type": "GrantApplication",
@@ -293,18 +233,13 @@
                     "projectName": "DeRisk - Monitoring DeFi risks",
                     "createdAt": "2023-11-06T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recWVVLF0ufdI0y0Z",
-                    "fundsAsked": [
-                        {
-                            "amount": 50000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 375968.1,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 50000
                 },
                 {
                     "type": "GrantApplication",
@@ -316,18 +251,13 @@
                     "projectName": "RWA Tokenization on Stellar",
                     "createdAt": "2023-12-06T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recXjFURUH3LkyzQA",
-                    "fundsAsked": [
-                        {
-                            "amount": 50000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 400390.1,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 50000
                 },
                 {
                     "type": "GrantApplication",
@@ -339,18 +269,13 @@
                     "projectName": "KMAC State Machine Template",
                     "createdAt": "2023-11-07T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recY4eR4uXNvkXnAG",
-                    "fundsAsked": [
-                        {
-                            "amount": 7500.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 60086.52,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 7500
                 },
                 {
                     "type": "GrantApplication",
@@ -362,18 +287,13 @@
                     "projectName": "QSTN",
                     "createdAt": "2023-10-02T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZdJNenl5amnxbv",
-                    "fundsAsked": [
-                        {
-                            "amount": 2500.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 21587.08,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 2500
                 },
                 {
                     "type": "GrantApplication",
@@ -385,18 +305,13 @@
                     "projectName": "Bank2Bit by Bloxcross",
                     "createdAt": "2023-12-05T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZRSwovS4aApiHA",
-                    "fundsAsked": [
-                        {
-                            "amount": 48000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 398436.5,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 48000
                 },
                 {
                     "type": "GrantApplication",
@@ -408,18 +323,13 @@
                     "projectName": "AnChain.AI Web3SOC",
                     "createdAt": "2023-11-09T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec0XJ3vYm5B0cls9",
-                    "fundsAsked": [
-                        {
-                            "amount": 50000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 386518.2,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 50000
                 },
                 {
                     "type": "GrantApplication",
@@ -431,18 +341,13 @@
                     "projectName": "Ionize: Stellar Asset Bridge",
                     "createdAt": "2023-10-31T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec1ZAs0f7cw3mGFX",
-                    "fundsAsked": [
-                        {
-                            "amount": 30000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 251551.23,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 30000
                 },
                 {
                     "type": "GrantApplication",
@@ -454,18 +359,13 @@
                     "projectName": "Satellite + We Work Out",
                     "createdAt": "2023-11-09T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec19jhYls3BBJx9H",
-                    "fundsAsked": [
-                        {
-                            "amount": 24960.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 192949.9,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 24960
                 },
                 {
                     "type": "GrantApplication",
@@ -477,18 +377,13 @@
                     "projectName": "Borderless",
                     "createdAt": "2023-11-09T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec32utFP3jR18fr7",
-                    "fundsAsked": [
-                        {
-                            "amount": 43000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 332405.7,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 43000
                 },
                 {
                     "type": "GrantApplication",
@@ -500,18 +395,13 @@
                     "projectName": "Okashi - Production Release",
                     "createdAt": "2023-11-14T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3E6adszfXUHoyR",
-                    "fundsAsked": [
-                        {
-                            "amount": 100000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 831808.4,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 100000
                 },
                 {
                     "type": "GrantApplication",
@@ -523,18 +413,13 @@
                     "projectName": "Emigro Launch",
                     "createdAt": "2023-11-14T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3V2931dtXFcoML",
-                    "fundsAsked": [
-                        {
-                            "amount": 33920.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 282149.4,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 33920
                 },
                 {
                     "type": "GrantApplication",
@@ -546,18 +431,13 @@
                     "projectName": "KwickBit: Compliance made easy",
                     "createdAt": "2023-11-09T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec4NbrgB4FWGVIm4",
-                    "fundsAsked": [
-                        {
-                            "amount": 39000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 301484.2,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 39000
                 },
                 {
                     "type": "GrantApplication",
@@ -569,18 +449,13 @@
                     "projectName": "ChainsAtlas/VirtualizationUnit",
                     "createdAt": "2023-12-19T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec6i1x0pe4BSySPD",
-                    "fundsAsked": [
-                        {
-                            "amount": 49240.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 409548.4,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 49240
                 },
                 {
                     "type": "GrantApplication",
@@ -592,18 +467,13 @@
                     "projectName": "Stellar Explorer",
                     "createdAt": "2023-11-14T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reccUoeNl7hFKThtM",
-                    "fundsAsked": [
-                        {
-                            "amount": 19600.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 163034.4,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 19600
                 },
                 {
                     "type": "GrantApplication",
@@ -615,18 +485,13 @@
                     "projectName": "Walletban",
                     "createdAt": "2023-11-06T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recdrPETj4S6sFkPc",
-                    "fundsAsked": [
-                        {
-                            "amount": 20000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 150387.2,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 20000
                 },
                 {
                     "type": "GrantApplication",
@@ -638,18 +503,13 @@
                     "projectName": "Stroopy.AI",
                     "createdAt": "2023-10-31T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recrI2qG6eVcHi3MA",
-                    "fundsAsked": [
-                        {
-                            "amount": 21370.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 179188.32,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 21370
                 },
                 {
                     "type": "GrantApplication",
@@ -661,18 +521,13 @@
                     "projectName": "SorobanMath",
                     "createdAt": "2023-12-05T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLrZzcvzjqBngsh",
-                    "fundsAsked": [
-                        {
-                            "amount": 40000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 332030.4,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 40000
                 },
                 {
                     "type": "GrantApplication",
@@ -684,18 +539,13 @@
                     "projectName": "Sorosan",
                     "createdAt": "2023-11-06T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recOUvfemPw2HWWtK",
-                    "fundsAsked": [
-                        {
-                            "amount": 29000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 218061.5,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 29000
                 },
                 {
                     "type": "GrantApplication",
@@ -707,18 +557,13 @@
                     "projectName": "StellarGPT",
                     "createdAt": "2023-11-29T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3J9EW3GQO3lgXR",
-                    "fundsAsked": [
-                        {
-                            "amount": 25000.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 210881.5,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 25000
                 },
                 {
                     "type": "GrantApplication",
@@ -730,18 +575,13 @@
                     "projectName": "SorobanPulse v2",
                     "createdAt": "2023-11-20T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec78cnFmi3n9aMxx",
-                    "fundsAsked": [
-                        {
-                            "amount": 97500.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 805252.7,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 97500
                 },
                 {
                     "type": "GrantApplication",
@@ -753,18 +593,13 @@
                     "projectName": "Sorscan",
                     "createdAt": "2023-11-29T00:00:00Z",
                     "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec7zAshryot9zFyx",
-                    "fundsAsked": [
-                        {
-                            "amount": 33500.0,
-                            "denomination": "USD"
-                        }
-                    ],
                     "fundsApproved": [
                         {
                             "amount": 282581.2,
                             "denomination": "XLM"
                         }
-                    ]
+                    ],
+                    "fundsApprovedInUSD": 33500
                 }
             ]
         }
