@@ -1,4 +1,3 @@
-
 # Field Mapping Configuration for Stellar
 system_name: "Stellar Development Foundation"
 system_type: "Foundation"
@@ -9,7 +8,7 @@ schema_fixes:
     - from: "grant_pools"
       to: "grantPools"
       status: "fixed"
-  
+
 # Data quality standards
 data_quality:
   date_format: "ISO8601"
@@ -18,7 +17,7 @@ data_quality:
     - "projectId" 
     - "grantPoolId"
     - "createdAt"
-  
+
   null_handling:
     fundsApproved:
       amount: "number|null"
@@ -95,7 +94,7 @@ extension_fields:
     - field: "extensions.stellar.teamMembers"
       source: "Team Members"
       type: "string"
-    
+
   stellar_urls_group:
     # Grouped URL extensions under stellar.urls namespace
     - field: "extensions.stellar.urls.website"
@@ -110,7 +109,7 @@ extension_fields:
     - field: "extensions.stellar.urls.pitchDeck"
       source: "Pitch Deck (from Project)"
       type: "url"
-      
+
   stellar_social_group:
     # Grouped social media extensions under stellar.socialMedia namespace
     - field: "extensions.stellar.socialMedia.linkedIn"
@@ -127,7 +126,7 @@ extension_fields:
 issues:
   critical: []
   data_quality: []
-  
+
 # Validation rules
 validation:
   date_fields: ["createdAt", "closeDate", "mostRecentPaymentDate"]
