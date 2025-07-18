@@ -1,0 +1,3605 @@
+Submission / Project,Round,Submission Title,Project,Category (from Project),Submission URL,Status,Tranche Completion %,Latest Tranche (from Payments),Total Awarded (USD),Total Paid (USD),Total Paid (XLM),Most Recent Payment Date,Award Type,One-Sentence-Description,Products & Services,Technical Architecture,Success Criteria,Website,Code,Video,Use Soroban?,Go-To-Market Plan,Traction Evidence,Tranche 1 - Deliverables,Tranche 2 - Testnet,Tranche 3 - Mainnet,Team Members,Thumbnail,LinkedIn (from Project),X (from Project),Discord (from Project),Pitch Deck (from Project)
+Warmancer: Black Friday,SCF #33,Warmancer: Black Friday,Warmancer: Black Friday,Applications,https://communityfund.stellar.org/dashboard/submissions/recsJtI0JZOmnayxP,Awarded,33.0,Pre-Launch #1 - MVP,$136500.00,$91000.00,299532.27,5/21/2025,Build,"Warmancer: Black Friday is a free-to-play, public-good strategy game that combines the depth of traditional board games with the intrigue of hidden information, utilizing zero-knowledge proofs (ZKPs) on the Stellar blockchain (pending technology availability) to conceal board positions for enhanced secrecy and fairness. Players will collect unique on-chain items and abilities tied to their wallet addresses, fostering dynamic gameplay, cross-project compatibility, and rewarding community engagement.","A complete, playable, and free web3 game will be launched from this grant along with community events, tournaments, and promotional activities run by Scrying Stone. Stellar and Soroban will be used for asset management and in-game board management with some features dependent on development of onchain standards.",https://towa-hi.github.io/warmancer-docs/#/,Success will be measured by organic participation in the game through promotional events and tournaments. On-chain assets will facilitate,https://warmancer.io,https://github.com/towa-hi/solid-parakeet,https://www.youtube.com/watch?v=O55nGKcey1c,Yes,"1. Executive Summary
+
+Scrying Stone’s Warmancer: Black Friday is a blockchain game that combines immersive gameplay with cutting-edge blockchain technology, targeting the niche of web3 gamers and blockchain enthusiasts. The game leverages unique gameplay, community-driven fun, and NFT integration to create a compelling experience. This Go-To-Market plan outlines the strategy to build anticipation, drive user adoption, and establish a sustainable player ecosystem.
+
+  
+
+2. Target Audience
+
+-   Primary Audiences:
+    
+    -   Web3 gamers already engaged in blockchain-based games.
+        
+    -   People interested in NFT utility and play-to-have-fun models.
+        
+-   Secondary Audiences:
+    
+    -   Traditional gamers curious about blockchain.
+        
+    -   Developers and influencers within blockchain gaming communities.
+        
+
+  
+
+3. Key Value Proposition
+
+-   Gameplay: A grimdark aesthetic inspired by '90s DOS games with unique wizard strategy battles.
+    
+-   Blockchain Features:
+    
+    -   NFTs: Collectible in-game items with tangible utility such as unlocking in-game cosmetics and gameplay mechanics.
+        
+    -   Tokenomics: THERE IS NONE. This is not play-to-earn. This is not a way to make money. This is a free-to-play public good that utilizes blockchain technology to improve the gaming experience and help teach the public about the benefits of blockchain.
+        
+-   Market Differentiation: Combines nostalgic visuals with modern decentralized technology and unique modern gameplay mechanics developed by seasoned blockchain veterans and AAA video game developers.
+    
+
+  
+
+4. Go-To-Market Strategy
+
+#### Pre-Launch (Months 1-3)
+
+1.  Community Building:
+    
+    -   Launch Discord server focused on the game’s development journey.
+        
+    -   Create engaging Twitter threads showcasing concept art, lore, and gameplay teasers.
+        
+    -   Collaborate with blockchain gaming influencers for early access and reviews.
+        
+1.  Content Marketing:
+    
+    -   Weekly blog posts and Medium articles on the game’s development and blockchain features.
+        
+    -   Short-form videos for X and YouTube Shorts showcasing gameplay mechanics.
+        
+1.  Partnerships:
+    
+    -   Partner with NFT marketplaces for exclusive drops.
+        
+    -   Foundational beginning of a web3 gaming platform that will support multiple game launches..
+        
+
+#### Testnet Launch (Months 4-5)
+
+1.  Beta Testing:
+    
+    -   Conduct an open beta with community members.
+        
+    -   Incentivize feedback with exclusive NFTs for in-game assets.
+        
+1.  Marketing Campaign:
+    
+    -   Launch a NFT campaign with in-game perks.
+        
+    -   Paid ads on platforms like Twitter and Reddit targeting blockchain gamers.
+        
+    -   Host community events and tournaments.
+        
+1.  Influencer Engagement:
+    
+    -   Host live streams with gaming influencers showcasing the game.
+        
+    -   Leverage user-generated content with hashtag campaigns (#WizardDuel).
+        
+
+#### Post-Launch (Months 6+)
+
+1.  Ongoing Engagement:
+    
+    -   Introduce seasonal content like wizard tournaments and special quests.
+        
+    -   Reward community participation with leaderboard-based prizes.
+        
+1.  Analytics and Optimization:
+    
+    -   Monitor player retention, token minting, and community feedback.
+        
+    -   Iterate marketing strategies based on data insights.
+        
+
+  
+
+5. Metrics and KPIs
+
+-   Pre-Launch:
+    
+    -   Discord community growth: 500 members.
+        
+    -   Social media engagement: 250 average impressions per post.
+        
+-   Launch:
+    
+    -   Beta participation: 500 players.
+        
+    -   NFT minting success: 80% of available assets minted within the first week.
+        
+-   Post-Launch:
+    
+    -   Active daily users (ADU): 500 within the first three months.
+        
+
+  
+
+6. Six Month Budget
+
+-   AAA Video Game Developer Costs: $30,000
+    
+-   Blockchain Developer: $15,000
+    
+-   Art Director: $18,000
+    
+-   UI Artist: $6,000
+    
+-   Music and Sound: $6,000
+    
+-   Operational Costs: $1,500
+    
+-   Game Designer: $10,000
+    
+-   Community Engagement and Management: $20,000 
+    
+-   Engineering Lead: 30,000
+    
+
+  
+Total $136,500
+
+  
+
+7. Risks and Mitigation
+
+1.  Low User Adoption:
+    
+    -   Mitigation: Incentivize early adoption with rewards and exclusive content.
+        
+1.  Technical Issues:
+    
+    -   Mitigation: Rigorous beta testing and a bug bounty program.
+        
+1.  Market Saturation:
+    
+    -   Mitigation: Focus on unique value propositions and niche marketing.",We currently have an internal alpha testing version of the game with a public beta on the way.,"Deliverables:
+
+-   Develop a fully functional beta version with:
+    
+    -   Hand-drawn media and high-quality music assets.
+        
+    -   Single-player gameplay modes running on external servers.
+        
+    -   Basic in-game communication features.  
+
+    - Full integration of Stellar wallet support. 
+
+    - Soroban asset support.
+
+    - In-game asset verification system.
+        
+
+How to Measure Completion:
+
+-   Completion of all core gameplay features.
+    
+-   Availability of beta version for internal testing.  
+    
+
+Budget Allocation:
+- Blockchain Development (Stellar wallet, Soroban assets): $15,000
+
+-   Art and Design (Hand-drawn media, UI, styling, NFT asset production): $15,000
+    
+-   Music and Sound Production: $6,000
+    
+-   Coding (Game mechanics, server setup): $13,000
+    
+-   Project Management and Miscellaneous Costs: $5,000
+    
+
+Total Budget: $54,000  
+Estimated Completion Date: March 31, 2025","Deliverables:
+- Multiplayer gameplay modes running on external servers.
+
+- Launch a blockchain-enabled testnet version with:
+   
+    -   Anti-cheat smart contracts.
+        
+    -   Exploration of zero-knowledge proofs (if feasible).  
+        
+
+How to Measure Completion:
+
+-   Blockchain functionality verified in a test environment.
+    
+-   Testnet version playable with blockchain-enabled features, including multiplayer functionality..  
+    
+
+Budget Allocation:
+
+- Multiplayer development: $7000
+    
+-   Smart Contract Development (Anti-cheat, asset verification): $12,000
+    
+-   Game Design and Integration: $8,500
+    
+-   Quality Assurance and Testing: $5,000  
+    
+
+Total Budget: $32,500  
+Estimated Completion Date: May 31, 2025","Deliverables:
+
+-   Full launch of the on-chain game with:
+    
+    -   Fully functional anti-cheat mechanisms.
+        
+    -   Stellar wallet and Soroban support.
+        
+    -   Zero-knowledge proof implementation (if available).
+        
+    -   Community engagement program for early adopters.
+        
+    -   Free-to-play accessibility with no token requirement.
+        
+
+  
+How to Measure Completion:
+
+-   Successful deployment on mainnet.
+    
+-   Public availability of the game with all features.
+    
+
+  
+Budget Allocation:
+
+-   Final Coding (Mainnet deployment, game mechanics): $15,000
+    
+-   Art and Music Enhancements: $9,000
+    
+-   Community Engagement Program Setup: $10,000
+    
+-   Quality Assurance and Final Testing: $6,000
+    
+-   Operational Costs: $10,000
+    
+
+  
+Total Budget: $50,000  
+Estimated Completion Date: June 30, 2025","John Rubisoff, robek",d6fa2c9c (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/UnjEgy2XkXhz0EFbetFN3Q/LL7jhzAxoQhz1UeSIt9T8EE-aqzDxjpuOMZrEugb5YkaWJzjLvh7C2BTgs-XI03kTD7IadTuBEAYlAvY98LhEWC34CkSv3G5qDpZcwwTB0iqbE9alsr3zUBF1UmBuEpyY5b74E3-RwoU6RJk2QQ9EA/3HpXd3APZjSzrmfhF8LOwMTYgkasrlfUCkIwxtz5Grs),,https://x.com/scrying_stone,,
+PeerPesa,SCF #33,Connecting Africa via XLM payments,PeerPesa,Applications,https://communityfund.stellar.org/dashboard/submissions/recj3q75Rnnn3ahfb,Awarded,33.0,Pre-Launch #1 - MVP,$45000.00,$30000.00,107185.59,4/3/2025,Build,"Cross-border payments with XLM, simplifying money transfers for Africa. Fast, affordable, and blockchain-powered.","PeerPesa aims to expand its blockchain-based financial services through a new product build, focusing on enhancing cross-border payments and crypto-fiat settlements across East Africa.
+
+Features in the New Build:
+
+1.  Send Money Using XLM to Mobile Money/Bank Transfer: Enhancing the ability for users to send money directly using Stellar's XLM to mobile money wallets or bank accounts across borders. By leveraging Stellar's low transaction costs and rapid settlement capabilities, this feature will ensure affordable and near-instant transfers, providing a seamless experience for users needing cross-border remittances.
+    
+1.  Buy Crypto (XLM): Adding a feature for users to buy Stellar's XLM directly within the PeerPesa app. This will leverage Stellar's decentralized exchange (DEX) to facilitate easy purchasing of XLM at competitive rates. This improvement will empower users to easily acquire and hold XLM, thereby increasing financial inclusion and enabling more individuals to participate in blockchain-based financial services.
+    
+
+Impact of Improvements: These enhancements will make PeerPesa a more efficient and accessible financial service provider for users across East Africa. By leveraging Stellar's blockchain capabilities, PeerPesa will reduce the cost of cross-border transactions, provide direct access to XLM, and bridge the gap between traditional and blockchain-based finance, ultimately enhancing financial inclusion in the region.",https://docs.google.com/document/d/1xDwunlqk5DS_2PtADgnPnTi3DGAtcl2lYeiMj-DxUCk/edit?tab=t.0#heading=h.gjdgxs,"Success Criteria and Impact
+
+-   Financial Inclusion: Increased financial access for underserved communities in Africa, enabling secure cross-border payments via mobile money and bank transfers.
+    
+-   User Growth: Achieve significant user growth by onboarding at least 10,000 users within the first 6 months, focusing on both senders and recipients.
+    
+-   Transaction Efficiency: Facilitate over 5,000 successful cross-border transactions per month, reducing the cost and time taken for remittances compared to traditional methods.
+    
+-   Community Impact: Strengthen economic ties within the African diaspora by providing a reliable, affordable remittance platform, thereby fostering economic growth and resilience.
+    
+-   Partner Network Expansion: Establish strategic partnerships with at least 3 major mobile money operators and 5 local businesses or financial institutions, enhancing service accessibility.
+    
+-   Customer Satisfaction: Achieve a high satisfaction rate (above 90%) from user surveys, focusing on ease of use, transaction speed, and cost-effectiveness.
+    
+-   Scalability: Successfully launch on Stellar mainnet, demonstrating scalability and readiness for expansion to additional regions and user segments.",https://www.youtube.com/watch?v=5wdvAi4aejs,https://github.com/PeerPesa/Stellar.PeerPESA,https://www.youtube.com/watch?v=c8KHOLoDGnA,"Maybe in the future, but not in this submission","Go-To-Market (GTM) Plan for PeerPesa
+
+1. Market Research & Target Audience
+
+-   Target Regions: Focus initially on East Africa, including Uganda, Kenya, Tanzania, Rwanda, South Sudan, and the DRC. These regions have a high need for affordable and accessible remittance services.
+    
+-   Target Audience:
+    
+    -   Diaspora Communities: Africans residing abroad who need efficient and low-cost solutions to send money to their families.
+        
+    -   Local Recipients: Individuals and families receiving remittances in local currencies through mobile money or bank transfers.
+        
+    -   Small Businesses: SMEs dealing with cross-border transactions in the region.
+        
+-   Market Need: High remittance fees, limited financial infrastructure, and a strong need for fast, affordable, and secure money transfer services are key issues PeerPesa aims to address.
+    
+
+2. Positioning and Messaging
+
+-   Unique Value Proposition (UVP): “Effortless cross-border payments for Africa powered by Stellar blockchain—fast, reliable, and affordable money transfers with XLM to mobile wallets and bank accounts.”
+    
+-   Key Messages:
+    
+    -   Affordable cross-border remittances powered by blockchain.
+        
+    -   Direct integration with mobile money for easy, fast, and secure transactions.
+        
+    -   Empowering local communities through better access to digital financial services.
+        
+
+3. Channels and Marketing Strategy
+
+-   Digital Marketing:
+    
+    -   Social Media: Use platforms like Facebook, Twitter, Instagram, and LinkedIn to target diaspora communities and showcase the benefits of PeerPesa. Leverage testimonials and educational content about blockchain.
+        
+    -   Content Marketing: Develop blogs, explainer videos, and infographics to educate the audience on the benefits of using blockchain for remittances and the unique value PeerPesa provides.
+        
+    -   SEO: Target keywords related to remittances in East Africa, affordable money transfers, and Stellar blockchain payments.
+        
+-   Community Engagement:
+    
+    -   Collaborate with diaspora groups, cultural associations, and community leaders to promote PeerPesa as a trusted solution for cross-border payments.
+        
+    -   Organize virtual webinars to educate potential users about the platform and its benefits.
+        
+-   Partnerships:
+    
+    -   Establish partnerships with financial institutions, fintech platforms, and mobile money providers like MTN and Safaricom to expand the accessibility of services.
+        
+    -   Collaborate with local businesses and SMEs to use PeerPesa for transactions and business payments.
+        
+
+4. Launch Strategy
+
+-   Soft Launch (MVP):
+    
+    -   Launch the Minimum Viable Product (MVP) in key East African markets for a small group of early adopters, including local diaspora groups and small businesses.
+        
+    -   Gather user feedback and iterate based on initial usage data to improve the platform's features and user experience.
+        
+-   Testnet Launch:
+    
+    -   Use the Stellar testnet to identify potential issues and optimize the platform’s performance. Promote the testnet phase as a beta testing opportunity for users to participate and provide feedback.
+        
+    -   Create awareness through social media and local influencers, emphasizing the transparency and security benefits of the blockchain.
+        
+-   Mainnet Launch:
+    
+    -   Execute a full-scale launch with targeted marketing campaigns across digital channels, diaspora communities, and strategic partnerships.
+        
+    -   Offer incentives for new users, such as discounted transaction fees or referral bonuses.
+        
+
+5. Partnerships and Alliances
+
+-   Mobile Money Providers: Secure partnerships with major mobile money operators like MTN, Airtel, and Safaricom to facilitate seamless on/off-ramping of funds.
+    
+-   Stellar Ecosystem Partners: Leverage Stellar's LaunchKit and other infrastructure to gain visibility within the Stellar community and access potential partnerships.
+    
+-   Local Financial Institutions: Work with local banks and microfinance institutions to extend PeerPesa’s services to users without mobile money access.
+    
+
+6. Customer Support
+
+-   Onboarding Assistance: Provide a user-friendly onboarding process with tutorials and support for setting up accounts and completing KYC verification.
+    
+-   24/7 Customer Support: Implement an always-available support system via chat, email, and phone to address any user concerns in real-time.
+    
+-   Community Engagement: Use community managers to create a strong brand presence within key diaspora communities to build trust and loyalty.
+    
+
+7. Metrics for Success
+
+-   User Acquisition: Track the number of new users onboarded, both senders and recipients.
+    
+-   Transaction Volume: Monitor the total volume of transactions conducted through PeerPesa in both XLM and local currencies.
+    
+-   Customer Retention: Measure the percentage of users making repeat transactions to gauge user satisfaction.
+    
+-   Partnership Growth: Assess the number and impact of partnerships with financial institutions, mobile money operators, and local businesses.
+    
+
+8. Timeline
+
+-   Month 1-2: MVP launch and onboarding of early adopters.
+    
+-   Month 3-4: Testnet phase and beta testing with community feedback collection.
+    
+-   Month 5-6: Mainnet launch with a full-scale marketing campaign, partnership expansions, and incentives for early users.
+    
+
+This Go-To-Market plan aims to establish PeerPesa as the go-to platform for seamless, fast, and cost-effective cross-border payments across East Africa, leveraging Stellar blockchain to make financial services accessible to everyone.","-   Stellar Blockchain Integration: PeerPesa has successfully integrated with the Stellar blockchain, allowing seamless cross-border payments using XLM.
+    
+-   Partnerships: Established partnerships with flutterwave.com for fiat on/off-ramp integration and successfully integrated with their API.
+    
+-   Early User Adoption: Onboarded early adopters for the MVP phase, including members of the East African diaspora, with positive initial feedback on transaction speed and affordability.
+    
+-   Product Development: Successfully developed and deployed the PeerPesa dapp on the Stellar blockchain, allowing users to send and receive payments via mobile wallets and bank accounts.","Tranche 1 - MVP
+
+Stellar Community Fund Build Tranche Deliverables for PeerPesa  
+Revised Total Budget: $23,953 USD
+
+#### Overview
+
+PeerPesa is a remittance platform integrated with Stellar blockchain technology. The goal is to provide a seamless cross-border money transfer experience using Stellar Lumens (XLM) for Africans in the diaspora to send money home. The project milestones have been broken down into three key phases: Minimum Viable Product (MVP), Testnet, and Mainnet launch.
+
+#### Milestone 1: Minimum Viable Product (MVP)
+
+Revised Total Budget: $23,953 USD
+
+1.  Product Design and Development (Month 1)
+    
+    -   User Interface (UI) Design: Develop detailed wireframes and prototypes for key user flows, ensuring a smooth and intuitive experience.  
+        Revised Budget: $1,913 USD
+        
+    -   User Experience (UX) Testing: Conduct focus group sessions and usability testing to gather feedback on early UI concepts and incorporate necessary adjustments.  
+        Revised Budget: $956 USD
+        
+    -   Frontend Development: Build out the MVP interface, ensuring cross-platform compatibility for web and mobile.  
+        Revised Budget: $2,392 USD
+        
+    -   Backend Architecture: Design and implement a scalable backend structure to support core functionalities like payment processing, data storage, and user management.  
+        Revised Budget: $1,435 USD
+        
+    -   APIs Integration: Integrate third-party APIs for mobile money, crypto trading, and other key services such as KYC verification.  
+        Revised Budget: $956 USD
+        
+    -   Blockchain Integration: Integrate the Stellar Lumens (XLM) blockchain to handle cross-border transactions securely and efficiently.  
+        Revised Budget: $478 USD
+        
+    -   Quality Assurance (QA): Execute a comprehensive testing phase, covering functional testing, regression testing, and bug resolution.  
+        Revised Budget: $239 USD
+        
+1.  KYC and Compliance Integration (Month 1 - 2)
+    
+    -   Service Provider Evaluation: Conduct a comparative analysis of multiple KYC service providers to select the best partner for integration.  
+        Revised Budget: $478 USD
+        
+    -   API Integration for KYC: Develop and integrate API connections with the chosen KYC provider, including setting up automated identity verification workflows.  
+        Revised Budget: $1,435 USD
+        
+    -   Compliance Documentation: Develop legal documentation and compliance protocols in line with regulatory standards for data handling and user privacy.  
+        Revised Budget: $956 USD
+        
+    -   Testing and Adjustment: Test the KYC integration with sample users to identify bottlenecks and improve processing times.  
+        Revised Budget: $478 USD
+        
+1.  Payment and Crypto Integration (Month 2)
+    
+    -   Mobile Money Integration: Implement integration with local mobile money systems, focusing initially on key regions (e.g., Kenya, Uganda, Nigeria, Ghana, and others).  
+        Revised Budget: $1,435 USD
+        
+    -   Crypto Trading Feature: Develop a basic interface for users to buy and sell cryptocurrency, leveraging KotaniPay API.  
+        Revised Budget: $1,435 USD
+        
+    -   Transaction Tracking: Develop a system for real-time transaction monitoring, enabling transparency and ensuring a positive user experience.  
+        Revised Budget: $956 USD
+        
+    -   Fee Structure Implementation: Set up the infrastructure to charge transaction fees, including testing different models to identify the most sustainable revenue approach.  
+        Revised Budget: $478 USD
+        
+1.  User Testing and Feedback (Month 2 - 3)
+    
+    -   Beta Testing: Organize an initial beta launch with selected users to gather feedback on all core functionalities.  
+        Revised Budget: $956 USD
+        
+    -   Focus Groups and Surveys: Conduct focus groups and detailed user surveys to collect qualitative and quantitative feedback on product usability.  
+        Revised Budget: $717 USD
+        
+    -   Performance Analysis: Use analytics tools to track user behavior during beta testing and identify areas for improvement.  
+        Revised Budget: $717 USD
+        
+    -   Feature Prioritization: Develop a priority list for additional features or changes based on the feedback received.  
+        Revised Budget: $478 USD
+        
+1.  Team Expansion and Training (Ongoing - Month 1 - 3)
+    
+    -   Hire Key Personnel: Recruit additional developers, UX designers, and compliance experts to handle the increased scope of work.  
+        Revised Budget: $2,392 USD
+        
+    -   Training: Conduct internal training for the team to ensure they are well-equipped to use the blockchain features, KYC tools, and integration mechanisms effectively.  
+        Revised Budget: $956 USD
+        
+    -   Documentation: Develop detailed operational manuals for the MVP that outline processes for both technical and customer support teams.  
+        Revised Budget: $956 USD","Tranche 2 - Testnet
+
+#### Milestone 2: Testnet Phase
+
+Revised Total Budget: $13,829 USD
+
+1.  Testnet Deployment and Monitoring (Month 3 - 4)
+    
+    -   Testnet Setup: Deploy the MVP onto a testnet environment to validate functionality in a blockchain ecosystem.  
+        Revised Budget: $2,308 USD
+        
+    -   Monitoring Tools Development: Develop monitoring tools to observe the network performance, transaction speeds, and identify any bottlenecks.  
+        Revised Budget: $1,385 USD
+        
+    -   Scalability Testing: Conduct scalability tests to ensure the platform can handle increasing transaction volumes without degrading performance.  
+        Revised Budget: $1,846 USD
+        
+1.  Smart Contract Optimization (Month 4)
+    
+    -   Code Review and Refactoring: Review and optimize the existing smart contracts to improve efficiency and reduce gas costs.  
+        Revised Budget: $1,385 USD
+        
+    -   Gas Optimization: Implement optimizations to reduce gas fees and ensure the platform is cost-effective for users.  
+        Revised Budget: $923 USD
+        
+    -   Unit Testing: Develop and run comprehensive unit tests to ensure smart contracts behave as expected under different scenarios.  
+        Revised Budget: $923 USD
+        
+1.  Infrastructure Scaling and Stress Testing (Month 4)
+    
+    -   Load Testing: Simulate high volumes of transactions to test the infrastructure's ability to scale.  
+        Revised Budget: $1,385 USD
+        
+    -   Performance Optimization: Analyze the results from load testing and optimize infrastructure components to handle increased demand.  
+        Revised Budget: $1,385 USD
+        
+    -   Cloud Resource Management: Optimize cloud resource usage to ensure scalability while maintaining cost efficiency.  
+        Revised Budget: $923 USD","Tranche 3 - Mainnet
+
+Revised Total Budget: $7,218 USD
+
+#### Milestone 3: Mainnet Launch
+
+Revised Total Budget: $7,218 USD
+
+1.  Mainnet Deployment (Month 5)
+    
+    -   Mainnet Setup: Deploy the fully tested MVP onto the mainnet, ensuring all components are configured properly for a live environment.  
+        Revised Budget: $2,062 USD
+        
+    -   Migration from Testnet to Mainnet: Migrate all data and configurations from the testnet environment to the mainnet.  
+        Revised Budget: $1,031 USD
+        
+    -   Validation and Verification: Conduct final checks and verification of all functionalities on the mainnet to ensure the platform is fully operational.  
+        Revised Budget: $1,031 USD
+        
+1.  Smart Contract Final Review (Month 5 - 6)
+    
+    -   Final Review of Smart Contracts: Conduct a final review of the smart contracts to ensure optimal performance on the mainnet.  
+        Revised Budget: $3,094 USD
+        
+
+-  
+
+Grand Total Revised Budget: $45,000 USD",peerpesa,idkwcnrjmkcn8j9fjrin.jpg (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/lntuqPe3Azvi7To3AbmGFA/_ZHYvyrg8QStCE2-w6rCoSBWMp7ugeHAJVBf2Pqfu4wBw5y3sAa4-LkcqBuLQ67ddfZMsspWZTXg-XEUyRt4YE-fv9dg2n5ID5Qhazg0Km7tGD1HX918GI9Z_gOSrZDGkuIgeFCZmo3A6CReBsViQg/N39FPjMwbli7S7bbDsV1VwFtsNaY637Tj1wexpOpMgc),https://www.linkedin.com/company/peerpesa/,https://x.com/peer_pesa,https://discord.gg/hxzdqsEx,https://docsend.com/view/8rirxtmrjhvuh9hj
+Stride,SCF #33,Accelerating Stride's Fitness Ecosystem,Stride,Applications,https://communityfund.stellar.org/dashboard/submissions/recQTvLPkW5iXhuCO,Awarded,33.0,Pre-Launch #1 - MVP,$120000.00,$80000.00,271610.19,5/7/2025,Build,"Stride is planning to build a fitness ecosystem which motivates and rewards the average person to build healthy habits and on the other hand solves everyday problems for fitness fanatics that want to elevate their fitness journey. A fitness ecosystem for everyone everywhere, making a change stride by stride.","What is Stride?
+
+Stride currently consists of 2 applications forming a fitness ecosystem, the idea is to reach as many people and effectively make a difference in as many peoples lives as possible no matter how small that change may be. To do that we decided to move forward with a dual application approach making it more accessible to anyone and everyone. So let’s jump into both of our applications and what their purposes are:  
+
+Stride Native App (Also considered the Pro app)
+
+-   Available on both GooglePlay and Apple App Store
+    
+-   Currently a MVP Beta built to allow users to earn $STRIDE airdrop points beginning there fitness journey as well as socialise.
+    
+
+What do we intend to build it into?
+
+-   A fitness application that will be a better solution to fitness enthusiasts than current traditional apps like Strava.
+    
+-   Consisting of features such as: Fitness tracking, advanced analytics, AI Fitness plans, PVP Racing, Hardware integrations, and a dynamic reward system, rewarding users for there efforts in ways that traditional apps simply don’t.  
+    
+
+Stride Lite Mini App (Our Lite Version)
+
+-   Available currently on Telegram
+    
+-   Coming soon to LINE Messenger App (We have been accepted to have early access to LINE’s SDK for there soon too launch Mini App store, allowing us to be of the first applications to launch to 250 million LINE Messenger users!)
+    
+-   Currently a Beta built to allow users to walk to earn in game currency and spend this in game currency to enter cash raffles.
+    
+-   The idea is to keep the application simple, fun and very rewarding, making it attractive enough to those who might not be interested in fitness but convincing them to partake and with time maybe even upgrade to Stride Pro and take there fitness journey to the next level!
+    
+-   Launching Stride Lite on Fitness apps has allowed us to tap into a completely new market for the fitness applications which non of our competitors have and thus allowing us to already reach hundreds of thousands of users in just a couple months while in beta stage!  
+    
+
+Please refer to this google doc for some visuals - https://docs.google.com/document/d/1Z-REUO-zYc_Hn4BgyqvNT9HQc9TX20eSd7DbMZUjoME/edit?usp=sharing  
+
+Stride integrates Stellar’s tech to enhance user engagement and ensure transparency in its fitness ecosystem. Key features include:
+
+Soulbound Badges (Metadata for Achievements):  
+
+How Stellar is used: Soulbound NFTs are created on Stellar's Soroban contracts to track user achievements and fitness milestones on-chain. Impact: Provides an immutable and transparent way for users to showcase their fitness progress, increasing motivation and long-term engagement.  
+
+PVP Challenges and Leaderboards:
+
+How Stellar is used: Soroban smart contracts manage real-time tracking, ranking, and fair reward distribution based on leaderboard performance. Impact: Encourages competition and gamification, boosting user activity and retention.  
+
+Raffles for Token Rewards:
+
+How Stellar is used: Stellar stores a secure, on-chain record of raffle wins and ensures transparent reward distribution. Impact: Builds trust in the fairness of reward mechanisms while adding an element of fun for users.  
+
+Softcoin Claims via Mini apps (e.g., Telegram, Line):
+
+How Stellar is used: Fitness activity data and achievements are recorded on-chain to ensure transparency and reliability. Impact: Simplifies the backend process and enhances trust, ensuring scalability and user satisfaction.
+
+These features collectively create a robust fitness ecosystem that leverages Stellar’s capabilities to deliver value, fairness, and transparency to its users.",https://docs.google.com/document/d/1Z-YK3aNrp-zB5bg7q9OFzKP-d4CDMDySoQkUz6JJ6-U/edit?usp=sharing,"Success for Stride is closely tied to user adoption, engagement, and the impactful integration of Stellar’s blockchain capabilities:  
+
+User Growth:
+
+Target 1.89M DAUs by Month 12, focusing on scalable onboarding through the Lite app and delivering a seamless experience for all user types. Stellar’s Soroban smart contracts will ensure transparent and secure handling of user activity and achievements, enhancing trust among a growing user base. Retention & Engagement:
+
+Successfully implement on-chain distribution of metadata for badges and achievements using Stellar, ensuring immutable records for advanced activity tracking, leaderboard standings, and raffle wins. This creates a fair and transparent ecosystem for users.  
+  
+Democratising Access:
+
+Broaden accessibility through Lite app onboarding targeted at underrepresented demographics, expanding wellness and fitness solutions to a global audience. Stellar ensures scalability and affordability for seamless interactions across diverse user bases.  
+  
+Impact on Ecosystem Trust:
+
+Stellar’s blockchain integration reinforces transparency and fairness, creating an environment where users trust the ecosystem to reward genuine effort and activity milestones without initial dependence on token rewards. Stride’s success leverages Stellar to deliver a fitness ecosystem rooted in transparency, user engagement, and inclusivity, promoting wellness at scale.
+
+  
+Personalisation:
+
+Provide hyper-personalised fitness journeys using AI, delivering tailored insights and recommendations to enhance physical and mental health outcomes.  
+  
+
+Real-World Impact:  
+Stride addresses both personal and societal challenges tied to fitness and health by reducing barriers like cost, time, and access. Gamification, financial inclusion, and hyper-personalization ensure fitness is engaging, accessible, and rewarding for everyone. By using AI and gamification to create rewarding experiences, Stride empowers users to take ownership of their health while contributing to global wellness advocacy.",https://www.stridesocial.xyz/,https://docs.google.com/document/d/16mdjmorHlAX4lBbTK1xITqDw_29h2QoRxYBLE2Yq7zw/edit?usp=sharing,https://docs.google.com/document/d/1Td1kfNFVKpJxCbttZLF-q5yeQOGXpaiUygnhIVmcBMA/edit?usp=sharing,Yes,"Q4 2024
+
+-   Launch Stride Lite on Telegram
+    
+-   Stride Lite feedback & Improvements
+    
+-   Launch monetisation on Stride Lite
+    
+-   Complete Stride Native MVP
+    
+-   Open Fundraising rounds
+    
+
+Q1 2025
+
+-   On-chain integration (Stride Lite)
+    
+-   Begin development on Stride Native v1.5 (With on-chain integration)
+    
+-   Start TGE Marketing campaign
+    
+-   Secure Launchpad and Listing partnerships
+    
+-   Launch Stride Lite Testnet
+    
+-   Launch Stride Native Testnet
+    
+-   TGE
+    
+
+Q2 2025
+
+-   Launch Mainnet for Stride Native & Stride Lite
+    
+-   Web2 Campaigns
+    
+-   Paid Acquisition (Social, search, display etc)
+    
+-   ASO (App Store Optimisation)
+    
+-   Email Marketing Launch
+    
+-   Expand Stride Lite accross more messenger platforms
+    
+-   Wearable & Sensor integration
+    
+-   AI Personlisation integration
+    
+-   Offline marketing (Events, sponsorships)
+    
+-   Corporate wellness programs
+    
+-   Guild onboarding events
+    
+
+Q3 2025
+
+-   Localised campaigns in new markets
+    
+-   Partner with local influencer & brands
+    
+-   Leverage regional exchange partnerships
+    
+-   Expand region specific guild partnerships (USA , UK , Asia , LATAM )","Stride has demonstrated strong early traction across its main MVP app and Stride Lite, engaging users globally and establishing a solid foundation for future growth.  
+
+Stride App (MVP):
+
+-   Since launch, Stride App has successfully onboarded over 15,000 users, with monthly active users consistently around 4,200. This high level of user interest confirms the app’s appeal as a comprehensive fitness and wellness tool.
+    
+-   Users are highly engaged, with an impressive average session duration of 8 minutes and 25 seconds, indicating that the app’s features and user experience effectively capture and maintain user attention.
+    
+-   Retention rates are strong especially at an MVP stage & 4 months in, with approximately 30% of users returning, highlighting Stride’s ability to keep users motivated and engaged beyond the initial download.
+    
+-   The app is resonating in diverse markets, with significant traction in India, the United States, and South Korea, reflecting Stride’s potential as a global fitness solution.
+    
+-   Current on-chain integration - We have 1 on-chain feature which is Solana wallet connect and this is used specifically just for our NFT collection which is on Solana however we are open to migrating this to Stellar.  
+    
+
+Stride Lite:
+
+-   In just over three weeks, Stride Lite has attracted 131,000 unique visitors and generated 679,000 page views, with an average of 3.06 pages per visit, underscoring high engagement and interest.
+    
+-   Over the past 7 days, Stride Lite recorded 43,256 unique visitors and 166,927 page views. Daily, weekly, and monthly active users stand at 13,634, 43,099, and 131,845, respectively.
+    
+-   The app has gained notable traction in regions such as Nigeria, Germany, and the United States, with a balanced mix of new and returning users, maintaining a 45% retention rate, indicating a strong user base with ongoing interest.
+    
+-   Current on-chain integration - We have recently made minor integrations of Metis L2, users can connect there wallet and make gas-less transactions. This campaign is milestone based and short term, no exclusivity or agreements beyond achieving the milestones which are almost complete already. Once milestones are complete Stride Lite will have no on chain integrations and can continue with Stellar integrations  
+    
+
+Analytic snapshots: https://docs.google.com/document/d/1UH_Kzf7-qSTxwJYjcNP5ySWKyAK7pWcKbKGg6o92q98/edit?usp=sharing","Deliverable 1: MVP Stage - Stride Lite Development]  
+
+-----------------------------------------------------------
+
+Brief Description:
+
+Develop the MVP for Stride Lite, focusing on simplified onboarding, fitness tracking, and essential user engagement features. This phase will prioritise creating a fully functional application while preparing the foundation for future on-chain integrations. Stride Native will also progress with fitness tracking features and gamification as part of its MVP. During this phase we will also be preparing for Stellar's on-chain integration for Testnet phase.  
+
+How to Measure Completion:
+
+-   MVP of Stride Lite functional with:
+    
+-   Simplified onboarding, in-app purchases, subscriptions, and user motivation features.
+    
+-   Basic user engagement features like challenges and rewards are functional.
+    
+
+-  In-app purchases using powered by Soroban smart contracts.
+
+-   MVP of Stride Native App includes:
+    
+-   Fitness tracking, gamification, and core communication systems.
+    
+-   Figma designs demonstrating the UI/UX of tranche 2.
+    
+-   Collection of user feedback from the first 1,000 users.  
+    
+
+Additional Integration:
+
+-   Stride has already launched an MVP Telegram miniapp, designed as a lightweight solution for step tracking and reward collection. This miniapp complements Stride Native by providing an accessible entry point for broader user engagement, particularly in underserved regions. Users can seamlessly participate in the ecosystem and transition into Stride’s more feature-rich native app.
+    
+-   The miniapp’s design addresses users who prefer simple, low-barrier access or lack the ability to download full applications, meeting them where they are while driving engagement globally.
+    
+-   This also puts Stride in the unique position to conquer the messenger apps market as a first mover fitness application on new innovative platforms and markets completely untapped by any fitness applications as a whole  
+    
+
+Estimated Date of Completion:
+
+45 Days
+
+Budget:
+
+$40,000","[Deliverable 2: Testnet Integration and Expansion]  
+
+-----------------------------------------------------------
+
+Brief Description:
+
+Begin testing and deploying on-chain features for Stride Lite and Stride Native App using Stellar’s testnet. This phase will integrate blockchain functionalities such as Soulbound Contracts for achievements, PVP Contracts, and Leaderboard Contracts into the ecosystem to prepare for seamless user engagement. Development of Stride Native advances to include features like advanced analytics, social functionalities, and leaderboard systems.  
+
+How to Measure Completion:
+
+-   Soroban contracts for fitness achievements (e.g., badges via Soulbound Contracts) deployed on Stellar’s testnet.
+    
+
+Soroban contract
+
+-   Soulbound contracts-
+    
+    -   Since Soulbound NFTs are not natively supported by Stellar, we will simulate their behaviour using custom smart contracts to securely recognize and reward user achievements on-chain.
+        
+-   PvP contracts -
+    
+    -   Enable users to compete against each other in challenges, like achieving the most footsteps in a period, with rewards distributed from a pooled treasury to top performers.
+        
+    -   Users will be able to make transactions on the smart contracts through in-wallet integration within the Stride app, leveraging guidance from Stellar’s Wallet SDK
+        
+-   Leaderboard contracts
+    
+    -   User data will be stored using permanent storage on-chain, and the Horizon API will be used to fetch this data from the smart contract to dynamically build and update the leaderboard.
+        
+-   Subscriptions & In-app purchases:
+    
+-   On ramp & Off ramp
+    
+    -   Seamless integration of fiat-to-crypto and crypto-to-fiat services, leveraging Stellar ramp for efficient transactions, to simplify user payments and withdrawals in the Stride ecosystem…  
+        
+
+Integration with Anchor Platform:
+
+-   By leveraging Anchor Platform’s webhook functionalities, we can listen to real-time events on Stride’s smart contracts, enabling responsive and dynamic interactions within the ecosystem.
+    
+-   Stride Lite Testnet Features: In-app reward testing, wallet integration, and preparation for mainnet compatibility.
+    
+-   Stride Native Testnet Features: Gamification systems like leaderboards, advanced fitness analytics, and community features.
+    
+-   Testing reports from user feedback with functional on-chain mechanics on Stellar testnet.
+    
+-   Detailed reports summarising testing outcomes from the Stellar testnet, focusing on gas costs, reliability, and scalability of the contracts.
+    
+-   Reports demonstrating the successful integration of off-chain fitness data with on-chain contracts, validating the automation of data submission and event-triggered contract interactions.
+    
+-   Write unit tests that comply with Stellar's security standards.
+    
+-   Updated Figma designs to showcase UI/UX refinements of tranche 3  
+    
+
+Estimated Date of Completion:
+
+90 Days
+
+Budget:
+
+$50,000","[Deliverable 3: Mainnet Launch and Advanced Development]  
+
+-----------------------------------------------------------------
+
+Brief Description:
+
+Launch production-ready Stride Lite on Stellar’s mainnet with fully integrated on-chain features and reward systems. Advance the development of Stride Native App for iOS and Android, focusing on cutting-edge features such as PVP competitions, fitness personalization, and corporate-focused modules.  
+
+How to Measure Completion:
+
+-   Soroban smart contracts deployed on Stellar mainnet (Soulbound, PVP, and Leaderboard Contracts).
+    
+-   Mainnet-ready Stride Lite with functional in-app purchases, subscriptions, and rewards.
+    
+-   Development milestones for Stride Native App include:
+    
+-   PVP racing functionality, and targeted user features (e.g., corporate fitness plans).
+    
+-   AI-driven fitness personalization
+    
+
+By leveraging an open-source LLM like LLaMA 3, we can provide tailored fitness experiences while reducing costs associated with cloud-based solutions and ensuring user data privacy.
+
+-   Wearables & Sensors
+    
+
+We will utilise an advanced API like Tryterra API to ensure compatibility with a wide range of sensors and wearables, providing seamless data integration across devices.  
+
+Estimated Date of Completion:
+
+60 Days
+
+Budget:
+
+$35,000","Nicholas, dll21 or david",gdbikmdkbz3i7sucwkmf.png (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/sZPN1LP-85dz55IYlYSXHw/JOwOC-laxOWLv7iKf6_k3MR5dnXfw3VsPdPpFOg4RhVdlx-wknL0J4eqW-r39hSlo5Xil-MMBu0PTKGs7E-CRAIlzWwUiMMPp3-r2LxWQvrbNe98MVi2dO5gS15RhFLw07eVMNKlFCG-ODI8Z6oLbA/rqdum9kZWthH5vjxK1603vIjdw8ulmjLPUbwnNERRgs),,https://x.com/stridesocials,https://discord.gg/stridesocials,https://pitch.com/v/stride-pitch-deck-9vzv8x
+Soroban Optimistic Oracle  (SOO) ,SCF #33,Soroban Optimsitic Oracle ,Soroban Optimistic Oracle  (SOO) ,Applications,https://communityfund.stellar.org/dashboard/submissions/recP2KIZz7r2yBrkG,Awarded,33.0,Pre-Launch #1 - MVP,$30000.00,$40000.00,143688.78,4/23/2025,Build," SOO is a decentralized arbitration system for resolving on-chain disputes. It serves as an oracle for projects like prediction markets, insurance protocols, derivatives, and cross-chain bridges, providing data ranging from cryptocurrency prices to sports and political events.","Stellar soroban contracts are currently being used for onChain contract development. I have done some initial work in this github repo(https://github.com/stackman27/soroban-opt-oracle) which i plan on expanding.
+
+-   OnChain Optimistic Oracle (OOO) contract
+    
+    -   The OOO is used to assert truths about the world which are verified using an optimistic escalation game.
+        
+    -   Core idea: an asserter makes a statement about a truth, calling ""assertTruth"". If this statement is not challenged, it is taken as the state of the world. If challenged, it is arbitrated using the Data verification engine or if configured, an escalation manager. Escalation managers enable integrations to define their own security properties and tradeoffs, enabling the notion of ""sovereign security"".
+        
+-   OnChain Voting Oracle contract
+    
+    -   Since all transactions are public we have to use extra tricks to keep some things temporarily hidden. Let’s say we need input like an answer to a quiz or a move in a game from a group of players. We don’t want these players to be able to just watch the blockchain for their competitors’ answers. What we’ll do is have everyone hash their answer and submit that first (the commit). Next, everyone will submit their real answer (the reveal) and we can prove on-chain that it hashes to the committed value. This interaction is handled by the Voting Oracle contract in soroban
+        
+-   OnChain Staking Contract
+    
+    -   Staking contract enabling XLM to be locked up by stakers to earn a pro rata share of a fixed emission rate. This contract also handles the staking, unstaking and reward retrieval logic. There won't be any new XLM token generated, but the yield will be generated based on the asserter/disputer lost staked. Tentative staking interface below;
+        
+            #[derive(Debug)]
+            pub struct VoterStake {
+                stake: u128,                           // XLM staked by the staker.
+                pending_unstake: u128,                 // XLM in unstake cooldown period, waiting to be unstaked.
+                pending_stakes: HashMap<u32, u128>,    // If a voter stakes during an active reveal, stake is pending.
+                rewardspaidper_token: u128,          // Internal tracker used in the calculation of pro-rata share of rewards.
+                outstanding_rewards: u128,             // Accumulated rewards that have not yet been claimed.
+                unapplied_slash: i128,                 // Used to track unapplied slashing in the case of bisected rounds.
+                nextindexto_process: u64,            // The next request index that a staker is susceptible to be slashed on.
+                unstake_time: u64,                     // Time that a staker can unstake. Used to determine if cooldown has passed.
+                delegate: Option<String>,              // Address a staker has delegated to. The delegate can commit/reveal/claimRestake rewards.
+            }
+        
+    
+-   OnChain Reward Distribution contract
+    
+    -   Reward Distribution is a sub contract that Staking Contract inherits. Rewards can either be distributed per epoch or based on the end of challenge period. The unstaking of reward will have to go through a cooldown period
+        
+
+-   Export a pluggable interface for other Soroban contracts to use it easily
+    
+    -   Build necessary adaptars for the oracle contract interface to be easily pluggable in other projects
+        
+    -   The adapters can be universally used or be changed subject to a specific project need
+        
+
+-   OffChain Data Verification Engine (DVE)
+    
+    -   This is an offChain component which will be written in Rust to read/write to Stellar blockchain
+        
+    -   DVE Purpose: Resolves disputes in the Soroban optimistic oracle by verifying disputed data.
+        
+    -   Dispute Process: Ex: A price request is submitted to the DVE, triggering a vote among SOO stakers.
+        
+    -   Voting Period: Voting lasts x hrs
+        
+    -   Voting Criteria: SOO stakers use off-chain price feeds to guide their votes.
+        
+    -   Final Price: The DVE aggregates votes to determine the final asset price for the given timestamp.",https://www.figma.com/deck/pEr2MvlTAa5ErIVBuxQ7GG/Soroban-Opt.-Oracle?node-id=1-32&t=pmd69aKDfgZ30lq4-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1,"Expected success criteria by the end of the grant;
+
+-   Integrate with 3 different Stellar projects enabling real-time data flow from the oracle to their platform
+    
+-   Have > 10 stakers consistently voting and earning rewards using our system
+    
+-   The rewards and security of the system grows as the project grows
+    
+-   Become a standard for onChain dispute handling on Stellar ecosystem
+    
+-   Keep the system economically secure and have strong security against spams, bots and malicious users.",https://github.com/stackman27/soroban-opt-oracle,https://github.com/stackman27/soroban-opt-oracle,https://drive.google.com/file/d/1F7_pCM9KtPEXOV7B7H0oykRZ4mDlIiew/view?usp=sharing,Yes,"Engage the Stellar Developer Ecosystem:
+
+-   Build early traction and trust by connecting with Stellar ecosystem founders and key developers.
+    
+-   Foster relationships with influential projects within the Stellar ecosystem and integrate them into the SOO service.
+    
+
+Community Outreach through Developer Networks:
+
+-   Collaborate with Stellar-focused developer communities to promote the adoption of the SOO framework.
+    
+-   Launch small bounty programs to incentivize the creation and use of SOO service
+    
+
+Encourage XLM holders to stake their token for rewards:
+
+-   with SOO one can earn rewards by voting on correct source of truth. This can be a big incentive for XLM holders to stake and earn extra yield on the side","The Stellar Optimistic Oracle (SOO) is currently in the process of being deployed to the Stellar Testnet. This integration is pivotal for expanding the range of use cases that can be built on Stellar, from DeFi (decentralized finance) applications to synthetic assets, prediction markets, and real-world data tracking.
+
+As part of this deployment, we are conducting several test flights to rigorously test the functionality and reliability of the Optimistic Oracle within the Stellar Testnet environment. These test flights involve the deployment of specific smart contracts that simulate real-world data requests, dispute resolutions, and data verification processes. In addition to the technical deployment, I am also in active communication with several other Stellar-funded projects that are well-positioned to leverage the capabilities of the Stellar Optimistic Oracle. These projects span across multiple sectors, including finance, data marketplaces, and NFT platforms, and could significantly benefit from integrating this oracle technology. The goal is to explore collaborative opportunities where SOO can be incorporated into existing Stellar-based applications or be used to create new innovative products that require reliable and decentralized data feeds. These projects are looking for ways to incorporate off-chain data for use in:
+
+-   Automated price feeds for decentralized trading or financial derivatives.
+    
+-   Synthetic assets that track the value of real-world commodities and assets.
+    
+-   Event-driven smart contracts in prediction markets or decentralized insurance.
+    
+-   Cross-chain interoperability, where data from other blockchains or traditional systems can be fed into Stellar-based ecosystems.","1.  [Deliverable 1: MVP]
+    
+    -   Brief Description:  
+        The MVP will focus on implementing a working version of the product to quickly achieve market fit and validate core functionalities.
+        
+    -   How to Measure Completion:
+        
+        -   End-to-End On-Chain Completion (Soroban): Deploy basic on-chain contracts on Soroban to ensure the core system functions on the Stellar blockchain.
+            
+        -   Off-Chain Data Verification Engine: Develop an off-chain data verification engine in Rust to handle external data processing.
+            
+        -   Mock Stakers Simulation: Run mock stakers to demonstrate the software’s usage in verifying claims.
+            
+        -   End-to-End Functionality: Ensure the product can verify claims truthfully and reliably from off-chain data sources.
+            
+        -   No Frontend Development: Frontend work is excluded during the MVP phase.
+            
+    -   Estimated date of completion
+        
+        -   Mid Feburary 2025
+            
+    -   Budget
+        
+        -   $7,000
+            
+        -   Soroban Contract Engineer, 100hr at $70rate, $7,000","1.  [Deliverable 2: Testnet]
+    
+    -   Brief Description:  
+        After the MVP release, public testing will be conducted to ensure the Stellar Optimistic Oracle (SOO) works as expected in a real-world, non-production environment.
+        
+    -   How to Measure Completion:
+        
+        -   Deploy Contracts on Stellar Testnet: Deploy SOO contracts to Stellar Testnet for live testing.
+            
+        -   Two-Step Voting Process: Implement and test the privacy-focused two-step voting mechanism.
+            
+        -   Staking/Slashing Mechanism: Integrate staking/ slashing for honest data reporting and penalties for bad actors.
+            
+        -   Voter Yield Mechanism: Develop yield generation for validators involved in dispute resolution.
+            
+        -   Economic Guarantees for Voter Yield: Design economic incentives to ensure sufficient rewards for stakers.
+            
+        -   Public Testing: Make the testnet version publicly available for users to test claims and participate.
+            
+        -   Extensive Contract Testing: Perform thorough testing of contracts for security and functionality.
+            
+        -   Frontend Integration: Complete frontend and integrate with Soroban contracts + off-chain code.
+            
+    -   Estimated date of completion
+        
+        -   Mid March 2025
+            
+    -   Budget
+        
+        -   $13,000
+            
+        -   Soroban Contract Engineer, 100hr at $70rate, ~$7,000
+            
+        -   Full Stack Engineer, 90hr at $65rate, ~$6,000","1.  [Deliverable 3: Mainnet]
+    
+    -   Brief description
+        
+        -   Audited Soroban Contracts: All contracts will undergo external security audits to ensure they are secure and ready for mainnet deployment.
+            
+        -   Partnership with Stellar Projects: At least one Stellar-funded project will integrate SOO, enabling real-time data flow from the oracle to their platform.
+            
+        -   End-to-End (E2E) Functionality: The system will be fully functional for both on-chain (Stellar) and off-chain (external data) interactions, with all components tested for seamless integration.
+            
+        -   Economic & Privacy Guarantees: The system will offer strong economic incentives for correct behavior and implement privacy protections for all participants.
+            
+    -   How to measure completion
+        
+        -   Audited Contracts: Successful completion of security audits with reports available to the community.
+            
+        -   Integration with a Stellar Project: At least one Stellar-based project will integrate SOO, demonstrating its practical use.
+            
+        -   End-to-End Testing: Complete E2E tests showing smooth data flow and dispute resolution on both the on-chain and off-chain components.
+            
+        -   Stakers Available for Voting: At least 5-10 stakers ready to participate in dispute resolution during mainnet launch.
+            
+    -   Estimated date of completion
+        
+        -   Late April 2025
+            
+    -   Budget
+        
+        -   $10,000
+            
+        -   Soroban Contract Engineer, 100hr at $70rate, ~$7,000
+            
+        -   Full Stack Engineer, 50hr at $65rate, ~$3,000",shanks,2873b350 (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/xTGblT9c8MPoBM7I6lSM0A/ZP_MF_f-YR7u0CVf10F9GjdxyJPWe3GRFYr0292-CEhxJrDrxNhLlTC_r5EFFb6jpTl3IL45MPkFn2lAVrOWaw2IbZyrxyVX-VCg6-i_rMs6dhZ_kfj6zOXmShW5P7zQQVAxJ9fp-piu4nnD3OZIFg/7dJ5WosiAGcQYB3drmfNXTRWpmVJrtRrmOpWGxkXIyM),,,,
+CodeLnPay,SCF #33,CodeLn Pay for Crypto Payroll,CodeLnPay,Applications,https://communityfund.stellar.org/dashboard/submissions/rec5hY727ovjmxujE,Awarded,67.0,Pre-Launch #2 - Testnet,$90100.00,$60066.67,219241.86,,Build,CodeLn Pay is a cross-border salary payment platform that helps African-Based Remote Workers seamlessly collect their income in Stable Coins.,"According to Mckinsey 2023 report, Africa will be home to the world’s largest working-age population by 2040. Africa is currently the fastest growing talent market for remote work.  But the problem is, remote workers struggle to access their income from employers abroad. They experience salary delays of up to 2 weeks, high withdrawal charges of up to 15% and they are constantly being short-changed by the local currency devaluation.
+
+We built CodeLn Pay to solve this problem. CodeLn Pay is a crypto cross-border payment platform that allows African-based remote workers to get paid the same day, at an affordable charge of 1% and giving them the option to receive salaries in stable coins. They are able to seamlessly invoice employers, receive payment and save stable coins in their digital wallet. We have most of our users in Nigeria and Ghana and we are expanding to Kenya where we have gotten interest from users in that market. We are helping our users to overcome the challenges of cross-border payments that are especially unique to Africa and delivering a fast, secure, and cost-effective payment channels on chain.
+
+Our current platform is a Web App on SEP 24, this award will be used to build our mobile app and integrate SEP 31 on Stellar. We have gathered feedback from our users from which we will upgrading our product.
+
+Here are the feature breakdown below:
+
+1.  Upgrade Current Implementation to SEP31  
+    Frontend: Wallet UI implementation for SEP31 using the Stellar Wallet SDK  
+    Backend: API implementation for new functionalities
+    
+1.  Mobile Application Design  
+    Wireframe/ LoFi design of app and User flow  
+    User Interface Design, Screen Design
+    
+1.  Mobile Application Development (Flutter App)  
+    Frontend: Implement core functionality,  login, registration , invoicing  
+    Backend: API implementation for mobile core functions
+    
+1.  Mobile Wallet Implementation  
+    Frontend: Pay in UI Implementation  
+    Backend: Backend REST APIs for integration with mobile frontend
+    
+1.  Mobile Wallet Withdrawal Function
+    
+    Frontend: Cashing Out UI Implementation
+    
+    Backend: Backend integration to provide withdrawal for markets",https://res.cloudinary.com/dfy4gylof/image/upload/v1726631368/CodelnPay_SEP31_Process.png,"According to Mckinsey 2023 report, Africa will be home to the world’s largest working-age population by 2040. Africa is currently the fastest growing talent market for remote work. The problem is, African-based remote workers struggle to collect their income from employers abroad. They experience challenges around salary delays of up to 2 weeks, high withdrawal charges of up to 15% and and they are constantly being short-changed by the local currency devaluation. CodeLn Pay is an Impact first startup that is helping African youths to mitigate the challenges that are limiting seamless access to decent income. We are addressing financial access challenges that are especially unique to an emerging market like Africa.",https://pay.codeln.com/,https://github.com/CodelnGhana/codelnpay-project,https://www.youtube.com/watch?v=5Nl4pmJwTr4,"Maybe in the future, but not in this submission","Our current platform is a Web App on SEP 24 where we are able to do fiat to cryto transaction in Nigeria and Ghana. We are going to expand our offerings in these markets and scale to Kenya where we have gotten interest from this market. Our go-to-market strategy will include targeting freelancers and employers by offering a seamless, secure, and cost-effective payment solution. We will leverage platform partnerships, inbound marketing through SEO, content, and influencer partnerships. We will also initiate referral programs, personalized offers, hackathons, and in-app rewards.","Highlighting the CodeLnPay Story below to show our product progress, improvement and traction:
+
+Our journey began in the SCF Bootcamp, we came in with just an idea and in 3 days, we were able to design our first prototype with the help of Stellar Engineers and our provided Mentor Stephen Deng, GP at DFS Lab. We took our prototype to market and based on user feedback, we were able to define what our MVP should look like starting with a Web App. 
+
+We got our first grant from Stellar which we used to build our MVP, a web app using SEP 24 anchors: Finclusive, LinkIO, Paychant and Clickpesa. We were able to launch this on the Testnet. 
+
+We got accepted in the Stellar & Draper University’s Astro Hacker House where we got support with launching our product and direct product feedback from our Stellar Mentor, Elliot Voris. With these help, we were able to launch our beta on the Mainnet. We were part of the successful participants who presented before the CEO Of Stellar, Denelle Dixon and Web3 Investor Tim Draper at the end of the Program, the pitch can be found here.
+
+We were selected to present at Meridian 2024, our CEO gave a demo presentation on the progress of our product, speaker profile here.
+
+We have successfully launched our beta web app on the mainnet using Paychant, link here. 
+
+We have users signed up from our markets of focus majorly, Nigeria, Ghana and Kenya. Link to some user activities here.","Find a link with more details on our overall budget here.
+
+Summary below:
+
+Brief description: For this deliverable, we will kickstart our Mobile App Development and begin activating SEP 31 Anchor approvals for our current Web App:
+
+Develop a Wireframe/ LoFi design of Mobile app accounting for each users flow through the system, User Interface Design, Screen Design, Develop Login, Registration and Identity verification processes and develop onboarding processes for users and all essential processes in the mobile app including invoicing, payment requests. Wrap up conversations with Stellar Anchors: Yellowcard and Flutterwave for SEP 31 Integration.
+
+How to measure completion: Completed User Interface Designs and screens for Mobile App, Users Verification and KYC completed, User Onboarding Completed for new and existing users. Users should be able to issue invoice and request payments. Signed LOIs or approvals from SEP 31 Anchors and access to their APIs or SDKs.
+
+Estimated date of completion: 12.5 weeks
+
+Budget: 41,500","Brief description: For this deliverable, our focus will be on Testnet Anchor Integration, Wallet Implementation, Withdrawal Function, Stellar Transactions on Testnet  & Mobile App Test release:
+
+Implement PayIn UX Flow and Wallet Screens to enable users to create stellar wallets, and request USDC salary payments, Backend Api implementation for pay in process, enabling users to create stellar wallets, and request USDC salary payments and test it  using the stellar test anchor, Implement Cashing out UI screens  and User Flow, ensure the ability to initiate withdrawal and ensure compatibility with the stellar test  anchor, Successful  implementation of cashing out  and cashing in processes on testnet to provide withdrawal options with  Linkio for Nigeria Payments  and Clickpesa for Rwanda and Kenya, Test Application on Anchors Testnet & Release test mobile application on Google playstore for select users.
+
+How to measure completion: Demonstrate a complete test process on mobile to show invoicing, deposit and withdrawal for both employer and employee on Testnet:
+
+Employer should be able to see initiate deposit flow on testnet, see rates and complete deposit transaction, Successful registration of employer transactions on the Backend, Employees should be able to see wallet balances and be able to initiate payout to their prefered currencies, Test the payout with simple transactions to Linkio and Clickpesa staging environment, Demonstrate a complete process on mobile, invoicing, deposit and withdrawal on Testnet. Test application on Google Play Store.
+
+Estimated date of completion: 9 weeks
+
+Budget: $30,600","Brief description: For this deliverable, our focus will be on Mainnet launch, SEP31 Upgrade, Deployment on Mainnet, Mobile App Public Release, User testing & Feedback: Wallet implementation for SEP31 using the Stellar Wallet SDK, API upgrade for SEP31, Conduct final tests for mainnet deployment and Release mobile app on google playstore, IOS to follow, final testing and Web App deployment of SEP31 integration on mainnet.
+
+How to measure completion: Actual user demonstrates a complete process on mobile using real transactions to show invoicing, deposit and withdrawal on mainnet with the SEP 31 flow.
+
+Estimated date of completion: 5 weeks
+
+Budget: $18,000","Elohor Thomas, Philisiah Mwaluma",pxvutptimsqz1okuuanx.png (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/9j2IMRMPrbzwZHlNXnic-Q/pm9UF_PgMVKOiauYub6xUQ0FlFKpsZ7-YSAQaCBjABCMMdv_RLtvEkgxAvRKvRG21jVi5SBYDE9dTSZ9pBnYuHSBJ-NRCl9PmNn6o-fFkgtBNqvpk39H5JZhp6FpY2kOhG-OyDY3qhaTLaS67MZtHw/1ShajHIztnB9Q8bkhZYKGLnup7MZU5ADs8BfjUIFkoY),,,,
+A real estate tokenization platform,SCF #33,A real estate tokenization platform,A real estate tokenization platform,Applications,https://communityfund.stellar.org/dashboard/submissions/recXjdDQL2sk7HNKx,Awarded,33.0,Pre-Launch #1 - MVP,$112020.00,$74680.00,251471.79,4/2/2025,Build,"Verseprop is a commercial real estate tokenization platform, headquartered in London.  It is operational, regulated and revenue producing, having launched in September 2024. It makes real estate debt and equity accessible; faster, more efficiently, and more transparently than traditional Companies.","As regulated platform, Verseprop has already completed its first tokenized real estate credit transaction in the UK and is now starting to integrate into several private real estate companies with the ability to bring scale to the Stellar ecosystem. Existing market coverage includes UK (assets & distribution) and UAE (distribution) with a flexible model to offer equity, debt or hybrid structures.
+
+Please see link to existing UK regulatory permissions and signed LOI with VARA regulated Broker-Dealer. https://drive.google.com/drive/folders/1FX_cwhGrvHG06vtzmymDZA-_btoNdtza?usp=sharing  
+  
+Our platform offers two distinct services tailored to meet specific client needs:
+
+  
+Service #1 Principal-Led Solution: This model focuses on sourcing, underwriting and distributing tokenized real estate equity and debt opportunities through the Verseprop platform. It gives us the ability to target specific sponsors or schemes, i.e. one-off vs programmatic and is particularly attractive for small, medium sized real estate developers / operators who require credit but cannot access through traditional channels, i.e. banks.
+
+  
+Service #2 White-Label Solution: This is where our technology solution operates under the client's brand, broadening their investor reach and reducing their costs. The solution is flexible and scalable, delivering a fully branded experience while also providing access to VerseProp’s investor network. It addresses regulatory challenges and streamlines processes such as KYC, investor engagement, management, and payments.",https://docs.google.com/document/d/1u22pBSR_BzXBppQowX-13ZFjmyxzxd0J/edit?usp=sharing&ouid=112480416795641360484&rtpof=true&sd=true,"Our Target within 12 months of Mainnet Deployment  
+
+-   Tokenize 30-35 commercial assets on Stellar. Each asset £1-5m.
+    
+-   £100 million in tokenized property assets.
+    
+-   Facilitate c. 500-1,000 primary transactions and an additional 5,000-10,000 transactions for dividend distribution and on-chain management.
+    
+-   Distribute £5 million in dividends and rental yields within 12 months.
+    
+-   Achieve a 70% retention rate with repeat transactions.
+    
+-   Onboard larger-sized assets while maintaining steady transactional growth.
+    
+-   Continue developing partnerships to strengthen distribution networks, enhance credibility, and ensure scalability for future operations adding a minimum of 1 (and possibly 2) locations to support UK and UAE hubs.
+    
+
+Benefits for Stellar Ecosystem:  
+  
+Firstly, we are able to bring immediate scale to the Stellar and, importantly, a diverse client base using our White Label product. This will not only contribute to increased ledger activity and attract new users and liquidity to the network, but also strengthen Stellar's reputation as a preferred blockchain for RWA tokenization.
+
+  
+Secondly, by having Stellar as one of our strategic blockchain partners, we can help drive attention to XLM as a leader in the real estate sector and further showcase blockchain's scalability with practical, real-world applications. Through this integration, we will bring awareness and an untapped user base to the Stellar ecosystem by engaging with developers, lenders, real estate companies and fund, fostering innovation and driving adoption of Stellar for tokenized assets. 
+
+  
+Lastly, we believe the UK is poised to grow in significance as a Digital Asset Hub based on regulatory changes and appetite from government. Our platform is strategically positioned to deliver a market-leading solution tailored specifically to real estate debt and equity, offering unique value to the Stellar ecosystem from domain experts.",https://www.verseprop.com,https://app.storylane.io/share/l2lj2i6qap6p,https://share.vidyard.com/watch/WBVfvQTVsB8RteA1dsw8Sd?,Yes,"Structuring: Start the process of moving asset structures offshore to take advantage of tax benefits and leverage newly emerging tokenization legislation. We currently operate a UK SPV but there is growing demand from international investors for UK based assets. This is being done in collaboration with CMS Law.
+
+Satellite Office: Open satellite office in UAE to support our collaboration agreement and regional expansion. Participating in the Fintech trade mission in Hong Kong to establish distribution in Asia via strategic partnerships, akin to efforts in the UAE. We are currently being assisted by DIFC DIFC | Leading Financial Hub in the MEASA Region and HKinvest InvestHK - Government Department of Foreign Direct Investment | InvestHK  
+Leverage Existing Network: The primary focus of our Go-To-Market Plan has been our - domain expertise, where we can leverage our existing networks with developers, real estate companies and funds giving us access to high quality assets, deal flow and investors. We also rely on a proven track record, having been one of the first platforms to issued tokenized real estate credit with further case studies to follow for both the Marketplace and White Label service.  
+  
+Other forms of customer acquisition include Community Building and Education, where we foster engagement with speakerships and educational content on tokenized real estate. We will be speaking at a number of conferences including Rosenblatt, Digital Asset Regulation Summit and a number of private steering groups with real estate companies.","Since our last update, Verseprop has made significant progress in regulatory compliance, product development, and strategic partnerships, positioning itself as a market leader in the real estate tokenization sector.
+
+As referenced in our last submission, Verseprop has now formally signed a broker-dealer LOI to offer compliant and scalable services in the UAE, which will sit alongside its FCA Appointed Representative status in the UK ensuring compliance with regulatory requirements.  
+  
+Since launching in September 2024, Verseprop has made significant progress in regulatory compliance, product development, and strategic partnerships, positioning itself as a market leader in the real estate tokenization space.
+
+It has already completed a tokenized credit transaction for £240,000 and started to onboard several private real estate companies. In addition, Verseprop’s white-label service empowers real estate businesses to adopt blockchain technology under their branding. Please see link:  
+nexus.mavryk.org/contract/KT1CUKh4VGXuT1vJqgebNwFJZ3CmBRBb2Hm3
+
+Verseprop’s collaborations with globally recognized organizations ensure our platform remains at the forefront of compliance and innovation. Some examples include:
+
+-   RICS Technology Partner: Aligning with global real estate standards.
+    
+-   Strata Global: Principal firm overseeing our Verseprop's regulation as an FCA approved Appointed Representative.
+    
+-   VARA UAE: Collaboration with a Dubai-based partner regulated by the Virtual Assets Regulatory Authority.
+    
+-   Amina Bank (ex Seba): On-ramp and off ramping for both individuals and corporates.
+    
+-   CMS Law: Part of the EquIP accelerator programme from one of the world's largest law firms.
+    
+
+  
+The UK property market alone offers substantial potential. The market for tokenized real estate in the UK is still in its early stages but rapidly expanding, driven by the increasing demand for alternative investments, exposure to real estate and blockchain-based solutions. With £1.3 trillion in total UK commercial real estate assets and a growing interest in alternative investments, the potential market size is substantial, especially when the model can be replicated in multiple jurisdictions, which Verseprop intends to do.  
+
+Verseprop already has an existing network of private wealth investors (c.75 with the ability to invest £5k up to £5m in a single deal), however where our model is truly compelling is in its integration with existing businesses. This approach allows us to rapidly scale both the volume of assets brought on-chain and the number of users.  
+
+We also continue to build our Partnerships through broker-dealer relationships that support our growth ambitions and will be part of a trade mission to Hong Kong later this year, as part of an invite from innovative UK Fintechs.  
+
+Our milestones reflect Verseprop's commitment to delivering a compliant, scalable, and innovative platform for real estate tokenization.","Develop Security Token Architecture Using Stellar
+
+-   Utilize Stellar's built-in asset issuance capabilities to create a digital representation of the security token, reflecting beneficial interests.
+    
+-   Define the token's attributes, including asset code and issuer details, ensuring they align with regulatory requirements.
+    
+-   Incorporate compliance measures such as KYC and AML protocols to meet jurisdictional regulations.
+    
+-   Establish trustlines to enable accounts to hold the security token, ensuring only authorized accounts can interact with the asset.
+    
+-   Implement asset control flags to enforce compliance, requiring issuer approval for accounts to hold the token.
+    
+-   Create comprehensive technical documentation detailing the token's architecture, data flow, and integration points within Stellar network.
+    
+-   Develop architecture diagrams to visually represent the system's components and their interactions.
+    
+
+Completion Measure: Comprehensive technical design document outlining the security token architecture.
+
+Estimated Date of Completion: 2 months from funding award
+
+Budget: $22,340","Develop Security Token Smart Contract for Implementation
+
+-   Develop the application using Stellar SDKs. For advanced programmable logic use Soroban to implement custom functionalities
+    
+-   Conduct unit testing to ensure code quality and functionality.
+    
+-   Completion Measure: Fully implemented and tested security token.
+    
+-   Estimated Date of Completion: 3 months from funding award.
+    
+-   Budget: $13,670  
+    
+
+Develop User Interface
+
+-   Design and implement a user-friendly interface for issuing and managing tokens.
+    
+-   Integrate functionalities for monitoring token performance and compliance status.
+    
+-   Ensure secure access and data protection within the interface.
+    
+-   Completion Measure: Intuitive user interface for security token management
+    
+-   Estimated Date of Completion: 4 months from funding award.
+    
+-   Budget: $27,340
+    
+
+  
+Conduct Security Audits and Testing for Implementation:
+
+-   Engage third-party security experts to perform comprehensive audits.
+    
+-   Conduct penetration testing to identify and mitigate potential vulnerabilities.
+    
+-   Implement necessary fixes and optimizations based on audit findings.
+    
+-   Completion Measure: Security audit reports and a fully secured, optimized token security.
+    
+-   Estimated Date of Completion: 6 months from funding award.
+    
+-   Budget: $35,000","Mainnet Deployment, Security, and Compliance Features
+
+-   Deploy security tokens on the Stellar mainnet.
+    
+-   Ensure the platform adheres to multi-jurisdictional legal and financial standards.
+    
+-   Completion Measure: Live platform on the mainnet with smart contracts, cross-border payments, and security measures offering access to tokenized real estate debt and equity opportunities.
+    
+-   Estimated Date of Completion: 7 months from funding award.
+    
+-   Budget: $13,670",VERSEPROP,trjxsohvvqvdgqj9ha3q.jpg (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/4EjFdA6zFz6jWR6O7QM1bg/aRpLIqTSDeddWtcjFp1nbSTfQyUojSEmZOMsJa3HkGcxkaE_h9Nax7XGPEqctBx6VGl0LN7IdQTS67g-EOhd8L6F48aZoCFOQW2gOTwzUuggSlfZhH60-K_BcXxqbWmftUi7MLnYZEcGcQJJHcnsHA/-TYu1hb-UU8l4x0O0JeReYhXOWi5beunfFMDR-YiC9A),https://www.linkedin.com/company/verseprop,https://www.x.com/verseprop,,
+Stellarcarbon,SCF #33,Stellarcarbon Launch,Stellarcarbon,Applications,https://communityfund.stellar.org/dashboard/submissions/recv1OdCUKlERWHLi,Awarded,67.0,Pre-Launch #2 - Testnet,$62000.00,$41333.33,140083.69,,Build,"Stellarcarbon enables Stellar users to contribute to biodiversity projects with confidence and ease, and in 2025 we’ll ship!","We're asking for support to launch Stellarcarbon this coming summer. There are two big work packages we're going to build in parallel:
+
+The first is to develop a carbon sinking smart contract to enable other Soroban developers to automate compensating for CO₂ emissions through their own contracts, by sending financial support to verified ecosystem restoration projects. We also need to add support for Soroban in our backend so that there is no functional difference between sinking carbon through classic Stellar and through smart contracts. This will introduce the flexibility we need to appeal to builders who are increasingly using Soroban in their products.
+
+  
+The second package is to finalize the development of our dApp where individuals and small businesses can sink carbon. We have a list of UX issues to improve, and want to do a second round of usability testing to end up with a product that people love to use. This includes communicating clearly how we have a positive impact on climate and biodiversity, because most of our customers have no prior experience with the voluntary carbon market.",https://github.com/stellarcarbon/sc-website/blob/develop/docs/architecture.md,"We define our success in terms of integrity and the volume of carbon sunk. The impact projects that are supported through Stellarcarbon need to have a science-based, quantifiable positive impact on biodiversity, climate, and vulnerable communities. Without that integrity, other metrics don’t matter.
+
+The volume of carbon sunk through Stellarcarbon determines the magnitude of the collective impact made by our customers. This volume is most meaningful when it wouldn’t have happened through other means, or when it replaces the use of eco-credits of lesser integrity than ours. When volume moves from another high-integrity service to Stellarcarbon, it’s still positive for the Stellar ecosystem, but it represents less of an environmental benefit. Finally, there’s the risk of compensation being used for emissions that could have been avoided or reduced at a similar cost, which is detrimental to our success.
+
+We have calculated the minimum volume that is required for the longevity of our project. It is determined by the break even point where our gross profit equals our operational expenses minus payroll (which can be zero if needed). With our current pricing model, we need to sell 750 tonnes of carbon per year to cover our costs. Our target is to reach this amount 6 months after the launch date.",https://test.stellarcarbon.io/,https://github.com/stellarcarbon/,https://www.youtube.com/watch?v=CX9ar7vkPVQ,Yes,"Stellarcarbon targets two fundamentally distinct customer segments: retail users and integration partners. While each segment is multifaceted, we can offer a personalized approach to integration partners, and have to think about retail users in terms of profiling and personas.
+
+Retail segment
+
+We define our retail segment as: the customers that want to access eco-credits to claim the environmental benefit for themselves, and who want to interact with Stellarcarbon through our dApp.
+
+Retail users on Stellar
+
+People who already have a non-custodial Stellar wallet or are interested in installing one, experience the least onboarding friction. They don’t have to create any accounts, and the journey from landing on our dApp the first time to sinking their first carbon has taken our pilot users less than two minutes on average. Their second time usually goes even faster.
+
+Our main task in marketing to this audience is to answer questions that are not about Stellar: What is the voluntary carbon market? What does it mean for a carbon credit to have “community and biodiversity benefits”? Why would I spend money on this? How can I see that my contribution actually has a positive impact?
+
+To reach this audience, we would like to:
+
+-   create better informative content about ReFi and Stellarcarbon
+    
+-   publish testimonials by our pilot customers
+    
+-   host and participate in X spaces and Discord events, working together with Lumen Loop and Stellar Global
+    
+-   leverage our early adopters as ambassadors
+    
+
+ReFi enthusiasts
+
+There is a dedicated and growing community of crypto-savvy people who are passionate about regenerative finance (ReFi). They have an affinity for other blockchains, most notably Celo, Polygon, and Solana. We want to introduce them into the Stellar ecosystem, and pave the way for other ReFi pioneers building on Stellar, such as Geld Network and netzero.kiwi.
+
+We have been active in the ReFi community for several years (as individuals), on X and Discord. Tribalism has been a barrier to promoting Stellar and Stellarcarbon on some of the most active Discord servers. Through our network, we have gained access to some more chain-agnostic venues (thanks Evan!), which will help Stellarcarbon be part of the conversation.
+
+To reach this audience, we would like to:
+
+-   announce our launch in the CARBON copy newsletter
+    
+-   become a highlighted project on Giveth
+    
+-   engage with the ReFi DAO community
+    
+-   provide tutorials on our website on how to set up a Stellar wallet and bridge stablecoins
+    
+-   post regular updates on the impact projects we support
+    
+
+New-to-crypto users
+
+One of our pilot customers was a first-time dApp user, who had also never used a non-custodial wallet before. We onboarded him from scratch, providing limited wallet installation and on-ramping instructions. Including setup, sinking carbon took around 15 minutes the first time, and 5 minutes the second time. Overall, this was a good experience for everyone involved and we expect him to be a repeat customer.
+
+The most important characteristic of customers coming from outside the crypto space is that they don’t want to pay with digital assets. To serve this audience, we’ll need to enable debit card payments through a payments processor. The second is that they’re not that interested in the technology, and experience managing and securing their own keypair as friction.
+
+We can smoothen this journey by building in support for smart wallets with passkeys and/or account recovery (SEP-30). Stellarcarbon can take care of account creation, reserves, and fees, without having to become a custodial wallet provider. Such a solution is out of scope for this submission, and we’re considering it as a post-launch addition. When we are ready to onboard new-to-crypto users, we will focus on simple, relatable campaigns that emphasize the positive environmental impact rather than blockchain technology.
+
+Integration segment
+
+The integration segment consists of builders that want to automate their interactions with Stellarcarbon. They can give their users access to eco-credits, claim the environmental benefit for themselves, or do both. These builders are already on Stellar/Soroban, or are willing to join the ecosystem.
+
+Our strategy for engaging with integration partners is tailored. We have the capacity for 1-on-1 conversations with builders who are interested in integrating Stellarcarbon into their software. One of the uncertainties for potential integrators is how much demand for eco-credits there will be within their user base. Having our own retail customers really helps to prove the demand to them. We haven’t been actively reaching out to other builders for the past year or so, and are going to ramp up these efforts paired with our dApp launch.
+
+To reach this audience, we would like to:
+
+-   add an overview of software integration opportunities on our website
+    
+-   clarify that we can split our sales margin with integration partners
+    
+-   show builders of end-user applications how easy it is to integrate Stellarcarbon into their checkout flow
+    
+-   ask developers of wallets that don’t currently support dApps how we can help to give their users access
+    
+-   reach out to infrastructure providers with an offer to help track their emissions (using tools like CodeCarbon) and reach carbon neutrality
+    
+-   offer a bounty to use DeFi yield for automatic carbon retirements
+    
+-   participate in industry events and increase our visibility there","'-   People are already using our earliest demo version app on mainnet right now. We have more than $240 revenue just from demos, 15 distinct pilot users doing 29 transactions in total. This does not include testnet stats, since we don’t preserve data across testnet resets. To verify these stats, see the transaction history in our API, or on stellar.expert.
+    
+-   GiveCredit will use our Soroban contract to further automate carbon credit retirements from the donations of their users.
+    
+-   We have been approached by the lead dev of DeFindex (PaltaLabs), indicating a clear demand for real world eco-assets on Soroban.","[Deliverable 1] Soroban Interface MVP
+
+-   Develop the full sink carbon contract as specified in the technical architecture. Launch a CARBON/USDC liquidity pool on testnet Soroswap. Develop a replenish pool feature in the Stellarcarbon backend.
+    
+-   How to measure completion: contract repo is available on our GitHub featuring the sink carbon contract. The contract can be deployed and invoked in a local sandbox. Our liquidity pool is visible in Soroswap. Whenever the CARBON price there deviates significantly from the price returned by our API, the pool will be automatically rebalanced within minutes.
+    
+-   Estimated date of completion: 8 weeks after award announcement.
+    
+-   Budget: 60 hours development + 60 hours testing x $100/hr = $12,000
+    
+
+[Deliverable 2] dApp frontend UX, content, and styling
+
+-   Testing has revealed numerous improvements that we want to make to the UX. Most revolve around input validation and error handling. We have identified what we can do to guide users through a successful sink carbon flow. Several testers have asked for emissions estimates (e.g. calculators) to be further integrated into our dApp. We’ll rewrite some of our text content and improve on the accessibility of the page layouts.
+    
+-   How to measure completion: the dApp looks and feels complete. A tester can use test.stellarcarbon.io to sink carbon on testnet and manage their account. Some data connections may still be mocked at this stage.
+    
+-   Estimated date of completion: 8 weeks after award announcement.
+    
+-   Budget: 50 hours development + 40 hours testing x $100/hr = $9,000
+    
+
+These two objectives can be completed independently and in parallel. We’ll have two developers working on them simultaneously, and there are no direct dependencies between the deliverables.","[Deliverable 3] dApp usability improvements
+
+-   We’ll launch the full dApp frontend on testnet at the beginning of this milestone. Our previous testers and newly recruited ones will be provided with a testing protocol, which we’ll use to gather feedback and sort out any remaining issues.
+    
+-   How to measure completion: a usability testing report will be provided.
+    
+-   Estimated date of completion: 12 weeks after award announcement.
+    
+-   Budget: 40 hours usability testing + 40 hours iteration x $100/hr = $8,000
+    
+
+[Deliverable 4] Automate retirements for testing
+
+-   After sinking carbon, the sinking transaction needs to trigger a “retirement” of carbon credits in the Verra Registry. In our testnet app, the corresponding amount of credits currently isn’t retired because the Verra Registry lacks a testing environment for us to develop against. We want to mock this part of the retirement process in our own backend to provide a testing experience that is comparable with the real Verra Registry connection.
+    
+-   How to measure completion: pending retirement balances are automatically retired (after some delay) in our dApp.
+    
+-   Estimated date of completion: 10 weeks after award announcement.
+    
+-   Budget: 30 hours development + 20 hours testing x $100/hr = $5,000
+    
+
+[Deliverable 5] Complete Soroban Interface
+
+-   After deploying our smart contract to testnet, we’ll start integration testing with at least one partner. This will deliver us the insights we need to improve the contract and its documentation. Support for the contract will be added to our backend, including event ingestion and their post-processing into data structures that are compatible with our classic Stellar data.
+    
+-   How to measure completion: sink carbon events (i.e. atomic swaps with metadata) that are generated in Soroban are visible in our testnet API and in the dApp.
+    
+-   Estimated date of completion: 12 weeks after award announcement.
+    
+-   Budget: 45 hours development + 25 hours testing x $100/hr = $7,000
+    
+
+While working on this milestone, we will also increase our engagement with the Stellar community. There will be testing opportunities for end-users as well as for developers. As we have done in the past, we’ll want to on-ramp these testers as pilot customers and integration partners.","[Deliverable 6] Soroban Integration on mainnet
+
+-   Before we can launch on mainnet, we want our contract to be audited and well documented. Since it ties into a larger system, we also need to document the integration between the Soroban events and our backend and the API it exposes. We’ll launch the Soroswap liquidity pool on mainnet. The automatic replenishment feature will be adapted for and deployed in our mainnet backend. We’ll also develop a backup mechanism that publishes ingested contract events in our public data repository.
+    
+-   How to measure completion: it’s possible to obtain and sink carbon through Soroban contract invocations. The resulting events will be visible in our dApp, API, and will show up in our data repo after some time. An audit report of the contract has been published by a reputable 3rd party (provided we have been granted audit credits from the SDF Audit Bank).
+    
+-   Estimated date of completion: 20 weeks after award announcement.
+    
+-   Budget: 40 hours development + 20 hours testing + 40 hours audit process x $100/hr = $10,000
+    
+
+[Deliverable 7] Fully automate retirements for mainnet
+
+-   There are some tricky parts in automating retirements for mainnet. We currently still have a human-in-the-loop process, because errors made in the Verra Registry are immutable. The logic for processing retirements has been specified, but we have yet to identify all edge cases. We’ll develop the solution incrementally, starting with the simple cases for which we haven’t needed manual intervention, and proceeding towards the most challenging case of batching fractional retirements from multiple users into a community certificate.
+    
+-   How to measure completion: sinking transactions will show as retired in our dApp as soon as possible, within a couple of minutes when we can generate an individual certificate. Check the Verra Registry to verify that the retirement has actually happened. Individual certificates will also be emailed to eligible accounts directly by Verra.
+    
+-   Estimated date of completion: 24 weeks after award announcement.
+    
+-   Budget: 50 hours development + 20 hours testing x $100/hr = $9,000
+    
+
+[Deliverable 8] Launch our dApp (retail shop)
+
+-   This is a festive moment: we’ll go live with our dApp on www.stellarcarbon.io, replacing our old website. There should not be much left to do; all the features and content have been completed in other deliverables. We’ll configure our CI/CD pipeline to deploy the production version of the dApp, do some manual testing, and update our DNS records. After we have fully launched, we’ll continue to focus our efforts on marketing and business development. Onward!
+    
+-   How to measure completion: our dApp is live and fully functional on www.stellarcarbon.io.
+    
+-   Estimated date of completion: 24 weeks after award announcement.
+    
+-   Budget: 12 hours development + 8 hours testing x $100/hr = $2,000","Alex Olieman, Adam Menary, Henk",c419ae64 (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/JOPe5LNdKQNdiQ0ley6TKg/88ZFKyvsucMMF7OdIuqxprZh7Z3I-vm_oykGKHUqY_WGbL2YOHItHoZLDt3oW-EO18EQ5bn40Ab14fcLWVVdKa6D9gZcdfyqRp36I6bxqK9CUJ0vgXWFjBa7jmsD95qsn-4fHMs2PHHqPyKryJi2GA/jnL9sly1JHhOntkDI0hIu5w0TzPZ_u4nXpi8HJth5OA),,https://x.com/stellarcarbon,,
+The Give Hub,SCF #33,Community Crowdfunding & Microloans,The Give Hub,Applications,https://communityfund.stellar.org/dashboard/submissions/recrpQc2euTFMrS72,Awarded,33.0,Pre-Launch #1 - MVP,$45000.00,$30000.00,95650.54,5/12/2025,Build,The Give Hub connects global donors with verified projects in remote communities using blockchain and local partners.,"The Give Hub is a crowdfunding platform connecting global donors with high-impact projects in remote communities. Our key products and services include:
+
+1. Verified Project Funding
+
+-   Stellar Integration: Uses Soroban smart contracts for milestone-based fund release
+    
+-   Impact: Automated verification reduces administrative overhead by 80% and ensures transparent fund management
+    
+
+2. Cross-Border Microlending
+
+-   Stellar Integration: Leverages Stellar's native asset support for multi-currency transactions
+    
+-   Impact: Reduces transfer fees from 6.5% to under 0.1%, enabling viable microlending in remote regions
+    
+
+3. Digital Nomad Verification Network
+
+-   Stellar Integration: Local partners trigger smart contract execution through blockchain-verified updates
+    
+-   Impact: Creates sustainable local employment while ensuring project authenticity through immutable verification
+    
+
+4. Mobile-First Donor Platform
+
+-   Stellar Integration: Integrates Stellar's fast settlement (3-5 seconds) for immediate fund deployment
+    
+-   Impact: Enables rapid response funding and real-time impact tracking for donors
+    
+
+5. Impact Tracking Dashboard
+
+-   Stellar Integration: Records all milestone completions and fund releases on-chain
+    
+-   Impact: Provides donors with transparent, verifiable proof of project outcomes
+    
+
+These features combine to solve the critical ""last mile"" problem in remote region development funding, while Stellar's blockchain infrastructure ensures security, transparency, and efficiency throughout the process.",https://thegivehub.com/en/architecture.html,"Success Metrics (6-Month Target)
+
+1.  Digital Nomad Network
+    
+
+-   Output: 15 active Digital Nomads across Colombia and East Africa
+    
+-   Impact: Creates sustainable local employment ($300-500/month per Nomad) and establishes initial verification networks in 5-7 key regions
+    
+
+1.  Campaign Success
+    
+
+-   Output: 10 successfully funded projects averaging $5,000 each
+    
+-   Impact: Delivers $50,000 in direct funding to critical community projects like school repairs, water access, and agricultural infrastructure
+    
+
+1.  Financial Inclusion
+    
+
+-   Output: 100+ first-time blockchain users in remote communities
+    
+-   Impact: Introduces accessible financial tools to previously unbanked populations, creating pathways for broader financial participation
+    
+
+1.  Cross-Border Impact
+    
+
+-   Output: Donors from multiple countries (one or more) contributing to remote projects
+    
+-   Impact: Builds direct connections between global capital and local needs, bypassing traditional aid bureaucracy
+    
+
+1.  Cost Efficiency
+    
+
+-   Output: Reduce transfer fees from typical 6.5% to under 0.1%
+    
+-   Impact: Additional $12,750 reaches beneficiaries directly (based on projected $50,000 in donations)
+    
+
+Long-term Community Impact
+
+-   Sustainable Development: Projects are identified and verified by local community members, ensuring relevance and long-term value
+    
+-   Financial Literacy: Each Digital Nomad educates an average of 50 community members on blockchain technology and digital financial tools
+    
+-   Trust Building: Creates verifiable track records for remote communities, enabling future funding opportunities
+    
+-   Local Empowerment: Digital Nomads become tech-enabled community leaders, bridging the digital divide",https://thegivehub.com,https://github.com/thegivehub,https://youtu.be/eOjkoQqnWAw,Yes,"1. Market Entry Strategy
+-----------------------------
+
+Phase 1: Initial Launch (Months 1-2)
+
+-   Geographic Focus: Start with 2-3 specific regions in Colombia
+    
+    -   Selected based on existing connections and senator endorsement
+        
+    -   Areas with demonstrated need and internet connectivity
+        
+    -   Communities with active local leadership
+        
+-   Digital Nomad Program Launch
+    
+    -   Recruit and train initial 5 digital nomads
+        
+    -   Focus on regions with established relationships
+        
+    -   Provide comprehensive platform training
+        
+    -   Equip with necessary tools and documentation
+        
+-   Pilot Projects
+    
+    -   Launch 10-15 carefully selected campaigns
+        
+    -   Focus on quick-win projects (school repairs, water access)
+        
+    -   Document entire process for case studies
+        
+    -   Create success stories for marketing
+        
+
+Phase 2: Expansion (Months 3-4)
+
+-   Geographic Expansion
+    
+    -   Extend to additional regions in Colombia
+        
+    -   Begin operations in one new country
+        
+    -   Target areas with similar socioeconomic profiles
+        
+-   Program Scaling
+    
+    -   Expand digital nomad team to 15-20
+        
+    -   Implement refined training based on pilot feedback
+        
+    -   Establish regional coordination structure
+        
+
+2. Marketing Strategy
+--------------------------
+
+Digital Marketing
+
+1.  Content Marketing
+    
+    -   Impact stories and project updates
+        
+    -   Before/after project showcases
+        
+    -   Community testimonials
+        
+    -   Digital nomad field reports
+        
+1.  Social Media
+    
+    -   Platform-specific content strategy:
+        
+        -   LinkedIn: Professional network engagement
+            
+        -   Instagram: Visual project updates
+            
+        -   Twitter: Real-time updates and community engagement
+            
+        -   YouTube: Project documentation and stories
+            
+1.  Email Marketing
+    
+    -   Weekly project updates
+        
+    -   Monthly impact reports
+        
+    -   Donor newsletters
+        
+    -   Digital nomad field updates
+        
+
+Partnerships & PR
+
+1.  Strategic Partnerships
+    
+    -   Local NGOs and community organizations
+        
+    -   Corporate CSR programs
+        
+    -   Educational institutions
+        
+    -   Religious organizations
+        
+1.  Media Relations
+    
+    -   Press releases for major milestones
+        
+    -   Feature stories in development-focused media
+        
+    -   Local news coverage of projects
+        
+    -   Documentary opportunities
+        
+
+Community Building
+
+1.  Donor Community
+    
+    -   Regular virtual updates
+        
+    -   Donor recognition program
+        
+    -   Impact tracking dashboard
+        
+    -   Direct communication with projects
+        
+1.  Project Community
+    
+    -   Success story sharing
+        
+    -   Best practices workshops
+        
+    -   Regional meetups
+        
+    -   WhatsApp groups for project leaders
+        
+
+3. Project Development Pipeline
+------------------------------------
+
+Campaign Creation Process
+
+1.  Initial Assessment
+    
+    -   Community needs evaluation
+        
+    -   Project feasibility study
+        
+    -   Impact metric definition
+        
+    -   Budget planning
+        
+1.  Campaign Setup
+    
+    -   Professional photography/video
+        
+    -   Clear milestone definition
+        
+    -   Impact metric tracking setup
+        
+    -   Local team training
+        
+1.  Launch Support
+    
+    -   Marketing materials creation
+        
+    -   Social media campaign
+        
+    -   Local PR activities
+        
+    -   Donor outreach
+        
+
+4. Metrics & KPIs
+----------------------
+
+Success Metrics
+
+-   Number of active campaigns
+    
+-   Total funds raised
+    
+-   Average campaign success rate
+    
+-   Digital nomad productivity
+    
+-   Community engagement rates
+    
+-   Platform user growth
+    
+-   Donor retention rates
+    
+
+Impact Metrics
+
+-   Number of communities served
+    
+-   People impacted per project
+    
+-   SDG alignment scores
+    
+-   Long-term impact measurements
+    
+-   Community feedback scores
+    
+
+5. Risk Mitigation
+-----------------------
+
+Operational Risks
+
+-   Backup digital nomads for each region
+    
+-   Clear escalation procedures
+    
+-   Emergency response protocols
+    
+
+Project Risks
+
+-   Thorough vetting process
+    
+-   Regular progress monitoring
+    
+-   Clear documentation requirements
+    
+-   Multiple verification points
+    
+
+6. Growth Strategy
+-----------------------
+
+Short-term (6 months)
+
+-   Establish presence in 3 countries
+    
+-   50 successful campaigns
+    
+-   30 active digital nomads
+    
+-   $500,000 in processed donations
+    
+
+Medium-term (12 months)
+
+-   Expand to 5 countries
+    
+-   200 successful campaigns
+    
+-   75 active digital nomads
+    
+-   $2M in processed donations
+    
+
+Long-term (24 months)
+
+-   Present in 10 countries
+    
+-   500 successful campaigns
+    
+-   150 active digital nomads
+    
+-   $5M in processed donations
+    
+
+7. Success Enablers
+------------------------
+
+1.  Strong local partnerships
+    
+1.  Digital nomad program
+    
+1.  Clear impact metrics
+    
+1.  Transparent processes
+    
+1.  Community engagement
+    
+1.  Technology platform
+    
+1.  Regular communication
+    
+1.  Quick wins focus","The Give Hub has demonstrated strong early traction and market validation through multiple channels:
+
+User Demand:
+
+-   25+ potential users on our waitlist for platform launch (Redacted report: https://thegivehub.com/subscribers.php)
+    
+-   Functioning beta platform with complete campaign creation and management capabilities (https://app.thegivehub.com/)
+    
+-   Bilingual website and blog (English/Spanish) with growing organic traffic (https://thegivehub.com/es/)
+    
+
+Strategic Partnerships:
+
+-   Official endorsement from Colombian Senator Maria José Pizarro Rodríguez, providing government-level validation and regional access (PDF: https://thegivehub.com/senator-letter.pdf )
+    
+-   Partnership with Fast Freddie Rodriguez, former US Olympic cyclist, to act as a celebrity spokesperson, expanding our reach into the athletic philanthropy community (Email: https://thegivehub.com/en/fred-email.html)
+    
+-   Network of 12 verified Digital Nomads in Colombia ready to facilitate local project verification
+    
+
+Technical Readiness:
+
+-   Operational beta platform includes:
+    
+    -   User registration and authentication (https://app.thegivehub.com/registration.html)
+        
+    -   Campaign creation and management interface (https://app.thegivehub.com/)
+        
+    -   Milestone tracking system
+        
+    -   Impact metrics dashboard
+        
+    -   Marketing website (https://thegivehub.com/en/) and blog (https://blog.thegivehub.com/en/)
+        
+-   Mobile-first design ensuring accessibility in remote regions
+    
+-   Multi-language support infrastructure
+    
+
+This combination of user interest, strategic partnerships, and technical readiness demonstrates clear market validation and positions The Give Hub for successful deployment on the Stellar network.
+
+Additionally, our team brings decades worth of software engineering experience to the table. This means faster development times, fewer mistakes and high quality solutions delivered on time.","Tranche 1: MVP Development
+==========================
+
+Overview
+--------
+
+Initial development phase focusing on core platform functionality, basic KYC/AML integration, and essential campaign management features.
+
+Total Budget: $20,000  
+Timeline: 8 weeks  
+Goal: Production-ready MVP with robust campaign management
+
+Deliverables & Budget Breakdown
+-------------------------------
+
+Frontend Engineering ($8,000)
+
+#### 1. User Authentication and Profile System (50h × $50 = $2,500)
+
+-   User Registration and Login Flow
+    
+    -   Form validation with real-time feedback
+        
+    -   Social authentication integration (Google)
+        
+    -   Session management with JWT
+        
+    -   Advanced error handling and user feedback
+        
+-   Profile Creation and Editing
+    
+    -   Avatar upload and cropping
+        
+    -   Profile completion progress indicator
+        
+    -   Contact information validation
+        
+    -   Dynamic field validation
+        
+-   Email Verification System
+    
+    -   Email template system
+        
+    -   Verification link handling
+        
+    -   Resend verification functionality
+        
+    -   Email delivery tracking
+        
+
+#### 2. Campaign Creation Interface (60h × $50 = $3,000)
+
+-   Campaign Form with Validation
+    
+    -   Dynamic form field validation
+        
+    -   Auto-save functionality
+        
+    -   Draft/preview mode toggle
+        
+    -   Mobile-optimized input fields
+        
+-   Media Upload Functionality
+    
+    -   Image optimization and resizing
+        
+    -   Progress indicators
+        
+    -   Gallery management interface
+        
+    -   Drag-and-drop support
+        
+-   Campaign Preview Mode
+    
+    -   Live preview updates
+        
+    -   Mobile/desktop preview toggle
+        
+    -   Social share preview
+        
+    -   SEO preview
+        
+
+#### 3. Basic Admin Dashboard (50h × $50 = $2,500)
+
+-   Campaign Management View
+    
+    -   Status filtering and sorting
+        
+    -   Bulk action capabilities
+        
+    -   Quick edit functionality
+        
+    -   Advanced search features
+        
+-   User Management Interface
+    
+    -   Role assignment system
+        
+    -   Activity log viewer
+        
+    -   User search and filtering
+        
+    -   Audit trail tracking
+        
+-   Basic Analytics Display
+    
+    -   Daily/weekly/monthly views
+        
+    -   Export functionality
+        
+    -   Key metrics visualization
+        
+    -   Custom date ranges
+        
+
+Backend Engineering ($9,600)
+
+#### 1. Core API Development (70h × $60 = $4,200)
+
+-   RESTful API Endpoints
+    
+    -   Campaign management endpoints
+        
+    -   User management endpoints
+        
+    -   Donation processing routes
+        
+    -   Rate limiting implementation
+        
+-   Data Validation Middleware
+    
+    -   Input sanitization
+        
+    -   Schema validation
+        
+    -   Error handling
+        
+    -   Request/Response logging
+        
+-   Error Handling System
+    
+    -   Standardized error responses
+        
+    -   Error logging
+        
+    -   Client-friendly messages
+        
+    -   Error tracking and analytics
+        
+
+#### 2. Database Schema (30h × $60 = $1,800)
+
+-   MongoDB Collections Setup
+    
+    -   User and profile schemas
+        
+    -   Campaign and milestone schemas
+        
+    -   Transaction history schema
+        
+    -   Indexing optimization
+        
+-   Indexing Strategy
+    
+    -   Performance optimization
+        
+    -   Query pattern analysis
+        
+    -   Search optimization
+        
+    -   Compound indexes
+        
+-   Data Migration Scripts
+    
+    -   Version control
+        
+    -   Rollback procedures
+        
+    -   Data validation
+        
+    -   Data integrity checks
+        
+
+#### 3. Basic KYC/AML Integration (40h × $60 = $2,400)
+
+-   Basic KYC Verification Flow
+    
+    -   ID document upload handling
+        
+    -   Face verification integration
+        
+    -   Address validation system
+        
+    -   Document expiry tracking
+        
+-   Jumio API Integration
+    
+    -   API client implementation
+        
+    -   Webhook handling
+        
+    -   Result processing
+        
+    -   Retry mechanisms
+        
+-   AML Screening Setup
+    
+    -   PEP list integration
+        
+    -   Sanctions checking
+        
+    -   Basic risk scoring
+        
+    -   Audit logging
+        
+
+#### 4. Authentication System (20h × $60 = $1,200)
+
+-   JWT Implementation
+    
+    -   Token generation and validation
+        
+    -   Refresh token handling
+        
+    -   Session management
+        
+    -   Token revocation
+        
+
+Blockchain Engineering ($2,400)
+
+#### 1. Stellar Wallet Integration (30h × $80)
+
+-   Wallet Creation Flow
+    
+    -   Key pair generation
+        
+    -   Testnet account funding
+        
+    -   Balance management
+        
+    -   Error handling
+        
+-   Test Transaction Handling
+    
+    -   Transaction building
+        
+    -   Signature collection
+        
+    -   Status tracking
+        
+    -   Fee management
+        
+-   Balance Checking System
+    
+    -   Real-time updates
+        
+    -   Multi-currency support
+        
+    -   Transaction history
+        
+    -   Balance alerts
+        
+
+Success Criteria
+----------------
+
+1.  All detailed items completed and tested
+    
+1.  Working MVP deployed to staging environment
+    
+1.  Complete technical documentation
+    
+1.  Test coverage > 85%
+    
+1.  Basic security audit completed
+    
+1.  Performance benchmarks met:
+    
+    -   API response time < 200ms
+        
+    -   Page load time < 2s
+        
+    -   Successful transaction rate > 99%
+        
+
+Dependencies
+------------
+
+1.  Stellar testnet access
+    
+1.  Jumio API credentials
+    
+1.  MongoDB Atlas cluster
+    
+1.  Development environment setup
+    
+1.  CI/CD infrastructure
+    
+
+Risk Mitigation
+---------------
+
+1.  Weekly progress reviews
+    
+1.  Regular code reviews
+    
+1.  Staging environment for testing
+    
+1.  Version control with feature branches
+    
+1.  Automated testing pipeline
+    
+1.  Performance monitoring setup","Tranche 2: Testnet Launch & Smart Contract Development
+======================================================
+
+Overview
+--------
+
+Second phase focusing on smart contract development, testnet deployment, and Digital Nomad verification system implementation.
+
+Total Budget: $25,000  
+Timeline: 10 weeks  
+Goal: Complete testnet deployment with full feature set
+
+LaunchKit Access Benefits
+-------------------------
+
+-   Smart contract security audit credits
+    
+-   Infrastructure deployment credits
+    
+-   Technical support access
+    
+-   Development tools and resources
+    
+
+Deliverables & Budget Breakdown
+-------------------------------
+
+Frontend Engineering ($8,000)
+
+#### 1. Digital Nomad Portal (60h × $50 = $3,000)
+
+-   Verification Interface
+    
+    -   Multi-step verification wizard
+        
+    -   Document upload interface
+        
+    -   Progress tracking system
+        
+    -   Real-time status updates
+        
+-   Document Management System
+    
+    -   Multi-file upload handling
+        
+    -   File type validation
+        
+    -   Document categorization
+        
+    -   Version control
+        
+-   Verification Dashboard
+    
+    -   Task management interface
+        
+    -   Notification center
+        
+    -   Activity timeline
+        
+    -   Status tracking
+        
+
+#### 2. Milestone Tracking System (50h × $50 = $2,500)
+
+-   Milestone Creation Interface
+    
+    -   Dynamic form builder
+        
+    -   Budget allocation tools
+        
+    -   Dependency mapping
+        
+    -   Timeline visualization
+        
+-   Progress Tracking
+    
+    -   Real-time progress updates
+        
+    -   Milestone dependencies
+        
+    -   Critical path identification
+        
+    -   Delay notifications
+        
+-   Documentation System
+    
+    -   Media upload manager
+        
+    -   Document organization
+        
+    -   Version control
+        
+    -   Preview functionality
+        
+
+#### 3. Impact Metrics Dashboard (50h × $50 = $2,500)
+
+-   Metrics Visualization
+    
+    -   Custom widget creation
+        
+    -   Real-time data updates
+        
+    -   Interactive charts
+        
+    -   Comparison tools
+        
+-   Reporting Interface
+    
+    -   Report template system
+        
+    -   Custom report builder
+        
+    -   Export functionality
+        
+    -   Scheduled reporting
+        
+-   Data Analysis Tools
+    
+    -   Trend analysis
+        
+    -   Impact forecasting
+        
+    -   Goal tracking
+        
+    -   Performance indicators
+        
+
+Backend Engineering ($9,000)
+
+#### 1. Enhanced Verification System (50h × $60 = $3,000)
+
+-   Multi-step Verification Process
+    
+    -   Status management
+        
+    -   Approval workflows
+        
+    -   Rejection handling
+        
+    -   Appeal process
+        
+-   Document Processing
+    
+    -   Image optimization
+        
+    -   Metadata extraction
+        
+    -   OCR integration
+        
+    -   Fraud detection
+        
+-   Advanced Notification System
+    
+    -   Email notifications
+        
+    -   SMS integration
+        
+    -   In-app notifications
+        
+    -   Notification preferences
+        
+
+#### 2. Enhanced KYC/AML Processing (50h × $60 = $3,000)
+
+-   Advanced Identity Verification
+    
+    -   Multi-document correlation
+        
+    -   Biometric verification
+        
+    -   Address verification
+        
+    -   Identity scoring
+        
+-   Transaction Monitoring
+    
+    -   Pattern detection
+        
+    -   Risk scoring
+        
+    -   Alert generation
+        
+    -   Case management
+        
+-   Compliance Reporting
+    
+    -   Automated report generation
+        
+    -   Regulatory filing
+        
+    -   Audit trail creation
+        
+    -   Compliance dashboard
+        
+
+#### 3. Impact Analytics Engine (50h × $60 = $3,000)
+
+-   Metrics Processing
+    
+    -   Data aggregation
+        
+    -   Custom calculations
+        
+    -   Historical tracking
+        
+    -   Trend analysis
+        
+-   Data Integration
+    
+    -   External data sources
+        
+    -   API integrations
+        
+    -   Data validation
+        
+    -   Error handling
+        
+-   Reporting System
+    
+    -   Template engine
+        
+    -   PDF generation
+        
+    -   Data export
+        
+    -   API access
+        
+
+Blockchain Engineering ($8,000)
+
+#### 1. Smart Contract Development (60h × $80 = $4,800)
+
+-   Campaign Contract
+    
+    -   Fund management logic
+        
+    -   Access control system
+        
+    -   Event emission
+        
+    -   State management
+        
+-   Milestone Contract
+    
+    -   Verification logic
+        
+    -   Fund release conditions
+        
+    -   Multi-signature support
+        
+    -   Milestone tracking
+        
+-   Verification Contract
+    
+    -   Digital Nomad management
+        
+    -   Proof verification
+        
+    -   Status updates
+        
+    -   Dispute resolution
+        
+
+#### 2. Testing and Security (40h × $80 = $3,200)
+
+-   Comprehensive Test Suite
+    
+    -   Unit testing
+        
+    -   Integration testing
+        
+    -   Load testing
+        
+    -   Security testing
+        
+-   Security Implementation
+    
+    -   Access controls
+        
+    -   Input validation
+        
+    -   Error handling
+        
+    -   Rate limiting
+        
+-   Documentation and optimizations
+    
+    -   Code documentation
+        
+    -   Network fee optimization
+        
+    -   Best practices implementation
+        
+
+Success Criteria
+----------------
+
+1.  All smart contracts deployed to testnet
+    
+1.  Complete test coverage > 90%
+    
+1.  Digital Nomad system operational
+    
+1.  All integrations functional
+    
+1.  Performance benchmarks met:
+    
+    -   Transaction confirmation < 5s
+        
+    -   Contract execution cost optimized
+        
+    -   API response time < 250ms
+        
+
+Dependencies
+------------
+
+1.  Tranche 1 completion
+    
+1.  LaunchKit access
+    
+1.  Testnet resources
+    
+1.  Security audit allocation
+    
+1.  Development tools and services
+    
+
+Risk Mitigation
+---------------
+
+1.  Comprehensive testing plan
+    
+1.  Performance monitoring
+    
+1.  Backup and recovery procedures
+    
+1.  Documentation requirements
+    
+1.  Code review process
+    
+1.  Change management
+    
+1.  Incident response plan
+    
+
+Next Steps
+----------
+
+1.  Smart contract deployment
+    
+1.  Integration testing
+    
+1.  User acceptance testing
+    
+1.  Documentation completion
+    
+1.  Team training
+    
+1.  Monitoring setup
+    
+
+LaunchKit Deliverables
+----------------------
+
+1.  Infrastructure Configuration
+    
+1.  Deployment Documentation
+    
+1.  Performance Analysis
+    
+1.  Best Practices Implementation
+    
+1.  Technical Support Documentation","Tranche 3: Mainnet Launch & Production Deployment
+=================================================
+
+Overview
+--------
+
+Final phase focusing on mainnet deployment, production infrastructure, and platform optimization.
+
+Total Budget: $25,000  
+Timeline: 8 weeks  
+Goal: Production-ready platform with mainnet integration
+
+Deliverables & Budget Breakdown
+-------------------------------
+
+Frontend Engineering ($7,000)
+
+#### 1. Mobile Optimization (60h × $50 = $3,000)
+
+-   Responsive Design Enhancement
+    
+    -   Progressive web app implementation
+        
+    -   Touch interaction optimization
+        
+    -   Offline functionality
+        
+    -   Performance optimization
+        
+-   Mobile-first Features
+    
+    -   Mobile payment flow
+        
+    -   Camera integration
+        
+    -   Location services
+        
+    -   Push notifications
+        
+-   Cross-device Testing
+    
+    -   Device compatibility matrix
+        
+    -   Browser testing
+        
+    -   Performance benchmarking
+        
+    -   Accessibility compliance
+        
+
+#### 2. Multi-language Support (40h × $50 = $2,000)
+
+-   Translation System
+    
+    -   Language selection interface
+        
+    -   Content management system
+        
+    -   Dynamic content loading
+        
+    -   RTL support
+        
+-   Localization Features
+    
+    -   Currency conversion
+        
+    -   Date/time formatting
+        
+    -   Number formatting
+        
+    -   Regional content
+        
+-   Content Management
+    
+    -   Translation workflow
+        
+    -   Content versioning
+        
+    -   Language fallbacks
+        
+    -   SEO optimization
+        
+
+#### 3. Payment Flow Optimization (40h × $50 = $2,000)
+
+-   Donation Interface
+    
+    -   Quick donation options
+        
+    -   Recurring payment setup
+        
+    -   Transaction confirmation
+        
+    -   Receipt generation
+        
+-   Transaction Tracking
+    
+    -   Status updates
+        
+    -   Transaction history
+        
+    -   Payment methods management
+        
+    -   Error recovery
+        
+-   Analytics Integration
+    
+    -   Conversion tracking
+        
+    -   Drop-off analysis
+        
+    -   A/B testing
+        
+    -   Performance metrics
+        
+
+Backend Engineering ($7,200)
+
+#### 1. Performance Optimization (50h × $60 = $3,000)
+
+-   Query Optimization
+    
+    -   Database indexing
+        
+    -   Query caching
+        
+    -   Connection pooling
+        
+    -   Query analysis
+        
+-   Caching Implementation
+    
+    -   Redis integration
+        
+    -   Cache invalidation
+        
+    -   Cache warming
+        
+    -   Memory management
+        
+-   Load Testing
+    
+    -   Stress testing
+        
+    -   Bottleneck identification
+        
+    -   Performance monitoring
+        
+    -   Optimization strategies
+        
+
+#### 2. Security Hardening (40h × $60 = $2,400)
+
+-   Security Implementation
+    
+    -   Vulnerability fixes
+        
+    -   Penetration testing
+        
+    -   Security headers
+        
+    -   SSL configuration
+        
+-   Access Control
+    
+    -   Role-based security
+        
+    -   API authentication
+        
+    -   Session management
+        
+    -   Data encryption
+        
+-   Protection Systems
+    
+    -   Rate limiting
+        
+    -   DDoS protection
+        
+    -   Input validation
+        
+    -   XSS prevention
+        
+
+#### 3. API Documentation (30h × $60 = $1,800)
+
+-   Technical Documentation
+    
+    -   API reference
+        
+    -   Integration guides
+        
+    -   Code examples
+        
+    -   Error documentation
+        
+-   System Architecture
+    
+    -   Component diagrams
+        
+    -   Data flow documentation
+        
+    -   Deployment guides
+        
+    -   Security documentation
+        
+-   Developer Resources
+    
+    -   SDK documentation
+        
+    -   Tutorial creation
+        
+    -   Best practices
+        
+    -   Troubleshooting guides
+        
+
+Blockchain Engineering ($5,200)
+
+#### 1. Mainnet Deployment (40h × $80 = $3,200)
+
+-   Contract Migration
+    
+    -   Parameter configuration
+        
+    -   Network setup
+        
+    -   Fee optimization
+        
+    -   State migration
+        
+-   Security Verification
+    
+    -   Vulnerability scanning
+        
+    -   Access control verification
+        
+    -   Emergency procedures
+        
+-   Production Integration
+    
+    -   Network monitoring
+        
+    -   Transaction verification
+        
+    -   Error handling
+        
+    -   Backup procedures
+        
+
+#### 2. Production Setup (25h × $80 = $2,000)
+
+-   Monitoring System
+    
+    -   Transaction monitoring
+        
+    -   Alert system
+        
+    -   Performance tracking
+        
+    -   Error detection
+        
+-   Recovery Procedures
+    
+    -   Backup system
+        
+    -   Recovery testing
+        
+    -   Incident response
+        
+    -   Continuity planning
+        
+
+DevOps Engineering ($4,200)
+
+#### 1. Infrastructure Setup (25h × $70 = $1,750)
+
+-   Server Configuration
+    
+    -   Load balancing
+        
+    -   Auto-scaling
+        
+    -   Failover setup
+        
+    -   Network security
+        
+-   Monitoring Implementation
+    
+    -   System metrics
+        
+    -   Log aggregation
+        
+    -   Alert configuration
+        
+    -   Dashboard setup
+        
+-   Backup Systems
+    
+    -   Automated backups
+        
+    -   Data replication
+        
+    -   Disaster recovery
+        
+    -   Retention policies
+        
+
+#### 2. CI/CD Pipeline (20h × $70 = $1,400)
+
+-   Deployment Automation
+    
+    -   Build process
+        
+    -   Testing automation
+        
+    -   Deployment scripts
+        
+    -   Rollback procedures
+        
+-   Environment Management
+    
+    -   Staging setup
+        
+    -   Production configuration
+        
+    -   Environment isolation
+        
+    -   Secret management
+        
+
+#### 3. Quality Assurance (15h × $70 = $1,050)
+
+-   Testing Framework
+    
+    -   E2E testing
+        
+    -   Integration testing
+        
+    -   Performance testing
+        
+    -   Security testing
+        
+-   Monitoring Tools
+    
+    -   Error tracking
+        
+    -   Performance monitoring
+        
+    -   User analytics
+        
+    -   System health
+        
+
+Quality Assurance ($1,400)
+
+#### 1. Final Testing (40h × $35)
+
+-   System Testing
+    
+    -   Full platform testing
+        
+    -   Cross-browser testing
+        
+    -   Mobile testing
+        
+    -   Payment testing
+        
+-   Performance Validation
+    
+    -   Load testing
+        
+    -   Stress testing
+        
+    -   Scalability testing
+        
+    -   Recovery testing
+        
+
+Success Criteria
+----------------
+
+1.  Successful mainnet deployment
+    
+1.  Production environment operational
+    
+1.  Performance benchmarks met:
+    
+    -   Page load time < 2s
+        
+    -   API response time < 150ms
+        
+    -   99.9% uptime
+        
+    -   Zero security incidents
+        
+1.  Multi-language support verified
+    
+1.  Mobile responsiveness validated
+    
+1.  All documentation completed
+    
+
+Dependencies
+------------
+
+1.  Tranche 2 completion
+    
+1.  Infrastructure resources
+    
+1.  Domain configuration
+    
+1.  Production credentials
+    
+
+Risk Mitigation
+---------------
+
+1.  Phased deployment strategy
+    
+1.  Comprehensive monitoring
+    
+1.  Incident response plan
+    
+1.  Backup and recovery procedures
+    
+1.  Rollback procedures
+    
+
+Launch Requirements
+-------------------
+
+1.  Performance validation
+    
+1.  Documentation completion
+    
+1.  Team readiness
+    
+1.  Support system setup
+    
+1.  Monitoring configuration
+    
+1.  Backup procedures
+    
+1.  Emergency response plan","Kevin Ready, Christopher Robison",,https://www.linkedin.com/company/thegivehub,https://x.com/therealgivehub,https://discord.gg/tJREDeHV,
+Artizen,SCF #33,Funding Human Creativity,Artizen,Applications,https://communityfund.stellar.org/dashboard/submissions/recbMhw9t64VaUFUP,Awarded,0.0,Pre-Launch #0 - Awarded,$130000.00,$43333.33,130644.85,2/11/2025,Build,"Match funding platform for breakthroughs in art, science, technology, and culture. ","Enhancing Artizen with Stellar Integration  
+
+1.  NFT Minting: Use Stellar to mint low-cost, fast NFTs, enabling creators to tokenize and monetize their work globally.
+    
+1.  Cross-Border Payouts: Stellar’s infrastructure ensures low-cost, rapid payouts with currency conversion, empowering creators in under-resourced regions.
+    
+1.  Efficient Sponsorship Payments: Stellar streamlines transparent fund transfers from brands to creators, building trust and reducing overhead.
+    
+1.  Expanded Payment Options: Stellar enables diverse payment methods, lowering barriers for fans and increasing project funding.
+    
+
+  
+Impact: Stellar integration makes Artizen faster, cheaper, and more inclusive, scaling our mission to empower creators while advancing Stellar's vision for equitable financial access.",https://docs.google.com/document/d/1wBqqQ7kY1YrC4Y3ftaRinSoSvitdML4xDiuQJMyDzME/edit?usp=sharing,"-   100,000 New Users: Drive adoption of Stellar-powered features, expanding financial access for creators globally.
+    
+-   $10M Awarded to Creators: Increase funding to underserved creators, boosting economic opportunities in under-resourced regions.
+    
+-   100 Stellar-Powered Projects: Showcase the impact of fast, low-cost payments and NFTs on creator success.
+    
+-   Global Reach: Empower creators in Africa, Latin America, and beyond with cross-border payment solutions.",https://artizen.fund/,https://github.com/artizen-fund,https://youtu.be/kMh951LGV3U,"Maybe in the future, but not in this submission","Our go-to-market strategy is bold and visionary: we’re partnering with cultural icons like the Wu-Tang Clan, groundbreaking scientists like Brian Cox, and visionary artists like Grimes to launch Stellar-powered creative projects that captivate global audiences. With a track record of working with legends like Jonny Greenwood of Radiohead, filmmaker Darren Aronofsky, and Patti Smith, we’ll use these relationships to secure high-profile sponsorships and drive mass adoption. Having awarded $1.7M through partners like Microsoft and Unity, we’re now aiming to collaborate with brands like Adobe and Meta to award $10M to creators in the next 24 months.","Traction Evidence for Artizen x Stellar Integration  
+
+1.  Awarded $2M to Creators: Artizen has funded 268 groundbreaking projects across art, science, and technology. This demonstrates our proven ability to attract top creators and successfully scale funding mechanisms.
+    
+1.  Rapid Growth: Artizen’s North Star metric—total money awarded—has more than doubled every season, with projections to surpass $1B awarded by 2028.
+    
+1.  Global Community of Innovators: Over 50,000 creators and fans actively participate on our platform, including award-winning innovators whose projects premiere at events like Sundance and TED.
+    
+1.  Profitable and Scalable: With a sustainable business model generating $350K in revenue this year, Artizen is already profitable and rapidly expanding.
+    
+1.  Brand Partnerships: Trusted by global leaders like Filecoin, Microsoft, and the Tribeca Film Festival, Artizen consistently drives ecosystem growth for sponsors.  
+    
+
+These milestones validate Artizen’s capability to execute and scale initiatives, providing a solid foundation for Stellar integration to amplify our impact.","Deliverable 1: Integration of Stellar NFT Minting for Artifacts
+
+-   Description: Implement core functionality to mint Artifacts as NFTs on Stellar, with metadata stored on IPFS/Arweave. This includes developing a user interface for creators to tokenize their work and creating wallet integration for receiving NFTs.
+    
+-   How to Measure Completion: Successful minting of an Artifact NFT on Stellar by a creator, with metadata stored off-chain and linked to the NFT. Demonstration of the functionality in a live staging environment.
+    
+-   Estimated Date of Completion: Month 2
+    
+-   Budget: $45,000 (Development costs, blockchain integration, frontend/backend engineering, IPFS/Arweave storage setup).
+    
+
+Deliverable 2: Cross-Border Payouts via Stellar
+
+-   Description: Develop the backend system for cross-border payments using Stellar’s PathPaymentStrictSend operation. Integrate with Stellar Anchors to provide fiat on/off ramps for payouts in local currencies.
+    
+-   How to Measure Completion: Completion of a successful test payment from a sponsor to a creator, with currency conversion and withdrawal through an anchor.
+    
+-   Estimated Date of Completion: Month 3
+    
+-   Budget: $20,000 (Smart contract development, integration with Stellar Anchors, payment gateway setup).","Deliverable 3: Stellar Testnet Deployment for Core Features
+
+-   Description: Deploy and test NFT minting, cross-border payouts, and sponsorship payment features on Stellar Testnet. Build in feedback mechanisms for creators and sponsors.
+    
+-   How to Measure Completion: Successful deployment on Testnet with end-to-end testing of core features, including minting, payouts, and payments. Documented feedback from beta testers.
+    
+-   Estimated Date of Completion: Month 4
+    
+-   Budget: Access to Stellar LaunchKit resources (no XLM award for this tranche).","Deliverable 4: Launch on Stellar Mainnet
+
+-   Description: Deploy the full Stellar integration on Artizen’s platform, including NFT minting, payouts, and sponsorship payments. Ensure integration with Stellar Anchors for fiat conversions and finalize user onboarding experience.
+    
+-   How to Measure Completion: Public launch on Stellar Mainnet with live transactions. Demonstration of successful NFT minting, payouts, and sponsorship payments by real users.
+    
+-   Estimated Date of Completion: Month 6
+    
+-   Budget: $65,000 (Final engineering, security audits, deployment costs, user onboarding support).",René Pinnell,l6g1tdjr5egujc8k77xu.png (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/1vOctTcMyZZ-taYaVjvHdQ/Ir_csYgg68mPrzDKe9LYFb-MtwowBjaQnAIC4QkqU2dmn4qxqq9KA3En5XAPRoFs2BNKERXkTAnC4yg32ZKBp4b1EwhPZQYWeSvzlm6FJYJgl8FY9k6soxKxnaK7P2T5Z_s5POBPAbofYU6jaJEA_A/etVMaD-9R_DTa-Z-0lS511DVCp6MzTQHGBx2bTwGegk),,https://x.com/artizenfund,,
+Outbounder,SCF #33,Outbounder: Automated Humanitarian & Payroll Payments on Stellar,Outbounder,Applications,https://communityfund.stellar.org/dashboard/submissions/recCdH1be0EVloiFQ,Awarded,0.0,Pre-Launch #0 - Awarded,$38000.00,$12666.67,40339.92,2/10/2025,Build,"Outbounder offers organizations seamless, automated cross-border payroll and aid disbursements via Stellar with built-in on/off-ramp and permission controls.","'- Core Offering
+- A software service that lets companies and NGOs schedule, automate, and manage fiat-crypto payroll & aid payments on Stellar without direct blockchain interaction.
+- Key Features
+- Automated Payment Schedules
+    - Create one-off or recurring disbursements (e.g. monthly payroll, weekly aid grants) via the dashboard, with configuration through industry-standard CSV or our frontend interface that manages and triggers Stellar transactions.
+- On-Ramp / Off-Ramp (SEP-6 & SEP-24)
+    - Integrated fiat on- and off-ramp flows through SEP-6/24 anchors for USD, EUR and other currencies.
+- Cross-Border FX & Path Payments
+    - Native Stellar path-payment support for best-rate FX, routing payments through pools or anchors automatically. (also Soroban pools if they show they can handle stable rates, as we would require)
+- Granular Permissions
+    - Role-based access: define who can initiate, approve or audit payments within your organization.
+- Partner-Wallet Integration
+    - Recipients can receive funds in any supported Stellar wallet (Initially Vibrant, Beans, and Lobstr).",https://docs.google.com/document/d/124bxcHLPIa2FCjlNyhhrUnTyN7_ieYYgYOBsmy5wxeY/edit?usp=sharing,"'- Success Criteria:
+    - By the start of 2026, we will consider Outbounder a success if we have:
+- $20,000+ USD in Monthly Disbursements
+        - Processed, including both payroll and humanitarian-aid payments, through fully automated schedules and path-payment FX routing on Stellar.
+- 10+ Onboarded Organizations
+        - A diverse set of NGOs, enterprises, and pilot partners actively using Outbounder for live payouts.
+- 500+ Unique Recipients Served
+        - End-users (employees, aid beneficiaries, contractors) receiving funds via our partner anchor network and supported Stellar wallets.
+- 2+ Live Anchor Integrations
+        - Full SEP-6/24 on- and off-ramp flows with at least two major stablecoin anchors (USDC, EURC) in production.
+- Measurable On-Chain Liquidity Growth
+        - A demonstrable increase in on-chain volume and tighter path-payment spreads. Showing that Outbounder’s automated flows help strengthen FOREX rates and rival traditional payment rails in cost, speed, and flexibility.
+",https://tumbl.xyz,https://docs.google.com/document/d/1RA6a9VxjTbEpR7ysVYvPGxE0ZI5hEtFEkkCy3Qjx7xQ/edit?usp=sharing,https://vimeo.com/1043319758?share=copy,"Maybe in the future, but not in this submission","'- Primary Audience:
+    - NGOs and humanitarian organizations needing streamlined cash assistance disbursements
+    - Enterprises and payroll processors seeking automated cross-border payroll solutions
+- Secondary Audience:
+    - Anchors and liquidity providers looking to expand stablecoin on/off-ramp usage
+    - Market makers, DeFi projects, and traditional businesses exploring on-chain financial rails
+- Market Trends
+    - Rapid growth in blockchain adoption for B2B and B2C payments
+    - Rising demand for turnkey on/off-ramp solutions in global remittances
+    - Shift towards programmatic, scheduled payouts in payroll and aid programs
+    - Increased regulatory scrutiny driving need for built-in KYC/AML workflows (SEP-12)
+- Value Proposition
+    - Simplified Onboarding: No blockchain expertise required, users interact via intuitive UI
+    - Automated Scheduling: One-off and recurring payouts for payroll and humanitarian aid
+    - Best-Rate FX & Anchors: Dynamic path payments and integrated SEP-6/24 on/off-ramp with major USDC/EURC anchors
+    - Compliance-Ready: Built-in SEP-12 KYC (for organizations, may be a more manual solution depending on what MyKobo and other anchors are able to provide), detailed audit logs, and role-based permissions
+- Marketing Strategy
+    - Positioning: Outbounder as the go-to platform for automated, compliant cross-border payments and humanitarian aid.
+- Channels:
+    - Digital campaigns on Stellar Global & Developer Discords, Anchor Directory forums
+    - Content marketing: blog posts, case studies, partner co-authored articles
+    - live demos targeting NGOs and corporate treasuries
+    - Community Engagement: Regular project updates on Stellar Discord, hackathons, and AMAs
+- Sales Strategy
+    - Direct Outreach: Leverage SCF network to engage anchor partners and enterprise leads
+    - Partner Referrals: Incentivize existing pilot organizations and anchor Partners to refer new customers
+    - Pricing: Free pilot tier covering up to $10k/month volume; tiered subscription based on recipient count thereafter.
+- Launch Plan
+- Pre-Launch: Beta testing with 3–5 pilot organizations (late 2025/early 2026)
+    - Official Launch: Public mainnet release and announcement via social channels and blogs (August 2025)","From July of 2023, to June of 2024, Stream executed thousands of transactions daily, sending an average of nearly $3,500 in monthly outbound transaction volume across 50+ liquidity pools. Every log across our 5 previous customers can be audited there, along with their token amounts, payment hashes, timestamps, and other metadata (check the ""logs"" folders) :  
+https://drive.google.com/drive/folders/10jelcFcxPcPdI2oSNwutwAMmYb0CkN9L?usp=sharing
+
+At peak, Stream processed $5,000 in monthly payment volume, sending hourly transactions to thousands of addresses in a scalable, reliable manner.","'- Deliverable 1: Supabase Core & Data Model
+    - Brief description: Define and deploy the Supabase schema covering authentication (JWT/OAuth2, SEP-10), organization and member tables with RLS policies, KYC/AML fields (SEP-12), payment schedules, and audit logs. Establish row‑level security to enforce granular permissions for payroll and aid administrators.
+    - How to measure completion: project live with working signup/login flows, organization creation, role assignments, and enforced policies; database tables populated and accessible via Supabase Studio.
+    - Estimated date of completion: 2025-04-20
+    - Budget: $1,000
+- Deliverable 2: Authentication & Permissions Service
+    - Brief description: Implement authentication and authorization APIs using Supabase edge functions and Go microservices: JWT-based login, OAuth2 integration, SEP-1 Stellar account onboarding, Multisignature account setup, etc
+    - How to measure completion: functions and Go endpoints return valid tokens, create and configure Stellar accounts with correct thresholds, accept and store KYC payloads; integration tests for login, account creation, and permissions enforcement pass.
+    - Estimated date of completion: 2025-05-25
+    - Budget: $6,000
+- Deliverable 3: Next.js Frontend & Organization Dashboard
+    - Brief description: Build the Next.js App Router frontend for Outbounder: secure pages for organization management, payment schedule creation and editing, real‑time status updates via subscriptions, and audit log viewer. Include responsive, accessible UI.
+    - How to measure completion: Vercel deployment available at outbounder.xyz with production‑ready pages for user registration, dashboard views, schedule CRUD, and live updates; UI tests validate workflows.
+- Estimated date of completion: 2025-06-25
+    - Budget: $10,000
+- Deliverable 4: Go Worker Queue & Stellar Protocol Integration
+    - Brief description: Develop a Go worker service to process scheduled jobs from Supabase triggers: implement SEP-6/SEP-24 fiat on-/off‑ramp flows with USDC/EURC anchors, dynamic path‑payment FX routing, and account operations (key rotations, threshold updates) on testnet.
+    - How to measure completion: Worker dequeues schedule jobs, executes on‑chain operations end‑to‑end on testnet anchors, logs transaction hashes back to Supabase; automated tests for on‑ramp, payout, and off‑ramp scenarios succeed.
+    - Estimated date of completion: 2025-07-15
+    - Budget: $8,000
+- Deliverable 5: End‑To‑End Payroll & Aid Automation
+    - Brief description: Complete implementation of automated payroll and humanitarian assistance workflows: recurring and one‑off payment schedules, off‑ramp integration, audit log exports, and recipient notifications. Ensure UX for both employers and aid coordinators is seamless.
+    - How to measure completion: Demo of testnet flows for at least two pilot organizations successfully scheduling, executing, and reconciling payroll and aid disbursements; audit logs and CSV exports available in the UI.
+- Estimated date of completion: 2025-08-10
+    - Budget: $8,000","- Deliverable 1: Polish & Integration
+    - Brief description: Complete documentation, debugging, and seamless frontend integration of Supabase and Next.js components for the payroll service on Testnet.
+    - How to measure completion: All code paths documented; UI and backend fully debugged; integration tests pass with Supabase subscriptions driving live updates.
+    - Estimated date of completion: 2025-08-15
+    - Budget: $0
+- Deliverable 2: Audits And Testing
+    - Brief description: Load, scale, and reliability testing of automated payroll flows on Testnet, including cross-border payments, contractor payroll, and off-ramp scenarios.
+    - How to measure completion: Successful execution of all predefined test cases for multi-currency transactions; performance benchmarks met.
+- Estimated date of completion: 2025-08-30
+    - Budget: $0","'- Deliverable 1: Mainnet Deployment & Anchor Integration
+    - Brief description: Deploy Outbounder’s full payroll and humanitarian aid modules to Stellar mainnet. Integrate with at least two live anchors (USDC & EURC) for secure on-/off-ramp flows.
+    - How to measure completion: Successful end-to-end live transactions executed on mainnet; anchor partner sign-offs; production frontend and worker pointing to mainnet.
+    - Estimated date of completion: 2025-09-15
+    - Budget: $2,000
+- Deliverable 2: Monitoring, Documentation & Pilot Onboarding
+    - Brief description: Set up production monitoring and alerting (Prometheus/Grafana), finalize user and developer documentation (audit exports, API guides), and begin outreach for onboarding (pilots programs and beta testers).
+    - How to measure completion: Monitoring dashboards and alerts active; docs published; A beta tester successfully operates a small testing pilot either on testnet or using small amounts on the main net.
+- Estimated date of completion: 2025-09-20
+    - Budget: $5,000",Amrith,ve8b5ghwzuqmmfi3kots.png (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/mDqJOxX4JRCYGq-OQbq4GA/0nNu8qWWaKD9AGLSwus-egQkyOdz7N8oD82SYYn0_UGEwTH7vwY6WkoK3PstUQHBkrixpV00hV3ClYzp9sVApTgnzyAVHToc8OBaYwj5eS8F56JBacjvYkc-mMNd0dkYNqXj5PzrA_W6tWkcxRlwWA/9bmGmY6PICgbOYr-6xI1AyV-KYeEO1XrcTJnZIhTFYI),https://www.linkedin.com/in/amrith-srinivas-8a4b06262/,,,
+BlindPay,SCF #33,Affordable on/offramp API,BlindPay,Applications,https://communityfund.stellar.org/dashboard/submissions/rec9omQfwyAe5KiKD,Awarded,33.0,Pre-Launch #1 - MVP,$40000.00,$13333.33,39362.94,,Build,Stablecoin API and regulatory infrastructure for global on/offramping.,"BlindPay is a payment processor that allows you to convert stablecoins into fiat currency or fiat currency to stablecoins.  
+  
+We don't have custody of users funds, which means we do NOT provide any wallet, and all failed payments will have the funds returned to the same wallet that started the payment. You can check more details here: https://blindpay.com/docs
+
+We also have some customers waiting for stellar integration like Zenith Protocols (https://orbitcdp.finance/) and RampMeDaddy (https://rampmedaddy.com/).",https://docs.google.com/document/d/1tXGALHBpMhbATfSnPKARBqctoyGoRPuge4Ukiv8j_Hc/edit?usp=sharing,$1M in Total Payment Volume using stellar blockchain in the next 6 months from mainnet implementation.,https://blindpay.com/,https://docs.google.com/document/d/1g2kD1R0UsrmtdXYbf39AtxqeiUcC9DAWAVKm1yf_siY/edit?usp=sharing,https://youtu.be/lhwJBIy241o,"Maybe in the future, but not in this submission","'-   Partner with EasyA (Phil and Dom) to tap into their developer network:
+    
+    -   Present at their in-person hackathons
+        
+    -   Host integration workshops for participating developers
+        
+    -   Create hackathon challenges focused on our on/off ramp integration
+        
+    -   Offer special incentives for hackathon participants
+        
+-   Launch with committed early adopters:
+    
+    -   Prioritize integration with Zenith Protocols (Orbit CDP)
+        
+    -   Support RampMeDaddy's implementation
+        
+    -   Document these implementations as case studies
+        
+    -   Leverage their successful integrations for social proof
+        
+-   Create developer-focused content:
+    
+    -   Technical documentation optimized for developer experience
+        
+    -   Integration tutorials and sample code
+        
+    -   Video walkthrough of implementation process
+        
+-   Build developer advocacy program:
+    
+    -   Identify and nurture relationships with active Stellar developers
+        
+    -   Create incentives for early adopters who become product advocates
+        
+    -   Establish developer feedback loop for product improvements",https://docs.google.com/document/d/1UPOhH58Zt_f9tBa5gs1BpGXCfcX8nzJxm6ROcKTwPt0/edit?usp=sharing,"[Deliverable 1]  
+
+Implementation of testnet Faucet for stellar assets in our existing developer portal.  
+
+How to measure completion: Log into the existing developer portal and have the ability to mint USDC for testing purposes in the Stellar network  
+
+Estimated date of completion: 1 week after grant date
+
+Budget: 3,750  
+
+[Deliverable 2]  
+
+Adapt the current SDK to integrate with Stellar, implementing the proposed flow with Claimable Balances. This involves modifying the SDK and our API, while maintaining compatibility for our current customers. Our company serves customers that are currently in operation and in order to maintain our high standards of security and compliance, a new continuous integration/continuous deployment (CI/CD) pipeline will be set up to test the Stellar workflow thoroughly in an automated environment (using the stellar/quickstart docker image).  
+
+How to measure completion: Reviewers can either implement our SDK or use our demo implementation purpose-built for this submission (very lean Stellar wallet with off-ramp capabilities).  
+
+Estimated date of completion: 5 weeks after grant date
+
+Budget: 18,750","[Deliverable 1]  
+
+Implementation of the Stellar Signer API, this is so the signing server is segregated from the public API into its own private network and with its own signing validation rules (e.g. as to not sign transactions blindly).  
+
+How to measure completion: Updated technical architecture & network diagram for review.  
+
+Estimated date of completion: 2 weeks from Grant Date
+
+Budget: 7,500","[Deliverable 1]  
+
+Integration of the Claimable Balances workflow with all BlindPay features like blockchain screening, KYC levels, transaction monitoring and fiat money transfers.
+
+How to measure completion: End-to-end off-ramp using BlindPay on mainnet.  
+
+Estimated date of completion: 2 weeks from Grant Date
+
+Budget: 10,000",Bernardo Simonassi,zpcgvhsvpyait90cc7fk.jpg (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/EAIOWlL1jYZEA8nNa47vZw/AT9s3MI9e6evaw3tJRdaVmSN12FlSU90vqI2v_lGNC6Gk6v5c51jx4aRUAssFCSkn8c-137jlPCTbQU9lVWRYpxVhCu7hG-JFDOmpTjlCO1gtd05JS4I6YlmeY_3cVqhRirBrTbqce_Asw_UdSt3kw/uvTlcB2jEiuGo9g3tB2wJ7b4nJ5rIOgEuqd_2SqKVYQ),https://www.linkedin.com/company/blindpay,https://x.com/blindpaylabs,,https://papermark.io/view/clvr0q6lm0006y0mb9qgbcbde
+SorobanHooks,SCF #33,No-Code Stellar Event Automation & Flows,SorobanHooks,Infrastructure & Services,https://communityfund.stellar.org/dashboard/submissions/recwkBsoW10eSCw85,Awarded,67.0,Pre-Launch #2 - Testnet,$25000.00,$25000.00,86855.46,,Build,"A real-time webhook-driven platform for developers to automate contract deployment, event monitoring, and cross-chain transactions on Stellar and Soroban.","Problem:
+
+Developers and non-technical users in the Stellar ecosystem face significant challenges when setting up real-time event tracking for on-chain and cross-chain activities. The process can take up to a week, requiring them to:
+
+-   Understand API flows.
+    
+-   Set up servers and integrate with Stellar APIs.
+    
+-   Write custom code for each specific event, which varies by product and workflow.
+    
+
+Over time, managing this setup at scale becomes increasingly difficult due to:
+
+-   High costs and resource demands.
+    
+-   Challenges in tracking failed or pending transactions, unusual activities, and system health.
+    
+
+While developers have the technical capability, this process is time-consuming, resource-intensive, and lacks a simple plug-and-play solution. Non-technical users, on the other hand, are left with no feasible options to implement such solutions.
+
+Solution:
+
+Sorobanhooks is an all-in-one automation and real-time event tracking platform tailored for the Stellar and Soroban ecosystem. It simplifies and streamlines operations with:
+
+-   Plug-and-play webhooks and integrations with third-party platforms like Slack or Telegram.
+    
+-   Customizable workflows with real-time event data and analytics dashboards.
+    
+-   Cross-chain activity tracking and reporting tools for seamless scalability.
+    
+-   Additional features like smart contract testing and deployment in just a few clicks.
+    
+
+This solution drastically reduces the time, cost (up to $100k in year depending on scale), and effort for developers and product owners, enabling them to scale their projects efficiently while maintaining real-time oversight and control.
+
+Product & Features:
+
+1.  Soroban Event Notifier to track contract events,
+    
+1.  Soroban Transaction Tracker for live updates on transaction statuses,
+    
+1.  Soroban Balance Watcher to monitor account balances,
+    
+1.  Soroban Contract Deployer for seamless contract deployment
+    
+1.  Soroban Cross-Chain Bridge Monitor to track cross-chain transfers.
+    
+
+How to Use:
+
+1.  Sign Up: The developer signs up on Sorobanhooks and creates an account.
+    
+1.  Create a New Project: The developer creates a new project within Sorobanhooks to track event or deploy smart contract.
+    
+1.  Configure Webhooks: They set up webhooks for specific events, such as contract deployment, token transfers, or balance changes.
+    
+1.  Deploy Contract or import : Using the Sorobanhooks interface, the developer deploys their Soroban smart contract or import
+    
+1.  Real-Time Monitoring: As events occur (e.g., a token transfer or contract state change), the webhooks automatically notify the developer’s endpoint with real-time updates.
+    
+1.  Action Automation: The developer can automate workflows based on these notifications, such as executing additional contract actions or triggering external services
+    
+
+Demand From Market :
+
+1.  Developer Bottlenecks : Developers want a plug-and-play solution to automate repetitive tasks like event tracking, transaction monitoring, and smart contract deployments, freeing up resources for core development work.
+    
+1.  Expanding Ecosystem : A platform that bridges multi-chain monitoring and automation within Stellar and Soroban is critical for this growing audience.
+    
+1.  Inclusion of Non-Tech Users : A tool like Sorobanhooks simplifies access for non-technical users, making blockchain technology more inclusive and enabling faster adoption.
+    
+1.  Current Market Gaps : A centralized, scalable platform eliminates these pain points by providing an all-in-one solution for automation, reporting, and monitoring.
+    
+1.  Expanded Demand with Mobile & Web Push Notification Integrations: In addition to the real-time event monitoring and cross-chain tracking, there is increasing demand for mobile and web push notifications for seamless user engagement.This integration will allow users to set up their webhooks to automatically trigger push notifications, reducing the need for custom development and enhancing the flexibility of the platform.
+    
+
+Validation & Opportunities:
+
+-   Early Feedback: Discussions with 10+ projects in the Stellar ecosystem have revealed that most lack the resources to build such tools in-house.
+    
+-   Adoption Potential: A streamlined solution that reduces time-to-market for blockchain projects can attract a broad spectrum of users, from small startups to enterprise-level players.
+    
+-   Cross-Chain integration with top platforms and dApps : Ethereum, Binance Smart Chain (BSC), Polygon, Avalanche, Solana, Cosmos (IBC) Polkadot, Arbitrum, Celo, Cardano, Uniswap, Aave, Curve. Finance, PancakeSwap, SushiSwap, QuickSwap, Wormhole, AnySwap, Chainlink, Balancer
+    
+
+Challengers for developers and businesses:
+
+-   Lack of Technical Resources : Many of these projects had small teams with limited technical expertise, particularly in backend development or API integration.
+    
+-   Time-Consuming Development Process : Teams were spending 1-2 weeks building webhook systems, testing integrations, and troubleshooting issues instead of focusing on core product development.
+    
+-   Scaling Challenges : Projects that had implemented basic webhook systems were struggling with scalability as transaction volumes grew, leading to server crashes, delays, and high maintenance costs. Handling custom web and mobile push notification.
+    
+-   Difficulty Tracking Custom Events : Every project had unique workflows and required custom event triggers that were difficult to implement with existing tools.
+    
+-   Non-Technical User Challenges : Non-developer stakeholders in projects couldn’t easily stay informed about on-chain events without constant developer support.
+    
+-   Limited Monitoring for Cross-Chain Activity : Projects working on cross-chain interoperability couldn’t find tools that provided real-time tracking of asset transfers across chains.
+    
+-   Inadequate Reporting and Analytics : Basic webhook implementations didn’t offer dashboards or analytics, making it hard for teams to analyze trends or troubleshoot issues.
+    
+-   High Maintenance Costs : Projects that had built custom webhook systems faced high maintenance costs, including server hosting, debugging, and scaling infrastructure.
+    
+
+Why Our solution is necessary when many of the offered features can be easily implemented by developers :
+
+-   Time-Saving: Developers spend weeks or months setting up real-time event monitoring, webhook infrastructure, and cross-chain integrations.
+    
+-   Resource Optimization : Building these features requires dedicated server infrastructure, reliable APIs, custom error handling, and cross-chain expertise—demanding resources that many startups and teams don’t have.
+    
+-   Scalability : Custom implementations are often difficult to scale as user traffic grows or workflows become more complex.
+    
+-   Maintenance and Reliability: Maintaining a custom-built webhook system requires constant monitoring, debugging, and updates—a significant drain on resources.
+    
+-   Multi-Feature Integration: Developers must implement multiple independent features, such as transaction tracking, balance monitoring, and cross-chain operations, which require unique implementations for each.
+    
+-   Accessibility for Non-Tech Users : Non-technical product owners and business teams cannot easily interpret or act on raw data from APIs and blockchain transactions.
+    
+-   Focus on Stellar and Soroban Ecosystem : Generic webhook tools lack tailored support for Stellar/Soroban’s unique workflows and requirements.
+    
+
+Unique Value Proposition :
+
+-   Tailored for Stellar and Soroban: Unlike generic webhook or automation platforms, Sorobanhooks is purpose-built for Stellar and Soroban, providing seamless integration with their APIs, event types, and transaction workflows.
+    
+-   Plug-and-Play Simplicity: Sorobanhooks eliminates the need to set up servers, write custom webhook code, or understand intricate API flows. It provides ready-to-use tools and templates for rapid deployment.
+    
+-   Unified, All-in-One Platform: Combines essential features—like real-time event notifications, transaction tracking, balance monitoring, and cross-chain workflows—into a single dashboard.
+    
+-   Accessible for Non-Tech Users: Offers intuitive dashboards and third-party integrations (e.g., Telegram, Slack), making it easy for non-technical users to monitor and act on blockchain events.
+    
+-   Cost-Efficiency and Scalability: Provides a fully managed, scalable service for Stellar workflows, eliminating infrastructure, maintenance, and error-handling costs for users.
+    
+-   Advanced Workflow Customization: Enables developers to set up custom webhooks, analytics, and workflows specific to their product needs, with minimal effort.
+    
+-   Cross-Chain Support : Includes tracking and monitoring of cross-chain transactions, an often-overlooked but critical feature for multi-blockchain projects. Some of the platform like ( Ethereum, Binance Smart Chain (BSC), Polygon, Avalanche, Solana, Cosmos (IBC) Polkadot, Arbitrum, Celo, Cardano, Uniswap, Aave, Curve. Finance, PancakeSwap, SushiSwap, QuickSwap, Wormhole, AnySwap, Chainlink, Balancer) can use our platform for different usecases.
+    
+-   Time-Saving Deployment Features: Offers smart contract testing and deployment tools, automating key steps of the development lifecycle.
+    
+
+PITCH DECK DEMO : https://www.youtube.com/watch?v=3DiR3XWCDCg
+
+SCF#31 Feedback clarification in detail : https://bit.ly/4fJRujw",https://drive.google.com/file/d/167c6KVuyvRo7haInUahDfeMRxkO8gya3/view?usp=sharing,"1.  User Adoption & Retention: Track the number of developers and projects using SorobanHooks, along with retention rates and daily active users to gauge long-term engagement.
+    
+1.  Webhook Usage & Activity: Measure the number of webhooks created, transactions monitored, and events triggered to understand product utilization and scalability.
+    
+1.  Cross-Chain Transaction Volume: Monitor the volume of cross-chain transactions facilitated by SorobanHooks to assess its effectiveness in solving real-world problems.
+    
+1.  Community Engagement: Evaluate participation in forums, GitHub contributions, and feedback from developer communities to ensure we are meeting user needs.
+    
+1.  Customer Satisfaction & Feedback: Collect user feedback through surveys, support interactions, and community forums to continuously improve the product.",https://www.sorobanhooks.xyz/,https://github.com/sorobanhooks/sorobanhooks,https://www.youtube.com/watch?v=AKLCD01_aX4,"Maybe in the future, but not in this submission","1.  Targeted Developer Outreach : Engage developer communities through webinars, meetups, and online forums.
+    
+1.  Content Marketing : Create educational content showcasing use cases and platform benefits.
+    
+1.  Strategic Partnerships : Collaborate with blockchain projects to enhance visibility and credibility.","Traction Evidence  
+
+We've attracted interest from two SCF projects eager to explore our tools. 
+
+Waitlist: 18 projects
+
+User interviews: 12
+
+Social media: https://x.com/sorobanhooks
+
+Winner: SCF Kickstart Week!","Brief Description: The MVP will include core functionalities such as
+
+1.  Soroban Event Notifier to track contract events,
+    
+1.  Soroban Transaction Tracker for live updates on transaction statuses,
+    
+1.  Soroban Balance Watcher to monitor account balances,
+    
+1.  Soroban Contract Deployer for seamless contract deployment,
+    
+1.  Soroban Cross-Chain Bridge Monitor to track cross-chain transfers.
+    
+
+How to Measure Completion:
+
+-   Sign-up and wallet connection functional and secure.
+    
+-   Basic project creation and webhook configuration available.
+    
+-   Test cases for basic features passed, and a small user group actively testing the MVP.
+    
+-   Cross-chain event monitoring functional.
+    
+-   Balance alerts and transaction monitoring tested and active.
+    
+-   Integration with Stellar and Soroban testnets verified.
+    
+
+Estimated Date of Completion: 2 months from project approval.
+
+Budget: $20K
+
+-   Development: $20K (Developers cost 2 months: Frontend, backend, DevOps & blockchain developer).","'-   Brief Description: The testnet phase will focus on extending functionality to support cross-chain event monitoring, balance tracking, and integration with the Stellar and Soroban testnet environments. Testing with a limited user group for feedback and optimization will occur during this phase.  
+    
+-   How to Measure Completion:
+    
+    -   Cross-chain event monitoring functional.
+        
+    -   Balance alerts and transaction monitoring tested and active.
+        
+    -   Integration with Stellar and Soroban testnets verified.  
+        
+-   Estimated Date of Completion: 1 month from MVP release.
+    
+-   Budget: (No XLM award for testnet release, but will request infrastructure credits through Stellar LaunchKit.)
+    
+    -   Development and Testing: Access to Stellar LaunchKit credits.","Brief Description: Final product launch on the Stellar mainnet, including the full suite of functionalities like contract deployment, monitoring cross-chain transactions, and webhooks for event notifications. This milestone will also include optimizations based on testnet feedback and final auditing.  
+
+How to Measure Completion:
+
+-   Full functionality on Stellar mainnet.
+    
+-   Audits passed and security measures implemented.
+    
+-   User adoption metrics such as sign-ups, transactions monitored, and active webhooks.
+    
+
+Estimated Date of Completion: 1 months from Testnet release.
+
+Budget: $5K
+
+-   Final deployment over server and auditing, Infrastructure setup (AWS, cloud services): $5K ( we can skip it if we get credits from AWS/GCP by Staller support)
+    
+-   Marketing and user onboarding: $2K","Vishal, dev (Sorobanhooks)",b066241b (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/kN13YNG6wLPgBkNPgTbEgA/FF3ezgZsIFXx1fxlPNrB-_KZO33AqLzElqUY1b5f7FSq4cZhnASz7xwI422JaRZvLZ6D50Y6E5JmSuZD5K9u6KoJ5FZlJLIXWXsgQJQcKuXia5l2SeyA17SxEByrTe6LA1uaZvbIvrrJzoOPZOk_-Q/umvBXufCPtrzmCLtJTUXpZ-wHHqo4H9HbD2Mx-wIS2I),,https://x.com/sorobanhooks,,
+Solang Playground,SCF #33,Solidity web IDE for Soroban,Solang Playground,Developer Tooling,https://communityfund.stellar.org/dashboard/submissions/rec51IC0ycDCBWjDz,Awarded,0.0,Pre-Launch #0 - Awarded,$10000.00,$3333.33,10615.75,2/10/2025,Build,A Solidity web IDE for Soroban powered by the Solang compiler.,"**General Features/services:  
+**- Allow Compilation of Solidity contracts to Soroban contracts platform via Solang.  
+- Allow Deployment and interaction of compiled Solidity contracts via the integration of Soroban JS SDK  
+  
+UI/UX Related features:  
+Modern UI Redesign
+
+- Sleek, minimalistic design with dark/light mode toggle.
+
+- Responsive layouts for compatibility across desktop, tablet, and mobile.
+
+- Smooth transitions and animations for improved UX.
+
+Upgrade UI Framework
+
+- Use modern frontend frameworks like React.js, Next.js, and TailwindCSS.
+
+- Focus on seamless design and performance.
+
+Enhanced Code Editor
+
+- Auto-completion and IntelliSense-like suggestions.
+
+- Multi-tab support for managing multiple files.
+
+File Management System
+
+- Drag-and-drop support for file uploads.
+
+- Enable cloud integration for project storage (e.g., Google Drive, Dropbox).",https://docs.google.com/document/d/1sVgfzgu2HdeRD_pA77wZREgL54uyu26uZZNIt3-1Dfc/edit?usp=sharing,"1- Output:  
+Contracts:  
+Currently deployed contracts on Testnet are ~3800 since the last network reset on 10th of December 2024, that is ~150 contracts per day.  
+If playground reaches 5% of this rate, we will consider this a success.
+
+Users:  
+Onboarding 50 active users within the 3 first three months would be success, and scaling to 500 within the first year would be great as well.  
+
+2- Impact:  
+We want to tell builders that the Soroban VM is flexible and built in a way that an SDK can be made for virtually any language that compiles to WASM. That is the main message we want to convey.",https://github.com/hyperledger-labs/solang-playground,https://github.com/hyperledger-labs/solang-playground,https://youtu.be/DoWAdMQSaRQ,No,"Announcements on dev forums related to both EVMs and Soroban, inviting Solidity devs to try out the new Soroban via Solang Playground.  
+Our main audience wouldn't be Soroban developers, they would be EVM devs instead.","Solang Playrground is not yet launched to users. True traction cannot be measured without Solang compiler being user ready.  
+Although Solang<->Stellar integration is not yet launched, the introduction of Solang Playground is expected to make the onboarding of Solidity devs to Soroban a lot easier.  
+One of the chains that Solang compiles to, Polkadot, has funded the very early stages of the project: Integration of Solang language server to an in-browser editor, hosting Solang on a backend service and some basic UI improvements.","Description:  
+1- Enable compilation of Solidity Soroban smart contracts supported by Solang.  
+2- Enable the deployment and interaction of compiled Solidity contracts on the Soroban Testnet.
+
+How to measure completion:  
+1- A Solidity developer/Tester should be able to compile Solidity contracts to the Soroban target with the help of language smarts from the Solang language server  
+2- A Solidity developer/Tester should be able to deploy and interact with compiled Solidity contracts on Soroban Testnet.  
+3- A wireframe for a revamped UI, to be implemented in Tranche 2.
+
+Estimated date of completion:  
+~ 2 Quarters: 15th May ~ 15th June 2025
+
+Budget:  
+$7000","Description:  
+Upon the completion of Tranche 1, Solang playground would virtually be ready for Testnet. However, in the second Tranche, we would focus on making the UI more attractive. We are putting Remix in mind when doing this.
+
+How to measure completion:  
+1-By the end of Tranche 1, we would have a wireframe ready to be implemented in Tranche 2 therefore revamping the UI and making it more attractive.  
+2- We would implement the following features, which can be objectively tested:  
+Modern UI Redesign
+
+- Sleek, minimalistic design with dark/light mode toggle.
+
+- Responsive layouts for compatibility across desktop, tablet, and mobile.
+
+- Smooth transitions and animations for improved UX.
+
+Upgrade UI Framework
+
+- Use modern frontend frameworks like React.js, Next.js, and TailwindCSS.
+
+- Focus on seamless design and performance.
+
+Enhanced Code Editor
+
+- Auto-completion and IntelliSense-like suggestions.
+
+- Multi-tab support for managing multiple files.
+
+File Management System
+
+- Drag-and-drop support for file uploads.
+
+- Enable cloud integration for project storage (e.g., Google Drive, Dropbox).
+
+Estimated date of completion:  
+~0.5 Quarter - 15th of July 2025
+
+Budget:  
+$3000","Description:  
+Mainnet readiness of Solang Playground directly depends on Mainnet readiness of Solang. There would be no extra work required to Solang Playground to support Mainnet launch.
+
+How to measure completion:  
+N/A
+
+Estimated date of completion:  
+Mainnet launch of Solang<->Stellar is expected to be April 2026, and Solang Playground launch date would be the same.
+
+**Budget:  
+**0",Salaheldin Soliman,e9c6c599 (https://v5.airtableusercontent.com/v3/u/43/43/1752580800000/rAxiDyTNYzojfVE_UBzsfw/fLdemCoKBI2eA-E15XpzDIyr2ejM0BoZD9WGCvscjD_BuzfyyzmFxUFizlsSjfq_vmwNUeBScxNTqt0MGR7ParMu9swoX2TgWMdd_y3-qgA1fPcb19YB2lP8-5I-0r804t8K9D0wCR5JIY8b7TPN9w/HwbmfV9kxPbff1aeUm-LNf6j7M9A5sjMFWJr6-f4XxE),,,,
+StellarBroker,SCF #33,StellarBroker - Launch,StellarBroker,Financial Protocols,https://communityfund.stellar.org/dashboard/submissions/recqlL2RWYaGrPOPj,Awarded,33.0,Pre-Launch #1 - MVP,$150000.00,$150000.00,523155.58,3/27/2025,Build,Multi-source liquidity swap router for Soroban AMMs and Stellar DEX,"StellarBroker is a swap router that provides access to AMMs like SoroSwap and Aquarius, Stellar DEX, and Stellar Classic AMMs. Any wallet or trading platform can integrate it, providing better exchange rates for the end-users while adding monetization from fee commissions.",https://stellar.broker/docs/stellar-broker-simple-diagram.png,We aim for at least 2 production integrations in Q1 2025 and process at least half of all consumer swaps on Stellar Network (excluding orderbook market-making and trading bots) by the end of the year.,https://stellar.broker,https://github.com/stellar-broker,https://youtu.be/jUb1npgIhQw,Yes,"The service will start earning commissions on funds saved for users immediately after the deployment on Pubnet. Eventually, once it earns bigger market share, it will become profitable.","This project has been developed in collaboration with @ultradima (UltraStellar) which provided deep insights in addition to our analysis of trading activity based on statistics obtained from StellarExpert. After spending quite a lot time on development, we managed to create a system that provides better price quotes, giving an additional income stream for partner applications while improving exchange rates and UX for end-users. Several well-known ecosystem organizations have committed to using our service once it goes live.","Website quotation widget
+
+-   Live price quotation on the StellarBroker website
+    
+-   How to measure completion: The website displays the widget with live routing for arbitrary Stellar trading pair, displaying difference compared to a quote produced by Horizon
+    
+-   ETA: 2025-01-13
+    
+-   Budget: $20,000
+    
+
+2 AMM integrations
+
+-   Routing engine supports SoroSwap and Aquarius protocols
+    
+-   How to measure completion: Router shows quotes from SoroSwap, Aquarius, Stellar DEX, and Stellar Classic AMMs, can produce transactions to swap with each of these liquidity sources
+    
+-   ETA: 2025-01-13
+    
+-   Budget: $30,000","Albedo integration
+
+-   StellarBroker router is fully integrated into Albedo
+    
+-   How to measure completion: The router is integrated as a default price quotation engine for Stellar Pubnet swaps interface
+    
+-   ETA: 2025-01-20
+    
+-   Budget: $30,000
+    
+
+Basic dashboard
+
+-   Partner dashboard with the breakdown of earned commissions
+    
+-   How to measure completion: The website should display the statistics of commissions earned from swaps with breakdown by day and market pair, a partner should be able to adjust commission settings
+    
+-   ETA: 2025-01-20
+    
+-   Budget: $20,000","Partner integration
+
+-   Other wallets integration
+    
+-   How to measure completion: At least one additional popular wallet or trading platform integrates StellarBroker as a primary router
+    
+-   ETA: 2025-02-24
+    
+-   Budget: $10,000
+    
+
+Additional AMMs integration
+
+-   Integration of Comet and Phoenix AMMs
+    
+-   How to measure completion: At least one additional Soroban protocol (Comet or Phoenix) is available for routing, quotation, and transaction generation
+    
+-   ETA: 2025-02-24
+    
+-   Budget: $20,000
+    
+
+Open partner enrollment
+
+-   Public partner enrollment process with the outreach to every application in Stellar ecosystem
+    
+-   How to measure completion: Any wallet or trading platform can register on the website and request partner API key for the integration. The dashboard contains more detailed fees breakdown with segmentation by traffic source, commissions earned, percentage of failed swaps, etc. The dashboard also contains the list of all transactions executed from the partner wallet. Partners can withdraw earned commissions.
+    
+-   ETA: 2025-03-24
+    
+-   Budget: $20,000",OrbitLens,,,,,

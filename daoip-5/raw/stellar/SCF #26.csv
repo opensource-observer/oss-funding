@@ -1,0 +1,979 @@
+Submission / Project,Round,Submission Title,Project,Category (from Project),Submission URL,Status,Tranche Completion %,Latest Tranche (from Payments),Total Awarded (USD),Total Paid (USD),Total Paid (XLM),Most Recent Payment Date,Award Type,One-Sentence-Description,Products & Services,Technical Architecture,Success Criteria,Website,Code,Video,Use Soroban?,Go-To-Market Plan,Traction Evidence,Tranche 1 - Deliverables,Tranche 2 - Testnet,Tranche 3 - Mainnet,Team Members,Thumbnail,LinkedIn (from Project),X (from Project),Discord (from Project),Pitch Deck (from Project)
+ART Club,SCF #26,ART Club: Meaningful Utility,ART Club,Applications,https://communityfund.stellar.org/dashboard/submissions/rec9eqtn0a4eB7iGq,Awarded,,SCF Legacy Award,$40000.00,$40000.00,356890.8,4/19/2024,Legacy v5.0 Activation Award,"ART Club, sponsored by the Swedish Arts Committee, connects creators with funders and brings discounts to daily shopping.","What the Product Is: ART Club is a digital platform, partly funded by the Swedish Arts Committee and Arvidsjaur Municipality, designed to bridge the gap between creative minds and the wider community and a link to local businesses. It connects creators with backers and businesses, facilitating the funding of artistic projects through a blockchain-based ecosystem. By utilizing ART credits tokens, the platform transforms creative ideas funding via tokenization into projects and offers backers tangible secured rewards and discounts for their daily shopping. It will use Sweden as a test bed for further expansion.
+
+Problems It Solves and Benefits:
+
+For Creators: ART Club addresses the challenge of securing funding and exposure for creative projects. By offering a direct link to backers and businesses interested in supporting the arts, creators gain access to a wider audience and a reliable source of funding. The benefit lies in enabling creators and artists to focus on their work without the constraints of traditional funding mechanisms, fostering a thriving creative community.
+
+For Backers: The platform offers backers the opportunity to support the arts while receiving rewards in the form of discounts on everyday purchases. It solves the problem of finding meaningful projects to back by providing a curated selection of creative endeavors. This empowers backers to contribute to the arts and creativity in a way that also benefits their daily life, creating a cycle of support and reward.
+
+For Businesses: Businesses, in particular local small businesses and/or direct competitors businesses, can benefit, attract new customers and engage with their own community by offering discounts redeemable through ART credits. This not only supports the creative economy but also provides businesses with limited resources an improved way to enhance their marketing strategies and build customer loyalty.
+
+How It Works and How It Uses Stellar and/or Soroban: ART Club leverages the Stellar blockchain for secure, fast, and low-cost financial transactions and the Soroban platform for deploying smart contracts. This combination ensures a robust and scalable infrastructure for:
+
+Funding Creative Projects: Creators can list their projects on the platform, and backers can fund these projects using XLM, USDC or EURC, facilitated by Stellar's blockchain technology for transparency and efficiency. Soroban smart contracts manage the project campaigns.
+
+Reward System and Marketplace Offers: Backers immediately receive ART credits as rewards for their support, which can be redeemed for discounts at participating businesses. Soroban smart contracts manage the businesses markets and the circulation of ART credits, ensuring a secure and automated rewards system.
+
+Governance and Expansion: The platform includes a governance model that allows ART credit holders to participate in decision-making processes, such as selecting projects for funding from the launchpad pool. This democratizes the operation of the platform and aligns with the principles of a decentralized, community-driven ecosystem.
+
+The ART Club platform represents a different approach to supporting the arts and creative projects through blockchain technology, providing a ""win-win-win"" solution for creators, backers, and businesses alike. The integration with Stellar and Soroban (with ART credits) ensures a secure, fair, transparent, and efficient system that is poised for growth and provides meaningful utility.
+
+Confirmed Sponsors:
+
+Kulturbryggan - Swedish Arts Committee
+
+https://www.konstnarsnamnden.se/stipendier-och-bidrag/kulturbryggan/
+https://www.konstnarsnamnden.se/en/stipendier-och-bidrag/kulturbryggan/lar-kanna-projektagarna/art-clubcard/
+
+Arvidsjaur Municipality
+
+https://www.arvidsjaur.se",,,www.artclubcard.com,https://github.com/GRMarkkes/ArtCC,,,,,,,,"goncalo_nsf, goncalo_nsf ",,,,,
+Clixpesa,SCF #26,Clixpesa,Clixpesa,Applications,https://communityfund.stellar.org/dashboard/submissions/recVDX0W60gkrJKWP,Awarded,,SCF Legacy Award,$35050.00,$35050.00,310012.93,4/25/2024,Legacy v5.0 Activation Award,Making money and crypto simple for everyone,"Clixpesa is an effort to build a borderless, customer-centric, all-in-one platform to serve as a trusted companion to manage and grow money while giving back control to users. By simplifying web3 for the less tech and financial savvy, we intend to increase utilization of financial products across sub-Saharan Africa. The “take it or leave it” approach to financial products and pricing has locked out many, especially in the informal sector, from enjoying the benefits of current financial trends. Furthermore, data penetration is still very low in Africa, thus by packaging our solution through the USSD channel we could reach more than half a billion users. This simple, and mostly ignored telco asset could help push Web3 mass-market adoption, not only in Africa but anywhere with no internet access.
+
+This submission will focus on integrating two of our core products to the Stellar ecosystem: Clixpesa Spaces and Clixpesa P2P Lending.
+
+Clixpesa Spaces is basically a savings feature where users can save for personal goals, participate in saving challenges, and also save in groups through RoSCAs. With Rotating Savings & Credit Associations (RoSCAs), users can come together as a group to help each other stay financially resilient. Users contribute to a pot, and the target amount goes to one of the users in a particular order until everyone has received a pot and the cycle starts over. This utility, commonly known in Kenya as Chamas, helps many raise funds for otherwise big financial goals such as business capital or bills. Within the RoSCAs, members can also ask for financial support for financial needs outside of the pot allocations.
+
+Many of the unbanked and underbanked in sub-Saharan Africa utilize traditional financial methods to stay financially resilient. Many of these methods are manual, offline, and require a great deal of trust for all involved. We begin by bringing the utility of RoSCAs to web3 and online as this has stood out as the most straightforward means of saving among our communities. While RoSCAs have proven to be efficient, many are plagued with short life spans as they tend to break off after a few rounds, and internal wrangles and flight funds arise. Furthermore, some members drop off along the contribution cycle, hence breaking the chain of contributions.
+
+Our platform helps solve these problems by offering a trustless way to save together and manage the RoSCAs. Through automated contributions, reminders, transparent transaction histories, pot allocations, and rotating signatories, the platform evens out the skill level required to manage a RoSCA and hence even the non-financial savvy member claims some level of control on their RoSCA.
+
+Users can create a RoSCA easily by inviting their friends through their phone numbers. A user comes up with a group name, the pot allocation they have agreed upon, and selects members from their contact list. This information is then used to create a new smart contract on Soroban, and the smart contract acts as the RoSCA with all the necessary logic needed to run the RoSCA. Members then receive an invitation to join the RoSCA and after all members have joined, signatories are assigned, and a pot allocation is created. Members can then start contributing to the RoSCA by sending and locking funds on the deployed smart contract. Upon a deadline or pot allocation being filled, it is automatically sent to the pot's bearer, and a new pot is created with the next member in line. Members can appeal to appear next and here the signatories can sign upon this change. Signatories are also needed for any emergency withdrawals from the RoSCA or changes that require the whole group to agree upon. Signatories are also rotated in order to ensure everyone has power in the direction the RoSCA takes.
+
+Clixpesa P2P Lending offers an avenue for users to request microloans on their own terms. 68% of loans in the alternative lending market in Africa are P2P loans. Clixpesa helps with creating and monitoring the credit scores of users and only recommending matches to users in order to minimize the risk of default among users. This feature is very useful for those who survive on day loans to run small businesses for purposes such as inventory purchases.
+
+Digital mobile loan lenders and traditional shylocks have made it impossible for low-income earners to access quick loans due to predatory interest rates. Those who have no alternative and end up settling for these loans end up in a pile of debt not because they are not financially organized but mainly because the loan was too expensive in the long run. This leads to the loss of the small assets they have or even the failure of their small businesses.
+
+This product greatly reduces the cost of loans as it democratizes lending while also opening other earning avenues for users through interest. Users can negotiate on the interest rates with their peers and since it's an open marketplace for loans, interest rates will go down as lenders look to attract more borrowers.
+
+On Soroban, two smart contracts are deployed, one for loan offers and requests and another for active loans. When a user creates a loan request or offer, this information is stored in the smart contract and once another initiates a loan from the offers or requests, the active loan is updated in the loans contract. This contract tracks the terms of the loan, payment schedules, and any payment history between the parties involved. The creditor will then be asked to fund the loan by sending funds to the user via the Stellar protocol. Once funds are received, the loan schedule is updated and interest calculated and updated. Clixpesa smart contracts will be responsible for sending reminders to loans and calculating credit scores based on user loan behavior. This credit score is essential in matching loan participants.
+
+Everyone wants more from their money, however, only a few financial savvies understand how to. Easy, frictionless, and accessible financial products are necessary to make them work for as many individuals as possible. To be inclusive, low-income earners and struggling small businesses need tools that put them in control of their money and unlock more ways to realize their potential.
+
+Our initial target market is in Kenya, with plans to roll out in East Africa and later the rest of sub-Saharan Africa. Many in the informal sector in Kenya underutilize financial products due to high learning curves, costs, and the commitment involved. While making payments is easy, participating in mediums that expose them to cheap lines of credit and saving pools still has high friction.",,,https://clixpesa.com/,https://github.com/clixpesa,https://youtu.be/MvFuiixrV4E,,,,,,,Samuel Moyi,,,,,
+Pretium Finance,SCF #26,Pretium Finance,Pretium Finance,Applications,https://communityfund.stellar.org/dashboard/submissions/rec5qqmSTk1OR3njh,Awarded,,SCF Legacy Award,$10000.00,$10000.00,85427.73,4/24/2024,Legacy v5.0 Activation Award,Revolutionizing African cross-border payments and integrating cryptocurrencies into the economic value chain.,"Pretium Finance is a cryptocurrency-driven payment platform that empowers individuals and businesses to accept cross-border payments across Africa. Additionally, it enables crypto holders to pay for utility services and settle their related bills using cryptocurrencies. Currently operating in 6 African countries, we help merchants engaging in international trade and individuals who send remittances to family and friends with a cost-effective and instant payment alternative.
+
+Africans contend with high transaction fees, delayed payments, and accessibility issues associated with existing payment systems. Businesses and individuals pay up to 15% of transaction fees of transaction value and sometimes have to wait up to 3 days when sending money home or making cross-border payments.
+
+How does it work?
+
+Businesses / Merchants: For merchants to accept cross-border payments, they create a unique paylink that specifies the amount to be paid. These links are shared with the intended payer using communication channels such as emails or WhatsApp. Once the recipient clicks on the paylink, it directs them to the interface to make payment with a blockchain network of their choice and address to send stablecoins. Once a transaction is complete, the amount equivalent to stablecoins paid is deposited into the paylink creator's fiat wallet for withdrawal into mobile money or banks.
+
+Individuals / P2P remittances: To make payments, users deposit fiat from their mobile money or banks. Using an account number to credit payments, the amount paid is on-ramped into stablecoins and the equivalent value is credited into the specified account number wallet for withdrawal. Alternatively, users have the option of using a default paylink associated with their account. In this case, payers can utilize the paylink to deposit stablecoins, and the equivalent value will be credited to the paylink wallet.
+
+Utility payments and bill settlements: Users use their assets held in their wallet to pay for utility services or settle bills such as electricity, mobile airtime or data, TV subscription, etc.",,,https://pretium.africa,,https://www.youtube.com/watch?v=K4Xp2ejrFhc,,,,,,,Derrick Bundi,,https://www.linkedin.com/in/derrick-bundi/,,,
+ScopeX,SCF #26,ScopeX: Remittance for Indians,ScopeX,Applications,https://communityfund.stellar.org/dashboard/submissions/recVBPIbN6ojsDcHK,Awarded,,SCF Legacy Award,$30000.00,$30000.00,267668.1,4/19/2024,Legacy v5.0 Activation Award,Simplified fiat remittance app for web2 users without exposing complexity of crypto world,Please provide the content from tbd that you would like me to streamline.,,,tbd,,,,,,,,,Milan Agrawal,,https://www.linkedin.com/company/0xscopex/,https://twitter.com/0xScopeX,,
+Storehouse Gold to Stellar,SCF #26,Storehouse Gold to Stellar,Storehouse Gold to Stellar,Applications,https://communityfund.stellar.org/dashboard/submissions/recfvoyPLkwH0dEX8,Awarded,,SCF Legacy Award,$50000.00,$50000.00,451577.35,4/29/2024,Legacy v5.0 Activation Award,Storehouse is a redeemable token platform giving access to individuals around the world to the protection and stability of gold.,"Note: Since the initial submission of this project, gold has peaked at an all-time historical high. We believe this reinforces our vision to provide the persons around the world the ability to leverage gold as an asset of stabilization and security amidst uncertain times:
+
+Original Submission
+
+Storehouse Gold offers a platform which specifically provides gold as a tokenized real world asset. Our platform launched in 2023 and utilized the Polygon network and ERC compliant smart contracts (specifically ERC-721 and ERC-20 for our two token types.)
+
+Tokenized gold provides individuals in the emerging world that are subjected to the risks of weak currencies, needing to travel and remit funds back ""home"", risks of having their physical money stolen, and so many other scenarios that the modern ""west"" does not encounter. By tokenizing gold, Storehouse can offer a path for individuals almost anywhere worldwide to convert their wealth into tokenized gold assets that can be remitted, traded, bartered, or redeemed.
+
+Our method of token redeeming and liquidity is unique in the industry, and provides both the user as well as the gold providers the ability to maintain utmost security in any of our partnering hubs in different regions around the world.
+
+Since our product was built on Polygon, we faces on-ramping and off-ramping limitations. With the emergence of Soroban and being able to leverage more efficient and powerful smart contracts across the stellar network, the solution to our product was simple.
+
+After our conversion, users around the world in compliant regions will more easily be able to convert fiat to stable-coins for both the purchasing and selling of their tokenized assets in nearly real time.
+
+This is something that Polygon can offer, but nowhere near as efficient or with the same growing infrastructure as Stellar.
+
+Additional Documents
+
+""Initial Polygon Token Build""
+Link: https://drive.google.com/file/d/1lpFne1DJnzyUOIZhslmtAYvdUmFBPdL4/view?usp=drive_link
+
+""Full Gold Process (3rd Party)""
+API Documentation
+Link: https://drive.google.com/file/d/1q8g8NvKBcFU27vUK2iylOOiljc4up6/view?usp=drive_link
+
+""Development Team""
+Development Leadership (internal and External)
+Link: https://drive.google.com/file/d/1ESTXQeH1L2kKrIiLA2fspDmhrqutlo/view?usp=sharing
+
+""Request and Resubmission Guide""
+Guide to all documents
+Link: https://drive.google.com/file/d/1-1lVNEYJWyvhBcE114mkuSeiQO2S-25j/view?usp=drive_link
+
+Updated Documents
+
+""Storehouse Gold Conversion""
+VersionSH-SHG-SS-2.2
+Link: https://drive.google.com/file/d/1InDaM7gYgigDIZtyMIm9SxC5PZXZlR_f/view?usp=sharing",,,https://drive.google.com/file/d/1InDaM7gYgigDIZtyMIm9SxC5PZXZlR_f/view?usp=sharing,,https://youtu.be/uc4BuA-_gRM,,,,,,,Patrick Mulcahy,,,,,
+Wagent,SCF #26,Wagent,Wagent,Applications,https://communityfund.stellar.org/dashboard/submissions/recyhHu5bchmieL0C,Awarded,,SCF Legacy Award,$43400.00,$43400.00,395911.7,5/7/2024,Legacy v5.0 Activation Award,Offers merchants effortless reception and management of crypto payments and easy checkout for the buyers.,"What is the product?
+
+Wagent is a decentralized payment gateway within the Stellar and Futurenet networks. Beyond simplifying payment processes, Wagent offers powerful features tailored to meet the needs of merchants and buyers. Wagent provides a streamlined payment process, allowing buyers to select different payment options: direct, stream, or vesting, catering to diverse buyer preferences. This not only enhances revenue potential for the merchant but also opens new avenues for growth and global reach. Moreover, Wagent's integration with the Fluxity protocol ensures secure and trustless payments, empowering buyers to manage their financial commitments effectively. Wagent provides seamless integration with popular e-commerce platforms through plugins for Presta, Magento, OpenCart, WordPress, and Shopify, ensuring effortless adoption and compatibility for merchants across various platforms. Wagent introduces automated conversion of payment tokens into the merchant's chosen currency. For instance, if a buyer selects XLM to pay for a product, Wagent seamlessly swaps incoming tokens to the merchant’s desired tokens before transferring them to the merchant's address, ensuring a smooth and convenient experience for both parties. Furthermore, Wagent streamlines the payout process for merchants with automated receiving of different tokens. Merchants no longer need to manually trigger functions or click buttons to access accumulated funds from buyers. Instead, Wagent's fully automated system ensures that merchants receive their earnings effortlessly, enhancing operational efficiency and convenience for businesses of all sizes.
+
+What problem does it solve? How does it solve them? And what audience it solves them for (explain the benefits)
+
+Wagent addresses the complexities and inefficiencies often associated with online transactions by offering a range of solutions tailored for both merchants and buyers within the Stellar and Futurenet networks. The Stellar Network is designed for financial purposes and it has great potential to be a widespread solution for crypto payments, but it lacks in having a fully decentralized automated payment gateway in which merchants would easily install plugins and integrate them and also let buyers purchase products and services. Due to Stellar’s fast, reliable, and cost-effective nature, Merchants can get a great deal compared to centralized solutions without any formalities. Wagent allows merchants to accept various tokens, giving buyers the freedom to choose their preferred method of payment. Wagent would then convert these tokens into a single token chosen by the merchant, aiming to simplify the payment process. It's worth noting that while centralized payment gateways often charge significant fees, ranging from 2% to 3% of the transaction amount, our platform operates on the Stellar and FutureNet networks, which offer fast and low-fee transactions. This means that buyers using our platform do not need to pay as much in fees compared to traditional payment gateways, resulting in cost savings for both buyers and merchants.
+
+How it works and how it uses Stellar/Soroban?
+
+Underneath the hood, Wagent utilizes proxy smart contracts to manage transactions in a trustless manner. These contracts handle various payment options such as direct payments, streaming, or vesting, enabling flexibility for both buyers and merchants. Upon completion of a transaction, Wagent's automated system ensures that merchants receive their earnings promptly, without the need for manual intervention. Furthermore, Wagent leverages the Fluxity protocol for streaming payments, locking tokens in a smart contract vault, and unlocking portions of funds incrementally over time. This feature grants buyers the flexibility to cancel subscriptions at any time while providing merchants with a steady revenue stream. Additionally, Wagent seamlessly bridges transactions between the Stellar and FutureNet networks, allowing buyers to utilize their preferred network for payment while ensuring seamless cross-network transactions for merchants. Wagent's backend infrastructure seamlessly converts incoming tokens into the user's preferred currency through a sophisticated process. Leveraging on-chain decentralized liquidity pools, Wagent efficiently swaps user tokens, ensuring optimal prices and liquidity. Even if the token originates from the Stellar network, Wagent intelligently identifies the best prices, executes swaps, and seamlessly bridges the tokens to meet user preferences.",,,https://wagent.app,https://github.com/fluxitystellar,https://www.youtube.com/watch?v=-u828UpVjw8,,,,,,,"Ceyda Esen, Ruveyda Kışla",,,https://x.com/wagentofficial,,
+FindTruman,SCF #26,FindTruman,FindTruman,Applications,https://communityfund.stellar.org/dashboard/submissions/recSLvwi5PteSRWO9,Awarded,,SCF Legacy Award,$21998.00,$21998.00,198428.84,5/3/2024,Legacy v5.0 Activation Award,FindTruman — Create a story-gameplay co-creation platform based on Web3 and AIGC,"Our team started story-gameplay Web2 project since 2017 and became one of the TOP brands in this category. We have accumulated 30 million online users and 1,500 creators on our Web2 App. The story-gameplay (also known as Script-Murder) is becoming popular in recent years. Based on the story, the player acts as one of the story roles, and interacts with others to achieve the ultimate goal from the first-person perspective. It is characterized by the strong immersion, content-based, social networking attributes, etc. Moreover, this new gaming form can empower various industries, such as the film industry and tourism industry, and expand their influence in a novel way.
+
+However, with the rapid growing of the story-gameplay industry, it encounters several issues which need to be solved urgently, for example: The creation efficiency is low. It takes a professional creator two months to produce a new story, which will affect the content quantity; The creators only get a small part of the story selling; The players have no way to be profitable; The piracy is rampant, which will affect the creation enthusiasm; The story price cannot be correlated with actual popularity. The price is controlled by publisher, not by the freedom market mechanism.
+
+These issues limit the development of the whole industry. We believe that the content creators and players need to receive more incentives in the whole economic system as they contribute their innovative ideas and active participation to the whole system. We found that the Web3 and AIGC technology are very suitable to solve the problem and can give an explosive growth for high quality contents.",,,https://findtruman.io,,https://youtu.be/mjcPf1sQ6Sk ,,,,,,,Longfeng Hou,,,https://twitter.com/FindTruman,https://discord.com/invite/vrUjMWsjAj,
+P'aid Payrolling,SCF #26,P’aid Payrolling,P'aid Payrolling,Applications,https://communityfund.stellar.org/dashboard/submissions/rec85TDjqVvWzY6oR,Awarded,,SCF Legacy Award,$50000.00,$50000.00,451577.35,4/29/2024,Legacy v5.0 Activation Award,Easy and affordable payroll with Blockchain abstracted away!,"International payroll and disbursement of aid is expensive and slow. The SDF has done a great job in building the Stellar Disbursement Platform as a solution to this problem. However, after speaking with businesses that benefit from this solution, we have identified that as it stands, it’s too complex for them to use it. Their main issues are:
+
+- Having to create a Stellar public key
+- Having to buy stablecoins somewhere
+- Managing private keys in a secure way without too much complexity
+- Requiring dev resources to set up their own instance of the SDP
+- Having to research potential wallet partners
+
+P’aid is a payroll and aid distribution SaaS solution built on top of the SDP. Within P’aid, businesses will be able to:
+
+- Create an account effortlessly without requiring dev resources
+- Manage private keys through SEP 30 without any complexity, including 2FA
+- Deposit their local currency easily directly in the UI
+- Preselected wallet partners based on their payout needs
+- Payout without having to create a Stellar wallet or buy XLM as the platform will sponsor all balances and fees
+- In the future: Set recurring payouts via a Soroban integration
+
+Problems It Solves, How It Solves Them, and Target Audience: P’aid focuses on businesses that payout funds to a diverse international audience, be that companies with an international workforce, aid organizations, or web3 companies with a global development team. These companies run into high transfer costs and long transfer times. Blockchain and more specifically the SDP can help them solve this. However, we have identified that potential users still experience too many hurdles, as described above. We will abstract away things like running your own SDP instance, managing private keys, paying for minimum balances and fees, depositing funds into the platform, and in general build a UI that these businesses can understand and use.
+
+How It Works and Utilization of Stellar: P’aid will realize a seamless user experience by integrating Stellar in the following way:
+
+- Multi-tenant architecture built on top of the SDP: Users create an account inside P’aid and don’t need any dev resources themselves.
+- Fee bumps and reserve sponsoring: Users that create a P’aid account are given a Stellar wallet with sponsored reserves so that they don’t have to do this themselves. They also won’t require you to purchase XLM to pay for any fees.
+- Users will be able to deposit funds directly inside the UI via banking partners, integrated via SEP 6/24 or API.
+- Automatic wallet recommendation: Based on the geographic location of the recipients, the platform will recommend a wallet partner. No need to research this as a business yourself.
+- Companies will not have to manage their own Stellar public key and private keys. With SEP 30 we will offer them seamless 2FA. We are also researching account abstraction by the use of Soroban for this purpose.
+- Preferred currency based on the location of the business, which connects the company with local anchors to deposit funds into the platform.
+- Using Soroban to schedule payroll disbursements.
+
+We will contribute to the open-source SDP where relevant. However, we will also require building our own back-end to, for example, save a business’ preferred currency, available anchors, connection between anchors and fiat currencies, deposit statuses, available Stellar currencies, etc.",,,www.p-aid.world,,https://youtu.be/iCGtoFG-bEc,,,,,,,"Thomas Luijken, Bas Jan Lubbers",,,,,
+Lumen Loop,SCF #26,Lumen Loop,Lumen Loop,Applications,https://communityfund.stellar.org/dashboard/submissions/recIejuRkvbm4kZSv,Awarded,,SCF Legacy Award,$29320.00,$29320.00,250474.12,4/24/2024,Legacy v5.0 Activation Award,"Lumen Loop aggregates the latest news, projects and events from the Stellar ecosystem into one central hub.","To keep up-to-date on Stellar ecosystem news and developments, you'd have to follow websites and social accounts for numerous outlets such as Coindesk, The Block, Blockworks, Cointelegraph, Ledger Insights, CNBC, and Forbes, just to name a few. You'd also need to follow official blogs and social channels from existing ecosystem participants such as Cheesecake Labs and Soroban Domains, and everything in between. And video? Hopefully, you're an avid user of various video platforms because you'll also need to subscribe to updates from platforms like YouTube and Twitch. Adding to this complexity, navigating SDF-specific sources adds another layer of difficulty, requiring a meticulous approach to stay informed about Stellar's protocol updates and announcements through the official Stellar website, SDF blog entries, Developer Discord, and official social media channels like StellarOrg and SorobanOfficial. Additionally, tracking progress and updates for the incredibly diverse ecosystem projects presents a unique challenge. From official blogs to GitHub repositories and Twitter announcements, it is incredibly hard to see who is actively building on Stellar and where to find more information about them. Being unable to efficiently find and view this information leads to the perception of lack of innovation on the network. This fragmentation not only makes it challenging to stay informed but also creates barriers to entry for those new to Stellar. Vital events and discussions are often missed due to the lack of centralized notifications and the diverse rules of engagement across platforms.
+
+Experience the convenience of navigating the Stellar network's dynamic landscape through one centralized web hub - Lumen Loop. Lumen Loop is designed to streamline the Stellar blockchain network's vast information ecosystem into an organized, accessible format. Lumen Loop automatically scrapes the web for the latest Stellar ecosystem news, updates, and developments. The scraper then uses AI to categorize and tag the content, as well as provide shortened, or ""TLDR"", excerpts for searchability and ease of access. For example, want to see just educational content? We’ve got you covered! Looking for protocol updates? No problem! We’ve got a category for that! Spanish content? Check! Lumen Loop also includes a project tracker where each Stellar project has a detail page with summaries, development activity, social metrics and news, making it easy for the community to follow developments. Let’s say you are a SCF reviewer or voter and you want to know if a project has been active in the ecosystem. Head to the project page, and we’ll have a breakdown on their social and dev activity! Lumen Loop’s project tracker increases project transparency and accountability. Beyond news discovery, Lumen Loop offers a centralized events calendar that details Stellar-related live events, meetups, and conferences from a variety of sources with essential information for easy community participation. Subscribe to our calendar and you won’t miss out! This ecosystem-wide calendar will keep people informed and boost engagement within the ecosystem. Finally, once Lumen Loop finds new information about projects or a new event it automatically posts summaries to various communities on platforms like Discord, Reddit and X/Twitter. This helps promote projects and grow the ecosystem - by keeping everyone in the loop.
+
+We create scrape rules to monitor Stellar project activity on different platforms. We normalize the discovered data from an enormous list of sources into one database. We use AI to give tags and categorize. This includes a manual review process. We push discovered content to our web platform where it's easily browsed by category, tag, project, etc. and also update the events page and the individual project tracker pages if applicable. We automatically push summaries of the discovered content to different social platforms.
+
+The basic idea of Lumen Loop is as follows: Centralized Information Hub: Aggregates Stellar ecosystem news, updates, and project developments into one platform. AI-Categorized Streams: Uses AI to organize content into searchable streams, such as educational content or developer updates, or even SCF project news. Comprehensive Event Calendar: Offers a centralized calendar detailing Stellar-related events for easy community participation. Detailed Project Tracker: Features individual pages for Stellar projects with summaries, development activity, social metrics, and a project news feed. Automated Social Media Sharing: Promotes ecosystem projects and updates by automatically posting discovered content to platforms like Discord, Reddit, and Twitter. Enhances Ecosystem Transparency: Increases project transparency and accountability through detailed activity breakdowns. Community Growth and Engagement: Aims to support community growth and project visibility within the Stellar ecosystem.",,,https://www.lumenloop.com,,https://www.youtube.com/watch?v=VpUwUPCP2eM,,,,,,,"Raphael Fortin, Jeremy Lockhart",,https://linkedin.com/company/lumenloop,https://x.com/lumenloop,,https://docs.google.com/presentation/d/1ig1TsstN8x4NpUGWO49Wjn_1baPu950BlDUyIu8zD7w/edit?usp=sharing
+BorderDollar,SCF #26,BorderDollar - Invoice Finance,BorderDollar,Applications,https://communityfund.stellar.org/dashboard/submissions/recTfc2QWaiOjUbg9,Awarded,,SCF Legacy Award,$38000.00,$38000.00,356883.24,5/9/2024,Legacy v5.0 Activation Award,BorderDollar provides investors with opportunities to invest in real-world assets through SME cross-border trade invoice financing,"BorderDollar provides investors with opportunities to invest in real-world assets through SME cross-border trade invoice financing. The trade finance gap is $2.5T worldwide, and we are focusing on the maritime industry in SEA which represents a $500B gap with annual growth of 9.6% (https://www.adb.org/publications/2023-trade-finance-gaps-growth).
+
+These SMEs are underserved by the traditional financial institutions, experience tight cashflows, and inefficiencies in the supply chain. These SMEs face tight cashflow problems because they have short-term needs for the money, but customers will only pay them after anywhere between 30-90 days. With invoice financing / freight factoring, these SMEs get upfront funding thus freeing them for important things such as paying their employees on time, rent, etc.
+
+The BorderDollar platform involves two stakeholders: investors, and businesses.
+
+Investor-facing platform: Investors refer to individuals who want to finance invoices in exchange for a certain amount of returns, i.e. between 6-11% APR. Here on the investor-facing side, investors connect their wallets, choose a liquidity pool to fund, and how much they want to fund.
+
+Business-facing platform: SMEs which require cash will upload their invoices, and we will assess these invoices internally before putting them up for funding by funders. On this end of the platform, businesses undergo KYC. They will then receive 80-90% of their invoices' value in fiat using an off-ramp service. For example, when we onboard SMEs from the Philippines, we can use Moneygram for money transfers from the liquidity pool to fiat because of their collaboration with Circle and Stellar (https://www.moneygram.com/intl/stellarwallets).
+
+These invoices will initially be assessed manually through SME owner interviews and due diligence, along with our risk scorecard. In the future, we will integrate machine learning for automated risk assessments for scalability.
+
+For more technical information, please refer to the technical architecture document below.",,,https://www.borderdollar.co,,https://youtu.be/gnXkFGecr9s,,,,,,,Jackie Tan,,https://www.linkedin.com/in/jackietanyen,,,
+Token Tails,SCF #26,Token Tails,Token Tails,Applications,https://communityfund.stellar.org/dashboard/submissions/reco9b4GbncGKoSNb,Awarded,,SCF Legacy Award,$48000.00,$48000.00,424554.08,4/25/2024,Legacy v5.0 Activation Award,Play to save - Play with your virtual cat to save a cat in the shelter,"We are building the game which has 3 parts: 1. virtual cat shelter: where you need to adopt your purrfect companion 2. your virtual cat center: tamagotchi style game in which you need to customize and take care of your cat/cats and its room 3. purrquest - pixel art platformer game where you need to save another virtual cat to release into virtual cat shelter for other players to adopt (and you'll earn commissions from that NFT purchase)
+
+Core issues in web3 games: No real RWA use cases. Crypto games lack a real mission. Web3 gaming more hard than entertaining.
+
+That’s where we come in: Simplifying Web3 Gaming and Enhancing Entertainment - easy playing process, fun for web2 & web3 users. Real-World Application in Web3 - bridging the two worlds by integrating real cat welfare into game mechanics. Grinding with a purpose - every minute you play is not wasted, but contributes to the welfare of our cat overlords. Everybody loves cats - MEOW.
+
+The Game: Explore our virtual NFT cat shelter. Adopt your purr-fect companion. Take care of your virtual cat. Save virtual cats in Purrquest RPG game to save real cats in the shelter.
+
+CATONOMICS: ABILITIES - Each NFT cat has its own ability that can be used in The Purrquest, such as Whiskerflame or Tailwind. STATUS - Each cat has 9 lives. Lives are refilled periodically and can be bought in the marketplace. LINK TO THE CAT IN THE SHELTER - Each NFT cat will be linked with a real shelter cat. Commissions from all in-game activities are used to enhance the latter’s wellbeing. WEARABLES: Gear: Hats, boots, capes, glasses; Consumables: Potions and treats bestowing in-game power; Enhancements: Amulets providing unique in-game spells. ROYALTIES: Cats saved in the Purrquest can be purchased as playable characters, providing infinite royalties to the rescuer. LEVEL: In-game activities provide Paws Points which can be used to level up cats. Each level unlocks new items, powers and discounts.
+
+ECONOMICS: NFT sales - In-game purchases of virtual cats, accessories, items and consumables. Commission from each sale donated to cat shelters. $TAILS utilization - In-game rewards, in-game sinks requiring token to develop cat and complete quests. Incentives - Referrals; In-game social network; Community governance; Real cats linked with NFTs; Contests, events and challenges; In-game NFT market + merchandise.",,,https://tokentails.com,,https://youtu.be/i-xCageSvDs,,,,,,,Zygimantas Bagdzevicius,,https://www.linkedin.com/in/zygimantas-bagdzevicius/,https://x.com/tokentails,https://discord.gg/4FVYmnd7Hg,https://docs.google.com/presentation/d/1G8F_HxNLwxkBSZ9XAcnvtH9SQFBjtI6Wq_2Y6FEXLdQ
+Tauvlo,SCF #26,tauvlo - tokenized real estate,Tauvlo,Applications,https://communityfund.stellar.org/dashboard/submissions/rece6tiLTFxaIp9T8,Awarded,,SCF Legacy Award,$100000.00,$100000.00,929248.85,5/10/2024,Legacy v5.0 Community Award,tauvlo is a tokenized real estate investment marketplace that makes investing in real estate accessible for everyone,,,,,,,,,,,,,"TokenWay, Marek Hauzr, Michael Levi, Guillermo Alda",,,,,
+Komunitin,SCF #26,Komunitin,Komunitin,Applications,https://communityfund.stellar.org/dashboard/submissions/recNOhqg2m5UV2Eb8,Awarded,,SCF Legacy Award,$44850.00,$44850.00,404561.03,5/3/2024,Legacy v5.0 Activation Award,Komunitin provides a payments system and marketplace for existing local currency exchange communities.,"Komunitin is an app featuring a local currency wallet and a marketplace for local communities. It models a decentralized set of local community currencies with the ability to trade between currencies. Community currencies (also local currencies or LETS) are a tool for financial inclusion and for a transition to a more fair and ecologically sustainable economy. They are issued and governed by mutual credit groups, cooperatives, time banks, local councils, etc. They define the currency rules, deploy local monetary policies, and need more features than just a payments system: engaging marketplace with offers and needs, news feed, efficient means of contact between members, etc.
+
+Blockchain technology has not penetrated this user base and most of these communities use classic centralized systems (CES, Cyclos, IntegralCES, TimeOverflow, MutualCredit). This is because individual communities lack the resources to develop a project like this, and existing cryptocurrencies don’t fit the use case because they don’t have the required features, are not flexible enough or are difficult to use or deploy. “The LETS movement, on a whole, hasn't been able to keep up with technology.” (Investopedia)
+
+Komunitin aims to be the flagship open source project for community currencies where to join efforts into an engaging, easy to use, decentralized and secure application. After the completion of this project and thanks to Stellar, Komunitin will also provide a critical feature that all previous systems are lacking: the ability to reliably trade between different community currencies without the need of a global coordination or global asset. This feature can effectively scale heterogeneous and autonomous community currencies into a locally-governed global payments system.
+
+Komunitin is already up and running and being used by tens of local communities across Spain, Italy and Greece for 10 years, but recently the project team is working hard in renewing the system. The user interface has already been redesigned and rebuilt and now it is time to upgrade the backend. The goal of this project is to replace the part of the old backend related with payments by a new web service using Stellar: the Komunitin accounting service.
+
+We define a concrete set of assets, accounts and trustlines in order to model community currencies in the Stellar network. Concretely, each currency has an issuer account issuing their own asset, and an administrator account that distributes the asset. Each user within a community has its account and has the administrator account as additional signer. In order to enable trade between users of different currencies, each currency has a special external account, which acts as a proxy to foreign currencies via bidirectional sell offers. The currency administration may set trustlines with external accounts of other communities, after acknowledging that the other currency is indeed trustworthy. Then, end-users of communities can effectively trade with users from other currencies, each of them using only their local currency.
+
+The following are the main characteristics of the Komunitin accounting service with implications on the architecture. Full representation in Stellar: Each community currency issues its own Stellar asset. Each user has its own Stellar account and all transactions are reflected in the Stellar network. Locally governed: Local currency administration has full control over their user accounts. There is no superstructure beyond local communities. Sponsored: Both base reserves and transaction fees are fully sponsored by the platform. Multi-tenant: A single Komunitin server can hold multiple community currencies. A new community currency can be created by filling a form. Data from different communities are isolated in different databases. Federated: Several Komunitin servers can coexist, each one in charge of a different set of community currencies. Users can trade with other users in the same or different Komunitin server (provided there is a trust path between their currencies). Custodial: Users and administrators don’t save their Stellar private keys. Their server is responsible for signing transactions on their behalf and users need to fully trust it. This property may be changed in the future to a non-custodial architecture.
+
+The Komunitin accounting service is the bridge between the Komunitin app and the Stellar network. It implements a JSON REST API for communication with the Komunitin app. It features payments and all other related operations: CRUD for currencies and accounts, local (same currency) and external (different currencies) payments. It is also responsible for implementing some features not directly translatable to Stellar: payment requests, negative balances, recurring payments, collecting membership fee, sending events to users and persisting state not suitable to be stored in the Stellar ledger. Once ready, the Komunitin app will switch from using the current old backend to the new Komunitin accounting service for the payment-related operations. After that, the app and the backend will evolve together with new features. The social features (offers, needs, news, profiles, etc) will still be provided by the current backend. The Komunitin accounting service will be developed in TypeScript, using the Nitro web server toolkit, a PostgreSQL database server for data persistence via TypeORM and the JavaScript Stellar SDK for interaction with the Stellar network and the OAuth2 protocol for client authorization. The whole system will be deployed using a set of Docker containers using Github Actions. Push messages to users will be sent via the notifications service, an additional microservice written in Go, already developed and working and using the Google Cloud Messaging service.
+
+All user’s private keys will be stored in a database column AES-encrypted using a different key per community. These community keys will be again stored in the database encrypted using a master key, provided to the server in deployment time, only in memory and not shared with other OS processes. Master and community keys will be rotated periodically. This is a simple but sufficient security approach in case of community currencies, where the first security layer is given by interpersonal trust of small communities. The fact that all transactions are recorded in Stellar makes it possible for the currency administration to check and eventually restore the balance of a compromised account. The current architecture allows for switching to a non-custodial model in the future if any community currency is ever convertible to fiat or cryptocurrency assets.
+
+There can be multiple Komunitin servers. Each community currency completely belongs to a server, and a single server can maintain multiple currencies. The team will maintain an instance at komunitin.org, but communities are encouraged to deploy additional instances if they have the resources. The only federation feature in this iteration is the availability to perform payments with users on different servers. For same-currency payments, the user can select or search the list of members. Account names, avatars and profiles are provided by another subsystem (the Komunitin social service) that is out of the scope of this project. This is not available for external users yet, and hence the user will need to enter an account URI (either scanning a QR code or selecting the currency and account number) to identify the target account. The server will reach this URI to get the user’s public key and perform the path payment through the Stellar network.",,,https://komunitin.org,https://github.com/komunitin/komunitin/,https://studio.youtube.com/video/PM-gJJ-5MGM/edit,,,,,,,Esteve Badia,,https://www.linkedin.com/in/esteve-badia-orive/,,,
+ICanProveIt -Proof-of-Learning,SCF #26,ICanProveIt -Proof-of-Learning,ICanProveIt -Proof-of-Learning,Applications,https://communityfund.stellar.org/dashboard/submissions/rectVXjaidotlGe5e,Awarded,,SCF Legacy Award,$50000.00,$50000.00,451015.64,5/3/2024,Legacy v5.0 Activation Award,"An AI exam generation platform for the creation of universally respected, academic-standard proof-of-learning certificates.","ICanProveIt is a digital certification platform that uses advanced technologies to issue verifiable, blockchain-based educational certificates. The platform combines AI, blockchain (Stellar), and decentralized identity (DID) to create proof-of-learning certificates that adhere to high pedagogical standards accepted universally by academic institutions. ICanProveIt is designed by university professors and academics to not be adversarial to the academic world. While ICanProveIt may challenge traditional educational roles it also promises to liberate teaching professionals from administrative burdens, enabling them to focus more on teaching and research. ICanProveIt was designed to be teacher/professor friendly.
+
+This platform addresses multiple challenges:
+
+Non-Demonstrable Knowledge: A significant issue is that 98% of our knowledge and capabilities are non-demonstrable and unshareable. ICanProveIt creates a digital, verifiable format that allows individuals to demonstrate and share their learning effectively.
+
+Chaotic Proof-of-Learning Outside Academia: Outside of the academic world, proof-of-learning is often chaotic, pedagogically repulsive, and largely ignored. The platform standardizes the validation process with rigorous academic oversight to restore credibility.
+
+Limited Formal Education Scope: Formal education covers less than 1% of subjects that people learn throughout their lives. ICanProveIt expands the scope by certifying a broader range of knowledge and skills, regardless of how they were acquired.
+
+Lack of Verifiability: Traditional online learning often lacks a reliable method to verify educational achievements. ICanProveIt solves this by using blockchain technology for immutable record-keeping.
+
+Education Accessibility: High costs and geographic barriers often limit educational opportunities. The platform provides affordable, universally accessible educational certification.
+
+Standardization: There is a disparate recognition of educational certificates across different geographies and institutions. By adhering to globally recognized standards, ICanProveIt ensures its certificates have wide acceptance.
+
+Mass Retraining Needs Induced by Job Markets Being Disrupted by AI: The platform also aims to assist those whose jobs have been disrupted by AI, offering a means to retrain and certify new skills in a rapidly changing job market.
+
+The platform primarily serves self-learners, educational institutions, and employers. Self-learners benefit from obtaining verifiable credentials for informal learning, institutions can reduce administrative costs and maintain integrity in credential issuance, and employers receive reliable proof of candidates' learning.
+
+ICanProveIt embraces continuous learners and recognizes that self-learning has real value to employers, and the employment market. The internet provides us with nearly unlimited opportunities follow our interests and passions. Learners can pick from blogs and YouTube videos or take fee courses from the world’s top universities given by the professors famous for their contributions or their teaching abilities. But there is a catch! Without a reputable certificate as proof-of-learning, the learner is unlikely to receive immediate benefits from his learning. No employer is going to hire someone on the basis of the learner claiming to have read a book or taken a free course with nothing to prove it. ICanProveIt works in 3 steps: The Learner follows their normal path to acquiring knowledge by reading books and blogs, watching videos and taking free online courses from universities. The learner uploads or provides us with links to their learning material. ICanProveIt platform creates an exam by matching the provided learning material against material in a repository curated by academics ensured to be up to date. After successfully completing the exam the learner is issued a certificate that can be put on a resume or shared on social media.
+
+AI Integration: AI is used to generate personalized exams based on the content learned by users, ensuring that the assessment is tailored to the individual’s study material. Blockchain (Soroban): Stellar’s blockchain technology offers a decentralized, fast, and low-cost ledger to store certificate data, making the issuance and verification of certificates secure and efficient. Soroban Smart Contracts: Utilizing Soroban, Stellar's smart contract platform, allows for complex operations like conditional certificate issuance and automated verification processes. This enhances the scalability and functionality of the certification process.
+
+In contrast to the typical, rigid model, where learners are each given the same set of study material, followed by the same exam, ICanProveIt tests learners on the specific material they have consumed, including material from YouTube videos, blog posts, traditional or audiobooks etc. All exams are created on the fly from a curated repository of content matched with the learners' uploaded content. In the case of courses that mimic those found at traditional universities that have a generally recognized curriculum, the learner’s uploaded content will not be used for exam creation but instead will be used to inform the learner as to whether they have sufficiently studied enough (assuming that they studied all of the material uploaded) to be successful in the examination. Learners will still be able to take tests on such standardized classes if their material does not completely satisfy this requirement, but required areas are not covered by the uploaded materials and will draw their questions from a set of curated materials that reflect the standards required for passage of the material. Generating exams that are relevant to employers means following pedagogical standards that allow for comparability across subjects. Most online learning certificates are deemed worthless simply because there is little to no information about the test or material studied. Hiring managers are unlikely to dive deeper into the specific areas studied, the source of the information or the reputation of the certificate issuer. ICanProveIt is designed so that all exams generated are relevant to the learning goals and are formulated in a coherent and logical manner, one that clearly demonstrates the acquired knowledge of the student.
+
+Coverage of Source Material - A metric ranging from 0 - 1 that indicates how much of the input text (material studied) is reflected in the quiz. It is calculated by mapping each question to the relevant sentences in the text and comparing the length of the mapped text to the total passage length. This method is based on the pyramid method used in summary annotations. Coverage of Curated Material - In cases where there is a typical course content, such as is the case for most principles and intermediate courses in various subjects at the world’s universities, the source material coverage metric will be replaced with the curated material coverage metric that covers the entirety of what is normally expected from a student in such a course and that is similarly given a metric ranging from 0 -1 as evidenced in the Coverage of Source Material metric. This prevents students from selectively choosing material that is narrower than what would typically be found in a standardized course. Employers or associations that wish to ensure coverage of specific topics can have standardized courses offered and learners will be notified as to what percentage of curated material is covered by their source material so that they can determine whether they wish to proceed with the standardized examination or whether they wish to read more of the recommended curated material instead.
+
+Structure - A 1-3 metric assessing if a set of questions flows logically together, i.e. from easy to difficult, or that natural chronological order is used. For example, if the student was being examined on the formation of the universe, the questioning would start with the Big Bang and work towards the creation of our Solar System. This is similar to a measure used in conversational QG, where questions are logically linked for natural conversation (Mulla and Gharpure 2023). Redundancy - A 1 to 3 metric assessing repetition within an exam, such as identical questions being asked that do not require a differing perspective or adaptation of the student's thought processes. This has been utilized in conversational QG to prevent repetition and ensure natural conversation (Mulla and Gharpure 2023).
+
+Ensuring a heightened level of quality regarding the entire test is crucial. However, the individually tailored questions must also meet exceptionally high standards. Questions must be rated on three metrics used to measure the fundamental aspects of a question's quality: Relevancy - A binary metric which measures whether the question is semantically relevant to the input context. Fluency - A binary metric used to assess the grammatical correctness and clarity of language in a set of questions. This metric is employed by Mazidi and Nielsen (2014) and Elkins et al. (2023), and is also used in different scales in Mulla and Gharpure (2023). Answerability - A binary metric which measures whether the question can be answered from the input context. It is not necessary to be able to find a passage from the input that is an answer to the question; it is enough if a student could reasonably answer the question from the context. For example, applying logic explained in the passage to a new situation makes the question ‘answerable’. As above, previous work by Steuer et al. (2021) and Elkins et al. (2023) uses a similar binary metric, and Mulla and Gharpure (2023) suggest similar metrics on different scales.",,,https://app.gitbook.com/o/mogysG76FhoGs2ghP2tZ/s/juIgouIea6BjwXmTGAhR/video-presentation,,https://app.gitbook.com/o/mogysG76FhoGs2ghP2tZ/s/juIgouIea6BjwXmTGAhR/video-presentation,,,,,,,"Tim Northrop O'brien, Tim  O'Brien",,,,,
+Peer (by Honeycoin),SCF #26,Peer: The everything app.,Peer (by Honeycoin),Applications,https://communityfund.stellar.org/dashboard/submissions/recQmFbAAi5u83EE5,Awarded,,SCF Legacy Award,$100000.00,$100000.00,939166.43,5/9/2024,Legacy v5.0 Community Award,"Peer byHoneyCoinis a global, non-custodial financial super app made for the general public and primarily built on Stellar.","Peer is a non-custodial financial super app built for consumers anywhere in the world tailored to crypto and non-crypto native users by abstracting the blockchain jargon and complexity of using a crypto wallet.
+
+But what do we mean? Whilst most digital wallets focus on solving one of two core pain points: payments and remittances, at Peer we believe that, whilst those are crucial problems that customers face on a day-to-day basis which we've also significantly optimized for, wallets should be so much more than a way to pay and get paid and at Peer we've built and continue to build an ecosystem of services within our app that align with one of the Stellar ecosystem's core missions: real-world use-cases. Let me break it down:
+
+✅: for boring standard features
+💜: for our differentiators that you can only find on Peer or that are unique
+
+As of today, users on our app can:
+
+Send & Receive any trusted asset on the Stellar network. ✅
+
+Swap any asset on the Stellar network via our Integrated DEX built using Path Payments & Stellar Offers as part of the Stellar Core Protocol. As part of our commitment to the Soroban ecosystem we're now working on a Soroban-based version of our in-app AMM and a savings and investment feature which should be live on Stellar in Q1 2024. ✅
+
+Chat Send (On / Off Ramps): We built a chat-based interface for users to instantly withdraw their stablecoins (USDC, EURC) or XLM balances into their mobile money wallets or bank accounts in Kenya 🇰🇪, Nigeria 🇳🇬, Tanzania 🇹🇿, Uganda 🇺🇬, & Francophone Countries because we believe that payments should not only be fast as texts but they can also natively feel like sending one. 💜 (Try it out by downloading the app today!)
+
+Instant Asset Bridge: We built a non-custodial tool that allows users on other blockchains like Ethereum, BSC, Celo and such to bridge supported assets like USDC & EURC instantly into their Stellar wallet address. No other wallet has such a feature within the Stellar ecosystem. 💜 We plan to deploy this on Soroban in Q1 and provide a web version as well in order to make it more accessible to consumers and composable with other projects on Stellar.
+
+Cash In / Cash Out: Users can deposit and withdraw USDC for cash over 150+ countries through our partnership with MoneyGram & Circle. We are one of only 8 wallets that are pioneering this functionality and were the first on the African continent to roll this out. 💜
+
+Deposit and Withdraw EURC in 27 EU countries via our SEP-6 integration & partnership with MYKOBO. 🇪🇺 💜
+
+Airtime & Bill Payments: Users can purchase airtime across over 200+ mobile networks, pay bills like power, water, & internet natively on Stellar or using any trusted asset on the network. 💜
+
+Gift Cards: Users can purchase redeemable gift cards at over 200+ global brands such as Spotify, Netflix, Uber, Apple, and more with Stellar assets like USDC, XLM, EURC. 💜
+
+CashBot: Users in Kenya 🇰🇪, Nigeria 🇳🇬, Ghana 🇬🇭, & South Africa 🇿🇦 can link their external bank accounts and mobile money wallets and view their balances, transactions and track their spending across their fiat and digital asset accounts in real time. We also use AI & Machine Learning to help with categorization, provide insights, and offer financial advice based on their spending habits and financial health. 💜",,,...,...,,,,,,,,David Nandwa,,,https://twitter.com/honeycoinapp,,
+USDC Swap: Stellar CCTP Bridge,SCF #26,USDC Swap: Stellar CCTP Bridge,USDC Swap: Stellar CCTP Bridge,Applications,https://communityfund.stellar.org/dashboard/submissions/recqE4Pq1SlYXqzuC,Awarded,,SCF Legacy Award,$50000.00,$50000.00,456119.48,5/7/2024,Legacy v5.0 Activation Award,"USDC Swap: Seamlessly bridges USDC across networks with CCTP, prioritizing Stellar integration for efficient, low-fee transactions","USDC Swap is a cutting-edge platform designed to facilitate the swift and cost-effective swapping of the USDC stablecoin across various blockchain networks. By leveraging the Cross-Chain Transfer Protocol (CCTP), our product prioritizes ease of use, security, and efficiency.
+
+USDC Swap addresses the challenge of fragmented liquidity and the high cost of cross-chain transfers in the cryptocurrency market. It serves an audience ranging from individual crypto users to larger financial entities, solving these issues by providing a unified platform for swapping USDC across multiple chains, enhancing liquidity; significantly reducing transaction fees, making cross-chain transfers more accessible; and streamlining the swapping process to make it user-friendly, even for those new to cryptocurrency.
+
+The core of USDC Swap’s functionality lies in its smart contract architecture, which underpins the CCTP integration. Here's how the process works: Users initiate a swap of USDC from one blockchain to another (e.g., from Ethereum to Stellar) via our easy-to-use interface. Upon Stellar’s integration into CCTP, USDC Swap will utilize this protocol to efficiently bridge USDC between Stellar and other networks. Until Stellar is fully integrated into CCTP, we will implement an alternative bridging method. This interim solution will facilitate USDC transfers between Stellar and ERC-20 networks, ensuring service continuity. This is the same method we used in our previous production release of USDC Swap, which saw hundreds of thousands in transaction volume with no major issues. Ultimately, our platform intends to leverage Stellar’s low-cost, high-speed transaction capabilities. Furthermore, with the advent of Soroban — Stellar's smart contract platform — we plan to enhance our services, utilizing Soroban’s advanced features for smart contracts to ensure secure, efficient, and scalable swaps.
+
+USDC Swap will act as a fast and reliable bridge for Stellar, significantly improving its interoperability with other blockchain networks. By becoming one of the few multi-chain bridges that prioritize Stellar, we aim to position Stellar as a more accessible and versatile player in the cryptocurrency ecosystem. By facilitating the movement of USDC into and out of the Stellar network, USDC Swap will help in enhancing the liquidity available on Stellar. This increased liquidity is crucial for the growth and stability of Stellar’s financial ecosystem, attracting more users and use cases. The integration of USDC Swap will attract users from other chains to Stellar, showcasing its capabilities and advantages. It will make Stellar a more attractive option for various crypto activities, including trading, remittances, and decentralized finance (DeFi) applications, expanding its user base and utility.
+
+These enhancements to the Stellar network, powered by USDC Swap, are aimed at unlocking new opportunities for growth, user engagement, and innovation within the Stellar ecosystem.",,,https://usdc-swap-staging.ultrastellar.com/cctp/landing/,,https://youtu.be/ptq_bTIFl6E,,,,,,,"Dima, Gleb Pitsevich, Alex James",,,https://usdc-swap-staging.ultrastellar.com/cctp/landing/#,https://usdc-swap-staging.ultrastellar.com/cctp/landing/#,
+Accelar,SCF #26,Accelar - Web3 Infrastructure,Accelar,Applications,https://communityfund.stellar.org/dashboard/submissions/recCMqF6lhiTo4ZeO,Awarded,,SCF Legacy Award,$33000.00,$33000.00,290384.31,4/26/2024,Legacy v5.0 Activation Award,"A unified product infrastructure; develop, launch and manage integratedweb2 and web3 features with multichain capabilities.","Accelar is a one-stop platform for building, launching, and managing both Web2 and Web3 functionalities seamlessly. The goal is to bridge the gap for Web2 users and developers who are new to the Web3 space. With Accelar, you are capable of creating dApp features, managing blockchain wallets, deploying smart contracts, and Web2 containers like LLM instances, allowing you to unify and accelerate your development process and software automations with an in-platform IDE that compiles and deploys Soroban smart contracts (Rust).
+
+First feature: Custodial wallet management.
+
+What problems it solves, how it solves them, and what audience it solves them for: By allowing users to deploy Web3 components with a custodial wallet, you can aggregate all your product development steps in one place. Non-Web3 users now have a simple and efficient way to start learning how to work with blockchain capabilities; companies and startups can have their developers working in the same environment without the need to share private information that could compromise production environments.
+
+How it works and how it uses Stellar and/or Soroban: Similar to how it currently works with the Accelar ICP wallet creation and management for interactions with the Soroban protocol and the creation of identities, we use node-pty to programmatically execute calls in the terminal, handing it over to the soroban-cli.
+
+Second feature: IDE.
+
+What problems it solves, how it solves them, and what audience it solves them for: By having an IDE capable of compiling and deploying Soroban code, the platform facilitates the onboarding of new Web3 users to the network. The main difference is that no other Soroban IDE currently has the capability of deploying the smart contract coded on the platform with the option of using either a custodial wallet (created by the Accelar platform under the management of the user) or the user's own Web3 wallet. The contracts deployed by the IDE will be automatically added under the data management section of the user, where the user can have an overview analysis of its smart contracts running (similar to how it works today with Accelar <> ICP). The main targets are companies that need to have a standardized operating system and that allows the management of multiple members per workspace. With a low-code environment, we are also able to reach Web2 developers who are willing to transition into the Web3 world.
+
+How it works and how it uses Stellar and/or Soroban: The development of smart contracts with our code editor will be facilitated by the Monaco Editor (by Microsoft). It integrates with our Next.js frontend and Nest.js backend to save compiled code and eventually deploy it.
+
+Accelar is built on top of a variety of frameworks to enable all its functionalities. For features involving the deployment of LLM containers, we utilize AWS and open-source models from Hugging Face. For automation processes and interconnections, we intend to build on top of our monolith in NestJS, which is already operational. To allow instant messaging and notifications between users and services (user <> backend), we implement WebSocket (socket.io) workflows. The backend is built with Nest.js (main backend) and FastAPI (for LLM apps), while the frontend is developed with Next.js. The development of smart contracts with our code editor will be facilitated by the Monaco Editor (by Microsoft).
+
+The following features are already available on the platform:
+
+Creation of custodial ICP identities
+Deployment of canisters (two templates: hello world and POC vector database)
+Deployment of wallet canisters
+UI canister integration to interact with the deployed canisters
+Create transfer transactions with wallet canisters
+Workspace members' management
+Workspace chat feature
+Workspace Kanban feature
+Deployment of LLM instances (two templates from Hugging Face: NLP and Falcon 7B)
+Interaction with LLM instances (question/answer workflow)
+Creation of automated workflows within a workspace
+
+Monetization: The Accelar platform will monetize in two ways: fees from transactions and monthly subscriptions. For every major transaction, such as CPU deployments through Akash, a fee will be charged. Additionally, certain features will only be available to users through a monthly subscription, which is a feature planned for the future.",,,www.accelar.io,https://github.com/Accelar-labs,https://youtu.be/KJDSlkWEnbE,,,,,,,BRUNO LAUREANO DOS SANTOS,,,https://twitter.com/accelarlabs,,
+MUWPAY,SCF #26,MUWP - Unleash Stellar’s DeFi,MUWPAY,Applications,https://communityfund.stellar.org/dashboard/submissions/rec0qoMTxCX2xgOAZ,Awarded,,SCF Legacy Award,$45100.00,$45100.00,406816.1,5/3/2024,Legacy v5.0 Activation Award,Unleashing Stellar's DeFi potential with Soroban-powered cross-chain solutions.,"MUWP stands for Multi Underlying Wrapped Payment. It's a new platform built on Stellar that uses Soroban smart contracts to make moving digital assets between different blockchains easier. Think of it as a bridge connecting various blockchains, allowing users to send and receive tokens effortlessly. This ultimately brings more resources (liquidity) into the Stellar ecosystem.
+
+Who is MUWP for?
+
+New Users: MUWP makes complex cross-chain transactions simple, letting beginners participate in DeFi (decentralized finance) without needing deep blockchain knowledge.
+
+Experienced Users: MUWP offers advanced users improved security and efficiency. They can create custom trading paths and benefit from faster transactions.
+
+Everyone: MUWP simplifies cross-chain transactions for all users. It's user-friendly but still leverages the power of Soroban's smart contracts.
+
+Benefits of MUWP:
+
+Easy to Use: No more complicated DeFi processes! MUWP makes it easy for anyone to move tokens between blockchains.
+
+Safe and Efficient: MUWP uses Soroban's smart contracts for secure and fast transactions.
+
+Liquidity Boost: As users and assets flow into Stellar for DeFi activities, overall liquidity in the ecosystem increases, benefiting all market participants.
+
+DeFi Expansion: Introducing sophisticated DeFi operations on Stellar through MUWP and Soroban attracts a broader user base and developers interested in building DeFi applications.
+
+More Decentralization: MUWP reduces reliance on centralized exchanges, making the overall financial system more independent.
+
+How Does MUWP Work with Soroban? MUWP integrates with Stellar and leverages Soroban's smart contracts to improve DeFi on Stellar. Here's how it works for sending a single token from another blockchain (Blockchain X) to Stellar:
+
+User Starts Transfer: You want to send Token A from Blockchain X to Stellar.
+
+Deposit to Bridge: You deposit Token A into a special contract on Blockchain X. This contract confirms your deposit and starts the transfer process.
+
+Validation and Locking: The contract checks the transaction and locks your tokens, ensuring they can't be used on Blockchain X anymore.
+
+Issuing on Stellar: A matching amount of Token A (or a wrapped version) is created on Stellar by MUWP's Soroban smart contract. This might involve verifying the transfer through special programs called ""oracles.""
+
+Tokens Arrive on Stellar: You receive the created tokens in your Stellar wallet, ready to be used within the Stellar ecosystem.
+
+For now, MUWP focuses on single-token transfers. Multi-token swaps will be added later in our roadmap.
+
+Existing Work: It's important to highlight that our team has already developed an MVP with a single-token feature and multi-token feature operational within EVM-compatible ecosystems. This existing framework establishes a solid foundation for our forthcoming development on Stellar. Upon release, we plan to leverage this pre-existing infrastructure to streamline liquidity transfer on Stellar. Initially, this will facilitate single-token transactions, with an expansion to multi-token transfers to follow (see roadmap below).
+
+We invite you to experience our MVP firsthand at https://muwp.xyz/. Please note that the current design is tailored for functionality, primarily to enhance usability for our non-developer beta testers.",,,https://www.muwpay.com/,https://github.com/Muwpay-uniswapper/Muwp-Stellar/tree/main,https://youtu.be/3J7QXVyJXu4,,,,,,,"Gaël BOKONGO, Abongi-Gael Bokongo",,https://www.linkedin.com/company/muwpay/,https://twitter.com/muwpay,https://discord.gg/wmZUxJtuad,
+Myaza | Transact Across Africa,SCF #26,Myaza,Myaza | Transact Across Africa,Applications,https://communityfund.stellar.org/dashboard/submissions/rec7so7Dp8MsWFhTS,Awarded,67.0,Pre-Launch #2 - Testnet,$39771.00,$39771.00,349965.9,,Legacy v5.0 Activation Award,"Myaza enables Africans to seamlessly send, receive, save, spend, and swap foreign currencies without borders.","1. International Money Transfer
+
+Service: A feature that allows Africans to send and receive money internationally.
+
+Problem: Traditional international money transfers can be slow, expensive, and inconvenient due to intermediary banks and fees.
+
+Solution: Myaza partnered with financial institutions and offers customers virtual IBANs (EURO, GBP, USD) to receive payments via ACH, SEPA, or SEPA INSTANT. We also want to leverage Stellar, a decentralized payment network, to facilitate faster, cheaper, and more transparent cross-border transactions. Stellar uses distributed ledgers and native tokens (Stellar Lumens - XLM) to streamline the cross-border payment process.
+
+Benefits:
+- Faster settlement times compared to traditional banking systems.
+- Lower fees due to reduced reliance on intermediaries.
+- Increased transparency as transactions are recorded on a public ledger.
+
+Audience: Individuals and businesses who regularly send or receive money internationally (students studying abroad, freelancers working with international clients, digital nomads, etc.)
+
+2. Currency Exchange
+
+Service: A feature that allows users to exchange currencies at competitive rates.
+
+Problem: Traditional currency exchange services often have high markups and hidden fees.
+
+Solution: Myaza allows customers to swap from one major currency to another.
+
+Benefits:
+- Potentially more competitive exchange rates compared to traditional services.
+- Faster exchange execution through streamlined protocols.
+
+Audience: Individuals and businesses who frequently exchange currencies for travel, business transactions, investment, or personal purposes.
+
+3. Multi-Currency Management
+
+Product: A feature that allows users to manage their finances in over 10 currencies.
+
+Problem: Managing finances across multiple currencies can be cumbersome, requiring separate accounts and calculations.
+
+Solution: Myaza's app allows customers to send and receive funds with over 10+ currencies supported in one app. We will integrate with Stellar or Soroban to provide a unified platform for holding, tracking, and potentially converting various currencies like USDC, USDT, and other tokens supported on the Stellar network.
+
+Benefits:
+- Simplified financial management with all currencies accessible in one place.
+- Real-time exchange rate updates for informed decisions.
+
+Audience: Individuals and businesses operating internationally or managing finances in multiple currencies.
+
+4. Virtual USD Card
+
+Product: A virtual USD card issued within the Myaza app for international payments and shopping.
+
+Problem: Traditional debit/credit cards may have foreign transaction fees or limitations for online purchases.
+
+Solution: Myaza might partner with a financial institution to issue a virtual USD card and also their local currency. This card could be used for online transactions globally without incurring foreign transaction fees. We also want to enable customers to fund their cards using USDC, USDT, etc., on the Stellar network.
+
+Benefits:
+- Convenient and secure online shopping using a USD virtual card.
+- Potential cost savings by avoiding foreign transaction fees.
+
+Audience: Individuals who frequently shop online from international vendors.",,,https://myaza.co,,https://youtu.be/zH5_f6n5gU0,,,,,,,Charles Archibong,,https://www.linkedin.com/company/myazahq/,https://twitter.com/myazahq,,
+Bingtellar,SCF #26,Bingtellar,Bingtellar,Applications,https://communityfund.stellar.org/dashboard/submissions/recG1A804BXcOc2ej,Awarded,,SCF Legacy Award,$30000.00,$30000.00,270946.41,4/29/2024,Legacy v5.0 Activation Award,Bingtellar offers cross-border payments for individuals and business in Africa using Stellar-native stablecoins for low fees.,"Bingtellar is simplifying cross-border payments for digital native Africans, African diasporas, remote teams, gig workers, and businesses (like Importers, SMEs). We make it fast, affordable, and easy for individuals and businesses to send and receive money across Africa and make payments.
+
+Bingtellar has been live since 2023, serving customers in 5 African markets (Nigeria, Ghana, Kenya, Rwanda, and Uganda) with plans to expand to more regions by Q3 2024. We currently have 5,000 customers and 150 businesses onboarded, growing at 45% MoM, and more than 15 signed Letters of Intent from businesses looking to accept and make payments leveraging our on/off-ramp infrastructure.
+
+Bingtellar’s vision is to bridge the gap between Web3 payments and the traditional financial system, making cryptocurrency spending and utility as easy and seamless as any other currency, providing an ecosystem shaped around users' everyday needs. With a web2 approach, our aim is to provide users a seamless experience in both traditional and digital financial services, with an emphasis on accessibility and security.
+
+Why Is Bingtellar Needed?
+
+Remittances serve as a crucial lifeline for 40% of the population in Africa. With rising globalization, there is a growing need for better ways to connect with the global economy, seamless cross-border transactions, and financial operations, which presents a $103bn market opportunity. This market is not yet served by incumbents like Wise, PayPal, and Western Union due to limitations in the underlying infrastructure and a lack of inclination to serve the African market.
+
+Nearly 66% of Africans are either still unbanked or lack access to formal financial services and global payments. For remote workers, migrants, and cross-border traders, this is particularly challenging because they have no safe or reliable way to bring their money across borders or an affordable way to send and receive money, leaving them vulnerable to exploitative exchange rates and theft. Intra-Africa remittance corridors are the most expensive in the world, costing users up to 25% in fees and foreign exchange rates. Nevertheless, informal channels (like P2P and FX brokers) still process a huge chunk of transactions in sub-Saharan Africa because they figured out how to stay connected to local users. In the African market, customer convenience, better experience, and flexibility trump all other characteristics of remittance services.
+
+This is where Bingtellar comes in. Our cross-border and payment product is not confined by state boundaries. With the platform, Bingtellar users can send money using both fiat and cryptocurrencies, swap multiple currencies, enjoy fast transfers, pay for goods and services, and more.
+
+How it works:
+
+Bingtellar is akin to a Wise for Africa, but with stablecoins and better, tailored to both crypto and non-crypto native users. Most blockchain-based products have targeted the crypto community, but we have taken a different approach and will target the everyday user by abstracting the complexities involved with blockchain transactions and crypto wallets. The beauty of Bingtellar’s design is that it does not impact the customer experience. No understanding of complex technical systems is required for non-crypto users. Users transact using local currencies they already know and trust (currently NGN, RWF, KES, GHS, and UGX) or crypto for crypto-friendly users. We have given users the flexibility to pick their preferred currency and process transactions. This currency will be used to send, request, and receive payments. All payments between users, no matter the currency, will auto-convert. No need to think about currencies or trustlines ever again. Payments are affordable, and we will even sponsor the network fees through feebumps.
+
+We use Stellar’s Blockchain under-the-hood to facilitate all transactions and improve Bingtellar’s security and efficiency without complicating the user experience.
+
+Problem Bingtellar solves:
+
+Cross-border payments: Traditional fiat rails for cross-border payments can be slow (takes 4-7 working days), expensive (about 10-15% fees to receive payments), and complex (might need 2-3 apps + lots of intermediaries before final settlement to the bank). Unfortunately, platforms like PayPal and Wise, which could address these issues, are not tailored to the African market.
+
+Crypto for everyday payments: One of the biggest blockers to why people cannot use or access crypto and utilize it for daily payments is because of platform user experience. A lot of platforms that support crypto do not have the best user experience, either too many steps and processes or just generally overly complex user interfaces. At Bingtellar, the crypto payments experience can be optimized to solve the crucial problems that customers face on a day-to-day basis, and we've built and continue to build an ecosystem of services within our platform that align with one of the Stellar ecosystem's core missions: real-world use-cases.
+
+Crypto utility: With crypto adoption quickly rising in Africa, stables have become a great way for people to hedge against inflation and devaluation of local currency. However, most crypto platforms are built mostly as trading-only and crypto exchange platforms, which is extremely complex for non-crypto users that just want to access basic services, and this difficulty hinders adoption. In order to onboard the next billions of users into crypto or make holding digital assets as common as cash or using a debit card for payment, we need to optimize for one thing: ""utility,"" and we are building with this in mind.
+
+Cross-border trade: Selling products and collecting payments today from users in different African markets is very difficult for businesses due to the fragmented nature of payment systems across the continent. By streamlining payment processes, we empower businesses to boost their revenues and scale their operations without the complexities and anxieties traditionally associated with cross-border payments in Africa.
+
+How Bingtellar solves these:
+
+Bingtellar aspires to create an experience that merges the effortless user experience of Wise/Venmo with truly borderless accessibility made possible by the Stellar network's unique ecosystem. Our approach not only contributes to strengthening the Stellar ecosystem but also serves as a vehicle for financial inclusion and economic stability, offering communities a valuable tool to grow and participate in the global economy more securely and efficiently.
+
+Through a series of external integrations with licensed partners, in addition to our continent-wide agents (P2P network) and institutional OTC infrastructure that acts as rails, Bingtellar is able to facilitate the movement of fiat and expand into new markets without a physical presence or its own licenses. Our core on and off-ramping experiences are fully native, never requiring a user to go through hurdles.
+
+Customer-Facing Product:
+
+With Bingtellar, freelancers, migrants, traders, and business owners access modern financial services from anywhere secured by Stellar. Bingtellar’s main functionality enables users to:
+
+1. Send and receive money domestically and across borders (Try it out by signing up today!)
+2. User Registration and KYC: Individuals register through the user interface and undergo a KYC verification process in line with regulatory requirements, facilitated by the SEP-0012 KYC Service, to ensure compliance with AML and KYC standards.
+3. Exchange currencies
+4. Cash in through local payment methods like bank and mobile money — We are adding Moneygram partner agents in Q4 2024
+5. Cash out through bank and mobile money — We are adding Moneygram partner agents in Q4 2024
+6. Manage the currencies they want to transact in
+7. View their entire transaction history from account creation
+8. View and update their profile information
+
+Bingtellar & Stellar:
+
+How Does Bingtellar Use Stellar?
+
+Using Stellar helps Bingtellar reduce transaction costs, improve security, facilitate instantaneous transactions, and enhance transparency as a back-end system. Stellar is currently not a customer-facing technology; Stellar is the engine behind all transactions. Being built on Stellar enables us to access the blockchain’s benefits and also pass on the benefits of a blockchain-based system (including speed, transparency, and reduced costs) to customers without exposing them to volatility or a complex user experience. We create individual Stellar wallets for each user, and all transactions occur on-chain. That said, we do not hide the presence of blockchain from customers. As Bingtellar expands its network and to other anchors, additional currencies can be added to the front-end.
+
+We are utilizing Soroban for Transaction Monitoring and for verified audit trails, ensuring data integrity and creating an on-chain audit trail. Soroban enables us to verify transactions, substantiate liquidity claims in peer-to-peer engagements, and facilitate service discovery. By leveraging Soroban, we strengthen security measures, mitigate risks, and uphold regulatory compliance standards. Additionally, Soroban's Account Specific Token Allowances feature empowers us to manage token allowances efficiently, enhancing user experience and operational effectiveness. Overall, Soroban plays a pivotal role in enhancing the reliability, transparency, and efficiency of our solution on the Stellar blockchain.
+
+Why Is Bingtellar Valuable to Stellar?
+
+Bingtellar aligns with Stellar’s mission: we focus on financial inclusion in emerging markets. We strive to make our services available and accessible, especially for the world’s most financially marginalized. Bingtellar offers inexpensive services to the financially excluded. We’ve already seen users in LATAM corridors use Bingtellar to remit money back home to their friends and families in Africa, which is very exciting.
+
+Many companies promote using blockchain to benefit the underserved and unbanked, but few have been able to bring that idea to fruition. Our focus has been to build a product that feels like a regular web2 payment solution but uses blockchain behind the scenes. To do this, we have chosen to let users pick a preferred currency. This currency will be used to send, request, and receive payments.
+
+From a technical perspective, Bingtellar is valuable to Stellar. As we grow, Bingtellar is planning to bring thousands of transactions to the network each month and expand Stellar into countries it has not been able to reach yet. As we move forward, we will become interoperable with other anchors in order to facilitate a truly global network of payments and currencies. Our customers are inherently mobile and moving across borders, so our vision is to support them — by using Stellar — anywhere they go.
+
+Benefits:
+
+Scalable Distribution:
+
+With strategic alliances with commerce, SMEs, diaspora communities, and partnerships with financial institutions through OTC desks, we unlock a world of possibilities. These partnerships not only amplify our credibility but also extend our reach, granting broader access to Stellar USDC and XLM within a vast customer base.
+
+Target Market:
+
+Our initial target market will be Africa (to plug Stellar to Africa local payment rails and underserved communities), but we are aiming to roll out globally. In these countries, many people encounter one or more of these problems. Also, these countries have good Stellar anchor coverage. But by design, Bingtellar is a global product, which means the sender can send from anywhere in the world. A business owner or someone in, for example, Argentina can use Bingtellar to send remittances in USDC or XLM to their business partners, friends, or family in Kenya, and recipients would get Kenyan shillings in their Mpesa wallet at zero fee with near-instant settlement.
+
+By targeting Sub-Saharan Africa, we bring a lot of new exposure to the Stellar Blockchain and the community. This, we believe, will bring in new users not only to Bingtellar but also to the Stellar network at large. Stellar's integration with Moneygram is a great step in making cash on/off-ramp more usable for remittance. However, there's an additional possibility to improve usability by on/off-ramping directly into the recipient's mobile money wallet, which is what we're building for this project.
+
+Through Bingtellar, we bring real-world use-cases to the Stellar blockchain, allowing everyday users to use the Stellar blockchain for their everyday payments and transactions. This will further aid in creating a truly inclusive financial ecosystem that aligns with Stellar's mission to create equitable access to the global financial system.
+
+Here is our Pitch showcase at the Africa Tech Summit 2024 in Nairobi: https://youtu.be/nwB46FSmK9I?si=NeT7503-sBio6Rgd. We didn't just highlight Bingtellar; we also emphasized the significance of Stellar USDC to the African community and how we're actively fostering its diverse applications.",,,https://bingtellar.com/,,https://youtu.be/rrEQZ_tboHE,,,,,,,Joshua Tebepina,,https://www.linkedin.com/company/bingtellar/,https://twitter.com/trybingtellar,,
+Alterscope,SCF #26,KYP - Risk Dashboard (Phase 2),Alterscope,Infrastructure & Services,https://communityfund.stellar.org/dashboard/submissions/rec9bGg7CKnZUW3tG,Awarded,,SCF Legacy Award,$99200.00,$99200.00,937312.5,5/16/2024,Legacy v5.0 Community Award,"We provide a Soroban ecosystem dashboard, enabling the community and LPs to perform DDs on protocols and create risk frameworks.","Alterscope aims to craft a real-time risk overview within Soroban's growing ecosystem, highlighting dApp-specific risks. We follow the thesis that liquidity is directed to trustworthy protocols with the best risk-return ratio. For that reason, we provide retail investors and professional liquidity providers a risk-adjusted view of protocols, and enable them to monitor risks in real-time. We offer publicly accessible risk dashboard that anybody can perform their own research, and onboard protocols and liquidity pools front facing relevant liquidity providers in our institutional setup. We propose to build a community dashboard for Soroban with the major DeFi applications included to facilitate end users to research dApps and to perform due diligence on on-chain/off-chain related parameters, ranging from liquidity to security metrics. Thereby, we provide a clear look at dApps in the Soroban ecosystem, helping improve projects and attract and retain liquidity in the ecosystem. “Know Your Protocol"" (KYP) is a concept we have developed to emphasize the importance of understanding the intricacies of dApps. Drawing inspiration from the financial sector's ""Know Your Customer"" principle, KYP allows a comprehensive research of protocols. The Stellar ""Know Your Protocol"" dashboard links to a DYOR community dashboard to assess dApp-specific risks metrics.
+
+Benefits for Soroban ecosystem: Enable the community to do their own research: DYOR (“Do Your Own Research”) does not work. Neither the community nor professional LPs can sufficiently research risks of protocols. Alterscope changes that by facilitating anybody to perform sound and comparable research across chains, protocols and liquidity pools. Overcome obstacles for large LPs to invest: 53% of crypto hedge funds and 43% of traditional hedge funds are already involved with liquidity provision strategies. Top obstacles for professional players to invest remain a lack of understanding of protocol fundamentals, security concerns, and perceived complexity. Show regulatory compliance: Our KYP (Know Your Protocol) dashboards underscore the value of transparency, demonstrating a commitment to regulatory compliance and fostering a healthy DeFi ecosystem.
+
+Benefits for dApps to become integrated on our platform: Bolster credibility: Show your commitment to risk management and transparency by and linking to your Alterscope risk dashboard. Accelerate your business development: By referring to a neutral third-party that provides metrics around security, liquidity, governance, and socials, the speed of decision making is increased among liquidity providers and investors. Make the right metrics available to investors: Alterscope has built up its solution in partnership with institutions and hedge funds. By showing the right metrics, large LPs are enabled to make investment decisions.
+
+After completing Phase 1 (Activation Award), we have established the foundations for indexing and integrating protocols in the Soroban ecosystem in our KYP dashboards, enabling the community to perform sound due diligences on ecosystem elements. This application is dedicated to Phase 2 of integrating Soroban-based dApps in the Alterscope platform.
+
+Product Frontend Alterscope has developed frontend frameworks that take into account the needs of LPs and investors when analyzing dApps encompassing metrics around security, liquidity, and governance. Our dashboards are continuously updated and further developed to become more and more comprehensive and powerful. We are working on various major risk categories to analyze risks and facilitate users' analysis of risks, which we currently break down in the following overarching dimensions: Security, Liquidity, Community, Governance & Tokenomics. The first section starts by collecting general information about the protocol, such as protocol type, and links to the website, code repository and documentation. Also, we apply an initial assessment based on our own standardized methodology (see here for more information about the Alterscope risk scoring methodology).
+
+Security The Security Section provides information on general security-related parameters, such as information on the founder team, bug bounty amounts, code upgradability (i.e., proxy contracts), past hacks, etc. We deploy a static smart contract analyzer to check for adherence of coding best practices. Additionally, we provide comprehensive development statistics, such as the number of issues raised and pull requests submitted, and analyze the skewness in the distribution of developer contributions. The security section gives additionally anybody the ability to easily evaluate protocols’ audits by aggregating and clustered relevant information around the auditor and, the auditing firm and the audit itself.
+
+Liquidity The Liquidity Analysis section is an essential part of our assessment for DeFi projects. Our approach to analyzing liquidity is carefully tailored to fit the specific type of DeFi protocol we're evaluating, such as DEXs, lending platforms, and others. This allows us to focus on the unique characteristics of each protocol's liquidity system. In our liquidity analysis for DeFi projects, we evaluate several key parameters to gain a comprehensive understanding of the liquidity dynamics. Our analysis starts at the overall protocol level by looking at general parameters, such as at TVL, which gives us a broad view of the financial health of the protocol. We then zoom in on individual liquidity pools, examining their design, activity, and changes in liquidity over time. For example, we monitor daily transaction activity by tracking the average number of transactions and the total transaction volume. This measurement helps us gauge the daily operational activity of the protocol. Next, we assess volume continuity by analyzing the average and median trading volumes, along with the number of unique wallet interactions and the total transaction count. These metrics allow us to evaluate how consistently users are trading and the overall user engagement with the protocol. We also focus on liquidity health, where we score all wallets associated with the protocol based on their financial stability. Our analysis extends to pool-specific insights where we delve into each liquidity pool to review critical aspects such as the liquidity pools’ total value locked, fees generated, transaction count, and the diversity of wallet interactions. We also analyze the volume and value of the tokens within each pool. These comprehensive evaluations provide a detailed view of not only the numerical data but also the practical functionality and stability of liquidity in DeFi projects, ensuring our analysis is both informed and grounded.
+
+Community The community surrounding a protocol and the sentiment towards it can significantly impact the liquidity metrics of a dApp. In the Community Section, we offer a comprehensive view of the community and the social channels they use. For example, we provide statistics on subreddit popularity, Discord server activity, the number of moderators, and the communication patterns, including the intensity of daily interactions. We aggregate these parameters to calculate a sentiment index. Additionally, we offer clear insights through a clustering of recent topics discussed within the community. This enables anyone to quickly identify the most recent and prevalent topics related to the protocol, enhancing understanding of the community's current interests and concerns.
+
+Governance & Tokenomics This section outlines the governance structure of a protocol and, where available, provides insights into the associated project token. Our format simplifies the understanding of key governance aspects such as the voting schema, the number of voters, and details relating to the spread of proposals, as well as metrics on voter engagement with each proposal. Our activity dashboards are designed to clarify the process of evaluating voter ratings and tracking monthly proposals, which are crucial for assessing voting power distribution and its relationship to community requests. If a token has been issued, we offer additional information on the tokenomics of the project, including price dynamics, lock-up periods, and the impact of major holders. We also analyze the Gini coefficient to understand the distribution among token holders. Included in our analysis are key circulation metrics such as the 24-hour trading volume, token velocity, the total number of holders, and the concentration of the top five holders, providing a comprehensive view of the token’s market dynamics.
+
+Comparison Tool Based on the datasets of integrated protocols, we provide advanced features and tooling. For example, integrated protocols are included in our research tool that enables anybody to easily select metrics of the Alterscope platform and put them on a graph to analyze developments over time and across different protocols. With few clicks, anyone can build production-ready dashboards, analyzing off- and on-chain data, into the same visualization layer, greatly facilitating research in the web3 space.
+
+Product Backend Data acquisition and processing: Our high-level design system streamlines a multi-faceted public data ingestion process, differentiated in on- and off-chain data sources. Regarding, on-chain data we run our own nodes and build proprietary ETL pipeline to ensure a high accuracy and latency of data (e.g., Liquidity Risk Data). Regarding off-chain data, we built our own data pipeline infrastructure for being able to continuously gather and process relevant data (e.g., Development Activity Data from GitHub). To ensure data integrity, we run stress tests on our infrastructure and establish quality processes. Architecture: The system architecture is designed to enable efficient data processing, ingestion, and management, integrating machine and deep learning capabilities with high speed data storage. The data processing utilizes Kafka for stream processing, coupled with a ML engine for risk processing, and employs an ETL process for data treatment. The system incorporates APIs to harness off-chain data from various sources, including GitHub and social media, and utilizes web crawlers for real-time data acquisition. Storage solutions are diversified, featuring for example MongoDB for structured risk parameters, ensuring robust data persistence and retrieval. The AWS is orchestrated via Kubernetes, utilizing EBS for scaling. The frontend is made with React.js libraries to render the data in an intuitive dashboard, interfacing with the OAuth2 service for secure user authentication.",,,https://www.alterscope.org/,,https://docsend.com/view/8xq93htps4wnpg43 ,,,,,,,"Benedikt Eikmanns, Halil Eralp Kocas, Vedran Zivicnjak, Can, Marijo Radman",,https://www.linkedin.com/company/Alterscope,https://twitter.com/Alterscope,https://discord.com/invite/QpVxf742qx,
+InfStones,SCF #26,Horizon & Soroban API,InfStones,Infrastructure & Services,https://communityfund.stellar.org/dashboard/submissions/rectOzAPw9WZwU8ec,Awarded,,SCF Legacy Award,$50000.00,$50000.00,451577.35,4/29/2024,Legacy v5.0 Activation Award,Provide Horizon and Soroban API developer access via an auto-scaling cluster with a freemium endpoint and support structure.,"InfStones will provide Horizon and Soroban API a range of premium features API controls to cater to the diverse needs of developers, institutions, and various types of users: a) Free API: A complimentary shared API endpoint that meets the basic needs of individual developers. b) Paid API: For users with higher demands on performance and monthly usage, we offer a range of paid plans for shared API endpoints, with auto-scaling enabled. c) Dedicated API: For users with the highest demands on performance, monthly usage, or privacy, we provide independent paid nodes to meet the needs for dedicated APIs. Users can freely choose from multiple region options including US East, US West, Asia East, Asia South, Europe West, and Europe Central. Additionally, we support various resource configurations to meet users' diverse performance requirements. Additionally, we offer the following API value-added features: a) API usage analysis b) API Logs c) API security settings (including API key protection, IP address whitelisting, and more) d) Block watch solution: an API usage monitoring and alert services, allowing users to set alert thresholds and choose from various notification methods such as email, SMS, and phone calls. Uptime SLA: 99.9%.",,,https://infstones.com ,https://gitlab.com/infstones-com,https://www.youtube.com/watch?v=z_0jyQWEfDg ,,,,,,,Faris Jebara,,https://www.linkedin.com/company/infstones/,https://twitter.com/infstones,https://discord.com/invite/5Sgu93crrA,
+Nirvana Labs,SCF #26,Nirvana Labs: Public RPC,Nirvana Labs,Infrastructure & Services,https://communityfund.stellar.org/dashboard/submissions/recqThJyLtDUGD1x2,Awarded,,SCF Legacy Award,$36000.00,$36000.00,340153.73,5/16/2024,Legacy v5.0 Activation Award,Nirvana will build a public RPC endpoint supporting Stellar's Soroban upgrade on a proprietary web3 cloud off AWS &amp; GCP.,"Nirvana would like to build a public RPC endpoint for use for key infrastructure players in the Stellar ecosystem like Zettablock. We are asking for this activation award to subsidize the first POC node with Soroban support on our proprietary cloud and give the endpoint to Zettablock for testing. Please refer to the link in our project URL - in which we discuss in depth the product, what it solves, how it's different, who our key audience is, and what the benefits are. Here it is as well: https://stellarnirvana.super.site/
+
+The main point is, Nirvana is different in almost every component when compared to traditional RPC providers, which are built on top of 3rd party providers like AWS, Cloudflare, VMWare, and Datadog. Nirvana is not reliant on ‘big cloud’ - in fact, we have built our own proprietary cloud from the ground up, which can be reviewed here: https://docs.nirvanalabs.io/docs/introduction-to-nirvana-cloud
+
+This node will be run on our proprietary cloud, weaning Stellar off the reliance on big cloud like AWS and GCP. Adding decentralization and redundancy to your chain and network.",,,https://stellarnirvana.super.site/ ,,https://vimeo.com/929758158?share=copy,,,,,,,"bare_metal, bare_metal ",,https://www.linkedin.com/company/nirvana-labs-ai,https://twitter.com/nirvanalabsai,https://discord.com/invite/EjQspBWqdD,
+CyVers,SCF #26,CyVers - Web3 Proactive Protec,CyVers,Infrastructure & Services,https://communityfund.stellar.org/dashboard/submissions/rec06I0eNKQ4gWeOq,Awarded,,SCF Legacy Award,$49996.00,$49996.00,446077.81,4/19/2024,Legacy v5.0 Activation Award,Cyvers is a ML &amp; AI based security solution that proactively mitigates and prevents asset-loss related exploits in real-time.,"The problem
+
+In 2023 alone, $1.7B was lost due to smart contract exploits and access control violations. Alarmingly, more than 90% of the exploited contracts had been audited. This trend continues in 2024, with large-scale losses. In many cases, these exploits are happening even when organizations are leveraging 3rd party custodians and/or MPC or multi-sig wallets. In short, while security audits and traditional security measures are important, it is clear they must not be the only line of defense when it comes to on-chain asset security. The solution to these issues lives in real-time threat detection and response.
+
+The solution
+
+Cyvers is a proactive security platform that provides real-time detection and automated mitigation against exploits. The platform is built on top of proprietary machine learning and AI models to predict, alert, and mitigate asset loss-related risks with an accuracy of 95%. In practice, Cyvers consumes all activity broadcasted to the network in real-time through Cyvers' operated nodes and/or data providers. This allows our platform to monitor, classify, and risk score each interaction and to detect any malicious or illicit activity in real-time - in many cases, before. Our models have been trained on thousands of confirmed attacks across leading to our impressive detection rate and an industry-leading false positive rate. Within the platform, there are 3 products, all of which use the same underlying technology and provide value to different groups across the Stellar/Soroban network. Each tool can be accessed through API and UI and can be integrated during development or post-deployment.
+
+VigiLens - Native cross-chain threat intelligence platform to identify security vulnerabilities across entire networks.
+
+Product - Cross-chain threat intelligence platform designed to provide a robust, real-time data feed of all security-related malicious and illicit activity detected across Stellar and Soroban.
+
+How - VigiLens consumes all on-chain activity in real-time and feeds this data through proprietary machine learning and AI models to provide predictive alerts to mitigate security vulnerabilities. Accessible via API or UI, users can filter for different threat criteria to ensure they’re only notified and actioning alerts that are relevant to them. In addition, you can create custom workflows and triggers to ensure that any required response is automated and initiated immediately and appropriately.
+
+Audience - This tool has a very broad use case. The Stellar Foundation could leverage this data feed to better understand illicit network activity, exploit trends, and use it as a source of potential areas of improvement for future upgrades on both Stellar and Soroban. Traders, hedge funds, and lending protocols could leverage VigiLens as a data source to inform positions and risk exposure. Insurance companies can use it to de-risk clients building in or holding assets on Stellar/Soroban, affecting the availability and cost of insurance for ecosystem players. Given Stellar’s interest in use cases like CBDCs, cross-border payments, and tokenization of RWA, public sector agencies could use VigiLens to ensure financial compliance and public asset safety. These are a few of many other use cases.
+
+Address Shield - Real-time security monitoring and incident response for wallet addresses and smart contracts.
+
+Product - Customizable address-level monitoring and automated rules for response. Add addresses of interest through UI or API and protect against smart contract and application layer risks including but not limited to malicious contract deployment, smart contract exploits, oracle manipulation, MEV/Front-running attacks, phishing scams, private key and access control leakage exploits.
+
+How - The implementation and “kill chain” regarding how the response mechanism would mitigate the risks is dependent on the use case. AddressShield can act as a first line of defense, alerting and triggering automated responses like contract pause functions, blocking transactions and triggering workflows. With VigiLens you can build bespoke responses for each threat type (17 in total) on individual addresses or create blanket rules. This can be implemented directly through the UI or API.
+
+Audience - The tool integrates with both decentralized/non-custodial and centralized/custodial use cases. In DeFi, it can protect smart contracts against vulnerabilities and exploits. By detecting malicious contract deployments, alerting teams of manipulation attempts, and pausing contracts Cyvers is able to prevent and mitigate asset loss. In contrast, in CeFi it can detect and mitigate access control and private key leakage-related exploits. On other networks that VigiLens supports currently, we have lending protocols, DEXs, CEXs, insurance companies, regulators, analytics firms, hedge funds and layer 2’s using the system to protect themselves against these threats.
+
+Reputation Risk Scoring Engine - Cross-chain address and smart contract risk exposure scoring.
+
+Product - Reputation Risk Scoring provides a complete, cross-chain view of an address or contract’s exposure to security and sanctions-related risks. It automatically scans for exposure to scams, smart contract exploits, sanctions lists, illicit funding sources and more.
+
+How - Leveraging the VigiLens data set and models, the Reputation Risk Scoring Engine scans the input address and calculates an overview risk score and includes a breakdown by risk type and exposure. Please see the attached deck for further context.
+
+Audience - Any organization that is looking to ensure they are not facilitating or handling digital assets that may have exposure to illicit activity can use this tool. Many criminals are leveraging cross-chain swaps and bridges as a new way to launder and obfuscate funds and existing compliance tools are not proficient in tracing risk through these types of transactions. As such, regulated organizations that are using existing compliance tools for transaction monitoring may facilitate the trade or on/off ramp of these assets without knowledge that they carry exposure to illicit activity. Reputation Risk Scoring can be used by CEXs, DEXs, law enforcement, banks, regulators, on/off ramp providers, and more.
+
+In short, Cyvers can provide the entire Stellar / Soroban ecosystem with value. From the Foundation itself, to builders and down to the individual users whose assets can be protected, Cyvers can be an additional pillar of security and trust in the Stellar ecosystem. Given the significant leadership role in developing the web3 ecosystem Stellar plays, we believe that Cyvers can help further demonstrate Stellar and Soroban’s commitment to user security and safety.",,,www.cyvers.ai,,https://app.arcade.software/share/wPz1mfj382DmdsGv74w4,,,,,,,"David Lavid, Assaf Buchner",,https://www.linkedin.com/company/cyvers/,https://twitter.com/cyvers_,,
+Reflector,SCF #26,Reflector | CEX price feeds,Reflector,Infrastructure & Services,https://communityfund.stellar.org/dashboard/submissions/rec6KwJXq7HNQpjAb,Awarded,,SCF Legacy Award,$100000.00,$100000.00,944871.47,5/15/2024,Legacy v5.0 Community Award,"Decentralized price feed oracle for Stellar DeFi smart contracts to support derivatives, lending/borrowing, asset management","Reflector oracle contracts are controlled by the multisig-protected consensus of reputable organizations. The admin account of the oracle smart contract always has all node public keys as co-signers with >50% multisig threshold, so more than half of the oracle backing nodes have to agree on a transaction in order to store price feed data or modify oracle contract state.
+
+Each node independently calculates the values of quoted prices using deterministic idempotent algorithms to ensure consistency, generates the update transaction, signs it with the node's private key, and shares it with other peer nodes via WebSocket protocol. If for some reason (ledger access delay, failing connection, version incompatibility, adversary attack) any given node quotes a token/asset price different from other nodes, the transaction hash will not match the hash generated by the majority, so the transaction won't make it into the ledger. This way Reflector utilizes Stellar protocol underlying security to implement an uncomplicated yet robust consensus, which guarantees reliability, fault tolerance, and regular price feed updates.
+
+For on-chain Stellar assets price feed data retrieval, Reflector relies on a quorum of nodes connected to Stellar validators. Each node fetches trades information directly from the Stellar Core database. Price feeds for generic tokens get updated in a similar fashion, but nodes have to agree on information pulled from external sources (CEX/DEX API, price aggregators, stock exchanges, derivative platforms, etc.)
+
+Other contracts interact with the oracle contract, retrieving data stored by Reflector nodes. Consumers can fetch historical ranges, use cross-price calculation, utilize TWAP averaging, or simply pull the most recent token price depending on the use-case.
+
+Components
+
+Reflector node: Fetches prices, maintains p2p communication with other nodes, and publishes price updates signed by the quorum.
+
+Oracle smart contract: Contract implementation that incorporates consumer-facing interface with admin functionality.
+
+Contract JavaScript bindings: Provides convenient JS wrappers for interaction with the contract from JS runtime.
+
+Stellar Core DB connector: Database connector library responsible for retrieving and parsing data from Stellar Core.
+
+Admin dashboard: Web interface for Reflector node operators, toolkit for managing Reflector cluster and orchestrating updates.",,,https://reflector.network/,https://github.com/reflector-network,https://www.youtube.com/watch?v=3_BotlS--9s,,,,,,,OrbitLens,,,https://x.com/in_reflector,https://discord.gg/v2ggfDty2d,
+Ortege AI,SCF #26,Ortege AI,Ortege AI,Infrastructure & Services,https://communityfund.stellar.org/dashboard/submissions/recc4FsstdaSNXXvm,Awarded,,SCF Legacy Award,$100000.00,$100000.00,882031.0,5/21/2024,Legacy v5.0 Community Award,"AI-powered blockchain analytics &amp; insights for Soroban, making complex data simple and accessible.","Ortege AI is an advanced data analytics platform designed to bridge the gap between web3 technologies and AI. It integrates blockchain data with sophisticated machine learning and AI models, providing users with insights and analytics in the realm of web3 and DeFi. Our platform is especially tailored to meet the needs of blockchain users, developers, and investors by offering enhanced transparency, informed decision-making capabilities, and identification of trends and patterns in blockchain activities.
+
+Enhanced Transparency and Data Accessibility: Ortege AI makes blockchain data more accessible and user-friendly. This transparency builds trust and encourages wider adoption by allowing users, developers, and investors to easily understand and analyze blockchain activities.
+
+Informed Decision-Making: Our platform empowers developers to track the usage of their dApps, investors to assess blockchain health, and users to make better transaction decisions.
+
+Identifying Trends and Patterns: Ortege AI reveals crucial trends and patterns like transaction volumes and smart contract activity, aiding strategic decisions.
+
+Marketing and Community Engagement: By providing insights into blockchain usage, Ortege AI aids in crafting effective marketing and community engagement strategies.
+
+Technical Architecture and Integration with Soroban: Ortege uses a cutting-edge tech stack including Databricks, MLFlow, Delta Lake, Kubernetes, Spark, ONNX, Sci-kit, and Keras. Our integration with Soroban would be centered on leveraging Soroban's network for transactional data and utilizing Soroban’s capabilities for smart contract functionality. This integration allows Ortege AI to:
+
+Access and Analyze Soroban Data: By connecting to the Soroban network, Ortege can extract transactional data and smart contract details, enriching our data analytics capabilities.
+
+Utilize Soroban for Enhanced Smart Contract Analytics: Leveraging Soroban’s robust smart contract environment, Ortege can analyze contract interactions and performance, offering deeper insights into smart contract usage and trends.
+
+Expand Use Cases Specific to Soroban: This includes identifying exploitable smart contracts within the Soroban network, analyzing capital flows, and making predictions on asset reactions specific to the Soroban ecosystem.
+
+Our architecture is designed to be interoperable and avoids vendor lock-in, ensuring flexibility and adaptability to rapidly evolving blockchain technologies like Soroban.",,,https://www.ortege.ai/,https://github.com/Ortege-xyz, https://vimeo.com/929974763?share=copy,,,,,,,"Christos  Salaforis, Christos Salaforis, Christos  Salaforis",,,https://twitter.com/ortegeai,,
+Digicus,SCF #26,Digicus,Digicus,Developer Tooling,https://communityfund.stellar.org/dashboard/submissions/recF2pa0KGpGBfFBP,Awarded,,SCF Legacy Award,$50000.00,$50000.00,442243.83,4/25/2024,Legacy v5.0 Activation Award,"Digicus, Scratch for smart contracts, simplifies contract creation &amp; modification via an intuitive, Lego-like graphical interface.","While smart contract development on Stellar has taken many leaps forward since I wrote about it six years ago, the barriers to entry are still numerous... it's an intimidating field only the most technically savvy (or at least the most curious learners) can break into. Put simply, developing smart contracts is hard.
+
+Specifically:
+
+While Rust (the most well supported Soroban SDK) is one of the most admired languages, it is far from one of the most popular.
+
+More mature and seasoned smart contract platforms are complicated and error prone.
+
+Thus, how can we help existing developers succeed? Even more importantly, how can we lower the barrier to entry for community newcomers? And as a stretch, how easy can we make it for non-technical folks to participate and even create their own smart contracts?
+
+With the above problem in mind, consider the following:
+
+65% of the general population are visual learners.
+
+Scratch is an incredible first language, in fact it’s also more popular than Rust.
+
+Digicus is a block-based Soroban smart contract programming language complete with an easy to use, low-code IDE. It attempts to leverage the existing programming on-boarding paradigms to give folks an opportunity to get their hands dirty while also requiring only the minimal amount of technical expertise to get started; we want Stellar developers to be writing contracts without requiring them to understand Rust, investigate WASM binaries, etc. Many schools use Scratch as their coding 101 class for exactly this reason!
+
+Once folks become familiar with smart contracts via Digicus, there are two paths forward:
+
+Transition to using the SDF supported Rust SDK (Digicus can target the Rust SDK so this transition can initially be a hybrid). This is akin to CS-201 where folks begin to use languages like Python and Java to learn data structures and algorithms.
+
+Adopt Digicus as the IDE and programming language of choice for Soroban smart contract development. In this case, we will work to adopt and integrate into the IDE other community initiatives, projects, and efforts such as vulnerability analysis frameworks, auto-complete tooling, etc.
+
+There are a few audiences we target:
+
+[primary] net new members to the Soroban developer community
+
+[primary] existing, less technically savvy members of the Soroban developer community
+
+[secondary] existing, technically savvy members of the Stellar developer community who have only just started experimenting with Soroban
+
+While we might see Soroban power users adopt our tooling, we are not (at least initially) developing with this community in mind.
+
+Digicus is a developer tool for Soroban smart contracts for the Stellar Network.",,,https://spaced-out-thoughts-dev-foundation.github.io/digicus/,https://github.com/spaced-out-thoughts-dev-foundation/digicus,,,,,,,,Robert Durst,,,,,
+Mimoto,SCF #26,Mimoto: ZKP for Payments,Mimoto,Developer Tooling,https://communityfund.stellar.org/dashboard/submissions/recvAM8g3CmmFQM1p,Awarded,,SCF Legacy Award,$30000.00,$30000.00,270609.38,5/3/2024,Legacy v5.0 Activation Award,"Mimoto uses ZK proofs for swift, secure identity verification in payments, protecting user privacy and financial safety.","Test: The project aims to develop a new software application that will streamline the workflow for small businesses. The application will include features such as task management, time tracking, and invoicing. The development team will consist of software engineers, designers, and project managers. The project is expected to be completed within six months. The budget for the project is $500,000. The project will be divided into several phases, including planning, development, testing, and deployment. The planning phase will involve gathering requirements, creating a project plan, and setting up a development environment. The development phase will involve coding, designing the user interface, and integrating various features. The testing phase will involve unit testing, integration testing, and user acceptance testing. The deployment phase will involve releasing the application to the public and providing ongoing support. The project will use an agile development methodology, with regular sprints and reviews to ensure that the project stays on track. The project will also involve regular communication with stakeholders to ensure that their needs are being met. The project will be considered successful if it is completed on time, within budget, and meets the needs of the stakeholders.",,,Test,,,,,,,,,Artemiy Malyshau,,,,,
+Almanax,SCF #26,Almanax,Almanax,Developer Tooling,https://communityfund.stellar.org/dashboard/submissions/recuBabEIY10zr9A5,Awarded,,SCF Legacy Award,$50000.00,$50000.00,451015.64,5/3/2024,Legacy v5.0 Activation Award,Almanax is an automated security auditor that leverages AI to find and fix vulnerabilities in smart contracts.,"Almanax is an AI-powered tool designed for automating the auditing process of smart contracts before they are deployed on Stellar. It aims to make the auditing process faster, more affordable, and continuous, thereby enhancing the security of smart contracts by identifying and fixing vulnerabilities to prevent exploitation by hackers.
+
+Problems Solved:
+Due to their immutability, smart contracts need to go through security audits before being deployed on mainnet to ensure there aren’t bugs or vulnerabilities in the code. Traditional security audits have incredibly high costs (even up to $200k+) and lengthy processes (top auditors have long waitlists) associated with them, making them inaccessible for many projects. Inefficiencies and ineffectiveness of manual audits, which often fail to prevent breaches even when conducted.
+
+How It Solves Them:
+Utilizes large language models (LLMs) and other AI algorithms trained on a vast repository of smart contract audits and known vulnerabilities to automate the audit process. Delivers audit outcomes within seconds, reducing the time and cost associated with traditional audits. Offers a subscription model for continuous monitoring to identify new vulnerabilities or security events as they emerge, moving beyond the point-in-time limitation of conventional audits.
+
+Target Audience:
+Stellar/Soroban developers and companies looking to deploy smart contracts on Stellar.
+
+Benefits:
+Significantly reduces the costs of audits, making security more accessible for a wider range of projects. Shortens the wait times for audits from months to seconds, facilitating faster development and deployment of projects. Transforms the auditing process from a snapshot in time to a continuous monitoring solution, enhancing ongoing security assurance.
+
+How It Works and Its Use of Stellar/Soroban:
+Almanax’s general functionalities include collecting and structuring Stellar/Soroban specific data from various sources, including publicly available Soroban audits and known vulnerabilities databases. Using this data to train an LLM and other AI algorithms, which are then fine-tuned to identify vulnerabilities in Soroban smart contracts and generate audit reports with recommended fixes specific to Soroban. The process involves detecting vulnerabilities, explaining their nature, proposing solutions, and evaluating the effectiveness of these solutions through a feedback loop.",,,https://www.almanax.ai/,,https://youtu.be/olAUSF_YP8w?si=K2mhp5jbEf63FCZg,,,,,,,Francesco Piccoli,,https://www.linkedin.com/company/almanax-ai/,https://twitter.com/AlmanaxAI,,
+StarLoom,SCF #26,StarLoom [SocioFi Launchpad],StarLoom,Developer Tooling,https://communityfund.stellar.org/dashboard/submissions/recFkcjDsQUBAKlma,Awarded,,SCF Legacy Award,$45900.00,$45900.00,409532.19,4/19/2024,Legacy v5.0 Activation Award,"First decentralized Launchpad on Stellar with SocioFi features, community quests and engagement tools with Soroban integration","The main objective of StarLoom is to create a wholesome experience for projects launching their own tokens (and corresponding smart contracts), in particular facilitated by Soroban. One of the typical hurdles that projects face when trying to fundraise via a decentralized token sale is the inability to engage and gather the community. In fact, projects are almost expected to have a community before they are able to proceed to fundraising. However, even in that case, launchpads rarely provide the toolbox to create/test smart contracts, as well as have the ability to utilize transparent cliff/vesting functionalities or easily create snapshots with the following air-/retro-drops. StarLoom is aiming to become the ultimate Launchpad on Stellar blockchain to ensure a smooth launch and prosperity of great ideas.
+
+Projects listed on our launchpad also benefit from a number of built-in tools at their disposal that allow for easier user engagement, brand building, content sharing and rewards. These benefits combined ensure a greater chance for a successful launch, as well as continued support after. Those include:
+
+1. Custom no-code page builders - to allow the projects to share the valuable information, while employing their unique style, branding and more. This is a more user-friendly approach both to the project's appearance and retail client experience.
+2. No-code campaign builders allow the project to create quest-like campaigns for the entire userbase of the platform to immediately witness and take part in. This way, not only the projects save time and money by having a simple solution to use without the need for other platforms, but also get to involve their direct target audience straight away.
+3. Air- and retro-drops have become an integral part of any successful project's launch. However, due to the need of timely and user-transparent snapshots, followed by an equally complex mechanics to send out the rewards, many projects are often limited and otherwise occupied with unnecessary development of such mechanics. Our internal tools allow projects to perform air- and retro-drops in a transparent, efficient and economical manner.
+4. Quests tiers can be customized and adopted by the projects to make sure that the users are engaged in meaningful tasks that unlock access to larger allocation. This is going to be especially effective with 'whales'. [Soroban-enabled]
+5. Raffles, being rather self-explanatory, provide projects with an opportunity to hold raffles or lucky draws for their supporters for any asset, including physical and redeemables.
+6. 'Happy Hour' is yet another marketing-gamification that would ensure a frequent monitoring from the userbase. Projects can set the Happy Hour, where all of the users participating in the IDO would receive a discount/bonus tokens during the indicated time and circumstances. This also would force the spawn of community-driven monitoring systems, Telegram and Twitter bots with announcements. [Soroban-enabled]
+7. Rocket Race mechanic acts as a duel system, where a project would be able to challenge another project to receive the most support from the community. During the Rocket Race duel, the participants lock an equal amount of funds into the pool and the race commences. The winner then receives our marketing/boosting activities (on external media outlets), while both projects would be featured on the main page. This is an additional mode to those described in retail user section. [Soroban-enabled]
+
+User engagement with the launchpad's projects is the key to successful launch. That's why we have devised a social scoring system with GameFi tier mechanics to make user experience more involving, rewarding and entertaining. Those include:
+
+1. Community voting system - where the users directly vote for the projects they believe in. Not only this provides newcomers with a transparent way of filtering the most popular projects, but also boosts projects' confidence and provides direct metric of support. Furthermore, users inherently get a limited number of upvotes, so they need to spread them wisely. However, upon reaching higher tiers they would have more upvotes to spend, as well as the weight of their votes would be higher. This way, each upvoted project would have a dual social score - overall number of votes and weighted votes (shows where the whales/OGs are).
+2. Rocket Race mechanic allows projects to participate in the battle of brands, where the retail users will be able to support either of the participants. This mechanic has 2 game modes. In the first, each project allocates an equal amount (stablecoins or platform's native tokens) to the prize pool, where the winning team takes all (minus a small commission of the platform). This way the projects benefit from increased engagement with the launchpad's community, front page banner and corresponding announcement. The second mode allows the participating projects to allocate an equal value in their tokens to the prize pool, where the winning team would receive the loser's token pool to be distributed according to the user's impact in the voting. This way the winning team receives additional tokens from a project they did not participate in, thus benefiting the users directly, while the losing project receives additional exposure and holders (alike airdrop).
+3. Since it's in human nature to seek collaboration and to flock, our Guild mechanic would allow to create such groups with their own tiers, ratings, gated and non-gated discussions and content. This way, not only it rewards active, knowledgeable and profitable users, but allows to communicate easily within such communities. Additionally, it becomes easier for the projects to appeal to the entire Guild and enlist its support. [Soroban-enabled]
+4. Guilds also benefit from and encourage higher activity from their members by getting access to various platform's perks, discounts, higher allocations and more.
+5. 'I bet you will' mechanic is similar to the quests conducted by the projects (see campaign builders), but follows the steps of the eponymous TV show and therefore serves the entertainment/challenge purpose for the retail users. Under this mechanic the users are able to create free-for-all or gated challenges with various rewards. As the common sense dictates, a set of rules and moderation would be required. [Soroban-enabled]
+
+Other Quality of Life and utility features that our team found important for the overall satisfaction of both ends of the platform's users described below:
+
+1. P2P pre-market trading, as the name suggests allows for the users who participate in a project's launch to trade their assets before the official listing and corresponding trading on exchanges happens. This allows for the two scenarios to occur, namely the users to freely exchange their newly acquired tokens for other tokens of the launchpad, and to sell a specific token to make an exit. While this idea is simple, it provides increased liquidity for the owners and additional flexibility to investment strategies. Moreover, it creates a whole new secondary market, which in turn creates higher user activity and increased publicity.
+2. Refund system serves a few purposes. On the one hand, the projects that opt-in for this feature are automatically issued a publicly visible badge as a means of communicating its transparency, trustworthiness and confidence. Consequently, the increased safety measures amplify users' trust, therefore resulting in higher investment amounts and general trust in the project. Please note that the Refund will only be available for 7 days and is subject to the project agreeing to use this feature voluntarily. [Soroban-enabled]
+3. Referral cashback for projects means that projects can receive cashback on the launchpad's commission, if the users participate in the launch via the referral link. While in practice this will result in decreased profits for the launchpad itself, it provides the projects with an additional incentive to further boost their social media promotions and save money in the meantime. In the end, many projects require a launchpad's infrastructure, while having their own dedicated community already.
+4. Referral system for retail users is a modification of the referral system available for projects. Retail users will be able to invite their friends to participate in the project's launch and receive various perks ranging from native social points and tokens of the launchpad to additional airdrops. This not only ensures additional incentives for the active community members, but also boosts projects' promotional activities via the word of mouth. Moreover, users also receive internal point rewards for the general referrals brought to the launchpad with their referral links. In turn, those points will unlock additional perks, access to higher Tiers and allocations and later would be exchangeable for the native tokens of the platform.
+5. Tiered marketing boosting is an initiative of the launchpad that essentially states that upon reaching certain Tiers, the project will unlock various benefits like discounts on marketing activities (with press releases on top crypto news and media outlets), AMA sessions, access to the industry's KOLs and more. Furthermore, since it is in the best interest of the launchpad to see more successful launches, our team will ensure best possible marketing support for the worthy projects.
+
+Points system acts as the immediate visual reward for the users based on their activities and thereby shows the social status within the ecosystem. Those points can both be earned and spent based on what the user does, as well as converted into the launchpad's native utility token. Points are associated with a number of paths, such as:
+
+First wallet connection - 10 points earned
+KYC completed (non-compulsory) - 50 points earned
+A new referral brought to the launchpad - both earn 5 points each
+A new referral completes KYC - 10 points earned
+Log in to the launchpad 7 days in a row - boost your token earnings x2
+
+NB. points system is subject to potential change and will be announced accordingly
+
+Depending on the account's Tier, there also exists a progressive multiplier for points earning. Moreover, the points used within the launchpad do not decrease the account's Tier, while converting points into the native utility token does. However, holding (staking) and using the native utility token also grants additional benefits, with some of the activities being accessible only via the use of the token.
+
+Benefits to completing a KYC:
+
+Tier increased by 1
+Increased allowed allocation portion
+Higher voting power (weight) of the dedicated points
+Early access to the launching projects",,,https://starloom.io/,,https://www.youtube.com/watch?v=9mTRlKUPdJY,,,,,,,Tony Solino,,,,,
+Stellar Tools,SCF #26,Stellar Tools,Stellar Tools,Developer Tooling,https://communityfund.stellar.org/dashboard/submissions/recL4qatBTjJgJh85,Awarded,,SCF Legacy Award,$18700.00,$18700.00,170588.68,5/7/2024,Legacy v5.0 Activation Award,"Enhancing Stellar's ecosystem with a comprehensive suite for asset management, NFT creation, and community engagement.","Stellar Tools originated from a need to simplify complex processes within the Stellar community. It has grown into a robust toolkit designed to enrich the user experience in the Stellar and Soroban ecosystems. The platform addresses a variety of needs, from transaction exportation to asset and NFT management, and introduces unique features like airdrop systems and custom asset creation.
+
+A dynamic asset management platform provides a thorough exploration of assets on the Stellar blockchain. Key features include detailed asset information, DEX pool analysis, trustline management, transaction history, and the ability to deploy/bump Stellar assets on the Soroban blockchain. It streamlines user interaction with assets by centralizing essential tools and information, enhancing both traditional Stellar assets and embracing new possibilities with Soroban. Through asset search functionality, the platform automatically generates essential data, including Soroban contract addresses. It facilitates direct trading pool comparisons across DEXs and simplifies trustline setups. A standout feature in development is the deployment of Stellar assets to Soroban, aiming to bridge functionalities between the two ecosystems. The Asset Management Platform is in active development, with functionalities accessible at stellartools.xyz.
+
+A dedicated page for users to review their Stellar transactions and export them in various formats, suitable for accounting, tax reporting, or portfolio management. It addresses the need for detailed transaction records in formats compatible with external financial management and reporting services. With wallet integration, users can fetch their transaction history and export the data in user-defined formats, facilitating seamless integration with financial tools and services.
+
+A curated directory of Stellar and Soroban ecosystem projects and platforms, designed to foster discovery and community engagement. It acts as a central discovery platform for users to explore and connect with the evolving landscape of the Stellar ecosystem, from trading to lending and beyond. This showcase segments projects by functionality, providing overviews and direct links. It highlights the diversity and innovation within the Stellar community, encouraging exploration and participation.
+
+Supports users in viewing and minting NFTs, offering a gateway to visualize NFTs and create new ones directly within the platform. It lowers the entry barrier to the NFT market by simplifying the minting process and providing a straightforward way to view NFTs, without the complexity of direct promotion or listing. Enables easy access to NFT details with just an address input and offers minting capabilities for users looking to create NFTs on Stellar, aiming to support the NFT community by facilitating creation and exploration, engaging in the ongoing discussion about NFTs standards on Soroban.
+
+Allows users to create assets or custom assets, such as deflationary tokens and liquidity generator tokens, equipped with specialized functionalities tailored to project needs. It empowers users to leverage Stellar for innovative financial instruments and tokenomics, expanding the utility and application of digital assets. Provides templates and tools for the creation of assets with unique attributes, such as automated liquidity generation or deflationary mechanisms, encouraging creative and practical financial solutions.
+
+Features designed for efficient asset distribution, whether for promotional airdrops or operational needs like payroll. The multi-sender system enables batch transactions to multiple recipients. It streamlines the distribution process, saving time and reducing complexity for token issuers and project owners. Users can upload a recipient list and distribute tokens or Stellar Lumens (XLM) in a single transaction, enhancing operational efficiency and user experience in token distribution efforts.
+
+The vision for Stellar Tools includes broadening its toolkit to support the community’s evolving needs, fostering innovation within the Stellar ecosystem. Open-source collaboration is encouraged, with a consideration of sustainable models to ensure the platform's growth and accessibility.",,,https://stellartools.xyz,https://github.com/joaquinsoza/stellar-tools,https://www.youtube.com/watch?v=2q39tFCu8v8,,,,,,,Joaquin Soza Guerra,,https://www.linkedin.com/in/joaquinsoza/,,https://discord.gg/Bq8qSteFSz,
+Expand Network,SCF #26,Expand Phase 2 Integration,Expand Network,Developer Tooling,https://communityfund.stellar.org/dashboard/submissions/recCaiDDtiKwH9Dah,Awarded,,SCF Legacy Award,$90000.00,$90000.00,920670.9,6/12/2024,Legacy v5.0 Community Award,"Expand to integrate Soroban Smart Contract Platform &amp; more so users can easily transact, source data, &amp; build on Stellar.","Expand.network is an outsourced Web3 infrastructure provider, backed by Cumberland Labs, the Web3 incubator founded by the partners of Cumberland DRW. Our core offering is a unified API designed for efficiently transacting with chains and protocols and sourcing on-chain data, which saves our users significant time and money to access the vast, fragmented Web3 ecosystem. By leveraging our middleware, users can efficiently connect to over 100 distinct endpoints, including chains, DEXs, lending protocols, DEX & yield aggregators, oracles, bridges, and more. Essentially, Expand’s API serves as a single point of access for the Web3 ecosystem, allowing users to quickly and efficiently interact with over 40 different blockchains and protocols.
+
+The Web3 ecosystem is vast, fragmented, and constantly changing. As a result, those building in Web3 and interacting with chains and protocols incur high resource costs and time delays to build and maintain integrations with multiple chains and protocols. This often hinders experimentation, innovation, and ecosystem in Web3. Our goal at Expand is to provide reliable infrastructure that reduces the barriers to iterating with blockchains and protocols, and helps to grow the Web3 ecosystem in an efficient, scalable, and secure manner. Expand’s API solves this problem by functioning as a single point of access for the Web3 ecosystem, allowing users to quickly and efficiently transact with the blockchains and protocols of their choice. By connecting to a single unified API, users can access over 40 chains and protocols and over 100 distinct endpoints, eliminating the need for users to build and maintain these integrations themselves. Users can get up and running more quickly, explore new chains and protocols more easily, and focus their attention on their core priorities.
+
+Expand serves a broad user base that includes trading firms, asset managers & VCs, research analysts, wallets, dapps, tax & accounting firms, and other service providers. Given the diverse applications of the API, virtually every digital asset client type can potentially find valuable uses of the API for their needs. The API allows users to seamlessly transact across the Web3 ecosystem, access on-chain data, monitor chains and protocols, and build DeFi-related features like swaps and lending. Some examples of popular cases include Liquidity Pool Forensics, Portfolio Management, Trading, Transaction & Pool Analysis, and Trade Reconciliation. Whether you are a wallet looking to build swaps or lending features into your front end, a developer seeking to create a prototype, or a research analyst interested in analyzing and monitoring liquidity pools on decentralized exchanges, the Expand API is designed to assist you in achieving your goals more efficiently, saving both time and money.
+
+Expand offers a single unified API with both read and write capabilities that users can leverage to access over 100 distinct Web3 endpoints and over 40 different chains and protocols. The Expand API is designed to be non-custodial and wallet agnostic, allowing the user to select the wallet of their choice when using the API, and preserving control and privacy over their keys at all times. Transactions occur in a secure three-part process: 1) First, a transaction is prepared using the expand.network API. 2) Then the transaction object is securely sent to the wallet for signing. 3) Finally, the Expand API will broadcast the encoded string to the respective chain.
+
+Please see our Technical Architecture Document for full detail on this integration.",,,https://www.expand.network/,https://github.com/expand-network/sdk-nodejs.git,https://youtu.be/TcKLg5Uhk1U,,,,,,,"Melinda Delis, Varun Gyanchandani",,https://www.linkedin.com/company/expandnetwork/,https://twitter.com/expand_network,https://discord.com/invite/UFMK7s5fwC,
+Governance Modules Library,SCF #26,Governance Modules Library,Governance Modules Library,Developer Tooling,https://communityfund.stellar.org/dashboard/submissions/reczJIM2hVxOvI44M,Awarded,,SCF Legacy Award,$74000.00,$74000.00,699204.89,5/15/2024,Legacy v5.0 Community Award,"Expansion of GML, a curation of new/classic development modules for governance in dApps/DAOs, managing/R&amp;D of old and new modules.","The Governance Modules Library (GML) is a curation of new and classic modules for governance in decentralized applications (dApps) and decentralized autonomous organizations (DAOs). The specifications are platform agnostic, although the implementation guidelines and examples are focused on Soroban, a Rust-based smart contract platform. The goal for GML is to provide a comprehensive toolkit and instructions set for enhancing DAOs and dApps governance, to demonstrate and spread software development best practices to accelerate innovation in - and adoption of - Soroban as an ecosystem by providing a “batteries-included experience”. This needs active maintenance and development of new modules, especially when done as a public good. This library is intended for community governance and development. While in the bootstrapping phase of this project, we see the need to facilitate active community management to help onboard new maintainers, manage existing community members, and facilitate the active collaboration. This active community management is included in this grant, but is planned to be taken over by the community whenever feasible. Our aim is to transfer ownership and control of all project work to the open-source community. The GML contains documentation for each module as well as a Proof of Concept (PoC) through simulations. Documentation can be found in this GitBook site and demos can be found in this GitHub repo. Initially, the GML included three modules: Neural Governance (NG), Quorum Delegation (QD), and the Tier-based Role Certifier (TRC), and our goal is that the size will grow through the Community input both directly (by submitting new modules) and indirectly (by expressing demand and ideas for library maintainers to help integrate). The initial infrastructure, processes, and workflows for the GML are complete, along with initial governance modules. The aim of this post-award resubmission is to build on the initial, completed development efforts to deepen the library with more governance modules, to make it easier for developers to compose a broader range of governance processes. This could include conviction voting (time weighted preference signaling, as used in 1Hive DAO), retroactive funding (as used in Optimism DAO RPGF), osmotic governance, and multi-track governance. The GML lives in the SCF Handbook GitBook page and each Module in it consists of a series of documents and examples-by-simulation that describe at least the following: 1) Summary, 2) Use Cases, 3) User Journey, 4) Module-specific Adjustments, 5) Specification, 6) Implementation Instructions, 7) Tuning Guidelines, and 8) Simulations. Each one of them are templates that can be readily implemented and tuned to specific applications that depend on or require governance solutions. Because Governance is a wide topic, the library is categorized by templates across typical Web3 use cases. The GML is not intended to be static but rather a living library, to be embraced by the Stellar ecosystem, including other grantees, builders, and developers from other ecosystems that want to contribute to OS, as a source and destination for Governance Modules. Innovators have the opportunity to contribute and receive recognition for publishing and refining Governance Modules.",,,https://github.com/BlockScience/SCF-GML-Contributions,https://github.com/BlockScience/SCF-GML-Contributions,https://www.youtube.com/watch?v=Mtc5Hzq4OCI,,,,,,,"Danilo Lessa Bernardineli, Kelsie Nabben, Jakob Hackel",,,https://twitter.com/block_science,,
+EarnBIT,SCF #26,EarnBIT x Stellar,EarnBIT,Developer Tooling,https://communityfund.stellar.org/dashboard/submissions/rec0xYw97aaoZa9lA,Awarded,,SCF Legacy Award,$47293.00,$47293.00,431041.39,4/18/2024,Legacy v5.0 Activation Award,"EU licensed CEX with dedicated Launchpad on Stellar, followed by video streaming service.","Problem: Stellar doesn't have an out-of-the-box solution for launching tokens/projects.
+
+Solution: Project submits an application and appears at the voting section. After approval from the community, it will be listed on the launchpad. When the process of token sale is finished, participants will receive tokens according to the allocation, cliff, and vesting schedule.
+
+How we use Stellar: EarnBIT's Launchpad Smart Contract on Stellar. Project receives the collected funds in $XLM. We are focused on projects based on Stellar smart contracts.",,,earnbit.com,,https://www.youtube.com/watch?v=66xsA3HQKFc,,,,,,,Philipp Girusov,,https://www.linkedin.com/company/earnbit/,https://twitter.com/Earnbit2,,
+Hypernative,SCF #26,Hypernative Web3 Security,Hypernative,Developer Tooling,https://communityfund.stellar.org/dashboard/submissions/recwaqts19fQ3ZIU3,Awarded,,SCF Legacy Award,$50000.00,$50000.00,451015.64,5/3/2024,Legacy v5.0 Activation Award,Market leader in hack prevention and real time monitoring detecting and preventing attacks on smart contracts before they happen.,"Summary
+Below is a preliminary list of features that Hypernative offers to establish and ensure chain security soundness, detect anomalies and malfunctions in 3rd-parties like Oracles, Bridges, and other tokens and protocols, and monitor off-chain and on-chain participants for suspicious behavior across the entire chain
+
+About Hypernative
+Hypernative (https://www.hypernative.io , https://twitter.com/HypernativeLabs) is a well-funded startup, created by top security professionals, which worked and sold companies to companies like IBM, Microsoft, Google, CyberArk and others and has a combined experience of 10’s of years in cybersecurity and machine learning/data analytics including team members with vast DeFi and blockchain experience. While Hypernative is operational, it consistently proves to be the first to detect and alert protocols about attacks both before they happen and during their occurrence. It has demonstrated that its technology can mitigate risks, trigger automated responses, and effectively protect our customers.
+
+Mentions of Hypernative in post mortems and by protocols:
+Prisma Finance - Hypernative was the first to alert the team about the attack
+https://hackmd.io/@PrismaRisk/PostMortem0328#Acknowledgments
+WooFi - Hypernative was the first to alert the team about the attack
+https://woo.org/blog/en/woofi-spmm-exploit-post-mortem
+Radiant - Hypernative was the first to alert the team about the attack
+https://twitter.com/RDNTCapital/status/1742638373863325790
+Blueberry - Hypernative was the first to alert the team about the attack
+https://x.com/blueberryFDN/status/1764788556965552431?s=20
+https://mirror.xyz/bonqdaoblog.eth/Mq4qgNieUi-ytphYzPU-lWYE1J2F7STqxlCR3qGsE
+https://blog.hundred.finance/15-04-23-hundred-finance-hack-post-mortem-d895b618cf33
+https://twitter.com/AstridFinance/status/1718563845323866383
+https://twitter.com/DeusDao/status/1661751727228596226
+https://twitter.com/Palmswaporg/status/1684902587303104512
+https://www.coinage.media/s2/he-stole-200-million-he-gave-it-back-now-hes-ready-to-explain-why
+https://twitter.com/HypernativeLabs/status/1698982087246696634
+https://twitter.com/idlefinance/status/1698697691222425685
+https://twitter.com/zetablockchain/status/1675874912328712192
+https://twitter.com/0xPolygonDevs/status/1672286493115596808
+https://twitter.com/Starknet/status/1668222611950645250
+https://twitter.com/zkLend/status/1650454560694239233
+https://medium.com/@Hypernative/hypernative-partners-with-karpatkey-for-on-chain-security-and-risk-prevention-63e813335c2d
+https://quantstamp.com/blog/quantstamp-x-hypernative-partner-to-enhance-web3-security
+
+The platform is already used today by a variety of customers from the crypto space including protocols/chains/bridge providers and asset managers (Like: Balancer, Circle, Linea, EtherFi, Starknet, Zetachain, Galaxy Digital, OlympusDAO, KarpatkeyDAO, Chainalysis, Kinza, Alluvial, Quantstamp/Chainproof and many others..)
+
+Motivation
+The overall motivation is to augment security and risk operations and help your team both with our team security and data expertise and with using the Hypernative platform. It's hard to keep track of all the various different security risks and exposures in crypto and Web3, having a dedicated team and a real-time platform to mitigate and detect these risks for the chain, is of first priority in our vision. The result of implementing this offer will be to provide real-time detection of any security attack vector on your chain and its participants/projects and prevent that threat by defining together with the community various preventive workflows. (Leveraging the Hypernative Platform)
+
+Proposal:
+
+A. Chain Security
+
+Reviewing security framework and response procedure, assigning a contact person for various events
+Set standard operational procedure (response & contact points) on category of events and time-sensitivity for any security or operational case
+Understand and create pre-incident measures to mitigate risk and react in time (pause contracts, limit/cap protocol, blacklist addresses, move funds to a safe/vault for emergency etc.)
+The selected measures will be agreed together with your technical team
+Understand and create post-incident measures
+Automate circuit breakers triggering with Hypernative infrastructure (Multi sig module) or with Integrations to OZ Defender
+
+Chain Security Alerts
+
+Leverage Hypernative zero-day detection modules to detect threat and alert in real-time on security incidents related to or directed at your chain contracts, Bridges, participants or any other infrastructure contract
+
+Example of Security, Compliance and Fraud/Scamming Alerts supported:
+
+Illicit funds movement
+Bridged to chain
+Interaction with an OFAC-sanctioned address
+Suspicious or Malicious contracts deployed targeting the project contracts including a severity score of MEDIUM or HIGH
+Phishing contracts
+Attacker/Hacker contracts
+Hacks and exploits warnings and zero days alerts in various vectors and for various vulnerabilities
+Simulation based, ML based, Heuristics based and known vulnerabilities based
+Chain addresses suspicious in scamming/fraud/phishing attempts or smart contracts suspicious of such
+Fraudulent activity
+Scam tokens
+Multi sig’s, wallets security risk (operation/developers/admin)
+Private key theft
+Wallet compromises
+Ownership changes
+
+Incident Response
+
+Identify root cause(s) and suggest remedies / repairs and communication
+Work with Hypernative network of connections to help in funds recovery and freezing of stolen funds
+Help with automatic tracking of the stolen funds across chains, bridges and addresses
+Help with post mortem, community communications, war room management and law enforcement contact if needed/wanted
+Automatically notify Chainalysis (Hypernative partner) to label attacker wallets and track stolen funds
+
+Automated response
+connect critical security alerts from Hypernative platform into a preventive actions agreed upon based on the security framework review
+OZ defender integration
+Multi-sig module by Hypernative
+Automatic integration with Chainalysis crypto incident response team for recovery
+
+B. Oracles, Bridges, and related Tokens
+
+Oracle Reliability
+
+Offer:
+Detect deviations between two updates of an oracle
+Detect deviations between two updates on two different chains
+Detect deviations between on-chain and off-chain prices
+Detect a lack of updates and staleness
+
+Bridge Security Monitoring
+
+Offer:
+Provide security alerts related to bridge security incidents and risks and zero days detection for the Bridge contracts
+Monitor native Bridge state machine for any anomalies
+Bridge operational risks and balances monitoring
+Provide 3rd-party bridges monitoring
+
+Related Token Monitoring
+
+Offer:
+Monitor tokens dependent on or related to the protocol for anomalies, market economic conditions, security, holdings concentration and supply changes (mints / burns)
+
+D. Phishing and Scamming Detection
+
+On-chain detection
+
+Offer:
+Detect phishing campaigns targeted at token holders and provide alerts to warn the community
+Detect fraud campaigns targeting members and alert on any compromised wallet/multi sig
+
+E. Participants Monitoring
+
+Monitor suspicious users
+
+Offer:
+Monitor large transfers or movements of funds from participants in the chain
+Monitor suspicious or illicit activity, or illicit funds holdings for participants or projects on the chain
+
+Monitor blacklisted addresses
+
+Offer:
+Monitor addresses from OFAC lists or that were part of a hack/exploit/fraud
+
+F. Protocol Operations Monitoring & Custom Agents
+
+Monitor treasury and wallets
+
+Offer:
+Monitor large transfers or movements of funds from treasury
+Monitor multi sig wallets for anomalies and suspicious transactions
+
+Monitor defined parameters / invariants
+
+Offer:
+Monitor specific invariants in any smart contract as specified by the chain developer/operation/security team
+
+Create custom agents to monitor any on-chain event
+Use Hypernative library of templated to create custom agents in variety of categories to monitor any on-chain event in one transaction/over time or leverage our anomaly detection agents to warn against anomalies
+
+G. On-Chain Governance
+1. Monitor Governance Decisions
+
+Offer:
+Monitor governance proposals on-chain and apply Hypernative models to detect suspicious proposals
+Simulate governance proposals and add relevant automated testing of invariants/conditions for every proposal
+Monitor proposers history and risk parameters
+Monitor code updates and apply custom login to detect supply chain or code injects / deployment errors
+
+1. Monitor Governance token holders
+
+Offer:
+Monitor governance token transfers
+Alert on governance token concentration
+
+H. Treasury
+1. Monitor Treasury wallets
+
+Offer:
+Monitor suspicious, illicit activity, or abnormal behavior related to the chain treasury wallets (or operational/admin/developers wallets)
+
+Monitor Token distribution / claims / locks
+
+Offer:
+Monitor token and rewards distribution according to strategies and plans",,,https://www.hypernative.io,,Will be shared in a private meeting,,,,,,,"Adi Zepkowitz, Tomer Weiss",,https://www.linkedin.com/company/hypernative/,https://twitter.com/HypernativeLabs,,
+OnBoarding Club,SCF #26,Onboarding.club,OnBoarding Club,Education & Community,https://communityfund.stellar.org/dashboard/submissions/recxmriAgwEaO7GwF,Awarded,,SCF Legacy Award,$90000.00,$90000.00,845249.79,5/9/2024,Legacy v5.0 Community Award,"Onboarding builders across emerging ecosystems with a unified platform for curated resources, bounties, jobs, grants and more.","Recognizing the untapped potential in the Asian market, particularly in India and Vietnam, we've identified a significant opportunity to engage skilled developers and bolster the Stellar ecosystem.
+
+In our upcoming efforts, we plan to amplify our developer outreach through a series of in-person hackathons spanning India and Vietnam, complementing our ongoing engagements within technical college circuits. This strategic approach aims to cultivate robust builder communities in these regions.
+
+Overall Mission:
+- Host 10 developer workshops across India, facilitating Stellar and Soroban onboarding.
+- Organize three weekend hackathons, culminating in a nationwide event.
+- Establish a week-long Soroban Builders' Residency in Bangalore, India's tech hub, gathering the top 20 developers from workshops, hackathons, and online applications. These developers will collaborate on impactful projects, mentored by Onboarding.club and ideally, representatives from the Stellar Foundation.
+
+Key Performance Indicators (KPIs):
+- Targeting 100+ participants per event.
+- Aiming for the development of at least 50 projects during the hackathons.
+- Supporting a minimum of 10 projects for further development on Stellar, with potential backing from the SCF.
+
+Addressing a prevalent concern voiced by builders during our interactions, we've identified the need for a robust solution to verify builder legitimacy and credibility. Introducing our cutting-edge Proof of Reputation (PoR) Engine, the Orion Ring on Onboarding.club, designed to authenticate developer activity on-chain via Stellar.
+
+Data Sources for PoR:
+- Developer contributions and project data from GitLab and GitHub.
+- Skills and language proficiency derived from projects on GitHub.
+- Community engagement metrics from platforms like Stack Overflow, Warpcast, and Discord.
+- On-chain data tracking blockchain activity, including contracts deployed and proposals voted.
+- Onboarding.club platform activity data.
+- Attestations and peer reviews from previous employers for work experience and performance.
+
+How PoR Works:
+User data from these diverse sources is aggregated and stored as metadata, forming the basis of a dynamic Reputation Score. Advanced metrics and segmentation continuously refine this score, providing a transparent assessment of a developer's credibility.
+
+Beneficiaries of PoR:
+- Empowering builders to showcase their work transparently.
+- Facilitating better hiring decisions for organizations through verified credentials.
+- Assisting foundations in evaluating builders effectively and deterring grant exploitation.
+- Encouraging Open Source Development and promoting genuine builder profiles.
+- Safeguarding against fraudulent activities such as backdated Git commits and falsified credentials.
+
+Utilizing Soroban:
+Our vision entails integrating Soroban for on-chain verification, leveraging its high transaction speed and minimal gas fees. Each user profile will be linked to a mutable Soul Bound Token (SBT), with metadata stored on IPFS for efficient, verifiable data storage.
+
+Course Creation:
+Expanding on our current courses listed on the platform, we're developing intermediate to advanced courses on Soroban, enhancing the learning experience through gamification and NFT rewards for course completion. Our platform tracks user engagement, ensuring content comprehension before badge issuance.
+
+IDE Integration:
+Integrating Sorobix IDE, we aim to streamline the learning process and facilitate contract deployment for new developers, aligning with Soroban's architecture updates and mainnet deployment.
+
+Bounties:
+Building on our previous efforts, we plan to extend bounty outreach to other Stellar projects, leveraging our growing developer community's expertise and engagement.",,,https://onboarding.club,,https://youtu.be/Dn1MbCMiKMk,,,,,,,Rishabh Keshan,,,,,
+EquitX,SCF #26,EquitX: Invest in Small Caps,EquitX,Financial Protocols,https://communityfund.stellar.org/dashboard/submissions/recgGcVWMy7qp8CAd,Awarded,,SCF Legacy Award,$45300.00,$45300.00,400672.91,4/25/2024,Legacy v5.0 Activation Award,Seamlessly diversify your portfolio by investing in small-cap stocks as crypto assets on the Stellar blockchain.,"EquitX is a pioneering platform built on Stellar, specifically designed to democratize access to investments in nano-cap (less than $50M), micro-cap ($50M to $300M), and small-cap companies ($300M to $2bn). By generating synthetic assets that mirror the stock performance of these companies, EquitX offers a gateway to a segment of the market that is often out of reach due to high volatility, lower liquidity, and limited visibility. This innovative approach unlocks new investment opportunities, showcasing the untapped growth potential within these smaller enterprises.
+
+The investment landscape for nano-cap, micro-cap, and small-cap companies is fraught with challenges, including heightened volatility, reduced liquidity, and scarce visibility compared to larger entities. These factors deter many potential investors, leaving numerous promising companies underexplored and underfunded.
+
+Individual Blockchain-Savvy Investors: EquitX is keenly focused on attracting individual investors familiar with blockchain technology and dApps. Our platform offers these investors an innovative way to diversify their portfolios into traditional finance sectors, like nano-cap, micro-cap, and small-cap companies, without departing from the crypto ecosystem. This approach allows investors to potentially benefit from the growth of these companies while enjoying the tax advantages associated with not taking their crypto profits. These blockchain-savvy individuals, comfortable with navigating the complexities of dApps, will serve as our pioneering user base, leveraging EquitX to bridge their crypto investments with traditional financial markets.
+
+Individual non-crypto native Investors: In anticipation of future growth, EquitX will be developing a more accessible interface aimed at non-crypto users. This interface will enable users to purchase eAssets directly with fiat currencies, tapping into the liquidity provided by DEXs. This strategic move is designed to open the doors to traditional finance for those less familiar with blockchain technology, allowing them to participate in the earnings from stability pools. By simplifying the investment process and removing the need to directly interact with blockchain's more complex aspects, EquitX aims to make investing in nano-cap, micro-cap, and small-cap companies through synthetic assets appealing and accessible to a broader audience.
+
+For Companies: EquitX provides nano, micro, and small-cap companies with an alternative platform to increase their exposure and engage with a diverse investor base. This is particularly beneficial within the French market and, eventually, other markets as EquitX expands. By representing their stocks as eAssets on our platform, these companies can enhance their visibility and liquidity without the conventional drawbacks of fundraising, such as equity dilution.
+
+Benefits of EquitX: Broader Exposure for Companies: Facilitates enhanced visibility and investor engagement for nano, micro, and small-cap companies, often overlooked on conventional investment platforms. Market Accessibility: Dramatically lowers the barriers for engaging with nano, micro, and small-cap investments, broadening the investor base. Security and Transparency: Employs Stellar's blockchain and Soroban smart contracts to ensure secure, transparent, and efficient transactions. Passive Income Opportunities: Introduces stability pools, allowing investors to earn passive income through participation in liquidity provision and market stabilization efforts.
+
+EquitX will initially target the French market, leveraging our in-depth understanding of local regulatory laws and establishing direct connections with companies. This strategic entry point allows us to fine-tune our platform, ensuring it aligns with local market needs and regulatory requirements, laying a solid foundation for success. Building on our foothold in France, EquitX plans to expand into other European countries, adapting our approach to meet the diverse regulatory landscapes and market dynamics across the continent.
+
+Here are some examples of companies for which we could synthesize shares: Lectra, a €1.84bn small cap, which is the world leader in leather cutting for the fashion, automotive and furniture industries. Kalray, a €160m microcap developing microprocessors optimized for AI. NFL Biosciences, a €22m nano-cap developing an anti-smoking addiction drug currently undergoing FDA approval. As you can see, we don't focus on any particular industry, but rather on companies with an interesting profile. Then, the idea will be to let the platform's users decide which companies they would like to have through a decentralized voting system.
+
+EquitX leverages Soroban smart contracts to create a dynamic platform for synthetic assets, mirroring the performance of small-cap companies shares. These synthetic assets allow investors to partake in the growth potential of small-cap companies with enhanced liquidity and lower entry barriers. Collateral and Liquidation Mechanism: Investors provide collateral to mint synthetic assets, ensuring a stable foundation for each asset with a comprehensive liquidation mechanism to mitigate market volatility. Earning Interests through Stability Pools: EquitX introduces stability pools as a novel feature for investors to earn passive income, especially beneficial during market downturns or corrections. Governance and Risk Mitigation: The platform adopts a decentralized governance model, enabling stakeholders to make critical decisions regarding the platform's operations and asset offerings, ensuring that EquitX remains aligned with the needs of its community and the market. Efficiency and Accessibility via Soroban: The utilization of Soroban smart contracts streamlines the transaction process, making the platform not only more secure and transparent but also user-friendly for a diverse investor base.
+
+Use Case: Minting eKalray on EquitX Background: Assume you're an investor interested in the semiconductor industry, particularly in Kalray, a company known for its innovative technologies. You wish to invest in Kalray through EquitX by minting a synthetic asset, eKalray, which tracks the performance of Kalray's stock. Step 1: Wallet Setup: You start by setting up a Stellar-compatible wallet (e.g. Freighter, etc), ensuring it's secure and backed up. Step 2: Acquiring Collateral: Next, you acquire a sufficient amount of the accepted collateral on EquitX, that is Stellar Lumens (XLM), to cover the minting of eKalray, keeping in mind the platform's required collateralization ratio, estimated at 150% but may vary. Step 3: Connecting to EquitX: With your wallet ready and funded, you connect it to EquitX via the platform's web interface, ensuring a secure connection. Step 4: Choosing eKalray: In the minting section, you find eKalray listed among the available eAssets. This synthetic asset represents Kalray's stock, and you decide to mint it to gain exposure to Kalray's market performance. Step 5: Collateral Deposit: You proceed to deposit your XLM as collateral. EquitX displays the minimum collateralization ratio (e.g., 150%). You input the amount of eKalray you wish to mint, and the platform calculates the required XLM amount. You confirm and deposit the XLM. Step 6: Minting eKalray: After depositing the collateral, you confirm the details and mint the desired amount of eKalray. The EquitX platform uses Soroban smart contracts to create the eKalray assets, which then appear in your wallet. Step 7: Managing Your eKalray Position: As an eKalray holder, you decide to participate in the eKalray stability pool on EquitX, contributing some of your eKalray assets. This participation helps stabilize the eKalray market and earns you rewards. Considering market dynamics, you also choose to sell some eKalray on a DEX, creating a short position on Kalray's stock. This diversifies your investment strategy and potentially increases your return on investment. Stability Pool Dynamics: When there's a liquidation event in the eKalray market, a portion of your eKalray assets in the stability pool may be burnt to cover the liquidated position. In return, you receive a premium, calculated as the difference between the full minted value of eKalray (100%) and the collateralization ratio of the liquidated party at the time of liquidation. Step 8: Closing Your Position: When you decide to close your position, you repay the eKalray you've minted, as well as any fees. Remember, you had to buy back some of the eKalray on a dex to own as many eKalray as you originally minted. Your XLM collateral is then unlocked and returned to you.
+
+Additional Note: Buying eKalray on a DEX As eKalray is traded on a DEX, investors not interested in minting can directly purchase eKalray without needing collateral. This opens up opportunities for those looking to take a long position on Kalray's stock, further increasing the liquidity and accessibility of eKalray on the EquitX platform. This use case demonstrates how investors can engage with specific industries or companies like Kalray through synthetic assets on EquitX, leveraging blockchain technology for secure, transparent, and innovative investment opportunities. For a deeper dive into EquitX's infrastructure and the strategic application of Soroban smart contracts, please consult the detailed technical architecture document.",,,https://equitx.com/,,,,,,,,,Mohamed  Dabladji,,https://www.linkedin.com/company/equitx/,https://x.com/Equit_X,,https://www.canva.com/design/DAGSn0wx6OU/3lqT6wvo1Pv1-5U3lUPDfA/edit?utm_content=DAGSn0wx6OU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Excellar,SCF #26,Excellar-Yield Bridge,Excellar,Financial Protocols,https://communityfund.stellar.org/dashboard/submissions/recNUN3okJAGoV8i9,Awarded,,SCF Legacy Award,$100000.00,$100000.00,993720.67,8/8/2024,Legacy v5.0 Community Award,We are bringing income and interoperability to Stellar from more than $1.5T  crypto assets on other blockchain networks.,,,,,,,,,,,,,"Amit Kaushik, Plamen Georgiev Hristov",,,,,
+ClickPesa Debt Fund,SCF #26,Making DeFi finance work,ClickPesa Debt Fund,Financial Protocols,https://communityfund.stellar.org/dashboard/submissions/recLlGrfUZ3BXOFcw,Awarded,,SCF Legacy Award,$30000.00,$30000.00,270609.38,5/3/2024,Legacy v5.0 Activation Award,We provide Web3 end-to-end transparency and accountability promoting access to funding for SMEs and women-owned businesses,"Small and medium-sized businesses (SMEs) and women-owned businesses in Africa, crucial for economic growth, struggle to access needed financing primarily due to the stringent requirements of traditional banks and DeFi protocols. The financing gap in Africa is $421 billion, with Tanzania alone facing a $7.5 billion financing gap. Microfinance Institutions (MFIs), financial institutions that are providing credit geared towards SMEs and women-owned businesses, aiming to bridge this gap also face limitations in resources, especially funding access. The inadequate funding access impedes their ability to scale effectively, thereby constraining their potential contribution to the economy, as a result this obstructs the economic growth of SMEs and women-owned businesses. One of the main reasons for inadequate funding access is the limited transparency and thereby limited trust, making it harder to raise funding. This financial landscape is not unique to Africa, as many regions worldwide, particularly in developing economies, grapple with limited transparency and thereby accessibility in funding. This opacity not only obstructs the growth of SMEs and women-owned businesses but also undermines the integrity of the financial system, fostering inefficiencies and fraud.
+
+The ClickPesa Debt Fund introduces a solution that maintains traceability entirely on-chain, making each step in the lending chain—from disbursement to repayment—fully verifiable and transparent. We ensuring that every transaction is recorded and accessible, by leveraging our licensed payment gateway ClickPesa, which is already integrated with the Stellar network for on/off ramp and merchant wallets infrastructure. By utilizing Soroban smart contracts we can further automate and simplify end-to-end traceability in the lending process. The intentions are to bring enhanced transparency to DeFi lending. This approach not only increases confidence among investors by providing clear visibility into the flow of funds but also enhances the ability for SMEs and women-owned business in Africa to secure necessary financing under fair conditions.
+
+Target Audience and Their Benefits:
+Lenders benefit from increased transparency, which reduces risk and provides clearer insight into how their funds are being utilized.
+MFIs gain better access to funds through a transparent platform, enabling them to expand their operations and support more SMEs and women-owned businesses efficiently.
+SMEs and women-owned business benefit from more readily available funding opportunities, facilitating growth and operational stability.
+
+How does it work and how does it uses Stellar and Soroban
+ClickPesa utilizes the Stellar Network for its robust, scalable, and secure infrastructure, which is ideal for handling cost efficient and reliable transactions. On top of this, we planning to employ Soroban smart contracts with the ClickPesa Debt Fund to automate and secure the lending process:
+Disbursement and Collection Visibility: Smart contracts track and verify the actual flow of funds to and from MFIs, ensuring all parties adhere to agreed terms.
+Fee Transparency: All fees charged during the lending process are recorded and made visible through the blockchain, preventing hidden charges and fostering trust.
+Automated Execution: Our platform automates transactions such as fund disbursements and repayments based on predefined criteria or milestones. For example, when a payment is made, the smart contract automatically executes the necessary actions, such as refunding money back to the appropriate entity.",,,https://clickpesadebtfund.com,,https://youtu.be/pMa1aHESACQ,,,,,,,"Rick Groothuizen, rlematz ",,,,,
+Solo Labs,SCF #26,Solo Labs Automated Liquidity,Solo Labs,Financial Protocols,https://communityfund.stellar.org/dashboard/submissions/rec9s1IHbpcWxvlX6,Awarded,,SCF Legacy Award,$50000.00,$50000.00,451577.35,4/29/2024,Legacy v5.0 Activation Award,Solo Labs will bring sustainable liquidity strategies to the Stellar Ecosystem through the ICHI Automated Liquidity Manager.,"The ICHI ALM will be integrated to multiple AMMs on Stellar to provide users of each with the most accessible and automated path to deploy their assets into liquidity. Each ICHI Vault connects to liquidity pools on leading AMMs to provide asset owners with a staking-like experience for providing liquidity. Users deposit a single asset which is then allocated into an underlying liquidity pool to earn yield from liquidity provision. The vault automatically manages the liquidity position as inventory changes and fees and rewards are accrued. Users are able to withdraw their liquidity at any time and never lose custody. Vaults are designed first to protect user deposits and leverage customized strategies depending on asset types.
+
+The $ICHI token will be bridged, likely using Axelar or Allbridge depending on availability, to Stellar as the governance token for the ICHI ALM but also as the best asset for new tokens to pair with to facilitate sustainable trading volume and liquidity provision. We are in conversations with the Stellar team as well as bridge teams themselves to bridge the $ICHI token.
+
+Strategies are optimized to support specific token types. This means that concentration levels, rebalance settings, and fee optimization settings for managed liquidity from a given vault are configured based on the type of assets in the liquidity pool. Pegged assets will have higher concentration than uncorrelated volatile asset pairs for example. Strategies include:
+
+YieldIQ: Volatile asset pairs (e.g. XLM/VELO)
+
+Flip: Stablecoin and pegged asset pairs (e.g. USDC/ZUSD)
+
+Ascend: Liquid staking tokens wrapped on Stellar (e.g. wMATICx/wMATIC)
+
+Amplifi: Network tokens (e.g. XLM)
+
+Liquidity providers: LPs in the Stellar ecosystem will now have a simple and automated protocol to earn yield on their favorite assets through liquidity provision.",,,ichi.org,https://github.com/ichifarm,,,,,,,,Don T,,,https://twitter.com/ichifoundation,https://discord.gg/cxPGjGTy8V,
+Anclap,SCF #26,Stellar Prepaid Cards in Peru,Anclap,Financial Protocols,https://communityfund.stellar.org/dashboard/submissions/recL0SgcprAhb6uSy,Awarded,,SCF Legacy Award,$100000.00,$100000.00,902263.24,5/21/2024,Legacy v5.0 Community Award,Connecting Stellar to real world payments by enabling SEP-Compliant on-off ramp to Peruvian Soles (PEN) Prepaid Debit Cards,Please provide the content from WIP that you would like me to streamline.,,,WIP,,,,,,,,,"IVAN AGUSTIN MUDRYJ, Mariano Omar Morales",,,https://twitter.com/AnclapFintech,,
+Mykobo,SCF #26,Stablecoin funded virtual card,Mykobo,Financial Protocols,https://communityfund.stellar.org/dashboard/submissions/rec3sQ468s3T2l5yD,Awarded,,SCF Legacy Award,$50000.00,$50000.00,456119.48,5/7/2024,Legacy v5.0 Community Award,A EUR denominated virtual debit card funded by Stablecoin balance.,Providing the ability to spend your Stablecoin balance for everyday purchases removes one of the barriers to mass adoption of blockchain services. MYKOBO intends to provide a Stablecoin funded virtual card in this project. The Stablecoins used will be curated to ensure compliance with prevailing EU regulations and Card Scheme rules. The solution can be extended to include physical cards in a future project. The service will be provided to ecosystem partners for integration into wallet solutions benefiting a wider set of users.,,,http://dev.partners.mykobo.co/,,https://docs.google.com/presentation/d/15Fj-jT5pcrWEWHrRFiiGJuePDyIhBXHV7PalA3CHW4Q/,,,,,,,"Jordan Harry, iamthemandarin , Oluwaseyi Akin-Olugbemi ",,https://www.linkedin.com/company/myk0b0,https://twitter.com/myk0b0,https://discord.gg/6ByPsKGFWR,
+Clear,SCF #26,Clear - Liquidity for payments,Clear,Financial Protocols,https://communityfund.stellar.org/dashboard/submissions/recZI6G0tdDrevSQz,Awarded,,SCF Legacy Award,$45000.00,$45000.00,384424.81,4/24/2024,Legacy v5.0 Activation Award,Asmart contract solution connecting payment companies to instant liquidity from individual guarantors for their daily operations.,"Utilizing the power of Soroban, Clear aims to become the first community-based liquidity pool for payment institutions that want to streamline their operations and reduce settlement times.
+
+Blockchain based, real-time payments are closer to becoming a reality, however, while payments on Stellar take only a few seconds to complete, the onramping and offramping of money through cards is still slowing down the process for financial institutions. While local government initiatives like ACH (US), SEPA (EU) and others make cheap and instant acquiring a reality, card payments are still very much the norm. Unfortunately, card payments are settled in no less than 24 hours after receiving the payment confirmation, at best, unless you are willing to pay predatory fees in order to get the money right away. These costs are then passed down to the client in international transfers and other operations, making it a very unfair situation for the senders, and the recipients will have to wait various days for the final amount to arrive unless they are willing to pay the high prices of instant (pre-funded) transfers.
+
+By signing up to Clear, payment companies will no longer have this issue, as they’ll be able to access short-term liquidity provided by individuals through our Webapp. Finally, financial institutions can enjoy instant settlements of card payments for a non-predatory price, while being able to offer cheap and instant transfers for their customers.
+
+Clear solves this by offering payment companies: Instant Deep Liquidity, Simple Pricing, Flexible repayments, and a tech-free integration through a dashboard or a simple API integration. Payment companies will be able to apply to this liquidity but will have to undergo a rigorous KYB process beforehand, in order to ensure that the companies are legit and able to operate before accessing funds. This is done in order to maximize the security of the deposits of end-users.
+
+On the other side, liquidity will be provided by individuals looking to obtain interest payments. By adding funds to the liquidity pool, they will be given daily payouts, based on the EoD amount that has been used up by the previously approved Payment Institutions. Liquidity, as well as rewards in the form of loan interest payments, will be paid out in USDC and will bear a flat daily interest of the total amount loaned out, and will be distributed according to the % share of the liquidity pool that each individual has.
+
+In order to make this a reality we will have to create the following: Smart contract system - This will self execute the payments based on the amount used by the payment institutions, the time they’ve taken to repay and the interests offered in exchange for the daily upfront liquidity.
+
+And; 3-sided Webapp - Where customers can login using “Wallet-connect” to deposit USDC for the liquidity pool and view their transaction history as well as the interests earned, Payment Companies can request liquidity and manage their account and an admin dashboard.
+
+In order to protect individuals who are giving out loans, our dashboard will display publicly the amount that each PI has asked for (while remaining anonymous), as well as their repayment history. Based on this and for customer simplicity, we will add a public credit score (Clear score). If a Payment institution pays late, their score will decrease until the point where they won’t be allowed to access the liquidity pool. If they fail to pay, they will be automatically expelled. In order to make sure that Payment institutions don’t cheat the system by taking out a large loan and not pay it back, there will be a progressive system in place, where they will only be able to access a small amount at first, and progressively build up to larger amounts as they prove their ability to pay back, much like the current credit system.
+
+Clear’s aim is to improve access to liquidity which nowadays is trapped and badly managed by a few Financial institutions. This will also allow individuals, with small amounts of funds, to access a market which is completely inaccessible for them right now. Join Clear’s mission to make the short term loan market efficient, and that all individuals, not just a handful, can benefit from it.",,,https://drive.google.com/file/d/14HPTGRLeHs5WRlV3d0yxdML6_f7SGfvt/view?usp=sharing,,https://youtu.be/-K9u3Y1xdPQ,,,,,,,"Alvaro Martinez Esteban, Ignacio Jimenez de Laiglesia",,,,,

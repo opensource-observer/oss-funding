@@ -3,6 +3,7 @@ run = "cd daoip-5/scripts/API/ && pip install -r requirements.txt && python3 run
 
 [nix]
 channel = "stable-24_05"
+packages = ["unzipNLS"]
 
 [deployment]
 run = ["sh", "-c", "cd oss-funding/daoip-5/scripts/API && pip install -r requirements.txt && python3 run.py"]
