@@ -1,0 +1,787 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Stellar",
+    "type": "Foundation",
+    "grantPools": [
+        {
+            "type": "GrantPool",
+            "name": "scf-26",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:1",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reczJIM2hVxOvI44M",
+                    "projectId": "daoip5:stellar:project:governance-modules-library",
+                    "projectName": "Governance Modules Library",
+                    "createdAt": "2024-05-15T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reczJIM2hVxOvI44M",
+                    "fundsApproved": [
+                        {
+                            "amount": 699204.89,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 74000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:2",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recCaiDDtiKwH9Dah",
+                    "projectId": "daoip5:stellar:project:expand-network",
+                    "projectName": "Expand Phase 2 Integration",
+                    "createdAt": "2024-06-12T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recCaiDDtiKwH9Dah",
+                    "fundsApproved": [
+                        {
+                            "amount": 920670.9,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 90000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:3",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recCMqF6lhiTo4ZeO",
+                    "projectId": "daoip5:stellar:project:accelar",
+                    "projectName": "Accelar - Web3 Infrastructure",
+                    "createdAt": "2024-04-26T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recCMqF6lhiTo4ZeO",
+                    "fundsApproved": [
+                        {
+                            "amount": 290384.31,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 33000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:4",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recF2pa0KGpGBfFBP",
+                    "projectId": "daoip5:stellar:project:digicus",
+                    "projectName": "Digicus",
+                    "createdAt": "2024-04-25T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recF2pa0KGpGBfFBP",
+                    "fundsApproved": [
+                        {
+                            "amount": 442243.83,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:5",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recG1A804BXcOc2ej",
+                    "projectId": "daoip5:stellar:project:bingtellar",
+                    "projectName": "Bingtellar",
+                    "createdAt": "2024-04-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recG1A804BXcOc2ej",
+                    "fundsApproved": [
+                        {
+                            "amount": 270946.41,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 30000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:6",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec85TDjqVvWzY6oR",
+                    "projectId": "daoip5:stellar:project:p-aid-payrolling",
+                    "projectName": "P’aid Payrolling",
+                    "createdAt": "2024-04-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec85TDjqVvWzY6oR",
+                    "fundsApproved": [
+                        {
+                            "amount": 451577.35,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:7",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9s1IHbpcWxvlX6",
+                    "projectId": "daoip5:stellar:project:solo-labs",
+                    "projectName": "Solo Labs Automated Liquidity",
+                    "createdAt": "2024-04-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9s1IHbpcWxvlX6",
+                    "fundsApproved": [
+                        {
+                            "amount": 451577.35,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:8",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9bGg7CKnZUW3tG",
+                    "projectId": "daoip5:stellar:project:alterscope",
+                    "projectName": "KYP - Risk Dashboard (Phase 2)",
+                    "createdAt": "2024-05-16T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9bGg7CKnZUW3tG",
+                    "fundsApproved": [
+                        {
+                            "amount": 937312.5,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 99200
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:9",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9eqtn0a4eB7iGq",
+                    "projectId": "daoip5:stellar:project:art-club",
+                    "projectName": "ART Club: Meaningful Utility",
+                    "createdAt": "2024-04-19T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec9eqtn0a4eB7iGq",
+                    "fundsApproved": [
+                        {
+                            "amount": 356890.8,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 40000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:10",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recc4FsstdaSNXXvm",
+                    "projectId": "daoip5:stellar:project:ortege-ai",
+                    "projectName": "Ortege AI",
+                    "createdAt": "2024-05-21T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recc4FsstdaSNXXvm",
+                    "fundsApproved": [
+                        {
+                            "amount": 882031,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 100000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:11",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgGcVWMy7qp8CAd",
+                    "projectId": "daoip5:stellar:project:equitx",
+                    "projectName": "EquitX: Invest in Small Caps",
+                    "createdAt": "2024-04-25T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgGcVWMy7qp8CAd",
+                    "fundsApproved": [
+                        {
+                            "amount": 400672.91,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 45300
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:12",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqThJyLtDUGD1x2",
+                    "projectId": "daoip5:stellar:project:nirvana-labs",
+                    "projectName": "Nirvana Labs: Public RPC",
+                    "createdAt": "2024-05-16T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqThJyLtDUGD1x2",
+                    "fundsApproved": [
+                        {
+                            "amount": 340153.73,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 36000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:13",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rectOzAPw9WZwU8ec",
+                    "projectId": "daoip5:stellar:project:infstones",
+                    "projectName": "Horizon & Soroban API",
+                    "createdAt": "2024-04-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rectOzAPw9WZwU8ec",
+                    "fundsApproved": [
+                        {
+                            "amount": 451577.35,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:14",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rectVXjaidotlGe5e",
+                    "projectId": "daoip5:stellar:project:icanproveit-proof-of-learning",
+                    "projectName": "ICanProveIt -Proof-of-Learning",
+                    "createdAt": "2024-05-03T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rectVXjaidotlGe5e",
+                    "fundsApproved": [
+                        {
+                            "amount": 451015.64,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:15",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuBabEIY10zr9A5",
+                    "projectId": "daoip5:stellar:project:almanax",
+                    "projectName": "Almanax",
+                    "createdAt": "2024-05-03T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuBabEIY10zr9A5",
+                    "fundsApproved": [
+                        {
+                            "amount": 451015.64,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:16",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recvAM8g3CmmFQM1p",
+                    "projectId": "daoip5:stellar:project:mimoto",
+                    "projectName": "Mimoto: ZKP for Payments",
+                    "createdAt": "2024-05-03T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recvAM8g3CmmFQM1p",
+                    "fundsApproved": [
+                        {
+                            "amount": 270609.38,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 30000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:17",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recwaqts19fQ3ZIU3",
+                    "projectId": "daoip5:stellar:project:hypernative",
+                    "projectName": "Hypernative Web3 Security",
+                    "createdAt": "2024-05-03T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recwaqts19fQ3ZIU3",
+                    "fundsApproved": [
+                        {
+                            "amount": 451015.64,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:18",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxmriAgwEaO7GwF",
+                    "projectId": "daoip5:stellar:project:onboarding-club",
+                    "projectName": "Onboarding.club",
+                    "createdAt": "2024-05-09T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recxmriAgwEaO7GwF",
+                    "fundsApproved": [
+                        {
+                            "amount": 845249.79,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 90000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:19",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIejuRkvbm4kZSv",
+                    "projectId": "daoip5:stellar:project:lumen-loop",
+                    "projectName": "Lumen Loop",
+                    "createdAt": "2024-04-24T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIejuRkvbm4kZSv",
+                    "fundsApproved": [
+                        {
+                            "amount": 250474.12,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 29320
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:20",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLlGrfUZ3BXOFcw",
+                    "projectId": "daoip5:stellar:project:clickpesa-debt-fund",
+                    "projectName": "Making DeFi finance work",
+                    "createdAt": "2024-05-03T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLlGrfUZ3BXOFcw",
+                    "fundsApproved": [
+                        {
+                            "amount": 270609.38,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 30000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:21",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNOhqg2m5UV2Eb8",
+                    "projectId": "daoip5:stellar:project:komunitin",
+                    "projectName": "Komunitin",
+                    "createdAt": "2024-05-03T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNOhqg2m5UV2Eb8",
+                    "fundsApproved": [
+                        {
+                            "amount": 404561.03,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 44850
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:22",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNUN3okJAGoV8i9",
+                    "projectId": "daoip5:stellar:project:excellar",
+                    "projectName": "Excellar-Yield Bridge",
+                    "createdAt": "2024-08-08T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNUN3okJAGoV8i9",
+                    "fundsApproved": [
+                        {
+                            "amount": 993720.67,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 100000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:23",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recQmFbAAi5u83EE5",
+                    "projectId": "daoip5:stellar:project:peer-flights-on-stellar",
+                    "projectName": "Peer: The everything app.",
+                    "createdAt": "2024-05-09T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recQmFbAAi5u83EE5",
+                    "fundsApproved": [
+                        {
+                            "amount": 939166.43,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 100000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:24",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recSLvwi5PteSRWO9",
+                    "projectId": "daoip5:stellar:project:findtruman",
+                    "projectName": "FindTruman",
+                    "createdAt": "2024-05-03T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recSLvwi5PteSRWO9",
+                    "fundsApproved": [
+                        {
+                            "amount": 198428.84,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 21998
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:25",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTfc2QWaiOjUbg9",
+                    "projectId": "daoip5:stellar:project:borderdollar",
+                    "projectName": "BorderDollar - Invoice Finance",
+                    "createdAt": "2024-05-09T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTfc2QWaiOjUbg9",
+                    "fundsApproved": [
+                        {
+                            "amount": 356883.24,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 38000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:26",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVBPIbN6ojsDcHK",
+                    "projectId": "daoip5:stellar:project:scopex",
+                    "projectName": "ScopeX: Remittance for Indians",
+                    "createdAt": "2024-04-19T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVBPIbN6ojsDcHK",
+                    "fundsApproved": [
+                        {
+                            "amount": 267668.1,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 30000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:27",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVDX0W60gkrJKWP",
+                    "projectId": "daoip5:stellar:project:clixpesa",
+                    "projectName": "Clixpesa",
+                    "createdAt": "2024-04-25T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recVDX0W60gkrJKWP",
+                    "fundsApproved": [
+                        {
+                            "amount": 310012.93,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 35050
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:28",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZI6G0tdDrevSQz",
+                    "projectId": "daoip5:stellar:project:clear",
+                    "projectName": "Clear - Liquidity for payments",
+                    "createdAt": "2024-04-24T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recZI6G0tdDrevSQz",
+                    "fundsApproved": [
+                        {
+                            "amount": 384424.81,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 45000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:29",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec0qoMTxCX2xgOAZ",
+                    "projectId": "daoip5:stellar:project:muwp-unleash-stellar-s-defi",
+                    "projectName": "MUWP - Unleash Stellar’s DeFi",
+                    "createdAt": "2024-05-03T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec0qoMTxCX2xgOAZ",
+                    "fundsApproved": [
+                        {
+                            "amount": 406816.1,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 45100
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:30",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec06I0eNKQ4gWeOq",
+                    "projectId": "daoip5:stellar:project:cyvers",
+                    "projectName": "CyVers - Web3 Proactive Protec",
+                    "createdAt": "2024-04-19T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec06I0eNKQ4gWeOq",
+                    "fundsApproved": [
+                        {
+                            "amount": 446077.81,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 49996
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:31",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec0xYw97aaoZa9lA",
+                    "projectId": "daoip5:stellar:project:earnbit",
+                    "projectName": "EarnBIT x Stellar",
+                    "createdAt": "2024-04-18T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec0xYw97aaoZa9lA",
+                    "fundsApproved": [
+                        {
+                            "amount": 431041.39,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 47293
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:32",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5qqmSTk1OR3njh",
+                    "projectId": "daoip5:stellar:project:pretium-finance",
+                    "projectName": "Pretium Finance",
+                    "createdAt": "2024-04-24T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5qqmSTk1OR3njh",
+                    "fundsApproved": [
+                        {
+                            "amount": 85427.73,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 10000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:33",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec6KwJXq7HNQpjAb",
+                    "projectId": "daoip5:stellar:project:reflector",
+                    "projectName": "Reflector | CEX price feeds",
+                    "createdAt": "2024-05-15T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec6KwJXq7HNQpjAb",
+                    "fundsApproved": [
+                        {
+                            "amount": 944871.47,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 100000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:34",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec7so7Dp8MsWFhTS",
+                    "projectId": "daoip5:stellar:project:myaza",
+                    "projectName": "Myaza",
+                    "createdAt": "2024-04-26T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec7so7Dp8MsWFhTS",
+                    "fundsApproved": [
+                        {
+                            "amount": 349965.9,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 39771
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:35",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyhHu5bchmieL0C",
+                    "projectId": "daoip5:stellar:project:wagent",
+                    "projectName": "Wagent",
+                    "createdAt": "2024-05-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyhHu5bchmieL0C",
+                    "fundsApproved": [
+                        {
+                            "amount": 395911.7,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 43400
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:36",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFkcjDsQUBAKlma",
+                    "projectId": "daoip5:stellar:project:starloom",
+                    "projectName": "StarLoom [SocioFi Launchpad]",
+                    "createdAt": "2024-04-19T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFkcjDsQUBAKlma",
+                    "fundsApproved": [
+                        {
+                            "amount": 409532.19,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 45900
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:37",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rece6tiLTFxaIp9T8",
+                    "projectId": "daoip5:stellar:project:tauvlo",
+                    "projectName": "tauvlo - tokenized real estate",
+                    "createdAt": "2024-05-10T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rece6tiLTFxaIp9T8",
+                    "fundsApproved": [
+                        {
+                            "amount": 929248.85,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 100000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:38",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfvoyPLkwH0dEX8",
+                    "projectId": "daoip5:stellar:project:storehouse-gold-to-stellar",
+                    "projectName": "Storehouse Gold to Stellar",
+                    "createdAt": "2024-04-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfvoyPLkwH0dEX8",
+                    "fundsApproved": [
+                        {
+                            "amount": 451577.35,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:39",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reco9b4GbncGKoSNb",
+                    "projectId": "daoip5:stellar:project:token-tails",
+                    "projectName": "Token Tails",
+                    "createdAt": "2024-04-25T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reco9b4GbncGKoSNb",
+                    "fundsApproved": [
+                        {
+                            "amount": 424554.08,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 48000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:40",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqE4Pq1SlYXqzuC",
+                    "projectId": "daoip5:stellar:project:usdc-swap-stellar-cctp-bridge",
+                    "projectName": "USDC Swap: Stellar CCTP Bridge",
+                    "createdAt": "2024-05-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recqE4Pq1SlYXqzuC",
+                    "fundsApproved": [
+                        {
+                            "amount": 456119.48,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:41",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recL0SgcprAhb6uSy",
+                    "projectId": "daoip5:stellar:project:anclap",
+                    "projectName": "Stellar Prepaid Cards in Peru",
+                    "createdAt": "2024-05-21T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recL0SgcprAhb6uSy",
+                    "fundsApproved": [
+                        {
+                            "amount": 902263.24,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 100000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:42",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recL4qatBTjJgJh85",
+                    "projectId": "daoip5:stellar:project:stellar-tools",
+                    "projectName": "Stellar Tools",
+                    "createdAt": "2024-05-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recL4qatBTjJgJh85",
+                    "fundsApproved": [
+                        {
+                            "amount": 170588.68,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 18700
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:43",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-26",
+                    "grantPoolName": "scf-26",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3sQ468s3T2l5yD",
+                    "projectId": "daoip5:stellar:project:mykobo",
+                    "projectName": "Stablecoin funded virtual card",
+                    "createdAt": "2024-05-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3sQ468s3T2l5yD",
+                    "fundsApproved": [
+                        {
+                            "amount": 456119.48,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000
+                }
+            ]
+        }
+    ]
+}

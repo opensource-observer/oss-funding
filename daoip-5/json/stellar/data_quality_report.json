@@ -1,11 +1,11 @@
 {
   "system_name": "stellar",
-  "timestamp": "2025-07-18T10:29:03.131074",
+  "timestamp": "2025-07-18T10:35:40.652032",
   "quality_score": 95,
   "statistics": {
     "total_applications": 543,
     "total_grant_pools": 58,
-    "files_processed": 30,
+    "files_processed": 31,
     "valid_applications": 543
   },
   "files": [
@@ -188,6 +188,12 @@
       "valid": true,
       "applications_count": 14,
       "grant_pools_count": 1
+    },
+    {
+      "file": "data_quality_report.json",
+      "valid": true,
+      "applications_count": 0,
+      "grant_pools_count": 0
     }
   ],
   "issues": {
@@ -206,7 +212,7 @@
         {
           "from": "grant_pools",
           "to": "grantPools",
-          "status": "needs_fix"
+          "status": "fixed"
         }
       ]
     },
@@ -226,8 +232,161 @@
         "fundsAsked": {
           "amount": "number",
           "denomination": "string"
+        },
+        "fundsPaid": {
+          "amount": "number|null",
+          "denomination": "string"
         }
       }
+    },
+    "extension_fields": {
+      "core_enhancements": [
+        {
+          "field": "title",
+          "source": "Submission Title",
+          "type": "string"
+        },
+        {
+          "field": "description",
+          "source": "One-Sentence-Description",
+          "type": "string"
+        },
+        {
+          "field": "status",
+          "source": "Status",
+          "type": "string"
+        },
+        {
+          "field": "category",
+          "source": "Category (from Project)",
+          "type": "string"
+        },
+        {
+          "field": "awardType",
+          "source": "Award Type",
+          "type": "string"
+        },
+        {
+          "field": "completionPercentage",
+          "source": "Tranche Completion %",
+          "type": "number"
+        },
+        {
+          "field": "mostRecentPaymentDate",
+          "source": "Most Recent Payment Date",
+          "type": "date"
+        },
+        {
+          "field": "latestTranche",
+          "source": "Latest Tranche (from Payments)",
+          "type": "string"
+        }
+      ],
+      "funding_enhancements": [
+        {
+          "field": "fundsPaid",
+          "sources": [
+            "Total Paid (USD)",
+            "Total Paid (XLM)"
+          ],
+          "type": "funding_array"
+        }
+      ],
+      "technical_fields": [
+        {
+          "field": "extensions.technicalArchitecture",
+          "source": "Technical Architecture",
+          "type": "string"
+        },
+        {
+          "field": "extensions.productsAndServices",
+          "source": "Products & Services",
+          "type": "string"
+        },
+        {
+          "field": "extensions.usesSoroban",
+          "source": "Use Soroban?",
+          "type": "boolean"
+        }
+      ],
+      "business_fields": [
+        {
+          "field": "extensions.successCriteria",
+          "source": "Success Criteria",
+          "type": "string"
+        },
+        {
+          "field": "extensions.goToMarketPlan",
+          "source": "Go-To-Market Plan",
+          "type": "string"
+        },
+        {
+          "field": "extensions.tractionEvidence",
+          "source": "Traction Evidence",
+          "type": "string"
+        }
+      ],
+      "deliverables": [
+        {
+          "field": "extensions.deliverables.tranche1",
+          "source": "Tranche 1 - Deliverables",
+          "type": "string"
+        },
+        {
+          "field": "extensions.deliverables.tranche2",
+          "source": "Tranche 2 - Testnet",
+          "type": "string"
+        },
+        {
+          "field": "extensions.deliverables.tranche3",
+          "source": "Tranche 3 - Mainnet",
+          "type": "string"
+        }
+      ],
+      "team_social": [
+        {
+          "field": "extensions.teamMembers",
+          "source": "Team Members",
+          "type": "string"
+        },
+        {
+          "field": "extensions.socialMedia.linkedIn",
+          "source": "LinkedIn (from Project)",
+          "type": "url"
+        },
+        {
+          "field": "extensions.socialMedia.twitter",
+          "source": "X (from Project)",
+          "type": "url"
+        },
+        {
+          "field": "extensions.socialMedia.discord",
+          "source": "Discord (from Project)",
+          "type": "url"
+        }
+      ],
+      "urls": [
+        {
+          "field": "extensions.urls.website",
+          "source": "Website",
+          "type": "url"
+        },
+        {
+          "field": "extensions.urls.codeRepository",
+          "source": "Code",
+          "type": "url"
+        },
+        {
+          "field": "extensions.urls.videoURL",
+          "source": "Video",
+          "type": "url"
+        },
+        {
+          "field": "extensions.urls.pitchDeck",
+          "source": "Pitch Deck (from Project)",
+          "type": "url"
+        }
+      ]
     },
     "issues": {
       "critical": [],
@@ -236,12 +395,17 @@
     "validation": {
       "date_fields": [
         "createdAt",
-        "closeDate"
+        "closeDate",
+        "mostRecentPaymentDate"
       ],
       "url_fields": [
         "projectsURI",
         "contentURI",
-        "applicationsURI"
+        "applicationsURI",
+        "extensions.urls.website",
+        "extensions.urls.codeRepository",
+        "extensions.urls.videoURL",
+        "extensions.urls.pitchDeck"
       ],
       "required_not_null": [
         "projectName",
@@ -249,7 +413,15 @@
       ],
       "no_placeholder_values": [
         "Unknown",
-        "not available"
+        "not available",
+        "N/A",
+        "TBD"
+      ],
+      "boolean_fields": [
+        "extensions.usesSoroban"
+      ],
+      "percentage_fields": [
+        "completionPercentage"
       ]
     }
   }

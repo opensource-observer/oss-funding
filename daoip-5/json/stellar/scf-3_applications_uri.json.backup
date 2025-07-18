@@ -1,0 +1,157 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Stellar",
+    "type": "Foundation",
+    "grantPools": [
+        {
+            "type": "GrantPool",
+            "name": "scf-3",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:1",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-3",
+                    "grantPoolName": "scf-3",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receayD2QsCLZdyXP",
+                    "projectId": "daoip5:stellar:project:blue-orion",
+                    "projectName": "Blue Orion - Stellar Workshops & Seminars",
+                    "createdAt": "2020-02-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receayD2QsCLZdyXP",
+                    "fundsApproved": [
+                        {
+                            "amount": 365385,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 26170
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:2",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-3",
+                    "grantPoolName": "scf-3",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIehhTK99OHm3UH",
+                    "projectId": "daoip5:stellar:project:cosmic-link",
+                    "projectName": "Cosmic.link ~ Transactions over URL",
+                    "createdAt": "2020-02-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIehhTK99OHm3UH",
+                    "fundsApproved": [
+                        {
+                            "amount": 264423,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 18939
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:3",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-3",
+                    "grantPoolName": "scf-3",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTdRTrjdI0eg1BW",
+                    "projectId": "daoip5:stellar:project:litemint",
+                    "projectName": "Litemint",
+                    "createdAt": "2020-01-18T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTdRTrjdI0eg1BW",
+                    "fundsApproved": [
+                        {
+                            "amount": 413463,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 25285
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:4",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-3",
+                    "grantPoolName": "scf-3",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTji3f3i7o27OUM",
+                    "projectId": "daoip5:stellar:project:public-node",
+                    "projectName": "Public Node – Nodes funded by community",
+                    "createdAt": "2020-01-17T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTji3f3i7o27OUM",
+                    "fundsApproved": [
+                        {
+                            "amount": 543270,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 33223
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:5",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-3",
+                    "grantPoolName": "scf-3",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3aAt6DPzGOh5bO",
+                    "projectId": "daoip5:stellar:project:lumens-for-charity",
+                    "projectName": "Lumens for Charity - Donate XLM directly to Global Charities",
+                    "createdAt": "2020-02-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec3aAt6DPzGOh5bO",
+                    "fundsApproved": [
+                        {
+                            "amount": 259614,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 18594
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:6",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-3",
+                    "grantPoolName": "scf-3",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec4C0qVstIHsPgm0",
+                    "projectId": "daoip5:stellar:project:paysapp",
+                    "projectName": "Paysapp - Stellar payments in Whatsapp",
+                    "createdAt": "2020-02-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec4C0qVstIHsPgm0",
+                    "fundsApproved": [
+                        {
+                            "amount": 394230,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 28236
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:7",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-3",
+                    "grantPoolName": "scf-3",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGp2bg7OQlVFllx",
+                    "projectId": "daoip5:stellar:project:stellarterm",
+                    "projectName": "Stellar Term",
+                    "createdAt": "2020-01-18T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGp2bg7OQlVFllx",
+                    "fundsApproved": [
+                        {
+                            "amount": 288462,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 17640
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip5:stellar:grantApplication:8",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-3",
+                    "grantPoolName": "scf-3",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8ayEkTa0W6PBNr",
+                    "projectId": "daoip5:stellar:project:stellar-battle",
+                    "projectName": "Stellar Battle",
+                    "createdAt": "2020-02-07T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8ayEkTa0W6PBNr",
+                    "fundsApproved": [
+                        {
+                            "amount": 471153,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 33746
+                }
+            ]
+        }
+    ]
+}
