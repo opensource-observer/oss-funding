@@ -1,5 +1,3 @@
-
-<line_number>1</line_number>
 #!/usr/bin/env python3
 """
 Create missing round files for SCF rounds 30-36

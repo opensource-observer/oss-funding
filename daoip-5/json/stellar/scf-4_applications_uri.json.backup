@@ -110,9 +110,9 @@
           "awardType": "Legacy v1.0 Award",
           "category": "Infrastructure & Services",
           "extensions": {
-            "productsAndServices": "I can't access external websites directly. Please provide the content you need streamlined, and I'll be happy to help.",
-            "teamMembers": "Sergey, Sergey",
-            "urls": {
+            "stellar.productsAndServices": "I can't access external websites directly. Please provide the content you need streamlined, and I'll be happy to help.",
+            "stellar.teamMembers": "Sergey, Sergey",
+            "stellar.urls": {
               "website": "https://galactictalk.org/d/2297-papaya-anchor-apay-io"
             }
           }
@@ -204,9 +204,9 @@
           "awardType": "Legacy v1.0 Award",
           "category": "Developer Tooling",
           "extensions": {
-            "productsAndServices": "StellarMint: Stellar Tokens Made Easier\n\nStellarMint is a platform that simplifies the creation and management of Stellar tokens. It allows users to create, distribute, and manage their tokens without needing to write any code. The platform is designed to be user-friendly and accessible to everyone, regardless of their technical expertise.\n\nKey Features:\n- Token Creation: Easily create your own Stellar tokens with a few clicks.\n- Distribution: Distribute your tokens to multiple recipients in a single transaction.\n- Management: Manage your tokens, including setting up trustlines and issuing additional tokens.\n\nStellarMint aims to make the process of creating and managing Stellar tokens as simple and straightforward as possible. Whether you're a developer, a business owner, or just someone interested in creating your own tokens, StellarMint provides the tools you need to get started quickly and easily.",
-            "teamMembers": "Benjamín Nogal",
-            "urls": {
+            "stellar.productsAndServices": "StellarMint: Stellar Tokens Made Easier\n\nStellarMint is a platform that simplifies the creation and management of Stellar tokens. It allows users to create, distribute, and manage their tokens without needing to write any code. The platform is designed to be user-friendly and accessible to everyone, regardless of their technical expertise.\n\nKey Features:\n- Token Creation: Easily create your own Stellar tokens with a few clicks.\n- Distribution: Distribute your tokens to multiple recipients in a single transaction.\n- Management: Manage your tokens, including setting up trustlines and issuing additional tokens.\n\nStellarMint aims to make the process of creating and managing Stellar tokens as simple and straightforward as possible. Whether you're a developer, a business owner, or just someone interested in creating your own tokens, StellarMint provides the tools you need to get started quickly and easily.",
+            "stellar.teamMembers": "Benjamín Nogal",
+            "stellar.urls": {
               "website": "https://galactictalk.org/d/2300-sdk-for-stellar-qt"
             }
           }

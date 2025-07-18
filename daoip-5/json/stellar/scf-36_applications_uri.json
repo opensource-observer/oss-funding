@@ -1,0 +1,263 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "scf-36",
+      "applications": [
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:1",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-36",
+          "grantPoolName": "scf-36",
+          "projectsURI": "",
+          "projectId": "daoip5:stellar:project:sendin",
+          "projectName": "SendIN",
+          "createdAt": "2024-12-01T00:00:00Z",
+          "contentURI": "",
+          "title": "SendIN [Phase 2]",
+          "status": "Information Collection",
+          "category": "Applications",
+          "description": "Revolutionizing Cross-Border Payments To India",
+          "fundsApprovedInUSD": 67000.0,
+          "fundsPaid": [
+            {
+              "amount": 22333.33,
+              "denomination": "USD"
+            },
+            {
+              "amount": 89754.27,
+              "denomination": "XLM"
+            }
+          ],
+          "awardType": "Build",
+          "latestTranche": "Pre-Launch #0 - Awarded",
+          "mostRecentPaymentDate": "6/20/2025",
+          "extensions": {
+            "stellar.technicalArchitecture": "https://drive.google.com/drive/folders/1RnEwS8aOUmzIizWcSppXNOk08XAI2lqT?usp=drive_link",
+            "stellar.productsAndServices": "We are looking to integrate Stellar USDC for deposits in Stables enabling the Stellar community to deposits, spend and send using Stables. This is the first step to then be able to integrate MoneyGram for cash on/off ramps, already in touch with moneygram team.",
+            "stellar.successCriteria": "-   Average cost per transaction compared to other rails\n    \n-   Net new users from Stellar ecosystem",
+            "stellar.tractionEvidence": "-   300M TPV processed through the platform\n    \n-   50,000 signed up users\n    \n-   60,000 quarterly real world transactions\n    \n-   Organic traction",
+            "stellar.goToMarketPlan": "#### Objective\n\nLaunch Stellar USDC support in the Stables app to offer users faster, cheaper transactions and expand access to stablecoin payments in emerging markets.\n\n1. Messaging & Positioning\n\nCore Value Prop:  \n“Send, spend, and convert USDC instantly and affordably with Stellar — now live in the Stables app.”\n\nKey Benefits:\n\n-   Near-zero fees\n    \n-   Instant settlement\n    \n-   Seamless global access\n    \n-   Built-in compliance via Stables' regulated rails\n    \n\n2. Channels\n\n-   App Notification / In-App Banner\n    \n    > “🚀 Stellar USDC is here! Enjoy fast, low-cost payments powered by Stellar.”\n    \n-   Email Campaign  \n    Segment: Users in emerging markets + high-fee corridors  \n    CTA: Try Stellar USDC now → Send your first transaction free\n    \n-   Social Media\n    \n    > “Stablecoins just got an upgrade. @Stables_money now supports Stellar USDC — blazing fast, ridiculously cheap. Perfect for everyday use. Live now 🚀 #Stellar #USDC #Fintech”\n    \n-   Stables Blog Post  \n    Title: “Why We’re Integrating Stellar USDC — and What It Means for You”  \n    Content: Explain speed, cost, ecosystem alignment (SCF), real-world utility\n    \n-   Community AMA / Twitter Space  \n    Topic: Cross-border payments with Stellar USDC  \n    Guests: Stables CEO + Stellar rep",
+            "stellar.tranche1Deliverables": "Integration of Stellar XLM\n\n-   Integrate support for Stellar XLM in Stables backend\n    \n-   Provision XLM addresses for the entire Stables user base and create deposits webhooks for Stellar USDC deposits\n    \n-   Scope out Stellar integration for Earn with a Defi protocol like Blend, and non USD stablecoins like Etherfuse\n    \n-   Estimated date of completion: July 15th 2025\n    \n-   Budget: $50,000",
+            "stellar.tranche2Testnet": "Make mobile integration for Stables Stellar USDC\n\n-   Integrate the backend into mobile front end to enable display of USDC on XLM as deposit method, and displaying of XLM address\n    \n-   Download the Stables app in Testflight\n    \n-   MVP for Stellar powered Earn component of the app\n    \n-   Estimated date of completion: July 22th 2025\n    \n-   Budget: $50,000",
+            "stellar.tranche3Mainnet": "Launch\n\n-   QA testing, once passed integration is completed and we are ready for launch\n    \n-   Download the Stables app in App Store/Google Play Store\n    \n-   Estimated date of completion: August 1st 2025\n    \n-   Budget: $50,000",
+            "stellar.teamMembers": "Bernie",
+            "stellar.urls": {
+              "website": "https://www.stables.money",
+              "codeRepository": "https://docs.google.com/document/d/11f7mfV8MbMkTvJdsbQL6twEKOwWwCnbEP7OXU7MLJi8/edit?usp=sharing",
+              "videoURL": "https://youtu.be/uQjfD_9XLZQ"
+            },
+            "stellar.socialMedia": {
+              "linkedIn": "https://www.linkedin.com/company/stables-money/",
+              "twitter": "https://x.com/stables_money",
+              "discord": "https://discord.gg/gm6w5TgXWD"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:2",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-36",
+          "grantPoolName": "scf-36",
+          "projectsURI": "",
+          "projectId": "daoip5:stellar:project:globachain",
+          "projectName": "Globachain",
+          "createdAt": "2024-12-01T00:00:00Z",
+          "contentURI": "",
+          "title": "Making money move on Stellar",
+          "status": "Information Collection",
+          "category": "Applications",
+          "description": "Our platform will be a next-generation API first stablecoin payment solution, designed to revolutionize cross-border transactions between Africa, Europe, and beyond",
+          "fundsApprovedInUSD": 89000.0,
+          "fundsPaid": [
+            {
+              "amount": 29666.67,
+              "denomination": "USD"
+            },
+            {
+              "amount": 119457.2,
+              "denomination": "XLM"
+            }
+          ],
+          "awardType": "Build",
+          "latestTranche": "Pre-Launch #0 - Awarded",
+          "mostRecentPaymentDate": "6/24/2025",
+          "extensions": {
+            "stellar.technicalArchitecture": "https://drive.google.com/drive/folders/1RnEwS8aOUmzIizWcSppXNOk08XAI2lqT?usp=drive_link",
+            "stellar.productsAndServices": "We are looking to integrate Stellar USDC for deposits in Stables enabling the Stellar community to deposits, spend and send using Stables. This is the first step to then be able to integrate MoneyGram for cash on/off ramps, already in touch with moneygram team.",
+            "stellar.successCriteria": "-   Average cost per transaction compared to other rails\n    \n-   Net new users from Stellar ecosystem",
+            "stellar.tractionEvidence": "-   300M TPV processed through the platform\n    \n-   50,000 signed up users\n    \n-   60,000 quarterly real world transactions\n    \n-   Organic traction",
+            "stellar.goToMarketPlan": "#### Objective\n\nLaunch Stellar USDC support in the Stables app to offer users faster, cheaper transactions and expand access to stablecoin payments in emerging markets.\n\n1. Messaging & Positioning\n\nCore Value Prop:  \n“Send, spend, and convert USDC instantly and affordably with Stellar — now live in the Stables app.”\n\nKey Benefits:\n\n-   Near-zero fees\n    \n-   Instant settlement\n    \n-   Seamless global access\n    \n-   Built-in compliance via Stables' regulated rails\n    \n\n2. Channels\n\n-   App Notification / In-App Banner\n    \n    > “🚀 Stellar USDC is here! Enjoy fast, low-cost payments powered by Stellar.”\n    \n-   Email Campaign  \n    Segment: Users in emerging markets + high-fee corridors  \n    CTA: Try Stellar USDC now → Send your first transaction free\n    \n-   Social Media\n    \n    > “Stablecoins just got an upgrade. @Stables_money now supports Stellar USDC — blazing fast, ridiculously cheap. Perfect for everyday use. Live now 🚀 #Stellar #USDC #Fintech”\n    \n-   Stables Blog Post  \n    Title: “Why We’re Integrating Stellar USDC — and What It Means for You”  \n    Content: Explain speed, cost, ecosystem alignment (SCF), real-world utility\n    \n-   Community AMA / Twitter Space  \n    Topic: Cross-border payments with Stellar USDC  \n    Guests: Stables CEO + Stellar rep",
+            "stellar.tranche1Deliverables": "Integration of Stellar XLM\n\n-   Integrate support for Stellar XLM in Stables backend\n    \n-   Provision XLM addresses for the entire Stables user base and create deposits webhooks for Stellar USDC deposits\n    \n-   Scope out Stellar integration for Earn with a Defi protocol like Blend, and non USD stablecoins like Etherfuse\n    \n-   Estimated date of completion: July 15th 2025\n    \n-   Budget: $50,000",
+            "stellar.tranche2Testnet": "Make mobile integration for Stables Stellar USDC\n\n-   Integrate the backend into mobile front end to enable display of USDC on XLM as deposit method, and displaying of XLM address\n    \n-   Download the Stables app in Testflight\n    \n-   MVP for Stellar powered Earn component of the app\n    \n-   Estimated date of completion: July 22th 2025\n    \n-   Budget: $50,000",
+            "stellar.tranche3Mainnet": "Launch\n\n-   QA testing, once passed integration is completed and we are ready for launch\n    \n-   Download the Stables app in App Store/Google Play Store\n    \n-   Estimated date of completion: August 1st 2025\n    \n-   Budget: $50,000",
+            "stellar.teamMembers": "Bernie",
+            "stellar.urls": {
+              "website": "https://www.stables.money",
+              "codeRepository": "https://docs.google.com/document/d/11f7mfV8MbMkTvJdsbQL6twEKOwWwCnbEP7OXU7MLJi8/edit?usp=sharing",
+              "videoURL": "https://youtu.be/uQjfD_9XLZQ"
+            },
+            "stellar.socialMedia": {
+              "linkedIn": "https://www.linkedin.com/company/stables-money/",
+              "twitter": "https://x.com/stables_money",
+              "discord": "https://discord.gg/gm6w5TgXWD"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:3",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-36",
+          "grantPoolName": "scf-36",
+          "projectsURI": "",
+          "projectId": "daoip5:stellar:project:seevcash",
+          "projectName": "Seevcash",
+          "createdAt": "2024-12-01T00:00:00Z",
+          "contentURI": "",
+          "title": "Seevcash - P2P Payment with USDC",
+          "status": "Information Collection",
+          "category": "Applications",
+          "description": "Seevcash delivers fast, low-cost cross-border payments for the unbanked using USDC on Stellar.",
+          "fundsApprovedInUSD": 142299.0,
+          "fundsPaid": [
+            {
+              "amount": 47433.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 0.0,
+              "denomination": "XLM"
+            }
+          ],
+          "awardType": "Build",
+          "latestTranche": "Pre-Launch #0 - Awarded",
+          "mostRecentPaymentDate": "7/15/2025",
+          "extensions": {
+            "stellar.technicalArchitecture": "https://drive.google.com/drive/folders/1RnEwS8aOUmzIizWcSppXNOk08XAI2lqT?usp=drive_link",
+            "stellar.productsAndServices": "We are looking to integrate Stellar USDC for deposits in Stables enabling the Stellar community to deposits, spend and send using Stables. This is the first step to then be able to integrate MoneyGram for cash on/off ramps, already in touch with moneygram team.",
+            "stellar.successCriteria": "-   Average cost per transaction compared to other rails\n    \n-   Net new users from Stellar ecosystem",
+            "stellar.tractionEvidence": "-   300M TPV processed through the platform\n    \n-   50,000 signed up users\n    \n-   60,000 quarterly real world transactions\n    \n-   Organic traction",
+            "stellar.goToMarketPlan": "#### Objective\n\nLaunch Stellar USDC support in the Stables app to offer users faster, cheaper transactions and expand access to stablecoin payments in emerging markets.\n\n1. Messaging & Positioning\n\nCore Value Prop:  \n“Send, spend, and convert USDC instantly and affordably with Stellar — now live in the Stables app.”\n\nKey Benefits:\n\n-   Near-zero fees\n    \n-   Instant settlement\n    \n-   Seamless global access\n    \n-   Built-in compliance via Stables' regulated rails\n    \n\n2. Channels\n\n-   App Notification / In-App Banner\n    \n    > “🚀 Stellar USDC is here! Enjoy fast, low-cost payments powered by Stellar.”\n    \n-   Email Campaign  \n    Segment: Users in emerging markets + high-fee corridors  \n    CTA: Try Stellar USDC now → Send your first transaction free\n    \n-   Social Media\n    \n    > “Stablecoins just got an upgrade. @Stables_money now supports Stellar USDC — blazing fast, ridiculously cheap. Perfect for everyday use. Live now 🚀 #Stellar #USDC #Fintech”\n    \n-   Stables Blog Post  \n    Title: “Why We’re Integrating Stellar USDC — and What It Means for You”  \n    Content: Explain speed, cost, ecosystem alignment (SCF), real-world utility\n    \n-   Community AMA / Twitter Space  \n    Topic: Cross-border payments with Stellar USDC  \n    Guests: Stables CEO + Stellar rep",
+            "stellar.tranche1Deliverables": "Integration of Stellar XLM\n\n-   Integrate support for Stellar XLM in Stables backend\n    \n-   Provision XLM addresses for the entire Stables user base and create deposits webhooks for Stellar USDC deposits\n    \n-   Scope out Stellar integration for Earn with a Defi protocol like Blend, and non USD stablecoins like Etherfuse\n    \n-   Estimated date of completion: July 15th 2025\n    \n-   Budget: $50,000",
+            "stellar.tranche2Testnet": "Make mobile integration for Stables Stellar USDC\n\n-   Integrate the backend into mobile front end to enable display of USDC on XLM as deposit method, and displaying of XLM address\n    \n-   Download the Stables app in Testflight\n    \n-   MVP for Stellar powered Earn component of the app\n    \n-   Estimated date of completion: July 22th 2025\n    \n-   Budget: $50,000",
+            "stellar.tranche3Mainnet": "Launch\n\n-   QA testing, once passed integration is completed and we are ready for launch\n    \n-   Download the Stables app in App Store/Google Play Store\n    \n-   Estimated date of completion: August 1st 2025\n    \n-   Budget: $50,000",
+            "stellar.teamMembers": "Bernie",
+            "stellar.urls": {
+              "website": "https://www.stables.money",
+              "codeRepository": "https://docs.google.com/document/d/11f7mfV8MbMkTvJdsbQL6twEKOwWwCnbEP7OXU7MLJi8/edit?usp=sharing",
+              "videoURL": "https://youtu.be/uQjfD_9XLZQ"
+            },
+            "stellar.socialMedia": {
+              "linkedIn": "https://www.linkedin.com/company/stables-money/",
+              "twitter": "https://x.com/stables_money",
+              "discord": "https://discord.gg/gm6w5TgXWD"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:4",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-36",
+          "grantPoolName": "scf-36",
+          "projectsURI": "",
+          "projectId": "daoip5:stellar:project:swift-wallet-sdk",
+          "projectName": "Swift Wallet SDK",
+          "createdAt": "2024-12-01T00:00:00Z",
+          "contentURI": "",
+          "title": "Demo App & Integration Tests",
+          "status": "Information Collection",
+          "category": "Applications",
+          "description": "Open source demo app helping developers better understand the processes for communicating with Stellar & Anchors by using the Swift Wallet SDK. Provides well-tested, reusable code that significantly accelerates the development of new wallets.",
+          "fundsApprovedInUSD": 35000.0,
+          "fundsPaid": [
+            {
+              "amount": 11666.67,
+              "denomination": "USD"
+            },
+            {
+              "amount": 46886.58,
+              "denomination": "XLM"
+            }
+          ],
+          "awardType": "Build",
+          "latestTranche": "Pre-Launch #0 - Awarded",
+          "mostRecentPaymentDate": "6/20/2025",
+          "extensions": {
+            "stellar.technicalArchitecture": "https://drive.google.com/drive/folders/1RnEwS8aOUmzIizWcSppXNOk08XAI2lqT?usp=drive_link",
+            "stellar.productsAndServices": "We are looking to integrate Stellar USDC for deposits in Stables enabling the Stellar community to deposits, spend and send using Stables. This is the first step to then be able to integrate MoneyGram for cash on/off ramps, already in touch with moneygram team.",
+            "stellar.successCriteria": "-   Average cost per transaction compared to other rails\n    \n-   Net new users from Stellar ecosystem",
+            "stellar.tractionEvidence": "-   300M TPV processed through the platform\n    \n-   50,000 signed up users\n    \n-   60,000 quarterly real world transactions\n    \n-   Organic traction",
+            "stellar.goToMarketPlan": "#### Objective\n\nLaunch Stellar USDC support in the Stables app to offer users faster, cheaper transactions and expand access to stablecoin payments in emerging markets.\n\n1. Messaging & Positioning\n\nCore Value Prop:  \n“Send, spend, and convert USDC instantly and affordably with Stellar — now live in the Stables app.”\n\nKey Benefits:\n\n-   Near-zero fees\n    \n-   Instant settlement\n    \n-   Seamless global access\n    \n-   Built-in compliance via Stables' regulated rails\n    \n\n2. Channels\n\n-   App Notification / In-App Banner\n    \n    > “🚀 Stellar USDC is here! Enjoy fast, low-cost payments powered by Stellar.”\n    \n-   Email Campaign  \n    Segment: Users in emerging markets + high-fee corridors  \n    CTA: Try Stellar USDC now → Send your first transaction free\n    \n-   Social Media\n    \n    > “Stablecoins just got an upgrade. @Stables_money now supports Stellar USDC — blazing fast, ridiculously cheap. Perfect for everyday use. Live now 🚀 #Stellar #USDC #Fintech”\n    \n-   Stables Blog Post  \n    Title: “Why We’re Integrating Stellar USDC — and What It Means for You”  \n    Content: Explain speed, cost, ecosystem alignment (SCF), real-world utility\n    \n-   Community AMA / Twitter Space  \n    Topic: Cross-border payments with Stellar USDC  \n    Guests: Stables CEO + Stellar rep",
+            "stellar.tranche1Deliverables": "Integration of Stellar XLM\n\n-   Integrate support for Stellar XLM in Stables backend\n    \n-   Provision XLM addresses for the entire Stables user base and create deposits webhooks for Stellar USDC deposits\n    \n-   Scope out Stellar integration for Earn with a Defi protocol like Blend, and non USD stablecoins like Etherfuse\n    \n-   Estimated date of completion: July 15th 2025\n    \n-   Budget: $50,000",
+            "stellar.tranche2Testnet": "Make mobile integration for Stables Stellar USDC\n\n-   Integrate the backend into mobile front end to enable display of USDC on XLM as deposit method, and displaying of XLM address\n    \n-   Download the Stables app in Testflight\n    \n-   MVP for Stellar powered Earn component of the app\n    \n-   Estimated date of completion: July 22th 2025\n    \n-   Budget: $50,000",
+            "stellar.tranche3Mainnet": "Launch\n\n-   QA testing, once passed integration is completed and we are ready for launch\n    \n-   Download the Stables app in App Store/Google Play Store\n    \n-   Estimated date of completion: August 1st 2025\n    \n-   Budget: $50,000",
+            "stellar.teamMembers": "Bernie",
+            "stellar.urls": {
+              "website": "https://www.stables.money",
+              "codeRepository": "https://docs.google.com/document/d/11f7mfV8MbMkTvJdsbQL6twEKOwWwCnbEP7OXU7MLJi8/edit?usp=sharing",
+              "videoURL": "https://youtu.be/uQjfD_9XLZQ"
+            },
+            "stellar.socialMedia": {
+              "linkedIn": "https://www.linkedin.com/company/stables-money/",
+              "twitter": "https://x.com/stables_money",
+              "discord": "https://discord.gg/gm6w5TgXWD"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:5",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-36",
+          "grantPoolName": "scf-36",
+          "projectsURI": "",
+          "projectId": "daoip5:stellar:project:liquidsfi-bridge-and-cross-chain-oracle",
+          "projectName": "LiquidsFi: Bridge and Cross-chain Oracle",
+          "createdAt": "2024-12-01T00:00:00Z",
+          "contentURI": "",
+          "title": "LiquidsFi: Bridge and Cross-Chain Oracle",
+          "status": "Information Collection",
+          "category": "Applications",
+          "description": "LiquidsFi is a decentralized, secure liquidity protocol and interoperability oracle network that connects liquidity and on-chain data between multiple EVM chains and Soroban. It provides the Soroban ecosystem with a reliable way to bridge crypto assets from various EVM chains.",
+          "fundsApprovedInUSD": 108000.0,
+          "fundsPaid": [
+            {
+              "amount": 36000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 144959.28,
+              "denomination": "XLM"
+            }
+          ],
+          "awardType": "Build",
+          "latestTranche": "Pre-Launch #0 - Awarded",
+          "mostRecentPaymentDate": "6/24/2025",
+          "extensions": {
+            "stellar.technicalArchitecture": "https://drive.google.com/drive/folders/1RnEwS8aOUmzIizWcSppXNOk08XAI2lqT?usp=drive_link",
+            "stellar.productsAndServices": "We are looking to integrate Stellar USDC for deposits in Stables enabling the Stellar community to deposits, spend and send using Stables. This is the first step to then be able to integrate MoneyGram for cash on/off ramps, already in touch with moneygram team.",
+            "stellar.successCriteria": "-   Average cost per transaction compared to other rails\n    \n-   Net new users from Stellar ecosystem",
+            "stellar.tractionEvidence": "-   300M TPV processed through the platform\n    \n-   50,000 signed up users\n    \n-   60,000 quarterly real world transactions\n    \n-   Organic traction",
+            "stellar.goToMarketPlan": "#### Objective\n\nLaunch Stellar USDC support in the Stables app to offer users faster, cheaper transactions and expand access to stablecoin payments in emerging markets.\n\n1. Messaging & Positioning\n\nCore Value Prop:  \n“Send, spend, and convert USDC instantly and affordably with Stellar — now live in the Stables app.”\n\nKey Benefits:\n\n-   Near-zero fees\n    \n-   Instant settlement\n    \n-   Seamless global access\n    \n-   Built-in compliance via Stables' regulated rails\n    \n\n2. Channels\n\n-   App Notification / In-App Banner\n    \n    > “🚀 Stellar USDC is here! Enjoy fast, low-cost payments powered by Stellar.”\n    \n-   Email Campaign  \n    Segment: Users in emerging markets + high-fee corridors  \n    CTA: Try Stellar USDC now → Send your first transaction free\n    \n-   Social Media\n    \n    > “Stablecoins just got an upgrade. @Stables_money now supports Stellar USDC — blazing fast, ridiculously cheap. Perfect for everyday use. Live now 🚀 #Stellar #USDC #Fintech”\n    \n-   Stables Blog Post  \n    Title: “Why We’re Integrating Stellar USDC — and What It Means for You”  \n    Content: Explain speed, cost, ecosystem alignment (SCF), real-world utility\n    \n-   Community AMA / Twitter Space  \n    Topic: Cross-border payments with Stellar USDC  \n    Guests: Stables CEO + Stellar rep",
+            "stellar.tranche1Deliverables": "Integration of Stellar XLM\n\n-   Integrate support for Stellar XLM in Stables backend\n    \n-   Provision XLM addresses for the entire Stables user base and create deposits webhooks for Stellar USDC deposits\n    \n-   Scope out Stellar integration for Earn with a Defi protocol like Blend, and non USD stablecoins like Etherfuse\n    \n-   Estimated date of completion: July 15th 2025\n    \n-   Budget: $50,000",
+            "stellar.tranche2Testnet": "Make mobile integration for Stables Stellar USDC\n\n-   Integrate the backend into mobile front end to enable display of USDC on XLM as deposit method, and displaying of XLM address\n    \n-   Download the Stables app in Testflight\n    \n-   MVP for Stellar powered Earn component of the app\n    \n-   Estimated date of completion: July 22th 2025\n    \n-   Budget: $50,000",
+            "stellar.tranche3Mainnet": "Launch\n\n-   QA testing, once passed integration is completed and we are ready for launch\n    \n-   Download the Stables app in App Store/Google Play Store\n    \n-   Estimated date of completion: August 1st 2025\n    \n-   Budget: $50,000",
+            "stellar.teamMembers": "Bernie",
+            "stellar.urls": {
+              "website": "https://www.stables.money",
+              "codeRepository": "https://docs.google.com/document/d/11f7mfV8MbMkTvJdsbQL6twEKOwWwCnbEP7OXU7MLJi8/edit?usp=sharing",
+              "videoURL": "https://youtu.be/uQjfD_9XLZQ"
+            },
+            "stellar.socialMedia": {
+              "linkedIn": "https://www.linkedin.com/company/stables-money/",
+              "twitter": "https://x.com/stables_money",
+              "discord": "https://discord.gg/gm6w5TgXWD"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

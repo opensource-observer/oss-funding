@@ -110,12 +110,12 @@
           "awardType": "Legacy v1.0 Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Dima, Gleb Pitsevich",
-            "urls": {
+            "stellar.teamMembers": "Dima, Gleb Pitsevich",
+            "stellar.urls": {
               "website": "https://galactictalk.org/d/2047-lobstr-simple-and-secure-stellar-wallet",
               "videoURL": "https://youtu.be/rHQgXYhgKsU"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "twitter": "https://twitter.com/ultrastellar"
             }
           }
@@ -256,7 +256,7 @@
           "awardType": "Legacy v1.0 Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "StellarPay"
+            "stellar.teamMembers": "StellarPay"
           }
         },
         {

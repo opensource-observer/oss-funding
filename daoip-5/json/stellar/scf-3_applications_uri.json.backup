@@ -110,12 +110,12 @@
           "awardType": "Legacy v1.0 Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Frederic James Bernard Rezeau",
-            "urls": {
+            "stellar.teamMembers": "Frederic James Bernard Rezeau",
+            "stellar.urls": {
               "website": "https://galactictalk.org/d/2041-litemint-multifaceted-stellar-wallet",
               "videoURL": "https://www.youtube.com/watch?v=qLgvUB9VcXc"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/litemint",
               "twitter": "https://twitter.com/LitemintHQ",
               "discord": "https://litemint.gg"
@@ -156,8 +156,8 @@
           "awardType": "Legacy v1.0 Award",
           "category": "Infrastructure & Services",
           "extensions": {
-            "teamMembers": "Daniel Fisher",
-            "socialMedia": {
+            "stellar.teamMembers": "Daniel Fisher",
+            "stellar.socialMedia": {
               "twitter": "https://twitter.com/publicnode",
               "discord": "https://discord.gg/pVR29p5NxK"
             }
@@ -284,8 +284,8 @@
           "awardType": "Legacy v1.0 Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Wouter Arkink",
-            "urls": {
+            "stellar.teamMembers": "Wouter Arkink",
+            "stellar.urls": {
               "website": "https://galactictalk.org/d/2237-stellar-battle-win-community-funded-prizes"
             }
           }
