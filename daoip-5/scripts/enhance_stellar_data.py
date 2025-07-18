@@ -194,72 +194,80 @@ class StellarDataEnhancer:
         if category:
             enhanced_app['category'] = category
         
-        # DAOIP-5 Extension fields
+        # DAOIP-5 Extension fields with proper stellar. prefix for ecosystem-specific data
         extensions = {}
         
-        # Technical details
+        # Stellar-specific technical fields
+        stellar_tech = {}
         if self.clean_value(raw_data.get('Technical Architecture')):
-            extensions['technicalArchitecture'] = self.clean_value(raw_data['Technical Architecture'])
+            stellar_tech['technicalArchitecture'] = self.clean_value(raw_data['Technical Architecture'])
         
         if self.clean_value(raw_data.get('Products & Services')):
-            extensions['productsAndServices'] = self.clean_value(raw_data['Products & Services'])
+            stellar_tech['productsAndServices'] = self.clean_value(raw_data['Products & Services'])
         
         uses_soroban = self.parse_boolean(raw_data.get('Use Soroban?'))
         if uses_soroban is not None:
-            extensions['usesSoroban'] = uses_soroban
+            stellar_tech['usesSoroban'] = uses_soroban
         
-        # Success metrics
+        if stellar_tech:
+            extensions['stellar.technical'] = stellar_tech
+        
+        # Stellar-specific success metrics
+        stellar_metrics = {}
         if self.clean_value(raw_data.get('Success Criteria')):
-            extensions['successCriteria'] = self.clean_value(raw_data['Success Criteria'])
+            stellar_metrics['successCriteria'] = self.clean_value(raw_data['Success Criteria'])
         
         if self.clean_value(raw_data.get('Traction Evidence')):
-            extensions['tractionEvidence'] = self.clean_value(raw_data['Traction Evidence'])
+            stellar_metrics['tractionEvidence'] = self.clean_value(raw_data['Traction Evidence'])
         
-        # Business information
+        if stellar_metrics:
+            extensions['stellar.metrics'] = stellar_metrics
+        
+        # Stellar-specific business information
         if self.clean_value(raw_data.get('Go-To-Market Plan')):
-            extensions['goToMarketPlan'] = self.clean_value(raw_data['Go-To-Market Plan'])
+            extensions['stellar.goToMarketPlan'] = self.clean_value(raw_data['Go-To-Market Plan'])
         
-        # Project deliverables
-        deliverables = {}
+        # Stellar-specific project deliverables
+        stellar_deliverables = {}
         if self.clean_value(raw_data.get('Tranche 1 - Deliverables')):
-            deliverables['tranche1'] = self.clean_value(raw_data['Tranche 1 - Deliverables'])
+            stellar_deliverables['tranche1'] = self.clean_value(raw_data['Tranche 1 - Deliverables'])
         if self.clean_value(raw_data.get('Tranche 2 - Testnet')):
-            deliverables['tranche2'] = self.clean_value(raw_data['Tranche 2 - Testnet'])
+            stellar_deliverables['tranche2'] = self.clean_value(raw_data['Tranche 2 - Testnet'])
         if self.clean_value(raw_data.get('Tranche 3 - Mainnet')):
-            deliverables['tranche3'] = self.clean_value(raw_data['Tranche 3 - Mainnet'])
+            stellar_deliverables['tranche3'] = self.clean_value(raw_data['Tranche 3 - Mainnet'])
         
-        if deliverables:
-            extensions['deliverables'] = deliverables
+        if stellar_deliverables:
+            extensions['stellar.deliverables'] = stellar_deliverables
         
-        # Team information
+        # Stellar-specific team information
         if self.clean_value(raw_data.get('Team Members')):
-            extensions['teamMembers'] = self.clean_value(raw_data['Team Members'])
+            extensions['stellar.teamMembers'] = self.clean_value(raw_data['Team Members'])
         
-        # Additional URLs
-        urls = {}
+        # Stellar-specific URLs
+        stellar_urls = {}
         if self.clean_value(raw_data.get('Website')):
-            urls['website'] = self.clean_value(raw_data['Website'])
+            stellar_urls['website'] = self.clean_value(raw_data['Website'])
         if self.clean_value(raw_data.get('Code')):
-            urls['codeRepository'] = self.clean_value(raw_data['Code'])
+            stellar_urls['codeRepository'] = self.clean_value(raw_data['Code'])
         if self.clean_value(raw_data.get('Video')):
-            urls['videoURL'] = self.clean_value(raw_data['Video'])
+            stellar_urls['videoURL'] = self.clean_value(raw_data['Video'])
         if self.clean_value(raw_data.get('Pitch Deck (from Project)')):
-            urls['pitchDeck'] = self.clean_value(raw_data['Pitch Deck (from Project)'])
+            stellar_urls['pitchDeck'] = self.clean_value(raw_data['Pitch Deck (from Project)'])
         
-        if urls:
-            extensions['urls'] = urls
+        if stellar_urls:
+            extensions['stellar.urls'] = stellar_urls
         
-        # Social media
-        social = {}
+        # Stellar-specific social media
+        stellar_social = {}
         if self.clean_value(raw_data.get('LinkedIn (from Project)')):
-            social['linkedIn'] = self.clean_value(raw_data['LinkedIn (from Project)'])
+            stellar_social['linkedIn'] = self.clean_value(raw_data['LinkedIn (from Project)'])
         if self.clean_value(raw_data.get('X (from Project)')):
-            social['twitter'] = self.clean_value(raw_data['X (from Project)'])
+            stellar_social['twitter'] = self.clean_value(raw_data['X (from Project)'])
         if self.clean_value(raw_data.get('Discord (from Project)')):
-            social['discord'] = self.clean_value(raw_data['Discord (from Project)'])
+            stellar_social['discord'] = self.clean_value(raw_data['Discord (from Project)'])
         
-        if social:
-            extensions['socialMedia'] = social
+        if stellar_social:
+            extensions['stellar.socialMedia'] = stellar_social
         
         # Add extensions if any exist
         if extensions:

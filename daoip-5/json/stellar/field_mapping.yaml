@@ -63,64 +63,64 @@ extension_fields:
       sources: ["Total Paid (USD)", "Total Paid (XLM)"]
       type: "funding_array"
 
-  technical_fields:
-    - field: "extensions.technicalArchitecture"
+  stellar_technical_fields:
+    - field: "extensions.stellar.technical.technicalArchitecture"
       source: "Technical Architecture"
       type: "string"
-    - field: "extensions.productsAndServices"
+    - field: "extensions.stellar.technical.productsAndServices"
       source: "Products & Services"
       type: "string"
-    - field: "extensions.usesSoroban"
+    - field: "extensions.stellar.technical.usesSoroban"
       source: "Use Soroban?"
       type: "boolean"
 
-  business_fields:
-    - field: "extensions.successCriteria"
+  stellar_business_fields:
+    - field: "extensions.stellar.metrics.successCriteria"
       source: "Success Criteria"
       type: "string"
-    - field: "extensions.goToMarketPlan"
+    - field: "extensions.stellar.goToMarketPlan"
       source: "Go-To-Market Plan"
       type: "string"
-    - field: "extensions.tractionEvidence"
+    - field: "extensions.stellar.metrics.tractionEvidence"
       source: "Traction Evidence"
       type: "string"
 
-  deliverables:
-    - field: "extensions.deliverables.tranche1"
+  stellar_deliverables:
+    - field: "extensions.stellar.deliverables.tranche1"
       source: "Tranche 1 - Deliverables"
       type: "string"
-    - field: "extensions.deliverables.tranche2"
+    - field: "extensions.stellar.deliverables.tranche2"
       source: "Tranche 2 - Testnet"
       type: "string"
-    - field: "extensions.deliverables.tranche3"
+    - field: "extensions.stellar.deliverables.tranche3"
       source: "Tranche 3 - Mainnet"
       type: "string"
 
-  team_social:
-    - field: "extensions.teamMembers"
+  stellar_team_social:
+    - field: "extensions.stellar.teamMembers"
       source: "Team Members"
       type: "string"
-    - field: "extensions.socialMedia.linkedIn"
+    - field: "extensions.stellar.socialMedia.linkedIn"
       source: "LinkedIn (from Project)"
       type: "url"
-    - field: "extensions.socialMedia.twitter"
+    - field: "extensions.stellar.socialMedia.twitter"
       source: "X (from Project)"
       type: "url"
-    - field: "extensions.socialMedia.discord"
+    - field: "extensions.stellar.socialMedia.discord"
       source: "Discord (from Project)"
       type: "url"
 
-  urls:
-    - field: "extensions.urls.website"
+  stellar_urls:
+    - field: "extensions.stellar.urls.website"
       source: "Website"
       type: "url"
-    - field: "extensions.urls.codeRepository"
+    - field: "extensions.stellar.urls.codeRepository"
       source: "Code"
       type: "url"
-    - field: "extensions.urls.videoURL"
+    - field: "extensions.stellar.urls.videoURL"
       source: "Video"
       type: "url"
-    - field: "extensions.urls.pitchDeck"
+    - field: "extensions.stellar.urls.pitchDeck"
       source: "Pitch Deck (from Project)"
       type: "url"
 
