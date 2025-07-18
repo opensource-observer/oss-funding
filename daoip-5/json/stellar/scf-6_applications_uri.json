@@ -24,22 +24,23 @@
             }
           ],
           "fundsApprovedInUSD": 4514,
-          "title": "Relax",
-          "fundsPaid": [
-            {
-              "amount": 4514.95,
-              "denomination": "USD"
-            },
-            {
-              "amount": 51158.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2020-11-20T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Applications"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 4514.95,
+                "denomination": "USD"
+              },
+              {
+                "amount": 51158.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2020-11-20T00:00:00Z"
+          }
         },
         {
           "type": "GrantApplication",
@@ -58,22 +59,23 @@
             }
           ],
           "fundsApprovedInUSD": 4543,
-          "title": "Blocknify",
-          "fundsPaid": [
-            {
-              "amount": 4543.37,
-              "denomination": "USD"
-            },
-            {
-              "amount": 51480.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2020-11-20T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Applications"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 4543.37,
+                "denomination": "USD"
+              },
+              {
+                "amount": 51480.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2020-11-20T00:00:00Z"
+          }
         },
         {
           "type": "GrantApplication",
@@ -92,22 +94,23 @@
             }
           ],
           "fundsApprovedInUSD": 3606,
-          "title": "Crypto Link",
-          "fundsPaid": [
-            {
-              "amount": 3606.28,
-              "denomination": "USD"
-            },
-            {
-              "amount": 40862.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2020-11-20T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Infrastructure & Services"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 3606.28,
+                "denomination": "USD"
+              },
+              {
+                "amount": 40862.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2020-11-20T00:00:00Z"
+          }
         },
         {
           "type": "GrantApplication",
@@ -126,22 +129,23 @@
             }
           ],
           "fundsApprovedInUSD": 6786,
-          "title": "Lumenswap",
-          "fundsPaid": [
-            {
-              "amount": 6786.63,
-              "denomination": "USD"
-            },
-            {
-              "amount": 76898.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2020-11-20T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Financial Protocols"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 6786.63,
+                "denomination": "USD"
+              },
+              {
+                "amount": 76898.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2020-11-20T00:00:00Z"
+          }
         },
         {
           "type": "GrantApplication",
@@ -160,28 +164,27 @@
             }
           ],
           "fundsApprovedInUSD": 16737,
-          "title": "Ayadee TRAK Supply Chain System",
           "description": "Through our use of Stellar, we are building a universal supply chain tracking tool that is fast, easy to use and will function in environments with low-Internet connectivity. Stellar was the best system upon which we could build to serve users in developing countries with limited electrical and Internet access, as well as a need for low costs and a simple tool.",
-          "fundsPaid": [
-            {
-              "amount": 16737.09,
-              "denomination": "USD"
-            },
-            {
-              "amount": 97168.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2020-12-09T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.teamMembers": "Peter Johnson, Peter Johnson",
             "stellar.urls": {
               "website": "https://ayadee.io"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 16737.09,
+                "denomination": "USD"
+              },
+              {
+                "amount": 97168.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2020-12-09T00:00:00Z"
           }
         },
         {
@@ -201,29 +204,28 @@
             }
           ],
           "fundsApprovedInUSD": 3123,
-          "title": "EduNode: Meet, learn and build on the Stellar Network",
           "description": "Learn about building on the Stellar Network, connect with community members and receive payments for content creation.",
-          "fundsPaid": [
-            {
-              "amount": 3123.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 35392.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2020-11-20T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Education & Community",
           "extensions": {
             "stellar.teamMembers": "Olvis Enrique Gil Rios",
             "stellar.urls": {
               "website": "https://edunode.org/",
               "videoURL": "https://vimeo.com/712679632"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 3123.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 35392.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Education & Community",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2020-11-20T00:00:00Z"
           }
         },
         {
@@ -243,22 +245,23 @@
             }
           ],
           "fundsApprovedInUSD": 653,
-          "title": "DEB",
-          "fundsPaid": [
-            {
-              "amount": 653.09,
-              "denomination": "USD"
-            },
-            {
-              "amount": 7400.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2020-11-20T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Applications"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 653.09,
+                "denomination": "USD"
+              },
+              {
+                "amount": 7400.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2020-11-20T00:00:00Z"
+          }
         },
         {
           "type": "GrantApplication",
@@ -277,28 +280,27 @@
             }
           ],
           "fundsApprovedInUSD": 5445,
-          "title": "Stellarscam.report",
           "description": "Fraud detection and scam alert system for the Stellar community.",
-          "fundsPaid": [
-            {
-              "amount": 5445.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 27027.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2020-11-30T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Education & Community",
           "extensions": {
             "stellar.teamMembers": "Pantheon",
             "stellar.urls": {
               "website": "https://stellarscam-report.medium.com/"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 5445.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 27027.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Education & Community",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2020-11-30T00:00:00Z"
           }
         }
       ]

@@ -24,23 +24,8 @@
             }
           ],
           "fundsApprovedInUSD": 150000,
-          "title": "Public Node",
           "description": "A nonprofit organization that supports and brings a trusted and meaningful public voice to open and inclusive blockchain networks.",
-          "fundsPaid": [
-            {
-              "amount": 150000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 1440467.95,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-05T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Infrastructure & Services",
           "extensions": {
             "stellar.productsAndServices": "As the Stellar Network grows, we’ve seen an increased number of projects reach out to us to provide a critical piece to future trustless services – such as trustless key recovery for users of the “Bean App” (a SCF round 10 winner). Similarly, the SDF has been encouraging a potential Public Node role in Allbridge’s trust-minimized cross-chain bridge. We expect similar opportunities will only grow with the introduction of Soroban. Any funds received from SCF round 12 will be used to expand our stellar-supporting hardware, implement ongoing trustless opportunities, and seek out new partnerships and methods to provide trust-minimized services to developers using Stellar.",
             "stellar.teamMembers": "Daniel Fisher",
@@ -51,7 +36,21 @@
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/publicnode",
               "discord": "https://discord.gg/pVR29p5NxK"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 150000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 1440467.95,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-05T00:00:00Z"
           }
         },
         {
@@ -71,23 +70,8 @@
             }
           ],
           "fundsApprovedInUSD": 74800,
-          "title": "FxDAO",
           "description": "A proof of concept of a decentralized borrowing protocol for the issuance of stablecoins backed by Lumens",
-          "fundsPaid": [
-            {
-              "amount": 74800.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 719082.52,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-04T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Financial Protocols",
           "extensions": {
             "stellar.productsAndServices": "Decentralized stablecoins backed by Lumens. Stablecoins are key for blockchain adoption and are one of the reasons why the DeFi space has evolved so quickly. Unfortunately, current stablecoin providers across the blockchain ecosystem haven't been transparent enough, and we see more and more red flags from stablecoin issuers. But decentralized solutions like DAI and others have proven there is value in decentralized stablecoins because transparency is built into them by default. For that reason and many more, it seems reasonable to be inspired by their success and create a similar solution.\n\nEnter FxDAO, a decentralized borrowing protocol that enables the issuance of stablecoins by backing them up with Lumens. Who will use such a type of protocol? We might ask \"why\" and \"who will use it?\" There are multiple reasons for such a type of protocol or its decentralized stablecoins. Let's list some of them:\n\n- People who want liquidity against their Lumens but don't want to sell them\n- People who prefer to diversify their funds between multiple stablecoins; currently, on Stellar, the only highly liquid and trusted stablecoin is USDC\n- People who would like to participate in the protocol to earn its asset\n- People who want to benefit from rewards given by the protocol\n- And many more!\n\nHow will it work? We get into more details in our first draft available at https://docs.fxdao.io, but here is a quick view: A core contract takes care of the issuance and burn of the stablecoins. If a user deposits Lumens into the protocol, they will receive 85%* of the value in the stablecoin selected (the target is to have multiple stablecoin denominations, i.e., USD, EUR, etc.). Later, that user can liquidate the position by depositing the stablecoin and getting their Lumens back. *Percentage is from our first draft but it can change during development.",
             "stellar.teamMembers": "Enrique A.",
@@ -97,7 +81,21 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/FxDAO_io"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 74800.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 719082.52,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-04T00:00:00Z"
           }
         },
         {
@@ -135,29 +133,28 @@
             }
           ],
           "fundsApprovedInUSD": 150000,
-          "title": "Comet",
           "description": "Comet is a weighted AMM protocol that offers soroban projects a flexible solution set when picking liquidity venues",
-          "fundsPaid": [
-            {
-              "amount": 150000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 1425870.79,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-05T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Financial Protocols",
           "extensions": {
             "stellar.productsAndServices": "Comet is a Soroban implementation of Balancer’s weighted automated market maker protocol. It utilizes an N-dimensional surface-based cost function to enable the creation of arbitrary weight, arbitrary asset count, AMM pools. So instead of being limited to the standard 50/50 seen in classic XYK AMM pools, users could deploy 2-asset pools with asset weights of 80/20 or even 4-asset pools with weights of 10/15/15/60. This increased flexibility allows AMMs to serve a much wider array of use cases for users and projects. These capabilities, and their effect on ecosystem liquidity, make weighted AMMs a natural fit for the Stellar ecosystem.\n\nStellar has persistent issues maintaining liquidity. There are two main ways to address this. (1) you find more liquidity providers - weighted AMMs help here as they make passive token holders more likely to provide liquidity due to impermanent loss reduction. (2) you make liquidity provisioning more efficient – here, weighted AMMs help by enabling AMM pools with more than two assets, allowing asset pairs to share liquidity.\n\nComet’s codebase will serve as an important resource for the growth Stellar DeFi ecosystem. Balancer is the second most forked AMM protocol, with many forks expanding on the core technology. Providing a secure Soroban proof-of-concept implementation of the codebase will make it easier for new teams to enter the ecosystem and begin building. We will get the protocol audited and release a basic user interface for those uncomfortable interacting with the smart contracts directly on Testnet. This protocol will serve as a proof of concept and will not be deployed on Mainnet. Specifically, this proof of concept will be solely deployed to Testnet, and released as open-source software. As for plans after we develop a Testnet proof of concept, there are none. Comet is designed to be a public good. There will be no DAO or token, just an open-source protocol that any Soroban project can use as a building block.",
             "stellar.teamMembers": "Ignacio Garcia Leon, Tempest",
             "stellar.urls": {
               "website": "no-link.com/yet"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 150000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 1425870.79,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-05T00:00:00Z"
           }
         },
         {
@@ -177,23 +174,8 @@
             }
           ],
           "fundsApprovedInUSD": 27420,
-          "title": "Haciendo Stellar",
           "description": "We are a Spanish-language communication platform for Stellar and Soroban, focused on the Latin American and Spanish market.",
-          "fundsPaid": [
-            {
-              "amount": 27420.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 291585.29,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-05-02T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Education & Community",
           "extensions": {
             "stellar.productsAndServices": "At Haciendo Stellar, we will not be launching technological projects ourselves, but rather assisting those who wish to launch or have already launched their project with Stellar & Soroban to gain greater promotion for their projects.",
             "stellar.teamMembers": "Fede Perez jacomet",
@@ -204,7 +186,21 @@
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/haciendostellar",
               "discord": "https://discord.gg/3StMXdjGt3"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 27420.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 291585.29,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Education & Community",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-05-02T00:00:00Z"
           }
         },
         {
@@ -242,23 +238,8 @@
             }
           ],
           "fundsApprovedInUSD": 148000,
-          "title": "Integration of Stellar blockchain into Spatium Wallet Builder solution",
           "description": "Spatium offers an open-source Web3 Wallet Builder for businesses which allows to break barriers for mass adoption",
-          "fundsPaid": [
-            {
-              "amount": 148000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 1418885.88,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-05T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.productsAndServices": "Spatium is a solution for businesses that would like to provide their users with the gateway to WEB3. So any business can develop a non-custodial wallet, pack it with the best features industry has: multi-party computation instead of the private key, biometric backup instead of seed phrase, blockchain agnostic signature, DApp browser and much more. Many traditional businesses coming to Web3 and crypto native projects want to step in with their own wallets to give end-users not only unique functionality they have, but also to guide them through Web3. Unfortunately, at a certain point they understand that building and developing a non-custodial wallet is not a simple task - it might take from three months to never. Even those who managed to overcome the initial release face countless support issues. That is where Wallet Builder steps ahead. Wallet Builder is a platform where businesses can create their own non-custodial wallet based on native and custom modules. Such approach allows to significantly decrease the amount of resources required by the business to design, develop, launch and support crypto wallets, and introduce new features. We are distributing our crypto wallet via B2B2C and our potential clients are both traditional and crypto-native businesses. We already have got partners with over 100k users onboarded and we have rather ambitious plans for attracting new clients. Our team is going to implement Stellar blockchain in our Wallet Builder. So the increase in demand for our solution will help the inclusion of the Stellar chain into the ecosystem of our current and future customers and subsequently their users will be able to use the Stellar blockchain advantages. Our solution implies to have flexible integration options: Box Solution (customized mobile App) or Wallet SDK. Thus, our Wallet Builder with integrated Stellar blockchain functionality can be used both for integrating into existing clients’ application or as a stand-alone application.",
             "stellar.teamMembers": "Andrei Rabenok",
@@ -269,7 +250,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/spatium-capital/",
               "twitter": "https://twitter.com/spatium_news"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 148000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 1418885.88,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-05T00:00:00Z"
           }
         },
         {
@@ -289,23 +284,8 @@
             }
           ],
           "fundsApprovedInUSD": 75000,
-          "title": "Chaincerts",
           "description": "kommit is creating a platform to unlock the future of certifications with trusted Soulbound Tokens managed by smart contracts",
-          "fundsPaid": [
-            {
-              "amount": 75000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 719030.01,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-05T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Infrastructure & Services",
           "extensions": {
             "stellar.productsAndServices": "Chaincerts is a cutting-edge platform that revolutionizes the way certifications are issued, verified, and showcased. Our platform issues certifications as secure, non-transferable, and verifiable Soulbound Tokens (SBTs) on the Stellar network. These SBTs, managed through Soroban smart contracts, serve as unique identity tokens that showcase an individual or entity's characteristics, features, traits, and accomplishments in a visually appealing format. With its unique combination of decentralization, innovative visualization, and simple verification, Chaincerts provides unparalleled security, reliability, and transparency to the certificate management process.\n\nCertification systems are outdated and unreliable. Traditional methods such as paper certificates, digital images, and PDFs are susceptible to falsification and manipulation, making it challenging to verify their authenticity. This is a significant issue for individuals and organizations who need to provide verifiable certifications to others.\n\nChaincerts offers a modern solution to the outdated and unreliable certification system, using blockchain technology to eliminate the limitations of traditional diplomas, PDFs, and cumbersome verification processes. Chaincerts is a transparent, tamper-proof, and visually appealing solution that aims to revolutionize the world of certifications.\n\nChaincerts leverages the strengths of the Stellar blockchain and Soroban's smart contracts. Stellar will ensure the security, verifiability, decentralization, revocability, uniqueness, non-transferability, and singularity of certificates. By incorporating Soroban's smart contracts, we will enhance the transparency and credibility of certificate management operations, providing unparalleled security and reliability. Our goal is to introduce the innovative concept of Soulbound Tokens within the context of Stellar and Soroban, giving new meaning to certificates.",
             "stellar.teamMembers": "Miguel Nieto, Juan Hurtado",
@@ -316,7 +296,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://co.linkedin.com/company/kommit-co",
               "twitter": "https://twitter.com/kommitco"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 75000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 719030.01,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-05T00:00:00Z"
           }
         },
         {
@@ -336,23 +330,8 @@
             }
           ],
           "fundsApprovedInUSD": 30000,
-          "title": "Horizon-as-a-Service",
           "description": "Providing a Web3 development platform for teams building on Soroban and Stellar without the hassle of infrastructure management.",
-          "fundsPaid": [
-            {
-              "amount": 30000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 288066.29,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-06T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Infrastructure & Services",
           "extensions": {
             "stellar.productsAndServices": "Horizon-as-a-Service is the beginning. We are looking to build a development platform for Stellar like we see with Alchemy and Infura. Our initial focus is on providing production-ready infrastructure API endpoints for Horizon API servers and Soroban RPC nodes, as well as managed instances. We want to make sure we provide a platform that is reliable and developer-friendly. One problem that we are looking to solve is that teams may not want to run their own infrastructure, so we are available to run and manage that for them. Another problem is that other solutions may be cost prohibitive, so we want to provide an affordable option that is more accessible.",
             "stellar.teamMembers": "Tillman Mosley",
@@ -363,7 +342,21 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/withobsrvr"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 30000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 288066.29,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-06T00:00:00Z"
           }
         },
         {
@@ -383,23 +376,8 @@
             }
           ],
           "fundsApprovedInUSD": 150000,
-          "title": "Qolaq Mutual Aid Platform (MAP)",
           "description": "Developing the first Web3 mutual aid platform to drive financial inclusion for people who do not have traditional insurance cover.",
-          "fundsPaid": [
-            {
-              "amount": 150000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 1442010.41,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-04T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.productsAndServices": "Qolaq plans to develop the following products/services with the support of SCF: 1) smart contract to launch MAP's initial Simple Critical Illness and Life Programs, 2) MAP's Disability/Health Programs, and 3) building Qolaq's global community for financial inclusion. Qolaq's MAP is a Web3 solution to the restrictive practices and inefficiencies of global health and life insurance, providing the underserved with mutual aid programs that enable Members to support each other in times of need. Qolaq is not an insurance company, so does not conduct underwriting, collect premiums or maintain reserves to pay claims. Qolaq provides programs and the MAP for its Members. Qolaq receives contributions from Members to operate the MAP. Qolaq's MAP follows proven, successful mutual aid models of the past and is developing a Web3 platform with Soroban to facilitate immediate claim settlement and permit Members to collectively decide on claims with full transparency, removing conflicts of interest. Full Member privacy can be achieved while delivering fair and impartial participation. The costs for administering MAP will be transparent and can be recorded on chain. MAP's decentralized approach also removes significant operating costs/commissions of typical insurers. MAP programs are designed for the underserved seeking coverage but either do not have access to traditional insurers, have been rejected due to underwriting requirements, do not understand complex insurance policy terms or cannot afford monthly premiums. Leveraging Soroban will enable automated remittance of claims upon Members' approval. Qolaq also seeks to access the existing financial rails through Stellar/Soroban to provide fiat on/off ramps for payments. Based on Stellar's commitment to financial inclusion, such collaboration will support Qolaq to reach beyond its initial markets to provide our decentralized MAP internationally.",
             "stellar.teamMembers": "Barry Lee, Doory",
@@ -410,7 +388,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://linkfly.to/qolaqfoundation",
               "twitter": "@qolaq_org"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 150000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 1442010.41,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-04T00:00:00Z"
           }
         },
         {
@@ -430,23 +422,8 @@
             }
           ],
           "fundsApprovedInUSD": 31800,
-          "title": "XycLoans",
           "description": "A flash loans protocol with its own liquidity management on Soroban.",
-          "fundsPaid": [
-            {
-              "amount": 31800.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 304868.72,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-05T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Financial Protocols",
           "extensions": {
             "stellar.productsAndServices": "Our goal is to finish building in ~3 months the working prototype of a decentralized ecosystem to borrow money through flash loans and to generate healthy yield by lending. As the term \"ecosystem\" hints, we envision XycLoans not only as a protocol but as a protocol + other components, making it effectively an ecosystem. There are 4 main components in XycLoans: the smart contracts, backend functions to build a database, scale, and make the front end faster, a web app to graphically develop contracts that use flash loans without coding knowledge, and a high-quality web app for lenders to manage their liquidity.\n\nWe have already written the PoC contracts for the protocol, which can be found here. We also already have simple tests that show how borrowing and lending would work and we are looking forward to making more complex tests for edge cases. The specifics of how the protocol works are written in the Litepaper, which we recommend reading (sections 4 and 5) if you wish to understand the math and workflows under the hood when lending and borrowing.\n\nIn order to scale more efficiently and make the front ends faster, we'll write and deploy a set of backend functions that listen for contract events such as when the vault mints new fee shares or when the vault pays out the yield to lenders. The functions will subsequently build a database that can be queried by the front end (for example, the total profit of a lending token pool).\n\nFlash loans usually target developers and other DeFi protocols, but having a web app like Furucombo that allows leveraging flash loans and profit from them will expand the target audience also network-wise.\n\nIn a DeFi protocol, a high-quality web app that allows investors to manage their money is crucial. This web app will allow lenders to efficiently provide and monitor their liquidity in the various token pools, and know how much yield they are earning.",
             "stellar.teamMembers": "Federico Carlos De Ponti, Tommaso De Ponti",
@@ -458,7 +435,21 @@
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/xyclooLabs",
               "discord": "https://discord.gg/gGvB2Bj2S5"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 31800.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 304868.72,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-05T00:00:00Z"
           }
         },
         {
@@ -478,23 +469,8 @@
             }
           ],
           "fundsApprovedInUSD": 40000,
-          "title": "Sorobix",
           "description": "An online IDE to compile, deploy, invoke and debug Soroban Smart Contracts on-the-fly using a browser without any local setup!",
-          "fundsPaid": [
-            {
-              "amount": 40000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 384088.39,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-06T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.productsAndServices": "What can you do with Sorobix?\n\nDeploy Contracts to Futurenet using 0 compute resources of your own. No setup required to try out Soroban. Easily write your own smart contracts on our online IDE. Build and test out functions written in your contract and easily debug your contract before deploying. Deploy contracts to the futurenet with a single click. You don't even need a wallet to deploy on testnet! (We automatically create one and provide the keys to you!) Invoke existing deployed smart contracts using their Contract ID.\n\nHow does this benefit Soroban/Stellar Ecosystem?\n\nWith the launch of Soroban Smart Contracts on the Stellar Network, we expect a huge influx of developers joining the ecosystem to get their hands dirty. Setting up Rust (the language Soroban Contracts are written in) in a local environment has always been tricky. This has always been a point of friction for first-timers onboarding or trying out the Soroban ecosystem. This is where Sorobix jumps in. With its online IDE capabilities, users can quickly write their own smart contracts from the browser itself and also try out pre-written sample codebases provided by the community! Soroban being at a nascent stage with its FutureNet launch last quarter, we want to scale it together using Sorobix to increase user adoption in the developer community of Soroban and benefit Stellar Network.\n\nBefore Sorobix:\n- Install Rust on a local system (5 mins)\n- Install the wasm32-unknown toolchain for rust (3 mins)\n- Install the soroban-cli (10 mins)\n- Initialise Cargo Project and Copy starter code from Docs (2 mins)\n- Build the Contract (10 mins)\n- Deploy/Invoke/Test the Contract (10 mins) [Depends on PC Spec]\n- Total Time Taken: 40 mins\n\nAfter Sorobix:\n- Click on the Try out Code Button on the Soroban Docs/Visit our website and find the starter code (1 min)\n- Deploy/Invoke/Test the contract (4 mins) [Superior remote build system]\n- Total Time Taken: 5 mins\n\nAs you can see, we have made the process 8x faster for newer developers and adopters to try out Soroban!",
             "stellar.teamMembers": "Hemanth Krishna, Rishabh Keshan",
@@ -505,7 +481,21 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/sorobix_ide"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 40000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 384088.39,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-06T00:00:00Z"
           }
         },
         {
@@ -543,23 +533,8 @@
             }
           ],
           "fundsApprovedInUSD": 148000,
-          "title": "The Blue Marble - Web3 Made Easy",
           "description": "The Blue Marble removes all friction from Web3, allowing brands to launch customer focused NFT campaigns with a few clicks.",
-          "fundsPaid": [
-            {
-              "amount": 148000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 1421127.07,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-06T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.productsAndServices": "The Blue Marble was part of the Stellar community supporting the development of Turrets, the Layer 2 smart contract technology that was the precursor to Soroban Layer 1. Just prior to our brand launch, Soroban was announced as a replacement for Turrets - so we made the decision to get to market using Turrets and continue with the launch with a view to migrate to Soroban as soon as feasible. Our smart contracts control royalty payments and allow the trading of NFTs on Stellar without requiring use of Stroops as the NFT unit. The royalty system enables NFT creators and businesses to provide support for social and environmental causes when they sell or trade assets.\n\nOur current Turret smart contracts:\n- Have full authorisation over the NFT assets we mint once the Primary Sale is closed\n- They ensure only integer asset transactions take place and avoid the need to use Stroops as the base unit, permitting easier trading\n- They control the buy and sell operations which optionally include royalties: \n  1. to the creator of the NFT, as a percentage of all secondary sales and \n  2. to causes the creator would like to support such as charities and nonprofits who receive an ongoing percentage of secondary sales\n\nOur aim with Soroban is:\n- Develop Soroban based contracts to replace our existing Turret contracts as soon as Soroban goes live\n- Add to our existing smart contract operations so that the new Soroban contracts are fully complete and support all relevant activities required to manage NFT assets\n- Work with the Stellar community to ensure the new contracts are as cross compatible and easy to adopt by other NFT platforms and wallets on the Stellar ecosystem\n- Generate content and materials during our process of development in order to provide market knowledge and insights into the use and execution of Soroban based platforms, to act as a case study for The Stellar Development Foundation",
             "stellar.teamMembers": "Steve Walker",
@@ -570,7 +545,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/5288550",
               "twitter": "https://twitter.com/thebluemarbleio"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 148000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 1421127.07,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-06T00:00:00Z"
           }
         },
         {
@@ -590,23 +579,8 @@
             }
           ],
           "fundsApprovedInUSD": 85232,
-          "title": "Tellus Cooperative",
           "description": "Empower LATAM with innovative solutions for a decentralized, thriving local economy and engaged participatory democracy!",
-          "fundsPaid": [
-            {
-              "amount": 85232.96,
-              "denomination": "USD"
-            },
-            {
-              "amount": 819378.67,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-04T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Education & Community",
           "extensions": {
             "stellar.productsAndServices": "With the support of the Stellar Community Fund, we plan to launch and grow three main products and services to help advance the adoption of cryptocurrencies in Chile and the growth of DAOs in the overall Stellar Ecosystem:\n\nWallet App: We plan to launch a mobile wallet app for Chile and Latin America, specifically designed for cooperative (multi-signature) savings and providing an on/off ramp for crypto and fiat with MoneygramAccess integration. The app aims to boost local economies by incentivizing sustainable behavior by providing discounts and rewards on local businesses and cooperative organizations. The app will be an all-in-one solution for the unbanked people in Chile to save, shift demand towards sustainable practices, and boost local economies.\n\nDAO Tools: We are growing a DAO community by building tools in the Stellar Network such as voting systems for community governance proposals and a bounties app to incentivize native developers. These developments will help build decentralized systems of governance and asset management and push for Soroban Smart Contract research and development.\n\nOpen Source PoS: We are building open source hardware running horizon to incentivize local shops to reward customer loyalty through tokenized coupons and points. We envision users tapping their wallet app or NFC cards on these terminals at shops or events. It currently uses a LibreBoard and RFID-RC522 Reader, and Python. The case is 3D printed. The goal is to provide the instructions for a DIY affordable terminal as well as providing production-ready commercial hardware to expand the Stellar Network and sustain the project.",
             "stellar.teamMembers": "Bastian Alexander Koh Cuende",
@@ -618,7 +592,21 @@
               "linkedIn": "Tellus Cooperative",
               "twitter": "@telluscoop",
               "discord": "https://discord.gg/ysuxyKJ34c"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 85232.96,
+                "denomination": "USD"
+              },
+              {
+                "amount": 819378.67,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Education & Community",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-04T00:00:00Z"
           }
         }
       ]

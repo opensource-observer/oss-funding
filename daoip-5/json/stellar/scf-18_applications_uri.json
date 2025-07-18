@@ -24,23 +24,8 @@
             }
           ],
           "fundsApprovedInUSD": 30600,
-          "title": "Scalps",
           "description": "Scalps is a map-based directory of crypto-friendly merchants combining payments with a powerful loyalty system built on Stellar.",
-          "fundsPaid": [
-            {
-              "amount": 30600.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 62924.12,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-06-27T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.productsAndServices": "We have already launched the map-based crypto-friendly merchant discovery platform and are actively recruiting merchants. We are seeking funding for the blockchain loyalty system layer which includes Stellar wallet integration for merchants and consumers for loyalty points and branded loyalty NFT creation, loyalty point asset design and issuance, Soroban smart contract design and implementation for: a. Customizable merchant discounts; b. Atomic swaps between Stellar assets and assets from other chains to calculate discounts in real time; c. Discount loyalty NFTs; d. VIP Membership loyalty NFTs; e. Event access/ticketing NFTs; f. Branded collectibles NFTs. We believe that loyalty NFTs, which are an important component of the incentives aspect of the Scalps platform, and a major differentiator compared to other payment systems on Stellar and elsewhere, are a great use case for Soroban smart contracts, given that the NFTs will feature validity time spans, expiry dates, access control, collectability, and complex customized discount regimes.",
             "stellar.teamMembers": "Samir Franciscus, Grigory Mkrtchyan",
@@ -52,7 +37,21 @@
               "linkedIn": "https://www.linkedin.com/company/scalps/?viewAsMember=true",
               "twitter": "https://twitter.com/ScalpsFinance",
               "discord": "https://discord.gg/zEpshZbR"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 30600.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 62924.12,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-06-27T00:00:00Z"
           }
         },
         {
@@ -72,23 +71,8 @@
             }
           ],
           "fundsApprovedInUSD": 11200,
-          "title": "Ortege",
           "description": "an adaptable, cross-chain messaging system which enables numerous use cases such as Oracles, Bridging, and multichain dApps.",
-          "fundsPaid": [
-            {
-              "amount": 11200.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 88684.77,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-09-11T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (10%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Infrastructure & Services",
           "extensions": {
             "stellar.productsAndServices": "What we are constructing with Ortege's integration into Stellar and Soroban serves as a critical foundation and pre-requisite for enabling and fostering interchain applications, and in future could allow for Chainlink Feeds. Facilitating Interchain Interactions Problem Solved: The blockchain landscape is fragmented, with limited interaction between different networks, which hampers inclusivity and functionality. Utility: Our system enables direct account actions across different chains, thereby allowing dynamic interactions between users of various networks. Impact: This expands Stellar's user base and reach, opening up new avenues for cross-network applications. Role of Soroban: Soroban acts as an enabler for these interchain interactions, offering its users unprecedented convenience and functionality. Enhancing Interoperability Problem Solved: The lack of a robust cross-chain communication system has been a significant barrier to blockchain interoperability. Utility: Ortege significantly improves the interoperability within the blockchain ecosystem by facilitating efficient cross-chain communication. Impact: This bridges the gap between disparate networks, ensuring seamless interactions and expanding the scope and utility of both Stellar and Soroban by allowing its users to take actions cross chain without leaving Soroban, or vice versa, having users on other networks use Soroban. Role of Soroban: Soroban plays a crucial role in this, serving as a hub that connects with various networks, thus contributing to an increasingly interconnected blockchain world. High-Level User Journey Facilitating Interchain Interactions 1. Cross-Chain Dashboard: Alice goes to the interchain dashboard within her wallet. 2. Network Selection: She selects the networks she wants to interact with—say, Ethereum and Stellar. 3. Transaction Initiation: Alice initiates a token swap between her Stellar and Ethereum accounts. 4. Role of Soroban: Soroban facilitates this transaction, ensuring it's completed quickly and securely. Enhancing Interoperability 1. Interoperability Hub: Alice explores the interoperability features, where she can interact with multiple blockchains. 2. Smart Contract Execution: She executes a smart contract that involves actions on both Stellar and another blockchain. 3. Transaction Confirmation: Alice receives confirmation that her cross-chain smart contract has been successfully executed. 4. Role of Soroban: Soroban serves as the hub that makes this seamless cross-chain interaction possible. By following this user journey, Alice not only benefits from secure and reliable data feeds but also enjoys the freedom of interchain interactions and enhanced interoperability, all thanks to the foundational integration of Ortege, Stellar, and Soroban.",
             "stellar.teamMembers": "Christos  Salaforis, Christos Salaforis, Christos  Salaforis",
@@ -98,7 +82,21 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/ortegeai"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 11200.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 88684.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (10%)",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-09-11T00:00:00Z"
           }
         },
         {
@@ -118,23 +116,8 @@
             }
           ],
           "fundsApprovedInUSD": 150000,
-          "title": "HiYield",
           "description": "HiYield: Aggregating liquidity for the market’s top real-world assets through the HiYield lending market",
-          "fundsPaid": [
-            {
-              "amount": 150000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 186439.62,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-07-27T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Financial Protocols",
           "extensions": {
             "stellar.productsAndServices": "HiYield aggregates liquidity for the increasingly fragmented tokenized RWA (real world asset) market using its custom-built HiYield lending market. The HiYield lending market has a unique architecture ideal for tokenized assets, enabling both borrowers and lenders to maximize returns on tokenized assets, participate in pre-vetted offerings from both public and private markets, and access deals from other partner tokenization protocols. The problem HiYield addresses is the growing fragmentation of the RWA market. Liquidity Fragmentation erodes the benefits of tokenization, hurting investors and new protocols alike. HiYield addresses this problem by aggregating liquidity into the HiYield lending market, pre-vetting opportunities on our platform, and allowing investors to access the market’s best deals all in one interface.\n\nThe HiYield lending market consists of a passive lending pool with broad exposure to all tokenized assets and a number of isolated lending pools against an individual collateral type. It comes with several benefits for both borrowers and lenders:\n\nLenders:\n- Flexible credit risk by lending in isolated pools that match your risk-profile\n- Flexible duration risk by lending in isolated pools that match your investment horizon\n- Lend in the Passive Pool if you don’t want to actively manage your position\n- Lenders receive a variable interest rate based on the utilization percentage and borrow rate of the pool\n\nBorrowers:\n- Borrow against your tokenized assets to purchase more tokenized assets, achieving a leveraged return\n- Borrow against your tokenized assets to purchase other assets, increasing yield on all your investments\n- Borrowers pay a fixed interest rate\n\nOur asset offerings fall into 3 categories: Public Markets, Private Markets, and On-chain markets. Public markets include US treasury bills, corporate debt, and asset-backed securities. Private Markets include products like invoice financing, and on-chain markets include working with existing tokenization protocols on other networks to re-issue their tokens on Stellar. HiYield offerings are SEC-exempt “Private Placements” (RegD/S). Private Placements are open to accredited US investors and all non-US investors. Additionally, we keep the offerings at 9 months or less to maturity, which removes the 99 investor limit resulting in no minimum investment size. We work with a top law firm with extensive experience in the blockchain industry to ensure our offerings are compliant.\n\nHiYield earns revenue by charging a spread on the interest earned off-chain vs the interest offered on-chain. For example, a tokenized asset might earn 10% yield on-chain, while the off-chain assets earn 12%. In that case, HiYield would earn 2%. The more offerings that HiYield makes on Stellar, the more revenue it will generate. HiYield completed a proof of concept on Ethereum aggregating ~1.2M in total USDC deposits across two product offerings, a 2 month treasury bill and a line of credit to HiYield.",
             "stellar.teamMembers": "Scott Smiley",
@@ -145,7 +128,21 @@
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/hiyield_xyz",
               "discord": "https://discord.gg/5kgC3WYxKR"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 150000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 186439.62,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-07-27T00:00:00Z"
           }
         },
         {
@@ -183,23 +180,8 @@
             }
           ],
           "fundsApprovedInUSD": 136294,
-          "title": "KometPay",
           "description": "The app that helps Latino migrants to better deliver financial support to their families back home by sending money and vouchers.",
-          "fundsPaid": [
-            {
-              "amount": 136294.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 1140821.96,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-08-31T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.productsAndServices": "Through our effort and perseverance, combined with the incredible support of SCF, KometPay is now poised to disrupt the cross-border payments for migrants between the USA, Canada, and Colombia. We are currently running a closed beta with a few users and iterating their feedback on the basic flow of the application, making sure that all these key processes work as we envision them. As this process goes by, we look to onboard new customers and start testing our market and user assumptions on a larger scale.\n\nThe main product we are now testing, and that will soon launch publicly, is a money transfer service. Senders indicate a payment method, the recipient from their contact list, and the amount they want to send. We take care of everything in the back end from tying their wallet to their bank account through Plaid, KYC, on-ramping USDC, and delivering them directly in the recipient wallet. On the receiving end, we create a custodial wallet for our users where they see reflected the amount of USDC received. At that point, they have two options: they can save the money in USDC or withdraw the total or partial amount to a local bank account.\n\nIn the near future, we want to expand the options for users mainly on the receiving side, granting ease in how they can spend their USDC. One option would be offering a Visa Debit card to spend the USDC directly. This will be crucial as we give them an immediate ease in spending their available balance. This feature has proven to be a main driver of user acquisition in the region. Additionally, by integrating with Moneygram, we can also foster access to a stablecoin-to-cash (and vice versa) feature, giving them absolute control and tangibility over their funds. With these three total options - saving or withdrawing to a bank account; debit cards; cash-to-stablecoin access - USDC will be extremely tangible for Latin Americans.\n\nAs we are on a quest to turn stablecoin adoption into the mainstream, we want to do so with as many local partners as we can. Moneygram is just the start, but think of enabling Stellar on- and off-ramp services in small shops and other places that make up part of users’ daily activities. This is how we envision our second main feature, the voucher system, to work and we have had - without even a concrete product to show yet on this end - extremely encouraging traction with local business chains.",
             "stellar.teamMembers": "Paolo Astone, Nicolas Zuleta Plinedo",
@@ -210,7 +192,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/kometpay/?viewAsMember=true",
               "discord": "kometpay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 136294.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 1140821.96,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-08-31T00:00:00Z"
           }
         },
         {
@@ -230,23 +226,8 @@
             }
           ],
           "fundsApprovedInUSD": 141000,
-          "title": "Comet - Weighted Pool AMM",
           "description": "Comet is a weighted AMM protocol that offers Soroban projects a flexible solution set when picking liquidity venues",
-          "fundsPaid": [
-            {
-              "amount": 141000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 1183978.5,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-09-06T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Financial Protocols",
           "extensions": {
             "stellar.productsAndServices": "Comet v1 created a solid foundation for users to engage with a weighted AMM implementation. An efficient set of smart contracts with an example frontend users may easily fork and build on top of was introduced. Comet v1 also set the stage for enhanced interoperability within the Soroban ecosystem, as our core smart contracts serve as a foundation for many other solutions to integrate/build on top of. This framework enables robust exchange of assets across a dynamic set of liquidity pools. However, while Comet v1 offers robustness, it lacks fluidity in regards to cost optimization, this impacts end user experience.\n\nEnter Comet v2, a major upgrade that optimizes for low fees via order routing and the implementation of stableswap pools within the weighted pool AMM. Why router? A router is a user-friendly way to interact with an AMM, it handles the routing logic for facilitating swap and order execution. Having an efficient router can lower fees for end users significantly. This is especially important for a weighted pool AMM, as Comet will have a variety of pools with similar tokens of different weights. One pool may have XYZ token with a 20% weight, and another pool may also have XYZ token at a 50% weight. The router will find the most optimal path for swapping from token a to b, with the functionality of being able to route across a multitude of liquidity pools. This allows the user to have access to efficient swap routing without having to worry about using specific pools and thinking heavily about liquidity implications for simply swapping tokens. The router takes weight distribution, liquidity, fees, and efficient path finding into account when facilitating a swap.\n\nWhy stableswap? Stablecoins have become a unique and integral part of capital liquidity throughout many DeFi ecosystems. Stableswap implementations allow for a novel approach to reducing fees and enhancing price stability. Having an efficient stableswap implementation with the Comet weighted pool AMM would also allow for greater real world value within the DeFi ecosystem, as stablecoin issuers and/or protocols can confidently allocate liquidity within a plethora of weighted liquidity pools. Users also gain access to distributed risk profiles across multiple stablecoin pools, with the ability to group various types of stablecoins by weight while still benefiting from the low slippage associated with a stableswap liquidity pool. Stableswap pools also allow for more dynamic route pathing options within the router implementation.\n\nIn conclusion, Comet v2 introduces two major new features, a router and stableswap implementation. Users will have access to lower costs when they provide liquidity to and/or swap stablecoins (lower slippage and impermanent loss), as well as lower fees (efficient routing) via the router implementation. The net result will mean that regardless of what tokens users choose to swap, they will incur lower fees, and thus will enjoy a much greater end user experience.",
             "stellar.teamMembers": "Ignacio Garcia Leon, Tempest",
@@ -254,7 +235,21 @@
               "website": "https://github.com/CometDEX",
               "codeRepository": "https://github.com/CometDEX",
               "videoURL": "https://vimeo.com/854223209?share=copy"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 141000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 1183978.5,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-09-06T00:00:00Z"
           }
         },
         {
@@ -274,23 +269,8 @@
             }
           ],
           "fundsApprovedInUSD": 90000,
-          "title": "Blaze",
           "description": "Blaze is an international payments app carefully crafted for digital nomads and expats",
-          "fundsPaid": [
-            {
-              "amount": 90000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 111863.76,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-07-27T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.productsAndServices": "Blaze is an international peer-to-peer payments app meticulously crafted for digital nomads and expats. It will utilize Stellar and Soroban to deliver swift, secure, and cost-effective transactions no matter where and with no matter whom a traveler may find themselves transacting. Conventional peer-to-peer providers such as Venmo excel in user experience, yet their functionality remains confined to their home country. Alternative solutions like PayPal, Wise, and Revolut enable international payments but can be cumbersome to use, overly expensive for simple transfers, or limited in their geographic accessibility. Blaze aspires to create an experience that merges the effortless and social user experience of Venmo with truly borderless accessibility made possible by the Stellar network's unique anchor ecosystem. While it's powered by crypto, Blaze is carefully designed to hide all the associated complexities from the everyday user. By doing so, and by obsessively focusing our user experience towards the nomad and expat lifestyles, we hope to significantly widen the utilization and reach of the Stellar network.\n\nSimultaneously Non-Custodial, User-Friendly, and Highly Recoverable Blaze offers a payments experience centered around non-custodial wallets on Stellar without all the usual pitfalls. We will use Web3Auth to allow users to sign up and log in using SMS, Email, and pin code. In the future, we may augment our Web3Auth system with a parallel SEP-30 implementation for added security and mitigation of counterparty risk.\n\nPeople-centric Payments One key feature of Venmo's success in North America is that it made the routine act of paying people into a social experience. Blaze will do the same for cross-border payments. We will feature a privacy-conscious social feed, a native friend graph as well as an integration with Instagram. Users will be able to pay each other using everyday identifiers like phone number or Instagram handle.\n\nUser-friendly Anchor Integrations Blaze will initially focus on user-friendly SEP6/SEP12 integrations of anchors in Mexico, Colombia, Brazil, and Europe. In North America, Blaze is working with a key strategic infrastructure partner to implement a custom ramp.\n\nSend and Receive for Free in Dollars. Think in Pesos. All in-app payments will happen in USDC, which reduces transaction costs, keeps the experience lightweight, and allows customers with volatile native currencies to benefit from holding dollars. We will use fee bumps and sponsored accounts to fully sponsor all in-app payments, keeping them free for users.\n\n(Soroban) Give Back to the Communities You Visit Inspired by previous SCF grant winner \"CashAbroad\", Blaze will implement a smart contract that can add a donation on top of any other peer-to-peer payment on the network. The smart contract will maintain a verified directory of beneficiaries, as well as facilitate the actual payment-plus-donation transactions. The contract will be designed in such a way that any Soroban-connected project can make use of it, not just Blaze. For further details, please see the Additional Information section.\n\n(Soroban) Account Specific Token Allowances Certain advanced features require moving funds on behalf of a user. We aim to do this without compromising user self-custody. Allowances on the native Stellar Asset Contract enable this but also expose a security threat. Through the allowances account, a hacker can steal large amounts of funds in one go. We will create a custom account contract that allows for recipient-scoped permissions. The allowances account will have permission to move funds only to specified recipients. That way a hacker would need to compromise both the allowance account and specified recipient accounts to steal money. Many projects in the Soroban ecosystem will be able to benefit from this increase in security. For further details, please see the Additional Information section.",
             "stellar.teamMembers": "Faiyam Habib Rahman",
@@ -301,7 +281,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/96206784",
               "twitter": "https://twitter.com/blaze_payments"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 90000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 111863.76,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-07-27T00:00:00Z"
           }
         },
         {
@@ -321,23 +315,8 @@
             }
           ],
           "fundsApprovedInUSD": 139999,
-          "title": "BlockEden.xyz Stellar Soroban Indexer",
           "description": "offer commercial Soroban RPC and indexed data to help DApp developers to speed up development with a GraphQL API and analytics",
-          "fundsPaid": [
-            {
-              "amount": 139999.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 199060.14,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-08-04T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Infrastructure & Services",
           "extensions": {
             "stellar.productsAndServices": "What is BlockEden.xyz\n\nBlockEden.xyz is an API marketplace powering DApps of all sizes for Sui, Aptos, Solana, and 12 EVM blockchains.\n\nWhy do our customers choose us?\n\nHigh availability. We maintain 99.9% uptime since our first API - Aptos main net launch.\n\nInclusive API offerings and community. Our services have expanded to include Sui, Ethereum, IoTeX, Solana, Polygon, Polygon zkEVM, Filecoin, Harmony, BSC, Arbitrum, Optimism, Gnosis, Arbitrum Nova & EthStorage Galileo. Our community 10x.pub has 4000+ web3 innovators from Silicon Valley, Seattle, and NYC.\n\nSecurity. With over $45 million worth of tokens staked with us, our clients trust us to provide reliable and secure solutions for their web3 and blockchain needs.\n\nWe provide a comprehensive suite of services designed to empower every participant in the blockchain space, focusing on three key areas:\n\nFor blockchain protocol builders, we ensure robust security and decentralization by operating nodes and making long-term ecosystem contributions.\n\nFor DApp developers, we build user-friendly APIs to streamline development and unleash the full potential of decentralized applications.\n\nFor token holders, we offer a reliable staking service to maximize rewards and optimize asset management.\n\nWhat is BlockEden.xyz building on Stellar and what does this mean for developers?\n\nBlockEden.xyz is leveraging the Stellar network to offer commercial Soroban RPC and indexed data to help DApp developers to speed up development with a GraphQL API and analytics. This comprehensive expansion into Stellar's infrastructure is set to present developers with more resources and tools, potentially facilitating easier adoption and more robust application development within the Stellar blockchain ecosystem.\n\nNode operator and Indexer for Soroban RPC and Indexer GraphQL\n\nAs a node operator, BlockEden.xyz runs Soroban RPC, and then provides commercial standard RPCs to developers. Unlike the official endpoints, our RPCs are equipped with rate limits and API meters tailored to developers’ tiered needs. BlockEden.xyz also builds an indexer for contract data, tokens, events, etc. in the Soroban smart contract platform. The index data will serve as GraphQL similar to our Aptos Indexer. The exact content of the index data is to be decided, though we will expose at least the developer-facing data models of the Horizon service.\n\nBusiness Intelligence / Analytics\n\nOnce we get the indexed data above, we will serve business intelligence, similar to our Aptos one, where customers could build dashboards, inspect data tables, and write SQLs.",
             "stellar.teamMembers": "Tian Pan",
@@ -349,7 +328,21 @@
               "linkedIn": "https://www.linkedin.com/in/dora-noda-35952622a/",
               "twitter": "https://twitter.com/BlockEdenHQ",
               "discord": "https://discord.gg/4Yfvs2HWey"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 139999.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 199060.14,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-08-04T00:00:00Z"
           }
         },
         {
@@ -369,23 +362,8 @@
             }
           ],
           "fundsApprovedInUSD": 137500,
-          "title": "OtterSec",
           "description": "OtterSec is a blockchain security company focused on identifying and patching critical exploits before our clients go to market.",
-          "fundsPaid": [
-            {
-              "amount": 137500.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 170902.98,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-07-27T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.productsAndServices": "OtterSec plans to develop formal verification tooling for the Stellar ecosystem to help identify and mitigate critical exploits. Formal verification tooling enables developers to easily specify critical contract invariants, providing stronger guarantees and more confidence in development.",
             "stellar.teamMembers": "Robert Chen, Christian Cuffari",
@@ -397,7 +375,21 @@
               "linkedIn": "https://www.linkedin.com/company/91739484/admin/feed/posts/",
               "twitter": "https://x.com/osec_io",
               "discord": "https://discord.gg/QNE5b7Pgrs"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 137500.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 170902.98,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-07-27T00:00:00Z"
           }
         },
         {
@@ -417,23 +409,8 @@
             }
           ],
           "fundsApprovedInUSD": 149458,
-          "title": "Nebula and Quasar",
           "description": "Nebula a Soroban contract library, governance, modules and ready to use contracts. Quasar a Soroban indexer.",
-          "fundsPaid": [
-            {
-              "amount": 149458.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 1235664.59,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-09-06T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.productsAndServices": "Why? Because by providing pre-built templates and complex contracts that developers can use with 0 setup we supercharge the growth of the community and the Soroban ecosystem. We have been watching closely since 2014 and even though Stellar is a solid foundation as it is with its scalability, interoperability and speed, Soroban will unlock so much more potential with Rust based smart contracts. We want to help build it. The idea is to create a library for Soroban smart contracts similar to OpenZeppelin. In contrast to OpenZeppelin it will not have ERC-20 or Proxy contracts because those are available in the core Soroban offering but it will have additional mathematical, cryptographic components and on top of that it will have a showcase of complex systems like Stake controlled governance or yield bearing instruments. Goals: Attract rust developers from existing web3 ecosystems and potentially web 2. Build a simple wizard for users to build their contract thru a pick and choose interface similar to OpenZeppelin contracts. Make it easy for all developers to onboard and build with Soroban. Build a complex stake controlled governance dao contract to showcase more advanced uses. This proposal also includes the beginning of another tool, due to lack of writing space in the form, Quasar details are attached at the bottom of the pitch deck: Quasar - A Soroban indexer - GraphQL APIs, Indexing and analytics of the Soroban ecosystem. We believe that Nebula will be a valuable tool for the Stellar community, making it easier to get started and build commercial products on top of Soroban and thus strengthening its long term ecosystem. Attached to this submission is a pitch deck, please use that one to get a comprehensive idea of the vision. Here is a list of possible smart contracts/tools to add to the SDK they have noted down on our internal update yesterday on Friday: Auction, Coin Flip, Lottery, MarketPlace, FundMe Contract, Raffle, Math (SafeMath + SafeDecimalMath), Pause Contract - Allow pausing some transactional process, Payment splitter, Reverse billing splitting, Voting facilities. Other projects in this space we could collaborate with: Tenzing Catalog - An excellent idea to showcase contracts. Different from Tenzing we will allow users to customize contracts through a no-code UI. Sorosorcerer - Another excellent tool. Different from Sorosorcerer we are not only building the UI but also adding new math/crypto modules and new complex contracts like stake controlled governance and yield bearing instruments.",
             "stellar.teamMembers": "Daren Tuzi, Eloy Lopez Penamaria",
@@ -443,7 +420,21 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/eiger_co"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 149458.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 1235664.59,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-09-06T00:00:00Z"
           }
         },
         {
@@ -463,23 +454,8 @@
             }
           ],
           "fundsApprovedInUSD": 103125,
-          "title": "Chaincerts",
           "description": "Enabling secure and accessible digital identities for all through a decentralized credential management solution",
-          "fundsPaid": [
-            {
-              "amount": 103125.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 851709.6,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-11-20T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Infrastructure & Services",
           "extensions": {
             "stellar.productsAndServices": "Chaincerts is a cutting-edge application that revolutionizes traditional credentials management. By harnessing the power of blockchain technology and smart contracts, it securely stores, issues, and verifies credentials, ensuring their non-transferability and immutability, as well as eliminating the risk of tampering. In its initial development phase, Chaincerts was conceptualized to use Soulbound Tokens (SBTs) on the Stellar network. The tokens were intended to serve as identity tokens, showcasing an individual's characteristics, features, traits, and achievements. With the development of W3C specifications for managing decentralized identities, along with the demand for more robust identity solutions, our team realized the limitations of SBTs and embarked on a journey of transformation and innovation. This strategic transformation led Chaincerts to evolve into an advanced Self-Sovereign Identity application. By seamlessly aligning with the W3C's Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs) standards, users gain full control, portability, and interoperability over their identity data, boosting security and privacy. This shift also prioritizes smooth integration with systems that adhere to the same specifications. Despite undergoing a fundamental transition, the problem Chaincerts set out to solve remains the same — to provide a modern solution to the outdated and unreliable certification system. Chaincerts operates as a Self-Sovereign Identity (SSI) application, leveraging Stellar’s blockchain infrastructure and Soroban smart contracts to securely manage digital identities and credentials. By introducing a decentralized identity management solution, Chaincerts gives users full control over their identity data, enhancing security and privacy. Soroban smart contracts are responsible for generating and managing Decentralized Identifiers (DIDs) and issuing Verifiable Credentials (VCs) – two integral components of Self-Sovereign Identity systems. The DID enables users to control their identity without relying on centralized authorities by providing a unique, decentralized identifier. On the other hand, VCs are decentralized attestations that verify an individual's claims and achievements and are linked to the user’s DID in the Stellar network. Chaincerts' identity management is therefore tamper-proof, secure, and verifiable. It allows users to share their verified credentials while maintaining control over their data.",
             "stellar.teamMembers": "Miguel Nieto, Juan Hurtado",
@@ -491,7 +467,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://co.linkedin.com/company/kommit-co",
               "twitter": "https://twitter.com/kommitco"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 103125.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 851709.6,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-11-20T00:00:00Z"
           }
         },
         {
@@ -511,23 +501,8 @@
             }
           ],
           "fundsApprovedInUSD": 98640,
-          "title": "SubQuery Network",
           "description": "SubQuery is a fast and flexible blockchain data indexer that supports multiple layer-1 chains",
-          "fundsPaid": [
-            {
-              "amount": 98640.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 151448.6,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-07-18T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Infrastructure & Services",
           "extensions": {
             "stellar.productsAndServices": "Almost every blockchain has a need to process and query data, however everyone knows that a core weakness of blockchain data is that the processing and query performance is extremely inefficient. SubQuery is an open source platform that solves that and provides a more performant and feature-rich alternative to The Graph. SubQuery’s mission is to make decentralised data more accessible. SubQuery is your own custom open-source API between blockchain data and your dApps and tools. Our indexer works on Ethereum, Polygon, BNB, Arbitrum, Optimism, Cosmos, Avalanche, Substrate/Polkadot, Near, Flare and Algorand chains, and then provides that data for developers to use for a wide array of projects (wallets, explorers, custom chains, or any other decentralised app). We have three products: An open source SDK, which includes the instructions on how any Indexer should traverse the blockchain, what data to collect, and how it should be shown to users. A Managed Service, which provides enterprise level hosting (99.9% uptime) for SubQuery projects by our team (with a generous free tier). A decentralised SubQuery Network. With the testnet just finished, we are about to launch a first version of the SubQuery Network. The SubQuery Network is our effort to move towards a decentralised and tokenised network in order to ensure no single point of failure and superior performance for SubQuery. It will support Stellar and Soroban from genesis and will encourage as many participants in the process as possible. In our view, the Stellar ecosystem, with the launch of Soroban, is poised for an extreme growth period and it requires tools such as SubQuery in order to thrive.",
             "stellar.teamMembers": "James Bayly, James Bayly , Marta Adamczyk",
@@ -540,7 +515,21 @@
               "linkedIn": "https://www.linkedin.com/company/subquery",
               "twitter": "https://twitter.com/SubQueryNetwork",
               "discord": "https://discord.com/invite/subquery"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 98640.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 151448.6,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-07-18T00:00:00Z"
           }
         },
         {
@@ -560,23 +549,8 @@
             }
           ],
           "fundsApprovedInUSD": 32000,
-          "title": "Stellar Rust SDK",
           "description": "We propose the integration of a Rust SDK into the Stellar ecosystem, as a addition to the currently available SDK's.",
-          "fundsPaid": [
-            {
-              "amount": 32000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 263795.2,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-08-31T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.productsAndServices": "Currently, the Stellar cryptocurrency network offers robust SDKs in several programming languages, including Go, JavaScript, and .NET. However, there is a notable absence of a Rust SDK, which limits the potential for developers seeking the performance, reliability, and security advantages offered by Rust. Recognizing the growing popularity and exceptional features of Rust, we propose the integration of a Rust SDK into the Stellar ecosystem. This addition will not only enhance the platform's capabilities but also enable developers to leverage Rust's unique strengths in building efficient, secure, and scalable applications on the Stellar network.\n\nBaseflow has played a pivotal role in the development of the Beans mobile application and continues to remain actively engaged in its ongoing enhancements. Additionally, we have a proven track record of delivering software solutions to esteemed companies such as Google and Deloitte, both known for their stringent quality standards and expectations. Our experience in meeting and exceeding the high-quality demands of these clients further underscores our ability to deliver exceptional software solutions.\n\nIntegrating a Rust SDK into the Stellar network opens the doors to extensive future development and integration opportunities. Rust development is rapidly growing in popularity, and it is essential for the Stellar network to embrace this trend and provide developers with the necessary tools to fluently integrate with the network. By establishing a Rust tooling ecosystem for Stellar, this project lays a solid foundation for seamless integration with upcoming features, including the Soroban platform, which is also written in Rust. This integration will not only empower developers with advanced tools and libraries but also foster a collaborative environment where the Rust and Stellar communities can collaborate, share insights, and drive the growth of the ecosystem.\n\nBy embracing Rust and its extensive tooling capabilities, we ensure that the Stellar network remains at the forefront of technology and caters to the diverse needs of developers in the rapidly evolving cryptocurrency landscape. Our dedication to enterprise-grade quality ensures that the Rust SDK for Stellar will meet the highest standards of stability, security, and performance. Through rigorous testing, adherence to best practices, and thorough code reviews, we will deliver a robust and reliable SDK. Our focus on quality software is driven by the recognition of the criticality of the financial sector and the need to inspire confidence in developers and users. Together, we will forge a path of excellence, pushing the boundaries of Rust integration in the Stellar network's development ecosystem.",
             "stellar.teamMembers": "Thomas Luijken, Bas Jan Lubbers",
@@ -587,7 +561,21 @@
             },
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/baseflowit"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 32000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 263795.2,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-08-31T00:00:00Z"
           }
         },
         {
@@ -607,23 +595,8 @@
             }
           ],
           "fundsApprovedInUSD": 150004,
-          "title": "Wombat Exchange",
           "description": "The hyper-capital-efficient multi-chain swap for stablecoins & LSDs, and the top stableswap on BNB Chain.",
-          "fundsPaid": [
-            {
-              "amount": 150004.63,
-              "denomination": "USD"
-            },
-            {
-              "amount": 1295896.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-11-27T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Financial Protocols",
           "extensions": {
             "stellar.productsAndServices": "Wombat is the hyper-capital-efficient multi-chain swap for stablecoins and LSDs. We came up with our own proprietary algorithm and single-token staking design. We are the top stableswap on BNB Chain. We have also successfully launched on Arbitrum achieving a total of ~100M TVL within 5 days of Arbitrum launch.\n\nHow we add value to Stellar and Soroban ecosystem: Utilizing the Wombat proprietary and innovative algorithm and design, Wombat adds value to Stellar through: For swap users on Stellar, swap stablecoins and LSDs on Stellar at hyper-efficient exchange rates with minimal slippage, minimal gas fee, and high speed, directly on our website or through aggregators (to be integrated). Liquidity providers can earn sustainable and optimal yields on their Stellar assets via single-asset staking pools (without having to be forced to deposit in pairs) with minimal impermanent loss effect directly on our website or through our yield boosting ecosystem partners. For stablecoin/LSD projects in the Stellar ecosystem (especially for new players), Wombat maximizes capital efficiencies and kick starts their liquidities to fuel growth and adoption through our proprietary algorithm and design which is battle tested even during volatile markets (an example in practice was being to do 8x+ our TVL during USDC depeg incident). New DeFi projects’ liquidity is most important in any sort of DeFi ecosystem for new projects to flourish. Wombat’s algorithm can maximize capital efficiency hence maximizing liquidity. For lending, leverage and yield boosting projects in the Stellar ecosystem, Wombat’s single-asset liquidity position design allows easy building of flexible DeFi products on top of our LPs, adding value to interoperability between Stellar DeFi legos.\n\nMore details on Wombat’s proprietary and innovative algorithm and design: Scalable equilibrium: Innovative coverage-ratio-based stableswap mechanism that removes scalability barriers, which allows the possibility of achieving 100% capital utilization with minimal impermanent loss and no limit as to the number of assets within one single liquidity pool. Slippage minimization: Wombat’s capital efficient algorithm and unique design enables lower slippage compared to our contemporaries. User-Friendly UI/UX: Simple and accessible interface with pure single token pool design. Foundation for DeFi to build upon: A pure single-token pool design enables single-token LP tokens, ideal for borrowing and lending protocols and trading platforms to build on top of. Audits from Hacken, Zokyo, and Peckshield https://docs.wombat.exchange/docs/resources/security-audits\n\nMetrics: [as of 25 July 2023 at ~8:23pm HKT] BNB Chain: TVL - 22.87M 24H Volume - 1.41M Arbitrum Chain: TVL - 10.41M 24H Volume - 1.91M Wombat average monthly active users - 3,800 Wombat total users: 12,720, through on-chain unique addresses that interacted with Wombat.",
             "stellar.teamMembers": "Jeff, Kate Wong",
@@ -635,7 +608,21 @@
             "stellar.socialMedia": {
               "twitter": "https://x.com/WombatExchange",
               "discord": "https://discord.com/invite/Wombat"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 150004.63,
+                "denomination": "USD"
+              },
+              {
+                "amount": 1295896.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-11-27T00:00:00Z"
           }
         }
       ]

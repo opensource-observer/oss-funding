@@ -24,22 +24,23 @@
             }
           ],
           "fundsApprovedInUSD": 22284,
-          "title": "City States: Medieval",
-          "fundsPaid": [
-            {
-              "amount": 22284.91,
-              "denomination": "USD"
-            },
-            {
-              "amount": 338463.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2019-10-29T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v1.0 Award",
-          "category": "Applications"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v1.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 22284.91,
+                "denomination": "USD"
+              },
+              {
+                "amount": 338463.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2019-10-29T00:00:00Z"
+          }
         },
         {
           "type": "GrantApplication",
@@ -58,22 +59,23 @@
             }
           ],
           "fundsApprovedInUSD": 32409,
-          "title": "Centaurus - second layer payment network, exchange, and scaling solution",
-          "fundsPaid": [
-            {
-              "amount": 32409.68,
-              "denomination": "USD"
-            },
-            {
-              "amount": 492306.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2019-10-29T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v1.0 Award",
-          "category": "Infrastructure & Services"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v1.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 32409.68,
+                "denomination": "USD"
+              },
+              {
+                "amount": 492306.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2019-10-29T00:00:00Z"
+          }
         },
         {
           "type": "GrantApplication",
@@ -92,23 +94,8 @@
             }
           ],
           "fundsApprovedInUSD": 35462,
-          "title": "LOBSTR",
           "description": "Simple and secure Stellar wallet available on the web, Android and iOS.",
-          "fundsPaid": [
-            {
-              "amount": 35462.64,
-              "denomination": "USD"
-            },
-            {
-              "amount": 538458.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2019-10-29T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v1.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.teamMembers": "Dima, Gleb Pitsevich",
             "stellar.urls": {
@@ -117,7 +104,21 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/ultrastellar"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v1.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 35462.64,
+                "denomination": "USD"
+              },
+              {
+                "amount": 538458.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2019-10-29T00:00:00Z"
           }
         },
         {
@@ -137,22 +138,23 @@
             }
           ],
           "fundsApprovedInUSD": 28114,
-          "title": "GetBlockCard.com - Use XLM where VISA is accepted (50 million merchants)",
-          "fundsPaid": [
-            {
-              "amount": 28114.73,
-              "denomination": "USD"
-            },
-            {
-              "amount": 426924.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2019-10-29T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v1.0 Award",
-          "category": "Applications"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v1.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 28114.73,
+                "denomination": "USD"
+              },
+              {
+                "amount": 426924.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2019-10-29T00:00:00Z"
+          }
         },
         {
           "type": "GrantApplication",
@@ -171,22 +173,23 @@
             }
           ],
           "fundsApprovedInUSD": 14470,
-          "title": "Astrocore — rusted Stellar-core",
-          "fundsPaid": [
-            {
-              "amount": 14470.61,
-              "denomination": "USD"
-            },
-            {
-              "amount": 219231.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2019-10-29T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v1.0 Award",
-          "category": "Infrastructure & Services"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v1.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 14470.61,
+                "denomination": "USD"
+              },
+              {
+                "amount": 219231.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2019-10-29T00:00:00Z"
+          }
         },
         {
           "type": "GrantApplication",
@@ -205,22 +208,23 @@
             }
           ],
           "fundsApprovedInUSD": 19747,
-          "title": "Stellarport - Stellar Wallet, DEX & Anchor",
-          "fundsPaid": [
-            {
-              "amount": 19747.51,
-              "denomination": "USD"
-            },
-            {
-              "amount": 300000.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2019-10-29T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v1.0 Award",
-          "category": "Applications"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v1.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 19747.51,
+                "denomination": "USD"
+              },
+              {
+                "amount": 300000.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2019-10-29T00:00:00Z"
+          }
         },
         {
           "type": "GrantApplication",
@@ -239,24 +243,23 @@
             }
           ],
           "fundsApprovedInUSD": 17469,
-          "title": "StellarPay - Shopify Merchants Can Now Accept Stellar Payments",
-          "fundsPaid": [
-            {
-              "amount": 17469.04,
-              "denomination": "USD"
-            },
-            {
-              "amount": 265386.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2019-10-29T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v1.0 Award",
-          "category": "Applications",
           "extensions": {
-            "stellar.teamMembers": "StellarPay"
+            "stellar.teamMembers": "StellarPay",
+            "org.stellar.communityfund.awardType": "Legacy v1.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 17469.04,
+                "denomination": "USD"
+              },
+              {
+                "amount": 265386.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2019-10-29T00:00:00Z"
           }
         },
         {
@@ -276,22 +279,23 @@
             }
           ],
           "fundsApprovedInUSD": 27608,
-          "title": "StellarAuth • The best way to integrate Stellar into your apps",
-          "fundsPaid": [
-            {
-              "amount": 27608.18,
-              "denomination": "USD"
-            },
-            {
-              "amount": 419232.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2019-10-29T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v1.0 Award",
-          "category": "Developer Tooling"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v1.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 27608.18,
+                "denomination": "USD"
+              },
+              {
+                "amount": 419232.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2019-10-29T00:00:00Z"
+          }
         }
       ]
     }

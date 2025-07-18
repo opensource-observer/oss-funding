@@ -71,7 +71,7 @@ def display_help():
         <p><strong>Repository:</strong> <a href="https://github.com/opensource-observer/oss-funding/tree/main/daoip-5/json" target="_blank">DAOIP-5 JSON Repository</a></p>
         
         <div class="warning">
-            <strong>⚠️ Note:</strong> The Allo Protocol endpoint has been deprecated. Use the static JSON files for grant data access.
+            <strong>⚠️ Note:</strong> The Allo Protocol endpoint has been deprecated.
         </div>
 
         <h2>API Overview</h2>

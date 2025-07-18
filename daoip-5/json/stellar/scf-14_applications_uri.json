@@ -42,23 +42,8 @@
             }
           ],
           "fundsApprovedInUSD": 50000,
-          "title": "Meru",
           "description": "USD Banking for Latin Americans over Stellar Blockchain",
-          "fundsPaid": [
-            {
-              "amount": 50000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 525574.49,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-28T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.productsAndServices": "We already have more than 10k registered users and more than 750K in transaction volume: Here is evidence of our transactions through these wallets that are owned by us and we used them to perform our internal operations: \n* https://stellar.expert/explorer/public/account/GDFVGIS3JBHN4HGKRIHE4XMS56DEOFEH6CXWCDNEALVDFVTO2S6OWQL5 \n* https://stellar.expert/explorer/public/account/GD2F5BNH5HSJSXXBBKM24UBMLPJEHAMBNXHVRRHSMA35XCKEMXVFPWZT \n\nThe main features we already have is USD Savings: In Latin America, it can be difficult to open a USD bank account, and the banks that do offer this service often require a high initial deposit. Meru solves this problem by allowing customers to deposit local currency, which is then used to mint USDc (USD coin) by Circle over the Stellar blockchain. Each user has their own Stellar wallet, so the USDc is deposited directly into their wallet. \n\nLow-cost International Money Transfers: Sending money between countries in Latin America can be difficult and expensive. Meru solves this problem by allowing customers to send money to more than 13 countries in the region. The app uses Stellar to send the payment from the user's wallet to Meru's treasury wallet. Meru then sends the money to the Stellar wallet of a partner company that handles liquidity in most of Latin America. This ensures fast and low-cost money transfers. \n\nEarn Up to 7% APY: Meru allows customers to earn up to 7% APY (annual percentage yield) on their investments. The app uses the yUSDC asset from UltraStellar to offer this feature. Customers can invest their money and earn interest without worrying about scams. \n\nPay Utility Bills: Meru allows customers to pay their utility bills using their USDc balance. The app partners with a third-party company to exchange the USDc for local currency using the Stellar DEX platform through a local market maker. \n\nWe are building a Payroll solution for companies to pay their employees in Latam using Meru platform and wallet using Stellar Payments. The idea is to implement it using Soroban when it is in Mainnet.",
             "stellar.teamMembers": "Amilcar Erazo",
@@ -70,7 +55,21 @@
               "linkedIn": "https://www.linkedin.com/company/88967421/admin/feed/posts/",
               "twitter": "@getmeru",
               "discord": "https://discord.gg/AJwxuhGY"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 50000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 525574.49,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-28T00:00:00Z"
           }
         },
         {
@@ -90,23 +89,8 @@
             }
           ],
           "fundsApprovedInUSD": 110025,
-          "title": "CashAbroad",
           "description": "CashAbroad is the 1st smart platform to leverage the liquidity of B2B payments and family remittances to fund Public Goods.",
-          "fundsPaid": [
-            {
-              "amount": 110025.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 1142081.82,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-05-01T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.productsAndServices": "CashAbroad is a smart network that funds public goods using small fees from family remittances and B2B payments. These fees are used to fund community projects like schools, hospitals, and community centers in the remittance senders' towns. We believe this approach will make a significant impact on these communities. To achieve this, we are taking the following steps: We are using Soroban to enable a smart contract that will distribute a percentage fee to the public good, recipient, and CashAbroad wallets. This smart contract will distribute the money via on-chain transactions to Stellar wallets. We are integrating Circle to enable B2B ramp on and ramp off methods such as bank card transactions and wires. This will provide higher amounts for businesses with cross-border payments and enable KYC for businesses. We aim to enable these features for the countries of Canada, the US, and Mexico to start with. We are integrating Stellar Anchors to enable instant family remittance payments with a convenient fee. With this integration, we aim to leverage payments for Argentina and Peru to start. We are continuing the design and development of the B2B functionalities of automatic payments, dispersion (mass payments), roles and approvals, invoice/request, accounting imports, accounts and sub-accounts, approval triggers, WhatsApp shares, and status.",
             "stellar.teamMembers": "Braulio Alejandro Ramírez Montiel, Ruth Gomez Hidalgo",
@@ -117,7 +101,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/cashabroad/",
               "twitter": "https://twitter.com/CashAbroadApp"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 110025.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 1142081.82,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-05-01T00:00:00Z"
           }
         },
         {
@@ -137,23 +135,8 @@
             }
           ],
           "fundsApprovedInUSD": 35000,
-          "title": "KometPay",
           "description": "The app that helps Latino migrants to better deliver financial support to their families back home by sending money and vouchers.",
-          "fundsPaid": [
-            {
-              "amount": 35000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 366690.56,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-28T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.productsAndServices": "KometPay is a mobile app that helps Latino migrants support their families back home. Users can either choose to send USDC or redeemable vouchers. Recipients who receive USDC can either store them in their Komet wallet or transfer them to their bank accounts in their local currency. Those who receive a redeemable voucher can spend its value in the merchant. Our product addresses pain points for migrants in the US and recipients in Colombia.\n\nIn the US: Red tape: With KometPay, users can send money in three simple steps by simply selecting the recipient’s phone number. No need to include unnecessary banking details. Exchange rates: With KometPay, senders don't need to worry about the exchange rate: they can send dollars and the recipient will receive dollars. Allocation of resources: Another concern for senders is how the money is spent. Through KometPay, they will be able to select a merchant (pharmacy, supermarket) and send a voucher that will only be redeemable in the selected merchant.\n\nIn Colombia: Dollar account: Our USDC wallet and voucher credit protects Colombians from the volatility of the Colombian peso. They can choose to spend all or a partial amount. Access: Colombia remains a cash-based economy with a largely unbanked population. Our partnership network ensures that everyone, regardless of access to banking tools, can withdraw their Komet balance.\n\nKometPay leverages Stellar at every step of our flow of funds: Through our integration with MoonPay, we ensure that the sending user can onramp USDC on Stellar. The USDC will be sent to a Komet wallet issued on the Stellar network, which will allow our Colombian users to store USDC or a USDC-backed voucher. When the Colombian user wants to off-ramp, either transferring to their local bank account, spending a voucher at a merchant or cashing out at a local partner, we will leverage Stellar's anchor network that will connect us to the dex and the local banking rails.",
             "stellar.teamMembers": "Paolo Astone, Nicolas Zuleta Plinedo",
@@ -164,7 +147,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/kometpay/?viewAsMember=true",
               "discord": "kometpay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 35000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 366690.56,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-28T00:00:00Z"
           }
         },
         {
@@ -184,30 +181,29 @@
             }
           ],
           "fundsApprovedInUSD": 36000,
-          "title": "Soroban Learn",
           "description": "Soroban Learn is an interactive learning platform using a in-browser coding experience",
-          "fundsPaid": [
-            {
-              "amount": 36000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 373687.29,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-05-01T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Education & Community",
           "extensions": {
             "stellar.productsAndServices": "My product eliminates the need for local setup trouble for new users to get their \"feet wet\". I believe this will lower the barrier of entry for new developers who are discovering Stellar/Soroban and Web3 as a whole. While this could eventually turn into a full-fledged tool for building Soroban contracts in the browser, my initial intent is to build basic \"hello world\" style exercises to show what Soroban is all about.",
             "stellar.teamMembers": "Jonathon Hammond",
             "stellar.urls": {
               "website": "https://github.com/jhammond2012",
               "videoURL": "https://youtu.be/8haLI5V19MQ"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 36000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 373687.29,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Education & Community",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-05-01T00:00:00Z"
           }
         },
         {
@@ -227,23 +223,8 @@
             }
           ],
           "fundsApprovedInUSD": 15000,
-          "title": "Autify Network",
           "description": "Developing a revolutionary cross-border payment infrastructures & supply-chain management through the power of blockchain and AI",
-          "fundsPaid": [
-            {
-              "amount": 15000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 157861.5,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-05-01T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (10%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.productsAndServices": "Autify Network is developing revolutionary digital payment infrastructures (B2B cross-border payment, Setting up an Anchor, Launching an INRc stablecoin, P2P lending) and supply-chain platforms (Supply-chain management, supply-chain traceability, sustainable track and trace) through the power of blockchain and AI. We are addressing an extremely complex problem that affects companies worldwide, resulting in losses exceeding $5 trillion due to inefficiencies and a lack of transparency. We aim to tackle these issues by developing innovative solutions that improve efficiency, reduce losses, and enhance transparency for businesses and their customers globally.\n\nOur primary objective is to streamline B2B cross-border payments for businesses globally, making them more secure, cost-effective, and transparent. We plan to achieve this by integrating Stellar SEP-6, SEP-24 and SEP-31 APIs, as well as establishing Anchor services for fiat on/off ramps. Furthermore, we aim to develop a stablecoin (INRc) on the Stellar Network to further enhance the efficiency and stability of our payment platform. India is a significant player in global trade, with its trade volume steadily increasing over the years. According to the World Trade Organization, India's merchandise exports stood at US$317 billion in 2020.\n\nWe are building an end-to-end supply chain management platform for businesses to manage the flow of goods and services from the point of origin to the point of consumption. Our platform will provide real-time visibility into the movement of goods and enable businesses to quickly adapt to changes in demand or supply. They can also help reduce costs and improve efficiency by automating routine tasks and streamlining workflows. Also, we are developing a few other products like supply chain traceability, sustainability track and trace, vendor aggregator platform, API platform, P2P lending etc.",
             "stellar.teamMembers": "Nabarun Chakraborty, Nabarun Chakraborty",
@@ -254,7 +235,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/autify-network/",
               "twitter": "https://twitter.com/autifynetwork"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 15000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 157861.5,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (10%)",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-05-01T00:00:00Z"
           }
         },
         {
@@ -274,23 +269,8 @@
             }
           ],
           "fundsApprovedInUSD": 10000,
-          "title": "Soroban Smart Option Contract",
           "description": "Offers trade submission, collateral deposits, and settlement for an option with a Soroban smart contract.",
-          "fundsPaid": [
-            {
-              "amount": 10000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 104768.72,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-28T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.productsAndServices": "We are developing three components of our Soroban Option contract. A smart contract that receives deposits for option trades. This is analogous to an option purchaser depositing the premium and the seller depositing the maximum loss. An oracle smart contract that is fed with pricing information. Other contracts can query this contract as a source of truth. A service application that gathers pricing information from trustful sources and publishes them to the oracle smart contract. These contracts will be released as open-source projects on the GitHub platform. We plan on deploying them on FUTURENET during development. We hope these provide building blocks and examples for more, more sophisticated contracts.",
             "stellar.teamMembers": "Louis Morgan, Louis Morgan",
@@ -302,7 +282,21 @@
             "stellar.socialMedia": {
               "twitter": "https://github.com/blocktimefinancial/option",
               "discord": "https://discord.com/channels/1039603107396603965/1039603108034129922"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 10000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 104768.72,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-28T00:00:00Z"
           }
         },
         {
@@ -340,23 +334,8 @@
             }
           ],
           "fundsApprovedInUSD": 29600,
-          "title": "AssemblyScript Soroban SDK",
           "description": "The AssemblyScript Soroban SDK is an open source SDK that supports writing contracts for Soroban by using AssemblyScript.",
-          "fundsPaid": [
-            {
-              "amount": 29600.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 307253.99,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-05-01T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.productsAndServices": "I would like to extend the AssemblyScript Soroban SDK with more valuable features, tests, docs, and examples.",
             "stellar.teamMembers": "Christian Rogobete",
@@ -364,7 +343,21 @@
               "website": "https://github.com/Soneso/as-soroban-sdk",
               "codeRepository": "https://github.com/Soneso",
               "videoURL": "https://youtu.be/tApqCsBOCoQ"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 29600.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 307253.99,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-05-01T00:00:00Z"
           }
         },
         {
@@ -384,23 +377,8 @@
             }
           ],
           "fundsApprovedInUSD": 75000,
-          "title": "Smart Deploy",
           "description": "Deploy, manage and verify smart contracts easily on Soroban with our Contract Management DAO.",
-          "fundsPaid": [
-            {
-              "amount": 75000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 785765.49,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2023-04-28T00:00:00Z",
-          "latestTranche": "Legacy Award v4.0 (90%)",
-          "awardType": "Legacy v4.0 Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.productsAndServices": "We propose Smart Deploy, a platform to simplify the process of deploying and managing smart contracts on Soroban. Currently, Soroban lacks a standardized way of publishing, verifying, and upgrading contracts, including tracking and managing contract metadata. Smart Deploy solves these issues by creating a DAO for publishing contracts and offers a standardized interface for deploying, invoking, and upgrading them. Developers can publish contracts with Smart Deploy platform allowing its metadata to be tracked such as version and where to find the source code, e.g. Github repo. After publication, contracts can be deployed and claim a unique ID, which makes them easily accessible and human-readable. The platform also provides a standardized interface for invoking deployed contracts, making it easy to integrate them with other applications and services. Finally, Smart Deploy uses semantic versioning making it safe and easy to upgrade to the latest version using the DAO contract, ensuring that each decision is made as a team. Overall, Smart Deploy is a much-needed solution for developers for publishing, deploying, and managing smart contracts on Soroban. By providing a user-friendly interface, our platform will streamline and standardized the entire contract deployment process. This will allow developers to focus on building great applications instead of worrying about technical details and reinventing the wheel.",
             "stellar.teamMembers": "Enzo Soyer, Willem Neal Wyndham",
@@ -413,7 +391,21 @@
               "linkedIn": "https://www.linkedin.com/company/tenk-studio",
               "twitter": "https://twitter.com/TenkDAO",
               "discord": "https://discord.gg/WXBwmYy6uj"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v4.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 75000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 785765.49,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2023-04-28T00:00:00Z"
           }
         },
         {

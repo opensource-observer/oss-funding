@@ -60,23 +60,8 @@
             }
           ],
           "fundsApprovedInUSD": 38500,
-          "title": "Dropzey",
           "description": "Decentralized Airdrop Hub on Stellar Network.Create, manage, and participate in airdrops, with transparency and efficiency.",
-          "fundsPaid": [
-            {
-              "amount": 38500.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 335132.31,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-01-30T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Activation Award",
-          "category": "Applications",
           "extensions": {
             "stellar.teamMembers": "Syed Zain Haider",
             "stellar.urls": {
@@ -86,7 +71,21 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/i/flow/login?redirect_after_login=%2Fdropzeyofficial"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 38500.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 335132.31,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-01-30T00:00:00Z"
           }
         },
         {
@@ -106,30 +105,29 @@
             }
           ],
           "fundsApprovedInUSD": 100000,
-          "title": "Soroban Explorer II",
           "description": "Enable users to verify smart contracts by compiling the underlying code, helping avoid malicious contracts &amp; actors.",
-          "fundsPaid": [
-            {
-              "amount": 100000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 905702.8,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-13T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Community Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.teamMembers": "Ignacio Garcia Leon, Michal Fiuk, Xun Wu",
             "stellar.urls": {
               "website": "https://www.sorobanexp.com/",
               "codeRepository": "https://github.com/sorobanexp/explorer",
               "videoURL": "https://drive.google.com/file/d/1L0v8skd_7eBzKVXCVD1IysGw-VxkGkcd/view?usp=sharing"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 100000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 905702.8,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-13T00:00:00Z"
           }
         },
         {
@@ -167,30 +165,29 @@
             }
           ],
           "fundsApprovedInUSD": 45000,
-          "title": "Gladius: play, learn, earn",
           "description": "Gladius gamifies education, connecting parents, sports clubs, and students with NFT prizes and rewards",
-          "fundsPaid": [
-            {
-              "amount": 45000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 391713.09,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-01-30T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Activation Award",
-          "category": "Applications",
           "extensions": {
             "stellar.teamMembers": "Alexey Sirotkin, dcromp",
             "stellar.urls": {
               "website": "https://gladiusclub.com/",
               "codeRepository": "https://github.com/orgs/GladiusClub/repositories",
               "videoURL": "https://www.loom.com/share/768990a8fadb45e497967b69232c5332"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 45000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 391713.09,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-01-30T00:00:00Z"
           }
         },
         {
@@ -228,23 +225,8 @@
             }
           ],
           "fundsApprovedInUSD": 94000,
-          "title": "Aquarius AMM Launch on Soroban",
           "description": "Aquarius is looking to finalise the integration of smart contracts and upgrade user interfaces for AMMs launch on Soroban.",
-          "fundsPaid": [
-            {
-              "amount": 94000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 876595.8,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-07T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Community Award",
-          "category": "Financial Protocols",
           "extensions": {
             "stellar.teamMembers": "Jason Cudmore",
             "stellar.urls": {
@@ -255,7 +237,21 @@
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/aqua_token",
               "discord": "https://discord.gg/sgzFscHp4C"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 94000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 876595.8,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-07T00:00:00Z"
           }
         },
         {
@@ -275,23 +271,8 @@
             }
           ],
           "fundsApprovedInUSD": 34500,
-          "title": "Nobak: Custodial Wallet Signer",
           "description": "Dive into Soroban's universe on Stellar, where the digital realm becomes your playground",
-          "fundsPaid": [
-            {
-              "amount": 34500.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 309913.45,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-01-24T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Activation Award",
-          "category": "Applications",
           "extensions": {
             "stellar.teamMembers": "Julian Clatro, Jeronimo Lanza",
             "stellar.urls": {
@@ -301,7 +282,21 @@
             },
             "stellar.socialMedia": {
               "discord": "https://discord.com/invite/GR5cB3y2"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 34500.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 309913.45,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-01-24T00:00:00Z"
           }
         },
         {
@@ -321,29 +316,28 @@
             }
           ],
           "fundsApprovedInUSD": 37500,
-          "title": "Skeeper - a keeper platform",
           "description": "Skeeper provides smart-contract execution and automation tools and infrastructure for the Soroban ecosystem",
-          "fundsPaid": [
-            {
-              "amount": 37500.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 326427.6,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-01-30T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Activation Award",
-          "category": "Infrastructure & Services",
           "extensions": {
             "stellar.teamMembers": "Ilia Darsavelidze, libratus",
             "stellar.urls": {
               "website": "https://skeeper.xyz",
               "videoURL": "https://youtu.be/-6oxt2YZGR8"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 37500.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 326427.6,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-01-30T00:00:00Z"
           }
         },
         {
@@ -363,23 +357,8 @@
             }
           ],
           "fundsApprovedInUSD": 95000,
-          "title": "AnChain.AI Web3SOC completion",
           "description": "Web3SOC is a security operations center (SOC) designed to safeguard digital assets and smart contract-based applications.",
-          "fundsPaid": [
-            {
-              "amount": 95000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 712250.71,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-03-21T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Community Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.teamMembers": "Christian Nunez, Francesco Piccoli",
             "stellar.urls": {
@@ -389,7 +368,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/anchainai/",
               "twitter": "https://twitter.com/AnChainAI"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 95000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 712250.71,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-03-21T00:00:00Z"
           }
         },
         {
@@ -427,30 +420,29 @@
             }
           ],
           "fundsApprovedInUSD": 17000,
-          "title": "Solidity Contracts on Soroban II",
           "description": "This project aims to allow writing Soroban smart contracts in Solidity, by integrating Soroban as a compilation target for Solang.",
-          "fundsPaid": [
-            {
-              "amount": 17000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 158533.3,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-07T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Community Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.teamMembers": "Salaheldin Soliman",
             "stellar.urls": {
               "website": "https://github.com/hyperledger/solang",
               "codeRepository": "https://github.com/hyperledger/solang",
               "videoURL": "https://youtu.be/QUwnRkOhRok"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 17000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 158533.3,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-07T00:00:00Z"
           }
         },
         {
@@ -470,30 +462,29 @@
             }
           ],
           "fundsApprovedInUSD": 100000,
-          "title": "Allbridge Core II",
           "description": "Allbridge Core enables users to seamlessly access the Stellar ecosystem through native stablecoin swaps",
-          "fundsPaid": [
-            {
-              "amount": 100000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 932548.7,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-07T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Community Award",
-          "category": "Financial Protocols",
           "extensions": {
             "stellar.teamMembers": "Pavlo Velykyi, Andriy Velykyi",
             "stellar.urls": {
               "website": "https://allbridge.io/",
               "codeRepository": "https://github.com/allbridge-io",
               "videoURL": "https://youtu.be/OC5s990JhL8"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 100000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 932548.7,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-07T00:00:00Z"
           }
         },
         {
@@ -513,30 +504,29 @@
             }
           ],
           "fundsApprovedInUSD": 100000,
-          "title": "Constellation Protocol",
           "description": "Constellation Protocol gives anyone the ability to create and manage tokenized index funds on Soroban.",
-          "fundsPaid": [
-            {
-              "amount": 100000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 861015.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-15T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Community Award",
-          "category": "Infrastructure & Services",
           "extensions": {
             "stellar.teamMembers": "Edward Kim, Ignacio Garcia Leon",
             "stellar.urls": {
               "website": "https://github.com/constellation-protocol/constellation-protocol",
               "codeRepository": "https://github.com/constellation-protocol/constellation-protocol",
               "videoURL": "https://www.loom.com/share/9f55cbc3eace4d24b889dba06835a5d2?sid=9b1d0539-171e-4c64-9c1f-5c68b083e28c"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 100000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 861015.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-15T00:00:00Z"
           }
         },
         {
@@ -556,23 +546,8 @@
             }
           ],
           "fundsApprovedInUSD": 100000,
-          "title": "Scout - BugFighter for Soroban",
           "description": "We will take Scout to the next step, to further aid developers and auditors in enhancing Soroban smart contracts security.",
-          "fundsPaid": [
-            {
-              "amount": 100000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 881593.2,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-14T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Community Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.teamMembers": "Valeria Caracciolo",
             "stellar.urls": {
@@ -583,7 +558,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://ar.linkedin.com/company/coinfabrik",
               "twitter": "https://twitter.com/coinfabrik"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 100000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 881593.2,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-14T00:00:00Z"
           }
         },
         {
@@ -603,23 +592,8 @@
             }
           ],
           "fundsApprovedInUSD": 95000,
-          "title": "EasyA - #60DaysOfSoroban",
           "description": "EasyA builds on the huge success of its #SummerOfSoroban to educate a further 2,000 developers on Soroban in the run-up to mainnet",
-          "fundsPaid": [
-            {
-              "amount": 95000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 818119.2,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-26T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Community Award",
-          "category": "Education & Community",
           "extensions": {
             "stellar.teamMembers": "Phil Kwok, Dom Kwok",
             "stellar.urls": {
@@ -629,7 +603,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/30108824/",
               "twitter": "https://twitter.com/EasyA_App"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 95000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 818119.2,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Education & Community",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-26T00:00:00Z"
           }
         },
         {
@@ -649,30 +637,29 @@
             }
           ],
           "fundsApprovedInUSD": 99825,
-          "title": "Formal VerSo - Phase 1",
           "description": "A semi-automated tool for Formal Verification of Soroban contracts using the Software Analysis Workbench.",
-          "fundsPaid": [
-            {
-              "amount": 99825.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 920801.4,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-05T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Community Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.teamMembers": "Vanessa Aguilar",
             "stellar.urls": {
               "website": "https://github.com/GaloisInc/formal-verso",
               "codeRepository": "https://github.com/GaloisInc/formal-verso",
               "videoURL": "https://www.youtube.com/watch?v=AMzp4cGveXc"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 99825.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 920801.4,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-05T00:00:00Z"
           }
         },
         {
@@ -692,23 +679,8 @@
             }
           ],
           "fundsApprovedInUSD": 50000,
-          "title": "Rise In - Developer Growth",
           "description": "Unlocking developer growth globally with online courses on Risein.com &amp; IRL events (incl. community meet-ups and hackathons).",
-          "fundsPaid": [
-            {
-              "amount": 50000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 435236.76,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-01-30T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Activation Award",
-          "category": "Education & Community",
           "extensions": {
             "stellar.teamMembers": "Ankit Raj, Kaan Kaçar, Tim Hodgson",
             "stellar.urls": {
@@ -719,7 +691,21 @@
               "linkedIn": "https://www.linkedin.com/school/risein/",
               "twitter": "https://x.com/riseinweb3",
               "discord": "https://discord.com/invite/RQcmHrTJGc"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 50000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 435236.76,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Education & Community",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-01-30T00:00:00Z"
           }
         },
         {
@@ -739,29 +725,28 @@
             }
           ],
           "fundsApprovedInUSD": 48900,
-          "title": "Eascrow",
           "description": "Eascrow utilizes Soroban for secure, cost-efficient web3 escrow, ensuring swift, fraud-free payments for goods and freelancers.",
-          "fundsPaid": [
-            {
-              "amount": 48900.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 425661.55,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-01-30T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Activation Award",
-          "category": "Financial Protocols",
           "extensions": {
             "stellar.teamMembers": "Antoine Lieber, Antoine Lieber",
             "stellar.urls": {
               "website": "https://eascrow.webflow.io/",
               "videoURL": "https://youtu.be/br3yTDLNOX0"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 48900.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 425661.55,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-01-30T00:00:00Z"
           }
         },
         {
@@ -781,30 +766,29 @@
             }
           ],
           "fundsApprovedInUSD": 94000,
-          "title": "SoroSplits II",
           "description": "An open-source smart contract that enables the Stellar community to split on-chain payments in a trustless manner.",
-          "fundsPaid": [
-            {
-              "amount": 94000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 851360.6,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-13T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Community Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.teamMembers": "Arda Nakisci, Ignacio Garcia Leon, Michal Fiuk",
             "stellar.urls": {
               "website": "https://www.sorosplits.xyz/",
               "codeRepository": "https://github.com/findolor/sorosplits-contracts",
               "videoURL": "https://drive.google.com/file/d/1-_O_PoJ3UqjfhqTy3iv_tTNEGeovZafB/view?usp=sharing"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 94000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 851360.6,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-13T00:00:00Z"
           }
         },
         {
@@ -824,25 +808,24 @@
             }
           ],
           "fundsApprovedInUSD": 45000,
-          "title": "Tauvlo",
           "description": "Tauvlo is a tokenized real estate investment marketplace that makes investing in real estate accessible for everyone.",
-          "fundsPaid": [
-            {
-              "amount": 45000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 419646.9,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-07T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Activation Award",
-          "category": "Applications",
           "extensions": {
-            "stellar.teamMembers": "TokenWay, Marek Hauzr, Michael Levi, Guillermo Alda"
+            "stellar.teamMembers": "TokenWay, Marek Hauzr, Michael Levi, Guillermo Alda",
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 45000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 419646.9,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-07T00:00:00Z"
           }
         },
         {
@@ -862,29 +845,28 @@
             }
           ],
           "fundsApprovedInUSD": 43000,
-          "title": "Styx: A Soroban-Cosmos Bridge",
           "description": "A mint/burn bridge connecting Soroban to Cosmos and the larger Blockchain ecosystem.",
-          "fundsPaid": [
-            {
-              "amount": 43000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 396638.7,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-05T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Activation Award",
-          "category": "Developer Tooling",
           "extensions": {
             "stellar.teamMembers": "Jaylem Brar, Kaan Ulupinar",
             "stellar.urls": {
               "website": "https://www.figma.com/file/MCNoYBwA8wSAx0Qu4lIB1W/Styx-Design?type=design&node-id=0%3A1&mode=design&t=eQKAcKpzSPhTbLLR-1",
               "videoURL": "https://youtu.be/2i6xIBd5aiI"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 43000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 396638.7,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Developer Tooling",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-05T00:00:00Z"
           }
         },
         {
@@ -904,29 +886,28 @@
             }
           ],
           "fundsApprovedInUSD": 50000,
-          "title": "Startup Camp 2.0",
           "description": "Relaunching the Stellar Startup Camp to make it self-serve and replicable globally.",
-          "fundsPaid": [
-            {
-              "amount": 50000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 461207.8,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2024-02-05T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v5.0 Activation Award",
-          "category": "Education & Community",
           "extensions": {
             "stellar.teamMembers": "Fabricio Leonardo Sodano Pascazi",
             "stellar.urls": {
               "website": "https://www.figma.com/file/oUN8gcL7860l3th8JMiS7g/ScaleMote-Design-Sprint---Redefinition-2?type=whiteboard&node-id=0-1",
               "videoURL": "https://www.youtube.com/watch?v=P_C1-tBpLAI"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 50000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 461207.8,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Education & Community",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2024-02-05T00:00:00Z"
           }
         },
         {

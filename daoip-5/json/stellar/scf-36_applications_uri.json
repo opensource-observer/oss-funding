@@ -17,24 +17,9 @@
           "projectName": "SendIN",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "SendIN [Phase 2]",
           "status": "Information Collection",
-          "category": "Applications",
           "description": "Revolutionizing Cross-Border Payments To India",
           "fundsApprovedInUSD": 67000.0,
-          "fundsPaid": [
-            {
-              "amount": 22333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 89754.27,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "6/20/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/drive/folders/1RnEwS8aOUmzIizWcSppXNOk08XAI2lqT?usp=drive_link",
             "stellar.productsAndServices": "We are looking to integrate Stellar USDC for deposits in Stables enabling the Stellar community to deposits, spend and send using Stables. This is the first step to then be able to integrate MoneyGram for cash on/off ramps, already in touch with moneygram team.",
@@ -54,7 +39,21 @@
               "linkedIn": "https://www.linkedin.com/company/stables-money/",
               "twitter": "https://x.com/stables_money",
               "discord": "https://discord.gg/gm6w5TgXWD"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 22333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 89754.27,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "6/20/2025"
           }
         },
         {
@@ -67,24 +66,9 @@
           "projectName": "Globachain",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Making money move on Stellar",
           "status": "Information Collection",
-          "category": "Applications",
           "description": "Our platform will be a next-generation API first stablecoin payment solution, designed to revolutionize cross-border transactions between Africa, Europe, and beyond",
           "fundsApprovedInUSD": 89000.0,
-          "fundsPaid": [
-            {
-              "amount": 29666.67,
-              "denomination": "USD"
-            },
-            {
-              "amount": 119457.2,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "6/24/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/drive/folders/1RnEwS8aOUmzIizWcSppXNOk08XAI2lqT?usp=drive_link",
             "stellar.productsAndServices": "We are looking to integrate Stellar USDC for deposits in Stables enabling the Stellar community to deposits, spend and send using Stables. This is the first step to then be able to integrate MoneyGram for cash on/off ramps, already in touch with moneygram team.",
@@ -104,7 +88,21 @@
               "linkedIn": "https://www.linkedin.com/company/stables-money/",
               "twitter": "https://x.com/stables_money",
               "discord": "https://discord.gg/gm6w5TgXWD"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 29666.67,
+                "denomination": "USD"
+              },
+              {
+                "amount": 119457.2,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "6/24/2025"
           }
         },
         {
@@ -117,24 +115,9 @@
           "projectName": "Seevcash",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Seevcash - P2P Payment with USDC",
           "status": "Information Collection",
-          "category": "Applications",
           "description": "Seevcash delivers fast, low-cost cross-border payments for the unbanked using USDC on Stellar.",
           "fundsApprovedInUSD": 142299.0,
-          "fundsPaid": [
-            {
-              "amount": 47433.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 0.0,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "7/15/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/drive/folders/1RnEwS8aOUmzIizWcSppXNOk08XAI2lqT?usp=drive_link",
             "stellar.productsAndServices": "We are looking to integrate Stellar USDC for deposits in Stables enabling the Stellar community to deposits, spend and send using Stables. This is the first step to then be able to integrate MoneyGram for cash on/off ramps, already in touch with moneygram team.",
@@ -154,7 +137,21 @@
               "linkedIn": "https://www.linkedin.com/company/stables-money/",
               "twitter": "https://x.com/stables_money",
               "discord": "https://discord.gg/gm6w5TgXWD"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 47433.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 0.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "7/15/2025"
           }
         },
         {
@@ -167,24 +164,9 @@
           "projectName": "Swift Wallet SDK",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Demo App & Integration Tests",
           "status": "Information Collection",
-          "category": "Applications",
           "description": "Open source demo app helping developers better understand the processes for communicating with Stellar & Anchors by using the Swift Wallet SDK. Provides well-tested, reusable code that significantly accelerates the development of new wallets.",
           "fundsApprovedInUSD": 35000.0,
-          "fundsPaid": [
-            {
-              "amount": 11666.67,
-              "denomination": "USD"
-            },
-            {
-              "amount": 46886.58,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "6/20/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/drive/folders/1RnEwS8aOUmzIizWcSppXNOk08XAI2lqT?usp=drive_link",
             "stellar.productsAndServices": "We are looking to integrate Stellar USDC for deposits in Stables enabling the Stellar community to deposits, spend and send using Stables. This is the first step to then be able to integrate MoneyGram for cash on/off ramps, already in touch with moneygram team.",
@@ -204,7 +186,21 @@
               "linkedIn": "https://www.linkedin.com/company/stables-money/",
               "twitter": "https://x.com/stables_money",
               "discord": "https://discord.gg/gm6w5TgXWD"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 11666.67,
+                "denomination": "USD"
+              },
+              {
+                "amount": 46886.58,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "6/20/2025"
           }
         },
         {
@@ -217,24 +213,9 @@
           "projectName": "LiquidsFi: Bridge and Cross-chain Oracle",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "LiquidsFi: Bridge and Cross-Chain Oracle",
           "status": "Information Collection",
-          "category": "Applications",
           "description": "LiquidsFi is a decentralized, secure liquidity protocol and interoperability oracle network that connects liquidity and on-chain data between multiple EVM chains and Soroban. It provides the Soroban ecosystem with a reliable way to bridge crypto assets from various EVM chains.",
           "fundsApprovedInUSD": 108000.0,
-          "fundsPaid": [
-            {
-              "amount": 36000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 144959.28,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "6/24/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/drive/folders/1RnEwS8aOUmzIizWcSppXNOk08XAI2lqT?usp=drive_link",
             "stellar.productsAndServices": "We are looking to integrate Stellar USDC for deposits in Stables enabling the Stellar community to deposits, spend and send using Stables. This is the first step to then be able to integrate MoneyGram for cash on/off ramps, already in touch with moneygram team.",
@@ -254,7 +235,21 @@
               "linkedIn": "https://www.linkedin.com/company/stables-money/",
               "twitter": "https://x.com/stables_money",
               "discord": "https://discord.gg/gm6w5TgXWD"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 36000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 144959.28,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "6/24/2025"
           }
         }
       ]

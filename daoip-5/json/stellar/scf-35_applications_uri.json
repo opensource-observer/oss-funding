@@ -17,24 +17,9 @@
           "projectName": "Coalapay Billy Wallet",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Billy Wallet for Aid Assist",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Coala Pay will adapt the use of its own wallet, Billy, to facilitate last mile payments. Billy will be brought onto mainnet, and utilize a QR code reconciliation system and vendor network to facilitate payments to Stellar Aid Assist transactions.",
           "fundsApprovedInUSD": 60000.0,
-          "fundsPaid": [
-            {
-              "amount": 20000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 61845.12,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-05-12T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://github.com/dorahacker/Billy-Stellar-Wallet",
             "stellar.productsAndServices": "Coala Pay Billy Wallet: brought from Proof of Concept through mainnet to ensure offline capacity, QR code reconciliation system, and relayed with Stellar Aid Assist\n\nStellar Aid Assist: Ability to run offline cash payments that are recorded on chain, and a fully integrated end to end system with Billy",
@@ -49,7 +34,21 @@
               "website": "https://coalapay.org/",
               "codeRepository": "https://github.com/dorahacker/Billy-Stellar-Wallet",
               "videoURL": "https://youtu.be/qP2NHA1d6B0"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 20000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 61845.12,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-05-12T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -63,24 +62,9 @@
           "projectName": "Axal",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Stellar x Autopilot integration",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Allow users to create DeFi agents that can interact with Stellar ecosystem. These DeFi agents manage crypto across chains, wallets, and dApps.",
           "fundsApprovedInUSD": 60800.0,
-          "fundsPaid": [
-            {
-              "amount": 20266.67,
-              "denomination": "USD"
-            },
-            {
-              "amount": 62669.73,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-05-12T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/18XfaoqOuvixrCB3qOZr9EaihZVJIAWvio92_SDmjLLo/edit?tab=t.0",
             "stellar.productsAndServices": "Axal Autopilot allows users to create their own DeFi agent to manage their crypto portfolio for them. It has built in chain-abstraction, cross-chain rebalancing, automated yield maximization, yield harvesting, stop losses, and exit parameters. It currently supports Base, Arbitrum, Optimism, Ethereum mainnet, and Solana. This would allow users to access the Stellar ecosystem. It would also include:\n\n-   Stellar-themed index for one click access to top Stellar projects.\n    \n-   Yield agents for the Stellar ecosystem.",
@@ -99,7 +83,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/getaxal",
               "twitter": "https://x.com/getaxal"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 20266.67,
+                "denomination": "USD"
+              },
+              {
+                "amount": 62669.73,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-05-12T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -113,24 +111,9 @@
           "projectName": "MUWPAY",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "MUWP: Cross-Chain Liquidity SDK",
           "status": "Awarded",
-          "category": "Applications",
           "description": "MUWP SDK empowers Stellar developers to build cross-chain dApps, handle multiple tokens with ease, and automatically convert them to XLM.",
           "fundsApprovedInUSD": 88850.0,
-          "fundsPaid": [
-            {
-              "amount": 29616.67,
-              "denomination": "USD"
-            },
-            {
-              "amount": 111082.54,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-06-09T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://github.com/Muwpay-uniswapper/Muwp-Stellar/blob/main/MUWP-SDK-Stellar-Architecture.md",
             "stellar.productsAndServices": "MUWP is a cross-chain liquidity aggregator and bridging solution that simplifies token swaps and expands interoperability across multiple blockchains. By integrating with Stellar’s DEXes, MUWP enables near-instant conversions into XLM or other Stellar-based assets, creating a more accessible route for liquidity to flow into Stellar. In addition, its advanced swap features accommodate scenarios such as merging multiple tokens into a single token or splitting one token into many, ensuring a flexible experience for users managing diverse asset portfolios. \n\nYou can already try MUWP’s mainnet solution for Stellar via the MUWP DApp or watch our demo video.\n\nWhile building out these functionalities, we identified a broader need for user-friendly cross-chain integrations that can be embedded directly into DApps. Many projects want to attract more liquidity to Stellar and streamline asset swaps without forcing their users to leave the DApp environment.\n\nIntroducing the MUWP SDK\n\nTo address this, we’re developing the MUWP SDK, designed to empower any Stellar-based DApp with seamless cross-chain capabilities. By integrating the MUWP SDK, developers can tap into the multiple liquidity sources and bridging mechanisms we’ve built, turning any DApp into a cross-chain DApp.\n\nThis SCF Build Award is aimed at funding the development of that SDK. Below are the key components:\n\n1.  Multi-Token Swap Mechanism\n    \n    -   How Stellar is Used: Leverages Stellar’s DEX for automatic conversions of accepted tokens (e.g., ETH, USDT) into XLM.\n        \n    -   Impact: Expands payment options for developers, increases network liquidity, and drives additional transactions through Stellar.\n        \n1.  Wallet and Asset Management Tools\n    \n    -   How Stellar is Used: Provides APIs to create and manage Stellar wallets, as well as issue and administer Stellar-based assets.\n        \n    -   Impact: Makes it easier for new projects to join the Stellar ecosystem, helping developers incorporate wallet operations and asset functions right out of the box.\n        \n1.  Soroban Smart Contract Integration\n    \n    -   How Stellar is Used: Allows developers to deploy and interact with Soroban smart contracts for advanced dApp features and financial processes.\n        \n    -   Impact: Unlocks more sophisticated functionalities on Stellar, paving the way for innovative use cases that boost ecosystem growth.\n        \n1.  Cross-Chain Interoperability\n    \n    -   How Stellar is Used: Uses MUWP as a bridge between Stellar and other blockchains for token and data transfers.\n        \n    -   Impact: Positions Stellar as a multi-chain hub, giving developers a broader user base and more liquidity opportunities, ultimately strengthening Stellar’s presence in the decentralized ecosystem.\n        \n\nDeveloper Support & Documentation  \nTo ensure a smooth onboarding experience, we will provide:\n\n-   Comprehensive documentation and tutorials.\n    \n-   Example code snippets for quick implementation.\n    \n-   Ongoing community and technical support through Discord and GitHub.\n    \n\nWith MUWP’s existing cross-chain swap solution live on Stellar and the upcoming SDK, we aim to reduce barriers for developers, streamline cross-chain liquidity, and promote further adoption of the Stellar network.",
@@ -151,7 +134,21 @@
               "linkedIn": "https://www.linkedin.com/company/muwpay/",
               "twitter": "https://twitter.com/muwpay",
               "discord": "https://discord.gg/wmZUxJtuad"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 29616.67,
+                "denomination": "USD"
+              },
+              {
+                "amount": 111082.54,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-06-09T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -165,24 +162,9 @@
           "projectName": "Abroad",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Instant payments on Pix with USDC",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Infrastructure for payments interoperability between USDC on stellar and Pix in Brazil. Any Stellar wallet will be able to make payments in any Pix QR code across the country.",
           "fundsApprovedInUSD": 93700.0,
-          "fundsPaid": [
-            {
-              "amount": 31233.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 121226.13,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-06-13T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/file/d/1qmO-d3SWF14JpgLatddjHMNsTT5Gx9t6/view",
             "stellar.productsAndServices": "Products:\n\n-   Open-Source Payment infrastructure for any wallet to interact with USDC on Brazilian RTP system PIX. Wallet's users will be able to On/Off ramp USDC to BRL seamlessly by scanning QR Pix Codes anywhere in Brazil.\n    \n-   Dashboard for seamlessly treasury management in which users can make transactions without technical knowledge and with a few clicks. OTC operators will be able to disperse money from USDC to BRL and COP (Previously Developed)\n    \n\nServices:\n\n-   Collaborative sessions with Wallets for a better UX with an improved flow of funds.\n    \n-   Consultancy for technical integration to reach global money movement.",
@@ -201,7 +183,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/getabroad/",
               "discord": "https://discord.gg/aSw3QN95"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 31233.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 121226.13,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-06-13T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -215,24 +211,9 @@
           "projectName": "Utoken (Upesa)",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Utoken [Phase 2]",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Self-custody digital wallet that leverage local stablecoin to foster secure, low-cost, instant payment for individuals and businesses.",
           "fundsApprovedInUSD": 31600.0,
-          "fundsPaid": [
-            {
-              "amount": 21066.67,
-              "denomination": "USD"
-            },
-            {
-              "amount": 74296.99,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "2025-07-08T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://workdrive.zohopublic.com/writer/open/oye8u82f7842b922d4bbeb549e45fde7f9269",
             "stellar.productsAndServices": "Utoken is a self-custody digital wallet powered by local stablecoins on Stellar, like USDC and EURC, integrated with traditional payment rails like mobile money and bank transfers to offer seamless payment for individuals and businesses.\n\nThrough SCF, we will be supporting:\n\n1.  Direct payment with USDC & EURC into local banks in EU countries and the USA\n    \n1.  Escrow payment for freelancers and businesses offering digital services\n    \n1.  Support for more local stablecoins e.g eKsh in Kenya\n    \n1.  EURC & USDC deposits from other blockchains",
@@ -252,7 +233,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/utoken-app",
               "twitter": "https://x.com/UtokenApp"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 21066.67,
+                "denomination": "USD"
+              },
+              {
+                "amount": 74296.99,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-07-08T00:00:00Z"
           },
           "completionPercentage": 33.0
         },
@@ -266,24 +261,9 @@
           "projectName": "AirGap",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "AirGap x Stellar : Secure Self Custody",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Integrate Stellar into AirGap to help users securely store and transact XLM with airgapped security &amp; advanced self-custody features.",
           "fundsApprovedInUSD": 60000.0,
-          "fundsPaid": [
-            {
-              "amount": 20000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 68592.8,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-05-21T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://vintage-collarbone-cd8.notion.site/Technical-Architecture-1a5e7d273f4080cb884ad48e2ca19f24?pvs=4",
             "stellar.productsAndServices": "AirGap will integrate Stellar into its self-custody wallet, enabling users to securely manage XLM and Stellar-based assets with offline signing. \n\n-   AirGap Vault: Allows users to generate and store Stellar private keys in an air gapped environment, ensuring maximum security. \n    \n\n-   AirGap Wallet: Enables Stellar transactions with offline signing, preventing online exposure of private keys. \n    \n\n-   airgap-coin-lib Support: Stellar integration in our open-source library will empower developers to build on Stellar with secure, offline-first tooling.",
@@ -304,7 +284,21 @@
               "linkedIn": "https://www.linkedin.com/company/airgap/",
               "twitter": "https://x.com/AirGap_it",
               "discord": "https://discord.gg/4Senj3xZ5s"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 20000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 68592.8,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-05-21T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -318,23 +312,9 @@
           "projectName": "Reyts - Stablecoin-Powered P2P Fiat DEX",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Building a P2P Fiat DEX on Stellar",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Developing a Stellar-based P2P fiat DEX to remove accessibility barriers for underserved currencies and offer best-in-market fees.",
           "fundsApprovedInUSD": 75000.0,
-          "fundsPaid": [
-            {
-              "amount": 25000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 83135.89,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
           "extensions": {
             "stellar.technicalArchitecture": "https://shimmer-process-0ba.notion.site/Reyts-Stellar-Block-Chain-Upgrades-Technical-Architecture-1c79b7253112800ea2cfc5401d5ec683",
             "stellar.productsAndServices": "🔄 Enhanced Currency Swaps\n\nReyts will use Stellar’s Path Payment Strict Send to automatically complete currency swaps when no peer match is found within a set time window (e.g., 30 minutes). This ensures users can still exchange at their chosen rate using Stellar's built-in liquidity.\n\nStellar in action:  \nA user places a CAD→NGN swap. If no match is found, Reyts routes the transaction through Stellar’s decentralized exchange using Path Payment, fulfilling the swap at the requested rate with available liquidity.\n\nA Soroban smart contract will monitor pending swap listings, and if a listing goes unmatched for a set period (e.g., 30 minutes), it triggers the fallback logic. The contract checks price conditions, validates rate limits, and initiates the Path Payment if criteria are met — all without human intervention.\n\nImpact:  \nThis reduces wait times from hours to minutes, giving users a more reliable, seamless swap experience without changing how they use the app.\n\n-  \n\n💧 Decentralized Liquidity Pools\n\nReyts will leverage Soroban smart contracts to introduce automated liquidity pools, allowing vetted liquidity providers to contribute CAD and NGNC for swaps. These pools will follow AMM logic, automatically determining prices and executing trades.\n\nStellar in action:  \nWhen a user initiates a swap, the system checks for peer matches. If none exist, it draws from Soroban-powered liquidity pools. Liquidity providers earn fees from every transaction they help fulfill.\n\nImpact:  \nMore liquidity means fewer failed swaps, faster transactions, and greater user confidence — especially for less common exchange pairs like CAD↔NGN.\n\n-  \n\n✅ Compliance Automation\n\nReyts already enforces strict KYC/AML checks off-chain. As users begin to interact more directly with wallets, Stellar’s built-in compliance tools and Soroban will help enforce rules on-chain.\n\nStellar in action:  \nSoroban smart contracts can restrict access to Reyts-issued assets unless a wallet meets verified compliance conditions (e.g., KYC flags or allowlists).\n\nImpact:  \nThis ensures that even as Reyts moves toward decentralization, it remains fully compliant — with less manual overhead and more automation, supporting growth into new regulated markets.",
@@ -353,7 +333,20 @@
             "stellar.socialMedia": {
               "linkedIn": "https://ca.linkedin.com/company/reytas-fintech-inc",
               "twitter": "https://x.com/Reytsapp"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 25000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 83135.89,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications"
           },
           "completionPercentage": 33.0
         },
@@ -367,24 +360,9 @@
           "projectName": "Cobo Custody Integration for Institution",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Integrating into Cobo MPC and Bridge app",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Enabling institutional-grade custody, cross-border payment and PayFi solutions for Stellar Network through Cobo&#x27;s Multi-Party Computation (MPC) wallet technology and Bridge app, serving immediate demand from institutional clients.",
           "fundsApprovedInUSD": 150000.0,
-          "fundsPaid": [
-            {
-              "amount": 50000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 176962.96,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-06-11T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1q_068AbTLzrg6meG67ZlOKEQX4Hm7RMAMa3J9VEYcHA/edit?usp=sharing",
             "stellar.productsAndServices": "Cobo is a trusted leader in digital asset custody and wallet infrastructure solutions. Founded in 2017, Cobo safeguards billions of dollars in assets for 500+ organizations worldwide with a zero-incident security track record. Our unified platform integrates all four wallet technologies - Custodial, MPC, Smart Contract, and Exchange Wallets - empowering institutions to securely scale their blockchain operations.  \n  \nCobo will integrate Stellar Network into two critical infrastructure components serving institutional clients:\n\n1. MPC Wallet Solution: Implementing Stellar Network support in our enterprise-grade MPC wallet system, enabling secure shared custody of XLM and Stellar-based assets with institutional-level controls. This includes support for the ED25519 signature scheme, comprehensive transaction policy management, and governance structures required by institutional clients.\n\n2. Bridge Application: Enhancing our Bridge service to support cross-chain transfers between Stellar and other major networks (currently supporting BTC↔️WBTC, TRON_USDT↔️BSC_USDT↔️ETH_USDT), enabling seamless liquidity management for payment providers and institutional clients.\n\nThese services will directly address the $1.5M+ in asset demand from our existing institutional client base while enabling cross-border payment infrastructure for payment companies, exchanges, and financial institutions. The institutional MPC capability for Stellar will be the first of its kind, delivering enterprise-grade security features including threshold signing (2-of-3), comprehensive risk policies, and regulatory compliance mechanisms.",
@@ -403,7 +381,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/cobo-global",
               "twitter": "https://x.com/Cobo_Global"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 50000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 176962.96,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-06-11T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -417,24 +409,9 @@
           "projectName": "SwiftEx",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Powering Stellar Liquidity",
           "status": "Awarded",
-          "category": "Applications",
           "description": "SwiftEx offers a multi-chain DEX with fiat support, giving global traders a secure way to bridge and trade assets via SDEX and Stellar Anchors.",
           "fundsApprovedInUSD": 65000.0,
-          "fundsPaid": [
-            {
-              "amount": 21666.67,
-              "denomination": "USD"
-            },
-            {
-              "amount": 72051.11,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-05-22T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/file/d/1Y3giLWBG8OaRZfleFubvgR6SpkEHtKdo/view",
             "stellar.productsAndServices": "The Problem:\n----------------\n\nTraditional centralized exchanges often come with lack of user control over assets, high fees, and limited access to multi-chain trading. Centralized exchanges can be vulnerable to security breaches, while fiat-to-crypto conversions remain difficult due to local country regulations and operability.\n\nHowever, DEXs also have challenges, such as complex bridging processes, lack of in-app fiat on/off-ramps, and incapability for high-frequency trading.Many DEXs rely solely on AMM swaps, limiting trading strategies and often leading to high slippage and poor price execution.\n\n#### Stellar’s Untapped Potential:\n\n-   SDEX’s orderbook model enables high-frequency, low-fee trading, but lacks:\n    \n    -   Multi-chain asset access (e.g., ETH, SOL → XLM).\n        \n    -   Seamless fiat integration (despite Stellar’s anchor network).\n        \n\nSwiftEx Solution:\n---------------------\n\n#### A. Stellar-Centric Liquidity Aggregation for Spot Traders\n\n-   Aggregates Stellar AMM / SDEX orderbooks with major chains and AMMs (e.g., Uniswap, PancakeSwap)\n    \n-   Enables 1-click, cross-chain trades with best-price execution (more details mentioned in Mainnet deliverables)\n    \n\n#### B. Fiat On/Off-Ramp via Stellar Anchors & API Partners\n\n-   Supports API-based and SEP-6 / SEP-24 integration for seamless fiat deposits and withdrawals (USD, EUR, etc.)\n    \n-   Already partnered with:\n    \n    -   Alchemy Pay\n        \n    -   MyKobo\n        \n    -   OnRamper\n        \n    -   Onramp.money\n        \n\n#### C. Cross-Chain Swaps\n\n-   Integrated with Allbridge to enable 1-tap cross-chain swaps with seamless execution and a smooth, intuitive UI\n    \n-   Users can swap assets like ETH → USDC → XLM in a single flow — no manual bridging required\n    \n-   In the next phase, we’re expanding cross-chain capabilities through integration with our official partner, Changelly, to support a broader range of assets and networks\n    \n    #### SwiftEx is pioneering on-chain multi-chain high-frequency trading, bringing fast and efficient trading to Stellar. It offers centralized exchange Spot trade Users a seamless, secure, and decentralized alternative.",
@@ -453,7 +430,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/swiftex-wallet/",
               "twitter": "https://x.com/SwiftExwallet/"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 21666.67,
+                "denomination": "USD"
+              },
+              {
+                "amount": 72051.11,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-05-22T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -467,24 +458,9 @@
           "projectName": "Wirex Pay",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Wirex Pay - self-custodial banking",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Wirex Pay is a self-custodial card and bank account payment solution powered by smart accounts. Supported by Visa, Wirex Pay aligns closely with Visa&amp;amp;#x27;s vision for the future of payments, emphasizing collaboration in driving fintech innovation.",
           "fundsApprovedInUSD": 150000.0,
-          "fundsPaid": [
-            {
-              "amount": 50000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 200942.42,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-06-20T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1Fg08HosUagXj1K57Vt4-d6UNQZ_omqGVx53gwnPmOsA/edit?tab=t.0#heading=h.fz485x95jx2g",
             "stellar.productsAndServices": "Stellar token holders (primarily USDC and EURC) will be able to use their assets in card and bank payments maintaining full self-custody and ease of use.\n\nUnlocked use cases:\n\n- Retail card payments, spend USDT at 80m merchants in 200+ countries\n\n- Corporate card payments\n\n- Single ACH and SEPA transfers from Stellar accounts\n\n- Mass payouts from Stellar accounts\n\n- Standing orders (scheduled payments) from Stellar accounts \n\n- Stellar branded cards and community-branded cards for Stellar ecosystem projects\n\n- Wirex Pay is not just a dApp, it’s infrastructure so other Stellar dApps can integrate with Wirex Pay banking and card infra",
@@ -502,7 +478,21 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://x.com/wirexpaychain"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 50000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 200942.42,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-06-20T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -516,24 +506,9 @@
           "projectName": "Digibank | SDP",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Scaling SDP for Mass Payments in MENA",
           "status": "Awarded",
-          "category": "Applications",
           "description": "DigiBank integrates SDP to deliver instant, low-cost mass payments for NGOs in unbanked MENA regions, leveraging Stellar’s blockchain for transparency and efficiency.",
           "fundsApprovedInUSD": 99000.0,
-          "fundsPaid": [
-            {
-              "amount": 33000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 109739.37,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-05-22T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://www.canva.com/design/DAGkm9thMPM/wZ3Wk6yie8dWWmehEiai3w/view?utm_content=DAGkm9thMPM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfa0a6a91f4",
             "stellar.productsAndServices": "DigiBank will scale SDP as a core service, enabling NGOs in unbanked MENA regions to execute mass payments seamlessly. Built on Stellar’s blockchain, SDP offers (1) batch payment processing for thousands of recipients using Stellar’s low-cost transactions (<$0.01 each); (2) real-time tracking via Stellar’s public ledger for full auditability; and (3) crypto-to-cash conversion through DigiBank’s regional off-ramp network, ensuring accessibility in cash-based economies. Planned enhancements include increased scalability for larger NGO cohorts and integration with legacy financial systems, driving adoption. These upgrades leverage Stellar’s fast settlement (<5 seconds), reducing NGO operational cost by up to 50% and enabling focus on aid delivery.",
@@ -547,7 +522,21 @@
             "stellar.urls": {
               "website": "https://digibankar.com/app",
               "videoURL": "https://www.canva.com/design/DAGkmqS6gbc/l8410iM7OPq9BDPi5Varcw/watch?utm_content=DAGkmqS6gbc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h21cc792c36"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 33000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 109739.37,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-05-22T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -561,24 +550,9 @@
           "projectName": "Lumen Loop",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Lumen Loop Launch",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Lumen Loop exists to inform, engage and empower the Stellar community through automated gathering of all Stellar ecosystem content that is categorized and made easily viewable on our web-based platform and shared through our various social integrations.",
           "fundsApprovedInUSD": 113400.0,
-          "fundsPaid": [
-            {
-              "amount": 37800.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 133181.92,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-05-29T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/16b9Ik9PvntTOrU5FfRLfTd6wlEknhccTelU_EJp1nDo/edit?usp=sharing",
             "stellar.productsAndServices": "To keep up-to-date on Stellar ecosystem news and developments, you'd have to follow websites and social accounts for numerous outlets such as Coindesk, The Block, Blockworks, Cointelegraph, Ledger Insights, CNBC, and Forbes, just to name a few. You'd also need to follow official blogs and social channels from existing ecosystem participants such as Cheesecake Labs and Soroban Domains, and everything in between. And video? Hopefully, you're an avid user of various video platforms because you'll also need to subscribe to updates from platforms like YouTube and Twitch. Adding to this complexity, navigating SDF-specific sources adds another layer of difficulty, requiring a meticulous approach to stay informed about Stellar's protocol updates and announcements through the official Stellar website, SDF blog entries, Developer Discord, and official social media channels like StellarOrg and BuildOnStellar. Additionally, tracking progress and updates for the incredibly diverse ecosystem projects presents a unique challenge. From official blogs to GitHub repositories and Twitter announcements, it is incredibly hard to see who is actively building on Stellar and where to find more information about them. Being unable to efficiently find and view this information leads to the perception of lack of innovation on the network. This fragmentation not only makes it challenging to stay informed but also creates barriers to entry for those new to Stellar. Vital events and discussions are often missed due to the lack of centralized notifications and the diverse rules of engagement across platforms.\n\n  \n\nExperience the convenience of navigating the Stellar network's dynamic landscape through one centralized web hub - Lumen Loop. Lumen Loop is designed to streamline the Stellar blockchain network's vast information ecosystem into an organized, accessible format. Lumen Loop automatically scrapes the web for the latest Stellar ecosystem news, updates, and developments. The scraper then uses AI to categorize and tag the content, as well as provide shortened, or \"TLDR\", excerpts for searchability and ease of access. For example, want to see just educational content? We’ve got you covered! Looking for protocol updates? No problem! We’ve got a category for that! Spanish content? Check! Lumen Loop also includes a project tracker where each Stellar project has a detail page with summaries, development activity, social metrics and news, making it easy for the community to follow developments. Let’s say you are a SCF reviewer or voter and you want to know if a project has been active in the ecosystem. Head to the project page, and we’ll have a breakdown on their social and dev activity! Lumen Loop’s project tracker increases project transparency and accountability. Beyond news discovery, Lumen Loop offers a centralized events calendar that details Stellar-related live events, meetups, and conferences from a variety of sources with essential information for easy community participation. Subscribe to our calendar and you won’t miss out! This ecosystem-wide calendar will keep people informed and boost engagement within the ecosystem. Finally, once Lumen Loop finds new information about projects or a new event it automatically posts summaries to various communities on platforms like Discord, Reddit and X/Twitter. This helps promote projects and grow the ecosystem - by keeping everyone in the loop.\n\n  \n\nWe create scrape rules to monitor Stellar project activity on different platforms. We normalize the discovered data from an enormous list of sources into one database. We use AI to give tags and categorize. This includes a manual review process. We push discovered content to our web platform where it's easily browsed by category, tag, project, etc. and also update the events page and the individual project tracker pages if applicable. We automatically push summaries of the discovered content to different social platforms.\n\n  \n\nThe basic idea of Lumen Loop is as follows: Centralized Information Hub: Aggregates Stellar ecosystem news, updates, and project developments into one platform. AI-Categorized Streams: Uses AI to organize content into searchable streams, such as educational content or developer updates, or even SCF project news. Comprehensive Event Calendar: Offers a centralized calendar detailing Stellar-related events for easy community participation. Detailed Project Tracker: Features individual pages for Stellar projects with summaries, development activity, social metrics, and a project news feed. Automated Social Media Sharing: Promotes ecosystem projects and updates by automatically posting discovered content to platforms like Discord, Reddit, and Twitter. Enhances Ecosystem Transparency: Increases project transparency and accountability through detailed activity breakdowns. Community Growth and Engagement: Aims to support community growth and project visibility within the Stellar ecosystem.  \n  \nYou can find a copy of our pitch deck here.",
@@ -598,7 +572,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://linkedin.com/company/lumenloop",
               "twitter": "https://x.com/lumenloop"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 37800.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 133181.92,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-05-29T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -612,24 +600,9 @@
           "projectName": "KindFi",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Social Impact Crowdfunding",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Crowdfunding platform connecting donors with verified LATAM causes via milestone-based fund releases to prevent misuse of funds",
           "fundsApprovedInUSD": 79998.0,
-          "fundsPaid": [
-            {
-              "amount": 26666.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 88676.06,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-05-22T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://www.notion.so/KindFi-Architecture-Version-1-1-1d18754a4a4b8011b374dd993e370064",
             "stellar.productsAndServices": "1.  Milestone-Based Fund Release Model: KindFi uses a milestone-based fund release model inspired by SCF, where each project receives funds in 2–3 tranches. Funds are held in smart contract escrows and only released when specific, verifiable milestones such as impact evidence, photos, or reports are met. Approval requires consensus from 3 of 4 platform admins. If milestones are not met, the smart contract automatically blocks further releases. In case of non-reimbursable donations, unused funds are redirected to a community fund; otherwise, they are returned to the donor.\n    \n1.  KYC & Passkey-Based Authentication: KindFi integrates an advanced user authentication system built on the Stellar Passkey Kit, enhanced for seamless onboarding and security. Users can register and sign in using biometric passkey eliminating passwords while ensuring strong, Web3-native identity verification. In parallel, our AI-assisted KYC flow ensures fast, compliant, and secure verification. Identity checks are optimized to prevent duplication and fraud, with on-chain attestations recorded through Soroban smart contracts for transparency and traceability.\n    \n1.  Community Fund & Governance: Once a year, locked funds from failed projects are redistributed through a community voting process powered by Soroban. Only users holding a Kinders NFT—earned through meaningful contributions—can vote to decide which eligible projects will receive the funds. This mechanism reinforces transparent, community-driven governance and gives real utility to the reputation-based NFTs\n    \n1.  Kinders NFT as Governance Key: The Kinders NFT, built on Soroban, serves as a dynamic governance and participation tool. It evolves visually and functionally based on each user's on-chain reputation and activity. As users contribute to causes, their Kinders NFT gains reputation points, unlocking greater decision-making power in community votes. This incentivizes continued engagement while reinforcing trust and transparency in the ecosystem.\n    \n1.  Reputation & Tiered Voting System: KindFi introduces evolving Kinders NFTs with progressive tiers—Bronze, Silver, Gold, and Diamond—based on each user’s on-chain reputation. Higher tiers grant more voting power (1 to 10 votes per round), early access to campaigns, and exclusive rewards. Reputation grows through impact-driven actions like donation streaks, referrals, category diversity, completing quests, and successfully supporting projects. All actions and NFT progression are tracked and powered by Soroban smart contracts.\n    \n1.  On-Chain Referral Program: KindFi’s referral program lets users invite others to join and support causes using a unique referral code. When a referred user completes KYC and donates, both parties earn on-chain rewards powered by Soroban smart contracts. Rewards include reputation points and visual upgrades to their Kinders NFT. Soroban automates referral tracking, reputation updates, and tiered rewards, unlocking higher benefits as users grow their referral impact.\n    \n1.  Streak System: KindFi’s streak system rewards consistent donor activity through Soroban smart contracts. Streaks are built by donating frequently, in volume, or across diverse causes. Active streaks enhance a user’s Kinders NFT with dynamic visual effects and unlock benefits like increased voting power, reputation growth, early campaign access, and exclusive badges. Soroban tracks activity and enforces a grace period; if the streak is broken, progress resets automatically.\n    \n1.  Visibility & Recognition System: KindFi highlights top donors, projects, and organizations to foster community prestige and sustained engagement. Using Soroban smart contracts, the platform tracks real-time metrics like donation volume, campaign diversity, milestone success, and NFT level. Rankings dynamically update on-chain, powering the \"Feature Kinder\" section with titles like \"Top Donor\" or \"Best Regional Contributor.\" Highlighted users and projects earn exclusive NFTs, increased voting power, early access, and visual platform badges. High-impact projects are automatically promoted, AI-recommended to new donors, and prioritized for matching fund campaigns, all managed transparently via Soroban contracts.\n    \n1.  On-Chain Community Rankings & Rewards: KindFi’s community ranking system incentivizes sustained participation through automated, transparent rewards. Soroban smart contracts manage real-time leaderboards and prize distribution based on user reputation and platform activity.\n    \n1.  Dynamic Contribution Challenges System: KindFi’s Quest System introduces gamified challenges that motivate users to donate consistently and across diverse campaigns. Quests encourage actions like supporting new categories, maintaining streaks, or completing non-refundable donations. This system promotes ongoing engagement, fuels user reputation growth, and sustains the flow of funds to the Impact and Community Funds, creating a more interconnected and resilient ecosystem.\n    \n1.  Matching Funds (Impact Fund & Community Fund): KindFi amplifies individual donations through a matching model powered by two key sources: the Impact Fund (fed by success fees and direct donations) and the Community Fund (filled with unused funds from failed campaigns, redistributed via annual community vote). Soroban smart contracts and AI assess project history and projected impact to assign dynamic matching levels: Basic: +20% Intermediate: +50% Premium: +100%\n    \n    This model incentivizes early contributions, enhances campaign momentum, and recycles unused funds to boost ecosystem resilience. Matching funds are fueled by retained campaign balances, fractional success fees (0.3–1%), quest completions, direct donations, and external sponsors seeking platform visibility.  \n    \n\nThis is our next-generation crowdfunding platform leveraging Soroban smart contracts, Stellar infrastructure, and AI to create a secure, transparent ecosystem building a global movement of trust, transparency, and lasting impact",
@@ -649,7 +622,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/kindfi/",
               "twitter": "https://x.com/KindFi_W3"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 26666.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 88676.06,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-05-22T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -663,22 +650,9 @@
           "projectName": "Spinach",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Liquid retrofunding that grows DEX TVL",
           "status": "Information Collection",
-          "category": "Applications",
           "description": "Grow DEX TVL by running spinach competitions that rally builders to orchestrate liquidity",
           "fundsApprovedInUSD": 70000.0,
-          "fundsPaid": [
-            {
-              "amount": 0.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 0.0,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/presentation/d/1A42nICmMg6ngu-3eBSMzBdqZ_TR9KQSoZ5eT5jFHTN0/edit?slide=id.g3474fccb94d_0_0#slide=id.g3474fccb94d_0_0",
             "stellar.productsAndServices": "This submission is to create a first MVP for Spinach that enables:\n\n1.  Anyone to request the creation of a new Spinach competition\n    \n1.  An admin to manually add a new Spinach competition for a given token to the system\n    \n1.  A backend to track liquidity orchestrated for a token per participating project\n    \n1.  Visitors to view a leaderboard of liquidity orchestrated per participating project and paid out rewards so far\n    \n1.  Projects to receive daily payments for the liquidity they orchestrated the day before\n    \n\n  \n\nOnce live, Spinach will be the first liquidity incentive platform to go live on Stellar.\n\n  \n\nNote: for this MVP we do not yet leverage Soroban. If the MVP is successful, we will start creating Sorobon smart contracts for depositing funds to be distributed as well as automated distribution of the funds on a daily basis.",
@@ -696,7 +670,19 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://x.com/spinachfi"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 0.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 0.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.category": "Applications"
           }
         },
         {
@@ -709,24 +695,9 @@
           "projectName": "Flow",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Modular Data Pipelines for Stellar",
           "status": "Awarded",
-          "category": "Infrastructure & Services",
           "description": "Offers programmable data pipelines to help Stellar&amp;#x2F;Soroban developers automate real-time workflows by unifying classic ledger and smart contract event streaming.",
           "fundsApprovedInUSD": 120000.0,
-          "fundsPaid": [
-            {
-              "amount": 40000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 137185.6,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-05-21T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/file/d/1l_7yjAfWR3asErRd7c-6U0sIQUiEnIjc/view?usp=sharing",
             "stellar.productsAndServices": "Obsrvr Flow provides modular, event-driven data pipelines purpose-built for the Stellar ecosystem, enabling developers to automate real-time workflows. It ingests full classic and Soroban data via Galexie or Stellar RPC, overcoming Horizon's limitations, particularly for complex Soroban event access which is currently difficult for many builders. Developers define Directed Acyclic Graphs (DAGs) using our CLI or SDK to chain together stateless, reusable processors (microservices) that apply custom logic – like filtering, enrichment (e.g., with AI), or state calculations. Processed data streams reliably to databases, APIs, alerting systems, or even triggers Soroban contract calls. While core tooling like the CLI and processor templates will be available, developers will primarily deploy and operate these pipelines via a managed Obsrvr Flow platform, simplifying setup and maintenance.\n\nKey features leveraging Stellar/Soroban:\n\n-   Unified Ingestion: Direct access to raw classic ledger data and Soroban events/effects via Galexie or native Stellar RPC.\n    \n-   Programmable Processors: Build custom logic using reusable, Protobuf-enforced microservices reacting to Stellar operations or Soroban events. Chain, replay, and test processors independently.\n    \n-   Multi-Sink Routing: Stream processed data reliably to diverse destinations (Postgres, webhooks, Discord, triggering Soroban RPC calls).\n    \n-   Developer Tooling: CLI and Control Plane SDK (interfacing with the managed platform) for declarative pipeline management, schema registry, real-time observability, and retry queues.\n    \n-   Public Data Source: We will provide a publicly accessible, Galexie-powered data lake of Stellar ledger data (Mainnet/Testnet) via Google Cloud Storage (Requester Pays) to accelerate ecosystem development.\n    \n\nThis unified infrastructure is vital for wallet/dApp builders (who currently often build custom indexers), analytics platforms, and custody solutions needing timely, granular, and programmable access to both classic and Soroban activity.",
@@ -745,7 +716,21 @@
             },
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/obsrvr"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 40000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 137185.6,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-05-21T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -759,24 +744,9 @@
           "projectName": "VIA Labs",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Cross-Chain Interop: Oracles to Tokens",
           "status": "Awarded",
-          "category": "Infrastructure & Services",
           "description": "VIA Labs will deliver cross-chain interoperability to empower dapp developers by seamlessly linking Stellar with 140+ blockchains.",
           "fundsApprovedInUSD": 95000.0,
-          "fundsPaid": [
-            {
-              "amount": 31666.67,
-              "denomination": "USD"
-            },
-            {
-              "amount": 105305.47,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-05-22T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://github.com/VIALabs-io",
             "stellar.productsAndServices": "The VIA Network is an omni-chain infrastructure that enables developers to create cross-chain products between Stellar and 140+ other blockchains (including both EVM and non-EVM chains).\n\nThis interconnectivity opens the door for dapp developers to send messages, data and value between all supported chains.\n\n-   Unified Liquidity: Access liquidity across many blockchains.\n    \n-   Unified Features: Unique features easily accessible across networks.\n    \n-   Unified Developer Experience: Ease of integration and maintenance.\n    \n-   Unified User Base: Users previously scattered across various networks now united.\n    \n\n  \nThis will enable the expansion and/or migration of existing dapps from other networks to easily onboard into the Stellar ecosystem.  \n  \nThis submission will expand interoperability on Stellar by:\n\n-   Robust Bridging Protocols: Enable seamless token, NFT, and data transfers between Stellar and over 140 blockchains.\n    \n-   Enhanced Developer Tools: Provide unified APIs and SDKs to simplify cross-chain dapp integration, along with real-time transaction monitoring.\n    \n-   User-Focused Solutions: Offer a dedicated front-end for Stellar-compatible wallets and streamlined migration paths for existing dapps, fostering a unified liquidity pool and user base.\n    \n-   Workshops & Technical Support: Host developer workshops and offer expert consulting to accelerate cross-chain adoption and integration on Stellar.\n    \n\nFurther, VIA Labs leverages a non-conventional, time-efficient approach to cross-chain expansion. To replicate the VIA Network on Stellar, we are partnering with Cheesecake Labs—renowned experts in Stellar’s Soroban smart contract ecosystem. Cheesecake Labs brings specialized expertise in building secure, high-performance Soroban contracts, while VIA Labs adapts our proven cross-chain architecture for Stellar.\n\nOur integration strategy centers on a dual-chain bridging mechanism that portably translates our core protocols onto Stellar’s network. Specifically, we are porting our cross-chain messaging, asset transfer, and data synchronization protocols into modular Soroban smart contracts. This setup leverages Stellar’s fast, low-cost transactions and deterministic execution, ensuring atomic swaps, asynchronous message passing, and unified liquidity management with minimal latency.\n\nThroughout this process, VIA Labs leads the strategic planning and technical integration, working in lockstep with Cheesecake Labs to validate every integration point. This close collaboration guarantees that all critical components are accurately translated and optimized for immediate deployment, delivering a robust, scalable, and secure network expansion on Stellar.",
@@ -797,7 +767,21 @@
               "linkedIn": "https://linkedin.com/company/via-labs-llc",
               "twitter": "https://x.com/VIA_Labs",
               "discord": "https://discord.gg/vialabs"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 31666.67,
+                "denomination": "USD"
+              },
+              {
+                "amount": 105305.47,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-05-22T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -811,24 +795,9 @@
           "projectName": "Volta Circuit",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "A Cross-Chain Defi Control Panel",
           "status": "Awarded",
-          "category": "Infrastructure & Services",
           "description": "Volta Circuit is a decentralized control panel that enables users and institutions to customize and automate their risk management, governance, and treasury operations across any blockchain, creating a secure standard for digital asset custody.",
           "fundsApprovedInUSD": 150000.0,
-          "fundsPaid": [
-            {
-              "amount": 50000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 201332.34,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-06-24T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1Xfi-hssQB_ff0gwojhkD8349AmZNN5hSMhIJ5Doh-Jk",
             "stellar.productsAndServices": "Volta Circuit: Product & Services\n\nA Proven Security Model for Self-Custody\n\nVolta Circuit delivers a self-managed, multi-signature wallet designed for technical professionals and organizations in the blockchain ecosystem. Built on robust smart contract technology, our platform empowers developers, builders, and investors to securely manage their assets and engage seamlessly with multiple blockchain networks.\n\nKey Features:\n\n-   Decentralized Control Panel:  \n    A unified interface leveraging Soroban smart contracts to offer secure, customizable risk management and policy enforcement on Stellar and beyond.\n    \n-   Built with Account Abstraction:  \n    Enhance security and usability with programmable, gasless transactions, flexible spend approvals, and multi-factor authentication.\n    \n-   Account Abstraction:  \n    Only user-activated devices can access Volta Circuit accounts, ensuring sensitive operations are protected by unique user keys.\n    \n-   Customizable Policies:  \n    Define whitelists for contracts, addresses, rules, and policies tailored to your vault(s) to meet strict compliance and risk management needs.\n    \n-   Omnichain & Multiple Vaults:  \n    Manage assets across different blockchain networks—including Cosmos and EVM chains—while maintaining a unified security and custody infrastructure.\n    \n-   Rekeying:  \n    An innovative security mechanism that allows multisig owners to keep static public addresses while dynamically rotating private spending credentials.\n    \n-   Transaction Builder:  \n    Simplify complex blockchain transactions with an intuitive tool that compiles multi-step operations into a single, streamlined transaction.",
@@ -847,7 +816,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/volta-wallet",
               "twitter": "http://x.com/voltacircuit"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 50000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 201332.34,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-06-24T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -861,24 +844,9 @@
           "projectName": "Estrela",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Finalizing Stablecoin AMM Build",
           "status": "Awarded",
-          "category": "Infrastructure & Services",
           "description": "Estrela offers a stablecoin AMM on Soroban to help Stellar community swap stablecoin assets efficiently",
           "fundsApprovedInUSD": 102000.0,
-          "fundsPaid": [
-            {
-              "amount": 34000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 116607.76,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-05-21T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/file/d/1CQrzF4zeevv5tbFl_0PnPoTUnJu2VWWB/view?usp=sharing",
             "stellar.productsAndServices": "Estrela is a decentralized platform for efficient low-slippage stablecoin swaps. The platform enables users to trade stablecoins directly on Stellar while liquidity providers can deposit assets into swap pools to earn fees, enhancing on-chain liquidity and utility.  \nThis submission adds the final components required for Estrela’s production deployment on Soroban. The implementation aimes to deliver mainnet-ready stablecoin swap pools built on Soroban. Additionally the platform will feature an SDK to simplify integration for future DeFi applications built on Soroban, expanding developer access and protocol interoperability.\n\nEstrela’s UI components for liquidity provision and swapping further reduce barriers to entry, delivering a smooth user experience for interacting with Stellar-based stablecoins.\n\nThrough this development, Estrela strengthens the Stellar DeFi landscape by improving capital efficiency and offering an accessible, stablecoin trading solution built natively on Soroban.",
@@ -896,7 +864,21 @@
             },
             "stellar.socialMedia": {
               "discord": "https://discord.com/invite/ASuPY8d3E6"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 34000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 116607.76,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-05-21T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -910,24 +892,9 @@
           "projectName": "LedgersTax",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "LedgersTax | Takeoff",
           "status": "Awarded",
-          "category": "Infrastructure & Services",
           "description": "LedgersTax exports your Stellar transactions history for tax reporting. Comprehensive taxable events data in a few clicks – saving time, alleviating headache. Even on the moon, you still have to file taxes.",
           "fundsApprovedInUSD": 96000.0,
-          "fundsPaid": [
-            {
-              "amount": 64000.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 235440.33,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "2025-06-27T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://github.com/stellar-expert/ledgers-tax",
             "stellar.productsAndServices": "New redesigned from scratch version of the tax reporting tool for Stellar. Without Horizon dependency, with Soroban and multiple export formats support.\n\nIt can load transactions information from Stellar history for any point in time, going back to 2015.\n\nWe plan to provide tax reports in formats compatible with Koinly, BitcoinTax, Recap, Cryptotax, Awaken, CoinLedger, CoinPanda, KoinX, TurboTax, and other tax filing services.",
@@ -942,7 +909,21 @@
             "stellar.urls": {
               "website": "https://ledgers.tax",
               "videoURL": "https://youtu.be/W3XEngsYshc"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 64000.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 235440.33,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-06-27T00:00:00Z"
           },
           "completionPercentage": 33.0
         },
@@ -956,23 +937,9 @@
           "projectName": "Normal",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Normal - Wrapped Assets",
           "status": "Awarded",
-          "category": "Infrastructure & Services",
           "description": "Normal Tokens - wrapped assets of each Top 100 crypto helping Stellar users get easy exposure to any asset without using bridges, CEXs, or multiple exchanges.",
           "fundsApprovedInUSD": 80000.0,
-          "fundsPaid": [
-            {
-              "amount": 8333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 27711.95,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1fr9qA5cXs-AAwlur5zNvQgsRGw8-FVw21qy-6UyaN6w/edit?usp=sharing",
             "stellar.productsAndServices": "Check our video here!  \nProblem we are solving:  \nCurrently, most DeFi stats on Stellar come from project-provided reports, which are not always transparent or easy to verify. Platforms like DeFi Llama and DappRadar often rely on these reports instead of pulling data directly from the blockchain.\n\nOn the other hand, there are many ecosystem stats very useful that can only be calculated using an external tool like Dune Dashboards, like Percentage of Swaps being aggregated, average slippage of swaps and more.  \n\nHow DeFi Dune Dashboards Solves this:  \nThe Stellar DeFi Dune Dashboards will change this by providing fully verifiable, on-chain data from smart contract activity from all DeFi protocols on the ecosystem. These dashboards will track important stats like Weekly and Monthly Active Users, Average Slippage on Trades, Volume Analisis, Percentage of Aggregated Trades, and Liquidity Provider Activity.\n\nFor AMMs and aggregators, we will show key insights, including trade volume, slippage, price impact, and how often trades go through aggregators instead of single AMMs. We will also track arbitrage profits and how many trades are related to arbitrage.\n\nThis project will make Stellar DeFi data more transparent and accessible for everyone, helping users, developers, and investors understand how healthy and active the ecosystem really is. We will also maintain and update the dashboards for one year to ensure they stay reliable.\n\n  \nExtra Comments:\n\nIt's important to understand that Dune dashboards need regular maintenance. Over time, some queries can become too large because they are analyzing more and more data. When this happens, we need to export the results into Materialized Views to keep the dashboards fast and reliable.\n\nMost importantly, this submission includes the ongoing maintenance of all queries and dashboards, so they stay up-to-date and useful over time.",
@@ -991,10 +958,23 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://x.com/PaltaLabs"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 8333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 27711.95,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Infrastructure & Services",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-05-22T00:00:00Z"
           },
-          "completionPercentage": 0.0,
-          "mostRecentPaymentDate": "2025-05-22T00:00:00Z"
+          "completionPercentage": 0.0
         }
       ]
     }

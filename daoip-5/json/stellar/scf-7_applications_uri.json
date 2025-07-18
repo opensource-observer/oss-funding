@@ -24,29 +24,28 @@
             }
           ],
           "fundsApprovedInUSD": 249112,
-          "title": "Leaf Global Fintech: Banking Beyond the Branch",
           "description": "Leaf is a digital wallet that enables users to store, send and receive, and exchange in multiple stablecoins on their phones— no smartphone required.",
-          "fundsPaid": [
-            {
-              "amount": 249112.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 586907.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2021-05-24T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.teamMembers": "Tori Samples, Nathaniel Robinson",
             "stellar.urls": {
               "website": "https://leafglobalfintech.com/wallet-2-0/",
               "videoURL": "https://youtu.be/97gGtLOMaVA"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 249112.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 586907.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-24T00:00:00Z"
           }
         },
         {
@@ -66,22 +65,23 @@
             }
           ],
           "fundsApprovedInUSD": 131973,
-          "title": "Blocknify",
-          "fundsPaid": [
-            {
-              "amount": 131973.75,
-              "denomination": "USD"
-            },
-            {
-              "amount": 304740.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2021-05-25T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Applications"
+          "extensions": {
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 131973.75,
+                "denomination": "USD"
+              },
+              {
+                "amount": 304740.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-25T00:00:00Z"
+          }
         },
         {
           "type": "GrantApplication",
@@ -118,23 +118,8 @@
             }
           ],
           "fundsApprovedInUSD": 325762,
-          "title": "Anclap; Anchor + Debit Card for everyday transactions!",
           "description": "Anclap connects the Stellar Network to real world services.",
-          "fundsPaid": [
-            {
-              "amount": 325762.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 767494.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2021-05-24T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Financial Protocols",
           "extensions": {
             "stellar.teamMembers": "IVAN AGUSTIN MUDRYJ, Mariano Omar Morales",
             "stellar.urls": {
@@ -143,7 +128,21 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/AnclapFintech"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 325762.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 767494.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-24T00:00:00Z"
           }
         },
         {
@@ -163,23 +162,8 @@
             }
           ],
           "fundsApprovedInUSD": 273723,
-          "title": "Litemint – Gaming Platform and NFT Marketplace",
           "description": "LITEMINT is a gaming platform connecting gamers to the crypto world.",
-          "fundsPaid": [
-            {
-              "amount": 273723.63,
-              "denomination": "USD"
-            },
-            {
-              "amount": 632054.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2021-05-25T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.teamMembers": "Frederic James Bernard Rezeau",
             "stellar.urls": {
@@ -190,7 +174,21 @@
               "linkedIn": "https://www.linkedin.com/company/litemint",
               "twitter": "https://twitter.com/LitemintHQ",
               "discord": "https://litemint.gg"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 273723.63,
+                "denomination": "USD"
+              },
+              {
+                "amount": 632054.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-25T00:00:00Z"
           }
         },
         {
@@ -210,23 +208,8 @@
             }
           ],
           "fundsApprovedInUSD": 196415,
-          "title": "Mojoflower - Government issue share-ledgers and share-management tools for SMEs.",
           "description": "Government issue share-ledgers and share-management tools for SMEs powered by Stellar.",
-          "fundsPaid": [
-            {
-              "amount": 196415.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 462754.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2021-05-24T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.teamMembers": "Ólafur Páll Torfason",
             "stellar.urls": {
@@ -235,7 +218,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/mojoflower/",
               "twitter": "https://twitter.com/home/Mojoflower"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 196415.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 462754.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-24T00:00:00Z"
           }
         },
         {
@@ -255,29 +252,28 @@
             }
           ],
           "fundsApprovedInUSD": 320972,
-          "title": "OptionBlox & YieldBlox - DeFi Protocols for Financial Derivatives and Lending",
           "description": "Script3 created OptionBlox and YieldBlox. Platforms and DeFi protocols for facilitating financial derivatives and lending, respectively.",
-          "fundsPaid": [
-            {
-              "amount": 320972.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 756208.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2021-05-24T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Financial Protocols",
           "extensions": {
             "stellar.teamMembers": "Andrew Pierskalla, Markus Paulson-Luna, Alex Mootz",
             "stellar.urls": {
               "website": "https://www.script3.io/",
               "videoURL": "https://vimeo.com/501316746?ref=em-share"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 320972.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 756208.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Financial Protocols",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-24T00:00:00Z"
           }
         },
         {
@@ -297,23 +293,8 @@
             }
           ],
           "fundsApprovedInUSD": 283499,
-          "title": "Task.io - Economies that reward and connect people",
           "description": "Task connects organisations with remote teams, tracks activity on the Stellar blockchain, processes payments between users and allows the exchange of tokens for locally relevant rewards.",
-          "fundsPaid": [
-            {
-              "amount": 283499.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 654628.0,
-              "denomination": "XLM"
-            }
-          ],
           "status": "Awarded",
-          "mostRecentPaymentDate": "2021-05-25T00:00:00Z",
-          "latestTranche": "SCF Legacy Award",
-          "awardType": "Legacy v2.0 Award",
-          "category": "Applications",
           "extensions": {
             "stellar.teamMembers": "Matt Rickard, Steve Walker",
             "stellar.urls": {
@@ -322,7 +303,21 @@
             },
             "stellar.socialMedia": {
               "twitter": "https://twitter.com/taskdotio"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 283499.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 654628.0,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-25T00:00:00Z"
           }
         }
       ]

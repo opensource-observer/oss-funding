@@ -17,23 +17,9 @@
           "projectName": "Logistech",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Stellar Payments for Tourism & Hotels",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Integrate Logistech with the Beans App SDK to enable businesses in the tourism and hospitality industry to accept crypto payments",
           "fundsApprovedInUSD": 101120.0,
-          "fundsPaid": [
-            {
-              "amount": 67413.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 261560.86,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #2 - Testnet",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/file/d/1BCoaaKPDfQt14GM_zqeMTNXsuoZwdD36/view?usp=drive_link",
             "stellar.productsAndServices": "Project:  \nLogistech is a trusted payment processor for cruises, hotels, hostels, and tour companies. By integrating Stellar blockchain technology, it will provide guests with a fast, secure, and cost-effective way to pay.  \n\nSubmission:  \nLogistech, integrated with the Beans Merchant SDK, allows our Merchants’ Guests to pay transactions with Lumens XLM, USDC and other top cryptocurrencies at very low fees compared to traditional payment processors.  \n\nProducts & Services:  \nLogistech is a fully integrated, modular hospitality platform designed to optimize operations for hostels, cruises, resorts and hotels. Our suite of applications enables businesses to manage guests efficiently, process payments seamlessly, and enhance the overall customer experience.  \n\nOur ecosystem includes:\n\n-   Guest Management App – Streamlines check-ins, guest tracking, and account management.  \n    \n-   Tour Management App – Handles tour bookings, itineraries, and sales .  \n    \n-   Cashless Point of Sales (POS) – Allows guests to make purchases using NFC cards or wearables, eliminating cash handling and improving transaction efficiency.  \n    \n-   Website (Beta) – Offers direct bookings, guest account access, and operational integrations.  \n    \n\n##### How Logistech Works:\n\nGuests use NFC wristbands or cards to make purchases during their stay, which are then settled at check-out via traditional payment methods. While this system is already frictionless, the integration of Stellar through Beans Wallet will further reduce transaction fees and enhance accessibility for international guests.  \n\nBy leveraging Beans Merchant SDK, we aim to:  \n\n1.  Enable QR-based check-outs, allowing guests to settle their bills using Stellar while merchants receive USDC.\n    \n1.  Reduce high transaction fees typically associated with international payments.\n    \n1.  Maintain the familiar guest experience while introducing a lower-cost, crypto-powered alternative.",
@@ -48,7 +34,20 @@
               "website": "https://logistechglobal.com/",
               "videoURL": "https://www.youtube.com/watch?v=KCdF8evAuQU",
               "pitchDeck": "https://drive.google.com/file/d/1dNpZnKEGfDqpKX95LBnkG6h9OF4N5uRq/view?usp=drive_link"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 67413.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 261560.86,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #2 - Testnet",
+            "org.stellar.communityfund.category": "Applications"
           },
           "completionPercentage": 67.0
         },
@@ -62,24 +61,9 @@
           "projectName": "JetPad",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Jetpad",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Jetpad is focused on changing the Africans Pay, Save, Invest and day-to-day use of stable coins",
           "fundsApprovedInUSD": 75500.0,
-          "fundsPaid": [
-            {
-              "amount": 50333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 186640.18,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "2025-07-10T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1VQbggaTd4XVrYWNlxb6DCqFT_mJDGvvJvrjqphkRRFI/edit?usp=sharing",
             "stellar.productsAndServices": "The JetPad Wallet App is a non-custodial neo-bank built on the Stellar Blockchain, designed to serve users seamlessly.\n\n-   USD Balance & Stablecoin Support – Leverages the Stellar Blockchain and SDF’s USDC stablecoin, integrating with Stellar Anchors for seamless on/off-ramp transactions.\n    \n-   Save & Earn with Yield Protection – Mitigate inflation by earning yield through Soroban smart contracts and our integration with the Blend Protocol.\n    \n-   Instant, Free Money Transfers – Send funds locally and internationally at no cost using the Stellar Path Payment API.\n    \n-   Simple & Accessible Signup – All you need is a smartphone and internet access to get started.\n    \n-   Virtual & Physical Cards – Supports both online and offline payments through card issuance.\n    \n-   Integrated P2P On/Off-Ramp Marketplace – A Binance P2P-style platform tailored for Africa’s young and digitally active population.\n    \n-   Bank & Mobile Money Transfers – Easily send funds to bank accounts or mobile money wallets.\n    \n-   Stablecoin Utility Payments – Use Stellar USDC for everyday expenses, including water, electricity, cable, and other utility bills.",
@@ -98,7 +82,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/jetpad-finance",
               "twitter": "https://x.com/JetPad_Finance"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 50333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 186640.18,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-07-10T00:00:00Z"
           },
           "completionPercentage": 33.0
         },
@@ -112,24 +110,9 @@
           "projectName": "Loto Punto: Automated Remmitance Kiosks",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Instant Remittance Self-Service Kiosks",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Delivers instant stablecoin remittances to unbanked communities in LATAM through Stellar Blockchain and self-service kiosks",
           "fundsApprovedInUSD": 75975.0,
-          "fundsPaid": [
-            {
-              "amount": 50650.0,
-              "denomination": "USD"
-            },
-            {
-              "amount": 215031.91,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "2025-07-08T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/file/d/1iCRirz5y-8kHuuz6pSeTezdWgHEC-_0N/view?usp=sharing",
             "stellar.productsAndServices": "Product\n\nLoto Punto is a kiosk for payments and payouts. It works as a gateway for 12 thousand financial services in banking, utility bills, cell phone top ups and digital wallets. Our system is integrated with Digital Identity and Open Banking services using AI, automating physical payments with high standards of security and fraud prevention.\n\nHow Loto Punto works with Stellar\n\nLoto Punto kiosks enable easy and affordable self-service transactions in local currency within seconds, providing a fast, easy, and inexpensive way to pay, send and receive money. By integrating Stellar Blockchain with Loto Punto’s micro- service-oriented architecture system, we'll offer a more convenient an inexpensive channel for cross border remittances. This is achieved by converting physical FIAT currency into stable cryptocurrency and vice versa, partnering with relevant Stellar Wallets that provide on-ramp and off-ramp services in each LATAM country. For this matter, we have already an alliance with \"Meru Wallet\", that is integrated with Moneygram.\n\nIn the scope of this current project, we'll leverage our existing capabilities, installed capacity and knowledge of cryptoassets transactions, to On-Ramp fiat to crypto in the Stellar network, enabling fund transfers to Stellar accounts of end users. This new functionality will allow end users (senders) to make cost-effective remittances by converting FIAT currency deposited at Loto Punto kiosks into crypto accounts on the Stellar Network. Recipients can redeem their stablecoin digitally or at chosen Stellar anchor physical locations.\n\nBenefits\n\nLoto Punto offers a streamlined approach to financial services. Our kiosks are installed totally free in various points of sale with loyal customers such as convenient stores, drugstores and gas stations. Unlike traditional payment networks that rely on human agents, Loto Punto operates as an automated version, resulting in 50% lower operating costs. By eliminating the need for human sales agents and fixed space leasing costs,Loto Punto efficiently serves up to 40 locations with just one employee. This not only relieves point-of-sale staff from cash management operations and customer service but also provides a clear cost advantage over competitors that require a human interface for end-user transactions\n\nIn aggregate, by integrating Stellar and its Anchors, Loto Punto will serve as a convenient one-stop shop for unbanked users in LATAM.",
@@ -149,7 +132,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/loto-punto/",
               "twitter": "https://x.com/victuol"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 50650.0,
+                "denomination": "USD"
+              },
+              {
+                "amount": 215031.91,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-07-08T00:00:00Z"
           },
           "completionPercentage": 33.0
         },
@@ -163,24 +160,9 @@
           "projectName": "PAYRIT",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Pay Globally With USDC",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Send money and pay anyone around the world with your local currency while they get paid in their own local currency.",
           "fundsApprovedInUSD": 47792.0,
-          "fundsPaid": [
-            {
-              "amount": 15930.67,
-              "denomination": "USD"
-            },
-            {
-              "amount": 67613.37,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-04-08T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1A1PJFcdv78RNR25miDRxnKWabPtZ2E0FrIUIQaiZ1Ys/edit?usp=sharing",
             "stellar.productsAndServices": "Making payments is challenging for Africans, and global payments are even tougher. Issues like FX scams, long processing times, and difficulty sourcing FX frustrate the process.\n\nPayrit solves these challenges with instant global payment and settlement powered by USDC on Stellar, giving businesses and individuals unprecedented access to global markets. This empowers over 100 million entrepreneurs with a reliable global payment solution for business growth.\n\nThis submission focuses on building this cross-border payment system taking advantage of the stellar robust list of anchors with representation in almost all the continents.\n\nBelow are the following features we plan to work on in this submission\n\nFEATURES\n\n-   Issuing USDC asset for accounts on stellar\n    \n-   Swap/convert from and to Fiat and USDC, using the powerful real-time currency conversion on Stellar and Anchor system for on-ramp and off-ramp\n    \n-   Pay for day-to-day needs powered by USDC, using the path payment strict receive so that the end user can get their exact value\n    \n-   cross-border payment, using anchors\n    \n-   Instant payment at any point of sale internationally, using path payment\n    \n-   Send to bank or mobile money from crypto balance, Using anchor\n    \n\nHOW WE ARE USING STELLAR\n\nTechnically \n\nFor swap and international transfers\n\n-   SEP-10: for authentication between anchor and client(payrit)\n    \n-   SEP-24: To allow users to deposit and withdraw assets right from the payrit app\n    \n-   SEP-30: To allow cross-border payments\n    \n\nPay for day-to-day needs powered by USDC\n\n-   Our goal is to bridge the gap between the banked and the unbanked. Allowing anybody to pay anywhere in the world from their local currency using any of the means we have provided, such as scan-to-pay, NFC tech, and real-time bank transfers. We are also working on BLE(Bluetooth low energy) technology to increase true-inclusion of the informal financial sector where low to medium literate individuals operate daily.This will be possible with Stellar’s interoperability and scalability ensuring that the system can support both high-volume and low-cost transactions, making it accessible to underserved markets. The path payment will be used to achieve this feature.\n    \n\nSend to bank or mobile money from crypto balance, Using anchor\n\n-   SEP-24: To allow users to deposit and withdraw assets right from the payrit app\n    \n\n#### Stellar’s impact on payrit\n\n-   Users can hold multiple assets\n    \n-   Quick and cheap swap to any FIAT currency provided by anchors\n    \n-   Instant settlement during in-person payment in any currencies\n    \n-   Fast international transactions\n    \n-   Prevent FX scams\n    \n-   Fulfill international transactions with ease\n    \n    These advancements will significantly elevate the user experience, minimize transaction costs, and expedite cross-border payment processes. By achieving these goals, Payrit is set to establish itself as a premier digital payment platform in Africa, fostering greater financial inclusion and driving innovation across the region.",
@@ -199,7 +181,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/payrit/",
               "twitter": "https://x.com/payritHQ"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 15930.67,
+                "denomination": "USD"
+              },
+              {
+                "amount": 67613.37,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-04-08T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -213,24 +209,9 @@
           "projectName": "Comunitaria",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Scalable Currency Tool for Govs & NGOs",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Comunitaria empowers governments and large NGOs, including our partner Caritas, with a scalable tool to rapidly deploy community currencies as \"multipurpose electronic vouchers\" without the need for complex compliance. This fast-track approach immediately delivers funds to underserved communities and boosts local commerce. Once established, the platform integrates the Stellar Disbursement Platform to enable stablecoin transactions, combining hyperlocal resilience with global liquidity for cross-border disbursements and rapid crisis response. Leveraging Soroban smart contracts to manage multi-party operations efficiently, Comunitaria offers an adaptable financial system that attracts international stakeholders seeking inclusive solutions, while remaining extremely simple for end-users.",
           "fundsApprovedInUSD": 49000.0,
-          "fundsPaid": [
-            {
-              "amount": 16333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 69322.35,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #0 - Awarded",
-          "mostRecentPaymentDate": "2025-04-08T00:00:00Z",
           "extensions": {
             "stellar.technicalArchitecture": "https://drive.google.com/file/d/1135ZnDBmmrrotFWd_QcORgJyI1aFIwgp/view?usp=sharing",
             "stellar.productsAndServices": "Comunitaria empowers governments and NGOs to distribute funds via community currencies and stablecoins, fostering circular economies while addressing both local and cross-border financial needs. Our platform combines hyper-local resilience with global liquidity, enabling communities to thrive sustainably. Designed as a scalable tool for governments and large NGOs—like our partner Caritas operating in 160 countries—Comunitaria deploys community currencies for efficient fund distribution. Leveraging Soroban smart contracts, our system simplifies complex currency dynamics while remaining user-friendly. Initially a community currency is deployed as a \"multipurpose electronic voucher\" without compliance requirements for rapid implementation, to later deploy the Stellar Disbursement Platform to enable enhanced functionalities, including stablecoin transactions.\n\n#### Core Offerings:\n\n• Community Currencies: Programmable tokens for local transactions that ensure funds remain within communities, thereby supporting cultural and economic ties.\n\n• Stellar Disbursement Platform Integration: Facilitates rapid distribution of stablecoins for scenarios requiring immediate liquidity, such as disaster relief and cross-border aid.\n\nStakeholders Solutions:\n\n##### NGOs/Governments\n\n-   Service: Replace inefficient fund distribution systems with a transparent, fraud-resistant platform.\n    \n-   Product: A comprehensive dashboard offering multi-currency management (community tokens + stablecoins), real-time analytics, automated invoicing powered by Soroban, and integrated compliance tools.\n    \n-   Unique Advantage: Soroban smart contracts streamline complex workflows—such as conditional disbursements and expiration dates—that traditional systems struggle to manage.\n    \n\nBeneficiaries\n\n-   Service: Gain flexible access to funds via community currencies and stablecoins, allowing for local purchases as well as broader financial needs like paying utility bills or facilitating cross-border remittances.\n    \n-   Product: A mobile app (available on iOS and Android) featuring offline functionality, and a built-in marketplace connecting beneficiaries with local merchants.\n    \n\nLocal Merchants\n\n-   Service: Grow revenue by accepting community currencies—retained for local reinvestment—or converting tokens to fiat/stablecoins via Stellar’s decentralized exchange.\n    \n-   Product: A dedicated merchant app offering instant settlement, invoicing, and loyalty program integration.\n    \n\nBy uniting these core offerings and stakeholder solutions, Comunitaria provides a robust, scalable, and transparent platform that drives sustainable economic growth and empowers communities worldwide.",
@@ -251,7 +232,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/comunitariacom",
               "twitter": "https://x.com/Comunitaria_com"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 16333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 69322.35,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #0 - Awarded",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "2025-04-08T00:00:00Z"
           },
           "completionPercentage": 0.0
         },
@@ -265,24 +260,9 @@
           "projectName": "Flashback",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Decentralized Multi-Cloud Storage",
           "status": "Awarded",
-          "category": "Applications",
           "description": "The first multi-cloud platform, enabling Web3 and AI companies to manage and diversify their data storage across both centralized and decentralized cloud providers. We make it cheaper, simpler, and more flexible to store data.",
           "fundsApprovedInUSD": 120000.0,
-          "fundsPaid": [
-            {
-              "amount": 23333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 92422.77,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "4/11/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1dynfocftU-yaeby6mQFN9zGNXLm8ImEm/edit#heading=h.gjdgxs",
             "stellar.productsAndServices": "With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay’s ecosystem by leveraging Stellar’s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar’s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar’s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar’s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar’s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar’s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar’s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
@@ -302,7 +282,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/in/greep-pay/",
               "twitter": "https://x.com/greeppay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 23333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 92422.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "4/11/2025"
           },
           "completionPercentage": 33.0
         },
@@ -316,24 +310,9 @@
           "projectName": "human.tech",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Keys, Wallets and Identity for Stellar",
           "status": "Awarded",
-          "category": "Applications",
           "description": "human.tech provides infrastructure for digital rights such as privacy, security, and financial freedom",
           "fundsApprovedInUSD": 150000.0,
-          "fundsPaid": [
-            {
-              "amount": 23333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 92422.77,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "6/18/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1dynfocftU-yaeby6mQFN9zGNXLm8ImEm/edit#heading=h.gjdgxs",
             "stellar.productsAndServices": "With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay’s ecosystem by leveraging Stellar’s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar’s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar’s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar’s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar’s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar’s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar’s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
@@ -353,7 +332,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/in/greep-pay/",
               "twitter": "https://x.com/greeppay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 23333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 92422.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "6/18/2025"
           },
           "completionPercentage": 33.0
         },
@@ -367,24 +360,9 @@
           "projectName": "Unstoppable Wallet",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Stellar on Unstoppable Wallet",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Offers Stellar integration & cross-chain swaps to help crypto users manage assets & access DeFi seamlessly with a secure, open-source, non-custodial wallet.",
           "fundsApprovedInUSD": 128900.0,
-          "fundsPaid": [
-            {
-              "amount": 23333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 92422.77,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "6/18/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1dynfocftU-yaeby6mQFN9zGNXLm8ImEm/edit#heading=h.gjdgxs",
             "stellar.productsAndServices": "With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay’s ecosystem by leveraging Stellar’s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar’s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar’s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar’s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar’s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar’s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar’s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
@@ -404,7 +382,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/in/greep-pay/",
               "twitter": "https://x.com/greeppay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 23333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 92422.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "6/18/2025"
           },
           "completionPercentage": 33.0
         },
@@ -418,24 +410,9 @@
           "projectName": "Range: Cross-chain intelligence platform",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Cross-chain Explorer & Intelligence",
           "status": "Awarded",
-          "category": "Applications",
           "description": "This proposal seeks to integrate the Stellar ecosystem with Range’s Cross-Chain Explorer and Range Trail, our cross-chain, cross-ecosystem, real-time forensic intelligence platform.  The goal is to provide Stellar teams with new analytical and intelligence tools and improve the onboarding UX for new end users.",
           "fundsApprovedInUSD": 150000.0,
-          "fundsPaid": [
-            {
-              "amount": 23333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 92422.77,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "5/5/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1dynfocftU-yaeby6mQFN9zGNXLm8ImEm/edit#heading=h.gjdgxs",
             "stellar.productsAndServices": "With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay’s ecosystem by leveraging Stellar’s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar’s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar’s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar’s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar’s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar’s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar’s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
@@ -455,7 +432,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/in/greep-pay/",
               "twitter": "https://x.com/greeppay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 23333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 92422.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "5/5/2025"
           },
           "completionPercentage": 33.0
         },
@@ -469,24 +460,9 @@
           "projectName": "Mobula Labs",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Stellar Data Engine by Mobula",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Provides Stellar blockchain indexing & APIs to help developers access real-time & historical data easily, with structured insights",
           "fundsApprovedInUSD": 122000.0,
-          "fundsPaid": [
-            {
-              "amount": 23333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 92422.77,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "4/23/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1dynfocftU-yaeby6mQFN9zGNXLm8ImEm/edit#heading=h.gjdgxs",
             "stellar.productsAndServices": "With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay’s ecosystem by leveraging Stellar’s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar’s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar’s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar’s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar’s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar’s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar’s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
@@ -506,7 +482,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/in/greep-pay/",
               "twitter": "https://x.com/greeppay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 23333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 92422.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "4/23/2025"
           },
           "completionPercentage": 33.0
         },
@@ -520,23 +510,9 @@
           "projectName": "Upwealth",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Upwealth - Smart Contract SMAs",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Upwealth empowers financial advisors with Smart Contract SMAs, AI tools & DeFi for crypto investing. It bridges the crypto access gap in a fully SEC and AMF(EU) compliant framework",
           "fundsApprovedInUSD": 88000.0,
-          "fundsPaid": [
-            {
-              "amount": 23333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 92422.77,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1dynfocftU-yaeby6mQFN9zGNXLm8ImEm/edit#heading=h.gjdgxs",
             "stellar.productsAndServices": "With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay’s ecosystem by leveraging Stellar’s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar’s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar’s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar’s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar’s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar’s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar’s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
@@ -556,7 +532,20 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/in/greep-pay/",
               "twitter": "https://x.com/greeppay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 23333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 92422.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications"
           },
           "completionPercentage": 33.0
         },
@@ -570,24 +559,9 @@
           "projectName": "DappRadar",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Stellar DappRadar NFTs and DeFi tracking",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Listing and tracking Stellar’s NFTs trading, such as marketplaces, collections and sales, as well as displaying more DeFi-related data such as TVL.",
           "fundsApprovedInUSD": 95000.0,
-          "fundsPaid": [
-            {
-              "amount": 23333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 92422.77,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "6/20/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1dynfocftU-yaeby6mQFN9zGNXLm8ImEm/edit#heading=h.gjdgxs",
             "stellar.productsAndServices": "With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay’s ecosystem by leveraging Stellar’s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar’s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar’s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar’s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar’s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar’s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar’s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
@@ -607,7 +581,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/in/greep-pay/",
               "twitter": "https://x.com/greeppay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 23333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 92422.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "6/20/2025"
           },
           "completionPercentage": 33.0
         },
@@ -621,24 +609,9 @@
           "projectName": "NebulaVRF",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Randomness beacon for Soroban",
           "status": "Awarded",
-          "category": "Applications",
           "description": "NebulaVRF provides developers with a fully on-chain VRF for Soroban, ensuring secure, verifiable randomness without external oracles.",
           "fundsApprovedInUSD": 34000.0,
-          "fundsPaid": [
-            {
-              "amount": 23333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 92422.77,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "6/20/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1dynfocftU-yaeby6mQFN9zGNXLm8ImEm/edit#heading=h.gjdgxs",
             "stellar.productsAndServices": "With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay’s ecosystem by leveraging Stellar’s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar’s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar’s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar’s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar’s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar’s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar’s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
@@ -658,7 +631,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/in/greep-pay/",
               "twitter": "https://x.com/greeppay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 23333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 92422.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "6/20/2025"
           },
           "completionPercentage": 33.0
         },
@@ -672,24 +659,9 @@
           "projectName": "Laina",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "Laina to mainnet!",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Defi made simple. Laina - an open source loan platform focusing on single-token lending pools.",
           "fundsApprovedInUSD": 115000.0,
-          "fundsPaid": [
-            {
-              "amount": 23333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 92422.77,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "4/4/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1dynfocftU-yaeby6mQFN9zGNXLm8ImEm/edit#heading=h.gjdgxs",
             "stellar.productsAndServices": "With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay’s ecosystem by leveraging Stellar’s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar’s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar’s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar’s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar’s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar’s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar’s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
@@ -709,7 +681,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/in/greep-pay/",
               "twitter": "https://x.com/greeppay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 23333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 92422.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "4/4/2025"
           },
           "completionPercentage": 33.0
         },
@@ -723,23 +709,9 @@
           "projectName": "Autowhale",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "PMS & OEMS for DeFi & RWAs on Stellar",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Institutional adoption of Stellar's DeFi and RWA ecosystem is hindered by the lack of robust trading and portfolio management infrastructure. Autowhale bridges this gap by providing a comprehensive PMS (portfolio management system) and OEMS (order execution management system) tailored for institutional investors. With Autowhale PMS and EMS we are looking to build the infrastructure for those institutions to access Stellar’s DeFi and RWA ecosystem.",
           "fundsApprovedInUSD": 150000.0,
-          "fundsPaid": [
-            {
-              "amount": 23333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 92422.77,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1dynfocftU-yaeby6mQFN9zGNXLm8ImEm/edit#heading=h.gjdgxs",
             "stellar.productsAndServices": "With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay’s ecosystem by leveraging Stellar’s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar’s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar’s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar’s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar’s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar’s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar’s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
@@ -759,7 +731,20 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/in/greep-pay/",
               "twitter": "https://x.com/greeppay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 23333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 92422.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications"
           },
           "completionPercentage": 33.0
         },
@@ -773,24 +758,9 @@
           "projectName": "JPool",
           "createdAt": "2024-12-01T00:00:00Z",
           "contentURI": "",
-          "title": "JLending Protocol on Stellar",
           "status": "Awarded",
-          "category": "Applications",
           "description": "Efficient lending protocol with a looping feature ensuring seamless service and reliable security for lenders and borrowers",
           "fundsApprovedInUSD": 145000.0,
-          "fundsPaid": [
-            {
-              "amount": 23333.33,
-              "denomination": "USD"
-            },
-            {
-              "amount": 92422.77,
-              "denomination": "XLM"
-            }
-          ],
-          "awardType": "Build",
-          "latestTranche": "Pre-Launch #1 - MVP",
-          "mostRecentPaymentDate": "4/4/2025",
           "extensions": {
             "stellar.technicalArchitecture": "https://docs.google.com/document/d/1dynfocftU-yaeby6mQFN9zGNXLm8ImEm/edit#heading=h.gjdgxs",
             "stellar.productsAndServices": "With the SCF Build award, we aim to develop a stablecoin-powered Point-of-Sale (POS) system that enables merchants serving African diasporans to on-ramp any African currency as stablecoins and seamlessly off-ramp in their preferred fiat currency (USD, EUR, or TRY). Merchants can withdraw funds directly to their bank accounts or in cash from any MoneyGram location.\n\n  \n\nThis submission will expand GreepPay’s ecosystem by leveraging Stellar’s blockchain and its anchor network to provide fast, low-cost, and borderless payments, improving financial accessibility for African consumers and global merchants.\n\n  \n\n#### 1. Cross-Border Payments Using Stellar and Its Anchors\n\nGreepPay enables African consumers to pay international merchants in their local currencies, while merchants receive funds in stablecoins (USDC) or directly in their preferred fiat currency.\n\n-   Yellow Card facilitates on-ramping of African currencies into Stellar’s network.\n    \n-   MyKobo and Circle provide USD and EUR off-ramping services, ensuring merchants receive fiat settlements directly into their bank accounts.\n    \n-   Stellar’s blockchain enables instant, low-cost, and transparent transactions, eliminating currency conversion barriers for African businesses and consumers.\n    \n\n2. User and Merchant Accounts on Stellar\n\nGreepPay utilizes Stellar’s blockchain for secure, transparent, and scalable transactions. Each user and merchant will have a blockchain-powered account, enabling direct payments with low fees and high reliability, compared to traditional financial rails.\n\n#### 3. Greep Reward Token for Gamification\n\n#### To drive engagement, we will launch the Greep Reward Token on Stellar. This token rewards transactions and merchant adoption, creating an incentive-driven ecosystem. Stellar’s low-cost token infrastructure ensures efficient distribution and management.\n\n#### 4. POS System and QR Code Payments\n\n#### Merchants will use a soft POS app (Android/iOS) to accept QR code payments, with transactions settled on Stellar’s blockchain. This provides fast, secure, and cost-effective payments, eliminating the need for expensive hardware-based POS systems.\n\n#### 5. Compliance via KYC/AML Verification\n\nGreepPay integrates third-party KYC/AML services while leveraging Stellar’s transparent ledger to ensure regulatory compliance. This allows for secure, frictionless onboarding of merchants and users, reducing fraud risks while maintaining trust.",
@@ -810,7 +780,21 @@
             "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/in/greep-pay/",
               "twitter": "https://x.com/greeppay"
-            }
+            },
+            "org.stellar.communityfund.awardType": "Build",
+            "org.stellar.communityfund.fundsPaid": [
+              {
+                "amount": 23333.33,
+                "denomination": "USD"
+              },
+              {
+                "amount": 92422.77,
+                "denomination": "XLM"
+              }
+            ],
+            "org.stellar.communityfund.latestTranche": "Pre-Launch #1 - MVP",
+            "org.stellar.communityfund.category": "Applications",
+            "org.stellar.communityfund.mostRecentPaymentDate": "4/4/2025"
           },
           "completionPercentage": 33.0
         }
