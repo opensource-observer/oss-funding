@@ -42,8 +42,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Infrastructure & Services",
           "extensions": {
-            "teamMembers": "Brian, Caspar, Ukkashah Quadri",
-            "urls": {
+            "stellar.teamMembers": "Brian, Caspar, Ukkashah Quadri",
+            "stellar.urls": {
               "website": "https://posted.app"
             }
           }
@@ -83,8 +83,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Alex Mootz",
-            "urls": {
+            "stellar.teamMembers": "Alex Mootz",
+            "stellar.urls": {
               "website": "https://github.com/script3/soroban-governor",
               "codeRepository": "https://github.com/script3/soroban-governor"
             }
@@ -125,13 +125,13 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Evan Cooper Hudson",
-            "urls": {
+            "stellar.teamMembers": "Evan Cooper Hudson",
+            "stellar.urls": {
               "website": "https://givecredits.vercel.app",
               "codeRepository": "https://github.com/CollaborativeEconomics/give-credit",
               "pitchDeck": "https://docs.google.com/presentation/d/16Rs3PAyj7fjI-Q6fCk5jVdqLukWxrCcy9ZORQrkQI18/edit?usp=sharing"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "twitter": "https://x.com/c4collabecon"
             }
           }
@@ -189,8 +189,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Jeevan Jutla",
-            "urls": {
+            "stellar.teamMembers": "Jeevan Jutla",
+            "stellar.urls": {
               "website": "https://github.com/jjjutla/GeckoFuzz",
               "codeRepository": "https://github.com/jjjutla/GeckoFuzz"
             }
@@ -249,11 +249,11 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Jorge Antonio Coscolluela",
-            "urls": {
+            "stellar.teamMembers": "Jorge Antonio Coscolluela",
+            "stellar.urls": {
               "website": "https://coins.ph/"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/coins-ph/",
               "twitter": "https://twitter.com/coinsph",
               "discord": "https://discord.gg/coinsph"
@@ -295,8 +295,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Manuel Ignacio Sisto Bandin, Orlando Cesar Sosa",
-            "urls": {
+            "stellar.teamMembers": "Manuel Ignacio Sisto Bandin, Orlando Cesar Sosa",
+            "stellar.urls": {
               "website": "https://stellar-chef.github.io/stellar-chef",
               "codeRepository": "https://github.com/stellar-chef/stellar-chef"
             }
@@ -337,8 +337,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Bence Nagy, Christian Rogobete",
-            "urls": {
+            "stellar.teamMembers": "Bence Nagy, Christian Rogobete",
+            "stellar.urls": {
               "website": "https://github.com/Argo-Navis-Dev/php-anchor-sdk",
               "codeRepository": "https://github.com/Argo-Navis-Dev/php-anchor-sdk"
             }
@@ -379,12 +379,12 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Infrastructure & Services",
           "extensions": {
-            "teamMembers": "Christos  Salaforis, Christos Salaforis, Christos  Salaforis",
-            "urls": {
+            "stellar.teamMembers": "Christos  Salaforis, Christos Salaforis, Christos  Salaforis",
+            "stellar.urls": {
               "website": "https://www.ortege.ai/",
               "codeRepository": "https://github.com/Ortege-xyz"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "twitter": "https://twitter.com/ortegeai"
             }
           }
@@ -424,8 +424,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Infrastructure & Services",
           "extensions": {
-            "teamMembers": "Adam Pluemer, Andreas Pluemer, David Paul Hosler",
-            "urls": {
+            "stellar.teamMembers": "Adam Pluemer, Andreas Pluemer, David Paul Hosler",
+            "stellar.urls": {
               "website": "https://github.com/tigerblocks/BBF/tree/main/KYCtoken",
               "codeRepository": "https://github.com/tigerblocks/BBF"
             }
@@ -466,11 +466,11 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Ben Lucky Eluan",
-            "urls": {
+            "stellar.teamMembers": "Ben Lucky Eluan",
+            "stellar.urls": {
               "website": "https://iflux.app"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/iflux-pay/",
               "twitter": "https://twitter.com/ifluxdotapp?lang=en"
             }
@@ -511,12 +511,12 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Dima, Gleb Pitsevich",
-            "urls": {
+            "stellar.teamMembers": "Dima, Gleb Pitsevich",
+            "stellar.urls": {
               "website": "https://lobstr.co/",
               "codeRepository": "https://github.com/Lobstrco"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "twitter": "https://twitter.com/ultrastellar"
             }
           }
@@ -556,13 +556,15 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Infrastructure & Services",
           "extensions": {
-            "productsAndServices": "We will leverage the IntellectEU Catalyst Blockchain Manager to allow both technical and non-technical users to configure & deploy various elements of the Stellar network, including validator nodes & Horizon API server instances, via an intuitive UI. Additionally, developers would be able to deploy their Soroban smart contracts on Futurenet & Production networks using the same UI. It would vastly simplify the deployment & management of Stellar network elements & Soroban contracts. The users will have the option of deploying network elements in SaaS mode (managed by IntellectEU) on popular cloud providers as well as on-premise. Users would be able to deploy & manage their custom applications (front-end & back-end) using the UI. The Catalyst - Stellar application would represent Kubernetes Native class of applications. It will be specifically designed to run on Kubernetes platforms, using and extending the functionalities of the Kubernetes API and components to facilitate Stellar infrastructure management. Catalyst's existing CI/CD processes would be reused and extended to support the deployments.\n\nThe EcoXChange Application would be based on the Stellar blockchain and allow enterprises to manage their carbon emissions, carbon offsets, and carbon credits. The enterprise would have regulated tokens/assets issued on Stellar that could be traded within the enterprise as well as on the secondary market. The application would allow the creation of accounts on the Stellar network, establish trustlines, issue & distribute tokens/assets, maintain carbon emissions for manufacturing outcomes, and allow the trading of tokens/assets. The issuance, trade (via buy/sell offers), and other features will be built and executed via custom Soroban contracts that the enterprise can upload using the Catalyst UI. In addition, the enterprise will deploy one or more Stellar nodes to increase network health and decentralization, as well as Horizon API server instances for reliability. The application's front end and back end will be deployed using Catalyst as well.",
-            "teamMembers": "Jonathan Mayeur, Oleksandr Yamkoviy",
-            "urls": {
+            "stellar.technical": {
+              "productsAndServices": "We will leverage the IntellectEU Catalyst Blockchain Manager to allow both technical and non-technical users to configure & deploy various elements of the Stellar network, including validator nodes & Horizon API server instances, via an intuitive UI. Additionally, developers would be able to deploy their Soroban smart contracts on Futurenet & Production networks using the same UI. It would vastly simplify the deployment & management of Stellar network elements & Soroban contracts. The users will have the option of deploying network elements in SaaS mode (managed by IntellectEU) on popular cloud providers as well as on-premise. Users would be able to deploy & manage their custom applications (front-end & back-end) using the UI. The Catalyst - Stellar application would represent Kubernetes Native class of applications. It will be specifically designed to run on Kubernetes platforms, using and extending the functionalities of the Kubernetes API and components to facilitate Stellar infrastructure management. Catalyst's existing CI/CD processes would be reused and extended to support the deployments.\n\nThe EcoXChange Application would be based on the Stellar blockchain and allow enterprises to manage their carbon emissions, carbon offsets, and carbon credits. The enterprise would have regulated tokens/assets issued on Stellar that could be traded within the enterprise as well as on the secondary market. The application would allow the creation of accounts on the Stellar network, establish trustlines, issue & distribute tokens/assets, maintain carbon emissions for manufacturing outcomes, and allow the trading of tokens/assets. The issuance, trade (via buy/sell offers), and other features will be built and executed via custom Soroban contracts that the enterprise can upload using the Catalyst UI. In addition, the enterprise will deploy one or more Stellar nodes to increase network health and decentralization, as well as Horizon API server instances for reliability. The application's front end and back end will be deployed using Catalyst as well."
+            },
+            "stellar.teamMembers": "Jonathan Mayeur, Oleksandr Yamkoviy",
+            "stellar.urls": {
               "website": "https://www.catalyst.intellecteu.com",
               "videoURL": "https://youtu.be/pMpZbbcxwcA"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/uas/login?session_redirect=%2Fshowcase%2F73072309"
             }
           }
@@ -602,12 +604,12 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Mark Jones",
-            "urls": {
+            "stellar.teamMembers": "Mark Jones",
+            "stellar.urls": {
               "website": "https://hanawallet.io/",
               "codeRepository": "https://github.com/Hana-Technology"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "twitter": "https://twitter.com/hanawallet"
             }
           }
@@ -647,11 +649,11 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Education & Community",
           "extensions": {
-            "teamMembers": "Roberto Garcia Sanz",
-            "urls": {
+            "stellar.teamMembers": "Roberto Garcia Sanz",
+            "stellar.urls": {
               "website": "https://www.youtube.com/@RobertoSanzCriptomonedas"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "twitter": "https://twitter.com/CriptoRoberto"
             }
           }
@@ -709,8 +711,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Melyn McKay",
-            "urls": {
+            "stellar.teamMembers": "Melyn McKay",
+            "stellar.urls": {
               "website": "coalapay.org"
             }
           }
@@ -750,11 +752,11 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Ryan Soury",
-            "urls": {
+            "stellar.teamMembers": "Ryan Soury",
+            "stellar.urls": {
               "website": "https://www.usher.so"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/usherlabs/",
               "twitter": "https://twitter.com/usher_web3",
               "discord": "https://discord.com/invite/gHDPs569NR"
@@ -796,8 +798,8 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Alvaro Martinez Esteban",
-            "urls": {
+            "stellar.teamMembers": "Alvaro Martinez Esteban",
+            "stellar.urls": {
               "website": "www.borderlesspayments.xyz",
               "codeRepository": "https://github.com/elsa-care"
             }
@@ -838,12 +840,12 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Danilo Lessa Bernardineli, Kelsie Nabben, Jakob Hackel",
-            "urls": {
+            "stellar.teamMembers": "Danilo Lessa Bernardineli, Kelsie Nabben, Jakob Hackel",
+            "stellar.urls": {
               "website": "https://stellarcommunityfund.gitbook.io/module-library/",
               "codeRepository": "https://github.com/BlockScience/gov-modules-demos"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "twitter": "https://twitter.com/block_science"
             }
           }
@@ -883,8 +885,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Financial Protocols",
           "extensions": {
-            "teamMembers": "Alan Avidan, Jamiel Sheikh, Alan Avidan",
-            "urls": {
+            "stellar.teamMembers": "Alan Avidan, Jamiel Sheikh, Alan Avidan",
+            "stellar.urls": {
               "website": "WWW.RAMM.ai"
             }
           }
@@ -924,12 +926,12 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Infrastructure & Services",
           "extensions": {
-            "teamMembers": "Pavlo Velykyi",
-            "urls": {
+            "stellar.teamMembers": "Pavlo Velykyi",
+            "stellar.urls": {
               "website": "https://allbridge.io/",
               "codeRepository": "https://github.com/allbridge-io"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "discord": "https://discord.com/invite/ASuPY8d3E6"
             }
           }
@@ -969,8 +971,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Christian Rogobete",
-            "urls": {
+            "stellar.teamMembers": "Christian Rogobete",
+            "stellar.urls": {
               "website": "https://github.com/Soneso/stellar_wallet_flutter_sdk",
               "codeRepository": "https://github.com/Soneso/stellar_wallet_flutter_sdk"
             }
@@ -1011,8 +1013,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Alexey Amyotov",
-            "urls": {
+            "stellar.teamMembers": "Alexey Amyotov",
+            "stellar.urls": {
               "website": "recyclable.credit"
             }
           }
@@ -1052,8 +1054,8 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Alessandro Badalamenti",
-            "urls": {
+            "stellar.teamMembers": "Alessandro Badalamenti",
+            "stellar.urls": {
               "website": "https://www.test-hub.typiqo.it/"
             }
           }
@@ -1093,8 +1095,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Barth Houot",
-            "urls": {
+            "stellar.teamMembers": "Barth Houot",
+            "stellar.urls": {
               "website": "https://adapptable.dev/"
             }
           }
@@ -1134,12 +1136,12 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Nicolas Elvino",
-            "urls": {
+            "stellar.teamMembers": "Nicolas Elvino",
+            "stellar.urls": {
               "website": "https://app-triiyostellar-ui-payasyougo-ae.azurewebsites.net/",
               "codeRepository": "Not available to the public (Private Repository on Azure DevOps)"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "linkedIn": "https://au.linkedin.com/company/triiyo",
               "twitter": "https://twitter.com/hellotriiyo?lang=en"
             }
@@ -1180,11 +1182,11 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Jordan James Gray",
-            "urls": {
+            "stellar.teamMembers": "Jordan James Gray",
+            "stellar.urls": {
               "website": "https://linksta.cc/@Ziriz"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "twitter": "https://twitter.com/Ziriz_App"
             }
           }
@@ -1224,12 +1226,12 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Thomas Luijken, Bas Jan Lubbers",
-            "urls": {
+            "stellar.teamMembers": "Thomas Luijken, Bas Jan Lubbers",
+            "stellar.urls": {
               "website": "https://github.com/Baseflow/stellar-rust-sdk",
               "codeRepository": "https://github.com/Baseflow/stellar-rust-sdk"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/baseflowit"
             }
           }
@@ -1269,7 +1271,7 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Shubh Brar"
+            "stellar.teamMembers": "Shubh Brar"
           }
         },
         {
@@ -1307,8 +1309,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Education & Community",
           "extensions": {
-            "teamMembers": "Waleska Fedora Cerpa Monrroy",
-            "urls": {
+            "stellar.teamMembers": "Waleska Fedora Cerpa Monrroy",
+            "stellar.urls": {
               "website": "https://stellarstrides.xyz"
             }
           }

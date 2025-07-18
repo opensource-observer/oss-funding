@@ -78,13 +78,13 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Syed Zain Haider",
-            "urls": {
+            "stellar.teamMembers": "Syed Zain Haider",
+            "stellar.urls": {
               "website": "https://dropzey.com/",
               "codeRepository": "https://github.com/zainh332/dropzey",
               "videoURL": "https://www.youtube.com/watch?v=02n5_1r5tMM"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "twitter": "https://twitter.com/i/flow/login?redirect_after_login=%2Fdropzeyofficial"
             }
           }
@@ -124,8 +124,8 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Ignacio Garcia Leon, Michal Fiuk, Xun Wu",
-            "urls": {
+            "stellar.teamMembers": "Ignacio Garcia Leon, Michal Fiuk, Xun Wu",
+            "stellar.urls": {
               "website": "https://www.sorobanexp.com/",
               "codeRepository": "https://github.com/sorobanexp/explorer",
               "videoURL": "https://drive.google.com/file/d/1L0v8skd_7eBzKVXCVD1IysGw-VxkGkcd/view?usp=sharing"
@@ -185,8 +185,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Alexey Sirotkin, dcromp",
-            "urls": {
+            "stellar.teamMembers": "Alexey Sirotkin, dcromp",
+            "stellar.urls": {
               "website": "https://gladiusclub.com/",
               "codeRepository": "https://github.com/orgs/GladiusClub/repositories",
               "videoURL": "https://www.loom.com/share/768990a8fadb45e497967b69232c5332"
@@ -246,13 +246,13 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Financial Protocols",
           "extensions": {
-            "teamMembers": "Jason Cudmore",
-            "urls": {
+            "stellar.teamMembers": "Jason Cudmore",
+            "stellar.urls": {
               "website": "https://aqua.network/",
               "codeRepository": "https://github.com/AquaToken",
               "videoURL": "https://www.youtube.com/watch?v=RMtEKc106pw"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "twitter": "https://twitter.com/aqua_token",
               "discord": "https://discord.gg/sgzFscHp4C"
             }
@@ -293,13 +293,13 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "Julian Clatro, Jeronimo Lanza",
-            "urls": {
+            "stellar.teamMembers": "Julian Clatro, Jeronimo Lanza",
+            "stellar.urls": {
               "website": "https://nobak.net",
               "codeRepository": "https://github.com/nobak-net/nobak-mobile",
               "videoURL": "https://vimeo.com/902500425"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "discord": "https://discord.com/invite/GR5cB3y2"
             }
           }
@@ -339,8 +339,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Infrastructure & Services",
           "extensions": {
-            "teamMembers": "Ilia Darsavelidze, libratus",
-            "urls": {
+            "stellar.teamMembers": "Ilia Darsavelidze, libratus",
+            "stellar.urls": {
               "website": "https://skeeper.xyz",
               "videoURL": "https://youtu.be/-6oxt2YZGR8"
             }
@@ -381,12 +381,12 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Christian Nunez, Francesco Piccoli",
-            "urls": {
+            "stellar.teamMembers": "Christian Nunez, Francesco Piccoli",
+            "stellar.urls": {
               "website": "https://web3soc.anchainai.com/",
               "videoURL": "https://youtu.be/ssOgcER4PdE, https://youtu.be/k8-bD8_cKZQ"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/anchainai/",
               "twitter": "https://twitter.com/AnChainAI"
             }
@@ -445,8 +445,8 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Salaheldin Soliman",
-            "urls": {
+            "stellar.teamMembers": "Salaheldin Soliman",
+            "stellar.urls": {
               "website": "https://github.com/hyperledger/solang",
               "codeRepository": "https://github.com/hyperledger/solang",
               "videoURL": "https://youtu.be/QUwnRkOhRok"
@@ -488,8 +488,8 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Financial Protocols",
           "extensions": {
-            "teamMembers": "Pavlo Velykyi, Andriy Velykyi",
-            "urls": {
+            "stellar.teamMembers": "Pavlo Velykyi, Andriy Velykyi",
+            "stellar.urls": {
               "website": "https://allbridge.io/",
               "codeRepository": "https://github.com/allbridge-io",
               "videoURL": "https://youtu.be/OC5s990JhL8"
@@ -531,8 +531,8 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Infrastructure & Services",
           "extensions": {
-            "teamMembers": "Edward Kim, Ignacio Garcia Leon",
-            "urls": {
+            "stellar.teamMembers": "Edward Kim, Ignacio Garcia Leon",
+            "stellar.urls": {
               "website": "https://github.com/constellation-protocol/constellation-protocol",
               "codeRepository": "https://github.com/constellation-protocol/constellation-protocol",
               "videoURL": "https://www.loom.com/share/9f55cbc3eace4d24b889dba06835a5d2?sid=9b1d0539-171e-4c64-9c1f-5c68b083e28c"
@@ -574,13 +574,13 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Valeria Caracciolo",
-            "urls": {
+            "stellar.teamMembers": "Valeria Caracciolo",
+            "stellar.urls": {
               "website": "https://www.coinfabrik.com/products/scout/",
               "codeRepository": "https://github.com/CoinFabrik/scout-soroban",
               "videoURL": "https://drive.google.com/file/d/1xHL6sH5aOrXtoJzGcMnD6iMtV0Bm2ETO/view"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "linkedIn": "https://ar.linkedin.com/company/coinfabrik",
               "twitter": "https://twitter.com/coinfabrik"
             }
@@ -621,12 +621,12 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Education & Community",
           "extensions": {
-            "teamMembers": "Phil Kwok, Dom Kwok",
-            "urls": {
+            "stellar.teamMembers": "Phil Kwok, Dom Kwok",
+            "stellar.urls": {
               "website": "https://www.easya.io",
               "videoURL": "https://youtu.be/4Rna_L-HS6I"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/company/30108824/",
               "twitter": "https://twitter.com/EasyA_App"
             }
@@ -667,8 +667,8 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Vanessa Aguilar",
-            "urls": {
+            "stellar.teamMembers": "Vanessa Aguilar",
+            "stellar.urls": {
               "website": "https://github.com/GaloisInc/formal-verso",
               "codeRepository": "https://github.com/GaloisInc/formal-verso",
               "videoURL": "https://www.youtube.com/watch?v=AMzp4cGveXc"
@@ -710,12 +710,12 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Education & Community",
           "extensions": {
-            "teamMembers": "Ankit Raj, Kaan Kaçar, Tim Hodgson",
-            "urls": {
+            "stellar.teamMembers": "Ankit Raj, Kaan Kaçar, Tim Hodgson",
+            "stellar.urls": {
               "website": "risein.com",
               "videoURL": "https://www.youtube.com/watch?v=NZmrbrkmE_Q"
             },
-            "socialMedia": {
+            "stellar.socialMedia": {
               "linkedIn": "https://www.linkedin.com/school/risein/",
               "twitter": "https://x.com/riseinweb3",
               "discord": "https://discord.com/invite/RQcmHrTJGc"
@@ -757,8 +757,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Financial Protocols",
           "extensions": {
-            "teamMembers": "Antoine Lieber, Antoine Lieber",
-            "urls": {
+            "stellar.teamMembers": "Antoine Lieber, Antoine Lieber",
+            "stellar.urls": {
               "website": "https://eascrow.webflow.io/",
               "videoURL": "https://youtu.be/br3yTDLNOX0"
             }
@@ -799,8 +799,8 @@
           "awardType": "Legacy v5.0 Community Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Arda Nakisci, Ignacio Garcia Leon, Michal Fiuk",
-            "urls": {
+            "stellar.teamMembers": "Arda Nakisci, Ignacio Garcia Leon, Michal Fiuk",
+            "stellar.urls": {
               "website": "https://www.sorosplits.xyz/",
               "codeRepository": "https://github.com/findolor/sorosplits-contracts",
               "videoURL": "https://drive.google.com/file/d/1-_O_PoJ3UqjfhqTy3iv_tTNEGeovZafB/view?usp=sharing"
@@ -842,7 +842,7 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Applications",
           "extensions": {
-            "teamMembers": "TokenWay, Marek Hauzr, Michael Levi, Guillermo Alda"
+            "stellar.teamMembers": "TokenWay, Marek Hauzr, Michael Levi, Guillermo Alda"
           }
         },
         {
@@ -880,8 +880,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Developer Tooling",
           "extensions": {
-            "teamMembers": "Jaylem Brar, Kaan Ulupinar",
-            "urls": {
+            "stellar.teamMembers": "Jaylem Brar, Kaan Ulupinar",
+            "stellar.urls": {
               "website": "https://www.figma.com/file/MCNoYBwA8wSAx0Qu4lIB1W/Styx-Design?type=design&node-id=0%3A1&mode=design&t=eQKAcKpzSPhTbLLR-1",
               "videoURL": "https://youtu.be/2i6xIBd5aiI"
             }
@@ -922,8 +922,8 @@
           "awardType": "Legacy v5.0 Activation Award",
           "category": "Education & Community",
           "extensions": {
-            "teamMembers": "Fabricio Leonardo Sodano Pascazi",
-            "urls": {
+            "stellar.teamMembers": "Fabricio Leonardo Sodano Pascazi",
+            "stellar.urls": {
               "website": "https://www.figma.com/file/oUN8gcL7860l3th8JMiS7g/ScaleMote-Design-Sprint---Redefinition-2?type=whiteboard&node-id=0-1",
               "videoURL": "https://www.youtube.com/watch?v=P_C1-tBpLAI"
             }

@@ -1,463 +1,953 @@
 {
-    "@context": "http://www.daostar.org/schemas",
-    "name": "Stellar",
-    "type": "Foundation",
-    "grantPools": [
+  "@context": "http://www.daostar.org/schemas",
+  "name": "Stellar",
+  "type": "Foundation",
+  "grantPools": [
+    {
+      "type": "GrantPool",
+      "name": "scf-23",
+      "applications": [
         {
-            "type": "GrantPool",
-            "name": "scf-23",
-            "applications": [
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:1",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recziPrVKcJ52HPDT",
-                    "projectId": "daoip5:stellar:project:aurapay",
-                    "projectName": "Aura | A Stellar EURC on-ramp II",
-                    "createdAt": "2024-02-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recziPrVKcJ52HPDT",
-                    "fundsApproved": [
-                        {
-                            "amount": 774829.1,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 84000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:2",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recC3UjMDACs8QAc5",
-                    "projectId": "daoip5:stellar:project:mykobo",
-                    "projectName": "Circle EURC Ramps",
-                    "createdAt": "2024-01-24T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recC3UjMDACs8QAc5",
-                    "fundsApproved": [
-                        {
-                            "amount": 449149.93,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 50000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:3",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recERxnKE8etaSrMs",
-                    "projectId": "daoip5:stellar:project:dropzey",
-                    "projectName": "Dropzey",
-                    "createdAt": "2024-01-30T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recERxnKE8etaSrMs",
-                    "fundsApproved": [
-                        {
-                            "amount": 335132.31,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 38500
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:4",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec85RVkmAjDXl8T5",
-                    "projectId": "daoip5:stellar:project:soroban-explorer",
-                    "projectName": "Soroban Explorer II",
-                    "createdAt": "2024-02-13T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec85RVkmAjDXl8T5",
-                    "fundsApproved": [
-                        {
-                            "amount": 905702.8,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 100000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:5",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recdGy1JdPi0qtRpj",
-                    "projectId": "daoip5:stellar:project:sanctum",
-                    "projectName": "Soroban contracts with secrets",
-                    "createdAt": "2024-01-31T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recdGy1JdPi0qtRpj",
-                    "fundsApproved": [
-                        {
-                            "amount": 456675.2,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 50000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:6",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfsyLeAtOamI3vm",
-                    "projectId": "daoip5:stellar:project:gladius",
-                    "projectName": "Gladius: play, learn, earn",
-                    "createdAt": "2024-01-30T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfsyLeAtOamI3vm",
-                    "fundsApproved": [
-                        {
-                            "amount": 391713.09,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 45000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:7",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckZmrJK4MDVG3lE",
-                    "projectId": "daoip5:stellar:project:paygo-crypto",
-                    "projectName": "PAYGOCrypto - Stellar",
-                    "createdAt": "2024-01-30T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckZmrJK4MDVG3lE",
-                    "fundsApproved": [
-                        {
-                            "amount": 145369.1,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 16700
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:8",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recmDHN0X0EQoxVWw",
-                    "projectId": "daoip5:stellar:project:aquarius",
-                    "projectName": "Aquarius AMM Launch on Soroban",
-                    "createdAt": "2024-02-07T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recmDHN0X0EQoxVWw",
-                    "fundsApproved": [
-                        {
-                            "amount": 876595.8,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 94000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:9",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsBO1vLdYFZMucB",
-                    "projectId": "daoip5:stellar:project:nobak",
-                    "projectName": "Nobak: Custodial Wallet Signer",
-                    "createdAt": "2024-01-24T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsBO1vLdYFZMucB",
-                    "fundsApproved": [
-                        {
-                            "amount": 309913.45,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 34500
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:10",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recx1FddyJA3dibUN",
-                    "projectId": "daoip5:stellar:project:skeeper-a-keeper-platform",
-                    "projectName": "Skeeper - a keeper platform",
-                    "createdAt": "2024-01-30T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recx1FddyJA3dibUN",
-                    "fundsApproved": [
-                        {
-                            "amount": 326427.6,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 37500
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:11",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJS3CwdA4WWlQZx",
-                    "projectId": "daoip5:stellar:project:anchain-ai",
-                    "projectName": "AnChain.AI Web3SOC completion",
-                    "createdAt": "2024-03-21T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJS3CwdA4WWlQZx",
-                    "fundsApproved": [
-                        {
-                            "amount": 712250.71,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 95000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:12",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKACcbgfiocc06L",
-                    "projectId": "daoip5:stellar:project:stellarchain-io",
-                    "projectName": "Soroban Contract Auditor",
-                    "createdAt": "2024-02-14T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKACcbgfiocc06L",
-                    "fundsApproved": [
-                        {
-                            "amount": 881593.2,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 100000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:13",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKGeG7HDjxMYAaM",
-                    "projectId": "daoip5:stellar:project:solidity-contracts-on-soroban",
-                    "projectName": "Solidity Contracts on Soroban II",
-                    "createdAt": "2024-02-07T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKGeG7HDjxMYAaM",
-                    "fundsApproved": [
-                        {
-                            "amount": 158533.3,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 17000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:14",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKNLK0K1U0wTGlU",
-                    "projectId": "daoip5:stellar:project:allbridge-core",
-                    "projectName": "Allbridge Core II",
-                    "createdAt": "2024-02-07T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKNLK0K1U0wTGlU",
-                    "fundsApproved": [
-                        {
-                            "amount": 932548.7,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 100000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:15",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recL80NY0OnJCAbHG",
-                    "projectId": "daoip5:stellar:project:constellation-protocol",
-                    "projectName": "Constellation Protocol",
-                    "createdAt": "2024-02-15T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recL80NY0OnJCAbHG",
-                    "fundsApproved": [
-                        {
-                            "amount": 861015,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 100000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:16",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recPOG1QJ1ggXcygp",
-                    "projectId": "daoip5:stellar:project:scout",
-                    "projectName": "Scout - BugFighter for Soroban",
-                    "createdAt": "2024-02-14T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recPOG1QJ1ggXcygp",
-                    "fundsApproved": [
-                        {
-                            "amount": 881593.2,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 100000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:17",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTQdI9l50TRAYin",
-                    "projectId": "daoip5:stellar:project:easya",
-                    "projectName": "EasyA - #60DaysOfSoroban",
-                    "createdAt": "2024-02-26T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTQdI9l50TRAYin",
-                    "fundsApproved": [
-                        {
-                            "amount": 818119.2,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 95000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:18",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recY8VYgnjVw1jIBz",
-                    "projectId": "daoip5:stellar:project:formal-verso",
-                    "projectName": "Formal VerSo - Phase 1",
-                    "createdAt": "2024-02-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recY8VYgnjVw1jIBz",
-                    "fundsApproved": [
-                        {
-                            "amount": 920801.4,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 99825
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:19",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5xQJ2j8188Qcj9",
-                    "projectId": "daoip5:stellar:project:rise-in",
-                    "projectName": "Rise In - Developer Growth",
-                    "createdAt": "2024-01-30T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5xQJ2j8188Qcj9",
-                    "fundsApproved": [
-                        {
-                            "amount": 435236.76,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 50000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:20",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5SQUCL0doQ1r5M",
-                    "projectId": "daoip5:stellar:project:eascrow",
-                    "projectName": "Eascrow",
-                    "createdAt": "2024-01-30T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5SQUCL0doQ1r5M",
-                    "fundsApproved": [
-                        {
-                            "amount": 425661.55,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 48900
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:21",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receJWYlwJJb00Wrh",
-                    "projectId": "daoip5:stellar:project:sorosplits",
-                    "projectName": "SoroSplits II",
-                    "createdAt": "2024-02-13T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receJWYlwJJb00Wrh",
-                    "fundsApproved": [
-                        {
-                            "amount": 851360.6,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 94000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:22",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfgOVFwu6cukrrT",
-                    "projectId": "daoip5:stellar:project:tauvlo",
-                    "projectName": "Tauvlo",
-                    "createdAt": "2024-02-07T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfgOVFwu6cukrrT",
-                    "fundsApproved": [
-                        {
-                            "amount": 419646.9,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 45000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:23",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reci8OPZVGDgt0ojE",
-                    "projectId": "daoip5:stellar:project:styx-a-soroban-cosmos-bridge",
-                    "projectName": "Styx: A Soroban-Cosmos Bridge",
-                    "createdAt": "2024-02-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reci8OPZVGDgt0ojE",
-                    "fundsApproved": [
-                        {
-                            "amount": 396638.7,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 43000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:24",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLcRUIYogQT6DHs",
-                    "projectId": "daoip5:stellar:project:bigger-startup-camp-2-0",
-                    "projectName": "Startup Camp 2.0",
-                    "createdAt": "2024-02-05T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLcRUIYogQT6DHs",
-                    "fundsApproved": [
-                        {
-                            "amount": 461207.8,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 50000
-                },
-                {
-                    "type": "GrantApplication",
-                    "id": "daoip5:stellar:grantApplication:25",
-                    "grantPoolId": "daoip5:stellar:grantPool:scf-23",
-                    "grantPoolName": "scf-23",
-                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTmMM8Qbio6zNHx",
-                    "projectId": "daoip5:stellar:project:zentra",
-                    "projectName": "Tide Stream Payment",
-                    "createdAt": "2024-01-31T00:00:00Z",
-                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTmMM8Qbio6zNHx",
-                    "fundsApproved": [
-                        {
-                            "amount": 166229.8,
-                            "denomination": "XLM"
-                        }
-                    ],
-                    "fundsApprovedInUSD": 18200
-                }
-            ]
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:1",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recziPrVKcJ52HPDT",
+          "projectId": "daoip5:stellar:project:aurapay",
+          "projectName": "Aura | A Stellar EURC on-ramp II",
+          "createdAt": "2024-02-05T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recziPrVKcJ52HPDT",
+          "fundsApproved": [
+            {
+              "amount": 774829.1,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 84000
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:2",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recC3UjMDACs8QAc5",
+          "projectId": "daoip5:stellar:project:mykobo",
+          "projectName": "Circle EURC Ramps",
+          "createdAt": "2024-01-24T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recC3UjMDACs8QAc5",
+          "fundsApproved": [
+            {
+              "amount": 449149.93,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 50000
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:3",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recERxnKE8etaSrMs",
+          "projectId": "daoip5:stellar:project:dropzey",
+          "projectName": "Dropzey",
+          "createdAt": "2024-01-30T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recERxnKE8etaSrMs",
+          "fundsApproved": [
+            {
+              "amount": 335132.31,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 38500,
+          "title": "Dropzey",
+          "description": "Decentralized Airdrop Hub on Stellar Network.Create, manage, and participate in airdrops, with transparency and efficiency.",
+          "fundsPaid": [
+            {
+              "amount": 38500.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 335132.31,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-01-30T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Activation Award",
+          "category": "Applications",
+          "extensions": {
+            "teamMembers": "Syed Zain Haider",
+            "urls": {
+              "website": "https://dropzey.com/",
+              "codeRepository": "https://github.com/zainh332/dropzey",
+              "videoURL": "https://www.youtube.com/watch?v=02n5_1r5tMM"
+            },
+            "socialMedia": {
+              "twitter": "https://twitter.com/i/flow/login?redirect_after_login=%2Fdropzeyofficial"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:4",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec85RVkmAjDXl8T5",
+          "projectId": "daoip5:stellar:project:soroban-explorer",
+          "projectName": "Soroban Explorer II",
+          "createdAt": "2024-02-13T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec85RVkmAjDXl8T5",
+          "fundsApproved": [
+            {
+              "amount": 905702.8,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 100000,
+          "title": "Soroban Explorer II",
+          "description": "Enable users to verify smart contracts by compiling the underlying code, helping avoid malicious contracts &amp; actors.",
+          "fundsPaid": [
+            {
+              "amount": 100000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 905702.8,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-13T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Community Award",
+          "category": "Developer Tooling",
+          "extensions": {
+            "teamMembers": "Ignacio Garcia Leon, Michal Fiuk, Xun Wu",
+            "urls": {
+              "website": "https://www.sorobanexp.com/",
+              "codeRepository": "https://github.com/sorobanexp/explorer",
+              "videoURL": "https://drive.google.com/file/d/1L0v8skd_7eBzKVXCVD1IysGw-VxkGkcd/view?usp=sharing"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:5",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recdGy1JdPi0qtRpj",
+          "projectId": "daoip5:stellar:project:sanctum",
+          "projectName": "Soroban contracts with secrets",
+          "createdAt": "2024-01-31T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recdGy1JdPi0qtRpj",
+          "fundsApproved": [
+            {
+              "amount": 456675.2,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 50000
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:6",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfsyLeAtOamI3vm",
+          "projectId": "daoip5:stellar:project:gladius",
+          "projectName": "Gladius: play, learn, earn",
+          "createdAt": "2024-01-30T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfsyLeAtOamI3vm",
+          "fundsApproved": [
+            {
+              "amount": 391713.09,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 45000,
+          "title": "Gladius: play, learn, earn",
+          "description": "Gladius gamifies education, connecting parents, sports clubs, and students with NFT prizes and rewards",
+          "fundsPaid": [
+            {
+              "amount": 45000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 391713.09,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-01-30T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Activation Award",
+          "category": "Applications",
+          "extensions": {
+            "teamMembers": "Alexey Sirotkin, dcromp",
+            "urls": {
+              "website": "https://gladiusclub.com/",
+              "codeRepository": "https://github.com/orgs/GladiusClub/repositories",
+              "videoURL": "https://www.loom.com/share/768990a8fadb45e497967b69232c5332"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:7",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckZmrJK4MDVG3lE",
+          "projectId": "daoip5:stellar:project:paygo-crypto",
+          "projectName": "PAYGOCrypto - Stellar",
+          "createdAt": "2024-01-30T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckZmrJK4MDVG3lE",
+          "fundsApproved": [
+            {
+              "amount": 145369.1,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 16700
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:8",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recmDHN0X0EQoxVWw",
+          "projectId": "daoip5:stellar:project:aquarius",
+          "projectName": "Aquarius AMM Launch on Soroban",
+          "createdAt": "2024-02-07T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recmDHN0X0EQoxVWw",
+          "fundsApproved": [
+            {
+              "amount": 876595.8,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 94000,
+          "title": "Aquarius AMM Launch on Soroban",
+          "description": "Aquarius is looking to finalise the integration of smart contracts and upgrade user interfaces for AMMs launch on Soroban.",
+          "fundsPaid": [
+            {
+              "amount": 94000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 876595.8,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-07T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Community Award",
+          "category": "Financial Protocols",
+          "extensions": {
+            "teamMembers": "Jason Cudmore",
+            "urls": {
+              "website": "https://aqua.network/",
+              "codeRepository": "https://github.com/AquaToken",
+              "videoURL": "https://www.youtube.com/watch?v=RMtEKc106pw"
+            },
+            "socialMedia": {
+              "twitter": "https://twitter.com/aqua_token",
+              "discord": "https://discord.gg/sgzFscHp4C"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:9",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsBO1vLdYFZMucB",
+          "projectId": "daoip5:stellar:project:nobak",
+          "projectName": "Nobak: Custodial Wallet Signer",
+          "createdAt": "2024-01-24T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recsBO1vLdYFZMucB",
+          "fundsApproved": [
+            {
+              "amount": 309913.45,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 34500,
+          "title": "Nobak: Custodial Wallet Signer",
+          "description": "Dive into Soroban's universe on Stellar, where the digital realm becomes your playground",
+          "fundsPaid": [
+            {
+              "amount": 34500.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 309913.45,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-01-24T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Activation Award",
+          "category": "Applications",
+          "extensions": {
+            "teamMembers": "Julian Clatro, Jeronimo Lanza",
+            "urls": {
+              "website": "https://nobak.net",
+              "codeRepository": "https://github.com/nobak-net/nobak-mobile",
+              "videoURL": "https://vimeo.com/902500425"
+            },
+            "socialMedia": {
+              "discord": "https://discord.com/invite/GR5cB3y2"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:10",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recx1FddyJA3dibUN",
+          "projectId": "daoip5:stellar:project:skeeper-a-keeper-platform",
+          "projectName": "Skeeper - a keeper platform",
+          "createdAt": "2024-01-30T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recx1FddyJA3dibUN",
+          "fundsApproved": [
+            {
+              "amount": 326427.6,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 37500,
+          "title": "Skeeper - a keeper platform",
+          "description": "Skeeper provides smart-contract execution and automation tools and infrastructure for the Soroban ecosystem",
+          "fundsPaid": [
+            {
+              "amount": 37500.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 326427.6,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-01-30T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Activation Award",
+          "category": "Infrastructure & Services",
+          "extensions": {
+            "teamMembers": "Ilia Darsavelidze, libratus",
+            "urls": {
+              "website": "https://skeeper.xyz",
+              "videoURL": "https://youtu.be/-6oxt2YZGR8"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:11",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJS3CwdA4WWlQZx",
+          "projectId": "daoip5:stellar:project:anchain-ai",
+          "projectName": "AnChain.AI Web3SOC completion",
+          "createdAt": "2024-03-21T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJS3CwdA4WWlQZx",
+          "fundsApproved": [
+            {
+              "amount": 712250.71,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 95000,
+          "title": "AnChain.AI Web3SOC completion",
+          "description": "Web3SOC is a security operations center (SOC) designed to safeguard digital assets and smart contract-based applications.",
+          "fundsPaid": [
+            {
+              "amount": 95000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 712250.71,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-03-21T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Community Award",
+          "category": "Developer Tooling",
+          "extensions": {
+            "teamMembers": "Christian Nunez, Francesco Piccoli",
+            "urls": {
+              "website": "https://web3soc.anchainai.com/",
+              "videoURL": "https://youtu.be/ssOgcER4PdE, https://youtu.be/k8-bD8_cKZQ"
+            },
+            "socialMedia": {
+              "linkedIn": "https://www.linkedin.com/company/anchainai/",
+              "twitter": "https://twitter.com/AnChainAI"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:12",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKACcbgfiocc06L",
+          "projectId": "daoip5:stellar:project:stellarchain-io",
+          "projectName": "Soroban Contract Auditor",
+          "createdAt": "2024-02-14T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKACcbgfiocc06L",
+          "fundsApproved": [
+            {
+              "amount": 881593.2,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 100000
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:13",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKGeG7HDjxMYAaM",
+          "projectId": "daoip5:stellar:project:solidity-contracts-on-soroban",
+          "projectName": "Solidity Contracts on Soroban II",
+          "createdAt": "2024-02-07T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKGeG7HDjxMYAaM",
+          "fundsApproved": [
+            {
+              "amount": 158533.3,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 17000,
+          "title": "Solidity Contracts on Soroban II",
+          "description": "This project aims to allow writing Soroban smart contracts in Solidity, by integrating Soroban as a compilation target for Solang.",
+          "fundsPaid": [
+            {
+              "amount": 17000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 158533.3,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-07T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Community Award",
+          "category": "Developer Tooling",
+          "extensions": {
+            "teamMembers": "Salaheldin Soliman",
+            "urls": {
+              "website": "https://github.com/hyperledger/solang",
+              "codeRepository": "https://github.com/hyperledger/solang",
+              "videoURL": "https://youtu.be/QUwnRkOhRok"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:14",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKNLK0K1U0wTGlU",
+          "projectId": "daoip5:stellar:project:allbridge-core",
+          "projectName": "Allbridge Core II",
+          "createdAt": "2024-02-07T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recKNLK0K1U0wTGlU",
+          "fundsApproved": [
+            {
+              "amount": 932548.7,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 100000,
+          "title": "Allbridge Core II",
+          "description": "Allbridge Core enables users to seamlessly access the Stellar ecosystem through native stablecoin swaps",
+          "fundsPaid": [
+            {
+              "amount": 100000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 932548.7,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-07T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Community Award",
+          "category": "Financial Protocols",
+          "extensions": {
+            "teamMembers": "Pavlo Velykyi, Andriy Velykyi",
+            "urls": {
+              "website": "https://allbridge.io/",
+              "codeRepository": "https://github.com/allbridge-io",
+              "videoURL": "https://youtu.be/OC5s990JhL8"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:15",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recL80NY0OnJCAbHG",
+          "projectId": "daoip5:stellar:project:constellation-protocol",
+          "projectName": "Constellation Protocol",
+          "createdAt": "2024-02-15T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recL80NY0OnJCAbHG",
+          "fundsApproved": [
+            {
+              "amount": 861015,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 100000,
+          "title": "Constellation Protocol",
+          "description": "Constellation Protocol gives anyone the ability to create and manage tokenized index funds on Soroban.",
+          "fundsPaid": [
+            {
+              "amount": 100000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 861015.0,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-15T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Community Award",
+          "category": "Infrastructure & Services",
+          "extensions": {
+            "teamMembers": "Edward Kim, Ignacio Garcia Leon",
+            "urls": {
+              "website": "https://github.com/constellation-protocol/constellation-protocol",
+              "codeRepository": "https://github.com/constellation-protocol/constellation-protocol",
+              "videoURL": "https://www.loom.com/share/9f55cbc3eace4d24b889dba06835a5d2?sid=9b1d0539-171e-4c64-9c1f-5c68b083e28c"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:16",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recPOG1QJ1ggXcygp",
+          "projectId": "daoip5:stellar:project:scout",
+          "projectName": "Scout - BugFighter for Soroban",
+          "createdAt": "2024-02-14T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recPOG1QJ1ggXcygp",
+          "fundsApproved": [
+            {
+              "amount": 881593.2,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 100000,
+          "title": "Scout - BugFighter for Soroban",
+          "description": "We will take Scout to the next step, to further aid developers and auditors in enhancing Soroban smart contracts security.",
+          "fundsPaid": [
+            {
+              "amount": 100000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 881593.2,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-14T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Community Award",
+          "category": "Developer Tooling",
+          "extensions": {
+            "teamMembers": "Valeria Caracciolo",
+            "urls": {
+              "website": "https://www.coinfabrik.com/products/scout/",
+              "codeRepository": "https://github.com/CoinFabrik/scout-soroban",
+              "videoURL": "https://drive.google.com/file/d/1xHL6sH5aOrXtoJzGcMnD6iMtV0Bm2ETO/view"
+            },
+            "socialMedia": {
+              "linkedIn": "https://ar.linkedin.com/company/coinfabrik",
+              "twitter": "https://twitter.com/coinfabrik"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:17",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTQdI9l50TRAYin",
+          "projectId": "daoip5:stellar:project:easya",
+          "projectName": "EasyA - #60DaysOfSoroban",
+          "createdAt": "2024-02-26T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTQdI9l50TRAYin",
+          "fundsApproved": [
+            {
+              "amount": 818119.2,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 95000,
+          "title": "EasyA - #60DaysOfSoroban",
+          "description": "EasyA builds on the huge success of its #SummerOfSoroban to educate a further 2,000 developers on Soroban in the run-up to mainnet",
+          "fundsPaid": [
+            {
+              "amount": 95000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 818119.2,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-26T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Community Award",
+          "category": "Education & Community",
+          "extensions": {
+            "teamMembers": "Phil Kwok, Dom Kwok",
+            "urls": {
+              "website": "https://www.easya.io",
+              "videoURL": "https://youtu.be/4Rna_L-HS6I"
+            },
+            "socialMedia": {
+              "linkedIn": "https://www.linkedin.com/company/30108824/",
+              "twitter": "https://twitter.com/EasyA_App"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:18",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recY8VYgnjVw1jIBz",
+          "projectId": "daoip5:stellar:project:formal-verso",
+          "projectName": "Formal VerSo - Phase 1",
+          "createdAt": "2024-02-05T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recY8VYgnjVw1jIBz",
+          "fundsApproved": [
+            {
+              "amount": 920801.4,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 99825,
+          "title": "Formal VerSo - Phase 1",
+          "description": "A semi-automated tool for Formal Verification of Soroban contracts using the Software Analysis Workbench.",
+          "fundsPaid": [
+            {
+              "amount": 99825.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 920801.4,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-05T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Community Award",
+          "category": "Developer Tooling",
+          "extensions": {
+            "teamMembers": "Vanessa Aguilar",
+            "urls": {
+              "website": "https://github.com/GaloisInc/formal-verso",
+              "codeRepository": "https://github.com/GaloisInc/formal-verso",
+              "videoURL": "https://www.youtube.com/watch?v=AMzp4cGveXc"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:19",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5xQJ2j8188Qcj9",
+          "projectId": "daoip5:stellar:project:rise-in",
+          "projectName": "Rise In - Developer Growth",
+          "createdAt": "2024-01-30T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5xQJ2j8188Qcj9",
+          "fundsApproved": [
+            {
+              "amount": 435236.76,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 50000,
+          "title": "Rise In - Developer Growth",
+          "description": "Unlocking developer growth globally with online courses on Risein.com &amp; IRL events (incl. community meet-ups and hackathons).",
+          "fundsPaid": [
+            {
+              "amount": 50000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 435236.76,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-01-30T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Activation Award",
+          "category": "Education & Community",
+          "extensions": {
+            "teamMembers": "Ankit Raj, Kaan Kaçar, Tim Hodgson",
+            "urls": {
+              "website": "risein.com",
+              "videoURL": "https://www.youtube.com/watch?v=NZmrbrkmE_Q"
+            },
+            "socialMedia": {
+              "linkedIn": "https://www.linkedin.com/school/risein/",
+              "twitter": "https://x.com/riseinweb3",
+              "discord": "https://discord.com/invite/RQcmHrTJGc"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:20",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5SQUCL0doQ1r5M",
+          "projectId": "daoip5:stellar:project:eascrow",
+          "projectName": "Eascrow",
+          "createdAt": "2024-01-30T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5SQUCL0doQ1r5M",
+          "fundsApproved": [
+            {
+              "amount": 425661.55,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 48900,
+          "title": "Eascrow",
+          "description": "Eascrow utilizes Soroban for secure, cost-efficient web3 escrow, ensuring swift, fraud-free payments for goods and freelancers.",
+          "fundsPaid": [
+            {
+              "amount": 48900.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 425661.55,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-01-30T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Activation Award",
+          "category": "Financial Protocols",
+          "extensions": {
+            "teamMembers": "Antoine Lieber, Antoine Lieber",
+            "urls": {
+              "website": "https://eascrow.webflow.io/",
+              "videoURL": "https://youtu.be/br3yTDLNOX0"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:21",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receJWYlwJJb00Wrh",
+          "projectId": "daoip5:stellar:project:sorosplits",
+          "projectName": "SoroSplits II",
+          "createdAt": "2024-02-13T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/receJWYlwJJb00Wrh",
+          "fundsApproved": [
+            {
+              "amount": 851360.6,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 94000,
+          "title": "SoroSplits II",
+          "description": "An open-source smart contract that enables the Stellar community to split on-chain payments in a trustless manner.",
+          "fundsPaid": [
+            {
+              "amount": 94000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 851360.6,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-13T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Community Award",
+          "category": "Developer Tooling",
+          "extensions": {
+            "teamMembers": "Arda Nakisci, Ignacio Garcia Leon, Michal Fiuk",
+            "urls": {
+              "website": "https://www.sorosplits.xyz/",
+              "codeRepository": "https://github.com/findolor/sorosplits-contracts",
+              "videoURL": "https://drive.google.com/file/d/1-_O_PoJ3UqjfhqTy3iv_tTNEGeovZafB/view?usp=sharing"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:22",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfgOVFwu6cukrrT",
+          "projectId": "daoip5:stellar:project:tauvlo",
+          "projectName": "Tauvlo",
+          "createdAt": "2024-02-07T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfgOVFwu6cukrrT",
+          "fundsApproved": [
+            {
+              "amount": 419646.9,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 45000,
+          "title": "Tauvlo",
+          "description": "Tauvlo is a tokenized real estate investment marketplace that makes investing in real estate accessible for everyone.",
+          "fundsPaid": [
+            {
+              "amount": 45000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 419646.9,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-07T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Activation Award",
+          "category": "Applications",
+          "extensions": {
+            "teamMembers": "TokenWay, Marek Hauzr, Michael Levi, Guillermo Alda"
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:23",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reci8OPZVGDgt0ojE",
+          "projectId": "daoip5:stellar:project:styx-a-soroban-cosmos-bridge",
+          "projectName": "Styx: A Soroban-Cosmos Bridge",
+          "createdAt": "2024-02-05T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reci8OPZVGDgt0ojE",
+          "fundsApproved": [
+            {
+              "amount": 396638.7,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 43000,
+          "title": "Styx: A Soroban-Cosmos Bridge",
+          "description": "A mint/burn bridge connecting Soroban to Cosmos and the larger Blockchain ecosystem.",
+          "fundsPaid": [
+            {
+              "amount": 43000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 396638.7,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-05T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Activation Award",
+          "category": "Developer Tooling",
+          "extensions": {
+            "teamMembers": "Jaylem Brar, Kaan Ulupinar",
+            "urls": {
+              "website": "https://www.figma.com/file/MCNoYBwA8wSAx0Qu4lIB1W/Styx-Design?type=design&node-id=0%3A1&mode=design&t=eQKAcKpzSPhTbLLR-1",
+              "videoURL": "https://youtu.be/2i6xIBd5aiI"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:24",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLcRUIYogQT6DHs",
+          "projectId": "daoip5:stellar:project:bigger-startup-camp-2-0",
+          "projectName": "Startup Camp 2.0",
+          "createdAt": "2024-02-05T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recLcRUIYogQT6DHs",
+          "fundsApproved": [
+            {
+              "amount": 461207.8,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 50000,
+          "title": "Startup Camp 2.0",
+          "description": "Relaunching the Stellar Startup Camp to make it self-serve and replicable globally.",
+          "fundsPaid": [
+            {
+              "amount": 50000.0,
+              "denomination": "USD"
+            },
+            {
+              "amount": 461207.8,
+              "denomination": "XLM"
+            }
+          ],
+          "status": "Awarded",
+          "mostRecentPaymentDate": "2024-02-05T00:00:00Z",
+          "latestTranche": "SCF Legacy Award",
+          "awardType": "Legacy v5.0 Activation Award",
+          "category": "Education & Community",
+          "extensions": {
+            "teamMembers": "Fabricio Leonardo Sodano Pascazi",
+            "urls": {
+              "website": "https://www.figma.com/file/oUN8gcL7860l3th8JMiS7g/ScaleMote-Design-Sprint---Redefinition-2?type=whiteboard&node-id=0-1",
+              "videoURL": "https://www.youtube.com/watch?v=P_C1-tBpLAI"
+            }
+          }
+        },
+        {
+          "type": "GrantApplication",
+          "id": "daoip5:stellar:grantApplication:25",
+          "grantPoolId": "daoip5:stellar:grantPool:scf-23",
+          "grantPoolName": "scf-23",
+          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTmMM8Qbio6zNHx",
+          "projectId": "daoip5:stellar:project:zentra",
+          "projectName": "Tide Stream Payment",
+          "createdAt": "2024-01-31T00:00:00Z",
+          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTmMM8Qbio6zNHx",
+          "fundsApproved": [
+            {
+              "amount": 166229.8,
+              "denomination": "XLM"
+            }
+          ],
+          "fundsApprovedInUSD": 18200
         }
-    ]
+      ]
+    }
+  ]
 }
