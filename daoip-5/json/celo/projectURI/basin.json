@@ -1,0 +1,15 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "type": "Project",
+    "id": "nan",
+    "name": "BASIN",
+    "description": "Our main erc721 .basin contract is on Polygon but we just moved it to Base.  REGARDLESS of main chain, each .basin 0x is cross chain EVM.  So every .basin has a Celo 0x and can hold, send, receive any combo a Celo erc20, 721 or 1155.  The 0x's are already defined using CREATE2.  We just need to add 6551 Tokenbound Account deployment to Celo. (I had post on Celo forum about this.  Also want to get 0xSplits to add Celo as well).  So... we can do RWA / Public Goods work on any chain where there is activity and would love to help the vibrant Celo ReFi Community!\n\n(I also did the RWA x ReFi report for Climate Collective.)",
+    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/119",
+    "email": "tmo@basin.global",
+    "socials": [
+        {
+            "platform": "Unknown",
+            "url": "RWA x Public Goods | BASIN"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "type": "Project",
+    "id": "nan",
+    "name": "Change Code",
+    "description": "Since starting Change Code 5 months agao, we've tokenized and minted carbon credits representing ~40,000 tons of nature-based sequestered carbon. We believe that our carbon credits are rather unique as they are fully web3 native. Since we work directly with the carbon certification body, BCarbon (https://bcarbon.org/), these credits are issued natively on-chain. Many carbon tokenization projects will still simply import from web2 registries, creating both compliance challenges as well as potential issues around double counting.\n\nAt the moment, we're working to expand beyond carbon to tokenize (and monetize) other forms of positive impact such as biodiversity and access to clean water. We expect the first these non-carbon projects to be live on our platform before the end of May.\n\nAdditionally, we're in the process of migrating from Polygon, where our first credits were deployed into the Celo ecosystem instead. We're motivated both by the alignment of Celo's vision and focus with our own, as well as our intention to integrate with the Hypercerts standard that's available on Celo.\n\nWe expect to be fully transitioned between June and July this year.\n\nYou can explore the carbon credits already minted through our platform at the link here, https://bcarbon.changecode.io/.",
+    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/112",
+    "email": "chris@changecode.io",
+    "socials": [
+        {
+            "platform": "Unknown",
+            "url": "Change Code"
+        }
+    ]
+}

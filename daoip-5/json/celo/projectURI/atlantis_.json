@@ -1,0 +1,15 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "type": "Project",
+    "id": "nan",
+    "name": "Atlantis ",
+    "description": "At Atlantis we have developed two applications.\n\n1. Impact Foundry - to create impact projects and bounties.\n2. Impact Miner - to execute and capture the impact data done on the projects and bounties.\n\nWe have been developing the product to be interoperable, working with Solana and EVMs. Celo is one of the first EVMs we are introducing that helps projects holding Celo to have a new usecase where they can directly create on chain impact data and reward their contributors in Celo and apart from this we also are developing a mechanism where the bounty creator also has a choice to mint impact certificate for the project on the Celo network. ",
+    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/93",
+    "email": "irthu@dropchain.in",
+    "socials": [
+        {
+            "platform": "Unknown",
+            "url": "Atlantis"
+        }
+    ]
+}
