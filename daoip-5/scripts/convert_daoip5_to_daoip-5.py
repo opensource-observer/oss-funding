@@ -51,7 +51,7 @@ def process_file(file_path):
         new_data = json.dumps(updated_data, sort_keys=True)
         if original_data != new_data:
             # Create backup
-            backup_path = file_path + '.backup'
+            backup_path = str(file_path) + '.backup'
             with open(backup_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=4, ensure_ascii=False)
             
