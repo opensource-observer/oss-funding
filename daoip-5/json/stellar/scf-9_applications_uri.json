@@ -1,571 +1,571 @@
 {
-  "@context": "http://www.daostar.org/schemas",
-  "name": "Stellar",
-  "type": "Foundation",
-  "grantPools": [
-    {
-      "type": "GrantPool",
-      "name": "scf-9",
-      "applications": [
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Stellar",
+    "type": "Foundation",
+    "grantPools": [
         {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:1",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyGPuk4TiBasCLl",
-          "projectId": "daoip5:stellar:project:command-robotics",
-          "projectName": "Command Robotics",
-          "createdAt": "2021-12-17T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyGPuk4TiBasCLl",
-          "fundsApproved": [
-            {
-              "amount": 18658,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 4656,
-          "description": "Innovating to improve lives",
-          "status": "Awarded",
-          "extensions": {
-            "stellar.productsAndServices": "Adaptive Goal Management App\n\nAdaptive Goal Management is an app which is a scalable and hardened control system which will allow our customers to deploy robotic systems faster and more cost-effectively. It acts as a robot fleet manager with an adaptive goal execution system for robots and drones which are connected to the internet. The platform will use Stellar blockchain as the real-time financial settlement layer allowing our customers to adopt Robotics using a service model, with an innovative progressive payment settling in real-time as each job is completed.",
-            "stellar.teamMembers": "Michael Muldoon",
-            "stellar.urls": {
-              "website": "https://adaptive-goal-management.herokuapp.com/",
-              "videoURL": "https://youtu.be/vsP6a7ygIjo"
-            },
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 4656.48,
-                "denomination": "USD"
-              },
-              {
-                "amount": 18658.0,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Developer Tooling",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:2",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGGvGWEBcaG43xj",
-          "projectId": "daoip5:stellar:project:alfred",
-          "projectName": "Alfred Pay",
-          "createdAt": "2021-12-17T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGGvGWEBcaG43xj",
-          "fundsApproved": [
-            {
-              "amount": 802328,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 215000,
-          "description": "An easier way to send and receive money cross border",
-          "status": "Awarded",
-          "extensions": {
-            "stellar.productsAndServices": "Alfred Pay App (Wallet): The Alfred pay app is a product that provides users with the ability to send and receive their remittances directly from their mobile devices. (iOS + Android)\n\n- Receive USDC in 4-6 seconds: Give users the ability to store funds in Dollars regardless of where they are. Option to send USDC directly to an Alfred username, e.g., @diegoy.\n- Send directly to a local bank account: The recipient doesn't need to have a wallet to receive! Avoid high wire costs and send right to their bank account.\n- ATM withdrawal feature: Part of the largest ATM network in the DR. Alfred users simply have to locate the nearest ATM and withdraw their pesos in exchange for USDC.\n- Create a profile + Add and invite friends and family.\n- Compare sending costs in real-time vs. other remittance providers.\n\nAlfred Stellar Anchor (United States, Haiti, Dominican Republic): Building compliant crypto to FIAT off-ramp in the Dominican Republic and Haiti to allow users to access cash in exchange for USDC.\n\nBuilding Instant ACH On/Off ramp in the United States with PrimeTrust to on-ramp stellar USDC instantly as well as users in a compliant environment.\n\nUSAD Stablecoin on Stellar Network: Build United States Alfred Dollar, a wrapped USDC token on the stellar blockchain. Through our stable coin offer 7% high yield account through future partnership and integration with the wyre savings wallet.\n\nBill Payment Feature (Phone and Power): In allegiance with local phone providers allow individuals to pay their families’ bills directly through the Alfred app.",
-            "stellar.teamMembers": "Diego Yanez",
-            "stellar.urls": {
-              "website": "https://alfredpay.io/",
-              "videoURL": "https://youtu.be/n37nwCzYF1E"
-            },
-            "stellar.socialMedia": {
-              "linkedIn": "https://www.linkedin.com/company/alfredpay/",
-              "twitter": "https://x.com/alfredlatam/"
-            },
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 215000.0,
-                "denomination": "USD"
-              },
-              {
-                "amount": 802328.0,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Applications",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:3",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgkswpYe1ft72DP",
-          "projectId": "daoip5:stellar:project:benkiko-finance",
-          "projectName": "Benkiko Finance",
-          "createdAt": "2021-12-20T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgkswpYe1ft72DP",
-          "fundsApproved": [
-            {
-              "amount": 149270,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 38348
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:4",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recjPfbs3ntu7RyaZ",
-          "projectId": "daoip5:stellar:project:simple-signer",
-          "projectName": "Simple Signer",
-          "createdAt": "2021-12-17T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recjPfbs3ntu7RyaZ",
-          "fundsApproved": [
-            {
-              "amount": 37317,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 10000,
-          "description": "A secure in-browser transaction signer",
-          "status": "Awarded",
-          "extensions": {
-            "stellar.productsAndServices": "The Simple Signer project has one clear objective in mind: Reduce cognitive complexity to enter the Stellar ecosystem by providing a secure way to sign for Stellar transactions without installing a browser extension, and without providing your private key to the website that generates the transaction.\n\nIn order to operate with the Stellar network, a user must: Create a stellar account, buy XLM, and either install a browser extension or use their private key directly on the website where they wish to spend their assets. With many people still hampered by tech-illiteracy (or specifically crypto-illiteracy), the concept of installing a browser extension can be daunting: “Go into BrowserExtension website and create another account which will hold the keys for the Stellar account you just created, then install this browser extension and enter the details of your BrowserExtension account. You will use this browser extension to sign for transactions on other websites”, most users would find this user experience to be too convoluted. It is complex workflows like these that, in part, deter users from getting started in their Stellar journey.\n\nHowever, “Enter your password to complete this operation” is very well understood by any user who has ever done any financial transaction online (including mainstream online banking). The only way to implement this workflow today is to use the private key directly on the website that generates the transaction, but users can’t be certain of what the website will actually do with their private key.\n\nPeople are familiar with passwords; they have been around for a very long time, and anyone with internet access has had to use their password to authenticate at some point. Stellar Secret Keys are passwords in themselves (with the caveat that they cannot be changed). The cognitive load is greatly reduced if people simply enter their private key into a website, but at the same time exposes them to a security problem. What if the website is malicious? It could then use their private keys to perform unwanted transactions.\n\nThe Simple Signer is a simple, yet secure approach that tackles this problem. Hosted in a trusted website, the Simple Signer comes in the form of an HTML widget that takes a transaction and offers the user to sign it inside the widget using their private key. The Widget will then return the signed transaction to the requesting website, never exposing the user’s private key. The Simple Signer HTML Widget will be open-source to ensure transparency and auditability.\n\nThe Simple Signer Widget is a great entry point for crypto newbies to get started with the Stellar network; for the tech-savvy, it is no suitable replacement for browser extensions. Browser extensions are still extremely convenient as they allow multi-account handling and other advanced functions which are outside of the scope of this project (such as providing liquidity directly from the extension, as is the case with Albedo). Today there are many wallets for Stellar; Albedo, Freighter, Rabet, etc., and developers have to integrate their projects with each one of them in order to provide the best range. The Simple Signer will initially allow users to sign with their private key, but just as easily, it can allow users to connect their favourite wallet directly from the widget, and abstract the complexity of integrating with each individual wallet for Stellar developers, thus helping the community market their products faster.\n\nThe technical implementation that makes the Simple Signer is rather trivial. In its simplest form, by using an <iframe> that serves the Widget in a bespoke domain, the parent website cannot access its content or modify it as the communication happens from child to parent, meaning the Simple Signer Widget can communicate with the parent, but not vice-versa. The HTML Widget would take an XDR as a GET parameter, exactly like Stellar Laboratory and would present a user-friendly explanation of the operations that are happening inside that transaction. Finally, it will ask users to sign it and once done, invoke the window.parent.__handleSignedTransaction method and pass in the signed transaction as a parameter. In this way, the private key is never leaving the Widget’s site.",
-            "stellar.teamMembers": "Fabricio Leonardo Sodano Pascazi",
-            "stellar.urls": {
-              "website": "https://github.com/fsodano/simple-stellar-signer",
-              "videoURL": "https://youtu.be/7wbBuwEHQYo"
-            },
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 10000.0,
-                "denomination": "USD"
-              },
-              {
-                "amount": 37317.0,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Developer Tooling",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:5",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclXx6KR4ToWTPsG",
-          "projectId": "daoip5:stellar:project:quidroo",
-          "projectName": "Quidroo",
-          "createdAt": "2021-12-17T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclXx6KR4ToWTPsG",
-          "fundsApproved": [
-            {
-              "amount": 223905,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 55879,
-          "description": "Helping Nigerian SMEs with unlocking their trapped cash flow",
-          "status": "Awarded",
-          "extensions": {
-            "stellar.productsAndServices": "Quidroo is an online factoring platform where transactions are streamlined and SMEs get paid within 72 hours by selling their invoices to investors to get fast cash at favorable rates. Quidroo is 'women first' and focuses on SDG 9.3 Increasing the proportion of small-scale industries with access to finance in developing countries and SDG 8.3 Increasing the proportion of people with access to financial services.\n\nAt Quidroo, our long term goal is to be the premier online factoring platform in Africa that supports small and medium businesses in accessing quick, easy and transparent short term financing. Our target is to have 50,000 SMEs using our platform by 2026.\n\nhttps://uploads-ssl.webflow.com/62ea95eedf96d876cdc904ef/62eaf53f3ce76479c7220eba_619eca8fb3de7b4cc6133cdb_image%25201%2520(2).png\n\nhttps://uploads-ssl.webflow.com/62ea95eedf96d876cdc904ef/62eaf53f3ce7641d68220eb9_619ecac7293b1ed4777f5570_image%25201%2520(3).png",
-            "stellar.teamMembers": "Funto Boroffice",
-            "stellar.urls": {
-              "website": "https://quidroo.com",
-              "videoURL": "https://www.loom.com/share/084d337c7194430280e22350279ff028"
-            },
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 55879.97,
-                "denomination": "USD"
-              },
-              {
-                "amount": 223905.0,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Applications",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:6",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclNj9OycGGm4lKW",
-          "projectId": "daoip5:stellar:project:skyhitz",
-          "projectName": "Skyhitz",
-          "createdAt": "2021-12-17T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclNj9OycGGm4lKW",
-          "fundsApproved": [
-            {
-              "amount": 223905,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 55879,
-          "description": "Music NFTs marketplace on Stellar",
-          "status": "Awarded",
-          "extensions": {
-            "stellar.productsAndServices": "Skyhitz plans to offer music creators a peer-to-peer marketplace where they can mint and trade music NFTs on Stellar and IPFS. We are a non-custodial organization that helps fund and support music creators by giving them the power to own and hold their creative assets without central authority or middle-man. We facilitate transactions between fans and artists on the Stellar Network to grow and support a community that loves music. We aim to expand our reach to all music creators globally and bring equitable access to quality music through the power of decentralized technology.",
-            "stellar.teamMembers": "Alejo Mendoza",
-            "stellar.urls": {
-              "website": "https://skyhitz.io",
-              "videoURL": "https://www.youtube.com/watch?v=0P4mlOzkcYs"
-            },
-            "stellar.socialMedia": {
-              "twitter": "https://twitter.com/skyhitz"
-            },
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 55879.97,
-                "denomination": "USD"
-              },
-              {
-                "amount": 223905.0,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Applications",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:7",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuF7Hw0AKUPuzrU",
-          "projectId": "daoip5:stellar:project:kunst21-com",
-          "projectName": "Kunst21.com",
-          "createdAt": "2021-09-29T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuF7Hw0AKUPuzrU",
-          "fundsApproved": [
-            {
-              "amount": 407150.67,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 111600,
-          "status": "Awarded",
-          "extensions": {
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 111600.0,
-                "denomination": "USD"
-              },
-              {
-                "amount": 407150.67,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Applications",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-09-29T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:8",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJkbPGJBY1VXyJ9",
-          "projectId": "daoip5:stellar:project:kotlin-stellar-sdk",
-          "projectName": "Kotlin Stellar SDK",
-          "createdAt": "2021-12-20T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJkbPGJBY1VXyJ9",
-          "fundsApproved": [
-            {
-              "amount": 42915,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 11500,
-          "description": "Interact with Stellar using idiomatic Kotlin and share code across platforms.",
-          "status": "Awarded",
-          "extensions": {
-            "stellar.productsAndServices": "Kotlin Multiplatform allows developers to share code between mobile, desktop, and browser. A popular use of Kotlin Multiplatform is to share code between iOS and Android or between the backend, iOS, and Android. I am planning to create a multiplatform Kotlin SDK for Stellar. This will allow Stellar developers to share code between different platforms. Kotlin can run on the JVM, so developers can use the Java Stellar SDK. However, using Java libraries in Kotlin can be weird or feel out of place. Creating a Stellar SDK specifically for Kotlin will improve the development experience of Kotlin developers.",
-            "stellar.teamMembers": "Rahim Klabér",
-            "stellar.urls": {
-              "website": "https://github.com/rahimklaber/stellar_kt"
-            },
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 11500.0,
-                "denomination": "USD"
-              },
-              {
-                "amount": 42915.0,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Developer Tooling",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-20T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:9",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNDS0b5hl2VKuFI",
-          "projectId": "daoip5:stellar:project:getpaid",
-          "projectName": "GetPaid",
-          "createdAt": "2021-12-20T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNDS0b5hl2VKuFI",
-          "fundsApproved": [
-            {
-              "amount": 718363,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 192500,
-          "description": "Provides creators, traders and freelancers in Africa with opportunities to create income through connecting and learning. Live, Work and GetPaid.",
-          "status": "Awarded",
-          "extensions": {
-            "stellar.productsAndServices": "GetPaid is a place that connects creators, traders, and freelancers in Africa with worldwide opportunities. We do this through digital gigs, trade, education, and innovation. GetPaid exists out of a knowledge hub to learn, a community group to connect, and an app to get paid. GetPaid is a place built for our community, existing out of creators, traders, and freelancers.\n\nThe GetPaid team is an experienced team well known with Stellar and its technology, as we have operated ClickPesa for the last 3 years. In addition, we also know the African digital economy well. Bridging those two worlds is a perfect fit. Stellar’s open, low-fee network is what creators, traders, and freelancers in Africa need. However, just giving them the technology is not enough; a simple user interface on top of Stellar is what this group needs. GetPaid is the result.\n\nEarlier this year, GetPaid started slowly validating assumptions through low-tech solutions. We technologize where needed, as technology is not always the answer, and try different ideas catered towards our community of creators, traders, and freelancers. This has resulted in a marketplace app open for African creators, traders, and freelancers whereby they can connect with global gig-providers and earn money. The marketplace app is utilizing Stellar’s ecosystem and technology where possible. Each registered user (creator and gig-provider) gets a Stellar account to store their received tokens in.\n\nAlthough we started with a community group and an app to store tokens in, the GetPaid product is far from finished. We just started, whereby utilization of the Stellar account functionality is step 1. Considering many exciting developments are happening on the Stellar network, there have been identified many interesting use cases such as NFTs on the Stellar network (low fees compared to Opensea on Ethereum, affordable for Africa, our community already loves the idea), yield earning, escrow, and many others. The first step is accomplished and our community is guiding us on what they further need. We do this with a Stellar-first approach, utilizing its technology and ecosystem as much as possible. Think of directing more users to Litemint.com to sell NFTs and using Lobstr or Stellarterm to get access to other tokens.",
-            "stellar.teamMembers": "Rick Groothuizen",
-            "stellar.urls": {
-              "website": "https://getpaid.africa",
-              "videoURL": "https://youtu.be/LVsojqIgcdg"
-            },
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 192500.0,
-                "denomination": "USD"
-              },
-              {
-                "amount": 718363.0,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Applications",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-20T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:10",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recP1Xp2YnSfxoXHE",
-          "projectId": "daoip5:stellar:project:answerly",
-          "projectName": "Answerly - Answer questions, get paid!",
-          "createdAt": "2021-09-29T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recP1Xp2YnSfxoXHE",
-          "fundsApproved": [
-            {
-              "amount": 547245.53,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 150000,
-          "status": "Awarded",
-          "extensions": {
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 150000.0,
-                "denomination": "USD"
-              },
-              {
-                "amount": 547245.53,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Applications",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-09-29T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:11",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFqkCcGL7ABiF7G",
-          "projectId": "daoip5:stellar:project:xbull",
-          "projectName": "xBull Market",
-          "createdAt": "2021-12-17T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFqkCcGL7ABiF7G",
-          "fundsApproved": [
-            {
-              "amount": 209724,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 52340,
-          "description": "A fully decentralized, open source and privacy focused P2P market in the Stellar Network",
-          "status": "Awarded",
-          "extensions": {
-            "stellar.productsAndServices": "We are the creators of xBull Wallet and we have been updating it constantly with the vision of building services and products on top of it once it has reached maturity and large distribution. The first project we want to launch is xBull P2P Market. This is a fully decentralized and privacy-focused P2P market integrated into our wallet so people can exchange assets in the Stellar ecosystem and fiat without the need of a third party.",
-            "stellar.teamMembers": "Enrique A.",
-            "stellar.urls": {
-              "website": "https://xbull.app",
-              "videoURL": "https://vimeo.com/648179446"
-            },
-            "stellar.socialMedia": {
-              "twitter": "https://twitter.com/xBullWallet/"
-            },
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 52340.82,
-                "denomination": "USD"
-              },
-              {
-                "amount": 209724.0,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Applications",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:12",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reccyvj0bBSK9Ty7O",
-          "projectId": "daoip5:stellar:project:stellar-c-sdk",
-          "projectName": "Stellar C SDK",
-          "createdAt": "2021-12-20T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reccyvj0bBSK9Ty7O",
-          "fundsApproved": [
-            {
-              "amount": 179124,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 48000,
-          "description": "The lowest-level Stellar helper library implemented in the C language.",
-          "status": "Awarded",
-          "extensions": {
-            "stellar.productsAndServices": "We will bring a new C SDK to the Stellar ecosystem, like other existing Stellar SDKs, will provide full support for building, signing and parsing transactions. It's worth pointing out that I'm not adding the functions to interact with the Horizon API for it at the moment as I can't see a practical use case for this, so please let me know if you need it.",
-            "stellar.teamMembers": "overcat",
-            "stellar.urls": {
-              "website": "https://github.com/overcat/c-stellar-base"
-            },
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 48000.0,
-                "denomination": "USD"
-              },
-              {
-                "amount": 179124.0,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Developer Tooling",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-20T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:13",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckCItu7Q79QoTBF",
-          "projectId": "daoip5:stellar:project:stellar-global",
-          "projectName": "Stellar Global",
-          "createdAt": "2022-01-12T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckCItu7Q79QoTBF",
-          "fundsApproved": [
-            {
-              "amount": 373176,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 100000,
-          "description": "Stellar Global: Connecting the Human Network",
-          "status": "Awarded",
-          "extensions": {
-            "stellar.productsAndServices": "The Global community is multicultural, multinational and multiethnic. The Stellar Development Foundation’s mission is to help maintain Stellar’s codebase, support the technical and business communities around Stellar, and act as a speaking partner to regulators and institutions. However, behind the \"nodes\" and \"anchors\" is the most crucial component to making the dream of financial inclusion a reality: People.\n\nCreating an inclusive global community requires us to connect, communicate and learn from one another. A developer in France may find help from a #stellarfamily member in Germany. An entrepreneur in Mexico can find the answers she needs to launch her Stellar business from someone in Korea. We all can help one another. This is the focus Stellar Global is here to address.\n\nStellar Global was founded independently with a vision to become a 501(c)(3) organization whose mission is to educate, connect and advocate for the millions of people that make up the human network of Stellar. It is our belief that Stellar has the potential to create equitable access for those previously excluded from the global financial landscape. Through exposure and education, we can ensure that the human network reflects the diverse world it is intended to serve. https://www.youtube.com/watch?v=4y9N-XHwfwo",
-            "stellar.teamMembers": "Emir Ayral",
-            "stellar.urls": {
-              "website": "www.Stellar-global.org",
-              "videoURL": "https://youtu.be/Jnnnc3kN9Hg"
-            },
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 100000.0,
-                "denomination": "USD"
-              },
-              {
-                "amount": 373176.0,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Applications",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2022-01-12T00:00:00Z"
-          }
-        },
-        {
-          "type": "GrantApplication",
-          "id": "daoip5:stellar:grantApplication:14",
-          "grantPoolId": "daoip5:stellar:grantPool:scf-9",
-          "grantPoolName": "scf-9",
-          "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recrPNXsnMqfMFRXI",
-          "projectId": "daoip5:stellar:project:tip-me",
-          "projectName": "tip me - the global tip",
-          "createdAt": "2021-12-20T00:00:00Z",
-          "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recrPNXsnMqfMFRXI",
-          "fundsApproved": [
-            {
-              "amount": 541105,
-              "denomination": "XLM"
-            }
-          ],
-          "fundsApprovedInUSD": 145000,
-          "description": "Connecting people of both ends of the global supply chain",
-          "status": "Awarded",
-          "extensions": {
-            "stellar.productsAndServices": "tip me\n\nThe next time you buy a t-shirt, you can tip the garment workers who made it. 100% of your tip is sent directly to the workers’ individual bank or mobile money accounts be it in Pakistan, Vietnam, or Kenya. Like this, consumers can directly impact the lives of the people who made their products. In only 30 min, brands can implement our tipping solution as a widget in their online shops. By using tip me, brands improve their customer loyalty, retention rates, and long-term revenue.\n\ntip me creates a win-win-win situation for all stakeholders involved: On average, workers receive an additional income equivalent to a 13th monthly income. For the first time, they receive feedback from the end-customers who value their work. This changes not only their income but also their self-esteem. Consumers can give back directly and effectively, knowing that 100% of donations go where they should. They learn about the origin of a product. Companies can position themselves as responsible brands. Because of the unique emotional experience, consumers connect stronger with the brand and the products. This directly translates into higher revenue as the retention rates, shopping cart values, and referrals increase because of tip me.\n\nIn 2019, we launched our first pilots. From day one, our solution proved to be very attractive and successful both to consumers and our partner brands. The most important parts of the system have now been automated: we can onboard and administer thousands of workers effectively. Installing our solution into new online shops is fast and convenient. The bottleneck for us to reach millions of workers worldwide is the traditional banking sector. The high transfer fees, the administration overhead, and low transparency of the old system are big main pain points.\n\nAs Stellar has specialized in cross-border money transfer, it is the most attractive blockchain network available for our use case. The possibilities of the Stellar network, especially with its instant payments at an extremely low cost and high transparency, would be a breakthrough for the scalability of our mission. The automation of payments will decrease our administration overhead significantly.\n\nStellar will reduce the transaction cost of tip me by 90%. In our business model, brands pay these transfer fees. Especially for corporate brands with over 100,000 workers, these transaction costs from tip me amount to millions of USD per year. Stellar reduces them to a minimum. This new pricing made possible by Stellar will make the tip me product an absolute no-brainer for large brands looking for impact and marketing.\n\nBy reducing our administration overhead, tip me can reach 2x more workers with the same team size. Thanks to the inherent transparency of blockchain transactions, we can create a donation/tipping experience where consumers, workers, and brands can trace their impact in real-time. They can see proof that 100% of their tips have been sent to the wallets in question, instead of blindly trusting our organization.\n\nThe SCF grant will enable us to move the global tipping solution onto the Stellar network. Thanks to the blockchain capabilities, we can create truly borderless donations directly to individuals, safe and transparent. This investment creates another powerful real-world Stellar use case. It shows how Stellar enables new business models and donation solutions that would not be possible in the old banking system. It shows the potential of microtransactions and borderless payments by creating direct social impact for garment workers around the globe. It enables tip me to scale our impact to millions of workers.",
-            "stellar.teamMembers": "Helen Deacon",
-            "stellar.urls": {
-              "website": "https://tip-me.org",
-              "videoURL": "https://www.youtube.com/watch?v=m7NMk65_UvM"
-            },
-            "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
-            "org.stellar.communityfund.fundsPaid": [
-              {
-                "amount": 145000.0,
-                "denomination": "USD"
-              },
-              {
-                "amount": 541105.0,
-                "denomination": "XLM"
-              }
-            ],
-            "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
-            "org.stellar.communityfund.category": "Applications",
-            "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-20T00:00:00Z"
-          }
+            "type": "GrantPool",
+            "name": "scf-9",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:1",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyGPuk4TiBasCLl",
+                    "projectId": "daoip5:stellar:project:command-robotics",
+                    "projectName": "Command Robotics",
+                    "createdAt": "2021-12-17T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyGPuk4TiBasCLl",
+                    "fundsApproved": [
+                        {
+                            "amount": 18658,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 4656,
+                    "description": "Innovating to improve lives",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Adaptive Goal Management App\n\nAdaptive Goal Management is an app which is a scalable and hardened control system which will allow our customers to deploy robotic systems faster and more cost-effectively. It acts as a robot fleet manager with an adaptive goal execution system for robots and drones which are connected to the internet. The platform will use Stellar blockchain as the real-time financial settlement layer allowing our customers to adopt Robotics using a service model, with an innovative progressive payment settling in real-time as each job is completed.",
+                        "stellar.teamMembers": "Michael Muldoon",
+                        "stellar.urls": {
+                            "website": "https://adaptive-goal-management.herokuapp.com/",
+                            "videoURL": "https://youtu.be/vsP6a7ygIjo"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 4656.48,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 18658.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Developer Tooling",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:2",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGGvGWEBcaG43xj",
+                    "projectId": "daoip5:stellar:project:alfred",
+                    "projectName": "Alfred Pay",
+                    "createdAt": "2021-12-17T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGGvGWEBcaG43xj",
+                    "fundsApproved": [
+                        {
+                            "amount": 802328,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 215000,
+                    "description": "An easier way to send and receive money cross border",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Alfred Pay App (Wallet): The Alfred pay app is a product that provides users with the ability to send and receive their remittances directly from their mobile devices. (iOS + Android)\n\n- Receive USDC in 4-6 seconds: Give users the ability to store funds in Dollars regardless of where they are. Option to send USDC directly to an Alfred username, e.g., @diegoy.\n- Send directly to a local bank account: The recipient doesn't need to have a wallet to receive! Avoid high wire costs and send right to their bank account.\n- ATM withdrawal feature: Part of the largest ATM network in the DR. Alfred users simply have to locate the nearest ATM and withdraw their pesos in exchange for USDC.\n- Create a profile + Add and invite friends and family.\n- Compare sending costs in real-time vs. other remittance providers.\n\nAlfred Stellar Anchor (United States, Haiti, Dominican Republic): Building compliant crypto to FIAT off-ramp in the Dominican Republic and Haiti to allow users to access cash in exchange for USDC.\n\nBuilding Instant ACH On/Off ramp in the United States with PrimeTrust to on-ramp stellar USDC instantly as well as users in a compliant environment.\n\nUSAD Stablecoin on Stellar Network: Build United States Alfred Dollar, a wrapped USDC token on the stellar blockchain. Through our stable coin offer 7% high yield account through future partnership and integration with the wyre savings wallet.\n\nBill Payment Feature (Phone and Power): In allegiance with local phone providers allow individuals to pay their families’ bills directly through the Alfred app.",
+                        "stellar.teamMembers": "Diego Yanez",
+                        "stellar.urls": {
+                            "website": "https://alfredpay.io/",
+                            "videoURL": "https://youtu.be/n37nwCzYF1E"
+                        },
+                        "stellar.socialMedia": {
+                            "linkedIn": "https://www.linkedin.com/company/alfredpay/",
+                            "twitter": "https://x.com/alfredlatam/"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 215000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 802328.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:3",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgkswpYe1ft72DP",
+                    "projectId": "daoip5:stellar:project:benkiko-finance",
+                    "projectName": "Benkiko Finance",
+                    "createdAt": "2021-12-20T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recgkswpYe1ft72DP",
+                    "fundsApproved": [
+                        {
+                            "amount": 149270,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 38348
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:4",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recjPfbs3ntu7RyaZ",
+                    "projectId": "daoip5:stellar:project:simple-signer",
+                    "projectName": "Simple Signer",
+                    "createdAt": "2021-12-17T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recjPfbs3ntu7RyaZ",
+                    "fundsApproved": [
+                        {
+                            "amount": 37317,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 10000,
+                    "description": "A secure in-browser transaction signer",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "The Simple Signer project has one clear objective in mind: Reduce cognitive complexity to enter the Stellar ecosystem by providing a secure way to sign for Stellar transactions without installing a browser extension, and without providing your private key to the website that generates the transaction.\n\nIn order to operate with the Stellar network, a user must: Create a stellar account, buy XLM, and either install a browser extension or use their private key directly on the website where they wish to spend their assets. With many people still hampered by tech-illiteracy (or specifically crypto-illiteracy), the concept of installing a browser extension can be daunting: “Go into BrowserExtension website and create another account which will hold the keys for the Stellar account you just created, then install this browser extension and enter the details of your BrowserExtension account. You will use this browser extension to sign for transactions on other websites”, most users would find this user experience to be too convoluted. It is complex workflows like these that, in part, deter users from getting started in their Stellar journey.\n\nHowever, “Enter your password to complete this operation” is very well understood by any user who has ever done any financial transaction online (including mainstream online banking). The only way to implement this workflow today is to use the private key directly on the website that generates the transaction, but users can’t be certain of what the website will actually do with their private key.\n\nPeople are familiar with passwords; they have been around for a very long time, and anyone with internet access has had to use their password to authenticate at some point. Stellar Secret Keys are passwords in themselves (with the caveat that they cannot be changed). The cognitive load is greatly reduced if people simply enter their private key into a website, but at the same time exposes them to a security problem. What if the website is malicious? It could then use their private keys to perform unwanted transactions.\n\nThe Simple Signer is a simple, yet secure approach that tackles this problem. Hosted in a trusted website, the Simple Signer comes in the form of an HTML widget that takes a transaction and offers the user to sign it inside the widget using their private key. The Widget will then return the signed transaction to the requesting website, never exposing the user’s private key. The Simple Signer HTML Widget will be open-source to ensure transparency and auditability.\n\nThe Simple Signer Widget is a great entry point for crypto newbies to get started with the Stellar network; for the tech-savvy, it is no suitable replacement for browser extensions. Browser extensions are still extremely convenient as they allow multi-account handling and other advanced functions which are outside of the scope of this project (such as providing liquidity directly from the extension, as is the case with Albedo). Today there are many wallets for Stellar; Albedo, Freighter, Rabet, etc., and developers have to integrate their projects with each one of them in order to provide the best range. The Simple Signer will initially allow users to sign with their private key, but just as easily, it can allow users to connect their favourite wallet directly from the widget, and abstract the complexity of integrating with each individual wallet for Stellar developers, thus helping the community market their products faster.\n\nThe technical implementation that makes the Simple Signer is rather trivial. In its simplest form, by using an <iframe> that serves the Widget in a bespoke domain, the parent website cannot access its content or modify it as the communication happens from child to parent, meaning the Simple Signer Widget can communicate with the parent, but not vice-versa. The HTML Widget would take an XDR as a GET parameter, exactly like Stellar Laboratory and would present a user-friendly explanation of the operations that are happening inside that transaction. Finally, it will ask users to sign it and once done, invoke the window.parent.__handleSignedTransaction method and pass in the signed transaction as a parameter. In this way, the private key is never leaving the Widget’s site.",
+                        "stellar.teamMembers": "Fabricio Leonardo Sodano Pascazi",
+                        "stellar.urls": {
+                            "website": "https://github.com/fsodano/simple-stellar-signer",
+                            "videoURL": "https://youtu.be/7wbBuwEHQYo"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 10000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 37317.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Developer Tooling",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:5",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclXx6KR4ToWTPsG",
+                    "projectId": "daoip5:stellar:project:quidroo",
+                    "projectName": "Quidroo",
+                    "createdAt": "2021-12-17T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclXx6KR4ToWTPsG",
+                    "fundsApproved": [
+                        {
+                            "amount": 223905,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 55879,
+                    "description": "Helping Nigerian SMEs with unlocking their trapped cash flow",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Quidroo is an online factoring platform where transactions are streamlined and SMEs get paid within 72 hours by selling their invoices to investors to get fast cash at favorable rates. Quidroo is 'women first' and focuses on SDG 9.3 Increasing the proportion of small-scale industries with access to finance in developing countries and SDG 8.3 Increasing the proportion of people with access to financial services.\n\nAt Quidroo, our long term goal is to be the premier online factoring platform in Africa that supports small and medium businesses in accessing quick, easy and transparent short term financing. Our target is to have 50,000 SMEs using our platform by 2026.\n\nhttps://uploads-ssl.webflow.com/62ea95eedf96d876cdc904ef/62eaf53f3ce76479c7220eba_619eca8fb3de7b4cc6133cdb_image%25201%2520(2).png\n\nhttps://uploads-ssl.webflow.com/62ea95eedf96d876cdc904ef/62eaf53f3ce7641d68220eb9_619ecac7293b1ed4777f5570_image%25201%2520(3).png",
+                        "stellar.teamMembers": "Funto Boroffice",
+                        "stellar.urls": {
+                            "website": "https://quidroo.com",
+                            "videoURL": "https://www.loom.com/share/084d337c7194430280e22350279ff028"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 55879.97,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 223905.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:6",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclNj9OycGGm4lKW",
+                    "projectId": "daoip5:stellar:project:skyhitz",
+                    "projectName": "Skyhitz",
+                    "createdAt": "2021-12-17T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclNj9OycGGm4lKW",
+                    "fundsApproved": [
+                        {
+                            "amount": 223905,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 55879,
+                    "description": "Music NFTs marketplace on Stellar",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Skyhitz plans to offer music creators a peer-to-peer marketplace where they can mint and trade music NFTs on Stellar and IPFS. We are a non-custodial organization that helps fund and support music creators by giving them the power to own and hold their creative assets without central authority or middle-man. We facilitate transactions between fans and artists on the Stellar Network to grow and support a community that loves music. We aim to expand our reach to all music creators globally and bring equitable access to quality music through the power of decentralized technology.",
+                        "stellar.teamMembers": "Alejo Mendoza",
+                        "stellar.urls": {
+                            "website": "https://skyhitz.io",
+                            "videoURL": "https://www.youtube.com/watch?v=0P4mlOzkcYs"
+                        },
+                        "stellar.socialMedia": {
+                            "twitter": "https://twitter.com/skyhitz"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 55879.97,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 223905.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:7",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuF7Hw0AKUPuzrU",
+                    "projectId": "daoip5:stellar:project:kunst21-com",
+                    "projectName": "Kunst21.com",
+                    "createdAt": "2021-09-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recuF7Hw0AKUPuzrU",
+                    "fundsApproved": [
+                        {
+                            "amount": 407150.67,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 111600,
+                    "status": "Awarded",
+                    "extensions": {
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 111600.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 407150.67,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-09-29T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:8",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJkbPGJBY1VXyJ9",
+                    "projectId": "daoip5:stellar:project:kotlin-stellar-sdk",
+                    "projectName": "Kotlin Stellar SDK",
+                    "createdAt": "2021-12-20T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recJkbPGJBY1VXyJ9",
+                    "fundsApproved": [
+                        {
+                            "amount": 42915,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 11500,
+                    "description": "Interact with Stellar using idiomatic Kotlin and share code across platforms.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Kotlin Multiplatform allows developers to share code between mobile, desktop, and browser. A popular use of Kotlin Multiplatform is to share code between iOS and Android or between the backend, iOS, and Android. I am planning to create a multiplatform Kotlin SDK for Stellar. This will allow Stellar developers to share code between different platforms. Kotlin can run on the JVM, so developers can use the Java Stellar SDK. However, using Java libraries in Kotlin can be weird or feel out of place. Creating a Stellar SDK specifically for Kotlin will improve the development experience of Kotlin developers.",
+                        "stellar.teamMembers": "Rahim Klabér",
+                        "stellar.urls": {
+                            "website": "https://github.com/rahimklaber/stellar_kt"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 11500.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 42915.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Developer Tooling",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-20T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:9",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNDS0b5hl2VKuFI",
+                    "projectId": "daoip5:stellar:project:getpaid",
+                    "projectName": "GetPaid",
+                    "createdAt": "2021-12-20T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNDS0b5hl2VKuFI",
+                    "fundsApproved": [
+                        {
+                            "amount": 718363,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 192500,
+                    "description": "Provides creators, traders and freelancers in Africa with opportunities to create income through connecting and learning. Live, Work and GetPaid.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "GetPaid is a place that connects creators, traders, and freelancers in Africa with worldwide opportunities. We do this through digital gigs, trade, education, and innovation. GetPaid exists out of a knowledge hub to learn, a community group to connect, and an app to get paid. GetPaid is a place built for our community, existing out of creators, traders, and freelancers.\n\nThe GetPaid team is an experienced team well known with Stellar and its technology, as we have operated ClickPesa for the last 3 years. In addition, we also know the African digital economy well. Bridging those two worlds is a perfect fit. Stellar’s open, low-fee network is what creators, traders, and freelancers in Africa need. However, just giving them the technology is not enough; a simple user interface on top of Stellar is what this group needs. GetPaid is the result.\n\nEarlier this year, GetPaid started slowly validating assumptions through low-tech solutions. We technologize where needed, as technology is not always the answer, and try different ideas catered towards our community of creators, traders, and freelancers. This has resulted in a marketplace app open for African creators, traders, and freelancers whereby they can connect with global gig-providers and earn money. The marketplace app is utilizing Stellar’s ecosystem and technology where possible. Each registered user (creator and gig-provider) gets a Stellar account to store their received tokens in.\n\nAlthough we started with a community group and an app to store tokens in, the GetPaid product is far from finished. We just started, whereby utilization of the Stellar account functionality is step 1. Considering many exciting developments are happening on the Stellar network, there have been identified many interesting use cases such as NFTs on the Stellar network (low fees compared to Opensea on Ethereum, affordable for Africa, our community already loves the idea), yield earning, escrow, and many others. The first step is accomplished and our community is guiding us on what they further need. We do this with a Stellar-first approach, utilizing its technology and ecosystem as much as possible. Think of directing more users to Litemint.com to sell NFTs and using Lobstr or Stellarterm to get access to other tokens.",
+                        "stellar.teamMembers": "Rick Groothuizen",
+                        "stellar.urls": {
+                            "website": "https://getpaid.africa",
+                            "videoURL": "https://youtu.be/LVsojqIgcdg"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 192500.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 718363.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-20T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:10",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recP1Xp2YnSfxoXHE",
+                    "projectId": "daoip5:stellar:project:answerly",
+                    "projectName": "Answerly - Answer questions, get paid!",
+                    "createdAt": "2021-09-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recP1Xp2YnSfxoXHE",
+                    "fundsApproved": [
+                        {
+                            "amount": 547245.53,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 150000,
+                    "status": "Awarded",
+                    "extensions": {
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 150000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 547245.53,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-09-29T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:11",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFqkCcGL7ABiF7G",
+                    "projectId": "daoip5:stellar:project:xbull",
+                    "projectName": "xBull Market",
+                    "createdAt": "2021-12-17T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFqkCcGL7ABiF7G",
+                    "fundsApproved": [
+                        {
+                            "amount": 209724,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 52340,
+                    "description": "A fully decentralized, open source and privacy focused P2P market in the Stellar Network",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "We are the creators of xBull Wallet and we have been updating it constantly with the vision of building services and products on top of it once it has reached maturity and large distribution. The first project we want to launch is xBull P2P Market. This is a fully decentralized and privacy-focused P2P market integrated into our wallet so people can exchange assets in the Stellar ecosystem and fiat without the need of a third party.",
+                        "stellar.teamMembers": "Enrique A.",
+                        "stellar.urls": {
+                            "website": "https://xbull.app",
+                            "videoURL": "https://vimeo.com/648179446"
+                        },
+                        "stellar.socialMedia": {
+                            "twitter": "https://twitter.com/xBullWallet/"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 52340.82,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 209724.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-17T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:12",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reccyvj0bBSK9Ty7O",
+                    "projectId": "daoip5:stellar:project:stellar-c-sdk",
+                    "projectName": "Stellar C SDK",
+                    "createdAt": "2021-12-20T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reccyvj0bBSK9Ty7O",
+                    "fundsApproved": [
+                        {
+                            "amount": 179124,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 48000,
+                    "description": "The lowest-level Stellar helper library implemented in the C language.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "We will bring a new C SDK to the Stellar ecosystem, like other existing Stellar SDKs, will provide full support for building, signing and parsing transactions. It's worth pointing out that I'm not adding the functions to interact with the Horizon API for it at the moment as I can't see a practical use case for this, so please let me know if you need it.",
+                        "stellar.teamMembers": "overcat",
+                        "stellar.urls": {
+                            "website": "https://github.com/overcat/c-stellar-base"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 48000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 179124.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Developer Tooling",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-20T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:13",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckCItu7Q79QoTBF",
+                    "projectId": "daoip5:stellar:project:stellar-global",
+                    "projectName": "Stellar Global",
+                    "createdAt": "2022-01-12T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckCItu7Q79QoTBF",
+                    "fundsApproved": [
+                        {
+                            "amount": 373176,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 100000,
+                    "description": "Stellar Global: Connecting the Human Network",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "The Global community is multicultural, multinational and multiethnic. The Stellar Development Foundation’s mission is to help maintain Stellar’s codebase, support the technical and business communities around Stellar, and act as a speaking partner to regulators and institutions. However, behind the \"nodes\" and \"anchors\" is the most crucial component to making the dream of financial inclusion a reality: People.\n\nCreating an inclusive global community requires us to connect, communicate and learn from one another. A developer in France may find help from a #stellarfamily member in Germany. An entrepreneur in Mexico can find the answers she needs to launch her Stellar business from someone in Korea. We all can help one another. This is the focus Stellar Global is here to address.\n\nStellar Global was founded independently with a vision to become a 501(c)(3) organization whose mission is to educate, connect and advocate for the millions of people that make up the human network of Stellar. It is our belief that Stellar has the potential to create equitable access for those previously excluded from the global financial landscape. Through exposure and education, we can ensure that the human network reflects the diverse world it is intended to serve. https://www.youtube.com/watch?v=4y9N-XHwfwo",
+                        "stellar.teamMembers": "Emir Ayral",
+                        "stellar.urls": {
+                            "website": "www.Stellar-global.org",
+                            "videoURL": "https://youtu.be/Jnnnc3kN9Hg"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 100000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 373176.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2022-01-12T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-9:grantApplication:14",
+                    "grantPoolId": "daoip5:stellar:grantPool:scf-9",
+                    "grantPoolName": "scf-9",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recrPNXsnMqfMFRXI",
+                    "projectId": "daoip5:stellar:project:tip-me",
+                    "projectName": "tip me - the global tip",
+                    "createdAt": "2021-12-20T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recrPNXsnMqfMFRXI",
+                    "fundsApproved": [
+                        {
+                            "amount": 541105,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 145000,
+                    "description": "Connecting people of both ends of the global supply chain",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "tip me\n\nThe next time you buy a t-shirt, you can tip the garment workers who made it. 100% of your tip is sent directly to the workers’ individual bank or mobile money accounts be it in Pakistan, Vietnam, or Kenya. Like this, consumers can directly impact the lives of the people who made their products. In only 30 min, brands can implement our tipping solution as a widget in their online shops. By using tip me, brands improve their customer loyalty, retention rates, and long-term revenue.\n\ntip me creates a win-win-win situation for all stakeholders involved: On average, workers receive an additional income equivalent to a 13th monthly income. For the first time, they receive feedback from the end-customers who value their work. This changes not only their income but also their self-esteem. Consumers can give back directly and effectively, knowing that 100% of donations go where they should. They learn about the origin of a product. Companies can position themselves as responsible brands. Because of the unique emotional experience, consumers connect stronger with the brand and the products. This directly translates into higher revenue as the retention rates, shopping cart values, and referrals increase because of tip me.\n\nIn 2019, we launched our first pilots. From day one, our solution proved to be very attractive and successful both to consumers and our partner brands. The most important parts of the system have now been automated: we can onboard and administer thousands of workers effectively. Installing our solution into new online shops is fast and convenient. The bottleneck for us to reach millions of workers worldwide is the traditional banking sector. The high transfer fees, the administration overhead, and low transparency of the old system are big main pain points.\n\nAs Stellar has specialized in cross-border money transfer, it is the most attractive blockchain network available for our use case. The possibilities of the Stellar network, especially with its instant payments at an extremely low cost and high transparency, would be a breakthrough for the scalability of our mission. The automation of payments will decrease our administration overhead significantly.\n\nStellar will reduce the transaction cost of tip me by 90%. In our business model, brands pay these transfer fees. Especially for corporate brands with over 100,000 workers, these transaction costs from tip me amount to millions of USD per year. Stellar reduces them to a minimum. This new pricing made possible by Stellar will make the tip me product an absolute no-brainer for large brands looking for impact and marketing.\n\nBy reducing our administration overhead, tip me can reach 2x more workers with the same team size. Thanks to the inherent transparency of blockchain transactions, we can create a donation/tipping experience where consumers, workers, and brands can trace their impact in real-time. They can see proof that 100% of their tips have been sent to the wallets in question, instead of blindly trusting our organization.\n\nThe SCF grant will enable us to move the global tipping solution onto the Stellar network. Thanks to the blockchain capabilities, we can create truly borderless donations directly to individuals, safe and transparent. This investment creates another powerful real-world Stellar use case. It shows how Stellar enables new business models and donation solutions that would not be possible in the old banking system. It shows the potential of microtransactions and borderless payments by creating direct social impact for garment workers around the globe. It enables tip me to scale our impact to millions of workers.",
+                        "stellar.teamMembers": "Helen Deacon",
+                        "stellar.urls": {
+                            "website": "https://tip-me.org",
+                            "videoURL": "https://www.youtube.com/watch?v=m7NMk65_UvM"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v3.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 145000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 541105.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-12-20T00:00:00Z"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

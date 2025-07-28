@@ -5,11 +5,11 @@
     "grantPools": [
         {
             "type": "GrantPool",
-            "id": "daoip5:arbitrumfoundation:grantPool:stip-1",
-            "name": "stip-1",
-            "description": "Grants pool for stip-1.",
+            "id": "daoip5:arbitrumfoundation:grantPool:stip_1",
+            "name": "stip_1",
+            "description": "Grants pool for stip_1.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/arbitrumfoundation/stip-1_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/arbitrumfoundation/stip_1_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
