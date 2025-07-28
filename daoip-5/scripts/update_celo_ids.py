@@ -44,6 +44,16 @@ def update_application_ids(file_path, grant_pool_id_mapping):
                                 app['projectId'] = new_project_id
                                 updated = True
                                 print(f"  Updated projectId: {old_project_id} -> {new_project_id}")
+                        
+                        # Update application ID to daoip5:celo-org:application:<ID> format
+                        if 'id' in app:
+                            old_app_id = app['id']
+                            # Check if it's already in the correct format
+                            if not old_app_id.startswith('daoip5:celo-org:application:'):
+                                new_app_id = f"daoip5:celo-org:application:{old_app_id}"
+                                app['id'] = new_app_id
+                                updated = True
+                                print(f"  Updated application ID: {old_app_id} -> {new_app_id}")
         
         if updated:
             # Write back to file with proper formatting
