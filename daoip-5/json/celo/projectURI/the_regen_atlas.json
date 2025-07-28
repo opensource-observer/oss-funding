@@ -1,8 +1,15 @@
-
 {
-  "@context": "http://www.daostar.org/schemas",
-  "type": "Project",
-  "id": "daoip5:celo-org:project:the_regen_atlas",
-  "name": "the_regen_atlas",
-  "description": "TODO: Add to OSS-Directory"
+    "@context": "http://www.daostar.org/schemas",
+    "type": "Project",
+    "id": "nan",
+    "name": "The Regen Atlas",
+    "description": "dApp Development on Celo: Ecofrontiers is actively developing the Regen Atlas, a location-based platform intended for deployment on the Celo Network. This dApp aims to provide a global, open-source platform to facilitate the discovery, funding, and creation of tokenized green assets. The Regen Atlas team recently received a Prezenti grant to support the UX/UI development of the interface, and enable direct buying of the assets on Celo.\n\nResearch Supporting Celo: Ecofrontiers has engaged in research efforts that support and advocate for the Celo ecosystem. A notable example is the release of chapters from the Green Crypto Handbook, which provides insights into how environmental finance can be structured within a Web3 context. Of note is that the two authors of the Green Crypto Handbook also wrote in the past core research and documentation for the Kolektivo Framework, a key project of the Celo ecosystem.",
+    "contentURI": "https://explorer.gitcoin.co/?utm_source=grants.gitcoin.co&utm_medium=internal_link&utm_campaign=gg19&utm_content=community-rounds#/round/42161/29/3",
+    "email": "louise@ecofrontiers.xyz",
+    "socials": [
+        {
+            "platform": "Unknown",
+            "url": "The Ecofrontiers Regen Atlas \ud83c\udf31"
+        }
+    ]
 }

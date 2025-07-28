@@ -1,8 +1,15 @@
-
 {
-  "@context": "http://www.daostar.org/schemas",
-  "type": "Project",
-  "id": "daoip5:celo-org:project:refi_tanzania__chatafisha_",
-  "name": "refi_tanzania__chatafisha_",
-  "description": "TODO: Add to OSS-Directory"
+    "@context": "http://www.daostar.org/schemas",
+    "type": "Project",
+    "id": "nan",
+    "name": "ReFi Tanzania (Chatafisha)",
+    "description": "Description: Our aim is to build a portal that aims to streamline the creation and issuance of carbon-backed NFTs, each meticulously designed to represent verified ecological impact credits. These NFTs will serve as tangible assets containing relevant metadata, capturing the essence of eco-conscious contributions and enabling individuals and organizations to not only offset their carbon footprint effectively but also transparently participate in sustainability.\n\nDoc for deploying on Celo: https://docs.google.com/document/d/1lcQAkiAyajQbjpIndRYYcyV5Ax0mTKYnFQRdpvR2wdE/edit\n\nIRL events sponsored by Celo, going over ReFi, Celo & EBF Framework: https://x.com/ReFiTanzania/status/1731617463542915283\n\nCelo Safe: celo:0xD6801262C2e51629D14E94c7C58eCB97f5512aea",
+    "contentURI": "https://explorer.gitcoin.co/?utm_source=grants.gitcoin.co&utm_medium=internal_link&utm_campaign=gg19&utm_content=community-rounds#/round/42161/29/150",
+    "email": "davidmachuche@gmail.com",
+    "socials": [
+        {
+            "platform": "Unknown",
+            "url": "ReFi Tanzania (Chatafisha)"
+        }
+    ]
 }

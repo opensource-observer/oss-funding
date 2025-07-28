@@ -1,8 +1,15 @@
-
 {
-  "@context": "http://www.daostar.org/schemas",
-  "type": "Project",
-  "id": "daoip5:celo-org:project:rifai_sicilia",
-  "name": "rifai_sicilia",
-  "description": "TODO: Add to OSS-Directory"
+    "@context": "http://www.daostar.org/schemas",
+    "type": "Project",
+    "id": "nan",
+    "name": "Rifai Sicilia",
+    "description": "As a regional community focused on ecological regeneration we are using Silvi App to record our tree plantings. ",
+    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/19",
+    "email": "refi.sicilia@gmail.com",
+    "socials": [
+        {
+            "platform": "Unknown",
+            "url": "Rifai Sicilia"
+        }
+    ]
 }

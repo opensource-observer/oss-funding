@@ -1,8 +1,15 @@
-
 {
-  "@context": "http://www.daostar.org/schemas",
-  "type": "Project",
-  "id": "daoip5:celo-org:project:xparametric",
-  "name": "xparametric",
-  "description": "TODO: Add to OSS-Directory"
+    "@context": "http://www.daostar.org/schemas",
+    "type": "Project",
+    "id": "nan",
+    "name": "xParametric",
+    "description": "Our project, xParametric, is in active development and can be found on GitHub at https://github.com/xParametric. We have also deployed a portion of our smart contracts to the Celo testnet, which can be viewed at https://alfajores.celoscan.io/address/0x261c4cf55f736755b0681b14aa16da97f9c0eaa6#code.\n\nxParametric aims to contribute to the decentralized climate finance space on Web3 and Celo. By facilitating trustless transactions of tokenized climate risks, we hope to enable the creation of other decentralized applications that can support climate action.\n\nAs a participant in the blockchain-based climate infrastructure space, we believe that xParametric can play a role in the development of impactful Web3 climate solutions. Our current work and future plans involve utilizing and supporting the Celo ecosystem, and we are excited to be a part of this community.",
+    "contentURI": "https://explorer.gitcoin.co/?utm_source=grants.gitcoin.co&utm_medium=internal_link&utm_campaign=gg19&utm_content=community-rounds#/round/42161/29/59",
+    "email": "hello@xparametric.com",
+    "socials": [
+        {
+            "platform": "Unknown",
+            "url": "xParametric"
+        }
+    ]
 }

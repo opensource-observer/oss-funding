@@ -1,8 +1,15 @@
-
 {
-  "@context": "http://www.daostar.org/schemas",
-  "type": "Project",
-  "id": "daoip5:celo-org:project:regenbuild",
-  "name": "regenbuild",
-  "description": "TODO: Add to OSS-Directory"
+    "@context": "http://www.daostar.org/schemas",
+    "type": "Project",
+    "id": "nan",
+    "name": "RegenBuild",
+    "description": "1. Celo SAFE - celo:0x9D62ECFfFe2B1872be84B2943a41E712d6E67059\n\n2. Organised the GreenPill Festival(2023) in India where Celo was a sponsor\n\nNFT link for the event - https://explorer.celo.org/mainnet/token/0x1ae49b184bfba721cc49f7ee4af0960fd368d917/instance/0/metadata",
+    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/71",
+    "email": "guruvishwas07@gmail.com",
+    "socials": [
+        {
+            "platform": "Unknown",
+            "url": "RegenBuild"
+        }
+    ]
 }

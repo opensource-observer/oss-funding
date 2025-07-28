@@ -1,8 +1,15 @@
-
 {
-  "@context": "http://www.daostar.org/schemas",
-  "type": "Project",
-  "id": "daoip5:celo-org:project:ar_world",
-  "name": "ar_world",
-  "description": "TODO: Add to OSS-Directory"
+    "@context": "http://www.daostar.org/schemas",
+    "type": "Project",
+    "id": "nan",
+    "name": "AR World",
+    "description": "AR World is a regenerative metaverse project for mobile that works like Pokemon Go.\n\nDemo vid here: https://www.youtube.com/watch?v=8Y0I3H92tmM&feature=youtu.be\n\nPlayers explore the real world and collect experiences, which are tokenised and stored in their inventory.\n\nWe have built an NFT API that can geo-cache NFTs in real world locations\nhttps://www.loom.com/share/e9c7b9ff3cc8484eb87182e9b9e2046d?sid=a85208ab-0d53-4bc9-bc3b-d6ef4f004dbe\n\nWe have built this using our interoperability engine called OASIS. (Image 2) - it allows for seamless integration of Web2 and Web3 providers. Our plan is to integrate Celo so that we can tap into the Refi activities occurring.\n\nLast month I had the opportunity to present this project alongside Monty Bryant from Refi DAO. (Image 1) There are several ways that we could support Refi DAO activities with AR World as the gamification engine:\n\nAllowing local nodes to add their community projects into the game, tokenising their volunteer activities, (image 3) and making it easy for players to find Refi DAO aligned events, restaurants and businesses via placing their API in our 'Worldscape' view. ",
+    "contentURI": "https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0xafb63cf0ff27293f363e8241c5a485e84fd3651ec56b4a2312ffbcd2e6e32b6f",
+    "email": "max.gershfield1@gmail.com",
+    "socials": [
+        {
+            "platform": "Unknown",
+            "url": "AR World"
+        }
+    ]
 }

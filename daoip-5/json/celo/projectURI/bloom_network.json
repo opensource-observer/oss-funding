@@ -1,8 +1,15 @@
-
 {
-  "@context": "http://www.daostar.org/schemas",
-  "type": "Project",
-  "id": "daoip5:celo-org:project:bloom_network",
-  "name": "bloom_network",
-  "description": "TODO: Add to OSS-Directory"
+    "@context": "http://www.daostar.org/schemas",
+    "type": "Project",
+    "id": "nan",
+    "name": "Bloom Network",
+    "description": "Bloom Network's Local Action Rewards is used to track labor time contributed to local regenerative climate adaptation work done among vetted Local Bloom hubs around the world, to make the work more visible and fundable.\n\nWe use a reputation token on Optimism, with Grants Pools that are distributed proportional to reward claims. These pools are multi-chain compatible, and we would like to start a Celo pool, to additionally onboard our members to Celo so they can be introduced to MRV and other apps on Celo that may be a good fit for their activities, and because we are values and mission-aligned with the Celo ecosystem.\n\nWe are already partnering with Silvi, with active pilots in two hubs so far. Members record their agroforestry activities on Silvi, then in their Impact Report on Bloom, which is publicly visible and easily readable on Bloom Network's media website, they show their Silvi data and summarize the time each of their members spent planting and coordination the action. The first demonstration of this collaboration will happen during our first round of this unique retroactive public goods funding mechanism, June - August 2024. Silvi and Bloom plan to further integrate our two apps to make it easier for projects to utilize both with minimal effort.\n\nSilvi is just one example. We are also in dialogue with Radiical Systems' peer-to-peer credit protocol, and open to more Celo collaborations.\n\nOne of Bloom Network's cofounders, Meg Rivers, is a professional technology trainer, and we've begun rolling out Web3 onboarding to our 30,000 person on-the-ground community with a training designed for extremely non-technical people who first need to understand what cryptocurrency is, and why they should use it. We are already teaching our community about Celo through this process, and will scale up this training as we build outreach capacity over the coming year.",
+    "contentURI": "https://explorer.gitcoin.co/#/round/42161/31/21",
+    "email": "community@bloomnetwork.earth",
+    "socials": [
+        {
+            "platform": "Unknown",
+            "url": "Bloom Network"
+        }
+    ]
 }

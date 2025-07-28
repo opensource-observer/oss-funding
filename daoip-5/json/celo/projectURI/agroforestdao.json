@@ -1,8 +1,15 @@
-
 {
-  "@context": "http://www.daostar.org/schemas",
-  "type": "Project",
-  "id": "daoip5:celo-org:project:agroforestdao",
-  "name": "agroforestdao",
-  "description": "TODO: Add to OSS-Directory"
+    "@context": "http://www.daostar.org/schemas",
+    "type": "Project",
+    "id": "nan", 
+    "name": "AgroforestDAO",
+    "description": "AgroforestDAO has been through many phases going from ideation, community building and fundraising to establish a Agroforest System (SAF) to serve as a laboratory of Glocal agricultural coordination. During this process the project has been awarded $CELO in the Planet Positive Hackathon which incentivized us to start using Valora and experiment with Celo's protocols, such as Spirals Protocol and the Green cUSD, back in 2022.\nWe started in Web3 thanks to the Gitcoin Rounds, so it was normal to us to deploy a multisig wallet in each chain that hosted a round, such as Polygon, Celo, Arbitrum and Optimism. In Optimism we decided to launch our latest NFT collection (https://opensea.io/collection/ninhos-da-redencao) due to the low fees, and the focus on Public Goods.\n\nWe have since the beginning recognized the importance of Celo Real stablecoin for the Brazilian projects and it's mission to support real world solutions, however we have never had a market product and we weren't aware of Celo's approach towards Public Goods.\n\nWe have now entered a phase of building our app which we are calling Proof-of-Succession (https://github.com/AgroforestDAO) where we make it easy to atest onchain the planning of a successional agroecosystem and the update pictures of the planting that are sent to a telegram bot in a token gated chatgroup. The content will be then integrated to our workspace https://app.charmverse.io/agroforestdao/page-509537591950876. The goal is to assure that users are stewarding succession, build collective knowledge and capacity in DAO governance and rooted coordination.",
+    "contentURI": "https://explorer.gitcoin.co/?utm_source=grants.gitcoin.co&utm_medium=internal_link&utm_campaign=gg19&utm_content=community-rounds#/round/42161/29/2",
+    "email": "moradavivald@gmail.com",
+    "socials": [
+        {
+            "platform": "Unknown",
+            "url": "AgroforestDAO april 2024"
+        }
+    ]
 }
