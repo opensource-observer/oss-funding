@@ -1,4 +1,3 @@
-
 {
     "@context": "http://www.daostar.org/schemas",
     "name": "Celo Public Goods",
@@ -6,7 +5,7 @@
     "grantPools": [
         {
             "type": "GrantPool",
-            "id": "daoip5:celo-org:grantPool:1",
+            "id": "daoip-5:celo-org:grantPool:1",
             "name": "Regen Citizens Genesis GG22",
             "description": "The GG22 Regen Citizens Genesis Round is a joint initiative between GreenPill Network, ReFi DAO, Let's Grow DAO, and Celo Public Goods. Focusing primarily on these organisation as a starting point, the aim of this round is to empower and recognize builders making meaningful contributions to the regenerative movement on Ethereum.",
             "isOpen": false,
@@ -21,7 +20,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:celo-org:grantPool:2",
+            "id": "daoip-5:celo-org:grantPool:2",
             "name": "Regen Coordination Genesis GG21",
             "description": "",
             "isOpen": false,
@@ -36,7 +35,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:celo-org:grantPool:3",
+            "id": "daoip-5:celo-org:grantPool:3",
             "name": "Real World Builders GG21",
             "description": "The Real World Builders program supports team working on use cases of blockchain technology that make a positive impact on physical communities and environments in areas such as financial inclusion, ecological credits, Real World Assets (RWA), Decentralized Physical Infrastructure (DePIN), and more.\n\n",
             "isOpen": false,
@@ -51,7 +50,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:celo-org:grantPool:18",
+            "id": "daoip-5:celo-org:grantPool:18",
             "name": "Bio Pathfinders Round",
             "description": "The Bio Pathfinders Round supports bioregional regeneration projects and pathfinders working to heal ecosystems and build resilient communities.",
             "isOpen": false,
@@ -66,7 +65,7 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip5:celo-org:grantPool:22",
+            "id": "daoip-5:celo-org:grantPool:22",
             "name": "AgoraForestDAO Round",
             "description": "The AgoraForestDAO Round supports agroforestry and regenerative agriculture projects focused on forest restoration and sustainable land use practices.",
             "isOpen": false,

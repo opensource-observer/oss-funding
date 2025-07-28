@@ -1,0 +1,1054 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Stellar",
+    "type": "Foundation",
+    "grantPools": [
+        {
+            "type": "GrantPool",
+            "name": "scf-21",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:1",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyYpWQohtWKIKZ8",
+                    "projectId": "daoip-5:stellar:project:soroban-cli-cross-platform-gui",
+                    "projectName": "Soroban CLI Cross Platform GUI",
+                    "createdAt": "2023-12-12T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recyYpWQohtWKIKZ8",
+                    "fundsApproved": [
+                        {
+                            "amount": 162390.4,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 20000,
+                    "description": "Transforming Soroban CLI into a user-friendly cross platform desktop application.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Soroban CLI GUI is an intuitive graphical user interface (GUI) application that overlays the Soroban Command Line Interface (CLI) to facilitate smooth, easy-to-navigate interactions with the Stellar network. This product is designed to bridge the gap between advanced blockchain technology and user-friendliness, enabling users to manage contracts, assets, and transactions on the Stellar network without delving into the potentially complex and error-prone CLI.\n\nProblems:\n- Config Complexity: Managing entities like network and identity on Soroban CLI may be challenging for users due to its complexity if a user works on multiple contracts or projects at the same time.\n- Error Handling: Using CLIs can often be prone to syntax errors and requires a steep learning curve for users unfamiliar with Soroban CLI commands, which makes operations difficult like contract deployment or management on Soroban.\n- Developer Workflows: Without a GUI, executing commands and managing blockchain operations via Soroban CLI can be time-consuming and may not integrate smoothly into developers' workflows, particularly for those connected to graphical interfaces.\n\nSolutions and Benefits:\n- User-Friendly Management: Soroban CLI GUI offers a user-friendly platform to manage contracts and transactions, thus eliminating the complexity of using CLI, enhancing the developer experience, and making the process accessible to users with varied expertise.\n- Intuitive Error Mitigation: By providing actionable error messages and tips with a well-designed error parser, the GUI reduces the likelihood of errors and simplifies troubleshooting.\n- Seamless Developer Workflows: The GUI ensures easy integration and management of blockchain operations within Soroban CLI developers' workflows, significantly reducing the time and effort required in CLI interactions.\n\nAudience:\n- Non-Technical Users: Individuals who wish to interact with the Stellar network without navigating the technicalities of a Soroban CLI.\n- Developers: Those looking to streamline blockchain operation processes and improve efficiency.\n- Organizations: Businesses and entities aiming to manage their assets and contracts on the Stellar network with minimal technical barriers.\n\nHow it uses Stellar and/or Soroban:\nSoroban CLI GUI operates by providing a visual layer on top of the Soroban CLI, facilitating user interactions with the Stellar blockchain network through a point-and-click interface rather than traditional command-line inputs.\n- Transaction Management: Users can execute transactions, create and manage assets on the Stellar network by inputting parameters through user-friendly forms and interactive elements within the GUI, which then translates these inputs into command-line operations in the backend.\n- Contract Deployment and Management: The GUI facilitates contract deployment on Soroban by allowing users to specify contract parameters, verify them through a visual interface, and deploy them to the Stellar network with guided, step-by-step assistance, minimizing the scope of errors.\n- Developer-Friendly Operations: Developers can interact with Stellar and Soroban by utilizing pre-built templates and wizards within the GUI, which allow them to integrate blockchain operations seamlessly into their development workflows, thus sparing them from manual CLI interactions.\n\nIntegration with Stellar and Soroban:\nApplication directly interfaces with the Soroban CLI, interpreting user inputs from the graphical interface into corresponding CLI commands to interact with the Stellar network.",
+                        "stellar.teamMembers": "Mert Köklü, Tolga Yaycı",
+                        "stellar.urls": {
+                            "website": "Not Available",
+                            "codeRepository": "https://github.com/yk-labs-dev/soroban-cli-gui",
+                            "videoURL": "https://drive.google.com/file/d/1-MDJkd_0PRODfT0HcmhaRDMeuMnTqGL6/view"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 20000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 162390.4,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Developer Tooling",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-12T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:2",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recBuWuli95RQarWV",
+                    "projectId": "daoip-5:stellar:project:localcoin",
+                    "projectName": "LocalCoin",
+                    "createdAt": "2023-12-05T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recBuWuli95RQarWV",
+                    "fundsApproved": [
+                        {
+                            "amount": 339293.6,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 40875,
+                    "description": "LocalCoin enables on-chain control of financially incentivized action to help social good orgs with effectiveness and trust.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "About\n\nLocalCoin is a closed cycle token system designed to enable on-chain control and tracking of financial incentives in the real world. It is a product and service that manages the disbursement of funds which have restrictions on how they may be spent, comprising smart contracts on Soroban, a web app and mobile app, and eventually a payment card and seamless DAO integration.\n\nProblems and Solutions\n\nThe LocalCoin platform solves problems faced by philanthropic, or social good organizations regarding trust and transparency of how funds are used.\n\nThe problems include:\n- A lack of transparency for donors into how their donations are used.\n- Donor resistance due to the lack of transparency, which limits trust.\n- A risk of funds being misused if cash assistance is distributed.\n- Possibility that unrestricted funds may quickly leave the community, like going to Amazon purchases, limiting their impact.\n- Centralized solutions put all of the burden of scaling on the centralized team.\n- Many of the potential recipient communities for assistance like this are wary of being tracked if they participate.\n\nThe LocalCoin platform addresses these problems by:\n- Providing a closed loop system.\n- Providing a mobile dApp that can be used by both merchants and participants to exchange the local currency for the purchase of approved items.\n- Enabling transactions with the local currency to be traced by recording them all on chain.\n- Allowing definition of flexibly defined restrictions for how the local currency may be spent, with a list of approved merchants and approved items for purchase.\n- Allowing for different issuances of currency to have different restrictions.\n- Limiting transfers to approved merchants, making trading outside the system infeasible.\n- Allowing merchants to redeem the local currency for USD on demand.\n- Eventually including ZKP technology (once available on Soroban) to preserve privacy without compromising security and auditability. (Our team has experience implementing core blockchain zk primitives, so when it comes time to include privacy in the LocalCoin product we will explore making a proposal to implement the necessary functionality if it does not exist already.) Currently zk proving times are too long to sustain a sufficiently responsive UX for our target market, but things are evolving rapidly. Across our other zk initiatives we are expecting about a one year timeframe before proving times come down enough to open opportunities beyond the current high value transactions niche.\n- Scaling through permissionless participation. Unlike a centralized business where all responsibility for scaling to new markets falls on the founding team, LocalCoin is an open system. As with any project built on blockchain infrastructure and an aim to run as a DAO, LocalCoin is starting with a centralized team and will evolve towards greater decentralization over time. As the processes and best practices are established for onboarding new merchants, launching new tokens in different regions, funding different sorts of campaigns, and other operational details, it will become possible to encode them in governance contracts and eventually manage all LocalCoin operations and expansion through a DAO vote approval process. In this sense the scaling becomes permissionless since anyone who wants to leverage the LocalCoin infrastructure will be free to join and deploy the system wherever they are in the world.\n\nThe intended audience for the LocalCoin platform is:\n- Local, social good DAOs - This seems like the ideal audience, for which LocalCoin can satisfy the need for fully on-chain governance and execution.\n- Stand alone philanthropic organizations.\n- NGOs operating in developing countries.\n- DAOs more generally, which may become interested to use LocalCoin once the infrastructure has been built out and user experience becomes smooth.\n\nCompetitors\n\nThere are various existing attempts to address the same challenges. Gift cards have been used (e.g. Amazon) as incentives, for example in a collaboration to clean up Guadalupe River Park in San Jose. UnifyGiving has created a product that enables individuals to give directly to homeless folks that runs on traditional payment rails and has smoothed out a lot of the friction in the system. They are doing good work, and some of what they have created can be a model for us and for organizations that use LocalCoin.\n\n- Gift cards and vouchers may still be bought and sold for fiat at a discount to their face value.\n- Attempts to track usage may lead to recipient privacy infringement. Initially, LocalCoin will address this by using an in-person process, but eventually it will be possible to build privacy into the system with ZKPs.\n- We have not seen any other projects that are trying to address this with a decentralized approach. A decentralized, open source and open governance solution has benefits for keeping costs low, inspiring trust for donors and participants, and enabling permissionless scaling, as described above.\n\nRevenue Model & Funding\n\nLocalCoin will not run as a for-profit entity. The aim is to reach full decentralization with vote-controlled DAO governance. A small fee will be retained in the LocalCoin DAOfund that will be used to cover servers, maintenance, and upgrade costs. A target number for this fee is 1.5%, but it is too early to calculate this from detailed numbers since we are still only beginning to get the full picture of all the ways in which LocalCoin will be used. So far the reception by people involved in DAOs and other philanthropic organizations has been very positive, and funding through grants is expected to be sufficient to build out and transition to a sustainable state.\n\nStages of Development\n\nMinimum Product (This Grant)\n\n- This grant proposal covers design, development, deployment, and results analysis for the minimum LocalCoin product. The following details for the minimum product may change:\n- The Technical Architecture document specifies what will be built for the Minimum Product.\n- Merchants and participants will interact with the system using a mobile app.\n- Our team will work with our bicycle shop partner and the We 💜 SF Street Outreach group to onboard participants.\n- Donated funds will be used to incentivize participation in a bicycle maintenance, repair and safety program put on by a bicycle shop.\n- $2500 will be disbursed through the system.\n- One merchant partner, with whom we have already spoken, runs a bicycle shop in the Tenderloin neighborhood of San Francisco that supports many immigrants doing bicycle delivery work.\n- Attendees of the program will be able to spend their local currency tokens at the bicycle shop and for approved food items from local participating markets.\n- Settlement to USD with the merchants will take place by burning the tokens in exchange for fiat in person with the merchant.\n- All local currency transactions will execute on the Soroban Futurenet.\n\nPilot Production Deployment (First Mainnet Launch)\n\n- Planning for a first production deployment is aimed at a local social good DAO in San Francisco. The LocalCoin service will allow a DAO to issue funds to award as incentives to participants in activities that support the DAO's mission. Use of those funds by recipients will be limited to approved products from a network of participating merchants defined in a DAO proposal. Participating merchants will be able to redeem the funds for fiat currency.\n- Once Soroban mainnet is live, a pilot production deployment of LocalCoin will be proposed as a supporting service for the multiple DAOs being launched through the We 💜 SF initiative sponsored by GeoBrowser (https://www.geobrowser.io/space/0xc46618C200f02EF1EEA28923FC3828301e63C4Bd/a6510b15-0e8b-4d71-b4db-64c279e21689). Already, DAOs have been started to address needs for Transitional Housing, Workforce Development, Street Outreach, and the Social Laundromat project, all of which will be able to incorporate a local currency.\n- The LocalCoin Pilot will focus on DAO integration and seamless local currency to fiat conversion.\n- DAOs will need an interface through which they can specify an issuance of local currency to be funded from their DAOfund.\n- They will be able to put the local currency issuance to a governance vote that will disburse stablecoin from their DAOfund to LocalCoin and initiate whatever program they wish to incentivize.\n- At the other end of the local currency cycle, the merchants will need a simple, low-friction way to convert the local currency to USD in their bank accounts.\n\nFuture Plans\n\nFuture plans for LocalCoin include making the system more robust for use by those for whom smart phones may not be practical, like the homeless. This will include research and experimentation with RFID systems, like the bracelet used by UnifyGiving, and the crypto payment card offered by Ammer Card. Offering it for funds disbursement by NGOs in developing countries. Plans for this extension of the project have already been put in place for distribution of funds and training classes in the remote historical village of Darche in Nepal. Village leaders are already on board and the majority of adult residents have smart phones.",
+                        "stellar.teamMembers": "Daniel Eric Brehmer",
+                        "stellar.urls": {
+                            "website": "https://venture23.xyz/localcoin",
+                            "codeRepository": "https://github.com/venture-23/localcoin/tree/development",
+                            "videoURL": "https://www.youtube.com/watch?v=gxRlOxYu_og"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 40875.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 339293.6,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-05T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:3",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recCm6EsKKmPbx6ow",
+                    "projectId": "daoip-5:stellar:project:beans-app",
+                    "projectName": "Beans app",
+                    "createdAt": "2023-12-06T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recCm6EsKKmPbx6ow",
+                    "fundsApproved": [
+                        {
+                            "amount": 590815.7,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 73780,
+                    "description": "Beans is a non-custodial payments and savings app built on Stellar.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Recurring merchant payments\n\nWhat it is: Set recurring payments to outside stellar accounts.\n\nProblem & Solution: Projects on Stellar might want to offer subscriptions to users, but would need to do a lot of work to integrate all anchors into their platform. We want to offer Beans as a solution there. Outside projects can request recurring payments from Beans users via a link or QR.\n\nHow it Works & Uses Stellar: The user will scan a QR that works with the merchant check-out API we have built. This deeplinks the user to the app, here the user should confirm the proposed recurring payment. Next the app will invoke a smart contract that sets the payments.\n\nSmart wallet infrastructure\n\nWhat is is: Back-end change to better support future Soroban & DeFi integrations.\n\nProblem & solution: As some might have seen we have done a PoC on a Blend lending pool integration into Beans. This PoC has been done in a separate environment where we cut out our current savings balance and replaced it with Blend lending pools. During this PoC, we have realized that we need to update the back-end to be better suited for integrations with Soroban. One of the key elements is that we now have currencies that are either spendable or savings currencies. However, when working with Soroban, spendable currencies like USDC, actually go into a smart contract and thus are also a savings currency. This is not how the current back-end is set-up.\n\nHow it works & uses Stellar: We will update the back-end to smoothen integrations with protocols like Blend. In the future, this will allow us to support multiple savings protocols at the same time, while that is not the case right now.\n\nCountry based recommendation\n\nWhat it is: Recommend the best deposit currency and method based on location.\n\nProblem & Solution: We’d like to incorporate location to determine the best currency/method to deposit with.\n\nHow it Works & Uses Stellar: We will fetch the users location and use that to recommend a specific deposit currency. In a future iteration we will use the location to determine the best method and anchor as well.\n\nSend to any phonenumber\n\nWhat it is: Send money to any phonenumber, even if it’s not a beans user yet.\n\nProblem & Solution: Users want to send money to friends that do not necessarily have the app installed yet. We want to provide a way to send money to any phonenumber in a decentralized way, so that users don’t have to first ask their friends to download the app.\n\nHow it Works & Uses Stellar: We are using SEP 30 for this and have completed most of the work needed, we just need to create a flow that merges the funded account back into the original account as well as some UI changes. This work was scheduled during our previous entry, but because of the shift of focus isn’t completed yet.\n\nQR/link check-out public API\n\nWhat it is: Allow other companies to generate pay with Beans links/QR codes.\n\nProblem & Solution: We have done a lot of work to make on/offramping very easy and accessible. We want to offer this to other ecosystem companies as well.\n\nHow it Works & Uses Stellar: We are building a public API that generates a link or QR that includes amount, currency, destination address and a webhook callback + optional memo. A Beans user scans the QR and pays with their preferred currency. The webshop now never has to know what type of transaction they have to set-up, they just generate the link and Beans will generate the corresponding transaction. Webhooks will allow the merchant to move on with the payment flow when the transaction was completed. The API is ready, next we will build a javascript SDK and set-up the documentation.",
+                        "stellar.teamMembers": "Jop Middelkamp, Wouter Arkink",
+                        "stellar.urls": {
+                            "website": "www.beansapp.com",
+                            "videoURL": "https://www.youtube.com/watch?v=-VNCxoAmOtY"
+                        },
+                        "stellar.socialMedia": {
+                            "twitter": "https://twitter.com/BeansApp",
+                            "discord": "https://beansapp.medium.com/"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 73780.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 590815.7,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-06T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:4",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recDXtqYuR8g9FMXt",
+                    "projectId": "daoip-5:stellar:project:fluxity",
+                    "projectName": "Fluxity",
+                    "createdAt": "2023-11-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recDXtqYuR8g9FMXt",
+                    "fundsApproved": [
+                        {
+                            "amount": 700961.38,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 82750,
+                    "description": "Offers businesses and individuals unprecedented payment customizability through a precision-crafted token streaming platform.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "There are services for which payments are made on a recurring or term basis. While service providers seek sustainable revenue, service consumers desire consistent service utility. Unfortunately, current payment standards could hinder attracting the most users and, in return, affect the growth of service providers. Existing models often mandate lump-sum or fixed-interval payments. The inflexibility challenges can misalign with user needs and business monetization strategies and deter potential adopters or affect adopter retention. Such challenges include:\n\n- Traditional financial systems lag in offering real-time tools. This can be unattractive for potential investors or stakeholders.\n- Consumers face limited choices between full purchases or extended subscriptions, even for short-term usage, which might discourage potential subscribers.\n- Freelancers often face payment delays or defaults, and on the flip side, clients are apprehensive about paying for work that might not be delivered, limiting opportunities and collaborations.\n- Distributing rewards promptly and effectively so they successfully incentivize desired behaviors or actions remains a challenge.\n\nSolution: Token streaming provides an innovative solution to these challenges, offering continuous transactions and ensuring attractiveness, flexibility, and trust in financial engagements.\n\nProduct: Fluxity is an innovative token streaming solution aiming to revolutionize financial transactions through fluidity and efficiency. By providing a unified, secure, and user-friendly solution for token streaming, Fluxity can fill this gap in the Stellar ecosystem. It offers a valuable tool that users, developers, and businesses can leverage to harness the power of token streaming, leading to enhanced efficiency, novel use cases, and potentially disruptive business models.\n\nHow it works: On Fluxity, users can opt for linear or exponential token streaming, initiate streams with set tokens or by period, define start/end times, and utilize cliff streams to delay token distribution. Unique features include batch streaming, representing streams as NFTs, auto transferring, vesting streams, and stream bites for indefinite streaming. Fluxity's server acts as an off-chain tracker. It also provides a payment gateway, API, hooks, and SDK for easy integration. We use Rust with the Soroban package for the contracts and adhere to specific and strict standards to improve security. We will comment on every part of the code for better readability and write documentation for all contracts. Writing tests for different stream states is one of the essential tasks to ensure the correct smart contract operation. For the front end of the project, we use React - NextJS for Server Side Rendering, which improves SEO, and we utilize reusable components that make program development more accessible and code more readable. Additionally, we use TypeScript to manage the project on a large scale better and to reduce the risk of encountering runtime errors. Our codes will be completely open-source.\n\nTarget audience: Token streaming can appeal to a wide range of audiences:\n\n- Institutions interested in providing real-time dividends or interest payouts to attract investors seeking real-time returns on their investments,\n- Any service or platform that uses a subscription model, from software providers to news websites that want to attract a broader range of users,\n- Companies or individuals seeking real-time salaries or wage access aligned with work output,\n- Businesses intending to offer real-time rewards or incentives to their customers or users.\n\nBenefits: Token streaming promises to open up a whole new realm of possibilities, such as real-time payment for services and utilities or continuous crowdfunding campaigns where the flow of funds can be adjusted in real-time based on project milestones. It has the potential to become a standard practice, making financial transactions more fluid, predictable, and tailored to individual needs.",
+                        "stellar.teamMembers": "Ceyda Esen, Doğukan Çelik",
+                        "stellar.urls": {
+                            "website": "https://fluxity.finance",
+                            "codeRepository": "https://github.com/fluxitystellar",
+                            "videoURL": "https://youtu.be/qYFrbYdH2-o?si=BbewUlQgVEXAYyWC"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 82750.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 700961.38,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-11-29T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:5",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFhanAqcbR56Bv8",
+                    "projectId": "daoip-5:stellar:project:keizai",
+                    "projectName": "Keizai",
+                    "createdAt": "2023-12-05T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recFhanAqcbR56Bv8",
+                    "fundsApproved": [
+                        {
+                            "amount": 356932.7,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 47300,
+                    "description": "Keizai is a postman-like Soroban contract testing platform",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Keizai is a postman-inspired application that will help developers to test and interact with Soroban smart contracts. It will launch as a web-based application that allows developers to supercharge their Soroban testing needs through a powerful and user-friendly UI/UX that is easy to understand for beginners but equally useful for seasoned developers.\n\nThe developer journey we envision is straightforward but comprehensive:\n\n- Create a collection to test one or more contracts.\n- Create contract invocation (the equivalent of Requests in Postman).\n- Loading contact information from its WASM and auto-loading function names and parameters for an intuitive user experience.\n- Create pre-invocation scripts to prepare the test scenarios (create accounts, issue assets, etc.).\n- Create test scripts to test the results of your invocations.\n- Ability to set global and collection variables for data-sharing across calls.\n- Run all your invocations in a specified order, one or multiple times.\n- Import/export your collections to share with your teammates.\n- Authenticate your invocations with your preferred wallet by importing your secret keys or using ephemeral accounts generated on the spot.\n\nOther small but useful features include:\n\n- Making arbitrary HTTP requests (and executing arbitrary code) in pre-invocation and test scripts for a richer testing experience.\n- Pre-defined snippets to help you get started with your pre-invocation and test scripts: Create an account, make it issue an asset, create a trustline, etc.\n- References that point to helpful documentation in relevant sections.\n- Where possible, provide helpful information about common errors.\n- History of invocations with replay capabilities.\n- Listen and display contract events.",
+                        "stellar.teamMembers": "Ivan Tammaro",
+                        "stellar.urls": {
+                            "website": "https://app.keizai.dev/",
+                            "codeRepository": "github.com/keizai-tools/",
+                            "videoURL": "https://youtu.be/zl4LZ802g4o"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 47300.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 356932.7,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+                        "org.stellar.communityfund.category": "Developer Tooling",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-05T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:6",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8hQ6VSQ4036a93",
+                    "projectId": "daoip-5:stellar:project:idunu-help-kids-thrive",
+                    "projectName": "IDUNU: Help Kids Thrive",
+                    "createdAt": "2023-12-12T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec8hQ6VSQ4036a93",
+                    "fundsApproved": [
+                        {
+                            "amount": 121792.8,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 15000,
+                    "description": "A fundraising and fund distribution platform for high-impact, cost-effective charities working with underprivileged kids.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "1- What the product is:\n\nIDUNU: A fundraising and fund distribution platform for high-impact, cost-effective charities and NGOs working with underprivileged kids.\n\nGoal: Empowering charities focused on underprivileged children through a sustainable and transparent, Stellar, and Soroban-powered fundraising and fund distribution platform.\n\nOur target audience includes charities and NGOs, as well as donors who are looking for a trustworthy platform to support underprivileged children.\n\nBy leveraging Stellar for transactions and Soroban for smart contracts, the platform will help NGOs raise the necessary funds they need to make a positive impact in the lives of these children and provide a transparent fund distribution platform, ensuring donor funds are accounted for to the last cent.\n\n* IDUNU means Happiness\n\n2- Problems it solves, how it solves them, and the target audience:\n\nI built a small personal portfolio project that helped raise badly needed funds for NGOs who contacted me. Over $2537 (over 2 million naira) in 1 week was raised, and our success was covered in numerous national and international media. I was blown away, and it got me thinking about how we could take this small win and transform it into something truly monumental.\n\nThere are over 98 million out-of-school children in Africa (200 million worldwide), and those still in school lack basic learning materials to achieve their dreams. The next generation of digital technologists needs help.\n\nOver the past years, I've worked with NGOs like The Helpmates Foundation and Teens Trust Foundation to donate proper school kits to needy school kids in Nigeria, especially where millions live in extreme poverty.\n\nThey all face one problem: the struggle to raise funds for their annual school initiatives due to the country's dire economic situation.\n\nLike mine, there is a big chance crypto has had a huge influence on your life. And we're hoping you can help us build a sustainable fundraising and fund distribution platform for causes that matter. Plus, there is a massive potential for increased media and developer attention for the Stellar and Soroban ecosystem.\n\nBy leveraging these platforms, we provide a transparent and sustainable platform that ensures donors are incentivized to donate, and donor funds are utilized effectively, directly benefiting the children in need.\n\nIn summary,\n\nProblems:\n- NGOs face significant challenges in raising funds for educational initiatives due to economic constraints.\n- There is a high number of out-of-school children, and those in school often need more essential learning materials.\n- Raising and distributing funds needs more transparency, affecting donor confidence and willingness to contribute.\n\nSolutions:\nBuilding on the previous individual/indie-hacker success and expanding to a:\n- A sustainable blockchain-based fundraising platform leveraging Stellar and Soroban offers transparent, low-cost transactions where donors can trace the direct impact of their contributions, ensuring accountability and incentivizing donations.\n- Smart contracts automate fund releases upon meeting set conditions, providing donors reassurance that their contributions are utilized precisely for the intended charitable purposes.\n\nTarget Audience:\n- Individuals and organizations interested in supporting educational initiatives for underprivileged children in Africa.\n- NGOs that require a more efficient and transparent way to raise and manage funds.\n- Donors seeking a secure and direct method to contribute to causes with tangible outcomes.\n- The cryptocurrency community, especially those who have benefited from crypto and wish to give back to society meaningfully.\n\nBenefits:\n- It supports the education of the next generation of digital technologists in regions that need it most.\n- Ensures that every dollar contributed goes directly to its intended purpose, maximizing the impact of donations.\n- Raises awareness and increases media attention for the initiatives and the underlying technology platforms (Stellar and Soroban), creating a win-win situation for the causes and the Stellar community.\n\n3 - Key features:\n- User-friendly interface for both charities and donors\n- Integration with Stellar and Soroban for blockchain-powered transparency and efficiency.\n\nUser-friendly interface for both charities and donors:\nA user-friendly interface is essential to ensure that both charities and donors can easily navigate the platform and access the features they need. Our platform will be designed with the user in mind - an intuitive and straightforward interface that makes it simple for charities to set up their fundraising campaigns and for donors to contribute to verified causes they care about. We will also have tools like customizable donation pages - each charity has its page showing current fundraising efforts and fund distribution progress.\n\nThe ability to track and distribute funds transparently is crucial in building trust between charities, NGOs, and donors.\n\n4- How it works and how it uses Stellar and/or Soroban:\nOur platform leverages Stellar’s unique open blockchain payment features for secure and transparent fundraising and fund distribution. When a donor contributes to a charity or NGO, the funds are tracked on the Stellar blockchain, ensuring that every cent is accounted for. The funds are then distributed to the charity or NGO using Soroban smart contracts, which automate the distribution process and ensure that the funds are used for their intended purpose.\n\nSoro-Lock: Transparent fund tracking and distribution:\nIntegrating Stellar and Soroban into our platform can help provide a level of transparency and security that is unmatched by traditional fundraising platforms. This transparency is achieved through our Soroban-powered smart contracts (using Rust SDK for Soroban Contracts.), introducing critical features like Soro-lock on funds: Time-based Lock, Conditional Release, and Refund Mechanism, ensuring that funds are not misused or misallocated.\n\nDonation:\n- Donors choose a campaign and make a donation using mainly Stellar USDC.\n- Collaborate with Stellar Anchors like Busha or Accrue for funds distribution to needed parties. Such collaboration is needed for the overall growth of the Stellar and Soroban ecosystem.\n\nFund Distribution:\n- Charities set up fund distribution rules using Soroban smart contracts.\n- Smart contracts automate the distribution of funds according to the rules.\n- There’s also the possibility of exploring Stellar’s open-source bulk payment solution for humanitarian aid, Stellar Disbursement Platform.\n\nReporting & Transparency:\n- All transactions (donations and fund distributions) are recorded on the Stellar blockchain.\n- Donors and charities can view the detailed transaction history and fund usage reports.\n- This provides transparency and builds trust between donors and charities.",
+                        "stellar.teamMembers": "infovore",
+                        "stellar.urls": {
+                            "website": "https://www.sponsoraschoolkit.com/ (precursor)",
+                            "videoURL": "https://youtu.be/Q3isisfEJjM"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 15000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 121792.8,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-12T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:7",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recb8O4gXWaS4RsaM",
+                    "projectId": "daoip-5:stellar:project:orbitcdp",
+                    "projectName": "OrbitCDP: CDPs on Stellar ",
+                    "createdAt": "2024-01-30T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recb8O4gXWaS4RsaM",
+                    "fundsApproved": [
+                        {
+                            "amount": 287256.26,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 33000,
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Product Overview for Activation Award Phase:\n\nWe have a much more detailed technical document available at the link above; but for your convenience have tried to condense it to the most important points here. We still encourage you to read our full technical document which will be the basis for our activation award and which will be further refined to perfection during the first 6 week period.\n\nCDP Smart Contract Logic:\n\nProduct Description: We’re developing a Collateralized Debt Position (CDP) system on Soroban, Stellar's smart contract platform. This MVP will enable users to engage with a USD-pegged stablecoin system using XLM as collateral.\n\nProblem and Solution: The product addresses the need for a decentralized stablecoin on the Stellar network, providing users with a mechanism to leverage their XLM holdings without selling. This serves the audience seeking to maintain exposure to their crypto assets while accessing liquid capital.\n\nBenefits:\n- Accessibility: Users gain access to stablecoins without relinquishing their XLM holdings.\n- Stability: Offers a hedge against volatility in the crypto market.\n- Decentralization: Ensures transparency and trustlessness, key tenets of the blockchain community.\n\nHow it Works and Uses Stellar/Soroban:\n- Open/Close Functions: Users interact with the smart contract to lock XLM and mint a stablecoin. The reverse process extinguishes the stablecoin and returns the XLM.\n- Interest Calculation: Utilizes a predetermined formula to calculate the interest owed over time on the minted stablecoin.\n- Collateralization Ratios: Sets parameters for the amount of XLM required to mint stablecoins, ensuring the system remains solvent even during market downturns.\n\nThis first phase includes a full definition of technical details and a version 1 of the Soroban-based smart contracts, ensuring the foundation of the CDP system is solid, functional, and ready for further development.\n\nFuture Phases:\n\nInterface and Monitoring (Phase 2):\n\nProduct Description: This phase involves developing a user-friendly interface and monitoring system to manage CDPs. The goal is to provide a transparent view of the user's collateral status and potential liquidation scenarios.\n\nProblem and Solution: CDP management can be complex and opaque. A dedicated UI and monitoring tools simplify the experience and help users make informed decisions to prevent liquidation.\n\nBenefits:\n- User Empowerment: Empowers users with real-time information on their CDPs.\n- Risk Mitigation: Early warning systems for approaching liquidation thresholds help users act promptly to secure their positions.\n\nHow it Works and Uses Stellar/Soroban:\n- UI: Allows for direct interaction with the Soroban smart contracts, letting users open, monitor, and close CDPs.\n- Monitoring Tools: These tools observe the smart contracts and alert users about their CDP status, using off-chain processes until on-chain oracles are available.\n\nDeployment and Testing (Phase 2 + 3):\n\nProduct Description: Deployment and testing will likely happen both in phase 2 and phase 3. First we focus on deploying the smart contracts to the testnet for rigorous testing, followed by a security audit before mainnet deployment, during phase 3.\n\nProblem and Solution: Deploying untested smart contracts can lead to security vulnerabilities. Testnet deployment and audits ensure the security and robustness of the contracts.\n\nBenefits:\n- Security Assurance: A thorough audit process minimizes the risk of bugs and vulnerabilities.\n- Reliability: Testnet trials under varied conditions ensure the system's resilience.\n\nHow it Works and Uses Stellar/Soroban:\n- Testnet Testing: Tests the smart contracts on the Soroban testnet, which simulates the live environment without risking real funds.\n- Security Audits: Independent audits assess the smart contracts' security, ensuring they adhere to best practices and are ready for mainnet deployment.\n\nGovernance and Multi-Asset Pool Expansion: (Phase 3)\n\nProduct Description: The final stage will also see the plan for transition to a DAO for decentralized governance and the introduction of multi-asset pools to the CDP system.\n\nProblem and Solution: Centralized governance is often seen as a bottleneck for innovation and community involvement. Transitioning to a DAO democratizes decision-making and ownership. Multi-asset pools will diversify the assets within the DeFi ecosystem.\n\nBenefits:\n- Decentralized Control: A DAO structure ensures the community drives the CDP system's evolution.\n- Diversification: Multi-asset pools offer users more options to engage with the system, increasing its robustness and appeal.\n\nHow it Works and Uses Stellar/Soroban:\n- DAO: Implements governance smart contracts on Soroban, allowing token holders to propose and vote on changes.\n- Multi-Asset Pools: Extends the CDP system's capabilities on Soroban to accommodate various assets, enriching the Stellar DeFi landscape.",
+                        "stellar.teamMembers": "Ishan Singh, Robin Olthuis",
+                        "stellar.urls": {
+                            "website": "https://github.com/OrbitCDP",
+                            "videoURL": "https://vimeo.com/881536539?share=copy"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 33000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 287256.26,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Financial Protocols",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2024-01-30T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:8",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recg1FCAdn5g38z6k",
+                    "projectId": "daoip-5:stellar:project:slender",
+                    "projectName": "Slender Lending protocol",
+                    "createdAt": "2023-12-14T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recg1FCAdn5g38z6k",
+                    "fundsApproved": [
+                        {
+                            "amount": 782001.9,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 97500,
+                    "description": "https://communityfund.stellar.org/project/rechPDTM2bbJyp2Mo",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Slender is a permissionless money-market protocol that allows users to lend and borrow their crypto assets. Slender's main goal is to convert centralized financial services to their decentralized equivalents. In a normal lending scenario, the banks lend your funds and earn interest. Even though they are lending out your money, you never gain access to these profitable interest earnings. With Slender, anyone can lend out their crypto in a trustless and permissionless manner to other users. Slender provides real world use-cases:\n\n1. Bank the unbanked: with the help of the Stellar ecosystem and its partners, we can revolutionize the money experience for wide communities, countries, and even regions. Users will enjoy seamless decentralized savings accounts where they provide funding for companies and businesses in return for interest through Slender pooled lending.\n\n2. Real world meets the blockchain: Slender will support RWAs as collateral, where tokenized real-world assets may be used as collateral for borrowing stablecoin (off-ramped to fiat) liquidity.",
+                        "stellar.teamMembers": "Alex Melikhov, Peter Sergeev",
+                        "stellar.urls": {
+                            "website": "https://slender.fi/",
+                            "codeRepository": "https://github.com/eq-lab/Slender/tree/develop,",
+                            "videoURL": "https://github.com/eq-lab/slender-ui/tree/stage"
+                        },
+                        "stellar.socialMedia": {
+                            "twitter": "https://x.com/Slender_fi"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 97500.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 782001.9,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Financial Protocols",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-14T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:9",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckrr0bqgDyL0AX8",
+                    "projectId": "daoip-5:stellar:project:planet-pay",
+                    "projectName": "Planet Pay (ex-Stellar Flow)",
+                    "createdAt": "2023-12-08T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reckrr0bqgDyL0AX8",
+                    "fundsApproved": [
+                        {
+                            "amount": 734281.8,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 96000,
+                    "description": "No code/Low code workflow builder for Stellar Classic & Soroban",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Note: please make sure you read our technical architecture document; this section gives you an overview only.\n\nPlanet Pay is a B2B solution that leverages ScaleMote’s experience and cultivated business relationships to offer robust and battle-tested integrations with: Anchors (Anclap, MYKOBO, Alfred Pay, nTokens, etc.), Other B2B providers (Blox, Pomelo, Persona for KYC, etc.), Stellar solutions (such as Recovery Platform, Disbursement Platform and Anchor Platform) and Other SCF projects (both Soroban & Classic).\n\nBesides the optional white-label wallet, which is plug-and-play, businesses can use the Planet Pay API to manage and access their integrations. Because ScaleMote is a service provider, Planet Pay will be offered in a DIY model (Saas) or DIF (do-it for me), where ScaleMote builds the integration for the business. This business model ensures Planet Pay does not require continued support from the SCF to operate.\n\nAs part of Planet Pay's offering, we are also launching an onramp service in Australia to onramp AUD and convert them into Novatti's AUDD, Circle's EURC or Circle's USDC.\n\nProblem: Slow speed-to-market and high cost\n\nWe have seen the same pattern: Entrepreneurs who want to play in the Fintech space or want to offer embedded finance have to do the same integrations; these integrations are slow and require thorough verification that everything works as expected before going to production and end up costing tens of thousands of dollars in software development effort.\n\nPlanet Pay allows entrepreneurs to build their fintech infrastructure by selecting the integrations they want for Onramp, Offramp, KYC, Physical and virtual Cards, and other Stellar Projects (both for Classic and Soroban). The work we've done under the \"Stellar Flow\" project is now a subset of Planet Pay, catering to complex workflows or integrations (see more details in our technical architecture document).\n\nAs part of the infrastructure setup, entrepreneurs can choose other modules, such as SDP for mass disbursements and the Anchor Platform to issue their assets.\n\nFinally, entrepreneurs can launch their project with a white-label SEP-30-compliant wallet, which can be registered as an SDP provider.\n\nAdvanced features\n\nWith Planet Pay, companies can operate multiple anchors in a single region (Anchor Clusters) to: Drive better service through competitiveness. Backup operations. If an anchor is down, another one can replace it. Rate comparison, the anchor with the best rate gets selected automatically.\n\nOur first-class integration with Stellar Classic (e.g. Ultrastellar for yUSDC) and Soroban (e.g. Soroswap) means that companies can unlock the power of DeFi and provide innovative financial products by selecting other community projects from the list.\n\nOur advanced workflow tool would allow, for instance, to listen for payments on a customer account and immediately balance the incoming USDC, keeping 50% in cash, 25% swapped to yUSDC and 25% entered as liquidity on SoroSwap.\n\nDogfooding: Building the first MVP on top of Planet Pay\n\n\"Eating your own dog food, or 'dogfooding', is the practice of an organization using its own product internally.\"\n\nThe first product we will build is a wallet that does remittances between Australia and Argentina. Onramp AUD to AUDD, USDC or EURC and offramp ARS.",
+                        "stellar.teamMembers": "Fabricio Leonardo Sodano Pascazi",
+                        "stellar.urls": {
+                            "website": "https://flow.planetpay.io/",
+                            "codeRepository": "https://github.com/ScaleMote/flow",
+                            "videoURL": "https://www.youtube.com/watch?v=KAshUstaQc0"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 96000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 734281.8,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Developer Tooling",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-08T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:10",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclZen7CJQgQeWDH",
+                    "projectId": "daoip-5:stellar:project:onboarding-club",
+                    "projectName": "Onboarding.club",
+                    "createdAt": "2023-11-15T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclZen7CJQgQeWDH",
+                    "fundsApproved": [
+                        {
+                            "amount": 258397.9,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 31000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:11",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recoH3wbnTFB9AYpG",
+                    "projectId": "daoip-5:stellar:project:lumosdao",
+                    "projectName": "LumosDAO",
+                    "createdAt": "2023-11-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recoH3wbnTFB9AYpG",
+                    "fundsApproved": [
+                        {
+                            "amount": 507312.99,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 60000,
+                    "description": "Decentralized Governance on Stellar Network. Create, manage, and participate in DAOs seamlessly, with transparency and efficiency.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "1. LumosDAO Platform\n\nWhat it is:\nLumosDAO is a blockchain-based platform built on Stellar-Soroban that streamlines the creation and management of Decentralized Autonomous Organizations (DAOs).\n\nProblems it solves:\n1. Simplified DAO Creation: It simplifies the typically complex process of creating a DAO, making it accessible to projects with varying degrees of blockchain familiarity.\n2. Stellar-Specific Challenges: For Stellar-based projects, LumosDAO eases the challenges related to setting up DAOs on the Stellar network by automating tasks like trustline creation, token issuance, and hosting of toml files.\n3. Fairer Governance: It promotes more equitable voting governance by factoring in user engagement, Stellar wallet activity, and token holdings when calculating voting power.\n\nAudience:\nLumosDAO serves blockchain projects, especially newcomers and Stellar-based ones, offering easy DAO setup and fairer voting to project teams and members alike.\n\n2. Public Voting Power Calculator\n\nWhat it is:\nLumosDAO's upcoming feature, a Public Voting Power Calculator, will provide transparent insights into how voting power is determined for each proposal on the platform.\n\nProblems it solves:\nThis tool addresses the issue of opaqueness in voting power calculations. It offers users clarity and insight into why votes hold specific weights.\n\nAudience:\nLumosDAO members will benefit from this feature as it fosters trust and transparency in the voting process.\n\n3. User Profile\n\nWhat it is:\nLumosDAO's User Profile functionality tracks and displays the activity of connected wallets, including DAO joins, proposal creation, and participation.\n\nProblems it solves:\nIt mitigates the lack of visibility into user history within the DAO. Users can gauge the trustworthiness and activity of a wallet by reviewing its past actions.\n\nAudience:\nLumosDAO members will gain insights into the credibility and engagement of their peers, fostering a more informed and collaborative environment.\n\n4. Activity Explorer\n\nWhat it is:\nThe Activity Explorer will publicly showcase all transactions and activities that occur on LumosDAO, promoting transparency.\n\nProblems it solves:\nIt addresses the lack of easily accessible records of activities within the DAO, making LumosDAO's operations open and accountable.\n\nAudience:\nThis feature benefits anyone interested in LumosDAO's ecosystem, ensuring that all activities are traceable and verifiable.\n\nHow will LumosDAO use Stellar/Soroban blockchain:\n\n1. Wallet Connection: We will integrate Stellar-based wallets like Freighter, Rabet, Xbull, and Albedo for user authentication and transaction signatures, providing a secure and seamless user experience.\n2. Token Issuance via Smart Contracts: LumosDAO will leverage Soroban smart contracts to automate the issuance of new tokens. These tokens will act as the DAO's native currency for governance and other activities within the DAO.\n3. Automated Trustline Issuance via Smart Contracts: Soroban smart contracts will be used to automatically issue trustlines for DAO members, enabling them to hold and transact in the DAO's native token.\n4. TOML File Management: We will adhere to Stellar's TOML standard for asset documentation. Smart contracts will be deployed to auto-generate and host TOML files for new tokens and to fetch TOML files for existing tokens.\n5. Voting Mechanism via Smart Contracts: Governance votes will be recorded on Stellar blockchain using Soroban smart contracts. These contracts will calculate voting power based on predefined factors such as token holdings, DAO activity, and wallet metrics.\n6. Data Retrieval and Storage: Stellar Horizon servers will be used for fetching transaction history and other blockchain data, to be utilized in governance model calculations.\n7. Public Code Verification: All smart contracts and associated code will be publicly hosted on GitHub for verification, adding an extra layer of transparency and security.\n\nThrough these specific implementations, LumosDAO aims to harness the full capabilities of Soroban blockchain's smart contract features to create a robust, transparent, and efficient DAO ecosystem.",
+                        "stellar.teamMembers": "Abeeha Batool, Naveed Siddiqui",
+                        "stellar.urls": {
+                            "website": "https://lumosdao.io",
+                            "codeRepository": "https://github.com/naveed-siddiqi/lumos-dao/tree/smart-contract",
+                            "videoURL": "https://www.youtube.com/watch?v=lFNCs71F6e0"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 60000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 507312.99,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+                        "org.stellar.communityfund.category": "Developer Tooling",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-11-29T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:12",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recr6JGgzX8IHBgA5",
+                    "projectId": "daoip-5:stellar:project:cashabroad",
+                    "projectName": "CashAbroad Letter of Credit",
+                    "createdAt": "2023-12-05T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recr6JGgzX8IHBgA5",
+                    "fundsApproved": [
+                        {
+                            "amount": 498045.6,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 60000,
+                    "description": "Do Abroad business as easily as with locals for exporting and importing businesses in LATAM. CashAbroad facilitates cross-border payments with USDC and Fiat.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Letter of Credit\n\nA letter of credit is a financial instrument used in international trade to facilitate secure and reliable transactions between a buyer (importer) and a seller (exporter). It serves as a guarantee to ensure that the seller and the buyer will complete correctly the transaction and receive/make the payment. This is a required finance tool in industries such as automotive, manufacturing, maintenance, repairs, and oil & gas often need to import machinery, repair parts, chemicals, and materials.\n\nProblem\n\nLetters of credit can be expensive and time-consuming, requiring an intermediary bank to generate them, which takes between 3-5 days and charges up to 10% of the LC value. Additionally, not all businesses have access to these financial tools. Small and medium-sized enterprises (SMEs) that need to make international transactions face the challenge of not qualifying for such instruments and taking risks when dealing with unknown international partners. Businesses face the challenge of finding new international providers and taking on risks during financial transactions due to varying requirements and conditions.\n\nUsers\n\nImport and export businesses around the world that require a secure payment method for both parties.\n\nSolution with Stellar and Soroban\n\nThe CashAbroad platform will enable the exporter and importer to agree on the terms and conditions of the credit letter for the transaction. Parameters such as payment amount, delivery date, importer and exporter wallets, Incoterms, and payment policies will be taken into account. Once the agreement is reached, they will sign it, and the credit letter will be issued in Soroban. The importer will then be required to send the money, which will be stored in an escrow wallet. The exporter will receive a confirmation and proceed to produce and send the product. When the product arrives at the agreed delivery location based on the Incoterm, the status will be updated, and the payment will be received by the exporter. By implementing this solution, we will provide a secure and reliable payment method for both importers and exporters.",
+                        "stellar.teamMembers": "Braulio Alejandro Ramírez Montiel, Ruth Gomez Hidalgo",
+                        "stellar.urls": {
+                            "website": "https://www.cashabroad.one",
+                            "videoURL": "https://youtu.be/slCNzYGEboY"
+                        },
+                        "stellar.socialMedia": {
+                            "linkedIn": "https://www.linkedin.com/company/cashabroad/",
+                            "twitter": "https://twitter.com/CashAbroadApp"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 60000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 498045.6,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-05T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:13",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rectnpnWufE42Gm1r",
+                    "projectId": "daoip-5:stellar:project:nauta-land",
+                    "projectName": "Nauta Land",
+                    "createdAt": "2023-12-12T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rectnpnWufE42Gm1r",
+                    "fundsApproved": [
+                        {
+                            "amount": 676725.55,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 82867,
+                    "description": "Nauta makes Real Estate investments available to everyone",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Nauta is a digital investment platform focusing on real estate tokenization, allowing investors to access and invest in fractional ownership of high-quality real estate assets.\n\nThe problem\n\nBuyers and investors face significant challenges in the Colombian market. Inflation rises (1), decreasing the purchasing power of investors and resulting in higher material and labor costs (2), as well as increased property costs and interest rates (3). Complex and bureaucratic procedures make real estate transactions overwhelming (4). A down payment of up to 30% of the property value is required (5). Properties in LATAM take as much as 18 months to sell (6).\n\nSolution\n\nNauta makes Real Estate investment more inclusive and accessible to a broader range of investors. Launched in March 2023, with USD 360,000 AUM for >700 users, Nauta transforms the traditional real estate acquisition model through a user-focused platform for buying, selling, and trading real estate fractions, turning an illiquid market into a liquid one.\n\nNauta’s operating model\n\nSelection: Nauta selects properties that meet high standards regarding quality, location, profitability, and appreciation. Fractionalization: Nauta fractionalizes the properties into equal parts. Acquisition: Investors can acquire fractions beginning at USD 10. Management: Nauta is the real estate managing each property & tenants. Distribution: Monthly dividend distribution from rents to investors [1] [2] [3] [4]. Liquidity: Retail Investors can sell, buy, and trade tokens with other verified users.\n\n[1] Nauta follows government guidelines and is supervised by the Superintendence of Industry and Commerce (SIC). [3] Nauta is a member of Colombia Proptech, working with the Financial Superintendence to propose detailed regulations and establish a sandbox for real estate asset tokenization. [4] Only for Colombian users. USA users may not have access due to regulatory restrictions and compliance requirements. As the regulatory landscape evolves, we may expand services to the USA.\n\nWhy Stellar\n\nStellar's advantages, such as low transaction fees, rapid settlement times, and comprehensive asset issuance options, make it an ideal choice for Nauta's platform. Nauta does not operate on any blockchain at the moment.\n\nNauta's integration with the Stellar blockchain has two distinct phases:\n\nInitial Phase - Transparency and Efficiency: In the first integration with Stellar, Nauta focuses on migrating its current operations to Stellar (Nauta does not operate on any blockchain at the moment) by representing tokenized assets in the Stellar network and creating accounts for existing and new users. Buying and selling property shares between users becomes a simple Stellar payment, and makes dividend distributions transparent to our users.\n\nSecond Phase - DeFi platform on Soroban: As Nauta works through the necessary compliance requirements to expand operations to other countries to tap into a broader addressable market, Nauta will take the opportunity to build a genuine DeFi (Decentralized Finance) product on top of Soroban.\n\nTechnical\n\nWhen a new property is purchased, Nauta will issue a new asset. Example: A property is purchased for USD 100,000, so NAUTA issues 100,000 NAUTA01 representing that specific property split in 100,000 equal parts. Another property asset would be coded as NAUTA02, etc. Through its platform, Nauta will limit the purchases to a minimum of 10 USD, and making use of Stellar's comprehensive asset issuance controls, it will freeze the assets in each investor account, until it's time to buy or sell through the Nauta platform, only with other users who have gone through the KYC process. When income for a property is received, Nauta will do off-chain calculations to distribute the dividends proportionally according to the ownership of the NAUTA01 asset. When a property is sold, Nauta will claw back the assets representing that property and send USDC back to the users, which can then be reinvested in other properties.\n\nNauta’s revenue streams\n\nSales: 3% fee on initial sales of fractional ownership of the real estate assets. Nauta also earns a 1.5% fee on transactions of existing shares between participants. Property Management: 8% of the rental income generated by each property.\n\nMarket Research\n\nWhile 89% of millennials aspire to generate passive income through property ownership in LATAM [1], the landscape is shifting due to the younger generations' shift in habits [2]. These tech-savvy and experience-seeking individuals prioritize travel and flexibility and shy away from the burdens of traditional responsibilities [3], including hefty down payments and debt [4]. Nauta seizes the potential presented by this generation. LATAM boasts a significant millennial and centennial population, with 330 million across the region [5] and 29 million in Colombia, accounting for 51% of the country's population [6]. Approximately 7.5 million possess the financial means to invest [7]. Nauta aims to capture 10% of this segment or 750k users.\n\nMarketing & Sales\n\nNauta employs 2 user acquisition strategies. B2C: We actively engage potential individual investors with targeted ads on platforms like Meta. We also invest in content creation, partnering with influencers to extend our reach. A/B tests on channels such as Google and TikTok help optimize customer acquisition. B2B2C: Strategic collaborations with established companies enhance our credibility and provide access to their customer base. Currently, we're beta testing with the Colombian Air Force (11,000 users + families) and Cosmos Security (1,000 employees). These partnerships explore innovative microcredit solutions using real estate tokens as collateral, aiming to onboard up to 12,000 users.\n\nResources & Relationships\n\nMultidisciplinary Team: Our multidisciplinary team brings together professionals from various fields, such as technology, finance, compliance, real estate, growth, and blockchain. Founder's Industry Knowledge: Stefano Lignarolo, Nauta's CEO, as an architect and real estate developer, has witnessed the difficulties individuals face when acquiring or investing in properties. Strong Alliances: Well-established alliances with real estate developers, homeowners, and Colombian government entities. In-Depth Understanding of Real Estate Transactions: Real-world experience in the sector, from property acquisition to rental management. This expertise allows the platform to streamline processes, ensuring a seamless experience for users.\n\nLegal\n\nThe real estate projects that NAUTA offers to its users are materialized through a contractual agreement represented by utility tokens, which are fractional units representing a percentage of the contribution made to each project. These tokens do not constitute securities, financial instruments, or investments according to Colombian law (Law 964 of 2005). Therefore, NAUTA cannot be considered a fund manager or engaged in any activities described in the securities law or related to investment funds. Additionally, to ensure security and compliance, NAUTA follows Know Your Customer (KYC) and Anti-Money Laundering (AML) procedures. These steps verify user identities and prevent illegal financial activities. Our commitment to these practices fosters a trustworthy and transparent environment for all participants in our real estate investment ecosystem. Nauta Propiedades owns the properties and enters into a usufruct contract with Nauta Land. Nauta Land transfers the usufruct contract to the users, supported by tokens. This contract, represented by the tokens, grants users the right to receive lifelong earnings from rental income and property appreciation as long as they own the tokens.\n\nDoes Or Will Your Project (Mainly) Serve An Underserved Audience?\n\nYes. Approximately 70% of the Latin American population falls under the category of unbanked (meaning they either lack access to checking/saving accounts) or underbanked (have bank accounts but limited access to credits and loans) [1]. Interestingly, cash remains the dominant mode of payment for most retail transactions in the region. This significant number of individuals highlights the pressing need for innovative financial solutions to promote greater financial inclusion and accessibility to formal financial services. Companies like Nauta are at the forefront of addressing these challenges, offering platforms and technologies that bridge the gap and empower individuals with opportunities for investment and economic growth. Through Nauta's inclusive real estate investment platform, we aim to make a positive impact on this underserved population, providing them with a pathway to participate in the real estate market and unlocking new avenues for financial inclusion in the region. This approach creates a more inclusive way to invest, breaking down barriers and opening doors for individuals who may have thought real estate investing was only for the wealthy. With Nauta, anyone can enter the market and become a real estate investor with a small amount of money. By tokenizing real estate assets and making them available at such accessible prices, Nauta empowers individuals to diversify their investment portfolios and potentially benefit from the returns that real estate can offer. It brings the advantages of real estate investment within reach for a broader range of people, fostering financial inclusion and providing opportunities for wealth accumulation. Through Nauta's platform, individuals can experience the benefits of real estate investment, such as potential rental income and property appreciation, regardless of their initial investment size. This democratization of real estate investment helps level the playing field and creates a more inclusive investment landscape for all.",
+                        "stellar.teamMembers": "Stefano Lignarolo",
+                        "stellar.urls": {
+                            "website": "https://www.nauta.land/ , https://stellar.nauta.land",
+                            "codeRepository": ".",
+                            "videoURL": "https://www.youtube.com/watch?v=g5dbp3ws85g"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 82867.4,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 676725.55,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-12T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:14",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIJqhn2HhQ0tIFu",
+                    "projectId": "daoip-5:stellar:project:reclaim-protocol",
+                    "projectName": "Reclaim Protocol",
+                    "createdAt": "2023-11-27T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recIJqhn2HhQ0tIFu",
+                    "fundsApproved": [
+                        {
+                            "amount": 431965.4,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000,
+                    "description": "Reclaim protocol uses https session keys to generate zk proofs of user's profiles, enabling verifiable credentials without APIs.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.teamMembers": "Srijith Padmesh, Subhash Chandra Sekhar Karri",
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 50000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 431965.4,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Infrastructure & Services",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-11-27T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:15",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recR32JiVTfXBDnke",
+                    "projectId": "daoip-5:stellar:project:pakana-net",
+                    "projectName": "Pakana.net Activation",
+                    "createdAt": "2023-11-15T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recR32JiVTfXBDnke",
+                    "fundsApproved": [
+                        {
+                            "amount": 376760.9,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 45200,
+                    "description": "Pakana: A blockchain-driven platform reshaping payment & project management for owners, contractors, creators and fiduciaries.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "The Pakana Lockb0x Platform is a decentralized marketplace and peer-to-peer escrow management service, underpinned by Stellar's decentralized blockchain ledger network and technology. It is also designed to transform payment processing, project management, and to instill transparency in financial transactions using Stellar's peer-to-peer operations and the Stellar Disbursement Platform, with future implementations planned for Stellar's Moneygram services, and USDC payments.\n\nA notable use-case is enabling attorneys to manage their clients' trust accounts transparently and accountably. This includes a transparent (to all participants) Construction Control, Custodial Trust Account Ledger Management, IOLTA or Trust Account Ledger Management and Payment Disbursement. To reach a wider market Pakana also offers an escrow-based Software Project Development workflow suitable for various freelancer use-cases. In the future, Pakana will offer a wide range of professional and legal services through advanced automation and AI enhanced processes and our growing professional community.\n\nAt its heart, Pakana is a blockchain-driven metadata management platform, implemented as a DotNet Core API with a Razor Pages application. It integrates PostgreSQL, optional Azure Storage and/or IPFS, and other services. Further details are provided in the Technical Architecture document. This versatile platform streamlines work execution and payment, ensuring swift, secure, and cost-effective transactions, with cryptographic documentation of every transaction phase.\n\nChallenges Addressed:\n- High transaction fees and cumbersome payment processing with weak project management tools and services on traditional Web2 freelancer platforms.\n- Trust and transparency concerns with current freelancing platforms.\n- A growing demand for a secure, decentralized platform tailored for fiduciaries, like attorneys, for meticulous audited account management.\n\nSolutions:\n- Pakana leverages Stellar's multi-signature wallets to facilitate a \"peer-to-peer escrow\" mechanism for swift, secure, and low-cost payments.\n- It fosters a transparent setting for work delivery, payment verification, and tailored collaboration.\n- Pakana's core technology provides a white-label SaaS solution for attorneys, offering IOLTA Account Management Services for Statutory Construction Control and Client Trust Account Payments and Ledger Management.\n- Collaborations have been established with licensed attorneys across various jurisdictions to develop and offer trust and IOLTA account management services once the core Pakana Lockb0x features are operational.\n- By utilizing Stellar's blockchain, Pakana tokenizes trust assets, offering immutable transaction ledgers for audit support and full transparency.\n- Through Stellar's Disbursement Platform or Moneygram implementation, fiduciaries can serve their clients transparently, providing a comprehensive auditable record of all transactions.\n- Pakana will maintain its own Horizon API Server VM for peak performance.\n\nTarget Audience:\nPakana appeals to freelance software developers, creators, craftsmen, tradesmen, attorneys, escrow agents, fiduciaries, businesses, and individuals seeking a mechanism to ensure funds are secured before work begins and contract conditions are met prior to fund or asset transfers. Future implementations of Soroban Contracts and configurable bot-based deliverable verification and dispute-resolution processes will further streamline project and payment escrow transactions.\n\nOperational Overview and Integration with Stellar and/or Soroban:\n- Pakana uses Stellar's multi-signature wallets and the Stellar Disbursement Platform for efficient peer-to-peer transactions.\n- Its user-friendly interface presents a dashboard to oversee Stellar blockchain accounts and multi-signature wallet-accounts, employing an Account/Organization/Project hierarchy for work and payment management.\n- Users can curate a template library for emails, documents, invoices, legal notices, and more, activated by specific transaction workflow triggers.\n- Projects commence with the initiation of a multi-signature account, co-signer invitations, and task setups with clear deliverables and payments.\n- Once funded, payments can be requested, reviewed, and disbursed from the task's Stellar multi-signature account.\n- Transactions are tracked using Pakana's Merkle Tree model, culminating in a Zero-Knowledge Proof stored in the transaction memo. This also serves as a pointer to the transaction metadata in Pakana.\n- Pakana seamlessly integrates traditional \"Web2\" technologies with blockchain intricacies, employing relational databases, APIs, and cloud-based micro-services.\n- Prioritizing security and non-custodial protocols, all transactions are executed client-side using the Stellar Horizon JS SDK and verified server-side using the Horizon DotNet SDK.\n- Pakana emphasizes decentralization, granting users full control over transactions and data, with an export feature available anytime.\n- Although the initial release omits Soroban features, Pakana plans to integrate specific transaction processes as Soroban Smart Contracts in future phases.\n- While not in the initial offering, Pakana aims to create an oracle service linked to the Plaid Financial Services API to monitor fiat-currency accounts, tokenize Stellar blockchain transactions, and enable ACH payments to better serve their clients.\n- One additional benefit of Pakana's Construction Control Approach is that Construction Lien Release and Waiver Documents, which are used to prove there are no lien encumbrances on improved real estate, are tokenized from inception. Which could be an important piece of the real-estate tokenization puzzle.\n\nA personal note from Pakana's founder:\nI have been wrestling with the freelancer fee platform problem for many years, as a Buyer and Seller on these platforms. With fees often running up to 30% or more for a project's development for little value, other than expensive payment processing and a so-so marketplace. I have spent the last 2 years learning about Stellar then defining Pakana's services which has leaped over my initial goals, thanks to the availability of the Disbursement Platform, and Moneygram. This allowed Josh and I to focus on proof-of-concept tests, gather feedback from future customers, develop a selection of common use-cases. We are excited to finally focus, build-out, and launch the last 30% of the core project. Then get on to the next phase of the journey of building the business and adapting to the market's guidance.\n\nThank you for your consideration,\nSteven Tomlinson",
+                        "stellar.teamMembers": "Steven Bret Tomlinson, Joshua Kassabian",
+                        "stellar.urls": {
+                            "website": "https://pakana.net/",
+                            "videoURL": "https://thefirmsolutions-my.sharepoint.com/:v:/g/personal/steven_thefirm_codes/EcPuDqEVfvdOoSUvTFGxQAMBfaKuW0Y0_VxFSYKvbLfuUw?e=x4BNS5"
+                        },
+                        "stellar.socialMedia": {
+                            "linkedIn": "https://linkedin.com/in/pakana"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 45200.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 376760.9,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-11-15T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:16",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recUoH70iB9pNdgYR",
+                    "projectId": "daoip-5:stellar:project:extractor-soroban-security",
+                    "projectName": "Extractor - Soroban Security",
+                    "createdAt": "2023-12-15T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recUoH70iB9pNdgYR",
+                    "fundsApproved": [
+                        {
+                            "amount": 400865.9,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 50000,
+                    "description": "Extractor is a Post Deployment security solution that provides multi-level asset protection in smart contracts against exploit",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Extractor is a Post Deployment security solution that provides multi-level asset protection (smart contract, transaction monitoring and security tool) against on-chain attacks and vulnerabilities exploits. There is a fact of inherent low security of smart contract products on permissionless blockchains. In 2022 about $1 billion was spent on smart contracts security (development toolchain, processes, audits), yet $3.8 billion was lost due to attacks and vulnerabilities. Large percentage of attacks don’t happen in a single transaction but often executed over multiple steps. These steps manifest distinctive suspicious behavior within a relatively long time window. Extractor identifies and tracks multiple attack vectors and quickly notifies Contract owners of imminent or on-going attack with a capability to automatically prevent a loss with automatic contract circuit breaking or pausing. Our primary clients are crypto-native startups and established projects who want to protect their products. There are multiple cases where a single attack drained majority of the funds and effectively bankrupted the project. Extractor works by streaming blockchains activity (transactions, events) in near real-time to a trigger engine. Triggers represent a logic to detect suspicious activity. Trigger can be either something simple like unusually large fund transfer from Contract or complex scenarios involving accounts funded from Mixers and deploying suspicious attacking contracts in a multistep decision tree model. Trigger are either configured by experts (either Extractor team or client engineering team) or Extractor provides a set of preconfigured attack detectors which work automatically for new clients. Extractor's mission is to make Web3 a safer place and not only EVM ecosystem. By integrating our product with Stellar/Soroban all products utilizing Soroban smart contracts would be able to use post-deployment security monitoring and protection.",
+                        "stellar.teamMembers": "Andriy Kashcheyev",
+                        "stellar.urls": {
+                            "website": "https://extractor.hacken.io/",
+                            "videoURL": "https://www.youtube.com/watch?v=PMxsmby_Oeo"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 50000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 400865.9,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Developer Tooling",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-15T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:17",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recYngYa4zx3MwZa9",
+                    "projectId": "daoip-5:stellar:project:glo-dollar",
+                    "projectName": "Glo Dollar (USDGLO) on Stellar",
+                    "createdAt": "2023-11-27T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recYngYa4zx3MwZa9",
+                    "fundsApproved": [
+                        {
+                            "amount": 112311,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 13000,
+                    "description": "Glo is the stablecoin that generates basic income for people in extreme poverty, and deploy liquidity on StellarX.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "A fiat-backed, U.S. regulated stablecoin\n\nGlo Dollar is a new stablecoin. It’s comparable to USDC: always 1:1 redeemable for US dollars, fully backed by cash and short-term US Treasuries.\n\nGlo is regulated in the United States. Reserve assets are held across several US financial institutions, with a monthly breakdown of assets published at https://brale.xyz/stablecoins/USDGLO\n\nGenerating basic income for people in extreme poverty\n\nGlo Dollar is the anti-poverty stablecoin. As market cap goes up, extreme poverty goes down.\n\nHere’s how it works: Like other stables, Glo Dollar makes money from the interest on the fiat reserves. The difference: the Glo Foundation does not make profits. Instead, we donate 100% of the interest we receive to GiveDirectly, the world’s fastest-growing charity. They provide basic incomes for people living in extreme poverty, in countries such as Kenya.\n\nAs a result: when Glo Dollar adoption grows, we lift more people out of extreme poverty by funding their basic incomes.\n\nGlo enables donationless philanthropy\n\nGlo can be used like any other stablecoin, but it also enables a new crypto use case: donationless philanthropy. Glo Dollar users automatically reduce extreme poverty without paying for it. This new form of philanthropy is made possible by the stablecoin business model. Like any stablecoin, holding Glo Dollar is free. But holding it does grow the Glo Dollar market cap, meaning the reserves contain more assets. And more assets yield more interest, meaning we’ll give more money to GiveDirectly, meaning fewer people will live in extreme poverty (because they receive a basic income).\n\nDonationless philanthropy can lift millions of people out of extreme poverty\n\nAt scale, we expect to be able to keep one person out of extreme poverty for every $20,000 of Glo Dollar adoption. Learn why. For comparison, at the time of writing, Tether’s market cap is $83.8 billion. At that size, Glo would be lifting an expected 4.2 million people out of extreme poverty.\n\nWhat does Glo bring to the Stellar ecosystem?\n\nA new stablecoin. Mission-driven, fiat backed & US regulated. Stablecoins power some of Stellar’s best use cases and form a key component of the ecosystem. It’s healthy to have various alternatives to choose from.\n\nA new use case: donationless philanthropy. With Glo, Stellar ecosystem participants can reduce poverty at zero cost.\n\nA new way to fulfill Stellar’s mission: to create equitable access to the global financial system.\n\nThe Glo App\n\nDonationless philanthropy is a new reason for consumers and businesses to use stablecoins for real-world transactions. To show the impact holders are having, we built the Glo App. When you connect your wallet, the Glo App shows the amount of basic income you’re generating per year and explains what this means for someone in extreme poverty. For instance, someone holding $18,000 of Glo generates up to $432 of basic income per year. For someone living in extreme poverty, this is sufficient to buy 80m2 of farm land, or the materials to build a house. The Glo App gives users a sharable personal impact page and helps consumers that are not crypto-savvy to start participating in donationless philanthropy through the “Choose a path” feature. We’ll integrate Stellar so Stellar wallets can be connected to the Glo App. We’ll also include a Stellar route to the “Choose a path” feature.\n\nIssuance, treasury, and attestations\n\nThe Glo Foundation has chosen Brale, Inc to serve as the issuer of the Glo Dollar. Brale is a registered Money Services Business and a licensed money transmitter in the US. Brale manages the fiat reserves, composed of cash & cash equivalents and short-term U.S. Treasuries, and supports 1:1 minting and redemption from and to USDC and USD. Monthly reserve attestations are published on brale.xyz/stablecoins/USDGLO. These will be independent third-party attestations from November onwards.\n\nLiquidity and on/off-ramping\n\nWe'll initially deploy $100,000 of USDC/USDGLO liquidity on StellarX to support retail adoption. This $100K will be continually rebalanced by our partnering market maker; i.e. there will always be $100K Glo Dollar available. For companies, eligible U.S. entities can mint and redeem arbitrarily large amounts of Glo Dollar with Brale, so they have access to \"infinite liquidity\". Non-US entities can use OTC desk 1Konto. If initial adoption goes well, we can start growing liquidity to larger amounts to support heavier use cases. Depending on adoption and demand, it may additionally be fruitful to support other trading pairs such as XLM/USDGLO.\n\nOverview of products, users and involved parties\n\nTo summarize: Glo Foundation brings Glo Dollar (USDGLO) to Stellar using Brale. Our market maker deploys $100K USDGLO / USDC to the Stellar DEX. Retail users can trade USDC for USDGLO via Stellar wallets. Retail users can connect their wallets to app.glodollar.org to view indirect contributions to GiveDirectly, reducing extreme poverty. Non-retail users can acquire/redeem larger amounts of USDGLO through issuer Brale or OTC desk 1Konto.",
+                        "stellar.teamMembers": "Jeffrey Richard Milewski, Garm Lucassen, jasdrie , Christine_USDGLO",
+                        "stellar.urls": {
+                            "website": "www.glodollar.org",
+                            "codeRepository": "https://github.com/Glo-Foundation/glo-wallet",
+                            "videoURL": "https://youtu.be/QtvZHEFCue8"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 13000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 112311.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Financial Protocols",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-11-27T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:18",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec0PwqUKV2KdEvpm",
+                    "projectId": "daoip-5:stellar:project:paychant",
+                    "projectName": "Anchor On & off-ramp in Africa",
+                    "createdAt": "2023-11-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec0PwqUKV2KdEvpm",
+                    "fundsApproved": [
+                        {
+                            "amount": 843525.9,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 100000
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:19",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec1vVPm4VMQCb6ZK",
+                    "projectId": "daoip-5:stellar:project:smart-deploy",
+                    "projectName": "Smart Deploy",
+                    "createdAt": "2023-12-06T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec1vVPm4VMQCb6ZK",
+                    "fundsApproved": [
+                        {
+                            "amount": 319511.3,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 39900,
+                    "description": "Smart Deploy is an advanced platform designed to streamline and simplify the uploading, invoking, deploying, and upgrading of smart contracts on Soroban.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "What the product is:\n\nSmart Deploy is a state-of-the-art platform built on Soroban, designed to revolutionize smart contract management. It offers both a backend SDK/CLI for developers, projects, and organizations and a front-end Dapp for everyday blockchain users.\n\nWhat problems it solves, how it solves them, and what audience it solves them for:\n\nSmart Deploy addresses the challenges in the smart contract ecosystem:\n\nFor Developers, Projects, and Organizations: The lack of development tools has historically slowed down smart contract deployment and increased costs. Smart Deploy's SDK/CLI offers a direct integration pathway, streamlining smart contract management and reducing the need for customized tools.\n\nFor Blockchain Users: The Dapp provides an intuitive interface, allowing users to interact with Smart Deploy's repository of verified contracts. This includes deploying, viewing, and interacting with contracts that have been published on Testnet. We aim to become the platform where users manage DAOs in the future.\n\nWhat are the benefits of Smart Deploy:\n\nHere is a non-exhaustive list of the advantages our solution brings to the ecosystem:\n\nStandardized Publishing: Developers can publish, deploy, and track metadata of contracts with ease. Each contract gets a unique, human-readable ID, simplifying deployment and invocation.\n\nUser-Friendly Dapp: Blockchain users benefit from a searchable and filterable interface, allowing them to interact with a repository of verified contracts, claim unique contract names, and stay updated with regular versions.\n\nSafety & Upgradability: Smart Deploy emphasizes contract safety with features like semantic versioning. Upgrades are transparent and collectively decided upon within the DAO framework.\n\nIntegration with Developer Workflows: Smart Deploy integrates seamlessly into developers' workflows, reducing the learning curve and enhancing productivity.\n\nIn case you haven't seen it yet, most of the benefits brought by our solution (to date) are mentioned in this video from our CTO demonstrating the capabilities of Smart Deploy: video link.\n\nFurthermore, you can test our Dapp directly here.\n\nHow it works and how it uses Soroban:\n\nFor this, please refer to the architecture diagram below.",
+                        "stellar.teamMembers": "Enzo Soyer, Willem Neal Wyndham",
+                        "stellar.urls": {
+                            "website": "https://www.smartdeploy.dev/",
+                            "codeRepository": "https://github.com/TENK-DAO/smartdeploy",
+                            "videoURL": "https://youtu.be/pGqCRKWe52Q"
+                        },
+                        "stellar.socialMedia": {
+                            "linkedIn": "https://www.linkedin.com/company/tenk-studio",
+                            "twitter": "https://twitter.com/TenkDAO",
+                            "discord": "https://discord.gg/WXBwmYy6uj"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 39900.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 319511.3,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Developer Tooling",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-06T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:20",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec1JSgNcanaFgHJ5",
+                    "projectId": "daoip-5:stellar:project:fixed-rate-fixie",
+                    "projectName": "Polaris Lend (Former 'fixie')",
+                    "createdAt": "2023-09-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec1JSgNcanaFgHJ5",
+                    "fundsApproved": [
+                        {
+                            "amount": 42310.68,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 4900
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:21",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5F9VZMtI9VazK9",
+                    "projectId": "daoip-5:stellar:project:orbitcdp",
+                    "projectName": "OrbitCDP: Part 2 of budget",
+                    "createdAt": "2024-01-31T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5F9VZMtI9VazK9",
+                    "fundsApproved": [
+                        {
+                            "amount": 155269.6,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 17000,
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Product Overview for Activation Award Phase:\n\nWe have a much more detailed technical document available at the link above; but for your convenience have tried to condense it to the most important points here. We still encourage you to read our full technical document which will be the basis for our activation award and which will be further refined to perfection during the first 6 week period.\n\nCDP Smart Contract Logic:\n\nProduct Description: We’re developing a Collateralized Debt Position (CDP) system on Soroban, Stellar's smart contract platform. This MVP will enable users to engage with a USD-pegged stablecoin system using XLM as collateral.\n\nProblem and Solution: The product addresses the need for a decentralized stablecoin on the Stellar network, providing users with a mechanism to leverage their XLM holdings without selling. This serves the audience seeking to maintain exposure to their crypto assets while accessing liquid capital.\n\nBenefits:\n- Accessibility: Users gain access to stablecoins without relinquishing their XLM holdings.\n- Stability: Offers a hedge against volatility in the crypto market.\n- Decentralization: Ensures transparency and trustlessness, key tenets of the blockchain community.\n\nHow it Works and Uses Stellar/Soroban:\n- Open/Close Functions: Users interact with the smart contract to lock XLM and mint a stablecoin. The reverse process extinguishes the stablecoin and returns the XLM.\n- Interest Calculation: Utilizes a predetermined formula to calculate the interest owed over time on the minted stablecoin.\n- Collateralization Ratios: Sets parameters for the amount of XLM required to mint stablecoins, ensuring the system remains solvent even during market downturns.\n\nThis first phase includes a full definition of technical details and a version 1 of the Soroban-based smart contracts, ensuring the foundation of the CDP system is solid, functional, and ready for further development.\n\nFuture Phases:\n\nInterface and Monitoring (Phase 2):\n\nProduct Description: This phase involves developing a user-friendly interface and monitoring system to manage CDPs. The goal is to provide a transparent view of the user's collateral status and potential liquidation scenarios.\n\nProblem and Solution: CDP management can be complex and opaque. A dedicated UI and monitoring tools simplify the experience and help users make informed decisions to prevent liquidation.\n\nBenefits:\n- User Empowerment: Empowers users with real-time information on their CDPs.\n- Risk Mitigation: Early warning systems for approaching liquidation thresholds help users act promptly to secure their positions.\n\nHow it Works and Uses Stellar/Soroban:\n- UI: Allows for direct interaction with the Soroban smart contracts, letting users open, monitor, and close CDPs.\n- Monitoring Tools: These tools observe the smart contracts and alert users about their CDP status, using off-chain processes until on-chain oracles are available.\n\nDeployment and Testing (Phase 2 + 3):\n\nProduct Description: Deployment and testing will likely happen both in phase 2 and phase 3. First we focus on deploying the smart contracts to the testnet for rigorous testing, followed by a security audit before mainnet deployment, during phase 3.\n\nProblem and Solution: Deploying untested smart contracts can lead to security vulnerabilities. Testnet deployment and audits ensure the security and robustness of the contracts.\n\nBenefits:\n- Security Assurance: A thorough audit process minimizes the risk of bugs and vulnerabilities.\n- Reliability: Testnet trials under varied conditions ensure the system's resilience.\n\nHow it Works and Uses Stellar/Soroban:\n- Testnet Testing: Tests the smart contracts on the Soroban testnet, which simulates the live environment without risking real funds.\n- Security Audits: Independent audits assess the smart contracts' security, ensuring they adhere to best practices and are ready for mainnet deployment.\n\nGovernance and Multi-Asset Pool Expansion: (Phase 3)\n\nProduct Description: The final stage will also see the plan for transition to a DAO for decentralized governance and the introduction of multi-asset pools to the CDP system.\n\nProblem and Solution: Centralized governance is often seen as a bottleneck for innovation and community involvement. Transitioning to a DAO democratizes decision-making and ownership. Multi-asset pools will diversify the assets within the DeFi ecosystem.\n\nBenefits:\n- Decentralized Control: A DAO structure ensures the community drives the CDP system's evolution.\n- Diversification: Multi-asset pools offer users more options to engage with the system, increasing its robustness and appeal.\n\nHow it Works and Uses Stellar/Soroban:\n- DAO: Implements governance smart contracts on Soroban, allowing token holders to propose and vote on changes.\n- Multi-Asset Pools: Extends the CDP system's capabilities on Soroban to accommodate various assets, enriching the Stellar DeFi landscape.",
+                        "stellar.teamMembers": "Ishan Singh, Robin Olthuis",
+                        "stellar.urls": {
+                            "website": "https://github.com/OrbitCDP",
+                            "videoURL": "https://vimeo.com/881536539?share=copy"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 33000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 287256.26,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Financial Protocols",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2024-01-30T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:22",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5LpAd2YYGkMTnZ",
+                    "projectId": "daoip-5:stellar:project:fx-swap-by-hedgehog",
+                    "projectName": "FX Swap by Hedgehog",
+                    "createdAt": "2023-12-19T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5LpAd2YYGkMTnZ",
+                    "fundsApproved": [
+                        {
+                            "amount": 353073.3,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 42450,
+                    "description": "An efficient and alternative way of foreign currency borrowing or investing.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Note: Please see the full technical breakdown here: https://drive.google.com/file/d/1bNQ0fvvWQWWsRDAp3SXQ3rW9sJgMGHhN/view\n\nHedgehog brings Foreign Currency (FX) Swaps to the Soroban ecosystem. FX Swaps can hedge the value of an existing investment against the risk of exchange rate fluctuations, as well as parties benefitting from each others’ access to better loan rates.\n\nThis solution:\n1. Includes the creation of an Oracle to keep track of the forward rates of various currencies.\n2. Acts as a hedging solution for entities wanting to invest or borrow in foreign currency.\n3. Is eligible for hedge accounting, as the Far Leg of the FX Swap is an eligible hedging instrument under IFRS 9.\n\nConsider two parties who desire one currency now but want to swap back in the future to the original currency, e.g. One party wants USDC but has EURC, and another party has USDC but wants EURC.\n\nOne scenario is when investors can benefit by accessing foreign currency loans at a better rate. USDC holders may be able to take out a EUR loan at a rate of 5%, but they can take out a USD loan at a rate of 3%. EURC holders may be in a similar situation, being able to take out a USD loan at a rate of 5% but an EUR loan at 3%.\n\nBy entering into an FX swap agreement, both parties can benefit from the other’s interest rate (the EURC holders get EUR at a better rate, while the USDC holders get USD at a better rate and loan them in return) and swap back the principal at the maturity of the agreement.\n\nThe second scenario is to leverage currency swaps to reduce exposure to fluctuations in exchange rates by taking a hedging position. If they suffered a loss due to fluctuating exchange rates affecting their original purpose for operating in a foreign currency, the profit on the swap can offset it.\n\nIn TradFi, these agreements are typically done between two parties; by leveraging the power of Soroban and DeFi, Hedgehog can create FX Swaps between pools of investors on both sides so that multiple USDC holders can enter a contract with multiple EURC holders.\n\nAn oracle is required because exchanges happen at the spot rate, but the deals are closed at the forward rate. The forward points are the interest rate differential between the two currencies.\n\nPlease note Hedgehog will initially operate with well-established and trusted Stablecoins such as USDC, EURC and AUDD.\n\nThis is the first of a series of smart contracts to constitute the basis for a hedging financial protocol on Soroban.",
+                        "stellar.teamMembers": "Kevin Paul Mitchell",
+                        "stellar.urls": {
+                            "website": "https://www.hedgeeffective.com/hedgehog",
+                            "videoURL": "https://www.loom.com/share/ba8b13ba4c46490fafe8beb2c7117f69?sid=c33976a1-4419-491b-87a5-1eeaf8b85c22"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 42450.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 353073.3,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Financial Protocols",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-19T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:23",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec7xEbpvjIbAMnxo",
+                    "projectId": "daoip-5:stellar:project:cross-chain-stellar-bridging",
+                    "projectName": "Cross-chain Stellar bridging",
+                    "createdAt": "2023-12-06T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec7xEbpvjIbAMnxo",
+                    "fundsApproved": [
+                        {
+                            "amount": 357948.8,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 44700
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:24",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfVynUAvAjZO4Nj",
+                    "projectId": "daoip-5:stellar:project:soroswap-finance",
+                    "projectName": "Soroswap.Finance Aggregator",
+                    "createdAt": "2023-12-19T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recfVynUAvAjZO4Nj",
+                    "fundsApproved": [
+                        {
+                            "amount": 831739.2,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 100000,
+                    "description": "Open-source AMM protocol with Ecosystem Interoperability for providing liquidity and trading Stellar Assets in Soroban.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "Soroswap.Finance 🪐 is an Open-Source Automated Market Maker (AMM) to trade Stellar assets in Soroban. Currently, you can experiment 🧐 the current version in Testnet at https://soroswap.finance 🖥. Thanks to SCF, we've achieved a user-friendly experience, offering functional Pair, Factory, Library, and Router Contracts. All our code is available on https://github.com/soroswap/, and comprehensive documentation can be found at https://docs.soroswap.finance/.\n\nFrom our collaboration experiences and participation in other ecosystem’s conferences, we have identified 3 areas of enhancement for this SCF round:\n\n1. Optimal Routing and AMM Aggregator: Leverage Mercury Indexer to calculate optimal routing within Soroswap as well as an optimal split of swaps between other ecosystem participants and Stellar Classic DEX.\n2. Bridge Integration: Explore ecosystem’s bridges with other ecosystems to offer users the possibility to bring their Liquidity into Soroban in one platform.\n3. More information to the user: Leverage Mercury Indexer to enhance user information and create a user’s dashboard with Liquidity Pool and Stellar Asset information. Work with a UX agency.\n\nTo achieve these goals, the Soroswap.Finance team will continue with its commitment to contribute to the Soroban ecosystem by providing 100% open-source code for all our deliverables.\n\nIn the following, we explain each of these areas:\n\n1. 🔀 Optimal Routing: We will implement the Mercury Indexer 🌟 to monitor all pair reserves. We will create an optimization algorithm that calculates the most efficient route within Soroswap. This will enhance the existing Router Contract.\n   - 💡 What does this solve?: It addresses token swaps in situations where no direct pair exists, or when there is low liquidity by determining the best possible path.\n\n2. 🎛 AMM Aggregator: We will implement the Mercury Indexer 🌟 to track and monitor other ecosystem AMMs and DEXes like Comet ☄️, Phoenix 🦩, the Stellar Classic DEX, and Orderbook to combine and optimize trades to find the best prices and liquidity. It allows splitting swaps across multiple routes.\n   - 💡 What does this solve?: Solves the low liquidity problem and liquidity split in various protocols. Thanks to the low transaction fees in Stellar, we could find the optimal trade even if the liquidity is divided across protocols.\n\n3. 🌉 Bridges Exploration: We will explore existing bridges to offer easy cross-blockchain swaps. Deliverable: POC integration of one bridge.\n   - 🤔 Which bridge?: From our participation in the sub0 2023 Polkadot Conference, we have been in contact with developers in the Pendulum / Amplitude (parachains in Polkadot / Kusama) team and other players in the Polkadot Ecosystem. We will explore the Skywalk (bridge that Pendulum has developed between Stellar and Polkadot (https://pendulumchain.org/spacewalk). As a strategy for Soroban, Pendulum is very important because it is also focused on offering financial services using stablecoins to businesses and fintech companies. And it’s very focused on forex.\n   - Another Bridge that we will explore is AllBridge, specifically its bridge with Ethereum due to its high Liquidity of the aeUSDC token in Stellar.\n   - 💡 What does this solve?: Easy onboarding into Soroban DeFi products for other ecosystem players. This together with the on/off ramp exploration could solve a cash-out problem for people in Polkadot and Ethereum.\n   - 🧘🏽‍♀️ What audience? New DeFi users from the Polkadot and Ethereum ecosystems.\n\n4. 📊 More information to the user: Leverage Mercury 🌟 Indexer to create a user’s dashboard, Liquidity Pool, and Stellar Asset information. In order to achieve this, we will continue our collaboration with the LitCollective UX and Design agency. We are going to show last trades (value, token amount, account, link to explorer), TVL info for each Liquidity pool, expected APY, Volume, and more.\n   - 💡 What does this solve?: It overcomes the information deficit for informed investment decision-making. This solution also improves data accessibility, transparency, and the user experience within the Stellar ecosystem.\n\nFor all, Soroswap.Finance is committed to continue contributing to the Soroban ecosystem by providing 100% open-source code. All that we will do will be documented and shared with the community.",
+                        "stellar.teamMembers": "Esteban Felipe Iglesias Manríquez",
+                        "stellar.urls": {
+                            "website": "https://soroswap.finance/",
+                            "codeRepository": "https://github.com/soroswap/",
+                            "videoURL": "https://github.com/soroswap/"
+                        },
+                        "stellar.socialMedia": {
+                            "linkedIn": "https://www.linkedin.com/company/soroswap/",
+                            "twitter": "https://twitter.com/soroswap",
+                            "discord": "https://discord.gg/JdTz2Tbd"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 100000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 831739.2,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Financial Protocols",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-19T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:25",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTIvCjTMsBlJOkP",
+                    "projectId": "daoip-5:stellar:project:typiqo",
+                    "projectName": "TYPIQO - POI Submission",
+                    "createdAt": "2023-10-06T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recTIvCjTMsBlJOkP",
+                    "fundsApproved": [
+                        {
+                            "amount": 76472.17,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 8480,
+                    "status": "Awarded (10%)",
+                    "extensions": {
+                        "stellar.productsAndServices": "TYPIQO consolidates all local products and producers into one platform so restaurants can place weekly orders. By integrating Stellar to keep an immutable trace of the origin of products, TYPIQO will allow Chefs and patrons alike to verify where the ingredients of their dishes were sourced from.\n\nProblem\n\nTYPIQO has identified a gap in the market where:\n1. Chefs must deal with multiple local producers, leading to inefficiencies and taking them away from what they do best: Creating dishes.\n2. Chefs need to tell stories behind their dishes; This becomes easy by having local, sustainable produce that is fully traceable.\n\nSolution\n\nTYPIQO is solving the problem of the disconnect between local producers and Chefs with an end-to-end platform that leverages this relationship, digitizing both the Chef and the Producer simultaneously. TYPIQO wants to solve the transparency and traceability problem by leveraging the Stellar blockchain.\n\nTYPIQO in a nutshell:\n1. Product selection: TYPIQO finds and selects local producers and products that fit traceability, quality, and sustainability criteria as defined by TYPIQO.\n2. Chef’s Automation: TYPIQO provides a Chef Platform where they can make their weekly orders seamlessly, with a dynamic and integrated catalogue to TYPIQO's inventory management system.\n3. Producer’s Automation: TYPIQO also provides a platform where each local producer can manage their products directly integrated into the Chefs catalogue on the Chefs Platform.\n\nLeveraging Stellar for transparency and traceability\n\nTYPIQO visits each local producer and audits and verifies their business practices to ensure they are sustainable and traceable. If they meet the criteria, each product from this producer is awarded a TYPIQO-issued asset that represents the compliance of that specific product. Producers get a non-custodial Stellar account associated with them once they sign up for TYPIQO (this is so TYPIQO in the future can operate as an independent certification authority, regardless of where the products are sold). Leveraging Stellar’s granular asset issuance options, TYPIQO can ensure only certified providers can hold the relevant assets.\n\n1. Products ordered are matched with certified products (TYPIQO-issued assets), and transactions are created between TYPIQO and Producers (e.g. TYP000000001 amount 5 – this represents 5kg of tomatoes from producer A). Units and descriptions will be included in the asset’s metadata.\n2. Producers sign the transaction representing the orders they’ll be fulfilling.\n3. TYPIQO signs and submits the transaction once received in the warehouse.\n4. When TYPIQO dispatches the orders, transactions are created with TYPIQO and Chefs as signers. TYPIQO signs.\n5. Upon receiving the order, the Chef signs the transaction, which is submitted.\n6. At the restaurant, a per-dish QR code can be scanned, taking the user to the TYPIQO website to show a certificate that displays the journey of the ingredients from the producers to their table. They can email it to themselves for closer inspection.",
+                        "stellar.teamMembers": "Alessandro Badalamenti",
+                        "stellar.urls": {
+                            "website": "https://test-hub.typiqo.it/",
+                            "videoURL": "https://drive.google.com/drive/folders/1YBxRKlRrRcjyJwLgerFIFcMEWmG6ojEF?usp=sharing"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 8480.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 76472.17,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (10%)",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-10-06T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:26",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recX2xrCk7WLPVew0",
+                    "projectId": "daoip-5:stellar:project:tap4change",
+                    "projectName": "TAP4Change (PoI submission)",
+                    "createdAt": "2023-12-05T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recX2xrCk7WLPVew0",
+                    "fundsApproved": [
+                        {
+                            "amount": 674363.2,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 80608,
+                    "description": "The social micro-funding platform that makes the Donation Experience (DX) attractive to the younger generations.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.productsAndServices": "TAP4Change is making the donation experience (DX) attractive to the younger generations while giving exposure, engagement, and fundraising tools to all charities, aiming to maximize the emotional return on donation (EROD), incentivizing donations.\n\nProblem: People donate to feel good; however, the donation experience (DX) doesn’t fit the modern, digitally-native donors (GenZ & GenY or Millennials) who are walking away from charities, putting additional stress on a fragmented and unbalanced sector. There is a problem of convenience, accessibility, and transparency. There are 60K charities in Australia (N.B: 1.4M in the US), and information is spread across multiple platforms/mediums. Less than 5% of the charities get 80% of the donations. 57% of the donations are made through doorknock appeal, and 93% of the charities do not have online fundraising capabilities, according to the ACNC’s June 2023 report. Millennials support 3.3 charities on average (US), but the amount they typically donate makes splitting inefficient. Donating to charity aggregators means losing visibility on where the funds are going. TAP4Change wants to reach charities worldwide, and remittance fees constitute a significant issue when maximizing the donation value and the settlement time.\n\nSolution: A social micro-funding platform, TAP4Change makes it easy, fun, and rewarding to show what YOU stand for! Donors can discover, support, and follow the impact of the charities that share their values. Features: Our crowdsourced matching engine lets users pick the charities they care about amongst ALL the charities. Our micro-payments solution allows users to donate small amounts but fund multiple charities with real-time payments. Our gamified (via NFTs) UX and deep social integrations allow users to shine beyond the TAP4Change platform, getting social status and maximizing EROD. Charities gain exposure and community engagement. Responsible companies get an evergreen platform for brand building and customer + employee engagement. Our portfolio system lets users stay in control of their donation subscriptions. Donors can copy other donors' portfolios to donate to the same charities.\n\nWhy Stellar: Stellar is designed to store and move money; in the traditional finance world, microtransactions and remittances are a sure way of losing money. With Stellar’s unique value, TAP4Change can pay charities worldwide in real-time. A secondary aspect of our application leverages donation badges as NFTs that donors can showcase.",
+                        "stellar.teamMembers": "Thibault Roumagoux",
+                        "stellar.urls": {
+                            "website": "https://www.tap4change.org/",
+                            "videoURL": "https://youtu.be/RN0enBrLh2k"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Community Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 80608.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 674363.2,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "Legacy Award v4.0 (90%)",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2023-12-05T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-21:grantApplication:27",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-21",
+                    "grantPoolName": "scf-21",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recYWCrhSDvEopByV",
+                    "projectId": "daoip-5:stellar:project:soroban-learn",
+                    "projectName": "SorobanLearn",
+                    "createdAt": "2023-11-29T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recYWCrhSDvEopByV",
+                    "fundsApproved": [
+                        {
+                            "amount": 522986.1,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 62000
+                }
+            ]
+        }
+    ]
+}

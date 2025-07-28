@@ -1,0 +1,326 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Stellar",
+    "type": "Foundation",
+    "grantPools": [
+        {
+            "type": "GrantPool",
+            "name": "scf-7",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-7:grantApplication:1",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-7",
+                    "grantPoolName": "scf-7",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGnQ6l4nKzgQLpT",
+                    "projectId": "daoip-5:stellar:project:leaf-global-fintech",
+                    "projectName": "Leaf Global Fintech: Banking Beyond the Branch",
+                    "createdAt": "2021-05-24T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recGnQ6l4nKzgQLpT",
+                    "fundsApproved": [
+                        {
+                            "amount": 586907,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 249112,
+                    "description": "Leaf is a digital wallet that enables users to store, send and receive, and exchange in multiple stablecoins on their phones— no smartphone required.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.teamMembers": "Tori Samples, Nathaniel Robinson",
+                        "stellar.urls": {
+                            "website": "https://leafglobalfintech.com/wallet-2-0/",
+                            "videoURL": "https://youtu.be/97gGtLOMaVA"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 249112.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 586907.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-24T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-7:grantApplication:2",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-7",
+                    "grantPoolName": "scf-7",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reca8IhnJRD2KYwxp",
+                    "projectId": "daoip-5:stellar:project:blocknify",
+                    "projectName": "Blocknify",
+                    "createdAt": "2021-05-25T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reca8IhnJRD2KYwxp",
+                    "fundsApproved": [
+                        {
+                            "amount": 304740,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 131973,
+                    "status": "Awarded",
+                    "extensions": {
+                        "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 131973.75,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 304740.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-25T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-7:grantApplication:3",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-7",
+                    "grantPoolName": "scf-7",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recclYO5p5WMKnecg",
+                    "projectId": "daoip-5:stellar:project:whalestack",
+                    "projectName": "COINQVEST - Enterprise Payment Processing",
+                    "createdAt": "2021-05-25T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recclYO5p5WMKnecg",
+                    "fundsApproved": [
+                        {
+                            "amount": 835214,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 354506
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-7:grantApplication:4",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-7",
+                    "grantPoolName": "scf-7",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclgGPwy2rlCwsp9",
+                    "projectId": "daoip-5:stellar:project:anclap",
+                    "projectName": "Anclap; Anchor + Debit Card for everyday transactions!",
+                    "createdAt": "2021-05-24T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/reclgGPwy2rlCwsp9",
+                    "fundsApproved": [
+                        {
+                            "amount": 767494,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 325762,
+                    "description": "Anclap connects the Stellar Network to real world services.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.teamMembers": "IVAN AGUSTIN MUDRYJ, Mariano Omar Morales",
+                        "stellar.urls": {
+                            "website": "https://www.anclap.com/",
+                            "videoURL": "https://youtu.be/BN3aJs9f6PM"
+                        },
+                        "stellar.socialMedia": {
+                            "twitter": "https://twitter.com/AnclapFintech"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 325762.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 767494.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Financial Protocols",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-24T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-7:grantApplication:5",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-7",
+                    "grantPoolName": "scf-7",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNYpfzGg7h2uLau",
+                    "projectId": "daoip-5:stellar:project:litemint",
+                    "projectName": "Litemint – Gaming Platform and NFT Marketplace",
+                    "createdAt": "2021-05-25T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recNYpfzGg7h2uLau",
+                    "fundsApproved": [
+                        {
+                            "amount": 632054,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 273723,
+                    "description": "LITEMINT is a gaming platform connecting gamers to the crypto world.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.teamMembers": "Frederic James Bernard Rezeau",
+                        "stellar.urls": {
+                            "website": "https://litemint.com",
+                            "videoURL": "https://youtu.be/VBzUwaWfxy8"
+                        },
+                        "stellar.socialMedia": {
+                            "linkedIn": "https://www.linkedin.com/company/litemint",
+                            "twitter": "https://twitter.com/LitemintHQ",
+                            "discord": "https://litemint.gg"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 273723.63,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 632054.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-25T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-7:grantApplication:6",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-7",
+                    "grantPoolName": "scf-7",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recY7hkMQ59n12mOa",
+                    "projectId": "daoip-5:stellar:project:mojoflower",
+                    "projectName": "Mojoflower - Government issue share-ledgers and share-management tools for SMEs.",
+                    "createdAt": "2021-05-24T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recY7hkMQ59n12mOa",
+                    "fundsApproved": [
+                        {
+                            "amount": 462754,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 196415,
+                    "description": "Government issue share-ledgers and share-management tools for SMEs powered by Stellar.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.teamMembers": "Ólafur Páll Torfason",
+                        "stellar.urls": {
+                            "website": "https://mojoflower.io/"
+                        },
+                        "stellar.socialMedia": {
+                            "linkedIn": "https://www.linkedin.com/company/mojoflower/",
+                            "twitter": "https://twitter.com/home/Mojoflower"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 196415.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 462754.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-24T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-7:grantApplication:7",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-7",
+                    "grantPoolName": "scf-7",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5uH1bD72BKoRPI",
+                    "projectId": "daoip-5:stellar:project:optionblox-yieldblox",
+                    "projectName": "OptionBlox & YieldBlox - DeFi Protocols for Financial Derivatives and Lending",
+                    "createdAt": "2021-05-24T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rec5uH1bD72BKoRPI",
+                    "fundsApproved": [
+                        {
+                            "amount": 756208,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 320972,
+                    "description": "Script3 created OptionBlox and YieldBlox. Platforms and DeFi protocols for facilitating financial derivatives and lending, respectively.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.teamMembers": "Andrew Pierskalla, Markus Paulson-Luna, Alex Mootz",
+                        "stellar.urls": {
+                            "website": "https://www.script3.io/",
+                            "videoURL": "https://vimeo.com/501316746?ref=em-share"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 320972.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 756208.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Financial Protocols",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-24T00:00:00Z"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf-7:grantApplication:8",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf-7",
+                    "grantPoolName": "scf-7",
+                    "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rechmD8fdwrII1xaQ",
+                    "projectId": "daoip-5:stellar:project:task-io",
+                    "projectName": "Task.io - Economies that reward and connect people",
+                    "createdAt": "2021-05-25T00:00:00Z",
+                    "contentURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/rechmD8fdwrII1xaQ",
+                    "fundsApproved": [
+                        {
+                            "amount": 654628,
+                            "denomination": "XLM"
+                        }
+                    ],
+                    "fundsApprovedInUSD": 283499,
+                    "description": "Task connects organisations with remote teams, tracks activity on the Stellar blockchain, processes payments between users and allows the exchange of tokens for locally relevant rewards.",
+                    "status": "Awarded",
+                    "extensions": {
+                        "stellar.teamMembers": "Matt Rickard, Steve Walker",
+                        "stellar.urls": {
+                            "website": "https://task.io",
+                            "videoURL": "https://www.youtube.com/watch?v=efB1bPhgucM"
+                        },
+                        "stellar.socialMedia": {
+                            "twitter": "https://twitter.com/taskdotio"
+                        },
+                        "org.stellar.communityfund.awardType": "Legacy v2.0 Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 283499.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 654628.0,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Applications",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2021-05-25T00:00:00Z"
+                    }
+                }
+            ]
+        }
+    ]
+}
