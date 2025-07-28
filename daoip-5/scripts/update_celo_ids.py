@@ -70,11 +70,11 @@ def main():
     
     # Files to update
     files_to_update = [
-        "daoip-5/json/celo/agoraForestDAO_round_application_uri.json",
-        "daoip-5/json/celo/bio_pathfinders_application_uri.json",
-        "daoip-5/json/celo/real_world_builders_application_uri.json",
-        "daoip-5/json/celo/regen_citizens_genesis_application_uri.json",
-        "daoip-5/json/celo/regen_coordination_genesis_application_uri.json"
+        "../json/celo/agoraForestDAO_round_application_uri.json",
+        "../json/celo/bio_pathfinders_application_uri.json",
+        "../json/celo/real_world_builders_application_uri.json",
+        "../json/celo/regen_citizens_genesis_application_uri.json",
+        "../json/celo/regen_coordination_genesis_application_uri.json"
     ]
     
     print("🔄 Starting Celo ID updates...")
