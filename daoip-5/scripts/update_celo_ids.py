@@ -21,29 +21,29 @@ def update_application_ids(file_path, grant_pool_id_mapping):
         
         updated = False
         
-        # Update grant applications
-        if 'grantApplications' in data:
-            for app in data['grantApplications']:
-                # Update grantPoolId
-                if 'grantPoolId' in app:
-                    old_id = app['grantPoolId']
-                    if old_id in grant_pool_id_mapping:
-                        app['grantPoolId'] = grant_pool_id_mapping[old_id]
-                        updated = True
-                        print(f"  Updated grantPoolId: {old_id} -> {app['grantPoolId']}")
-                
-                # Update projectId to celo:42220:<projectID> format
-                if 'projectId' in app:
-                    old_project_id = app['projectId']
-                    # Extract the actual project ID (assuming it's currently just a number or simple string)
-                    if not old_project_id.startswith('celo:42220:'):
-                        # Remove any existing prefixes and use the last part
-                        project_id_parts = old_project_id.split(':')
-                        actual_id = project_id_parts[-1]
-                        new_project_id = f"celo:42220:{actual_id}"
-                        app['projectId'] = new_project_id
-                        updated = True
-                        print(f"  Updated projectId: {old_project_id} -> {new_project_id}")
+        # Update grant applications - look for the correct structure
+        if 'grantPools' in data and isinstance(data['grantPools'], list):
+            for pool in data['grantPools']:
+                if 'applications' in pool:
+                    for app in pool['applications']:
+                        # Update grantPoolId
+                        if 'grantPoolId' in app:
+                            old_id = app['grantPoolId']
+                            if old_id in grant_pool_id_mapping:
+                                app['grantPoolId'] = grant_pool_id_mapping[old_id]
+                                updated = True
+                                print(f"  Updated grantPoolId: {old_id} -> {app['grantPoolId']}")
+                        
+                        # Update projectId to celo:42220:<projectID> format
+                        if 'projectId' in app:
+                            old_project_id = app['projectId']
+                            # Check if it's already in the correct format
+                            if not old_project_id.startswith('celo:42220:'):
+                                # Use the existing project ID (which appears to be a hash)
+                                new_project_id = f"celo:42220:{old_project_id}"
+                                app['projectId'] = new_project_id
+                                updated = True
+                                print(f"  Updated projectId: {old_project_id} -> {new_project_id}")
         
         if updated:
             # Write back to file with proper formatting
@@ -59,7 +59,7 @@ def update_application_ids(file_path, grant_pool_id_mapping):
 def main():
     """Main function to update all Celo application URI files."""
     
-    # Define the grant pool ID mapping based on the grantsPoolURI.json
+    # Define the grant pool ID mapping based on the grants_pool.json
     grant_pool_id_mapping = {
         "1": "daoip5:celo-org:grantPool:1",
         "2": "daoip5:celo-org:grantPool:2", 
@@ -68,21 +68,26 @@ def main():
         "22": "daoip5:celo-org:grantPool:22"
     }
     
-    # Files to update
+    # Get the script directory and build correct paths
+    script_dir = Path(__file__).parent
+    celo_json_dir = script_dir.parent / "json" / "celo"
+    
+    # Files to update - using actual file names
     files_to_update = [
-        "../json/celo/agoraForestDAO_round_application_uri.json",
-        "../json/celo/bio_pathfinders_application_uri.json",
-        "../json/celo/real_world_builders_application_uri.json",
-        "../json/celo/regen_citizens_genesis_application_uri.json",
-        "../json/celo/regen_coordination_genesis_application_uri.json"
+        "agoraForestDAO_round_application_uri.json",
+        "bio_pathfinders_application_uri.json", 
+        "real_world_builders_application_uri.json",
+        "regen_citizens_genesis_application_uri.json",
+        "regen_coordination_genesis_application_uri.json"
     ]
     
     print("🔄 Starting Celo ID updates...")
     print(f"Grant pool ID mappings: {grant_pool_id_mapping}")
     print()
     
-    for file_path in files_to_update:
-        if os.path.exists(file_path):
+    for filename in files_to_update:
+        file_path = celo_json_dir / filename
+        if file_path.exists():
             update_application_ids(file_path, grant_pool_id_mapping)
         else:
             print(f"⚠️  File not found: {file_path}")
