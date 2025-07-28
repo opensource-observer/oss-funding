@@ -1,15 +1,9 @@
 {
     "@context": "http://www.daostar.org/schemas",
     "type": "Project",
-    "id": "nan",
+    "id": "daoip5:celo-org:project:Greenpill Brasil",
     "name": "Greenpill Brasil",
     "description": "We're using celo network to mint our ecological benefits and sdg framework hypercerts, we did several meetings to teach about celo ecosystem and we're planning an event to present celo to a broad non web3 audience.",
-    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/52",
-    "email": "caue.mtomaz@gmail.com",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "Greenpill brasil"
-        }
-    ]
+    "email": "caue.mtomaz@gmail.com"
 }
+    // TODO: Add to OSS-Directory

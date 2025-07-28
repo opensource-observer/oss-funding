@@ -1,19 +1,9 @@
 {
     "@context": "http://www.daostar.org/schemas",
     "type": "Project",
-    "id": "nan",
+    "id": "daoip5:celo-org:project:ReFi Tulum",
     "name": "ReFi Tulum",
     "description": "We received CELO funds as part of our ReFI DAO GG19, these funds have been used to start modifications on our TF 100 machine to enable us to transform plastic into different products such as furniture, geodesic domes, and signage. We plan to track these products through the whole value chain from beach clean up to creation of products.\n\nWe would also love to deploy an NFT collection on CELO for our Female Artists in Residence - called the Fierce Feminine of ReFi collection with several artists already providing artwork for us. https://thehug.xyz/artists/refitulum\n\nWe host regular events, where we have the opportunity to share CELOs work and support of ReFi Tulum including an upcoming global Pizza Party ",
-    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/105",
-    "email": "sandra@refitulum.io",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "\"Tulum\u2019s Tomorrow"
-        },
-        {
-            "platform": "Unknown",
-            "url": "Accelerating the Regenaissance with ReFi Tulum\""
-        }
-    ]
+    "email": "sandra@refitulum.io"
 }
+    // TODO: Add to OSS-Directory

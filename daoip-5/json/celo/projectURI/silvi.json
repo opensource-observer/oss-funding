@@ -1,15 +1,9 @@
 {
     "@context": "http://www.daostar.org/schemas",
     "type": "Project",
-    "id": "nan",
+    "id": "daoip5:celo-org:project:Silvi",
     "name": "Silvi",
     "description": "Silvi is deployed on Celo. Our smart contracts have been exclusively built on Celo and our payouts have exclusively been cUSD. We partnered with GoodDollar to become their first on chain interoperable partner. We're all in on Celo lol",
-    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/43",
-    "email": "djimo@silvi.earth",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "Silvi"
-        }
-    ]
+    "email": "djimo@silvi.earth"
 }
+    // TODO: Add to OSS-Directory

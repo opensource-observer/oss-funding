@@ -1,15 +1,9 @@
 {
     "@context": "http://www.daostar.org/schemas",
     "type": "Project",
-    "id": "nan",
+    "id": "daoip5:celo-org:project:Green Planet Conservation Initiative",
     "name": "Green Planet Conservation Initiative",
     "description": "We have organised events where we discussed celo, presently we are working on bringing our tree planting activities on chain and we are deploying it on celo  network",
-    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/15",
-    "email": "Obiozoredward@gmail.com",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "Green Planet Conservation Initiative"
-        }
-    ]
+    "email": "Obiozoredward@gmail.com"
 }
+    // TODO: Add to OSS-Directory

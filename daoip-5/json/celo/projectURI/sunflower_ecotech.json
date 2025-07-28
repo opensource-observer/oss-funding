@@ -1,15 +1,9 @@
 {
     "@context": "http://www.daostar.org/schemas",
     "type": "Project",
-    "id": "nan",
+    "id": "daoip5:celo-org:project:Sunflower EcoTech",
     "name": "Sunflower EcoTech",
     "description": "We are actively developing RegenID, an onboarding app & wallet for Regenerators.\n\nThe wallet aspect is built using web3auth, which abstracts wallet creation to allow for social login. With this integration, we are prioritizing the creation of Celo wallets as the main wallet to onboard regens, because one of our main partners & collaborators is Silvi, and the Silvi app is built on Celo and needs it's users to set up Celo wallets to distribute payments.\n\nWe hope RegenID will serve the less tech savvy small holder farmers from around the world that we work closely with, as the go-to onboarding app for ReFi. ",
-    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/4",
-    "email": "sevnightingale@gmail.com",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "Sunflower EcoTech"
-        }
-    ]
+    "email": "sevnightingale@gmail.com"
 }
+    // TODO: Add to OSS-Directory
