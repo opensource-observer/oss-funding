@@ -45,12 +45,32 @@ def update_application_ids(file_path, grant_pool_id_mapping):
                                 updated = True
                                 print(f"  Updated projectId: {old_project_id} -> {new_project_id}")
                         
-                        # Update application ID to daoip5:celo-org:application:<ID> format
-                        if 'id' in app:
+                        # Update application ID to daoip5:celo-org:grantPool:<Grant Pool ID>:grantApplication:<Application ID> format
+                        if 'id' in app and 'grantPoolId' in app:
                             old_app_id = app['id']
-                            # Check if it's already in the correct format
-                            if not old_app_id.startswith('daoip5:celo-org:application:'):
-                                new_app_id = f"daoip5:celo-org:application:{old_app_id}"
+                            grant_pool_id = app['grantPoolId']
+                            
+                            # Extract grant pool ID from the grantPoolId field
+                            if grant_pool_id.startswith('daoip5:'):
+                                # Extract just the grantPool:X part
+                                parts = grant_pool_id.split(':')
+                                if len(parts) >= 4 and parts[2] == 'grantPool':
+                                    pool_id = parts[3]
+                                else:
+                                    pool_id = grant_pool_id.split(':')[-1]  # fallback to last part
+                            else:
+                                pool_id = grant_pool_id
+                            
+                            # Check if application ID is already in the correct format
+                            expected_prefix = f"daoip5:celo-org:grantPool:{pool_id}:grantApplication:"
+                            if not old_app_id.startswith(expected_prefix):
+                                # Extract just the application ID part
+                                if old_app_id.startswith('daoip5:celo-org:application:'):
+                                    app_id = old_app_id.replace('daoip5:celo-org:application:', '')
+                                else:
+                                    app_id = old_app_id
+                                
+                                new_app_id = f"daoip5:celo-org:grantPool:{pool_id}:grantApplication:{app_id}"
                                 app['id'] = new_app_id
                                 updated = True
                                 print(f"  Updated application ID: {old_app_id} -> {new_app_id}")
