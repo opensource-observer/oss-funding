@@ -1,15 +1,8 @@
+
 {
-    "@context": "http://www.daostar.org/schemas",
-    "type": "Project",
-    "id": "nan",
-    "name": "Astral",
-    "description": "Astral is dedicated to enabling the development of 1,000 location-based onchain applications, making Celo an ideal partner due to its focus on climate solutions and innovation. To foster the growth of location-based applications, we are planning to introduce two pivotal features to the Celo ecosystem.\n\nFirst, we plan to deploy a spatial registry contract on Celo. This will allow developers to build and map places of interest, creating onchain maps that connect blockchain activities to physical locations.\n\nSecond, we aim to launch location attestations and proofs, which will be both public and private. These will be supported by the Ethereum Attestation Service (public) and ZK Maps (private), enabling users to reliably verify their locations.\n\nThese two core functionalities are designed to significantly enhance the Celo ecosystem by unlocking the potential of location-based applications. This new category of applications will provide decentralized alternatives to services like Google Maps, Uber, and Airbnb. More importantly, they will address the climate crisis by resolving the Digital Measurement, Reporting, and Verification (dMRV) dilemma.\n\nAstral has previously demonstrated its commitment to the Celo ecosystem through successful deployments, notably our GeoNFTs via Kolektivo project. The Kolektivo GeoNFT Registry module facilitated the minting, deployment, contract interactions, and listing of GeoNFTs (Geospatial Non-fungible Tokens) which are ERC-1155 tokens representing topological data of real-world areas. This initiative was one of the first to link real-world spaces with NFTs on Celo's Mainnet, emphasizing a climate focus.\n\nAstral relies on public goods funding as we're public goods and grant funded. Receiving funding from Celo allows us to continue our deep and long-lasting relationship with Celo, further contributing to the ecosystem.\n\nFurther Information:\n\nGitHub Repositories:\nGeneral: https://github.com/AstralProtocol/astralprotocol\nKolektivo on Celo Mainnet: https://github.com/Kolektivo/geonft-registry-poc\n\nWebsite: https://astral.global/\n\nPresentation: https://docs.google.com/presentation/d/12ZfOGch8qZI1FKgiU1IRwn5R1J5GIFkShvGZaqDHzjU/edit?usp=sharing\n\nThis clear focus on innovative and climate-oriented applications underscores Astral\u2019s role as a leader in the intersection of blockchain technology and environmental solutions.",
-    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/90",
-    "email": "dannygattas@gmail.com",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "Astral"
-        }
-    ]
+  "@context": "http://www.daostar.org/schemas",
+  "type": "Project",
+  "id": "daoip5:celo-org:project:astral",
+  "name": "astral",
+  "description": "TODO: Add to OSS-Directory"
 }

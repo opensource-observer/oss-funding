@@ -1,15 +1,8 @@
+
 {
-    "@context": "http://www.daostar.org/schemas",
-    "type": "Project",
-    "id": "nan",
-    "name": "GoodDollar",
-    "description": "// TLDR\n\n[GoodDollar] (**[http://www.gooddollar.org](http://www.gooddollar.org/)**) is a universal basic income protocol with a vision any person to access a digital, sustainable universal basic income. It is the largest, most active project on Celo with more than 312,000 members claiming G$ UBI.\n\nFor Gitcoin Round 20 (Climate Solutions), we are raising funds to support further develop GoodCollective, a platform that supports climate impact initiatives through enabling direct digital payments to individuals who perform verified climate stewardship. It is also built on Celo, and its original build was sponsored by the Climate Collective (also based on the Celo ecosystem). You can see the dapp here: https://dev-goodcollective.vercel.app/\n\nEnvironmental stewardship of local communities in key conservation areas will create a significant impact in preventing the depletion of natural resources. GoodDollar has partnered with Appropriate Design, the Climate Collective, and dOrg\u00a0to build GoodCollective, a dapp that support sustainable environmental practices at the local level, with a focus on direct payments to the individuals doing the work. The GoodCollective platform provides the climate tooling that enable community climate leaders to administer direct payments to those verifiably safeguarding and preserving their local habitat. The mission of GoodCollective deeply aligns with GoodDollar\u2019s mission to deliver digital money to those who need it most and Climate Collective\u2019s objective to utilize trusted, sustainable digital infrastructure to unlock verifiable climate action at scale.\n\nThis blog post shares more information on GoodCollective, and a demo video:\n\n**https://medium.com/gooddollar/announcing-goodcollective-a-platform-to-provide-direct-payments-for-climate-impact-initiatives-753fcad85b0a**\n\n// Why Support GoodCollective?\n\nGoodCollective is currently live and being used to support two first of its kind pilots which link automated digital payments to verified stewardship efforts, in partnership with other Celo-based climate projects (DeTrash in Brazil, Silvi in Kenya).\n\nFunds raised in Gitcoin 20 will used to fund further dapp development of GoodCollective to enable any community climate organization to permissionlessly create, customize and manage its own GoodCollective. This is critical tooling infrastructure to aid innovation in the Web3 and climate finance space. All software will be open source and free for use.\n\n// How Will the GR 20 Funds Be Used?\n\n- Fund further development of GoodCollective dapp, to make the dapp fully self-service and mobile compatible for climate organizations looking to deploy Conservation Basic Income for verified climate action.\n- Fund continued G$ payouts for two existing pilots and existing 40+ stewards currently performing climate action in Brazil and Kenya\n- Fund the conservation basic income and program management costs of upcoming deployments and partners",
-    "contentURI": "https://explorer.gitcoin.co/?utm_source=grants.gitcoin.co&utm_medium=internal_link&utm_campaign=gg19&utm_content=community-rounds#/round/42161/29/68",
-    "email": "anna@gooddollar.org",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "GoodDollar - GoodCollective"
-        }
-    ]
+  "@context": "http://www.daostar.org/schemas",
+  "type": "Project",
+  "id": "daoip5:celo-org:project:gooddollar",
+  "name": "gooddollar",
+  "description": "TODO: Add to OSS-Directory"
 }

@@ -1,15 +1,8 @@
+
 {
-    "@context": "http://www.daostar.org/schemas",
-    "type": "Project",
-    "id": "nan",
-    "name": "ReFi Atlantico",
-    "description": "Currently, ReFi Atlantico does not directly utilize the Celo Network for its operations or produce research, media, or resources that support the Celo ecosystem. However, we recognize the potential of the Celo Network and are exploring opportunities to integrate its technology into our initiatives in the future.\n\nOur future plans include:\n\nExploring cStable Payments: We are interested in leveraging cStable payments on the Celo Network to facilitate secure and stable transactions within our regenerative finance projects.\nImplementing a Celo SAFE: We aim to explore the use of Celo Secure Assets For Everyone (SAFE) to provide secure and accessible financial services to underserved communities in the Atlantico region.\nUtilizing Celo Hypercerts: We plan to explore the use of Celo Hypercerts for creating and verifying documents related to financial transactions, contracts, and agreements within our projects.\nWhile these plans are still in the exploration phase, we are committed to supporting the Celo ecosystem and integrating its technology into our initiatives where feasible. We believe that leveraging the capabilities of the Celo Network can enhance the impact and reach of our regenerative finance projects in Atlantico and beyond.\n\nhttps://twitter.com/RefiAtlantico\nhttps://www.instagram.com/refiatlantico/",
-    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/80",
-    "email": "refiatlantico@gmail.com",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "ReFi Atlantico"
-        }
-    ]
+  "@context": "http://www.daostar.org/schemas",
+  "type": "Project",
+  "id": "daoip5:celo-org:project:refi_atlantico",
+  "name": "refi_atlantico",
+  "description": "TODO: Add to OSS-Directory"
 }

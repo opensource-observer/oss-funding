@@ -1,15 +1,8 @@
+
 {
-    "@context": "http://www.daostar.org/schemas",
-    "type": "Project",
-    "id": "nan",
-    "name": "Helios",
-    "description": "Hello!\nWe previously received a $30k cUSD grant from Celo which was an absolute gamechanger for the development of our upcoming protocol (primary PoC was Nirvaan). We're now nearly ready to publicly announce our protocol launch. We're extremely excited to hear that Celo is migrating to the OP Superchain as bridging liquidity to the Celo network was our #1 blocker in integrating to the ecosystem. We plan to launch on the OP Superchain as well and would love to work together with Celo to understand how best to integrate directly into your migrated chain!\n\nSome links:\nwww.helios.eco\nhttps://github.com/groksmith/helios-contracts\nSolar generation reports: https://drive.google.com/drive/u/0/folders/1oXphui4x5t86KGQrSejRpC0xtvtGzUsC\n\nSuper excited to work together!",
-    "contentURI": "https://explorer.gitcoin.co/?utm_source=grants.gitcoin.co&utm_medium=internal_link&utm_campaign=gg19&utm_content=community-rounds#/round/42161/29/64",
-    "email": "william@helios.eco",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "Helios - High Impact Solar in Emerging Markets"
-        }
-    ]
+  "@context": "http://www.daostar.org/schemas",
+  "type": "Project",
+  "id": "daoip5:celo-org:project:helios",
+  "name": "helios",
+  "description": "TODO: Add to OSS-Directory"
 }

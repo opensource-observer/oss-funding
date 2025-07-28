@@ -1,15 +1,8 @@
+
 {
-    "@context": "http://www.daostar.org/schemas",
-    "type": "Project",
-    "id": "nan",
-    "name": "Fundaci\u00f3n The Clean Wave",
-    "description": "We are aligned with the Superchain and look forward to integrating Celo now that it has joined the superchain",
-    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/163",
-    "email": "abermudez@thecleanwav.org",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "Fundaci\u00f3n The Clean Wave"
-        }
-    ]
+  "@context": "http://www.daostar.org/schemas",
+  "type": "Project",
+  "id": "daoip5:celo-org:project:fundación_the_clean_wave",
+  "name": "fundación_the_clean_wave",
+  "description": "TODO: Add to OSS-Directory"
 }

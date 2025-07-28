@@ -1,9 +1,8 @@
+
 {
-    "@context": "http://www.daostar.org/schemas",
-    "type": "Project",
-    "id": "nan",
-    "name": "$EARTH",
-    "description": "$EARTH is live on Polygon right now.\n\nWith the funds we receive from this round we will be minting equivalent $EARTH and mint them on Celo via Across or Router Protocol ",
-    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/94",
-    "email": "progress@solarpunkdao.earth"
+  "@context": "http://www.daostar.org/schemas",
+  "type": "Project",
+  "id": "daoip5:celo-org:project:_earth",
+  "name": "_earth",
+  "description": "TODO: Add to OSS-Directory"
 }

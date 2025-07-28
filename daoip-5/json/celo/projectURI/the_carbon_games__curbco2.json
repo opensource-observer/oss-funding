@@ -1,15 +1,8 @@
+
 {
-    "@context": "http://www.daostar.org/schemas",
-    "type": "Project",
-    "id": "nan",
-    "name": "The Carbon Games: CurbCO2",
-    "description": "The Carbon Games is actively engaged in developing a decentralized application (dApp) designed to reduce urban transportation emissions through innovative carpooling solutions integrated with blockchain technology. Our project aligns with the Celo network's mission by utilizing blockchain to facilitate sustainable urban mobility solutions.\n\nCurrent Utilization:\nDevelopment Stage: We are in the development phase of deploying our carpooling dApp on the Celo Network, focusing on integrating Celo\u2019s blockchain capabilities to facilitate fast, secure, and low-cost transactions. This will allow us to offer users a seamless experience in earning digital assets by saving carbon emissions, which are verifiable and tradable within our platform.\n\nFuture Plans:\nDeployment on Celo: We plan to deploy our dApp on the Celo network within this year, leveraging Celo\u2019s unique features such as cStable payments to enhance our marketplace. This will enable transactions in Celo Dollars (cUSD), providing stability in transactions and incentivizing wider adoption.\n\nCelo Network Coordination: Our operations will integrate further with the Celo network to utilize tools such as Celo SAFE for secure asset storage and Celo Hypercerts for carbon credit certifications, enhancing the trust and utility of our platform.\n\nExpansion and Support: We aim to contribute to the Celo ecosystem not only through direct application deployment but also by participating in community initiatives, conducting workshops, and producing educational content that highlights the benefits of blockchain in sustainable urban development.\n\nDocumentation and Further Details:\nFor a comprehensive overview of our software architecture, key points of integration with Celo, implementation details, and benefits, please refer to the following document: https://docs.google.com/document/d/1RixnDGSKrTZ9n65r6bgXkglnuGgmBz5viG-fb7bRxss/edit?usp=sharing",
-    "contentURI": "https://explorer.gitcoin.co/community-rounds#/round/42161/29/152",
-    "email": "nikhil@thecarbongames.com",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "The Carbon Games: CurbCO2"
-        }
-    ]
+  "@context": "http://www.daostar.org/schemas",
+  "type": "Project",
+  "id": "daoip5:celo-org:project:the_carbon_games__curbco2",
+  "name": "the_carbon_games__curbco2",
+  "description": "TODO: Add to OSS-Directory"
 }

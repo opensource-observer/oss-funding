@@ -1,15 +1,8 @@
+
 {
-    "@context": "http://www.daostar.org/schemas",
-    "type": "Project",
-    "id": "nan",
-    "name": "Wasset",
-    "description": "We've developed and deployed our token on the celo mainnet (CA: 0x42C16109b85cf9552fA1A068EB46fF5117d964B4)\nThis token will allow the trading of recyclables and products on our marketplace.\n\nWe have also developed a lottery Dapo on the Celo Alfajores network. Working to launch it along with other utilities. ",
-    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/9",
-    "email": "femi@wasset.io",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "Wasset"
-        }
-    ]
+  "@context": "http://www.daostar.org/schemas",
+  "type": "Project",
+  "id": "daoip5:celo-org:project:wasset",
+  "name": "wasset",
+  "description": "TODO: Add to OSS-Directory"
 }

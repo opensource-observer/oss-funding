@@ -1,9 +1,8 @@
+
 {
-    "@context": "http://www.daostar.org/schemas",
-    "type": "Project",
-    "id": "nan",
-    "name": "Adopt a Tree",
-    "description": "We are a beginning project. We intend to pay farmers who plant trees using the Celo Network after onboarding them to Celo. ",
-    "contentURI": "https://explorer.gitcoin.co/#/round/42161/29/48",
-    "email": "eliudomutanyi@gmail.com"
+  "@context": "http://www.daostar.org/schemas",
+  "type": "Project",
+  "id": "daoip5:celo-org:project:adopt_a_tree",
+  "name": "adopt_a_tree",
+  "description": "TODO: Add to OSS-Directory"
 }

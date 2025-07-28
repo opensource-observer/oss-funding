@@ -1,15 +1,8 @@
+
 {
-    "@context": "http://www.daostar.org/schemas",
-    "type": "Project",
-    "id": "nan",
-    "name": "GainForest",
-    "description": "'- We pay community members from around the world using Celo (cUSD), using the Valora wallet. For additional proof, all transactions are displayed on our GainForest transparency platform. Attached below is a short video of the transactions, as well as a blogpost documenting our measure-to-earn program:\nhttps://gainforest.substack.com/p/what-is-gainforests-measure-to-earn\n- We plan to have all transactions referenced in a Celo attestation expressing the motive of the transaction. So far, a portion of the transactions are already visible here: https://celo.easscan.org/address/0x00da1b2D16c777D8Be7656C6780d23a98292c0ee\n- We have minted and plan to continue minting hypercerts to illustrate the environmental work done by a particular project. Link to the related hypercert from the \"Oceanus Conservation\" project above: https://hypercerts.org/app/view?claimId=0x16ba53b74c234c870c61efc04cd418b8f2865959-3743106036130323098097120681749450326016",
-    "contentURI": "https://explorer.gitcoin.co/?utm_source=grants.gitcoin.co&utm_medium=internal_link&utm_campaign=gg19&utm_content=community-rounds#/round/42161/29/102",
-    "email": "sharfy@gainforest.net",
-    "socials": [
-        {
-            "platform": "Unknown",
-            "url": "GainForest"
-        }
-    ]
+  "@context": "http://www.daostar.org/schemas",
+  "type": "Project",
+  "id": "daoip5:celo-org:project:gainforest",
+  "name": "gainforest",
+  "description": "TODO: Add to OSS-Directory"
 }
