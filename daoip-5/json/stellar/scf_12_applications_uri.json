@@ -5,13 +5,13 @@
     "grantPools": [
         {
             "type": "GrantPool",
-            "name": "scf-12",
+            "name": "scf_12",
             "applications": [
                 {
                     "type": "GrantApplication",
-                    "id": "daoip-5:stellar:grantPool:scf-12:grantApplication:1",
-                    "grantPoolId": "daoip-5:stellar:grantPool:scf-12",
-                    "grantPoolName": "scf-12",
+                    "id": "daoip-5:stellar:grantPool:scf_12:grantApplication:1",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf_12",
+                    "grantPoolName": "scf_12",
                     "projectsURI": "https://airtable.com/appymB1sbp5uidiGe/shrsaWm1IyNZTCEhX/tblpytbu3t73kssiE/viwTba5X3EUwzXlcr/recROR4Y8QHKD5rDF",
                     "projectId": "daoip-5:stellar:project:soroban-pre-order-contract",
                     "projectName": "Soroban Pre-Order Contract",

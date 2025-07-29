@@ -5,11 +5,11 @@
     "grantPools": [
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-1",
-            "name": "scf-1",
-            "description": "Grants pool for scf-1.",
+            "id": "daoip-5:stellar:grantPool:scf_1",
+            "name": "scf_1",
+            "description": "Grants pool for scf_1.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-1_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_1_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -17,11 +17,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-2",
-            "name": "scf-2",
-            "description": "Grants pool for scf-2.",
+            "id": "daoip-5:stellar:grantPool:scf_2",
+            "name": "scf_2",
+            "description": "Grants pool for scf_2.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-2_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_2_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -29,11 +29,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-3",
-            "name": "scf-3",
-            "description": "Grants pool for scf-3.",
+            "id": "daoip-5:stellar:grantPool:scf_3",
+            "name": "scf_3",
+            "description": "Grants pool for scf_3.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-3_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_3_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -41,11 +41,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-4",
-            "name": "scf-4",
-            "description": "Grants pool for scf-4.",
+            "id": "daoip-5:stellar:grantPool:scf_4",
+            "name": "scf_4",
+            "description": "Grants pool for scf_4.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-4_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_4_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -53,11 +53,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-5",
-            "name": "scf-5",
-            "description": "Grants pool for scf-5.",
+            "id": "daoip-5:stellar:grantPool:scf_5",
+            "name": "scf_5",
+            "description": "Grants pool for scf_5.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-5_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_5_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -65,11 +65,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-6",
-            "name": "scf-6",
-            "description": "Grants pool for scf-6.",
+            "id": "daoip-5:stellar:grantPool:scf_6",
+            "name": "scf_6",
+            "description": "Grants pool for scf_6.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-6_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_6_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -77,11 +77,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-7",
-            "name": "scf-7",
-            "description": "Grants pool for scf-7.",
+            "id": "daoip-5:stellar:grantPool:scf_7",
+            "name": "scf_7",
+            "description": "Grants pool for scf_7.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-7_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_7_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -89,11 +89,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-8",
-            "name": "scf-8",
-            "description": "Grants pool for scf-8.",
+            "id": "daoip-5:stellar:grantPool:scf_8",
+            "name": "scf_8",
+            "description": "Grants pool for scf_8.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-8_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_8_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -101,11 +101,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-9",
-            "name": "scf-9",
-            "description": "Grants pool for scf-9.",
+            "id": "daoip-5:stellar:grantPool:scf_9",
+            "name": "scf_9",
+            "description": "Grants pool for scf_9.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-9_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_9_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -113,11 +113,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-10",
-            "name": "scf-10",
-            "description": "Grants pool for scf-10.",
+            "id": "daoip-5:stellar:grantPool:scf_10",
+            "name": "scf_10",
+            "description": "Grants pool for scf_10.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-10_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_10_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -125,11 +125,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-11",
-            "name": "scf-11",
-            "description": "Grants pool for scf-11.",
+            "id": "daoip-5:stellar:grantPool:scf_11",
+            "name": "scf_11",
+            "description": "Grants pool for scf_11.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-11_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_11_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -137,11 +137,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-12",
-            "name": "scf-12",
-            "description": "Grants pool for scf-12.",
+            "id": "daoip-5:stellar:grantPool:scf_12",
+            "name": "scf_12",
+            "description": "Grants pool for scf_12.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-12_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_12_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -149,11 +149,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-13",
-            "name": "scf-13",
-            "description": "Grants pool for scf-13.",
+            "id": "daoip-5:stellar:grantPool:scf_13",
+            "name": "scf_13",
+            "description": "Grants pool for scf_13.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-13_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_13_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -161,11 +161,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-14",
-            "name": "scf-14",
-            "description": "Grants pool for scf-14.",
+            "id": "daoip-5:stellar:grantPool:scf_14",
+            "name": "scf_14",
+            "description": "Grants pool for scf_14.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-14_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_14_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -173,11 +173,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-15",
-            "name": "scf-15",
-            "description": "Grants pool for scf-15.",
+            "id": "daoip-5:stellar:grantPool:scf_15",
+            "name": "scf_15",
+            "description": "Grants pool for scf_15.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-15_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_15_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -185,11 +185,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-16",
-            "name": "scf-16",
-            "description": "Grants pool for scf-16.",
+            "id": "daoip-5:stellar:grantPool:scf_16",
+            "name": "scf_16",
+            "description": "Grants pool for scf_16.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-16_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_16_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -197,11 +197,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-17",
-            "name": "scf-17",
-            "description": "Grants pool for scf-17.",
+            "id": "daoip-5:stellar:grantPool:scf_17",
+            "name": "scf_17",
+            "description": "Grants pool for scf_17.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-17_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_17_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -209,11 +209,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-18",
-            "name": "scf-18",
-            "description": "Grants pool for scf-18.",
+            "id": "daoip-5:stellar:grantPool:scf_18",
+            "name": "scf_18",
+            "description": "Grants pool for scf_18.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-18_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_18_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -221,11 +221,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-19",
-            "name": "scf-19",
-            "description": "Grants pool for scf-19.",
+            "id": "daoip-5:stellar:grantPool:scf_19",
+            "name": "scf_19",
+            "description": "Grants pool for scf_19.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-19_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_19_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -233,11 +233,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-20",
-            "name": "scf-20",
-            "description": "Grants pool for scf-20.",
+            "id": "daoip-5:stellar:grantPool:scf_20",
+            "name": "scf_20",
+            "description": "Grants pool for scf_20.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-20_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_20_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -245,11 +245,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-21",
-            "name": "scf-21",
-            "description": "Grants pool for scf-21.",
+            "id": "daoip-5:stellar:grantPool:scf_21",
+            "name": "scf_21",
+            "description": "Grants pool for scf_21.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-21_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_21_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -257,11 +257,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-22",
-            "name": "scf-22",
-            "description": "Grants pool for scf-22.",
+            "id": "daoip-5:stellar:grantPool:scf_22",
+            "name": "scf_22",
+            "description": "Grants pool for scf_22.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-22_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_22_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -269,11 +269,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-23",
-            "name": "scf-23",
-            "description": "Grants pool for scf-23.",
+            "id": "daoip-5:stellar:grantPool:scf_23",
+            "name": "scf_23",
+            "description": "Grants pool for scf_23.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-23_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_23_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -281,11 +281,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-24",
-            "name": "scf-24",
-            "description": "Grants pool for scf-24.",
+            "id": "daoip-5:stellar:grantPool:scf_24",
+            "name": "scf_24",
+            "description": "Grants pool for scf_24.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-24_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_24_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -293,11 +293,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-25",
-            "name": "scf-25",
-            "description": "Grants pool for scf-25.",
+            "id": "daoip-5:stellar:grantPool:scf_25",
+            "name": "scf_25",
+            "description": "Grants pool for scf_25.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-25_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_25_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -305,11 +305,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-26",
-            "name": "scf-26",
-            "description": "Grants pool for scf-26.",
+            "id": "daoip-5:stellar:grantPool:scf_26",
+            "name": "scf_26",
+            "description": "Grants pool for scf_26.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-26_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_26_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -317,11 +317,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-27",
-            "name": "scf-27",
-            "description": "Grants pool for scf-27.",
+            "id": "daoip-5:stellar:grantPool:scf_27",
+            "name": "scf_27",
+            "description": "Grants pool for scf_27.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-27_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_27_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -329,11 +329,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-28",
-            "name": "scf-28",
-            "description": "Grants pool for scf-28.",
+            "id": "daoip-5:stellar:grantPool:scf_28",
+            "name": "scf_28",
+            "description": "Grants pool for scf_28.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-28_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_28_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -341,11 +341,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-29",
-            "name": "scf-29",
-            "description": "Grants pool for scf-29.",
+            "id": "daoip-5:stellar:grantPool:scf_29",
+            "name": "scf_29",
+            "description": "Grants pool for scf_29.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-29_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_29_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -353,11 +353,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-30",
-            "name": "scf-30",
-            "description": "Grants pool for scf-30.",
+            "id": "daoip-5:stellar:grantPool:scf_30",
+            "name": "scf_30",
+            "description": "Grants pool for scf_30.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-30_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_30_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -365,11 +365,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-31",
-            "name": "scf-31",
-            "description": "Grants pool for scf-31.",
+            "id": "daoip-5:stellar:grantPool:scf_31",
+            "name": "scf_31",
+            "description": "Grants pool for scf_31.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-31_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_31_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -377,11 +377,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-32",
-            "name": "scf-32",
-            "description": "Grants pool for scf-32.",
+            "id": "daoip-5:stellar:grantPool:scf_32",
+            "name": "scf_32",
+            "description": "Grants pool for scf_32.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-32_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_32_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -389,11 +389,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-33",
-            "name": "scf-33",
-            "description": "Grants pool for scf-33.",
+            "id": "daoip-5:stellar:grantPool:scf_33",
+            "name": "scf_33",
+            "description": "Grants pool for scf_33.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-33_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_33_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -401,11 +401,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-34",
-            "name": "scf-34",
-            "description": "Grants pool for scf-34.",
+            "id": "daoip-5:stellar:grantPool:scf_34",
+            "name": "scf_34",
+            "description": "Grants pool for scf_34.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-34_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_34_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -413,11 +413,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-35",
-            "name": "scf-35",
-            "description": "Grants pool for scf-35.",
+            "id": "daoip-5:stellar:grantPool:scf_35",
+            "name": "scf_35",
+            "description": "Grants pool for scf_35.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-35_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_35_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
@@ -425,11 +425,11 @@
         },
         {
             "type": "GrantPool",
-            "id": "daoip-5:stellar:grantPool:scf-36",
-            "name": "scf-36",
-            "description": "Grants pool for scf-36.",
+            "id": "daoip-5:stellar:grantPool:scf_36",
+            "name": "scf_36",
+            "description": "Grants pool for scf_36.",
             "isOpen": false,
-            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf-36_applications_uri.json",
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_36_applications_uri.json",
             "requiredCredentials": [
                 "DAO Attestation",
                 "KYC"
