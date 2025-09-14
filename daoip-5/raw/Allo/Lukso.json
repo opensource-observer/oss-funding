@@ -1,0 +1,64 @@
+{
+  "data": {
+    "rounds": [
+      {
+        "chainId": 42,
+        "id": "7",
+        "fundedAmountInUsd": 37498.93725,
+        "totalAmountDonatedInUsd": 17306.70458,
+        "matchAmountInUsd": 39613.65604,
+        "timestamp": "2024-09-03T07:18:48+00:00",
+        "roundMetadata": {
+          "name": "LUKSO Community Grants Round 1",
+          "support": {
+            "info": "https://discord.gg/lukso",
+            "type": "Discord Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Gitcoin and LUKSO are teaming up to host the first LUKSO Community Grants round, aimed at fostering the growth and development of the LUKSO ecosystem through quadratic funding. This round empowers the community to decide where to allocate funds, supporting both technical and non-technical projects. We are dedicated to celebrating and supporting the projects building on LUKSO that have contributed to the ecosystem’s expansion.\n\nThe goal is to cultivate an ecosystem where every project's success ripples outward, strengthening the community. We believe in collective growth, where innovative ideas and collaborative efforts combine to elevate the entire ecosystem to new heights.",
+            "requirements": [
+              {
+                "requirement": "LUKSO Ecosystem Contributions: We support projects leveraging LUKSO's smart contract standards (LSPs) and Universal Profiles (UPs) for dApps, infrastructure, and community initiatives. We encourage both technical projects integrating LUKSO's technology and non-technical initiatives focusing on education and engagement. Proposals should demonstrate value creation for the LUKSO community."
+              },
+              {
+                "requirement": "Community Engagement and Impact: \nProjects must demonstrate commitment to engaging with the LUKSO and broader Web3 community. A proactive approach to self-marketing and community engagement is expected. Proposals should outline strategies for driving user adoption and fostering a supportive ecosystem environment."
+              },
+              {
+                "requirement": "Technical Feasibility and Roadmap: \nProjects must present a clear and feasible roadmap with milestones and deliverables. The team's expertise and ability to execute the project should be demonstrated in the proposal."
+              },
+              {
+                "requirement": "Technical Eligibility Criteria: \nTechnical projects must integrate Universal Profiles using the UP Browser Extension and leverage LSPs instead of their ERC counterparts. A working MVP demonstrating UP integration and LSP use is required to qualify for the LUKSO Community Grants on Gitcoin."
+              },
+              {
+                "requirement": "Non-Technical Eligibility Criteria: \nNon-technical projects must demonstrate at least three months of active and continuous participation within the LUKSO community before the Gitcoin round. This criterion aims to protect loyal community members while encouraging newcomers to engage."
+              },
+              {
+                "requirement": "Funding and Budget: \nProposals should articulate how they would utilize the funds to maximize the project's ongoing impact within the LUKSO ecosystem. Clear and detailed budget plans are expected to be included in the application."
+              },
+              {
+                "requirement": "Ethical and Community Standards: \nProjects must adhere to strict ethical standards, including no hate speech, deception, or falsification. Transparency, legal compliance, and positive community interaction are required. The round has a 10% funding cap, and Gitcoin's standard for quid-pro-quo (https://roundoperations.gitcoin.co/round-operations/quid-pro-quo-policy) will be followed. \n\n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x218209c5faf2b4e6fdcd20fa1d93d282fc126dea8429e1030af01ad4bb4770e0",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "none",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 25000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-09-03T12:00:00+00:00",
+        "applicationsEndTime": "2024-09-13T21:59:00+00:00",
+        "donationsEndTime": "2024-09-26T21:59:00+00:00",
+        "donationsStartTime": "2024-09-12T12:00:00+00:00"
+      }
+    ]
+  }
+}
