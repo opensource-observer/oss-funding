@@ -1,0 +1,1848 @@
+{
+  "data": {
+    "rounds": [
+      {
+        "chainId": 42161,
+        "id": "367",
+        "fundedAmountInUsd": 4053.54751,
+        "totalAmountDonatedInUsd": 775.29359,
+        "matchAmountInUsd": 5488.39077,
+        "timestamp": "2024-06-24T14:22:40+00:00",
+        "roundMetadata": {
+          "name": "Unlock Protocol x Arbitrum : Builders Retro Funding II",
+          "support": {
+            "info": "https://t.me/+uMnOwqA5WUtmZDQx",
+            "type": "Discord Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round is to retroactively reward creators, builders, event hosts, communities, and projects who have used Unlock Protocol in any way, on Arbitrum. \n\n**Unlock use cases include:** Event Ticketing -- Recurring Subscriptions -- Time-Based Memberships -- Certifications & Credentials -- Event ticketing, check-in, and proof of attendance NFTs -- Membership access to content, video, software, music, podcasts --- memberships, community, DAO, and event access -- On-chain certifications for skills and continuing education -- Gaming -- Loyalty Programs -- Attendance NFTs -- Digital Collectibles -- Game subscriptions, in-game items, rewards -- Customer rewards, benefits, and recognition -- Attendance, participation, and commemoratives -- PFP collections, art NFTs and brand collections",
+            "requirements": [
+              {
+                "requirement": "Have at least 50 minted NFTs (Keys) that were deployed using Unlock Protocol on Arbitrum - needs to be verifiable when you submit your application"
+              },
+              {
+                "requirement": "NFTs (Keys) need to be deployed on Arbitrum to qualify"
+              },
+              {
+                "requirement": "Join Unlock Protocol's Discord https://discord.gg/jJ5DM8mMWz"
+              },
+              {
+                "requirement": "If you participated in the last Unlock x Arbitrum retro round, you need to have minted a new set of 50+ nfts (keys) to qualify "
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xbdca0cd88f8f51a5376e85189652cc076d1ff0982a4bc7904ad80ee2a8b63dbd",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 20,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 7000,
+            "minDonationThresholdAmount": 0.97
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-06-07T17:00:00+00:00",
+        "applicationsEndTime": "2024-06-21T04:00:00+00:00",
+        "donationsEndTime": "2024-06-22T04:00:00+00:00",
+        "donationsStartTime": "2024-06-09T04:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "6",
+        "fundedAmountInUsd": 35.53735,
+        "totalAmountDonatedInUsd": 38.10129,
+        "matchAmountInUsd": 35.30602,
+        "timestamp": "2024-03-20T19:41:46+00:00",
+        "roundMetadata": {
+          "name": "3/20 Michelle's Test QF Round",
+          "support": {
+            "info": "test@gitcoin.co",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "test description",
+            "requirements": [
+              {
+                "requirement": "test eligibility requirement 1"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x5e8c6a8e93be6efacef3dd2e8749f0d1711177ed5d94e32aa4bbf05b73a75969",
+          "quadraticFundingConfig": {
+            "matchingCap": false,
+            "sybilDefense": false,
+            "minDonationThreshold": false,
+            "matchingFundsAvailable": 0.01
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-03-20T20:00:00+00:00",
+        "applicationsEndTime": "2024-03-23T00:00:00+00:00",
+        "donationsEndTime": "2024-03-23T00:00:00+00:00",
+        "donationsStartTime": "2024-03-20T20:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "23",
+        "fundedAmountInUsd": 99969.78693,
+        "totalAmountDonatedInUsd": 11825.61354,
+        "matchAmountInUsd": 99762.79096,
+        "timestamp": "2024-03-31T13:25:29+00:00",
+        "roundMetadata": {
+          "name": "Hackathon Alumni",
+          "support": {
+            "info": "https://t.me/+W9y5_KplLX4xYjcx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "To foster the growth and impact of open-source software (OSS) within the tech ecosystem, there's a growing need to support projects that have shown promising beginnings at recent hackathons. Recognizing this potential, the focus is on identifying and funding projects that align with several key target areas:\n\n1. Innovative Solutions or Prototypes: Priority will be given to projects that originated as innovative solutions or prototypes during hackathons. These projects should demonstrate a high potential for scalability, impact, and the ability to address complex challenges within the OSS ecosystem.\n\n2. Initiatives Addressing Clear Needs: The funding will also target initiatives addressing clear and identifiable needs within the OSS or broader tech ecosystem. This includes projects that offer new tools and improve end user experience.\n",
+            "requirements": [
+              {
+                "requirement": "Participated in a recognized hackathon within the last 18 months."
+              },
+              {
+                "requirement": "Evidence of development progress post-hackathon."
+              },
+              {
+                "requirement": "Must provide proof of participation in a hackathon in the last 18 months where the output aligns with Open-Source Principles and Project Activity criteria."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xeaf418299b6aacff422d3ad8f561956116dfb3b5cca09ab15ffa56ed9dbb7330",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": false,
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 100000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-03-26T12:00:00+00:00",
+        "applicationsEndTime": "2024-04-16T23:59:00+00:00",
+        "donationsEndTime": "2024-05-01T23:59:00+00:00",
+        "donationsStartTime": "2024-04-18T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "641",
+        "fundedAmountInUsd": 30010.75436,
+        "totalAmountDonatedInUsd": 4211.24855,
+        "matchAmountInUsd": 30023.47894,
+        "timestamp": "2024-10-12T12:45:16+00:00",
+        "roundMetadata": {
+          "name": "Growing the Public Gardens",
+          "support": {
+            "info": "https://t.me/+UfNSRjaoRnU3N2U8",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round aims to support and grow the ecosystem of projects building on or integrating with Gardens v2. We seek to fund established and emerging projects that contribute to the advancement of Gardens v2, aiming to drive innovation and development within the Gardens v2 ecosystem. Innovative projects that are open source or can be categorized as public goods can also apply if they are active in Gardens.",
+            "requirements": [
+              {
+                "requirement": "Have an active community on Gardens v2 by October 29, 2024."
+              },
+              {
+                "requirement": "Focus on building on, integrating with, or directly supporting the Gardens v2 ecosystem.\n"
+              },
+              {
+                "requirement": "Demonstrate existing contributions or a roadmap for Gardens v2 development.\n"
+              },
+              {
+                "requirement": "Commit to community engagement and driving user adoption.\n"
+              },
+              {
+                "requirement": "Potential for scaling and creating significant impact within the Gardens v2 ecosystem.\n"
+              },
+              {
+                "requirement": "Use Karma GAP or a public database for milestone tracking and progress updates.\n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x510590856815833385b72b6891b6600a2abcbbaab7b62a33e5733f883a900058",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 15,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 30000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-10-15T12:00:00+00:00",
+        "applicationsEndTime": "2024-10-29T23:59:00+00:00",
+        "donationsEndTime": "2024-11-07T00:59:00+00:00",
+        "donationsStartTime": "2024-10-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "389",
+        "fundedAmountInUsd": 90200.1022,
+        "totalAmountDonatedInUsd": 40247.07778,
+        "matchAmountInUsd": 117230.93073,
+        "timestamp": "2024-07-24T11:43:20+00:00",
+        "roundMetadata": {
+          "name": "GG21: Thriving Arbitrum Summer",
+          "support": {
+            "info": "http://t.me/gg21arbfrens",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Thank ARB is supporting the growth and development of the Arbitrum ecosystem through a quadratic funding round. This round will allocate funds to support contributions to projects building on Arbitrum, focusing on core infrastructure, developer tooling, and innovative dApps & Apps.\n\nObjectives\n- Support projects with previous contributions to the Arbitrum Ecosystem.\n\n- Encourage wider Web3 community involvement through donations to projects, using donation volume as an indicator of engagement.\n- Drive innovation and development within the Arbitrum ecosystem, particularly on \nStylus and Arbitrum Orbit Chains.\n\nRound Philosophy\n- Collaborative Approach: We encourage projects that seek to complement and enhance existing initiatives rather than competing directly against them. The success of this round is viewed as a collective achievement, benefiting the entire Arbitrum ecosystem.\n\n- Long-term Vision: We value projects demonstrating a commitment to sustained impact and growth within the Arbitrum ecosystem. This round may be part of a series of recurring funding opportunities, and projects showing long-term potential will be well-positioned for future support.\n\n- Community-Driven Success: The collaborative nature and positive community engagement in this round will influence the planning of future funding opportunities.",
+            "requirements": [
+              {
+                "requirement": "Arbitrum Ecosystem Contributions\nProjects must focus on contributing to the growth, development, and enhancement of the Arbitrum ecosystem within one or more of the following themes:\n\n- Core Infrastructure: Projects should address crucial development, scalability, and security needs while providing innovative solutions to current challenges.\n\n- Developer Tooling: Projects should improve developer efficiency and accessibility by creating or enhancing development environments, frameworks, testing tools, or libraries that enable secure and efficient smart contracts and application development on Arbitrum.\n\n- dApps & Apps: Projects should accelerate the adoption and development of applications offering novel utilities or services, demonstrating innovative use cases and user-centric design with the potential to impact on the Arbitrum ecosystem's growth and user base.\n\n- Stylus: Projects should promote the adoption and development of Stylus for writing EVM-compatible smart contracts in languages like Rust, creating more efficient and performant smart contracts, developing tools facilitating Stylus adoption, and showcasing innovative use cases unique to Stylus.\n\n- Arbitrum Orbit Chains: Projects should encourage creating and utilizing Arbitrum Orbit Chains for specialized use cases, focus on creating or significantly enhancing Orbit Chains, develop supporting tools and infrastructure, and implement cross-chain solutions that leverage the unique properties of Orbit Chains.\n\n"
+              },
+              {
+                "requirement": "Community Engagement and Impact\n- Demonstrate a commitment to engaging with the Arbitrum and the broader Web3 community.\n\n- Show a proactive approach to self-marketing and community engagement\n\n- Participate in community events, create educational content, and actively engage with the Arbitrum community on social media platforms\n\n- Outline strategies for driving user adoption and fostering a supportive environment for other projects within the ecosystem\n"
+              },
+              {
+                "requirement": "Technical Feasibility and Roadmap\n- Present a clear and feasible roadmap detailing milestones and deliverables over time.\n\n- Showcase the team's expertise and ability to execute the project successfully within the proposed timeline\n"
+              },
+              {
+                "requirement": "Funding and Budget\n- Articulate how the funds would be utilized to maximize the project's ongoing impact within the Arbitrum ecosystem.\n"
+              },
+              {
+                "requirement": "Ethical and Community Standards\n- No Hateful Content: We firmly stand against discrimination and hate speech\n\n- Deceiving Users: Prohibited is any content that could harm users or lead to unintended consequences\n\n- Falsification: Attempts to falsify contributions, including Sybil attacks or other manipulative practices, are strictly banned\n\n- Fraud & Impersonation: Projects must accurately represent their affiliation and intentions to maintain transparency and trust\n\n- No Quid Pro Quo & Bribery: Incentives in exchange for donations are disallowed, maintaining the integrity of the contribution process. For this round, we will follow Gitcoin's standard for QPQ\n\n- Advertising Restrictions: Utilizing grants for direct promotional activities or sales is prohibited\n\n- Legal Compliance: Mandatory compliance with all applicable laws and regulations for participation\n\n- Positive Community Interaction: Projects are expected to maintain a supportive attitude towards other participants, contributing to a collaborative and constructive funding environment"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x25bc045d9ef38beb2b3bf7c2905fa2335a95f37181d9c45a37d8f435ce2927f2",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 150000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-07-24T12:00:00+00:00",
+        "applicationsEndTime": "2024-08-10T00:00:00+00:00",
+        "donationsEndTime": "2024-08-22T00:00:00+00:00",
+        "donationsStartTime": "2024-08-07T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "748",
+        "fundedAmountInUsd": 499.76058,
+        "totalAmountDonatedInUsd": 74.37931,
+        "matchAmountInUsd": 499.36646,
+        "timestamp": "2024-11-12T20:39:45+00:00",
+        "roundMetadata": {
+          "name": "Contribuidores da Jornada AgroforestDAO",
+          "support": {
+            "info": "agroforestdao@gmail.com",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Essa rodada pretende recompensar as pessoas que colaboraram para fazer acontecer a primeira Jornada AgroforestDAO",
+            "requirements": [
+              {
+                "requirement": "Fazer parte da equipe responsável pela comunicação da Jornada, ter apresentado alguma sessão ou ser indicado por algum operador."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xc85c012e21f8ca1739d2189bf8e75ac6d8818d3158b1da2e2cca54e54c2d1dc9",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 12,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 500,
+            "minDonationThresholdAmount": 0.15
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-11-12T20:58:00+00:00",
+        "applicationsEndTime": "2024-11-22T03:00:00+00:00",
+        "donationsEndTime": "2024-11-26T02:59:00+00:00",
+        "donationsStartTime": "2024-11-18T11:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "387",
+        "fundedAmountInUsd": 38969.02117,
+        "totalAmountDonatedInUsd": 11325.4782,
+        "matchAmountInUsd": 38970.36963,
+        "timestamp": "2024-07-24T00:05:26+00:00",
+        "roundMetadata": {
+          "name": "GG21 DeSci Round",
+          "support": {
+            "info": "https://t.me/gitcoindesci/678",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "DeSci (Decentralized Science) envisions a fair and equitable ecosystem for funding, creating, reviewing, crediting, storing, and disseminating scientific knowledge. The core idea is simple: transparency and decentralization lead to collaboration and progress in academia and beyond. The first DeSci round was held during GR15 in September 2022. GG21 is the 4th official DeSci round on Gitcoin.                                                                                                                                                                                                                                                                                                                                                                                          As DeSci continues to grow, the stewards and operators envision the DeSci round becoming more than just a round—it aims to serve as an ecosystem governance framework, empowering stakeholders to shape the future of decentralized science.                                               　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　                                                                                                                         　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        https://x.com/DeSci_Round_Ops",
+            "requirements": [
+              {
+                "requirement": "The project should fall under the category of Decentralized Science. (https://ethereum.org/en/desci/)"
+              },
+              {
+                "requirement": "The project should aim to build public infrastructure for funding, creating, reviewing, crediting, storing, and/or disseminating scientific knowledge (either by orgnizing conferences, meetings, workshops and/or hackathons then contributing to onboard scientists into the blockchain ecosystem) fairly and equitably using the Web3 stack."
+              },
+              {
+                "requirement": "The project should be able to clearly articulate its goals and objectives."
+              },
+              {
+                "requirement": "The project must have a clear and well-defined problem statement, as well as a plan for addressing the problem."
+              },
+              {
+                "requirement": "The project must have a clear roadmap and timeline for implementation, with achievable goals."
+              },
+              {
+                "requirement": "The project should be open-source and collaborative in nature."
+              },
+              {
+                "requirement": "The project must be able to provide regular updates on its progress to the Gitcoin community."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x48b8b88b76370111f737f522afd1324c76153b0f60e3a049fd070ae00693b4bb",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "matchingFundsAvailable": 39000
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-07-24T12:00:00+00:00",
+        "applicationsEndTime": "2024-08-12T23:59:00+00:00",
+        "donationsEndTime": "2024-08-21T23:59:00+00:00",
+        "donationsStartTime": "2024-08-07T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "648",
+        "fundedAmountInUsd": 99920.01846,
+        "totalAmountDonatedInUsd": 4765.16099,
+        "matchAmountInUsd": 99999.70276,
+        "timestamp": "2024-10-18T00:05:26+00:00",
+        "roundMetadata": {
+          "name": "GG22: Crypto Advocacy",
+          "support": {
+            "info": "sov@gitcoin.co",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Gitcoin is launching a curated quadratic funding round to support crypto advocacy. This round aims to allocate $100,000 to pre-selected projects contributing to crypto advocacy and policy efforts.",
+            "requirements": [
+              {
+                "requirement": "Must be one of the pre-selected grantees: DeFi Education Fund, Stand with Crypto, Coin Center, Blockchain Foundation, Blockchain Association, Satoshi Action Fund, or Bitcoin Voter Project."
+              },
+              {
+                "requirement": "Show strong community engagement and impactful advocacy efforts.\n"
+              },
+              {
+                "requirement": "Have effective strategies for maximizing impact within the crypto advocacy space.\n"
+              },
+              {
+                "requirement": "Commit to transparency in advocacy efforts and outcomes.\n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x3f9c5090f0da61e72e11eefeb9a8ecb5b616d3dc1aa3711c2dd082bfed936b79",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 20,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 100000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-10-18T00:00:00+00:00",
+        "applicationsEndTime": "2024-11-06T00:59:00+00:00",
+        "donationsEndTime": "2024-11-07T00:59:00+00:00",
+        "donationsStartTime": "2024-10-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "385",
+        "fundedAmountInUsd": 71352.37586,
+        "totalAmountDonatedInUsd": 10790.52401,
+        "matchAmountInUsd": 98119.06762,
+        "timestamp": "2024-07-23T18:41:27+00:00",
+        "roundMetadata": {
+          "name": "Web3 Grants Ecosystem Advancement",
+          "support": {
+            "info": "https://t.me/+TSXkBlGDqJ9hM2E5",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The Cartographer Syndicate is a high-context community of individuals and teams dedicated to advancing the Web3 grants ecosystem. We bring together service providers, grant managers, and thought leaders to collaborate, share insights, and drive innovation. \n\nIn collaboration with Thank ARB and Gitcoin, we are hosting a quadratic funding round to support and grow our community while furthering our mission in the Web3 grants space.  This round will allocate funds to individuals or teams who have previously contributed to the Web3 grants ecosystem or those with forward-looking ideas that align with the Syndicate's mission.\n\nRound Objectives:\n- Attract new members to the Cartographer Syndicate\n\n- Support innovation in the Web3 grants space.\n\n- Support previous and ongoing contributions to Web3 grants, including research, tooling, and thought leadership.\n\n- Encourage projects that align with or complement the Syndicate's broader goals, such as contributing to the Web3 Grants Registry, enhancing news aggregation and event coverage in the Web3 grants space, and developing tools or methodologies for the Web3 grants ecosystem\n\nRound Philosophy:\n- Open Innovation: We welcome diverse projects that can contribute to the Web3 grants ecosystem in novel and impactful ways.\n\n- Collaborative Approach: We encourage projects that align with our mission and seek to complement existing initiatives. This round's success is viewed as a collective achievement, benefiting the entire Web3 grants ecosystem.\n\n- Knowledge Sharing: We prioritize initiatives that contribute to aggregating and disseminating insights across the Web3 grants space.\n\n- Long-term Vision: We support projects committed to sustained impact and growth within the Web3 grants ecosystem.",
+            "requirements": [
+              {
+                "requirement": "Web3 Grants Contributions\nApplicants must demonstrate previous work or have a solid plan for future projects related to the Web3 grants ecosystem, focusing on one or more of the following areas:\n- Contributions: Enhance the Web3 grants on-chain registry to improve grant discovery and streamline application processes.\n- Research: Conduct studies to inform grant program design and effectiveness and explore new funding mechanisms.\n- Development: Create tools to support various stages of the granting process, from discovery to application.\n- Aggregation: Develop systems to collect and disseminate news, events, and insights in the Web3 grants space.\n- Experiments: Propose and test innovative funding mechanisms to push the boundaries of the Web3 grants ecosystem.\n"
+              },
+              {
+                "requirement": "Expertise and Vision\n- Demonstrate expertise in the chosen area of focus within Web3 grants (e.g., through past projects, publications, or experience).\n- Showcase a unique perspective, insights, and vision for advancing the ecosystem.\n"
+              },
+              {
+                "requirement": "Impact and Feasibility\n- Articulate the potential impact of the work on the Web3 grants ecosystem\n- Propose ideas and projects that are feasible within the given timeline and budget\n- Define clear metrics for measuring the created or potential impact\n- Outline plans for knowledge sharing and collaboration\n"
+              },
+              {
+                "requirement": "Ethical Standards\n- Adhere to non-discrimination and anti-hate speech policies\n- Maintain transparency and accuracy in representing affiliations and expertise\n- Disclose any potential conflicts of interest\n- Comply with all applicable laws and regulations\n- Follow Gitcoin's Quid Pro Quo policy\n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x8111871b8916593f985bc93e2f989789d1cd8a6c8dd8036da4936ae5bec9fad5",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 125000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-07-24T12:00:00+00:00",
+        "applicationsEndTime": "2024-08-10T00:00:00+00:00",
+        "donationsEndTime": "2024-08-22T00:00:00+00:00",
+        "donationsStartTime": "2024-08-07T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "383",
+        "fundedAmountInUsd": 30503.29951,
+        "totalAmountDonatedInUsd": 3811.27855,
+        "matchAmountInUsd": 29682.44954,
+        "timestamp": "2024-07-23T01:30:00+00:00",
+        "roundMetadata": {
+          "name": "Decentralized Science and Art in Psychedelics",
+          "support": {
+            "info": "brad@psychedelicpuppet.show",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "### Empowering Decentralized Science and Art in Psychedelics\n\nOur funding round aims to support innovative projects that advance the artistic and scientific understanding of psychedelics. We seek proposals focusing on history, scientific research, therapeutic applications, aesthetic experiences, and storytelling through music and narrative. By providing resources and a collaborative platform, we empower researchers, artists, and storytellers to explore and share the profound impacts of psychedelics. Projects must demonstrate community engagement, impact potential, feasibility, and ethical standards, contributing to a vibrant ecosystem of knowledge and creativity in the field of psychedelics.",
+            "requirements": [
+              {
+                "requirement": "Project Focus: The project must be centered on one or more of the following key areas related to psychedelics:\n\t•\tHistory: Exploration of the historical and cultural contexts and evolution of psychedelics.\n\t•\tScientific Understandings: Advancements in scientific knowledge, including qualitative and quantitative research.\n\t•\tTherapeutic Applications: Development or analysis of therapeutic uses and benefits of psychedelics, such as case studies or narrative stories.\n\t•\tAesthetic Experience: Artistic interpretations and expressions inspired by psychedelic experiences.\n\t•\tStorytelling, film, and Music: Projects that utilize narrative, film, video, music, or other temporal mediums to explore and convey psychedelic experiences and themes."
+              },
+              {
+                "requirement": "Experience: Applicants must demonstrate experience in their field by providing:\n\t•\tAcademic or artist CVs for all key team members.\n\t•\tEvidence of previous notable work, such as peer-reviewed publications, previous NFT collections, film screenings, or exhibitions that meet the minimum professional criteria of an active researcher, artist, or filmmaker."
+              },
+              {
+                "requirement": "Community Engagement: Applicants must demonstrate a commitment to collaboration and community engagement by:\n\t•\tActively participating in discussions and events within the broader psychedelic research and art community.\n\t•\tSharing progress and outcomes with the community through various channels, such as social media, forums, or online presentations."
+              },
+              {
+                "requirement": "Impact and Innovation: Projects must clearly articulate how they will contribute to the field of psychedelics, including potential impacts and innovative approaches. This could include:\n\t•\tAdvancing new scientific methodologies or therapeutic practices.\n\t•\tCreating unique and compelling artistic, story, or film works that capture the essence of psychedelic experiences.\n\t•\tGenerating new knowledge or insights that benefit the broader community.\n"
+              },
+              {
+                "requirement": "Feasibility and Sustainability: Applicants must provide a detailed project plan that outlines:\n\t•\tClear objectives and milestones.\n\t•\tA realistic timeline and budget.\n* Examples of previous works.\n"
+              },
+              {
+                "requirement": "Ethical Considerations: Projects must adhere to ethical guidelines relevant to the field, including:\n\t•\tEnsuring informed consent and protection of participants in scientific studies.\n\t•\tRespecting cultural sensitivities and the origins of psychedelic practices.\n\t•\tPromoting inclusivity and accessibility within the project and its outcomes.\n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x89865d45c40f3b16968cccf8a9068f76afb0c95f839d17b564006469b56a2a39",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "none",
+            "matchingCapAmount": 15,
+            "matchingFundsAvailable": 58000
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-07-25T02:00:00+00:00",
+        "applicationsEndTime": "2024-08-02T19:00:00+00:00",
+        "donationsEndTime": "2024-08-21T07:00:00+00:00",
+        "donationsStartTime": "2024-08-07T07:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "39",
+        "fundedAmountInUsd": 25001.29613,
+        "totalAmountDonatedInUsd": 9470.37014,
+        "matchAmountInUsd": 24960.24462,
+        "timestamp": "2024-04-16T15:59:45+00:00",
+        "roundMetadata": {
+          "name": "DeSci (Decentralized Science)",
+          "support": {
+            "info": "https://t.me/gitcoindesci/",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The DeSci round includes projects that fall into the domain of Decentralized Science. (https://ethereum.org/en/desci/)",
+            "requirements": [
+              {
+                "requirement": "Projects should directly support the mission of DeSci to innovate scientific research by exploring novel mechanisms of funding, conducting, and disseminating scientific research in an open, inclusive, and accessible manner."
+              },
+              {
+                "requirement": "DeSci projects most commonly support this mission by building and testing necessary technological infrastructure, but projects may also be eligible if they are deploying existing DeSci infrastructure in a scientific research context or if they are educating and recruiting members of the scientific community to contribute to the mission."
+              },
+              {
+                "requirement": "Concrete examples of issues covered by the DeSci mission include: the data reproducibility crisis and archaic data sharing practices; misaligned incentives and poor practices in scientific publishing and peer review; financial, linguistic, and academic barriers to globally inclusive research; intellectual property, patents, and financial incentives to trade progress for profits; academic disconnect and poor science/health literacy and trust in the lay public and government representatives."
+              },
+              {
+                "requirement": "Projects must satisfy the Gitcoin Program General Eligibility Policy in addition to the requirements described above."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "reportCardMetadata": {
+            "socialPostUrls": [
+              "https://x.com/DeSci_Round_Ops/status/1780317997032215024"
+            ],
+            "statsDescription": "The DeSci round includes projects that fall into the domain of Decentralized Science. (https://ethereum.org/en/desci/)\n\nThis is the 3rd official DeSci round. Previous rounds were held during GR15 in September 2022 and a community-run Beta Round in May 2023 using Allo Protocol and Grants Stack.\n"
+          },
+          "programContractAddress": "0x4a9cf6493c319b393d4ec4544f1bcceafbeec13f44ae6cfd3faf542d4380d81d",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": false,
+            "matchingCapAmount": 10,
+            "minDonationThreshold": false,
+            "matchingFundsAvailable": 25000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-04-16T16:00:00+00:00",
+        "applicationsEndTime": "2024-05-07T23:59:00+00:00",
+        "donationsEndTime": "2024-05-07T23:59:00+00:00",
+        "donationsStartTime": "2024-04-23T00:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "646",
+        "fundedAmountInUsd": 17504.4695,
+        "totalAmountDonatedInUsd": 6446.44282,
+        "matchAmountInUsd": 17509.0484,
+        "timestamp": "2024-10-15T23:57:33+00:00",
+        "roundMetadata": {
+          "name": "Youth In Need",
+          "support": {
+            "info": "noahchonlee@gmail.com",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round welcomes projects that support youth in need through kids’ shelters and related services, such as education, safe housing, counseling, and crisis intervention programs.",
+            "requirements": [
+              {
+                "requirement": "Demonstration of knowledge of crypto and the ability to receive and use donations effectively"
+              },
+              {
+                "requirement": "Transparency of financial records"
+              },
+              {
+                "requirement": "A video call booking link such as calendly or cal.com so donors may call directly with a project representative"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x2f2e0f7d68e31bdc454ba28904ed1f644368b0c3bcf269bf08e029f6eca4f942",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 20,
+            "minDonationThreshold": false,
+            "matchingFundsAvailable": 17500
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-10-21T06:31:00+00:00",
+        "applicationsEndTime": "2024-10-22T17:00:00+00:00",
+        "donationsEndTime": "2024-10-22T17:00:00+00:00",
+        "donationsStartTime": "2024-10-21T06:31:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "25",
+        "fundedAmountInUsd": 300199.29908,
+        "totalAmountDonatedInUsd": 219437.24874,
+        "matchAmountInUsd": 299288.37289,
+        "timestamp": "2024-03-31T18:44:56+00:00",
+        "roundMetadata": {
+          "name": "dApps & Apps ",
+          "support": {
+            "info": "https://t.me/+W9y5_KplLX4xYjcx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "To hasten the growth and widespread use of dApps & Apps, there's an initiative to support those offering innovative utilities or services within the ecosystem. The focus is on supporting two main areas:\n\n1. User-Centric dApps & Apps: Priority is given to applications that significantly enhance Web3 accessibility and usability, making it easier and more intuitive for users to navigate and benefit from the decentralized web.\n\n2. Contributions to User Experience and Interface Design, Financial Inclusion, Education, and Social Impact: dApps and Apps dedicated to advancing financial inclusion, providing educational opportunities, and creating positive social impact are strongly encouraged to apply.\n",
+            "requirements": [
+              {
+                "requirement": "User-Centric Design and Functionality: Projects should prioritize the development of applications that offer exceptional user experience, accessibility, and practical utility in the Web3 space. The goal is to make tech easy and beneficial for everyday users, bridging the gap between complex innovations and their practical application.\n"
+              },
+              {
+                "requirement": "Innovation in Application Use Cases: Projects should explore and implement new and novel use cases for applications within the Web3 sphere. We're interested in projects that push the boundaries of what's possible, showcasing the versatility and expansive potential of Web3 technologies to address a wide range of needs and opportunities.\n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xeaf418299b6aacff422d3ad8f561956116dfb3b5cca09ab15ffa56ed9dbb7330",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": false,
+            "matchingCapAmount": 5,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 300000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-04-02T12:00:00+00:00",
+        "applicationsEndTime": "2024-04-27T23:59:00+00:00",
+        "donationsEndTime": "2024-05-07T23:59:00+00:00",
+        "donationsStartTime": "2024-04-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "26",
+        "fundedAmountInUsd": 300198.29698,
+        "totalAmountDonatedInUsd": 202508.51636,
+        "matchAmountInUsd": 299952.32311,
+        "timestamp": "2024-03-31T18:55:18+00:00",
+        "roundMetadata": {
+          "name": "Web3 Infrastructure",
+          "support": {
+            "info": "https://t.me/+W9y5_KplLX4xYjcx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round aims to strengthen the Ethereum ecosystem's foundational infrastructure by supporting projects crucial for its development, scalability, and security. \n\nWe seek to fund initiatives that focus on core client teams and development, staking infrastructure and diversity, decentralized identity and cross-layer solutions, security and scalability innovations, wallet security and privacy technologies, and standardization and future-proofing efforts. \n\nSuccessful projects will demonstrate a significant contribution to the Ethereum network's infrastructure, addressing both foundational needs and innovative solutions to current challenges, while engaging in pioneering development that promises to elevate the ecosystem, particularly in areas of privacy, interoperability, and user experience.\n",
+            "requirements": [
+              {
+                "requirement": "Infrastructure Impact: Projects must demonstrate a significant contribution to the Ethereum network’s infrastructure, addressing both foundational needs and innovative solutions to current challenges.\n"
+              },
+              {
+                "requirement": "Engagement in Pioneering Development: A focus on pioneering technologies or approaches that promise to elevate the Ethereum ecosystem, particularly in enhancing privacy, interoperability, and user experience.\n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xeaf418299b6aacff422d3ad8f561956116dfb3b5cca09ab15ffa56ed9dbb7330",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": false,
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 300000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-04-02T12:00:00+00:00",
+        "applicationsEndTime": "2024-04-27T23:59:00+00:00",
+        "donationsEndTime": "2024-05-07T23:59:00+00:00",
+        "donationsStartTime": "2024-04-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "388",
+        "fundedAmountInUsd": 123296.53702,
+        "totalAmountDonatedInUsd": 22069.08035,
+        "matchAmountInUsd": 126528.40931,
+        "timestamp": "2024-07-24T02:32:20+00:00",
+        "roundMetadata": {
+          "name": "Climate Solutions Round",
+          "support": {
+            "info": "https://t.me/climatecoordinationnetwork",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "We aim to fund climate solutions projects worldwide that have a proven history of real-world impact. Specifically, these projects will showcase evidence of how they help reduce GHGs or are an important core infrastructure for Web3 climate solutions in the following nine categories: Renewable Energy - Oracles & dMRV - Carbon Accounting - Climate Activism/Education - Nature-Based Solutions - Ocean-Based Solutions - Climate Adaptation/Climate Resilience - Supply Chain solutions - Built Environment/Transportation.  Maximum of 70 grantees in the round based on their score. Reviewers will score projects based on Application, Karma GAP and other information. Applications received before 08/02/24 23:59 UTC are guaranteed a review before the round. Applications received after 08/02/24 23:59 UTC will receive a penalty to their review score. ",
+            "requirements": [
+              {
+                "requirement": "Projects must be at least 3 months old. We use Twitter, web domain registration date, and other public info to determine this. Newer projects should establish themselves and submit to the next round."
+              },
+              {
+                "requirement": "The Grant must be primarily focused on climate solutions (the group may do other work but the grant proposal should be directly related to climate solutions). The proposal should explicitly outline how this project will help reduce GHGs or is an important core infrastructure for web3 climate solutions. Examples include: Renewable Energy, Oracles & DMRV, Supply Chain Analysis, Carbon Accounting, climate activists / collectives, Natural Systems’ CO2 Sequestration."
+              },
+              {
+                "requirement": "Grantees who received funding in a previous round(s) are required to provide a new update on their progress and impact via KarmaGAP. Each project must have a minimum of 2 milestones updated since the completion of GG20 AND include a summary of the project’s climate impact over the past year. Projects can also include the challenges they have faced. This will ensure accountability to supporters and provide context for your work and accomplishments"
+              },
+              {
+                "requirement": "Even if the project was accepted into previous rounds, grantees will be eliminated from participation in the GG21QF Round for the following reasons:\n\n-If they are found to be encouraging or enabling Sybil attacks or other forms of malicious manipulation of the grants platform or the Gitcoin community\n-If they submit more than one project into the round\n-If they are primarily a token launch or NFT project to raise money for a liquidity pool\n-If the project does not clearly demonstrate a primary focus on being a climate solution with clear and proven climate impacts"
+              },
+              {
+                "requirement": "All returning grantees are required to include the following:\n\n-An update to their proposal including any lessons learned from previous work\n-A description of how they plan to use the additional funding from the upcoming round and how additional funding will help the project meet its goals\n-A rough timeline for the project overall\n-A short bio for each team member and their qualifications"
+              },
+              {
+                "requirement": "There is a general expectation that projects are within the “realm of viability”. Even if a project is very early, it must still seem credible to the average person with an understanding of web3 technology and climate solutions. Including information about the team’s expertise, qualifications and skills will help us review your grant. Grantee founders must genuinely intend to build the project, and the project must not broadly be considered an impossibility."
+              },
+              {
+                "requirement": "Projects must comply with Gitcoin core rules and eligibility."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x0e1401ef075c0f5290e76ca7d227b6b6d908e961f9cb19335d06a9d6816065fc",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 125000,
+            "minDonationThresholdAmount": 0.985
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-07-24T12:00:00+00:00",
+        "applicationsEndTime": "2024-08-06T20:15:00+00:00",
+        "donationsEndTime": "2024-08-21T23:59:00+00:00",
+        "donationsStartTime": "2024-08-07T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "642",
+        "fundedAmountInUsd": 70036.35079,
+        "totalAmountDonatedInUsd": 10137.27808,
+        "matchAmountInUsd": 70022.33214,
+        "timestamp": "2024-10-12T17:51:48+00:00",
+        "roundMetadata": {
+          "name": "ENS Ecosystem",
+          "support": {
+            "info": "https://t.me/limes_eth",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The GG22 ENS Ecosystem Round round supports projects actively building on top of ENS",
+            "requirements": [
+              {
+                "requirement": "Your project must be live"
+              },
+              {
+                "requirement": "Your project must be growing, enhancing, or extensively supporting ENS"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x31978b6975818c6cc3cfae0512f44f6d4f5016958065a3a178634f97a969eda9",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 70000,
+            "minDonationThresholdAmount": 0.95
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-10-14T12:00:00+00:00",
+        "applicationsEndTime": "2024-10-23T12:00:00+00:00",
+        "donationsEndTime": "2024-11-07T00:59:00+00:00",
+        "donationsStartTime": "2024-10-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "38",
+        "fundedAmountInUsd": 49.26528,
+        "totalAmountDonatedInUsd": 30.39016,
+        "matchAmountInUsd": 50.3471,
+        "timestamp": "2024-04-15T18:22:38+00:00",
+        "roundMetadata": {
+          "name": "HyperLocalizer Round One",
+          "support": {
+            "info": "https://t.me/hyperlocalizer_chat",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Experimental round to fund public goods for local impact",
+            "requirements": [
+              {
+                "requirement": "Public good that does local impact"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xa67e7c7554aff7e74b2d6f23aea1ceff64ad69052d4b46ac2c722b7f2fcdb7db",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": false,
+            "matchingCapAmount": 20,
+            "minDonationThreshold": false,
+            "matchingFundsAvailable": 50
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-04-15T19:00:00+00:00",
+        "applicationsEndTime": "2024-05-16T00:00:00+00:00",
+        "donationsEndTime": "2024-05-16T00:00:00+00:00",
+        "donationsStartTime": "2024-04-25T00:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "27",
+        "fundedAmountInUsd": 299277.72073,
+        "totalAmountDonatedInUsd": 50404.68574,
+        "matchAmountInUsd": 299952.32311,
+        "timestamp": "2024-04-01T14:50:59+00:00",
+        "roundMetadata": {
+          "name": "Developer Tooling and Libraries",
+          "support": {
+            "info": "https://t.me/+W9y5_KplLX4xYjcx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round focuses on improving developer efficiency in the open-source software (OSS) and Web3 ecosystems by funding projects that provide essential tooling and libraries. We seek to support the creation and enhancement of development environments, frameworks, testing tools, and libraries that enable secure, efficient smart contract development. Successful projects will reduce development barriers, enhance efficiency, and demonstrate strong community support and usage.",
+            "requirements": [
+              {
+                "requirement": "Significant reduction of development barriers or enhancement of project efficiency.\n"
+              },
+              {
+                "requirement": "Demonstrated support and usage within the developer community.\n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xeaf418299b6aacff422d3ad8f561956116dfb3b5cca09ab15ffa56ed9dbb7330",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": false,
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 300000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-04-02T12:00:00+00:00",
+        "applicationsEndTime": "2024-04-27T23:59:00+00:00",
+        "donationsEndTime": "2024-05-07T23:59:00+00:00",
+        "donationsStartTime": "2024-04-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "24",
+        "fundedAmountInUsd": 124975.98074,
+        "totalAmountDonatedInUsd": 30256.64831,
+        "matchAmountInUsd": 125163.19835,
+        "timestamp": "2024-03-31T14:59:41+00:00",
+        "roundMetadata": {
+          "name": "ENS Identity",
+          "support": {
+            "info": "https://t.me/+uqvpeZVpu-lmMDRh",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The GG20 ENS Identity Round round is meant to support projects actively building on top of ENS. Any project that is growing, enhancing, or supporting the decentralized identity system around ENS is eligible.",
+            "requirements": [
+              {
+                "requirement": "Have a project that grows, enhances, or supports ENS"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xfb88ca703349b94e0e6af74ec1aec62db1a5b4f43abe1324e1158d36357147cf",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "matchingCapAmount": 10,
+            "matchingFundsAvailable": 125000
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-04-02T12:00:00+00:00",
+        "applicationsEndTime": "2024-04-16T23:59:00+00:00",
+        "donationsEndTime": "2024-05-07T23:59:00+00:00",
+        "donationsStartTime": "2024-04-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "55",
+        "fundedAmountInUsd": 7.99941,
+        "totalAmountDonatedInUsd": 5.00157,
+        "matchAmountInUsd": 250056.41946,
+        "timestamp": "2024-05-08T16:41:00+00:00",
+        "roundMetadata": {
+          "name": "[🌌🔭] [TEST] Astrochain Subsystems",
+          "support": {
+            "info": "https://astrochain.net",
+            "type": "Website"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This is a test round for the upcoming \"Astrochain Subsystems\" multichain Quadratic Funding(QF) round which will begin on July 1 2024. The \"Astrochain Subsystems\" round will allow the public to prioritize the development of specific subsystems(area of focus) within Astrochain's development.\n\nThe respective subsystems are(of 5/8/24):\n- AstroFeed: Decentralized, Federated Social Media Network for Astronomers with build-in IPFS support.\n- AstroCenter: Digital 250,000sqft Metaverse space for community research and science education\n- AstroPrint: Decentralized preprint server built into the Astrochain Decentralized App with a focus on Astronomy, Astrobiology, and Astrophysics(specific tagging, filtering, AstroStore and AstroFeed integrations, etc.)\n- AstroStore: Decentralized, Structured Astronomical Catalog on the blockchain.",
+            "requirements": [
+              {
+                "requirement": "Be a DeSci Project"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xc5bfa2bbfc34b66ab57d63992f8e2235f13746a56daf7b3afb320d8a37c86305",
+          "quadraticFundingConfig": {
+            "matchingCap": false,
+            "matchingFundsAvailable": 250000
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-05-08T22:00:00+00:00",
+        "applicationsEndTime": "2024-07-01T00:00:00+00:00",
+        "donationsEndTime": "2024-07-01T00:00:00+00:00",
+        "donationsStartTime": "2024-05-09T00:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "11",
+        "fundedAmountInUsd": 58.13332,
+        "totalAmountDonatedInUsd": 32.15383,
+        "matchAmountInUsd": 107.60242,
+        "timestamp": "2024-03-27T13:09:46+00:00",
+        "roundMetadata": {
+          "name": "Gitcoin Testing Meme Round",
+          "support": {
+            "info": "meg@gitcoin.co",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This is an internal testing round to get familiar with Allo v2 and prep for GG20!",
+            "requirements": [
+              {
+                "requirement": "Send us your best public goods, grants, or gitcoin memes :)"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x5e8c6a8e93be6efacef3dd2e8749f0d1711177ed5d94e32aa4bbf05b73a75969",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": true,
+            "matchingCapAmount": 25,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 50,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-05-09T01:50:00+00:00",
+        "applicationsEndTime": "2024-05-12T00:00:00+00:00",
+        "donationsEndTime": "2024-05-12T00:00:00+00:00",
+        "donationsStartTime": "2024-05-10T00:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "36",
+        "fundedAmountInUsd": 106055.66943,
+        "totalAmountDonatedInUsd": 19999.89233,
+        "matchAmountInUsd": 105389.90346,
+        "timestamp": "2024-04-10T21:08:32+00:00",
+        "roundMetadata": {
+          "name": "Regenerative Land Projects",
+          "support": {
+            "info": "https://maearth.com/grants",
+            "type": "Website"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round provides funding support for regenerative land projects. Ma Earth is a community-led movement to align economic incentives with planetary health and regeneration. Matching funds are provided by Biome Trust.",
+            "requirements": [
+              {
+                "requirement": "Projects must be place-based and demonstrate regenerative activities for the benefit of ecosystem health, community well-being, and restoration."
+              },
+              {
+                "requirement": "Projects must comply with Gitcoin core rules and eligibility."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xbeb8b1a9b3db4d5f442c71f4ba84335ca7bd2e4fdcba50aca64a27efa4471119",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": false,
+            "matchingCapAmount": 25,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 30,
+            "minDonationThresholdAmount": 5
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-04-09T13:00:00+00:00",
+        "applicationsEndTime": "2024-04-21T12:00:00+00:00",
+        "donationsEndTime": "2024-05-07T23:59:00+00:00",
+        "donationsStartTime": "2024-04-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "28",
+        "fundedAmountInUsd": 59855.54415,
+        "totalAmountDonatedInUsd": 9123.35347,
+        "matchAmountInUsd": 60285.28364,
+        "timestamp": "2024-04-01T20:36:35+00:00",
+        "roundMetadata": {
+          "name": "Hypercerts Ecosystem Round",
+          "support": {
+            "info": "https://t.me/+YEZDaZ5LldY3NDhi",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round aims to strengthen the Hypercerts Ecosystem to realize the vision of an interconnected impact funding network. We specifically want to support projects\n1. that integrate hypercerts into existing funding platforms—similar to the hypercerts integration with Gitcoin,\n2. that develop new applications like prize competitions leveraging the hypercerts infrastructure,\n3. that build tooling to extent the functionality for multiple integrations and applications, such as Deresy to coordinate evaluators, or\n4. that are tangible use cases piloting new functionalities, e.g. implementing retroactive funding rounds with hypercerts or using hyperboards.",
+            "requirements": [
+              {
+                "requirement": "Project must build upon the hypercerts protocol or be a pilot use case for new functionalities. Projects that merely use hypercerts without extending its functionality or enabling its use by others are not eligible."
+              },
+              {
+                "requirement": "Project must be 3 months old and the project must demonstrate some tangible progress; just proposing an idea to utilize the hypercerts protocol will not meet the eligibility criteria."
+              },
+              {
+                "requirement": "Projects must comply with Gitcoin core rules and eligibility."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x3e3dfe4bd9070eb7600548d292f8211570e87e74357b7f6f4a3685efb3dca777",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": true,
+            "matchingCapAmount": 25,
+            "matchingFundsAvailable": 60000
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-04-02T12:00:00+00:00",
+        "applicationsEndTime": "2024-04-27T23:59:00+00:00",
+        "donationsEndTime": "2024-05-07T23:59:00+00:00",
+        "donationsStartTime": "2024-04-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "31",
+        "fundedAmountInUsd": 66030.0839,
+        "totalAmountDonatedInUsd": 10286.7307,
+        "matchAmountInUsd": 66001.10418,
+        "timestamp": "2024-04-03T02:06:12+00:00",
+        "roundMetadata": {
+          "name": "OpenCivics Consortium Round 02",
+          "support": {
+            "info": "team@opencivics.co",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This OpenCivics Consortium Round seeks to fund critical collaborative protocols, prototypes, and infrastructures that enable civic engagement and interoperable civic utilities for direct governance and stewardship of our communities and commons. We see these collaborative methods and prototypes as critically underfunded force multipliers for multi-agent coordination on key systemic leverage points that create deep social change. \n\nIdeal applicants will be engaged in developing technology, applied research, and social processes related to collaboration and coordination for collective action. Projects may address the diverse stack of collaborative protocols needed for successful multi-agent coordination such as: identity and attestation, on-chain delegation and roles, decentralized project management, fundraising and allocation, systems-aware strategic alignment processes, measurement and evaluation, and participatory governance and learning. These efforts may be theoretical and research-based or may be applied contexts of collaboration whose successful actualization could lead to protocolization of key activities and collaborative functions.  \n\nFor additional definitions and application details, please visit https://go.opencivics.co/wiki",
+            "requirements": [
+              {
+                "requirement": "Project is creating impact through public goods, civic service, civic works, civic innovations or civic utilities. "
+              },
+              {
+                "requirement": "Project exhibits clear relevance to the broad framing of civic innovation."
+              },
+              {
+                "requirement": "At least one project steward is a member of OpenCivics consortium."
+              },
+              {
+                "requirement": "Project team size and skills correlates to use of funds and desired impact."
+              },
+              {
+                "requirement": "Project demonstrates a clear track record of previous work. "
+              },
+              {
+                "requirement": "Project must agree to participate in co-development of collaborative and grantee accountability protocols as part of their impact reporting process."
+              },
+              {
+                "requirement": "Project adheres to OpenCivics Ethical Standards and Pledge."
+              },
+              {
+                "requirement": "Project stewards pass OFAC screening process."
+              },
+              {
+                "requirement": "Optional: Project is encouraged to include focus on collaboration between projects or on tools and infrastructures for collaboration."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "reportCardMetadata": {
+            "logoImg": "QmWhWCs7BMFHjXbhp4cGToB3Q75mkEdytTfmPhxGWfvA42",
+            "bannerImg": "QmTXHBYSewyDC8y1558xERv4tufAkWtrP1VpCdKaMvwn6W",
+            "socialPostUrls": [
+              "https://x.com/OpenCivics/status/1781790667733107166"
+            ]
+          },
+          "programContractAddress": "0x0235ce19844c454f36f7bdb6604e9df6de1be7894f5ca30a5c6f1d3cfc951a98",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "matchingCapAmount": 16,
+            "matchingFundsAvailable": 66000
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-04-03T00:00:00+00:00",
+        "applicationsEndTime": "2024-04-27T23:59:00+00:00",
+        "donationsEndTime": "2024-05-07T23:59:00+00:00",
+        "donationsStartTime": "2024-04-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "384",
+        "fundedAmountInUsd": 29984.51472,
+        "totalAmountDonatedInUsd": 10155.67217,
+        "matchAmountInUsd": 29992.1508,
+        "timestamp": "2024-07-23T09:28:31+00:00",
+        "roundMetadata": {
+          "name": "CollabTech Round and Thresholds Experiment",
+          "support": {
+            "info": "https://t.me/+PEUVS-tMcX5iMzE0",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Let’s grow CollabTech: organisations on-chain, evolution of B2B SaaS, and future of work; projects advancing identity & reputation, governance & decision making, operations (accounting, sales automation, inventory management, talent, etc), community, and contributor tooling!",
+            "requirements": [
+              {
+                "requirement": "CollabTech project - organisations on-chain, evolution of B2B SaaS, network states tooling & DAO tooling, and future of work; projects advancing reputation, governance & decision making, operations (accounting, sales automation, inventory management, talent, etc), community, and contributor tooling!"
+              },
+              {
+                "requirement": "Commercial viability or perennial Public Goods: projects addressing a clear need for a specific target user and with the ability to continue to deliver value over time (financial sustainability through business model and/or immutability)"
+              },
+              {
+                "requirement": "Maximum project development duration of 12 weeks (i.e. value delivered within 12 weeks)"
+              },
+              {
+                "requirement": "Threshold: Projects must declare a “threshold” (minimum amount of funds needed to complete the project/feature/prototype and deliver value). Thoroughness in defining their threshold and feasibility (threshold within the range of match-funding available) will be key for approval into the round.\nProjects not able to attain the threshold (with combined donations + match funding), will not receive match funding but can still keep donations."
+              },
+              {
+                "requirement": "General Criteria: Incomplete, poorly structured, unfeasible, or otherwise poorly conceived applications will be rejected."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x050e2a845dd7e5cc2197f4424421b0b71866a803d502d4f1d0ec82e4e8f39062",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 15,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 30000,
+            "minDonationThresholdAmount": 0.9
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-07-24T08:00:00+00:00",
+        "applicationsEndTime": "2024-08-20T22:00:00+00:00",
+        "donationsEndTime": "2024-08-20T22:00:00+00:00",
+        "donationsStartTime": "2024-08-06T22:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "607",
+        "fundedAmountInUsd": 25.92854,
+        "totalAmountDonatedInUsd": 26.28463,
+        "matchAmountInUsd": 26.46574,
+        "timestamp": "2024-09-25T04:40:00+00:00",
+        "roundMetadata": {
+          "name": "Test---901",
+          "support": {
+            "info": "https://www.stuff.com",
+            "type": "Website"
+          },
+          "roundType": "private",
+          "eligibility": {
+            "description": "desc Test---901",
+            "requirements": [
+              {
+                "requirement": ""
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xde68606017f25e7df33768baf0fe4974d9f59030d4eb0cb439bb807c1b970b46",
+          "quadraticFundingConfig": {
+            "matchingCap": false,
+            "sybilDefense": "passport-mbds",
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 0.01,
+            "minDonationThresholdAmount": 50
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-09-25T04:45:00+00:00",
+        "applicationsEndTime": "2024-09-25T05:00:00+00:00",
+        "donationsEndTime": "2024-09-25T05:15:00+00:00",
+        "donationsStartTime": "2024-09-25T05:01:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "758",
+        "fundedAmountInUsd": 19.99988,
+        "totalAmountDonatedInUsd": 40.48629,
+        "matchAmountInUsd": 20.02277,
+        "timestamp": "2024-11-17T06:54:13+00:00",
+        "roundMetadata": {
+          "name": "Students clubs & Youth groups round",
+          "support": {
+            "info": "victorwakariuki@gmail.com",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Student clubs and youth groups can evolve into vital nodes of community engagement, innovation, and social impact. Beyond traditional roles in extracurricular and community activities, they hold the potential to become micro-ecosystems generating significant societal value in edu/acc and gen/acc.",
+            "requirements": [
+              {
+                "requirement": "The round targets student clubs affiliated with learning institutions (secondary or tertiary) in areas such as tech, science, or environmental initiatives, as well as youth groups making societal impact and in the Web3 innovations, including DeFi, DeSci, and ReFi."
+              },
+              {
+                "requirement": "The applying teams should be more then 3 months old demonstrating their goals, milestones and potential impacts. "
+              },
+              {
+                "requirement": "Open to networking and collaboration through collective events and forums. "
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x820844a802c48c1e7aba2b424f2f863ee44e4aaf62ba3e75ef3f6a43be7013c6",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 20,
+            "minDonationThresholdAmount": 0.5
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-11-19T05:00:00+00:00",
+        "applicationsEndTime": "2024-12-14T21:00:00+00:00",
+        "donationsEndTime": "2024-12-30T21:00:00+00:00",
+        "donationsStartTime": "2024-11-24T21:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "608",
+        "fundedAmountInUsd": 299989.062,
+        "totalAmountDonatedInUsd": 106389.9715,
+        "matchAmountInUsd": 300121.33867,
+        "timestamp": "2024-09-26T19:12:29+00:00",
+        "roundMetadata": {
+          "name": "GG22 OSS - dApps and Apps",
+          "support": {
+            "info": "https://t.me/+W9y5_KplLX4xYjcx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "To accelerate the adoption and development of Open Source dApps and apps offering novel utilities or services within the ecosystem. This includes dApps and apps enhancing Web3 accessibility and usability and those contributing to financial inclusion, education, and social impact.",
+            "requirements": [
+              {
+                "requirement": "Demonstrate user-centric design and functionality"
+              },
+              {
+                "requirement": "Show contribution to Web3 ecosystem growth\n"
+              },
+              {
+                "requirement": "Present innovation in application use cases\n"
+              },
+              {
+                "requirement": "Meet the general eligibility criteria for Gitcoin Grants, including open-source principles and ethical standards"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x98a6f61d474e61f66fe4ba2c376c41d60be3fb3dd2a70ffad3a726b566450cea",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 5,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 300000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-09-30T12:00:00+00:00",
+        "applicationsEndTime": "2024-10-29T23:59:00+00:00",
+        "donationsEndTime": "2024-11-07T00:59:00+00:00",
+        "donationsStartTime": "2024-10-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "636",
+        "fundedAmountInUsd": 25104.82211,
+        "totalAmountDonatedInUsd": 5278.97988,
+        "matchAmountInUsd": 24854.93145,
+        "timestamp": "2024-10-08T02:02:13+00:00",
+        "roundMetadata": {
+          "name": "Allo Builders Advancement Round",
+          "support": {
+            "info": "https://t.me/+KDqQziqz90ZlN2Y5",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round aims to support and grow the ecosystem of projects building on or integrating with the Allo Protocol. We seek to fund established and emerging projects that contribute to the advancement of Allo, with the ultimate goal of driving Gross Merchandise Value (GMV) through the Allo protocol.",
+            "requirements": [
+              {
+                "requirement": "Focus on building on, integrating with, or directly supporting the Allo Protocol ecosystem."
+              },
+              {
+                "requirement": "Demonstrate existing contributions or a clear roadmap for Allo Protocol development."
+              },
+              {
+                "requirement": "Commit to community engagement and driving user adoption."
+              },
+              {
+                "requirement": "Potential for scaling and creating significant impact within the Allo ecosystem."
+              },
+              {
+                "requirement": "Use Karma GAP for milestone tracking and progress updates."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xee186cf7628a8a7320c525b5634d9f9a70bfb1a907f3549e6040effd5f2b4d0b",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 20,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 25000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-10-08T12:00:00+00:00",
+        "applicationsEndTime": "2024-10-29T23:59:00+00:00",
+        "donationsEndTime": "2024-11-07T00:59:00+00:00",
+        "donationsStartTime": "2024-10-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "611",
+        "fundedAmountInUsd": 99962.68106,
+        "totalAmountDonatedInUsd": 7076.48687,
+        "matchAmountInUsd": 99977.48737,
+        "timestamp": "2024-09-26T19:27:53+00:00",
+        "roundMetadata": {
+          "name": "GG22 OSS - Hackathon Alumni",
+          "support": {
+            "info": "https://t.me/+W9y5_KplLX4xYjcx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Gitcoin and our partners are collaborating to support the growth and development of projects that originated in recent hackathons and have shown potential for significant contributions to the OSS community. This round will allocate funds to nurture and support these emerging projects.",
+            "requirements": [
+              {
+                "requirement": "Have participated in a recognized hackathon in the last 18 months"
+              },
+              {
+                "requirement": "Provide evidence of development progress post-hackathon\n"
+              },
+              {
+                "requirement": "Have a link to a Hackathon project page\n"
+              },
+              {
+                "requirement": "Meet the general eligibility criteria for Gitcoin Grants, including open-source principles and ethical standards\n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x98a6f61d474e61f66fe4ba2c376c41d60be3fb3dd2a70ffad3a726b566450cea",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 100000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-09-30T12:00:00+00:00",
+        "applicationsEndTime": "2024-10-29T23:59:00+00:00",
+        "donationsEndTime": "2024-11-07T00:59:00+00:00",
+        "donationsStartTime": "2024-10-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "609",
+        "fundedAmountInUsd": 300193.44729,
+        "totalAmountDonatedInUsd": 51753.09014,
+        "matchAmountInUsd": 299917.09226,
+        "timestamp": "2024-09-26T19:17:57+00:00",
+        "roundMetadata": {
+          "name": "GG22 OSS - Developer Tooling and Libraries",
+          "support": {
+            "info": "https://t.me/+W9y5_KplLX4xYjcx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round aims to support the development of tools and libraries that empower developers to build efficiently and effectively within the OSS and Web3 ecosystems. We focus on development frameworks, interoperability tools, smart contract libraries, and data analytics tools.",
+            "requirements": [
+              {
+                "requirement": "Demonstrate how tools, libraries, or frameworks significantly reduce development barriers, improve efficiency, or enhance the security of Web3 projects."
+              },
+              {
+                "requirement": "Show support and usage within the developer community."
+              },
+              {
+                "requirement": "Meet the general eligibility criteria for Gitcoin Grants, including open-source principles and ethical standards."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x98a6f61d474e61f66fe4ba2c376c41d60be3fb3dd2a70ffad3a726b566450cea",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 300000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-09-30T12:00:00+00:00",
+        "applicationsEndTime": "2024-10-29T23:59:00+00:00",
+        "donationsEndTime": "2024-11-07T00:59:00+00:00",
+        "donationsStartTime": "2024-10-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "643",
+        "fundedAmountInUsd": 199931.57988,
+        "totalAmountDonatedInUsd": 31554.59929,
+        "matchAmountInUsd": 199848.8776,
+        "timestamp": "2024-10-13T20:07:11+00:00",
+        "roundMetadata": {
+          "name": "Land Regenerators",
+          "support": {
+            "info": "https://maearth.com/grants",
+            "type": "Website"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Ma Earth Grants Round 2 provides funding for regenerative land projects. The aim is to support place-based, environmental activities for community impact. Matching pool generously provided by Biome Trust, Gitcoin, and Naia Trust.",
+            "requirements": []
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x430dc01c5531cfe0799a66406ec02cf401752b34d7a72fb81a25d46befbb2134",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 12.5,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 200000,
+            "minDonationThresholdAmount": 5
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-10-13T20:00:00+00:00",
+        "applicationsEndTime": "2024-10-28T10:00:00+00:00",
+        "donationsEndTime": "2024-11-07T01:00:00+00:00",
+        "donationsStartTime": "2024-10-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "386",
+        "fundedAmountInUsd": 38747.41821,
+        "totalAmountDonatedInUsd": 3786.72011,
+        "matchAmountInUsd": 41988.88795,
+        "timestamp": "2024-07-23T21:10:37+00:00",
+        "roundMetadata": {
+          "name": "OpenCivics Collaborative Research Round",
+          "support": {
+            "info": "team@opencivics.co",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The OpenCivics Collaborative Research Round is designed to foster collaboration among researchers, civic innovators, and community organizers through open source research and knowledge production. Projects in this round are committed to contributing critical research into the commons and collaborating with others to share that knowledge in forms that directly empower community organizers.",
+            "requirements": [
+              {
+                "requirement": "At least one project lead must be a member of the OpenCivics Consortium"
+              },
+              {
+                "requirement": "Projects must conduct research that is Creative Commons as a public good"
+              },
+              {
+                "requirement": "Research must fall into one of the focus areas listed in the round description"
+              },
+              {
+                "requirement": "Projects must agree to coordinate and collaborate during and after the round with other grantees to collate and present their research progress in a Grantee Impact Showcase prior to GG22"
+              },
+              {
+                "requirement": "Grant applications must direct funds to a multi-signature wallet"
+              },
+              {
+                "requirement": "Projects must indicate what collaborative mechanism they will utilize to govern, evaluate and compensate participant contributions (Coordinape, DeWork, Charmverse, Notion, DAO Haus, Google Docs & Sheets, etc)"
+              },
+              {
+                "requirement": "Projects must indicate reasonable and verifiable milestones for the following possible funding amounts received: $1,000; $3,000; $6,000"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x506c350c67ca294dfb09dfc9fbf335e4236930a5cf9bbf7d5de4edf82660b3eb",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 15,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 42000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-07-24T12:00:00+00:00",
+        "applicationsEndTime": "2024-08-21T11:59:00+00:00",
+        "donationsEndTime": "2024-08-21T11:59:00+00:00",
+        "donationsStartTime": "2024-08-07T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "877",
+        "fundedAmountInUsd": 2283.93335,
+        "totalAmountDonatedInUsd": 438.50172,
+        "matchAmountInUsd": 2339.15997,
+        "timestamp": "2025-03-20T00:52:02+00:00",
+        "roundMetadata": {
+          "name": "Modular Crypto + Octant + Nouns",
+          "support": {
+            "info": "modularcryptomkt@gmail.com",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Brazilian Public Goods Quadratic Round – Powered by Octant & Nouns\nBy Modular Crypto\n\nWe’re excited to launch a quadratic funding round on Gitcoin, with the support of Octant and Nouns, to boost impactful Brazilian public goods projects! 🚀\n\nThis round is dedicated to pre-selected initiatives that contribute to the public good in Brazil, fostering innovation, open-source development, education, and more. Through quadratic funding, we ensure that community support plays a central role—small donations matter more!\n\nBy participating, you help amplify funding for these incredible projects and drive real change. Join us in supporting the builders shaping a better future!\n\n",
+            "requirements": [
+              {
+                "requirement": ""
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xd7201d597af6fae7974fadb108e869fbc06241dab787ef817cf6ff45f59eefce",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "none",
+            "matchingCapAmount": 15,
+            "minDonationThreshold": false,
+            "matchingFundsAvailable": 1.15,
+            "minDonationThresholdAmount": 0
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-03-20T01:00:00+00:00",
+        "applicationsEndTime": "2025-03-23T03:00:00+00:00",
+        "donationsEndTime": "2025-03-28T03:00:00+00:00",
+        "donationsStartTime": "2025-03-24T03:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "610",
+        "fundedAmountInUsd": 299947.95405,
+        "totalAmountDonatedInUsd": 49863.69314,
+        "matchAmountInUsd": 299932.46211,
+        "timestamp": "2024-09-26T19:22:38+00:00",
+        "roundMetadata": {
+          "name": "GG22 OSS - Web3 Infrastructure",
+          "support": {
+            "info": "https://t.me/+W9y5_KplLX4xYjcx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round aims to strengthen the Ethereum ecosystem's foundational infrastructure by supporting projects crucial for its development, scalability, and security. We focus on core client development, staking infrastructure, decentralized identity, security innovations, and more.",
+            "requirements": [
+              {
+                "requirement": "Demonstrate significant contribution to the Ethereum network's infrastructure."
+              },
+              {
+                "requirement": "Show engagement in pioneering development, particularly in enhancing privacy, interoperability, and user experience."
+              },
+              {
+                "requirement": "Meet the general eligibility criteria for Gitcoin Grants, including open-source principles and ethical standards."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x98a6f61d474e61f66fe4ba2c376c41d60be3fb3dd2a70ffad3a726b566450cea",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 300000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-09-30T12:00:00+00:00",
+        "applicationsEndTime": "2024-10-29T23:59:00+00:00",
+        "donationsEndTime": "2024-11-07T00:59:00+00:00",
+        "donationsStartTime": "2024-10-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "863",
+        "fundedAmountInUsd": 199992.45376,
+        "totalAmountDonatedInUsd": 27717.95133,
+        "matchAmountInUsd": 199967.70762,
+        "timestamp": "2025-03-14T19:42:50+00:00",
+        "roundMetadata": {
+          "name": "GG23 OSS - Developer Tooling and Libraries",
+          "support": {
+            "info": "https://t.me/+W9y5_KplLX4xYjcx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round aims to support the development of tools and libraries that empower developers to build efficiently and effectively within the OSS and Web3 ecosystems. We focus on development frameworks, interoperability tools, smart contract libraries, and data analytics tools.",
+            "requirements": [
+              {
+                "requirement": "Demonstrate how tools, libraries, or frameworks significantly reduce development barriers, improve efficiency, or enhance the security of Web3 projects."
+              },
+              {
+                "requirement": "Show support and usage within the developer community"
+              },
+              {
+                "requirement": "Meet the general eligibility criteria for Gitcoin Grants, including open-source principles and ethical standards"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xd37ac7ff2fbb387c88df73dfe3c2bf470814fffaa956fff7c61482998d8c4f2e",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 200000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-03-17T12:00:00+00:00",
+        "applicationsEndTime": "2025-03-31T23:59:00+00:00",
+        "donationsEndTime": "2025-04-16T23:59:00+00:00",
+        "donationsStartTime": "2025-04-02T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "865",
+        "fundedAmountInUsd": 199992.45376,
+        "totalAmountDonatedInUsd": 26002.93313,
+        "matchAmountInUsd": 199967.70762,
+        "timestamp": "2025-03-17T02:39:33+00:00",
+        "roundMetadata": {
+          "name": "GG23 OSS - Web3 Infrastructure",
+          "support": {
+            "info": "https://t.me/+W9y5_KplLX4xYjcx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round aims to strengthen the Ethereum ecosystem's foundational infrastructure by supporting projects crucial for its development, scalability, and security. We focus on core client development, staking infrastructure, decentralized identity, security innovations, and more.\n",
+            "requirements": [
+              {
+                "requirement": "Demonstrate significant contribution to the Ethereum network's infrastructure.\n"
+              },
+              {
+                "requirement": "Show engagement in pioneering development, particularly in enhancing privacy, interoperability, and user experience."
+              },
+              {
+                "requirement": "Meet the general eligibility criteria for Gitcoin Grants, including open-source principles and ethical standards.\n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xd37ac7ff2fbb387c88df73dfe3c2bf470814fffaa956fff7c61482998d8c4f2e",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 200000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-03-17T12:00:00+00:00",
+        "applicationsEndTime": "2025-03-31T23:59:00+00:00",
+        "donationsEndTime": "2025-04-16T23:59:00+00:00",
+        "donationsStartTime": "2025-04-02T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "867",
+        "fundedAmountInUsd": 199992.45376,
+        "totalAmountDonatedInUsd": 41557.27359,
+        "matchAmountInUsd": 199967.70762,
+        "timestamp": "2025-03-17T14:19:18+00:00",
+        "roundMetadata": {
+          "name": "GG23 OSS - dApps and Apps",
+          "support": {
+            "info": "https://t.me/+W9y5_KplLX4xYjcx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "To accelerate the adoption and development of Open Source dApps and apps offering novel utilities or services within the ecosystem. This includes dApps and apps enhancing Web3 accessibility and usability and those contributing to financial inclusion, education, and social impact.\n",
+            "requirements": [
+              {
+                "requirement": "Demonstrate user-centric design and functionality\n"
+              },
+              {
+                "requirement": "Show contribution to Web3 ecosystem growth"
+              },
+              {
+                "requirement": "Present innovation in application use cases"
+              },
+              {
+                "requirement": "Meet the general eligibility criteria for Gitcoin Grants, including open-source principles and ethical standards."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xd37ac7ff2fbb387c88df73dfe3c2bf470814fffaa956fff7c61482998d8c4f2e",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 5,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 200000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-03-17T12:00:00+00:00",
+        "applicationsEndTime": "2025-03-31T23:59:00+00:00",
+        "donationsEndTime": "2025-04-16T23:59:00+00:00",
+        "donationsStartTime": "2025-04-02T12:00:00+00:00"
+      },
+      {
+        "chainId": 42161,
+        "id": "774",
+        "fundedAmountInUsd": 1000.79155,
+        "totalAmountDonatedInUsd": 352.28549,
+        "matchAmountInUsd": 999.86327,
+        "timestamp": "2024-12-09T04:40:55+00:00",
+        "roundMetadata": {
+          "name": "MesoReefDAO's Reef Futures QF Round 2024 🌊🪸🐠✨",
+          "support": {
+            "info": "https://linktr.ee/mesoreefdao",
+            "type": "Other (please provide a link)"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "MesoReefDAO, in collaboration with AuraSci, has launched a dedicated round focused on Coral Reef Restoration Activities to enhance community engagement, promote knowledge sharing, leverage technology for conservation through open-source code, and foster collaborative solutions. This initiative aligns with the broader goals of the Reef Futures 2024 symposium and the MesoReefDAO workshop, which emphasize the critical role of local stakeholders in coral restoration efforts.\n\nKey Objectives of the Initiative:\n\nEnhance Community Engagement: By actively involving local communities in coral restoration projects, this initiative aims to empower those who depend on healthy reef ecosystems for their livelihoods. Engaging community members fosters stewardship and cultivates a sense of ownership over local marine resources.\n\nPromote Knowledge Sharing: The round will facilitate workshops and training sessions where participants can exchange insights and best practices in coral restoration. This collaborative learning environment is essential for building capacity among stakeholders and ensuring that restoration efforts are informed by both scientific research and traditional ecological knowledge.\n\nLeverage Technology for Conservation: Utilizing open-source code and hybrid activations, the initiative will explore innovative technological solutions to enhance coral restoration efforts. This approach allows for greater transparency and accessibility, enabling stakeholders to participate actively in conservation strategies.\n\nFoster Collaborative Solutions: By bringing together diverse stakeholders—including scientists, community members, and conservation organizations—this initiative aims to develop integrated solutions that address the multifaceted challenges facing coral reefs today. Collaboration is key to ensuring that restoration efforts are effective and sustainable over the long term.\n\nThis round represents a significant step towards realizing the potential of community-driven coral restoration initiatives, reinforcing the idea that collective action is vital for the resilience of coral ecosystems. Through these efforts, MesoReefDAO and AuraSci are committed to building a future where healthy coral reefs thrive alongside vibrant coastal communities.\n\n\n",
+            "requirements": [
+              {
+                "requirement": "Coral Reef Restoration/Conservation Projects with a socio-ecological component: Focusing on initiatives in low-income, lower-middle, and upper-middle-income countries (OECD)."
+              },
+              {
+                "requirement": "Eligible Entities: Academic institutions, nonprofit organizations, government agencies, independent researchers, and collectives."
+              },
+              {
+                "requirement": "Team Requirements: At least one individual is required to undertake the project."
+              },
+              {
+                "requirement": "Personal or Entity Social Media Links: (e.g., LinkedIn, ResearchGate, Twitter/X of each member)."
+              },
+              {
+                "requirement": "Email"
+              },
+              {
+                "requirement": "Wallet Address\n"
+              },
+              {
+                "requirement": "A brief description of your project, including team expertise (300 words max). Tip: Use infographics and photos."
+              },
+              {
+                "requirement": "Provide a brief description of how the funds will be used (250 words max)."
+              },
+              {
+                "requirement": "Follow AuraSci, and MesoReefDAO x accounts: https://x.com/MesoReefDAO \nhttps://x.com/Aura_Sci (Optional)\n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x575ccb021793764daf089a13c228eb9659ddbc4cf93ef87fc688247229d49e5d",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": false,
+            "matchingFundsAvailable": 1000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-12-12T00:00:00+00:00",
+        "applicationsEndTime": "2025-03-17T03:00:00+00:00",
+        "donationsEndTime": "2025-05-25T05:00:00+00:00",
+        "donationsStartTime": "2025-03-16T04:00:00+00:00"
+      }
+    ]
+  }
+}
