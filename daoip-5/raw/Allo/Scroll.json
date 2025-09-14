@@ -1,0 +1,45 @@
+{
+  "data": {
+    "rounds": [
+      {
+        "chainId": 534352,
+        "id": "12",
+        "fundedAmountInUsd": 500.2115,
+        "totalAmountDonatedInUsd": 14.34828,
+        "matchAmountInUsd": 499.57813,
+        "timestamp": "2024-05-20T21:02:56+00:00",
+        "roundMetadata": {
+          "name": "HyperDeSci 🧠🔬📖 Round Two",
+          "support": {
+            "info": "https://t.me/hyperdesci",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Decentralized science (DeSci) is a movement that aims to build public infrastructure for funding, creating, reviewing, crediting, storing, and disseminating scientific knowledge fairly and equitably using the Web3 stack.DeSci aims to create an ecosystem where scientists are incentivized to openly share their research and receive credit for their work while allowing anyone to access and contribute to the research easily. DeSci works off the idea that scientific knowledge should be accessible to everyone and that the process of scientific research should be transparent. DeSci is creating a more decentralized and distributed scientific research model, making it more resistant to censorship and control by central authorities. DeSci hopes to create an environment where new and unconventional ideas can flourish by decentralizing access to funding, scientific tools, and communication channels.Decentralized science allows for more diverse funding sources (from DAOs, quadratic donations(opens in a new tab) to crowdfunding and more), more accessible data and methods, and by providing incentives for reproducibility.",
+            "requirements": [
+              {
+                "requirement": "The project must be directly support DeSci"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x5aa4dd72c7222dcf6a5d407027b3dfbf6852ca16929ca0fe1d94c447acaec8f2",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "none",
+            "matchingCapAmount": 20,
+            "minDonationThreshold": false,
+            "matchingFundsAvailable": 500
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-06-15T08:00:00+00:00",
+        "applicationsEndTime": "2024-07-31T20:00:00+00:00",
+        "donationsEndTime": "2024-07-31T20:00:00+00:00",
+        "donationsStartTime": "2024-06-15T08:00:00+00:00"
+      }
+    ]
+  }
+}
