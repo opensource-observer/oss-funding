@@ -1,0 +1,144 @@
+{
+  "data": {
+    "rounds": [
+      {
+        "chainId": 43114,
+        "id": "4",
+        "fundedAmountInUsd": 54866.57594,
+        "totalAmountDonatedInUsd": 17647.24003,
+        "matchAmountInUsd": 87111.13519,
+        "timestamp": "2024-03-25T14:54:31+00:00",
+        "roundMetadata": {
+          "name": "Avalanche Community Grants Quadratic Funding Round One",
+          "support": {
+            "info": "https://t.me/avalanchegrants",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The Avalanche grant criteria emphasize the need for projects and grantees to significantly contribute to or advance the ecosystem. These areas include public goods software, analytics, education, on-chain infrastructure and protocols, gaming, NFTs/arts & culture, and consumer applications. \n\nAlthough not mandatory, the history of contributing to the Avalanche ecosystem is a plus for applicants. Additionally, projects must be at least three months old, demonstrated through social presence, public repositories, or verified contracts deployed, to be considered for grant rounds.\n\nTo Apply:\n\n1) Please review carefully the Eligibility Requirements: https://forum.avax.network/t/eligibility-criteria/1948\n2) Create a post on the Avalanche Forum detailing your application per the eligibility criteria\n3) Complete the application process here in Grants Stack once the forum post has been created (it is required to save your application)",
+            "requirements": [
+              {
+                "requirement": "Projects and grantees must contribute to the Avalanche Ecosystem in some demonstrable way. The grant must aim to support or directly advance the Avalanche ecosystem.  This includes areas like:\n\n** Public Goods Software\n** Analytics\n** Education\n** On-Chain Infrastructure and Protocols\n** Gaming\n** NFT / Arts & Culture\n** Consumer Applications"
+              },
+              {
+                "requirement": "History of contributing to the Avalanche Ecosystem: While this is not a hard requirement, previous contributions by applicants to the Avalanche ecosystem will be considered for admission into grant rounds."
+              },
+              {
+                "requirement": "The project needs to be at least three months old: this includes having a social presence for that period, public repositories, or verified contracts deployed."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xb3ad53550e1f79d834479f551173ac50167ead24bfba981a6cf4bf80c041ef20",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": true,
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 1500,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-03-26T12:00:00+00:00",
+        "applicationsEndTime": "2024-04-16T23:59:00+00:00",
+        "donationsEndTime": "2024-05-01T23:59:00+00:00",
+        "donationsStartTime": "2024-04-18T12:00:00+00:00"
+      },
+      {
+        "chainId": 43114,
+        "id": "17",
+        "fundedAmountInUsd": 154513.7725,
+        "totalAmountDonatedInUsd": 17026.33957,
+        "matchAmountInUsd": 134319.31551,
+        "timestamp": "2025-01-28T02:29:10+00:00",
+        "roundMetadata": {
+          "name": "Avalanche DeFi QF",
+          "support": {
+            "info": "http://t.me/avalanchegrants",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The DeFi Round will allocate funds to support contributions to projects building DeFi applications and infrastructure on Avalanche, focusing on enhancing ecosystem depth and driving new developer adoption.",
+            "requirements": [
+              {
+                "requirement": "Build essential DeFi infrastructure and tooling on Avalanche"
+              },
+              {
+                "requirement": "Create innovative financial applications and protocols on Avalanche"
+              },
+              {
+                "requirement": "Improve DeFi user experience and accessibility on Avalanche"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x7016c26dc102bf59e8160de04c99d02d6d2d8009aef718088c30c748b33bbd24",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "none",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 7000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-02-03T17:00:00+00:00",
+        "applicationsEndTime": "2025-02-25T17:00:00+00:00",
+        "donationsEndTime": "2025-03-11T16:00:00+00:00",
+        "donationsStartTime": "2025-02-25T17:00:00+00:00"
+      },
+      {
+        "chainId": 43114,
+        "id": "18",
+        "fundedAmountInUsd": 154513.7725,
+        "totalAmountDonatedInUsd": 12419.45913,
+        "matchAmountInUsd": 128794.32908,
+        "timestamp": "2025-01-28T02:33:22+00:00",
+        "roundMetadata": {
+          "name": "Avalanche Gaming QF",
+          "support": {
+            "info": "http://t.me/avalanchegrants",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The Gaming Round will allocate funds to support contributions to projects building gaming applications and infrastructure on Avalanche, focusing on driving user adoption and ecosystem growth.",
+            "requirements": [
+              {
+                "requirement": "Create engaging gaming experiences built on Avalanche"
+              },
+              {
+                "requirement": "Develop gaming infrastructure and tools on Avalanche"
+              },
+              {
+                "requirement": "Build social and community gaming on Avalanche"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x7016c26dc102bf59e8160de04c99d02d6d2d8009aef718088c30c748b33bbd24",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "none",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 7000,
+            "minDonationThresholdAmount": 0.01
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-02-03T17:00:00+00:00",
+        "applicationsEndTime": "2025-02-25T17:00:00+00:00",
+        "donationsEndTime": "2025-03-11T16:00:00+00:00",
+        "donationsStartTime": "2025-02-25T17:00:00+00:00"
+      }
+    ]
+  }
+}
