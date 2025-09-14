@@ -1,0 +1,300 @@
+{
+  "data": {
+    "rounds": [
+      {
+        "chainId": 10,
+        "id": "30",
+        "fundedAmountInUsd": 2500.08003,
+        "totalAmountDonatedInUsd": 597.90029,
+        "matchAmountInUsd": 2500.0995,
+        "timestamp": "2024-05-29T17:53:37+00:00",
+        "roundMetadata": {
+          "name": "ETH Dublin Hackathon 2024",
+          "support": {
+            "info": "https://t.me/+IWWzOPzS4x9iYTIx",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "private",
+          "eligibility": {
+            "description": "Gitcoin and ETH Dublin are proud to introduce an IRL QF Grant Round, empowering hackathon projects to thrive. Join us to experience firsthand how GTC = Grants = Growth, and make your mark by contributing to impactful and regenerative community projects!",
+            "requirements": [
+              {
+                "requirement": "To be eligible, applicants must have participated in the ETH Dublin hackathon. Projects submitted should aim to have an impactful and regenerative effect on the community."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xfe1d2d126c9b92550bc4d8001da875b613e472e384e2a45c43b2ec61b2457af9",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "none",
+            "matchingCapAmount": 25,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 2500,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-05-29T18:00:00+00:00",
+        "applicationsEndTime": "2024-06-10T22:59:00+00:00",
+        "donationsEndTime": "2024-06-10T22:59:00+00:00",
+        "donationsStartTime": "2024-05-30T07:00:00+00:00"
+      },
+      {
+        "chainId": 10,
+        "id": "57",
+        "fundedAmountInUsd": 59975.84314,
+        "totalAmountDonatedInUsd": 5832.12659,
+        "matchAmountInUsd": 59957.57119,
+        "timestamp": "2024-07-23T20:53:55+00:00",
+        "roundMetadata": {
+          "name": "Token Engineering the Superchain",
+          "support": {
+            "info": "grants@tecommons.org",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round aims to advance the Optimism (OP) and broader Superchain ecosystems by funding high-impact token engineering projects. We prioritize initiatives in tooling, research, education, social infrastructure, and consulting. Successful projects will show impact potential, feasibility, and alignment with OP's goals. Top grantees will be eligible for a follow-on Retroactive Funding round to reward their impact. More detail on these integrated grant rounds can be found here: https://bit.ly/3Yhf29o\n\nGrants admitted into this August round will be eligible to participate in a TEC retroactive funding round later this year, with awards based on progress against 2 milestones. \n",
+            "requirements": [
+              {
+                "requirement": "Advance Token Engineering: Projects must advance token engineering within one of the following categories: tooling, research, education, social infrastructure, consulting."
+              },
+              {
+                "requirement": "Contribute to the Superchain: Projects must contribute to the growth and development of Optimism or the broader Superchain ecosystem. Applications must include the following elements:\n- Description of  the long-term vision for impact \n- Specification of short-term goals and milestones within the scope of the grant\n- Agreement to participate in TEC's impact evaluation process leading to the Retroactive funding round in November\n"
+              },
+              {
+                "requirement": "Project Credibility: \n- Summary of project’s existing work with relevant links\n- Verified Github and/or Twitter account\n- Brief bios of the project’s team members\n"
+              },
+              {
+                "requirement": "Returning Grantees: \n- Updates on the work accomplished since their last grant\n- Self-assessment of the effectiveness of their use of that funding \n"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x2d51598a8a767f18a14f8ff97503ee88773f4d060bd054ee89e3bae962b1312f",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 15,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 60000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-07-24T12:00:00+00:00",
+        "applicationsEndTime": "2024-08-12T23:59:00+00:00",
+        "donationsEndTime": "2024-08-21T23:59:00+00:00",
+        "donationsStartTime": "2024-08-07T12:00:00+00:00"
+      },
+      {
+        "chainId": 10,
+        "id": "66",
+        "fundedAmountInUsd": 26025.4113,
+        "totalAmountDonatedInUsd": 6250.68242,
+        "matchAmountInUsd": 23907.25343,
+        "timestamp": "2024-09-04T09:06:25+00:00",
+        "roundMetadata": {
+          "name": "Octant Community Round 1",
+          "support": {
+            "info": "https://discord.gg/octant",
+            "type": "Discord Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round is dedicated to supporting projects that enhance and expand the Octant ecosystem through community building and educational initiatives. We're looking for innovative proposals that will engage, educate, and grow our community.",
+            "requirements": [
+              {
+                "requirement": "Prior Engagement: Candidates must have either: a)Been approved for or participated in any Octant epoch (0 through 4), or b) Been an approved grantee in a previous Gitcoin Grants roundVerifiable evidence of participation is required"
+              },
+              {
+                "requirement": "Karma GAP Requirement: All applicants must have an active Karma GAP setup. Those without one should establish it before submitting their application."
+              },
+              {
+                "requirement": "Project Viability: Proposals should demonstrate: a) A clear vision and roadmap b) Team's capability to execute the project successfully"
+              },
+              {
+                "requirement": "Community Standards and Ethics Inclusivity: Projects must promote a discrimination-free environment, User Protection: Content should not pose risks or lead to negative outcomes for users, Authenticity: Accurate representation of contributions and affiliations is mandatory, Legal Compliance: Adherence to relevant laws and regulations is required, Collaborative Spirit: Participants are expected to maintain supportive interactions within the community"
+              },
+              {
+                "requirement": "Transparency and Honesty: Full disclosure of project details and intentions is necessary. Any form of deception or manipulation is strictly prohibited"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xaff7b72937758b09e4d6b0941ba27727e802648729dab3a795dd29563cfa3890",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 10,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-09-04T12:00:00+00:00",
+        "applicationsEndTime": "2024-09-12T23:59:00+00:00",
+        "donationsEndTime": "2024-09-26T23:59:00+00:00",
+        "donationsStartTime": "2024-09-12T12:00:00+00:00"
+      },
+      {
+        "chainId": 10,
+        "id": "17",
+        "fundedAmountInUsd": 15866.1425,
+        "totalAmountDonatedInUsd": 39167.60959,
+        "matchAmountInUsd": 50221.08325,
+        "timestamp": "2024-04-12T12:12:57+00:00",
+        "roundMetadata": {
+          "name": "Aave & GHO Ecosystem Advancement",
+          "support": {
+            "info": "https://discord.com/channels/602826299974877205/695270706497454160",
+            "type": "Discord Group Invite Link"
+          },
+          "roundType": "private",
+          "eligibility": {
+            "description": "Gitcoin and Aave Grants DAO are collaborating to support the growth and development of the Aave and GHO Ecosystems through a strategic funding round. This initiative will allocate $50,000 to support impactful contributions to projects building on Aave and GHO.",
+            "requirements": [
+              {
+                "requirement": "Projects must focus on contributing to the growth, development, and enhancement of the Aave and GHO Ecosystems.  Proposals should outline how the project will create value for the Aave community and platform users.\n"
+              },
+              {
+                "requirement": "The Aave & GHO Ecosystem Advancement QF Round is open to all past AGD recipients with active or new project proposals. The round will prioritize funding for past grantees with active open-source projects or those proposing new open-source work, contributors who have done open-source work benefiting Aave but have yet to receive a grant, and those seeking funding for future open-source work with marginal but meaningful progress."
+              },
+              {
+                "requirement": "Projects participating in the Aave & GHO Ecosystem Advancement QF Round must adhere to open-source principles and maintain transparency in their development process and code repositories. Proposals should include links to relevant GitHub repositories or other open-source documentation to demonstrate their commitment to transparency.\n"
+              },
+              {
+                "requirement": "Projects should demonstrate a commitment to engaging with the Aave and broader Web3 community, outlining plans for community outreach, social media presence, and initiatives to drive user adoption and participation."
+              },
+              {
+                "requirement": "Projects must present a clear and feasible technical roadmap detailing milestones and deliverables, showcasing the team's expertise and ability to execute the project successfully within the proposed timeline."
+              },
+              {
+                "requirement": "Proposals should articulate how they would use the funds to maximize the project's impact within the Aave ecosystem."
+              },
+              {
+                "requirement": "No Hateful Content, Deceiving Users, Falsification, Fraud & Impersonation, Quid Pro Quo & Bribery, Advertising Restrictions, Funding Caps, and Legal Compliance as outlined in the eligibility criteria."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x32c58b09adc9a511bcc31577ba09d37336f5c4b9780c0b23349409bf93aa5a87",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": false,
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 16667,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-04-23T12:00:00+00:00",
+        "applicationsEndTime": "2024-05-21T00:00:00+00:00",
+        "donationsEndTime": "2024-06-18T00:00:00+00:00",
+        "donationsStartTime": "2024-06-04T12:00:00+00:00"
+      },
+      {
+        "chainId": 10,
+        "id": "44",
+        "fundedAmountInUsd": 70493.97329,
+        "totalAmountDonatedInUsd": 59459.96353,
+        "matchAmountInUsd": 74953.84179,
+        "timestamp": "2024-07-21T07:52:53+00:00",
+        "roundMetadata": {
+          "name": "Asia Round",
+          "support": {
+            "info": "https://t.me/+i312Hy9HG382MjI1",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Asia, with its 4.6 billion people and over 2,300 languages, is an essential region for the mass adoption of digital public goods.  The GG21 Asia Round is an exciting initiative of two leading communities in Asia - GCC & Pagoda,  designed to unlock the potential of talented Asian innovators, builders, and projects by providing them with essential funding and resources.   // We’re looking for projects in following areas but not limited to:  1. Asian Dev Communities(Ethereum ecosystem)  2. Policy Advocacy in Asia  3. Creative public goods funding protocols and tools that fits Asian ecosystem  4. Privacy and Anti-censorship      To minimize inequality due to language proficiency, we will accept project applications in Asian native languages other than English.     //   If you get your application in by the 6th, you will receive a decision by the start of the round.  Missed the application window?  No problem! You can still apply, but you will get the decision no later than August 15. This is for you and your team to decide.",
+            "requirements": [
+              {
+                "requirement": "The Grant must be in support of or directly advance the Asian public goods ecosystem; or at least one founder identifies him/herself as Asian. We will refer to the [public goods report](https://www.gccofficial.org/explore.html#report) released by GCC last December for the definition of public goods."
+              },
+              {
+                "requirement": "The project must clearly articulate the problem it addresses, the solution, the implementation plan, the financial plan, and demonstrate there is an excellent team or community for execution"
+              },
+              {
+                "requirement": "Project must be 3 months old and the project must demonstrate some tangible progress towards their stated goals, with a working MVP is available to the public. We will use Twitter, official website, github, and other public info to determine this. Newer projects should establish themselves and submit to the next round."
+              },
+              {
+                "requirement": "Grantees can be eliminated from consideration in the round if they are found to be encouraging or enabling Sybil attacks or other forms of malicious manipulation of the grants platform or the Gitcoin community."
+              },
+              {
+                "requirement": "Projects must comply with Gitcoin core rules and [eligibility criteria](https://gov.gitcoin.co/t/gg21-community-round-eligibility-criteria/19003)."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x3992737e6b85df65ce32b14d7143c734e3396da8ae5166fbb3533542ad9fd209",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 9.33333,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 75000,
+            "minDonationThresholdAmount": 3
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-07-24T12:00:00+00:00",
+        "applicationsEndTime": "2024-08-14T23:59:21+00:00",
+        "donationsEndTime": "2024-08-21T23:59:00+00:00",
+        "donationsStartTime": "2024-08-07T12:00:00+00:00"
+      },
+      {
+        "chainId": 10,
+        "id": "96",
+        "fundedAmountInUsd": 10003.38518,
+        "totalAmountDonatedInUsd": 9331.80339,
+        "matchAmountInUsd": 9973.70948,
+        "timestamp": "2025-01-07T21:16:01+00:00",
+        "roundMetadata": {
+          "name": "Glo Dollar x Optimism Builders ",
+          "support": {
+            "info": "https://t.me/glodollarrr",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round supports projects on Optimism that have integrated or hold Glo Dollar (USDGLO), a stablecoin that donates 100% of its profits to fund public goods. Its donations support initiatives like Optimism Retro Funding, Gitcoin, Giveth, the Protocol Guild, climate action, efforts to fight extreme poverty, and more.",
+            "requirements": [
+              {
+                "requirement": "Glo Dollar is integrated into your platform or dApp on Optimism "
+              },
+              {
+                "requirement": "Or: hold at least 10% or $1000 of your treasury in Glo Dollar on Optimism "
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x9bb6b1e9d0de1070e1ef00fb520c327148a8b7e61d0001a4218c2f588c29feca",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 10000,
+            "minDonationThresholdAmount": 0.98
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-06-07T17:00:00+00:00",
+        "applicationsEndTime": "2024-06-21T04:00:00+00:00",
+        "donationsEndTime": "2024-06-22T04:00:00+00:00",
+        "donationsStartTime": "2024-06-09T04:00:00+00:00"
+      }
+    ]
+  }
+}
