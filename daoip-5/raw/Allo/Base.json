@@ -1,0 +1,85 @@
+{
+  "data": {
+    "rounds": [
+      {
+        "chainId": 8453,
+        "id": "10",
+        "fundedAmountInUsd": 49.94124,
+        "totalAmountDonatedInUsd": 16.62274,
+        "matchAmountInUsd": 50.0603,
+        "timestamp": "2024-04-15T18:34:45+00:00",
+        "roundMetadata": {
+          "name": "HyperLocalizer Round One",
+          "support": {
+            "info": "https://t.me/hyperlocalizer_chat",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Experimental round to fund public goods for local impact",
+            "requirements": [
+              {
+                "requirement": "Public good that does local impact"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x4ec05f076d77377cbf28ad986a779e680f5c1b324b150cabeeafef69d2c53db3",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": false,
+            "matchingCapAmount": 20,
+            "minDonationThreshold": false,
+            "matchingFundsAvailable": 50
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-04-15T19:00:00+00:00",
+        "applicationsEndTime": "2024-05-16T00:00:00+00:00",
+        "donationsEndTime": "2024-05-16T00:00:00+00:00",
+        "donationsStartTime": "2024-04-25T00:00:00+00:00"
+      },
+      {
+        "chainId": 8453,
+        "id": "153",
+        "fundedAmountInUsd": 9.99983,
+        "totalAmountDonatedInUsd": 35.73168,
+        "matchAmountInUsd": 9.99895,
+        "timestamp": "2025-05-02T14:11:19+00:00",
+        "roundMetadata": {
+          "name": "Ipê Village Test Round",
+          "support": {
+            "info": "https://t.me/+avvm269kSfNjZjJh",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "private",
+          "eligibility": {
+            "description": "A round for checking the potential of using Gitcoin Rounds for distributing grants.",
+            "requirements": [
+              {
+                "requirement": "Applicants must be from the organizers team"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x662a7620428e1f93c9d1e70dc003309f5eed0a026069fbd289e66deb63a1ffca",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "none",
+            "matchingCapAmount": 25,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 10,
+            "minDonationThresholdAmount": 0.5
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-05-02T19:00:00+00:00",
+        "applicationsEndTime": "2025-05-07T03:00:00+00:00",
+        "donationsEndTime": "2025-05-08T03:00:00+00:00",
+        "donationsStartTime": "2025-05-05T03:00:00+00:00"
+      }
+    ]
+  }
+}
