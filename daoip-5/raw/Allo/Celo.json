@@ -1,0 +1,551 @@
+{
+  "data": {
+    "rounds": [
+      {
+        "chainId": 42220,
+        "id": "33",
+        "fundedAmountInUsd": 10007.01306,
+        "totalAmountDonatedInUsd": 1112.43967,
+        "matchAmountInUsd": 9996.81155,
+        "timestamp": "2025-03-19T06:49:40+00:00",
+        "roundMetadata": {
+          "name": "ReFi Mediterranean GG23",
+          "support": {
+            "info": "refi.mediterranean@gmail.com",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The ReFi Mediterranean round is the first localized Quadratic Funding round at bioregional scale. In partnership with Regen Coordination , Ma Earth, Celo Public Goods, and a generous donation from Kevin Owocki, and following the GG22 BioFi Pathfinders Round this innovative impact-driven funding round supports regenerative finance (ReFi) projects that have demonstrated meaningful contributions within the Mediterranean ecosystem.\n\nThis round brings together ReFi DAO and ReFi Mediterranean nodes to support a network of local projects leveraging Web3 for real-world impact and addressing local needs.",
+            "requirements": [
+              {
+                "requirement": "Have reviewed round documentation https://www.regencoordination.xyz/refi-mediterranean-gg23"
+              },
+              {
+                "requirement": "Have active goals, plans, and milestones for this year."
+              },
+              {
+                "requirement": "Be an active refi node, or regen project leader in the Mediterranean bioregion."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x51b51cdab3e13d16d0b951a7580c8bd005fe9fcc9ae7bf90c6d8e93a58d0a56a",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "matchingCapAmount": 20,
+            "matchingFundsAvailable": 10000
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-03-19T07:00:00+00:00",
+        "applicationsEndTime": "2025-04-06T22:00:00+00:00",
+        "donationsEndTime": "2025-04-16T21:59:00+00:00",
+        "donationsStartTime": "2025-04-01T22:00:00+00:00"
+      },
+      {
+        "chainId": 42220,
+        "id": "14",
+        "fundedAmountInUsd": 49924.46481,
+        "totalAmountDonatedInUsd": 8476.56092,
+        "matchAmountInUsd": 50130.48944,
+        "timestamp": "2024-07-26T10:28:26+00:00",
+        "roundMetadata": {
+          "name": "Regen Coordi-Nation Genesis",
+          "support": {
+            "info": "https://t.me/+dfOMYhMROdU5YzY0",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "​The Regen Coordi-Nation — a pioneering collaboration between GreenPill Network, ReFi DAO, and Celo Public Goods aimed at fostering a global movement of regenerative communities leveraging Web3 technology to address local needs and create real-world impact. \n\nThis GG21 Genesis Round, which offers $50K in matching funds, is open to applications from nominated ReFi DAO Local Nodes, GreenPill Local Chapters, and Celo Regional DAOs, as well as a select few additional aligned projects from each network.\n\nLearn more through the Regen Coordi-Nation Portal! \n--> https://tinyurl.com/RegenCoordinatePortal",
+            "requirements": [
+              {
+                "requirement": "Have received a nomination by ReFi DAO, GreenPill Network, or Celo Public Goods."
+              },
+              {
+                "requirement": "Provide an update on progress and impact if they are a grantee from previous Gitcoin rounds."
+              },
+              {
+                "requirement": "Detail feasible milestones and a roadmap for upcoming plans and development."
+              },
+              {
+                "requirement": "Adhere to Gitcoin’s basic rules and code of conduct, including no fraudulent activity, quid pro quo, hate speech, or other activities out of alignment with Gitcoin’s essential intents."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x923396c0d4c554fff10e7ba21572aa4bc37e4862df600aeb08834867696dbe99",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 50000,
+            "minDonationThresholdAmount": 0.95
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-07-26T11:00:00+00:00",
+        "applicationsEndTime": "2024-08-12T22:59:00+00:00",
+        "donationsEndTime": "2024-08-21T23:59:00+00:00",
+        "donationsStartTime": "2024-08-07T11:00:00+00:00"
+      },
+      {
+        "chainId": 42220,
+        "id": "11",
+        "fundedAmountInUsd": 75201.77332,
+        "totalAmountDonatedInUsd": 13801.39218,
+        "matchAmountInUsd": 74265.27272,
+        "timestamp": "2024-07-23T20:43:35+00:00",
+        "roundMetadata": {
+          "name": "Real World Builders",
+          "support": {
+            "info": "stewards@celopg.eco",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The Real World Builders program supports team working on use cases of blockchain technology that make a positive impact on physical communities and environments in areas such as financial inclusion, ecological credits, Real World Assets (RWA), Decentralized Physical Infrastructure (DePIN), and more.",
+            "requirements": [
+              {
+                "requirement": "Each project will need a clear problem statement backed up with an estimate size of the problem and how their team / product contributors to solving this problem."
+              },
+              {
+                "requirement": "Each project will need to clearly outline a compelling case for how it has, or will in the future, benefit the Celo ecosystem e.g. growth of users, transactions, and wallets."
+              },
+              {
+                "requirement": "Projects that have already raised a significant amount of funding may be subject to eligibility restrictions (Seed Round completed as max). "
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x9418479957433e56aaa3012cf90d56307b5f963a662d4a4e86f9f52be96cab8b",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 7,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 75000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-07-24T13:00:00+00:00",
+        "applicationsEndTime": "2024-08-12T21:00:00+00:00",
+        "donationsEndTime": "2024-08-21T23:59:00+00:00",
+        "donationsStartTime": "2024-08-06T22:00:00+00:00"
+      },
+      {
+        "chainId": 42220,
+        "id": "30",
+        "fundedAmountInUsd": 13001.56397,
+        "totalAmountDonatedInUsd": 1303.03052,
+        "matchAmountInUsd": 12991.7555,
+        "timestamp": "2025-03-15T08:35:26+00:00",
+        "roundMetadata": {
+          "name": "Regen Rio de Janeiro #1",
+          "support": {
+            "info": "https://www.regencoordination.xyz/regen-rio-de-janeiro-gg23",
+            "type": "Website"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "GreenPill Brasil, in partnership with Regen Coordination and Fabulosa Lab, is launching Regen Rio de Janeiro—a local quadratic funding round designed to support impactful nonprofits in Rio de Janeiro State. Through hands-on workshops, personalized onboarding, and community gatherings, participating nonprofits will gain access to the transformative potential of web3. --------------------------------------------------------- A Greenpill Brasil, em parceria com a Regen Coordination e Fabulosa Lab, está realizando o Regen Rio de Janeiro, uma rodada local de quadratic funding, com o foco em apoiar projetos sem fins lucrativos que estão gerando impacto positivo no estado do Rio de Janeiro.Através de workshops práticos, sessões de onboarding e encontros iremos apresentar o potencial transformador da Web3 para os projetos.",
+            "requirements": [
+              {
+                "requirement": " - Be a nonprofit Project or Initiative. ------------------------ Ser um projeto ou iniciativa sem fins lucrativos ."
+              },
+              {
+                "requirement": "-  Have demonstrable impact in Rio de Janeiro State (min. 6 months of track record). .------------------------ Ter impacto demonstrável no estado do Rio de Janeiro (registro de pelo menos 6 meses atrás)."
+              },
+              {
+                "requirement": "- Be a project or initiative that is working with social, environmental and cultural impact. .------------------------ Ser um projeto ou iniciativa que está atuando com atividades de impacto social, ambiental ou cultural."
+              },
+              {
+                "requirement": "- Have the commitment to complete all the next stages of the Regen Rio de Janeiro program (1 - funding Round, 2 - establish impact goals in gap.karmahq.xyz and 3 - participate in the commitment pool on sarafu.network). .------------------------ Ter o comprometimento de completar as próximas etapas do programa Regen Rio de Janeiro (1 - participar da rodada de financiamento, 2 - estabelecer metas de impacto na plataforma gap.karmahq.xyz e 3 - participar da piscina de comprometimento em sarafu.network)"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xa400da3b953bcdb529f97e6d48c3c83d5ec0e57ec325a18318181f46c198ca38",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 20,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 13000,
+            "minDonationThresholdAmount": 0.89
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-03-15T14:21:00+00:00",
+        "applicationsEndTime": "2025-04-02T02:59:00+00:00",
+        "donationsEndTime": "2025-04-17T02:59:00+00:00",
+        "donationsStartTime": "2025-04-02T03:00:00+00:00"
+      },
+      {
+        "chainId": 42220,
+        "id": "22",
+        "fundedAmountInUsd": 3507.54684,
+        "totalAmountDonatedInUsd": 651.71821,
+        "matchAmountInUsd": 3491.07682,
+        "timestamp": "2024-12-04T23:49:19+00:00",
+        "roundMetadata": {
+          "name": "AgroforestDAO Round",
+          "support": {
+            "info": "agroforestdao@gmail.com",
+            "type": "Email"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The AgroforestDAO Round  is a partnership between AgroforestDAO, GreenPill Brazil and Regen Coordination and support from Kolektivo and Kokonut Network. The goal of this round is to incentivize participants of the I Jornada AgroforestDAO who are promoting food forest culture using web3 to coordinate. To participate, projects must have at least one Journey POAP, define seasonal goals and commit to sharing goals updates. The round will distribute a $3,500 USDGLO fund, using the quadratic funding model. The round will be publicized through social networks, community calls and online events.   PORTUGUÊS: A I Rodada da AgroforestDAO é uma parceria entre AgroforestDAO, GreenPill Brazil e Regen Coordination para incentivar participantes da I Jornada AgroforestDAO que estão usando a Web3 para promover a cultura agroflorestal em rede. Para participar, os projetos têm que ter ao menos uma POAP da Jornada, definir metas sazonais e se comprometer a compartilhar atualizações das metas. A rodada vai distribuir um fundo de $3.500 USDGLO, utilizando o modelo de financiamento quadrático. A rodada será divulgada por meio de redes sociais, chamadas comunitárias e eventos online. ",
+            "requirements": [
+              {
+                "requirement": "Ter um perfil de membro e de projeto no espaço de trabalho da AgroforestDAO.\n(Build a member and project profile in AgroforestDAO’s workspace.);"
+              },
+              {
+                "requirement": "Ter os Marcos Sazonais de seu projeto definidos para o Verão no perfil do projeto.\n(Set up Seasonal Milestones for the Summer in the project’s profile);"
+              },
+              {
+                "requirement": "Ser um projeto que está promovendo a cultura da agrofloresta em sua região ou comunidade.\n(Be a project who is spreading agroforestry culture in your region or community);"
+              },
+              {
+                "requirement": "Se comprometer a atualizar suas metas ao longo do verão.\n(Commit to update your goals during the summer season)."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x941d94792cfc62f08737d979ee63befc897c2b05d742459dd40cf93b1c71e0c2",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "matchingCapAmount": 18,
+            "matchingFundsAvailable": 3500
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-12-06T00:00:00+00:00",
+        "applicationsEndTime": "2024-12-19T03:00:00+00:00",
+        "donationsEndTime": "2024-12-19T03:00:00+00:00",
+        "donationsStartTime": "2024-12-09T03:00:00+00:00"
+      },
+      {
+        "chainId": 42220,
+        "id": "28",
+        "fundedAmountInUsd": 5000.57392,
+        "totalAmountDonatedInUsd": 801.42238,
+        "matchAmountInUsd": 4993.93029,
+        "timestamp": "2025-03-14T12:12:01+00:00",
+        "roundMetadata": {
+          "name": "Gitcoin Grants 23 DeSci community round",
+          "support": {
+            "info": "https://t.me/gitcoindesci",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "This round directly supports Gitcoin’s mission to build and fund public goods, emphasizing open, accessible, and inclusive scientific research. It fosters collaboration and innovation in the DeSci space, aligning with Gitcoin’s essential intents for community empowerment to build and fund impactful initiatives and sustainable funding in science with a bottom-up community-driven effort such as DeSci QF on Gitcoin.",
+            "requirements": [
+              {
+                "requirement": "The project should fall under the following category of Decentralized Science in this round.\n\n- Data in Healthcare   \n- Education and Community   \n- Funding & IP   \n- Infrastructure  (for infrastrucutre, at least 3 months contribution in DeSci)   \n- Physical or digital product related to DeSci   \n- Publishing & Research\n\nRef:\nhttps://ethereum.org/en/desci/\n"
+              },
+              {
+                "requirement": "The project should have 3 milestones on KarmaGAP.\n\nRef:\nhttps://gap.karmahq.xyz/\n"
+              },
+              {
+                "requirement": "The project should have at least 6 months to 1 year past contributions on DeSci."
+              },
+              {
+                "requirement": "The applicant must be one of the project core team members.   "
+              },
+              {
+                "requirement": "The project should aim to build public infrastructure for funding, creating, reviewing, crediting, storing, and/or disseminating scientific knowledge (through  conferences, meetings, workshops and/or hackathons) using the web3 stack. Its larger goal should be to inform the scientific community about the advantages and possibilities of blockchain technology  for storing, managing and disseminating research.\n"
+              },
+              {
+                "requirement": "The project should be able to clearly articulate its goals and objectives.\n"
+              },
+              {
+                "requirement": "The project must have a clear and well-defined problem statement, as well as a plan for addressing the problem.\n"
+              },
+              {
+                "requirement": "The project must have a clear roadmap and timeline for implementation, with measurable and achievable goals.\n"
+              },
+              {
+                "requirement": "If the project participated in other crowdfunding, you have to provide all the information: year, amount, milestones and so on. \n"
+              },
+              {
+                "requirement": "If the project is a research, you have to show all the tiers (or roadmap) including the duration time that you need of each tier to reach the final results, would be nice if you can upload the results of each tier on chain\n"
+              },
+              {
+                "requirement": "The project should be open-source and collaborative in nature.\n- Open-source: you must show your github and team profiles\n"
+              },
+              {
+                "requirement": "The project must be able to provide regular updates on its progress to the Gitcoin community.\n"
+              },
+              {
+                "requirement": "Please read the following exclusion criteria that are not permitted and will result in rejection or removal from the round.\n\nHateful Content - No racist, sexist, or otherwise hateful speech, no discrimination\n\nDeceiving Users - Malicious content that could cause harm or unintended consequences to users\n\nFalsification - Any type of hacking to falsify a contribution is prohibited. No encouraging or enabling Sybil attacks or other forms of malicious manipulation of the grants platform or the Gitcoin community\n\nFraud & Impersonation - Claiming to be a brand or person you are not. The Grant owner must be directly affiliated with the project, the funds must go to the project, and be used for the purposes stated in the Grant’s details\n\nQuid Pro Quo & Bribery - The Grant may not have any form of quid pro quo that has financial value (a scenario in which a user gets some additional unique benefit/award in return for their donation)\n\nAdvertising - Using grants to showcase something you are selling like a token sale or NFT drop\n\nWell-capitalized projects - Not have prior external funding of over $500k USD via venture capital, token launches, or NFT sales\n\nGrantees cannot be subject to sanctions, and funding cannot be used in violation of any applicable law, rules, or regulations (for example those addressing sanctions, financing of terrorism, and anti-money-laundering)\n\nGrantees can be eliminated from consideration in the round if they are found to be encouraging or enabling Sybil attacks or other forms of malicious manipulation of the grants platform or the Gitcoin community"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x631cdd5b794a26cecb5be7b18495d8e9a0d89c40e7ed0129f6b5f92ee64c6a38",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 5,
+            "minDonationThreshold": false,
+            "matchingFundsAvailable": 5000,
+            "minDonationThresholdAmount": 0
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-03-16T23:00:00+00:00",
+        "applicationsEndTime": "2025-04-01T00:30:00+00:00",
+        "donationsEndTime": "2025-04-16T23:59:00+00:00",
+        "donationsStartTime": "2025-04-01T23:00:00+00:00"
+      },
+      {
+        "chainId": 42220,
+        "id": "29",
+        "fundedAmountInUsd": 49448.71992,
+        "totalAmountDonatedInUsd": 23014.50566,
+        "matchAmountInUsd": 47111.74142,
+        "timestamp": "2025-03-14T16:18:56+00:00",
+        "roundMetadata": {
+          "name": "GoodDollar Builders Program: Kickoff QF Round",
+          "support": {
+            "info": "https://ubi.gd/GoodBuildersTG",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "Gitcoin and GoodDollar are launching this quadratic funding round as the kickoff phase of the GoodDollar Builders Program, designed to empower builders who can enhance G$ token utility, drive real-world impact, and strengthen the ecosystem through innovative solutions. With a total matching pool of $51,000 in G$ tokens provided through a partnership between Good Labs Foundation, Celo PG, and Gitcoin, this round aims to support established developers with demonstrated contributions and new builders, bringing fresh perspectives to the GoodDollar ecosystem. You can use your GoodDollar Wallet (https://wallet.gooddollar.org) or verify your wallet on GoodDapp (https://gooddapp.org/#/claim) to claim free G$ and donate to this round. Wallet verification is optional but may be considered for matching.",
+            "requirements": [
+              {
+                "requirement": "Technical Integration: Projects must meaningfully integrate with the GoodDollar ecosystem through repository contributions, face verification implementation, G$ Identity SDK usage, G$ token-based services, or super token capabilities."
+              },
+              {
+                "requirement": "Technical Standards: Projects must follow GoodDollar's integration standards, properly implementing Universal Profiles and using appropriate SDKs."
+              },
+              {
+                "requirement": "Quality Development: Projects must demonstrate comprehensive documentation, sensible architecture, and security-conscious implementation following Web3 best practices."
+              },
+              {
+                "requirement": "G$ Token Utility: To enhance ecosystem liquidity and utility, funds for DeFi applications must ultimately be convertible to G$ tokens."
+              },
+              {
+                "requirement": "Execution Plan: New builders must provide clear roadmaps with defined milestones, timelines, deliverables, team composition strategy, and efficient resource allocation plans."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xe89058e9c94ac59c327429578c0d8bce5041baa7c37057bbe778dd0671fc05d9",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "matchingCapAmount": 10,
+            "matchingFundsAvailable": 510000000
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-03-17T12:00:00+00:00",
+        "applicationsEndTime": "2025-04-07T12:00:00+00:00",
+        "donationsEndTime": "2025-04-16T23:59:00+00:00",
+        "donationsStartTime": "2025-04-02T12:00:00+00:00"
+      },
+      {
+        "chainId": 42220,
+        "id": "18",
+        "fundedAmountInUsd": 55116.87079,
+        "totalAmountDonatedInUsd": 8820.84354,
+        "matchAmountInUsd": 55120.51387,
+        "timestamp": "2024-10-15T16:13:08+00:00",
+        "roundMetadata": {
+          "name": "BioFi Pathfinders 🌱",
+          "support": {
+            "info": "https://nifty-humidity-dcf.notion.site/GG22-BioFi-Pathfinders-Round-11866e07503c80e89439c0c4fdba6df7?pvs=4",
+            "type": "Website"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The Bioregional Finance (BioFi) Pathfinders Round is a partnership between The BioFi Project, Open Civics, The Design School for Regenerating Earth, and Regen Coordination to support the most sophisticated Bioregional Organizing Teams around the world in developing, clarifying, and enhancing their BioFi vision, strategy, and capabilities. This invite-only round is aimed at advanced teams that are already practicing or actively developing their approach to Bioregional Finance (BioFi), with a focus on building Bioregional Financing Facilities (BFFs) or bioregional funding ecosystems more broadly.\n\nFor detailed suggested questions to help shape your project description, visit https://nifty-humidity-dcf.notion.site/Pathfinders-Grantee-Questions-Template-fa60a0314b174422bd1f2735e3541cdc?pvs=4",
+            "requirements": [
+              {
+                "requirement": "Invite-only"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0xfe80913221ebf14d0caedb688ff0458db51007d55b93886390795ec0c9f73fec",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 11,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 55000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-10-15T16:10:00+00:00",
+        "applicationsEndTime": "2024-11-07T00:59:00+00:00",
+        "donationsEndTime": "2024-11-07T00:59:00+00:00",
+        "donationsStartTime": "2024-10-23T12:00:00+00:00"
+      },
+      {
+        "chainId": 42220,
+        "id": "16",
+        "fundedAmountInUsd": 19875.12366,
+        "totalAmountDonatedInUsd": 8869.50978,
+        "matchAmountInUsd": 21050.49931,
+        "timestamp": "2024-10-08T13:16:16+00:00",
+        "roundMetadata": {
+          "name": "Regen Citizens Genesis",
+          "support": {
+            "info": "https://www.regencoordination.xyz/GG22-Regen-Citizens-Genesis-11a2e7251f2f80b0b958c8ef1f89bb7a?pvs=4",
+            "type": "Website"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "**The GG22 Regen Citizens Genesis Round** is a joint initiative between GreenPill Network, ReFi DAO, Let’s Grow DAO, and Celo Public Goods. Focusing primarily on these organisation as a starting point, the aim of this round is to empower and recognize builders making meaningful contributions to the regenerative movement on Ethereum.",
+            "requirements": [
+              {
+                "requirement": "Reward Criteria: \n-Regenerative R&D\n-Education and Growth\n-Operation\n-Impact on local communities and bioregions"
+              },
+              {
+                "requirement": "Nominated organizations are required to have 12 months viability."
+              },
+              {
+                "requirement": "Citizens are required to be nominated by a participating organization"
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x923396c0d4c554fff10e7ba21572aa4bc37e4862df600aeb08834867696dbe99",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 5,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 21000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2024-10-09T13:00:00+00:00",
+        "applicationsEndTime": "2024-10-25T04:00:00+00:00",
+        "donationsEndTime": "2024-11-07T00:59:00+00:00",
+        "donationsStartTime": "2024-10-23T04:00:00+00:00"
+      },
+      {
+        "chainId": 42220,
+        "id": "27",
+        "fundedAmountInUsd": 33000.73733,
+        "totalAmountDonatedInUsd": 4609.86195,
+        "matchAmountInUsd": 32998.23584,
+        "timestamp": "2025-03-14T09:18:36+00:00",
+        "roundMetadata": {
+          "name": "Web3 For Universities",
+          "support": {
+            "info": "https://t.me/+rRzq-jqm3aQzNTRk",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The “Web3 for Universities” grant round is a community round designed to fund and support education activities in the web3 and Public Goods Ecosystem. The goal is to provide direct support for the efforts behind the onboarding and career grooming in blockchain education and innovation within African Universities, that have been carried out by;\n\nWeb3 University Tech Clubs\nWeb3 Contributors and Creatives\nWeb3 Tutors and Administrators\nStudent Developers who’ve built an OSS project\n\nIn web3 and Public Goods ecosystems, or provided direct support in the onboarding and career grooming activities in blockchain education and innovation in African universities.",
+            "requirements": [
+              {
+                "requirement": "General criteria: Projects/Individuals must be affiliated with a web3 B<>rder/ess Tech Club in an African university.  If you're not affiliated with any, then fill this form to get started https://forms.gle/DjxKpBgbk84X9vWJ9"
+              },
+              {
+                "requirement": "General Criteria: Projects/Individuals should have an active community/social presence and prioritize human and organic activities."
+              },
+              {
+                "requirement": "General Criteria: Developers applying with projects they've built must have attended at least one of the B<>rder/ess Cipher Sessions. "
+              },
+              {
+                "requirement": "Web3 Education and Onboarding criteria: Projects/individuals must have clear Proof Of Work (PoW) on Blockchain Education activities in line with the Round Funding Focus;- a. Educating and onboarding students into Web3 -b.  Building open-source blockchain tools and resources. - c. Organizing hackathons, boot camps, GG donation activations, and tech meetups. - d. Showcasing blockchain applications through creative and technical presentations."
+              },
+              {
+                "requirement": "Web3 Education and Onboarding criteria: Projects must have a detailed method of impact measurements for education and onboarding. Quantitative PoW’s like;- How many people got onboarded- What onboarding tool or event, e.g. Gitcoin donation activity, or byteonchain.xyz attestations. Qualitative PoW’s like- Video testimonials or- References to the educational activities that were organised, like participant's tweet or event report."
+              },
+              {
+                "requirement": "Web3 Education and Onboarding criteria: Projects must be scalable and sustainable to their communities in the long run."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x64d5ec8104b9ad7eea09c3691162eca3d881d00b59a030ee66a38a01d5369029",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 10,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 33000,
+            "minDonationThresholdAmount": 1
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-03-17T09:00:00+00:00",
+        "applicationsEndTime": "2025-03-31T23:00:00+00:00",
+        "donationsEndTime": "2025-04-15T23:00:00+00:00",
+        "donationsStartTime": "2025-04-01T23:00:00+00:00"
+      },
+      {
+        "chainId": 42220,
+        "id": "31",
+        "fundedAmountInUsd": 90037.81451,
+        "totalAmountDonatedInUsd": 10818.9815,
+        "matchAmountInUsd": 95999.31558,
+        "timestamp": "2025-03-18T09:47:55+00:00",
+        "roundMetadata": {
+          "name": "Regen Coordination Global",
+          "support": {
+            "info": "https://t.me/+dfOMYhMROdU5YzY0",
+            "type": "Telegram Group Invite Link"
+          },
+          "roundType": "public",
+          "eligibility": {
+            "description": "The GG23 Regen Coordination Global round is an innovative impact-driven funding round designed to support regenerative finance (ReFi) networks that have demonstrated meaningful contributions to the ecosystem. Following on from the GG21 Genesis Round, this round brings together ReFi DAO, GreenPill Network, and other Regen Coordination partner networks to support a global movement of regenerative communities leveraging Web3 for real-world impact and addressing local needs.\n\nLearn more at 👉 regencoordination.xyz",
+            "requirements": [
+              {
+                "requirement": "Have reviewed round documentation: https://www.regencoordination.xyz/regen-coordination-global-gg23 "
+              },
+              {
+                "requirement": "Complete Activity and Output reporting in KarmaGAP by application deadline."
+              },
+              {
+                "requirement": "Have active goals, plans, objectives or milestones for this year (and detail them in this application)."
+              }
+            ]
+          },
+          "feesAddress": "",
+          "feesPercentage": 0,
+          "programContractAddress": "0x923396c0d4c554fff10e7ba21572aa4bc37e4862df600aeb08834867696dbe99",
+          "quadraticFundingConfig": {
+            "matchingCap": true,
+            "sybilDefense": "passport-mbds",
+            "matchingCapAmount": 8,
+            "minDonationThreshold": true,
+            "matchingFundsAvailable": 96000,
+            "minDonationThresholdAmount": 0.95
+          }
+        },
+        "strategyName": "allov2.DonationVotingMerkleDistributionDirectTransferStrategy",
+        "applicationsStartTime": "2025-03-18T11:00:00+00:00",
+        "applicationsEndTime": "2025-04-08T10:30:00+00:00",
+        "donationsEndTime": "2025-04-16T23:59:00+00:00",
+        "donationsStartTime": "2025-04-02T11:00:00+00:00"
+      }
+    ]
+  }
+}
