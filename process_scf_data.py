@@ -61,7 +61,9 @@ def main():
     
     # Check for available SCF files
     scf_files = {
-        'SCF #36': 'SCF_36_Projects.csv'
+        'SCF #36': 'SCF_36_Projects.csv',
+        'SCF #37': 'SCF_37_Projects.csv',
+        'SCF #38': 'SCF_38_Projects.csv'
     }
     
     for round_name, filename in scf_files.items():
@@ -73,8 +75,8 @@ def main():
             print(f"\n{round_name} data not available (file: {filename})")
     
     # Note about missing rounds
-    print(f"\nNote: SCF #37 and SCF #38 are not available in the current dataset.")
-    print("The latest available round is SCF #36.")
+    print(f"\nNote: Higher rounds may be available in newer datasets.")
+    print("Currently processed: SCF #36, SCF #37, and SCF #38.")
     
     print("\n" + "=" * 40)
     print("Data processing complete!")
