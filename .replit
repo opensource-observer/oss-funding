@@ -1,14 +1,15 @@
-modules = ["python-3.12"]
+modules = ["python-3.11"]
 run = "cd daoip-5/scripts/API/ && pip install -r requirements.txt && python3 run.py"
 
 [nix]
 channel = "stable-24_05"
-packages = ["unzipNLS"]
+packages = ["glibcLocales", "unzipNLS"]
 
 [deployment]
 run = ["sh", "-c", "cd oss-funding/daoip-5/scripts/API && pip install -r requirements.txt && python3 run.py"]
 
 [workflows]
+runButton = "Project"
 
 [[workflows.workflow]]
 name = "Boot"
@@ -56,6 +57,26 @@ args = "echo \"Usage: python3 run_data_quality_check.py process ../data/funders/
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "echo \"Replace FUNDER_NAME with the actual folder name\""
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "SCF Data Processor"
+
+[[workflows.workflow]]
+name = "SCF Data Processor"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python process_scf_data.py"
+
+[workflows.workflow.metadata]
+outputType = "console"
 
 [[ports]]
 localPort = 5000
