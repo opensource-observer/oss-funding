@@ -60,3 +60,6 @@ args = "echo \"Replace FUNDER_NAME with the actual folder name\""
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[agent]
+expertMode = true
