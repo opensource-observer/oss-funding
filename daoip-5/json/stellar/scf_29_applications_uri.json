@@ -1871,6 +1871,45 @@
                         "org.stellar.communityfund.category": "Applications",
                         "org.stellar.communityfund.mostRecentPaymentDate": "2024-08-15T00:00:00Z"
                     }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:stellar:grantPool:scf_29:grantApplication:40",
+                    "grantPoolId": "daoip-5:stellar:grantPool:scf_29",
+                    "grantPoolName": "scf_29",
+                    "projectsURI": "",
+                    "projectId": "daoip-5:stellar:project:autoaction",
+                    "projectName": "AutoAction",
+                    "createdAt": "2024-12-01T00:00:00Z",
+                    "contentURI": "",
+                    "status": "Awarded",
+                    "description": "AutoAction is a smart contract automation tool for implementing custom logic, time-based, and event-based automated transactions",
+                    "fundsApprovedInUSD": 50000.0,
+                    "extensions": {
+                        "stellar.productsAndServices": "Sure, please provide the content from cell A that you would like me to streamline.",
+                        "stellar.successCriteria": "",
+                        "stellar.tractionEvidence": "",
+                        "stellar.goToMarketPlan": "",
+                        "stellar.tranche1Deliverables": "",
+                        "stellar.tranche2Testnet": "",
+                        "stellar.tranche3Mainnet": "",
+                        "stellar.teamMembers": "Kevin Wang",
+                        "stellar.urls": {},
+                        "org.stellar.communityfund.awardType": "Legacy v5.0 Activation Award",
+                        "org.stellar.communityfund.fundsPaid": [
+                            {
+                                "amount": 50000.0,
+                                "denomination": "USD"
+                            },
+                            {
+                                "amount": 120895.56,
+                                "denomination": "XLM"
+                            }
+                        ],
+                        "org.stellar.communityfund.latestTranche": "SCF Legacy Award",
+                        "org.stellar.communityfund.category": "Developer Tooling",
+                        "org.stellar.communityfund.mostRecentPaymentDate": "2024-12-16T00:00:00Z"
+                    }
                 }
             ]
         }
