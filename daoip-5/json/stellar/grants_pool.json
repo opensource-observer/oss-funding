@@ -434,6 +434,18 @@
                 "DAO Attestation",
                 "KYC"
             ]
+        },
+        {
+            "type": "GrantPool",
+            "id": "daoip-5:stellar:grantPool:scf_38",
+            "name": "scf_38",
+            "description": "Grants pool for scf_38.",
+            "isOpen": false,
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/stellar/scf_38_applications_uri.json",
+            "requiredCredentials": [
+                "DAO Attestation",
+                "KYC"
+            ]
         }
     ]
 }

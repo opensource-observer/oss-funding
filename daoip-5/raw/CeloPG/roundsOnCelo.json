@@ -42,7 +42,36 @@
         "applicationsStartTime": "2025-03-19T07:00:00+00:00",
         "applicationsEndTime": "2025-04-06T22:00:00+00:00",
         "donationsEndTime": "2025-04-16T21:59:00+00:00",
-        "donationsStartTime": "2025-04-01T22:00:00+00:00"
+        "donationsStartTime": "2025-04-01T22:00:00+00:00",
+        "totalDistributed": 9.999990000000002e+21,
+        "totalDonationsCount": 222,
+        "uniqueDonorsCount": 74,
+        "updatedAtBlock": 30938480,
+        "strategyId": "0x9fa6890423649187b1f0e8bf4265f0305ce99523c3d11aa36b35a54617bb0ec0",
+        "strategyAddress": "0x1BD9Cc1Ebf25242acf4f675fd1BD758D301C732C",
+        "roundRoles": [
+          {
+            "address": "0x3d958C62b36e01018644538Bd1998C1E9BE1dDD8",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "33",
+            "createdAtBlock": 30938480
+          },
+          {
+            "address": "0x50c72D410AE2AaDd0087B3aF6BaAf9a0800f9666",
+            "chainId": 42220,
+            "role": "admin",
+            "roundId": "33",
+            "createdAtBlock": 30938480
+          },
+          {
+            "address": "0x50c72D410AE2AaDd0087B3aF6BaAf9a0800f9666",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "33",
+            "createdAtBlock": 30938480
+          }
+        ]
       },
       {
         "chainId": 42220,
@@ -91,7 +120,71 @@
         "applicationsStartTime": "2024-07-26T11:00:00+00:00",
         "applicationsEndTime": "2024-08-12T22:59:00+00:00",
         "donationsEndTime": "2024-08-21T23:59:00+00:00",
-        "donationsStartTime": "2024-08-07T11:00:00+00:00"
+        "donationsStartTime": "2024-08-07T11:00:00+00:00",
+        "totalDistributed": 5e+22,
+        "totalDonationsCount": 1473,
+        "uniqueDonorsCount": 276,
+        "updatedAtBlock": 26863563,
+        "strategyId": "0x9fa6890423649187b1f0e8bf4265f0305ce99523c3d11aa36b35a54617bb0ec0",
+        "strategyAddress": "0x6f8291eafC6B4933896f7d2575bd2fc930Dea6A2",
+        "roundRoles": [
+          {
+            "address": "0x017FF2643E1A6d500A54e2c15f8186C87795CbBe",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "14",
+            "createdAtBlock": 26863563
+          },
+          {
+            "address": "0x1421d52714B01298E2e9AA969e14c9317B3E1CFA",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "14",
+            "createdAtBlock": 26863563
+          },
+          {
+            "address": "0x1534699463DD243621D97E28B856C54C46174377",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "14",
+            "createdAtBlock": 26863563
+          },
+          {
+            "address": "0x196BA49791b7cfEC034AAB11C9A1722AbFfFB5F5",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "14",
+            "createdAtBlock": 27523132
+          },
+          {
+            "address": "0x2D4ac9c27ffFCd87D7fA2619F537C7Eb0db96fb7",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "14",
+            "createdAtBlock": 26863563
+          },
+          {
+            "address": "0x59DDA36bD196Ec849838CE2163E6821f946b37Dc",
+            "chainId": 42220,
+            "role": "admin",
+            "roundId": "14",
+            "createdAtBlock": 26863563
+          },
+          {
+            "address": "0x59DDA36bD196Ec849838CE2163E6821f946b37Dc",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "14",
+            "createdAtBlock": 26863563
+          },
+          {
+            "address": "0x7340F1a1e4e38F43d2FCC85cdb2b764de36B40c0",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "14",
+            "createdAtBlock": 26863563
+          }
+        ]
       },
       {
         "chainId": 42220,
@@ -137,7 +230,50 @@
         "applicationsStartTime": "2024-07-24T13:00:00+00:00",
         "applicationsEndTime": "2024-08-12T21:00:00+00:00",
         "donationsEndTime": "2024-08-21T23:59:00+00:00",
-        "donationsStartTime": "2024-08-06T22:00:00+00:00"
+        "donationsStartTime": "2024-08-06T22:00:00+00:00",
+        "totalDistributed": 7.499999999999999e+22,
+        "totalDonationsCount": 2577,
+        "uniqueDonorsCount": 609,
+        "updatedAtBlock": 26819129,
+        "strategyId": "0x9fa6890423649187b1f0e8bf4265f0305ce99523c3d11aa36b35a54617bb0ec0",
+        "strategyAddress": "0xfe353838bA7ef47C31530041f268161d090543Ac",
+        "roundRoles": [
+          {
+            "address": "0x017FF2643E1A6d500A54e2c15f8186C87795CbBe",
+            "chainId": 42220,
+            "role": "admin",
+            "roundId": "11",
+            "createdAtBlock": 26819129
+          },
+          {
+            "address": "0x017FF2643E1A6d500A54e2c15f8186C87795CbBe",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "11",
+            "createdAtBlock": 26819129
+          },
+          {
+            "address": "0x1421d52714B01298E2e9AA969e14c9317B3E1CFA",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "11",
+            "createdAtBlock": 26819129
+          },
+          {
+            "address": "0x5A9dECFD5f146FCD1D1b85B2Ee069F4502fC87E4",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "11",
+            "createdAtBlock": 26831410
+          },
+          {
+            "address": "0x82A7EB81B5405aE06d88639529d2aa9F412AE08c",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "11",
+            "createdAtBlock": 26819129
+          }
+        ]
       },
       {
         "chainId": 42220,
@@ -186,7 +322,50 @@
         "applicationsStartTime": "2025-03-15T14:21:00+00:00",
         "applicationsEndTime": "2025-04-02T02:59:00+00:00",
         "donationsEndTime": "2025-04-17T02:59:00+00:00",
-        "donationsStartTime": "2025-04-02T03:00:00+00:00"
+        "donationsStartTime": "2025-04-02T03:00:00+00:00",
+        "totalDistributed": 1.2999999999999998e+22,
+        "totalDonationsCount": 565,
+        "uniqueDonorsCount": 134,
+        "updatedAtBlock": 30870633,
+        "strategyId": "0x9fa6890423649187b1f0e8bf4265f0305ce99523c3d11aa36b35a54617bb0ec0",
+        "strategyAddress": "0x872A93f068999534Ca440bEe9D11227064004879",
+        "roundRoles": [
+          {
+            "address": "0x59DDA36bD196Ec849838CE2163E6821f946b37Dc",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "30",
+            "createdAtBlock": 30870633
+          },
+          {
+            "address": "0x7a51d6b35cCc81dD75Ed10D682D356a5B716Ee01",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "30",
+            "createdAtBlock": 30870633
+          },
+          {
+            "address": "0xAcD59e854adf632d2322404198624F757C868C97",
+            "chainId": 42220,
+            "role": "admin",
+            "roundId": "30",
+            "createdAtBlock": 30870633
+          },
+          {
+            "address": "0xAcD59e854adf632d2322404198624F757C868C97",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "30",
+            "createdAtBlock": 30870633
+          },
+          {
+            "address": "0xF3Ad97364bcCC3eA0582Ede58C363888f8C4ec85",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "30",
+            "createdAtBlock": 30870633
+          }
+        ]
       },
       {
         "chainId": 42220,
@@ -232,7 +411,64 @@
         "applicationsStartTime": "2024-12-06T00:00:00+00:00",
         "applicationsEndTime": "2024-12-19T03:00:00+00:00",
         "donationsEndTime": "2024-12-19T03:00:00+00:00",
-        "donationsStartTime": "2024-12-09T03:00:00+00:00"
+        "donationsStartTime": "2024-12-09T03:00:00+00:00",
+        "totalDistributed": 3.5e+21,
+        "totalDonationsCount": 285,
+        "uniqueDonorsCount": 32,
+        "updatedAtBlock": 29136619,
+        "strategyId": "0x9fa6890423649187b1f0e8bf4265f0305ce99523c3d11aa36b35a54617bb0ec0",
+        "strategyAddress": "0xC04b6cC0fb78fBe717D0338E7F9a1D8013312F0a",
+        "roundRoles": [
+          {
+            "address": "0x0678DadC1495374f7906b2661954078C5559B609",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "22",
+            "createdAtBlock": 29136619
+          },
+          {
+            "address": "0x5F56E995e8D3bd05a70a63f0d7531437e873772e",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "22",
+            "createdAtBlock": 29136619
+          },
+          {
+            "address": "0x636DA9bF416B662B5Fedaf67d5937d07A34c6a2D",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "22",
+            "createdAtBlock": 29136619
+          },
+          {
+            "address": "0x6862493516E5BCa5A0117083B911707aE654CB8B",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "22",
+            "createdAtBlock": 29136619
+          },
+          {
+            "address": "0xAcD59e854adf632d2322404198624F757C868C97",
+            "chainId": 42220,
+            "role": "admin",
+            "roundId": "22",
+            "createdAtBlock": 29136619
+          },
+          {
+            "address": "0xAcD59e854adf632d2322404198624F757C868C97",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "22",
+            "createdAtBlock": 29136619
+          },
+          {
+            "address": "0xF3Ad97364bcCC3eA0582Ede58C363888f8C4ec85",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "22",
+            "createdAtBlock": 29136619
+          }
+        ]
       },
       {
         "chainId": 42220,
@@ -308,7 +544,43 @@
         "applicationsStartTime": "2025-03-16T23:00:00+00:00",
         "applicationsEndTime": "2025-04-01T00:30:00+00:00",
         "donationsEndTime": "2025-04-16T23:59:00+00:00",
-        "donationsStartTime": "2025-04-01T23:00:00+00:00"
+        "donationsStartTime": "2025-04-01T23:00:00+00:00",
+        "totalDistributed": 4.75e+21,
+        "totalDonationsCount": 274,
+        "uniqueDonorsCount": 80,
+        "updatedAtBlock": 30855952,
+        "strategyId": "0x9fa6890423649187b1f0e8bf4265f0305ce99523c3d11aa36b35a54617bb0ec0",
+        "strategyAddress": "0x0C0412DDB846096Ea1e37de717921EBF4fEF9A39",
+        "roundRoles": [
+          {
+            "address": "0xA05d85ef6f298D024C878439dB5e6bD9b41666B0",
+            "chainId": 42220,
+            "role": "admin",
+            "roundId": "28",
+            "createdAtBlock": 30855952
+          },
+          {
+            "address": "0xA05d85ef6f298D024C878439dB5e6bD9b41666B0",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "28",
+            "createdAtBlock": 30855952
+          },
+          {
+            "address": "0xB2206f941A5206B55BFA33E665687523A8bcEd80",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "28",
+            "createdAtBlock": 30855952
+          },
+          {
+            "address": "0xB64fC6D8d32069De9FE93479d9371Db66e183281",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "28",
+            "createdAtBlock": 30855952
+          }
+        ]
       },
       {
         "chainId": 42220,
@@ -357,7 +629,64 @@
         "applicationsStartTime": "2025-03-17T12:00:00+00:00",
         "applicationsEndTime": "2025-04-07T12:00:00+00:00",
         "donationsEndTime": "2025-04-16T23:59:00+00:00",
-        "donationsStartTime": "2025-04-02T12:00:00+00:00"
+        "donationsStartTime": "2025-04-02T12:00:00+00:00",
+        "totalDistributed": 5.1e+26,
+        "totalDonationsCount": 1047,
+        "uniqueDonorsCount": 423,
+        "updatedAtBlock": 30858915,
+        "strategyId": "0x9fa6890423649187b1f0e8bf4265f0305ce99523c3d11aa36b35a54617bb0ec0",
+        "strategyAddress": "0x3aA3C6cc0004b7366A12b8E4262015AF525531a9",
+        "roundRoles": [
+          {
+            "address": "0x2513A5d9815BfecA97C88b8E18f4e4c857a6C81A",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "29",
+            "createdAtBlock": 30859379
+          },
+          {
+            "address": "0x3B7275C428c9B46D2c244E066C0bbadB9B9a8B9f",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "29",
+            "createdAtBlock": 31188780
+          },
+          {
+            "address": "0x636DA9bF416B662B5Fedaf67d5937d07A34c6a2D",
+            "chainId": 42220,
+            "role": "admin",
+            "roundId": "29",
+            "createdAtBlock": 30858915
+          },
+          {
+            "address": "0x636DA9bF416B662B5Fedaf67d5937d07A34c6a2D",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "29",
+            "createdAtBlock": 30858915
+          },
+          {
+            "address": "0x6823A04a6Fd4148167567D5Ef6DccA1f34Db0494",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "29",
+            "createdAtBlock": 30859374
+          },
+          {
+            "address": "0xA18e26839aa656436D54e640F255d33742aACCfd",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "29",
+            "createdAtBlock": 30858915
+          },
+          {
+            "address": "0xA48840D89a761502A4a7d995c74f3864D651A87F",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "29",
+            "createdAtBlock": 30930864
+          }
+        ]
       },
       {
         "chainId": 42220,
@@ -397,7 +726,57 @@
         "applicationsStartTime": "2024-10-15T16:10:00+00:00",
         "applicationsEndTime": "2024-11-07T00:59:00+00:00",
         "donationsEndTime": "2024-11-07T00:59:00+00:00",
-        "donationsStartTime": "2024-10-23T12:00:00+00:00"
+        "donationsStartTime": "2024-10-23T12:00:00+00:00",
+        "totalDistributed": 5.499999999999999e+22,
+        "totalDonationsCount": 1096,
+        "uniqueDonorsCount": 401,
+        "updatedAtBlock": 28267301,
+        "strategyId": "0x9fa6890423649187b1f0e8bf4265f0305ce99523c3d11aa36b35a54617bb0ec0",
+        "strategyAddress": "0x9A8df486D919d132253228b8bBcB1dB419BC4D98",
+        "roundRoles": [
+          {
+            "address": "0x017FF2643E1A6d500A54e2c15f8186C87795CbBe",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "18",
+            "createdAtBlock": 28267301
+          },
+          {
+            "address": "0x57aBac048DB06FE0f36728694daC95C0F0b394B7",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "18",
+            "createdAtBlock": 28267301
+          },
+          {
+            "address": "0x59DDA36bD196Ec849838CE2163E6821f946b37Dc",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "18",
+            "createdAtBlock": 28267301
+          },
+          {
+            "address": "0x6caa98b49a09D5699629F74Ef4BC0924e4820b0D",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "18",
+            "createdAtBlock": 28881560
+          },
+          {
+            "address": "0x7d03C5c37f77Fd01211334B9115CA108C84E8f3B",
+            "chainId": 42220,
+            "role": "admin",
+            "roundId": "18",
+            "createdAtBlock": 28267301
+          },
+          {
+            "address": "0x7d03C5c37f77Fd01211334B9115CA108C84E8f3B",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "18",
+            "createdAtBlock": 28267301
+          }
+        ]
       },
       {
         "chainId": 42220,
@@ -443,7 +822,57 @@
         "applicationsStartTime": "2024-10-09T13:00:00+00:00",
         "applicationsEndTime": "2024-10-25T04:00:00+00:00",
         "donationsEndTime": "2024-11-07T00:59:00+00:00",
-        "donationsStartTime": "2024-10-23T04:00:00+00:00"
+        "donationsStartTime": "2024-10-23T04:00:00+00:00",
+        "totalDistributed": 1.98535746120692e+22,
+        "totalDonationsCount": 2891,
+        "uniqueDonorsCount": 491,
+        "updatedAtBlock": 28144220,
+        "strategyId": "0x9fa6890423649187b1f0e8bf4265f0305ce99523c3d11aa36b35a54617bb0ec0",
+        "strategyAddress": "0xdEca949280753f849C3c21Ea3d01f7Ffe6B7cD44",
+        "roundRoles": [
+          {
+            "address": "0x2D4ac9c27ffFCd87D7fA2619F537C7Eb0db96fb7",
+            "chainId": 42220,
+            "role": "admin",
+            "roundId": "16",
+            "createdAtBlock": 28144220
+          },
+          {
+            "address": "0x2D4ac9c27ffFCd87D7fA2619F537C7Eb0db96fb7",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "16",
+            "createdAtBlock": 28144220
+          },
+          {
+            "address": "0x59DDA36bD196Ec849838CE2163E6821f946b37Dc",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "16",
+            "createdAtBlock": 28144220
+          },
+          {
+            "address": "0x5f7d3A0ccA7f8b863fa9EB01D3C437802a767c85",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "16",
+            "createdAtBlock": 28149023
+          },
+          {
+            "address": "0xd6b97e042d03EdBDc100Eb55fbE43Eb75f2e3036",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "16",
+            "createdAtBlock": 28149036
+          },
+          {
+            "address": "0xfC9265A28f66CF4561D74A4E25D7Bbd3F482B8e6",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "16",
+            "createdAtBlock": 28149043
+          }
+        ]
       },
       {
         "chainId": 42220,
@@ -498,7 +927,50 @@
         "applicationsStartTime": "2025-03-17T09:00:00+00:00",
         "applicationsEndTime": "2025-03-31T23:00:00+00:00",
         "donationsEndTime": "2025-04-15T23:00:00+00:00",
-        "donationsStartTime": "2025-04-01T23:00:00+00:00"
+        "donationsStartTime": "2025-04-01T23:00:00+00:00",
+        "totalDistributed": 3.275516479490453e+22,
+        "totalDonationsCount": 1973,
+        "uniqueDonorsCount": 502,
+        "updatedAtBlock": 30853871,
+        "strategyId": "0x9fa6890423649187b1f0e8bf4265f0305ce99523c3d11aa36b35a54617bb0ec0",
+        "strategyAddress": "0xAd3D6Ed8D631480C2461CC431E2ADA0eb1c97d54",
+        "roundRoles": [
+          {
+            "address": "0x13f823967682151BEE6e571aDF8363dc41274d0D",
+            "chainId": 42220,
+            "role": "admin",
+            "roundId": "27",
+            "createdAtBlock": 30853871
+          },
+          {
+            "address": "0x13f823967682151BEE6e571aDF8363dc41274d0D",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "27",
+            "createdAtBlock": 30853871
+          },
+          {
+            "address": "0x21De72A38Ffc347A9CC63ddb374b054A8023A6c2",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "27",
+            "createdAtBlock": 30853871
+          },
+          {
+            "address": "0x2aa64E6d80390F5C017F0313cB908051BE2FD35e",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "27",
+            "createdAtBlock": 32994558
+          },
+          {
+            "address": "0xaCE1f1c6c5c89AE3Fc3209ff92e7120fb74445aA",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "27",
+            "createdAtBlock": 30853871
+          }
+        ]
       },
       {
         "chainId": 42220,
@@ -544,7 +1016,92 @@
         "applicationsStartTime": "2025-03-18T11:00:00+00:00",
         "applicationsEndTime": "2025-04-08T10:30:00+00:00",
         "donationsEndTime": "2025-04-16T23:59:00+00:00",
-        "donationsStartTime": "2025-04-02T11:00:00+00:00"
+        "donationsStartTime": "2025-04-02T11:00:00+00:00",
+        "totalDistributed": 8.99999859375e+22,
+        "totalDonationsCount": 2368,
+        "uniqueDonorsCount": 579,
+        "updatedAtBlock": 30923339,
+        "strategyId": "0x9fa6890423649187b1f0e8bf4265f0305ce99523c3d11aa36b35a54617bb0ec0",
+        "strategyAddress": "0x487FB600a0627b1eE95bF280C5c8Bd415E0bE58a",
+        "roundRoles": [
+          {
+            "address": "0x017FF2643E1A6d500A54e2c15f8186C87795CbBe",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "31",
+            "createdAtBlock": 30923339
+          },
+          {
+            "address": "0x1421d52714B01298E2e9AA969e14c9317B3E1CFA",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "31",
+            "createdAtBlock": 30923339
+          },
+          {
+            "address": "0x1534699463DD243621D97E28B856C54C46174377",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "31",
+            "createdAtBlock": 30923339
+          },
+          {
+            "address": "0x2aa64E6d80390F5C017F0313cB908051BE2FD35e",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "31",
+            "createdAtBlock": 31276828
+          },
+          {
+            "address": "0x3d958C62b36e01018644538Bd1998C1E9BE1dDD8",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "31",
+            "createdAtBlock": 31276884
+          },
+          {
+            "address": "0x59DDA36bD196Ec849838CE2163E6821f946b37Dc",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "31",
+            "createdAtBlock": 30923339
+          },
+          {
+            "address": "0x6caa98b49a09D5699629F74Ef4BC0924e4820b0D",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "31",
+            "createdAtBlock": 33007075
+          },
+          {
+            "address": "0x7340F1a1e4e38F43d2FCC85cdb2b764de36B40c0",
+            "chainId": 42220,
+            "role": "admin",
+            "roundId": "31",
+            "createdAtBlock": 30923339
+          },
+          {
+            "address": "0x7340F1a1e4e38F43d2FCC85cdb2b764de36B40c0",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "31",
+            "createdAtBlock": 30923339
+          },
+          {
+            "address": "0xa9d20b435A85fAAa002f32d66F7D21564130E9cf",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "31",
+            "createdAtBlock": 31276907
+          },
+          {
+            "address": "0xAcD59e854adf632d2322404198624F757C868C97",
+            "chainId": 42220,
+            "role": "manager",
+            "roundId": "31",
+            "createdAtBlock": 31276855
+          }
+        ]
       }
     ]
   }

@@ -15,11 +15,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:cartwey",
                     "projectName": "Cartwey",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-11T00:00:00Z",
                     "contentURI": "",
                     "status": "Ready for Payment",
-                    "description": "Cartwey is a self-checkout platform revolutionizing retail experiences in supermarkets, grocery stores, and mini-marts. By integrating Stellar blockchain technology and the Beans Merchant SDK ,which connects to NGNC issued by Link, Cartwey enables customers to pay securely and efficiently using cryptocurrencies like XLM, USDC, and NGNC and other currencies supported on beans, directly from their mobile devices—no checkout queues, no cash handling. Beans handles all swaps and conversions, ensurin...",
-                    "fundsApprovedInUSD": 60000.0,
+                    "description": "Cartwey is a self-checkout platform revolutionizing retail experiences in supermarkets, grocery stores, and mini-marts. By integrating Stellar blockchain technology and the Beans Merchant SDK ,which connects to NGNC issued by Link, Cartwey enables customers to pay securely and efficiently using cryptocurrencies like XLM, USDC, and NGNC and other currencies supported on beans, directly from their mobile devices—no checkout queues, no cash handling. Beans handles all swaps and conversions, ensuring seamless settlement for merchants in local currency.",
                     "extensions": {
                         "stellar.productsAndServices": "CARTWEY ECOSYSTEM\n\nCustomer Mobile App (iOS & Android):  \nEnables users to scan product barcodes, view prices, and check out using crypto (via Beans Wallet) or local fiat payment options. Designed for speed and simplicity.  \niOS: Download here  \nAndroid: Download here\n\nMerchant Dashboard:  \nAllows store owners to manage products, view real-time transactions, and monitor sales performance. Includes support for dynamic pricing and inventory sync.\n\nmerchant dashboard\n\nStellar USDC Integration via Beans SDK:  \nSupports crypto payments in USDC and other currencies available through Beans. Regardless of the asset used at checkout, Beans handles the on-chain conversion to NGNC and sends the equivalent to Cartwey for merchant settlement. This ensures merchants always receive payouts in NGN while giving customers global currency flexibility.\n\nMulti-Payment Options (via Paystack):  \nAccepts bank transfers, card payments, and USSD in addition to crypto — giving customers flexibility while reducing cart abandonment.\n\nReceipt & Notification System:  \nCustomers get instant e-receipts after checkout. Merchants get notified of sales and inventory changes in real time.",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1cadQRI-HEu0VMSCS-cQ4qZYpTacSkA8N/edit#heading=h.gjdgxs",
@@ -30,6 +29,7 @@
                         "stellar.tranche2Testnet": "Tranche 2: Testnet Functionality (Weeks 8–13)\n-------------------------------------------------\n\nBudget: $19,500  \nTotal Hours: 368 (220 dev + 148 test)\n\nDeliverable 4: Reporting Dashboard & Analytics  \nObjective:  \nGive merchants visibility into crypto sales and transaction history.\n\nFeatures:\n\n-   Token-wise sales breakdown\n    \n-   Exportable CSV of transaction logs\n    \n-   Real-time transaction statuses\n    \n\nMeasurement of Completion:\n\n-   Dashboard live and responsive\n    \n-   CSV download works\n    \n-   Real-time data visible\n    \n\nTimeline: 2 weeks  \nBudget: $4,500\n\nDeliverable 5: Customer Checkout via QR Workflow  \nObjective:  \nAllow customers to pay by scanning QR codes that direct them to the Beans app.\n\nFeatures:\n\n-   Dynamic QR code generation per transaction\n    \n-   Redirect to payment link in Beans Wallet\n    \n-   Sync status between merchant & user dashboard\n    \n\nMeasurement of Completion:\n\n-   QR payments functional\n    \n-   Status reflects across dashboards\n    \n-   QR regenerates per transaction\n    \n\nTimeline: 3 weeks  \nBudget: $5,000\n\nDeliverable 6: Dynamic Stellar Checkout Address (New)  \nObjective:  \nGenerate a unique Stellar address at checkout for customers paying directly from any Stellar wallet, without requiring Beans app usage.\n\nFeatures:\n\n-   On-demand Stellar wallet generation per order\n    \n-   Payment tracking and linking to the correct order\n    \n-   Automatic NGNC conversion via Beans API after receipt\n    \n-   Support for any Stellar asset accepted by Beans\n    \n\nMeasurement of Completion:\n\n-   Checkout wallet generation works for all test transactions\n    \n-   Payments auto-detected and order marked as paid\n    \n-   Funds routed correctly to merchant’s configured payout method\n    \n\nTimeline: 3 weeks  \nBudget: $5,000\n\nDeliverable 7: Webhooks & Refund Automation  \nObjective:  \nAutomate transaction handling through webhook events and refunds.\n\nFeatures:\n\n-   Real-time webhook updates from Beans\n    \n-   Trigger automatic refund on failure\n    \n-   Send receipt after refund\n    \n\nMeasurement of Completion:\n\n-   Webhooks tested and reliable\n    \n-   Refunds initiated and logged\n    \n-   Receipt sent to user\n    \n\nTimeline: 3 weeks  \nBudget: $5,000",
                         "stellar.tranche3Mainnet": "Tranche 3: Mainnet Launch (Weeks 14–18)\n-------------------------------------------\n\nBudget: $20,500  \nTotal Hours: 382 (240 dev + 142 test)\n\nDeliverable 8: Customer Wallet Top-Up & Checkout  \nObjective:  \nEnable users to top-up their Cartwey wallet using fiat or Beans and pay for purchases.\n\nFeatures:\n\n-   Top-up via bank/fiat or Beans Wallet\n    \n-   View updated wallet balance\n    \n-   Checkout using wallet balance\n    \n\nMeasurement of Completion:\n\n-   Top-up reflects instantly\n    \n-   Balance updates and is usable\n    \n-   Checkout flow functional\n    \n\nTimeline: 4 weeks  \nBudget: $8,500\n\nDeliverable 9: Merchant Dashboard (Crypto-Enabled)  \nObjective:  \nAllow merchants to manage inventory, products, pricing, and view crypto payouts via Beans Wallet.\n\nFeatures:\n\n-   Product upload & inventory management\n    \n-   Set pricing in NGN\n    \n-   View crypto payouts in NGNC\n    \n\nMeasurement of Completion:\n\n-   Inventory updates in real-time\n    \n-   Crypto payouts visible\n    \n-   UI responsive and mobile-friendly\n    \n\nTimeline: 4 weeks  \nBudget: $8,000",
                         "stellar.teamMembers": "Eniola, Deconsultagency",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://cartwey.com",
                             "codeRepository": "https://docs.google.com/document/d/1icZ_4FLuh-GqOq6uLzm-FP3VMER7Va4Arz1X-sYuHSM/edit?tab=t.0",
@@ -38,7 +38,6 @@
                         "stellar.socialMedia": {
                             "twitter": "https://x.com/cartwey_app"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 20000.0,
@@ -49,7 +48,8 @@
                                 "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 60000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -59,11 +59,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:fastbuka-delivery-food-and-grocery-app",
                     "projectName": "FastBuka Delivery - Food and Grocery App",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-10T00:00:00Z",
                     "contentURI": "",
                     "status": "Awarded",
                     "description": "FastBuka is a blockchain-enabled food and grocery delivery platform built on the Stellar network that connect customers, vendors, and riders across Africa with instant top-ups, fast payments, crypto and local currency options, built-in dispute resolution, and task-based rewards, making delivery faster, fairer, and more inclusive.",
-                    "fundsApprovedInUSD": 70000.0,
                     "extensions": {
                         "stellar.productsAndServices": "Core Products & Services\n----------------------------\n\n1. Food & Grocery Delivery Network\n\n-   Multi-Vendor Marketplace: Curated selection of restaurants, grocery stores, and food vendors\n    \n-   Real-time Order Management: End-to-end order tracking from placement to delivery\n    \n-   Smart Routing: AI-powered delivery optimization for riders\n    \n-   Quality Assurance: Vendor verification and customer rating systems\n    \n\n2. Blockchain-Powered Financial Services\n\n-   Stellar Wallet Integration: Native Stellar blockchain wallets for all users\n    \n-   Multi-Asset Support: NGNC (Nigerian Naira Coin), USDC, and Stellar native token support\n    \n-   Instant Settlements: Real-time payment processing through Stellar network\n    \n-   Cross-Border Transactions: Seamless international payment capabilities\n    \n\n3. Digital Wallet & Payment Solutions\n\n-   Stellar Account Creation: Automated wallet generation for new users\n    \n-   Asset Management: Support for multiple Stellar assets and trustlines\n    \n-   Deposit & Withdrawal: Bank integration and card payment processing\n    \n-   Transaction History: Comprehensive blockchain transaction tracking\n    \n\n4. Rider Network & Delivery Services\n\n-   Professional Rider Network: Verified and trained delivery partners\n    \n-   Real-time Location Tracking: GPS-enabled delivery monitoring\n    \n-   Performance Analytics: Rider performance metrics and earnings tracking\n    \n-   Safety & Compliance: Document verification and insurance coverage\n    \n\n5. Vendor Management Platform\n\n-   Business Onboarding: Streamlined vendor registration and verification\n    \n-   Inventory Management: Real-time product catalog management\n    \n-   Analytics Dashboard: Sales performance and customer insights\n    \n-   Payment Processing: Automated settlement and revenue tracking\n    \n\nVENDOR WEB APPLICATION\n\nvendor test login : koxytest@gmail.com\n\npassword: password\n\nCUSTOMER WEB APLICATION\n\nADMIN WEB APPLICATION",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1Kd8T7M0LXs1-vyg4ryo6KkGP1U_Use4r/edit?usp=sharing&ouid=105234920039964807856&rtpof=true&sd=true",
@@ -74,6 +73,7 @@
                         "stellar.tranche2Testnet": "Testnet Validation – Tranche 2 (Month 3–4)\n\nBudget: $23,333 USD\n\nTechnical Deliverables\n\n-   Deploy all core features to Stellar testnet\n    \n-   Meet defined performance benchmarks\n    \n-   Address identified security vulnerabilities\n    \n-   Complete user acceptance testing with users, vendors, and riders  \n    \n\nValidation Criteria\n\n-   500 users onboarded\n    \n-   50 vendors onboarded\n    \n-   25 riders onboarded\n    \n-   200 testnet orders completed successfully\n    \n-   Vendor satisfaction score ≥ 4.5/5\n    \n-   Rider satisfaction score ≥ 4.5/5",
                         "stellar.tranche3Mainnet": "Mainnet Validation – Tranche 3 (Month 5–6)\n\nBudget: $23,333 USD\n\nTechnical Deliverables\n\n-   Launch platform on Stellar mainnet\n    \n-   Enable processing of real transactions\n    \n-   Activate onboarding and support systems for all roles\n    \n-   Implement performance monitoring and alerts\n    \n\nValidation Criteria\n\n-   2,000 users onboarded\n    \n-   200 vendors onboarded\n    \n-   100 riders onboarded\n    \n-   1,000 orders completed successfully\n    \n-   Monthly transaction volume > $50,000\n    \n-   Customer satisfaction score ≥ 4.5/5\n    \n-   Vendor satisfaction score ≥ 4.5/5\n    \n-   Rider satisfaction score ≥ 4.5/5  \n    \n\nNotes for SCF Alignment\n\n-   Roadmap is scoped for 6 months total.\n    \n-   Deliverables focus solely on product development on Stellar, not marketing or user acquisition.\n    \n-   Total budget is $70,000",
                         "stellar.teamMembers": "koxy, Chukwuemeka Orjiani, Chijioke Michael Ogbechie",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://www.fastbuka.com",
                             "codeRepository": "https://github.com/fastbuka",
@@ -83,7 +83,6 @@
                             "linkedIn": "https://www.linkedin.com/company/fastbukadelivery/",
                             "twitter": "https://x.com/fastbuka"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 23333.33,
@@ -94,7 +93,8 @@
                                 "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 70000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -108,7 +108,6 @@
                     "contentURI": "",
                     "status": "Information Collection",
                     "description": "Builds a Stellar-integrated, keyless AA wallet using ZK-based identity to let users send crypto, access DeFi & xStock via phone/email.   Develops a Stellar-integrated keyless wallet system that leverages abstract accounts and zero-knowledge authentication to enable phone/email-based crypto transfers, on-chain stock investments, and cross-chain DeFi access, removing seed phrase risks while expanding the reach of Stellar to mobile-native users.",
-                    "fundsApprovedInUSD": 118000.0,
                     "extensions": {
                         "stellar.productsAndServices": "Sollpay will integrate Stellar into its keyless wallet infrastructure through three major upgrades that enable seamless crypto payments, programmable identity, and cross-chain investing:\n\n1) Stellar Payment Rail Integration\n\nWe will implement native Stellar USDC support within Sollpay’s abstract account wallet. Using Stellar’s low-fee, high-speed infrastructure, users will be able to send and receive crypto assets using phone numbers or email addresses, without seed phrases or public keys. This lowers the barrier for onboarding non-crypto-native users, especially in mobile-first regions.\n\n2) Cross-Chain Swap Access Between Stellar And Solana\n\nSollpay will provide opportunities to Solana’s 32M+ wallet users and 4.8M+ daily actives into the Stellar network by enabling them to seamlessly access Stellar-based assets and payment rails using a single keyless wallet. Through embedded swap bridges, Solana users will convert tokens like SOL or USDT into Stellar USDC directly within the app, enabling real-world spending, remittances, and investment on Stellar. This flow positions Stellar as a destination layer for global users coming from high-velocity DeFi environments, while abstracting away key management and wallet friction through Sollpay’s infrastructure.\n\n3)ZK-Based Identity Abstraction with Stellar Accounts\n\nWe will extend our zero-knowledge authentication layer to support Stellar accounts, enabling users to generate secure, non-custodial wallets without manual key management. Stellar accounts will be instantiated and linked through AA+ZK logic, allowing compliant and secure identity abstraction while maintaining user privacy and custody. This bridges the gap between usability and security in the Stellar ecosystem.\n\nBy embedding Stellar deeply into Sollpay’s technical stack, we’re not just adding a chain — we’re extending Stellar’s reach into a mobile-first, identity-native, and cross-chain financial layer, unlocking new use cases like contact-based payments, Web3 investing, and frictionless staking for users around the world.",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1i34nv0N0h7tkohonl7yG33f4tBXi6mvrH60zCzfV_M4/edit?usp=sharing",
@@ -119,6 +118,7 @@
                         "stellar.tranche2Testnet": "Tranche 2 – Testnet – $38,000\n\nEstimated Completion: Jan 16, 2026\n\nDeliverable 1: Soroban Wallet Contract\n\nBrief description: Implement the Soroban WalletContract to manage key rotation, nonce checks, and transaction validation. Includes event emission for state changes, on-chain ownership verification, and replay protection mechanisms.\n\nHow to measure completion: Successful deployment of WalletContract to Stellar testnet. Mobile app can sign a transaction, submit via relayer, and have it verified and executed on-chain. Unit and integration tests published in public repo.\n\nEstimated completion: Dec 20, 2025\n\nBudget: $16,000\n\nDeliverable 2: Gasless UX Relayer Infrastructure\n\nBrief description: Build and deploy a relayer service that uses Stellar’s Fee Bump transaction mechanism to sponsor user transactions. Service will accept signed transactions with nonce, wrap them in fee-bump envelopes, and submit to the network.\n\nHow to measure completion: End-to-end gasless transaction from mobile app to testnet contract via relayer, confirmed in Stellar testnet explorer. Relayer source code and documentation made public.\n\nEstimated completion: Jan 5, 2026\n\nBudget: $1,000\n\nDeliverable 3: Full Wallet UX + ZK Integration\n\nBrief description: Integrate ZK identity verification, wallet creation, and transaction execution into the production wallet UI/UX. Includes onboarding via phone/email, proof generation, account creation, asset transfer, and transaction history display.\n\nHow to measure completion: User can onboard via phone/email, have a smart wallet deployed on Stellar testnet, and complete a test transaction—all from the mobile app without seed phrases.\n\nEstimated completion: Jan 16, 2026\n\nBudget: $11,000",
                         "stellar.tranche3Mainnet": "Tranche 3 – Mainnet – $21,000\n\nEstimated Completion: Feb 20, 2026\n\nDeliverable 1: Mainnet Smart Contracts + Security Review\n\nBrief description: Finalize WalletFactory and WalletContract logic for mainnet deployment, integrating feedback from Stellar LaunchKit security review. Includes code optimization, final audit fixes, and deployment scripts.\n\nHow to measure completion: Smart contracts deployed and verified on Stellar mainnet. Public GitHub release of audited code and deployment records.\n\nEstimated completion: Feb 5, 2026\n\nBudget: $10,500\n\nDeliverable 2: Production App Launch + Recovery Flow\n\nBrief description: Release production-ready mobile wallet (iOS TestFlight, Android Beta) with full account recovery flow using new device ZK proof. Includes final UI polish, stability testing, and store submission preparation.\n\nHow to measure completion: Users can create wallets, perform Stellar transactions, and recover accounts from a new device on Stellar mainnet. Live app links published.\n\nEstimated completion: Feb 20, 2026\n\nBudget: $10,500",
                         "stellar.teamMembers": "Sissi YUAN, Thomas YANG, Grey Zheng",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://www.sollpay.com/",
                             "codeRepository": "https://github.com/Mercury-Labs-Dev/SollPay-Protocol",
@@ -127,9 +127,9 @@
                         "stellar.socialMedia": {
                             "linkedIn": "https://www.linkedin.com/company/argos-labs/",
                             "twitter": "https://x.com/SollpayHQ"
-                        },
-                        "org.stellar.communityfund.awardType": "Build"
-                    }
+                        }
+                    },
+                    "fundsApprovedInUSD": 118000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -139,11 +139,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:freedom-pay-wallet",
                     "projectName": "Freedom Pay Wallet",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-10T00:00:00Z",
                     "contentURI": "",
                     "status": "Awarded",
                     "description": "Freedom Pay Wallet transforms how aid agencies deliver financial aid with transparent, instant disbursements via Stellar.",
-                    "fundsApprovedInUSD": 150000.0,
                     "extensions": {
                         "stellar.productsAndServices": "This submission will upgrade the Freedom Pay Wallet app with a user-friendly, multilingual interface optimised for rural users, launch a professional portal for NGOs to disburse aid globally using stablecoins via the Stellar Disbursement Platform, and integrate Bridge to enable seamless stablecoin access without requiring users to understand blockchain technology.",
                         "stellar.technicalArchitecture": "https://mermaid.live/edit#pako:eNqdlG9v2jAQxr-K5b4NVQgQIC8mIShSNQVFZVXFoC_c-FKsJnbmOKVZ6Xff5Q8QmIS0RSAZ7rnf3T1n-KSh4kA9-qpZuiU_ZhtJ8Mnyl_qLBwhFKkCarA6Uz-RhPRH8FHquQyD5Rl6kP7E4BnNKnQfruQbgKglY0UTJssgMJM8n1fIuWOO74_TJvTSgIxbClSIzkRktXnIjlGxBZggxEMdMnylIEDMTKZ1cITZ5LdjiyFqA2Sn91m63Z1ft9myyBP0O-go5YNpI0C03V9P1CslqFzLNW1TfX_vqRcRAfCWhIIFW74Jj6t_0yQPpdL7tHzPIyK72FAckRjOZsbAcOtuj9bV4HlTi74hMmGSvkOAK9-UQZ3EsF0JWEs8xy8WZ7F4KI5gpCwuz5Zph_VJ111TDQ6V7OkaJhl85ZAZVq2ktWk0vSqasUHmp8P0GM6sxx0WiKMolbzV0kJw64q2tn-b3_UrWeJtU3lYjRujtHr08uBrGLMtmEJFUi4TpgkQijr0b23bdMLQQrd7Au4miqDl3doKbreekH1aoYqWr2AUqg1BJfoK5rvufpLS5xQ2oP53MB_a_sVpEdMcqV9WM2o4sFxbeDWs1tdC5Y_9nCnT-0A61aAI6YYLjf8pnqdpQs8U7tqEeHjlELI_Nhm7kF0pZbtSykCH1jM7Bolrlr1vqRXiH8FOectzjTDD86SQHScok9T7pB_UGvdthb2APRsPu2Bk6A9eiBfWc_ui2a9u98bjrDvE1cr8s-lspBNi3g5HjjLuObTsju19lIO5nFSzpX38AIRahKg",
@@ -154,12 +153,12 @@
                         "stellar.tranche2Testnet": "Aid Agency + NGO Disbursement Portal\n\nBrief description:  \nDevelop a secure NGO/agency platform (“Aid Rewired”) for registering, verifying, and disbursing aid via the Stellar Disbursement Platform. Portal will include a dashboard, recipient management, AI-powered reporting/visualisation, and multi-currency support for testnet disbursements.\n\nHow to measure completion:\n\n-   Aid Rewired portal deployed and functional in a testnet environment\n    \n-   Connection with SDP testnet verified\n    \n-   Sample NGO users onboarded to test recipient creation and disbursement flow\n    \n-   AI dashboard populated with test data: disbursement trends, regional insights, compliance reports\n    \n\nEstimated date of completion:  \nJanuary 15, 2026\n\nBudget:  \n$45,000 in XLM",
                         "stellar.tranche3Mainnet": "Bridge Integration + Full Aid Rewired Release\n\n**Brief description:  \n**Integrate Bridge into the FPW app and Disbursement Portal, enabling aid agencies/users to access stablecoins in an intuitive way. Launch Aid Rewired portal and updated FPW app on mainnet with full MoneyGram off-ramp support and NGO onboarding live.\n\nHow to measure completion:\n\n-   Bridge integration live in FPW app and Disbursement Portal\n    \n-   Aid Rewired portal goes live with real NGO partners\n    \n-   Real-world disbursement campaign launched\n    \n-   App live on iOS/Android; website & portal accessible and documented\n    \n-   At least 5 NGO users onboarded, and 30+ real disbursements processed\n    \n\nEstimated date of completion:  \nMarch 31, 2026\n\nBudget:  \n$45,000 in XLM",
                         "stellar.teamMembers": "Freedom Pigott",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://freedompaywallet.com",
                             "codeRepository": "https://github.com/bp-ventures/retail-wallet",
                             "videoURL": "https://www.youtube.com/watch?v=pEZqMDeTKgE"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 50000.0,
@@ -170,7 +169,8 @@
                                 "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 150000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -180,11 +180,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:agtrail-stellar-food-traceability",
                     "projectName": "AgTrail: Stellar Food Traceability",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-11T00:00:00Z",
                     "contentURI": "",
                     "status": "Ready for Payment",
                     "description": "Offers blockchain traceability and NGNC payments to help Nigerian producers and processors meet export standards and reach premium markets.",
-                    "fundsApprovedInUSD": 60000.0,
                     "extensions": {
                         "stellar.productsAndServices": "AgTrail is an end-to-end food traceability platform integrating Stellar blockchain to power instant, low-cost NGNC payments for farmers, processors, and exporters. Farmers record crop lifecycles with IoT data, while Stellar anchors certification tokens, processes escrow payments, and distributes AGT rewards instantly. Through Beans-App, NGNC seamlessly converts to bank Naira, ensuring access for non-crypto users. This integration eliminates payment delays, reduces transaction costs, improves compliance with NAFDAC/EU/FDA FSMA standards, and builds trust in both domestic and premium export markets.",
                         "stellar.technicalArchitecture": "https://drive.google.com/file/d/1t9EmSo5LUpJlFJJ1l2orlN0qle-f95CQ/view?usp=sharing",
@@ -195,6 +194,7 @@
                         "stellar.tranche2Testnet": "Expand AgTrail’s capabilities on the Stellar testnet, ensuring compliance, multi-actor workflows, and payment flows are fully validated before mainnet launch. This tranche focuses on building and stress-testing the more complex integrations :\n\n-   Exporter/Importer Verification & Pay-Per-Trace: Exporters pay per access to traceability records, importers pay verification fees, all routed via Stellar NGNC on testnet.\n    \n-   Regulator Dashboard & Alerts: Real-time monitoring of compliance data, certification validation through the NAFDAC sandbox, and automated alerts for anomalies.\n    \n-   Invoice Factoring & Trade Finance Modules: Pilot invoice factoring for processors, enabling NGNC-based credit lines on testnet.\n    \n-   API Integrations: Develop and connect to NAFDAC sandbox APIs for automated certification cross-checking; test bank rails and Beans-App for NGNC conversion logic.\n    \n-   IoT Data Validation: Extend IoT integration for 50+ batches (temperature, moisture, location) to ensure sensor data integrity in Stellar traceability hashes.\n    \n\nThis milestone ensures that all core user personas (farmers, processors, regulators, exporters, importers) can engage with AgTrail on Stellar rails in a controlled environment before financial exposure on mainnet.\n\nHow We Will Measure Completion:\n\n-   200+ product batches traced and verified on Stellar testnet.\n    \n-   Regulator dashboard live, connected to NAFDAC sandbox API, producing real-time alerts.\n    \n-   Pay-per-trace flows tested: Exporters pay for 50+ record lookups.\n    \n-   Verification fee flows tested: Importers submit 20+ products for verification and receive certificates.\n    \n-   IoT sensors feed at least 50+ testnet batch records with validated hash storage.\n    \n-   Invoice factoring/trade finance module demoed with at least 5 processors.\n    \n\nEstimated date of completion: February 28, 2026\n\nBudget: $10,000\n\nBreakdown:\n\n$3,500 – Advanced Testnet Modules (Exporter/Importer + Pay-per-Trace)\n\n-   Build and test exporter verification flows (pay-per-trace access).\n    \n-   Importer verification fee logic, all settled via Stellar NGNC testnet.\n    \n-   Smart contract logic for pay-per-lookup validation.\n    \n-   Stress-test flows with 200+ product batches.\n    \n\n$3,000 – Regulator Dashboard & API Integration\n\n-   Build regulator console for real-time alerts.\n    \n-   Connect to NAFDAC sandbox APIs for certificate cross-checking.\n    \n-   Validate traceability token logic on Stellar testnet.\n    \n-   Simulate regulatory anomaly alerts (e.g., missing certificate hash).\n    \n\n$2,000 – Trade Finance & Invoice Factoring Modules\n\n-   Develop testnet invoice factoring demo for processors.\n    \n-   Credit lines simulated in NGNC with settlement on Stellar.\n    \n-   Test 5+ processors using factoring/credit module.\n    \n\n$1,500 – IoT Data Validation + Testnet Infrastructure\n\n-   Extend IoT integration for 50+ batches.\n    \n-   Test Stellar hash commitments for sensor data (temperature, moisture, GPS).\n    \n-   Infrastructure for testnet transactions (server scaling, fees, support).",
                         "stellar.tranche3Mainnet": "Deliver AgTrail’s full mainnet launch, activating all production-ready modules and ensuring sustainable adoption across Nigeria’s & Africa's agrifood sector. This phase is where enabling thousands of farmers, processors, exporters, and regulators to transact seamlessly in NGNC, is anchored on Stellar blockchain\n\nKey deliverables include:\n\n-   Full User Journeys Live: Farmers, processors, exporters, importers, and regulators operate in a unified workflow from farm-to-market.\n    \n-   NGNC Micro-Loans & AGT Rewards: Farmers access instant credit lines and tokenized incentives via Stellar rails.\n    \n-   Direct Cash-Outs: NGNC-to-fiat payouts executed via Beans-App and partner banks for frictionless liquidity.\n    \n-   Global Trade Readiness: Export compliance workflows aligned with EU/FDA FSMA standards, traceability certificates verifiable via Stellar QR records.\n    \n-   Scale Pilot → Adoption: Expand from pilot groups to 500+ product batches and 200+ real payment transactions on mainnet.\n    \n\nThis milestone proves that Stellar is not just powering pilots, but unlocking trusted, finance-enabled trade at national scale.\n\nHow We Will Measure Completion:\n\n-   500+ product batches traced on Stellar mainnet with immutable QR-linked hashes.\n    \n-   200+ NGNC payment transactions successfully processed (farmers, processors, exporters).\n    \n-   Farmers receive at least 10 micro-loans and AGT reward payouts via Stellar smart payment flows.\n    \n-   Partner bank APIs and Beans-App conversion to fiat fully live.\n    \n-   NAFDAC regulator API connected, with compliance reports accessible through Stellar-linked dashboards.\n    \n-   At least 2 exporter/importer contracts executed through AgTrail mainnet.\n    \n\nEstimated date of completion: May 31st, 2026\n\nBudget: $25,000\n\nBreakdown:\n\n$7,000 – Stellar Mainnet Integration & Smart Payment Flows\n\n-   Full migration from testnet to Stellar mainnet.\n    \n-   Enable NGNC transactions for farmers, processors, exporters.\n    \n-   Deploy & validate smart contracts for:\n    \n    -   Escrow payments,\n        \n    -   AGT reward distribution,\n        \n    -   NGNC micro-loan disbursement & repayment.\n        \n-   Compliance certification anchoring (EU/FDA/NAFDAC-ready).\n    \n\n$8,000 – API Stabilization & Production Readiness\n\n-   Harden & scale bank APIs (NGNC ↔ fiat off-ramp).\n    \n-   Finalize Beans-App integration for consumer cash-outs.\n    \n-   Deploy NAFDAC API connections in production mode.\n    \n-   End-to-end testing with partner exporters/importers.\n    \n-   Ensure security, uptime & SLA compliance.\n    \n\n$5,000 – Scaling Infrastructure & Security\n\n-   Upgrade hosting, redundancy, and server capacity to handle 500+ product batches + 200+ payment transactions in real time.\n    \n-   Implement security hardening (data encryption, KYC validation, Stellar transaction monitoring).\n    \n-   Redundancy for 24/7 traceability access (exporter + regulator critical).\n    \n\n$5,000 – Farmer/Processor Onboarding & Operational Support\n\n-   Tech support for 200+ new farmers & 20+ processors.\n    \n-   Deploy live dashboards for transaction + traceability.\n    \n-   Documentation & training for ecosystem partners (farmers, exporters, regulators).\n    \n-   Hands-on integration with cooperatives & early buyers.",
                         "stellar.teamMembers": "Joseph Fashola, Olamide Olutekunbi",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://agtrail.agrolinking.com",
                             "codeRepository": "https://github.com/JosephFashola/agtrail-eco-trace",
@@ -205,7 +205,6 @@
                             "twitter": "https://x.com/AgroLinking",
                             "discord": "https://discord.gg/gcD5rn6sJV"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 20000.0,
@@ -216,7 +215,8 @@
                                 "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 60000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -230,7 +230,6 @@
                     "contentURI": "",
                     "status": "Information Collection",
                     "description": "Connects Stellar-based assets to Rubic’s aggregation infrastructure to help developers and users access best rates and cross-chain swaps with multihop routing and no integration overhead.",
-                    "fundsApprovedInUSD": 90000.0,
                     "extensions": {
                         "stellar.productsAndServices": "We're plugging Stellar-based DEXs and bridges into Rubic’s aggregation system so users get the best rates on Stellar swaps without jumping through hoops. With multihop routing powered by custom smart contracts on Stellar, any-to-any token swaps become smooth and efficient. Projects building on Stellar can integrate same-chain and cross-chain swaps through Rubic’s SDK, API, or widget - no need to maintain custom bridge logic. This upgrade cuts dev effort, expands access to Stellar liquidity, and gives users a cleaner, faster experience.  \nStellar focuses on account abstraction, providing flexible account logic, custom signatures, and smart control within its network. Rubic focuses on chain abstraction, simplifying interaction with multiple blockchains through a unified interface. Together they complement each other: Stellar delivers control and security at the account level, Rubic extends that control across chains, enabling a seamless multichain experience and new use cases for users and developers.\n\nAlso, Rubic surveyed providers in its aggregation stack; several confirmed plans to add Stellar support. This aligns with the growing market focus on RWA, matching Rubic’s long-term vision for blockchain utility. This shared direction strengthens Stellar’s role in the evolving multichain ecosystem and supports Rubic’s goal to enable seamless access to RWA.",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/19obXtR_htSCppgcHyJJB6fGwMddlHRFkgKUdnnkUDWk/edit?usp=sharing",
@@ -241,6 +240,7 @@
                         "stellar.tranche2Testnet": "We will provide a testnet stage for a committee of reviewers to test Stellar integration within Rubic for this phase..\n\na. Wallet Integration  \nObjective:  \nAdd wallet support: connection, balance check, transaction execution in test environment.  \nSuccess Measure:  \nWallet operations stable; balances correctly fetched; testnet transactions confirmed.  \nTimeline: 1 week.  \nBudget: $5000.\n\nb. Provider Integration (Phase 2)\n\nObjective:  \nContinue integration of ChangeNow, Changelly, and SimpleSwap; connect providers to routing logic for test swaps.  \nSuccess Measure:  \nProviders return quotes through API; testnet swaps routed across providers.  \nTimeline: 1 week.  \nBudget: $5000.\n\nc. Multihop Engine + Fee Contract (Initial)\n\nObjective:  \nImplement multihop logic inside Stellar Aggregator API; start smart contract development to support routing execution and fee handling.  \nSuccess Measure:  \nMultihop route execution tested on testnet using SoroSwap + AllBridge; basic fee contracts deployed to testnet.  \nTimeline: 4 weeks.  \nBudget: $20000.",
                         "stellar.tranche3Mainnet": "a. Final Provider Integration & Rubic API Access\n\nObjective:  \nComplete testing of ChangeNow, Changelly, SimpleSwap; enable swap routing via Rubic API/SDK with test wallets.  \nSuccess Measure:  \nStable swaps via Rubic API/SDK using test wallets and providers; full coverage tested.  \nTimeline: 1 week.  \nBudget: $5000.\n\nb. Stellar Aggregator API Finalization\n\nObjective:  \nFinalize routing engine with full multihop support using Stellar DEX and bridge infrastructure.  \nSuccess Measure:  \nAll testnet paths (direct and multihop) validated; fallback logic and route optimization handled; coverage confirmed.  \nTimeline: 4 weeks.  \nBudget: $20000.\n\nc. Fee Contracts Deployment\n\nObjective:  \nFinalize and deploy smart contracts for fee collection tied to multihop execution on mainnet.  \nSuccess Measure:  \nFee logic confirmed on multihop and direct swaps; accounting and reporting operational in test environment.  \nTimeline: 2 weeks.  \nBudget: $5000.\n\nExecution Plan Overview\n\nAll components across the three milestones will run in parallel. Estimated total delivery time: 3 months (12 weeks). This timeline is recommended for balanced delivery, though efforts will be made to accelerate Stellar's move into production where possible.  \nPost-launch, a marketing initiative will be activated.",
                         "stellar.teamMembers": "Ilia",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://app.rubic.exchange",
                             "codeRepository": "https://github.com/Cryptorubic",
@@ -248,9 +248,9 @@
                         },
                         "stellar.socialMedia": {
                             "twitter": "https://x.com/CryptoRubic"
-                        },
-                        "org.stellar.communityfund.awardType": "Build"
-                    }
+                        }
+                    },
+                    "fundsApprovedInUSD": 90000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -258,13 +258,12 @@
                     "grantPoolId": "daoip-5:stellar:grantPool:scf_38",
                     "grantPoolName": "scf_38",
                     "projectsURI": "",
-                    "projectId": "daoip-5:stellar:project:lul-serving-the-unbanked",
+                    "projectId": "daoip-5:stellar:project:lulserving-the-unbanked",
                     "projectName": "Lul-Serving the unbanked",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-16T00:00:00Z",
                     "contentURI": "",
                     "status": "Test Transaction",
                     "description": "Offers Stellar-powered finance tools so refugees & unbanked can receive money, crowdfund, save, and pay affordably.",
-                    "fundsApprovedInUSD": 37500.0,
                     "extensions": {
                         "stellar.productsAndServices": "1. Remittances & Payments (Already built & testnet-integrated — not part of SCF 38 funding)\n\nProblem: Traditional remittance services in Africa cost 7–12% and take hours or days to settle, leaving refugees and unbanked without timely access to funds.  \nSolution: Instant USDC transfers to Lul wallets, with options to keep funds in USDC or withdraw via cash-out agents, couriers, or mobile money. Wallet-free payouts deliver cash directly to recipients without smartphones.  \nHow Stellar Helps: Near-instant, low-fee settlement and transparent proof of delivery on an open ledger.  \nImpact: Affordable, inclusive remittance access even for the most digitally excluded.\n\nNote: Included for completeness — not part of SCF 38 funding request.\n\n2. Crowdfunding\n\nProblem: Global platforms like GoFundMe exclude many Africans, especially refugees, due to banking and policy barriers.  \nSolution: Built-in Stellar-powered platform where users can launch campaigns, receive USDC globally, and withdraw in local currency. Soroban smart contracts hold funds in escrow until goals/timelines are met.  \nHow Stellar Helps: Enables low-cost cross-border contributions and escrow logic for secure disbursements.  \nImpact: Unlocks global fundraising for excluded communities with transparency and trust.\n\n3. Agent & Courier App\n\nProblem: Digital wallets are less useful if users can’t easily top up or withdraw nearby without high fees.  \nSolution: Lightweight app for agents/couriers to provide local cash-in/cash-out, including wallet-free deliveries, avoiding bank and mobile money margins.  \nHow Stellar Helps: Instant settlement between agent and user wallets with verifiable transaction records.  \nImpact: Increases access and convenience, especially in refugee camps and underserved areas.\n\n4. Virtual Cards (Planned – Integration with Rain.xyz)\n\nProblem: Many unbanked and refugee users can’t make online purchases or pay for digital services.  \nSolution: USD-denominated virtual cards linked to Lul wallets for online payments directly from USDC balances. API access to Rain is already secured.  \nHow Stellar Helps: Instant, low-cost top-ups from Stellar-based USDC.  \nImpact: Expands digital commerce access without requiring bank accounts.\n\n5. Multilingual Support\n\nProblem: Large portions of our user base do not speak English, creating adoption barriers.  \nSolution: Add Swahili, Luganda, Amharic, Arabic, Somali, and French to the app with a language switcher.  \nHow Stellar Helps: Makes the Stellar-powered platform usable across diverse remittance/refugee corridors.  \nImpact: Broadens reach and trust by making the platform accessible to non-English speakers.\n\n6. External Service Integrations\n\nProblem: Users need familiar, local cash-in/cash-out and cross-border transfer options.  \nSolution: Integrate mobile money APIs (MTN, Airtel) for local transactions and Yellow Card for USDC–fiat transfers to 20 African countries.  \nHow Stellar Helps: All transactions settle on Stellar for speed, low cost, and transparent tracking.  \nImpact: Expands reach and adoption by connecting to trusted payment rails across Africa.",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1v5zhRfs_7ob1DwYOcCYRsY4OHGM1jpKi/edit?usp=sharing&ouid=117888080581823504664&rtpof=true&sd=true",
@@ -275,6 +274,7 @@
                         "stellar.tranche2Testnet": "Tranche 2 – Testnet Integration + Agent App\n\nGoal: Fully integrate wallet and crowdfunding flows on Stellar Testnet and launch the Agent & Courier App for cash-in/out operations.\n\nCore Features:\n\n-   Stellar Testnet Integration: Deploy full crowd funding, payments, and features to Testnet with test USDC flows. Validate all user actions via on-chain verification links.\n    \n-   Agent & Courier App: Develop app for authorized agents to handle cash-in/cash-out, wallet-free deliveries, and transaction confirmations.\n    \n-   Update wallet for direct withdrawal through agent app and network\n    \n-   Security: Agents use role-based login and transactions sync in real time with user wallets.\n    \n\nHow to Measure Completion:\n\n-   Successful Testnet deployment with verifiable crowdfunding transactions.\n    \n-   Agent app operational with ability to process top-ups, withdrawals, and issue receipts.\n    \n-   All transactions reflected in user and agent histories in real time.\n    \n\nEstimated Completion: 6 weeks  \nBudget: $9,500\n\nWhy This Matters:  \nThis tranche expands financial access to offline and underserved communities, leveraging local small business owners as partners and providing them with income opportunities.",
                         "stellar.tranche3Mainnet": "Tranche 3 – Third-Party Integrations + Virtual Cards\n\nGoal: Enable full production readiness by integrating external payment rails and adding virtual card capabilities.\n\nCore Features:\n\n-   Yellow Card Integration: Allow users to send funds across 20+ African countries in local currency.\n    \n-   Mobile Money Integrations (Airtel, MTN): Enable deposits and withdrawals between mobile wallets and Lul.\n    \n-   Virtual Cards: Provide prefunded virtual debit cards linked to USDC balances for secure online purchases. We will partner with rain.xyz who have support for African markets. Our waitlist surveys and closed-beta interviews consistently highlighted online payments (subscriptions, e-commerce) as a top need; cards meet that need without local bank accounts.\n    \n-   Multilingual Support: Add Swahili, Amharic, Luganda, French, Arabic, Somali.\n    \n\nHow to Measure Completion:\n\n-   Yellow Card: Cross-border transfers initiated and settled in local currency.\n    \n-   Mobile Money: Functional deposit and withdrawal with confirmations.\n    \n-   Virtual Cards: Users can request, receive, and view card details and history.\n    \n-   Multilingual: Full app translations for the six languages.\n    \n-   Smile ID-For some African Users KYC\n    \n\nEstimated Completion: 7 weeks  \nBudget: $15,000\n\nWhy This Matters:  \nCompletes the ecosystem for both domestic and cross-border financial flows, giving users practical tools to engage in the digital economy without traditional banking access.",
                         "stellar.teamMembers": "Zerayacob",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://www.lulpay.com/",
                             "codeRepository": "https://github.com/Zerie5",
@@ -284,7 +284,6 @@
                             "linkedIn": "https://www.linkedin.com/in/zerayacob-a-tedla-1abb64b9/",
                             "discord": "https://discord.gg/rC4jqHmA"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 12500.0,
@@ -295,7 +294,8 @@
                                 "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 37500.0
                 },
                 {
                     "type": "GrantApplication",
@@ -305,11 +305,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:irl",
                     "projectName": "IRL",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-11T00:00:00Z",
                     "contentURI": "",
                     "status": "Ready for Payment",
                     "description": "IRL is developing a global onchain loyalty platform that rewards real-world cultural engagement using Stellar-based points, payments, and token incentives.",
-                    "fundsApprovedInUSD": 137000.0,
                     "extensions": {
                         "stellar.productsAndServices": "Program Vision\n\nIRL.energy is building a global cultural rewards ecosystem where users earn points by attending events, engaging with venues, participating in games, and completing challenges. These points unlock rewards, event experiences, and digital assets. IRL bridges digital and physical worlds, making blockchain engagement seamless for non-crypto natives while offering advanced tokenized features for Web3 participants.\n\n**Stellar Events Smart Wallet & Rewards Platform  \n**To extend this system and accelerate adoption, we will integrate a Stellar-powered event-focused smart wallet and rewards platform. This platform transforms Stellar’s IRL and virtual event presence into sustained onchain engagement — driving community retention, monthly active addresses, and TVL growth, while showcasing Stellar’s smart contract capabilities.\n\nCore Capabilities\n\n-   Event Discovery & Access: Real-time feed of Stellar and partner events, exclusive NFT/merch drops, and participation-based rewards.\n    \n-   Engagement Mechanics: Onchain games, scavenger hunts, achievement badges, leaderboards, and raffles/lotteries.\n    \n-   Integrated Rewards: Event-specific perks, NFT/merch issuance, and USDC/$IRL redemption via Stellar rails.\n    \n-   Future Payments Integration: Tap-to-pay NFC merchandise and in-event USDC/$IRL transactions.\n    \n\nFront-End & Feature Development (MVP & Global Map)\n\n-   User Dashboard & Profile with Stellar wallet integration (passkey-based onboarding).\n    \n-   Global Venue Map with in-person check-ins and point issuance.\n    \n-   Reward Center for perk redemptions and future $IRL/USDC spend mechanics.\n    \n-   IRL Four Square Game (online & in-person check-in challenges).\n    \n-   Leaderboard and achievement tracking.\n    \n-   Partner Dashboard for venue/creator reward issuance and payout tracking.\n    \n-   NFT Cultural Identity Module (opt-in) for unique event-based collectibles.\n    \n-   Basic Analytics Layer to track engagement, retention, and transaction flow.\n    \n\n#### Products & Services\n\nIRL will integrate Stellar in three major product layers:\n\n-   Points-to-Token Rewards: Users earn IRL Points via event check-ins and quests. These are redeemable for USDC or $IRL tokens issued on Stellar, enabling fast, low-cost incentives across borders.\n    \n-   Partner Dashboard & Wallet Tools: Venues and cultural institutions access a dashboard to distribute, track, and fund perks and rewards in Stellar-based assets.\n    \n-   Global Payment Rails: IRL enables ticket payments, creator payouts, and sponsor funding in Stellar-native assets, enhancing global financial access.\n    \n\nImpact: These integrations lower the cost of loyalty rewards, remove geographic limitations, and prove out a real-world consumer use case for onchain value exchange — onboarding thousands of users into the Stellar ecosystem.\n\nTechnical Infrastructure\n\n-   Wallet: Stellar-based smart wallet architecture using MeridianPay Base Wallet and passkey authentication.\n    \n-   Soroban Smart Contracts: Reward logic, onchain games, raffles, and point conversions.\n    \n-   Low-Cost Transactions: Using Stellar’s fast settlement and built-in DEX for liquidity and swaps.\n    \n\nInteroperability: Bridge functionality for Base/Solana → Stellar flows.\n\n-   2,000+ Stellar-based redemptions across events, perks, and quests.\n    \n-   $5,000+ processed in USDC/$IRL through the IRL dApp.\n    \n-   5,000+ Stellar-compatible wallets created via IRL and event activations.\n    \n-   Demonstrated proof that real-world cultural activity drives sustainable onchain engagement.\n    \n\n100+ partners enabled to issue or accept Stellar-backed rewards via the IRL partner dashboard.\n\nNote while we will be able work on all of the above through existing Refraction events - none of the funds from the SDF build award will go toward any marketing and events - which would happen through the Growth grants thereafter.",
                         "stellar.technicalArchitecture": "https://github.com/malcolmlevy/irl-stellar-architecture",
@@ -320,6 +319,7 @@
                         "stellar.tranche2Testnet": "Tranche 2 – Testnet (Soroban + Scaling & Optimization)\n\n-   Migration of key contract logic to Soroban for settlement and token reward logic\n    \n-   Stress test cross-chain bridge integration\n    \n-   Expand partner dashboard to multi-venue management + advanced analytics\n    \n-   Internal NFT minting & cultural identity feature (opt-in for creators) with front-end asset display in profile\n    \n-   Performance optimization for global map & live reward center data feeds\n    \n\n**API integration for third-party loyalty platforms to connect to IRL’s rewards engine  \n\nHow to measure:\n\n-   Successful test transactions on Stellar Testnet\n    \n-   Performance benchmarks met for large event load\n    \n-   Partner API usage logs\n    \n\n**ETA: November 15, 2025  \nBudget (infra-only): $0 (audit credits via Stellar LaunchKit)**",
                         "stellar.tranche3Mainnet": "Tranche 3 – Mainnet (High-Impact Expansion)\n\n-   USDC and $IRL redemptions live on Stellar mainnet\n    \n-   Public events in 3 new cities (total 6+) using Stellar rails for ticketing, payouts, and rewards\n    \n-   Partner payouts to creators, venues, and promoters onchain with transparent reporting in the partner dashboard\n    \n-   Cross-chain bridge integration live in production (e.g., Solana/Base to Stellar)\n    \n-   Global partner toolkit release — allowing any venue, festival, or cultural DAO to run Stellar-powered loyalty programs via IRL’s dashboard\n    \n-   Expanded NFT identity features for creators and communities\n    \n-   Target milestone: 5,000+ Stellar-based redemptions processed in first quarter after mainnet\n    \n\nHow to measure:\n\n-   $100k+ USDC redeemed\n    \n-   Number of events activated in new cities\n    \n-   Number of new Stellar wallets onboarded\n    \n-   Cross-chain transaction volume\n    \n\n**ETA: December 15, 2025  \nBudget: $48,000**\n\nNote all expanded partnerships comes directly through Refractions ongoing activities and partnerships, and the funds from the SDF will be only toward development costs.",
                         "stellar.teamMembers": "Malcolm Levy",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://www.irl.energy",
                             "codeRepository": "https://github.com/hurley87/refraction",
@@ -328,7 +328,6 @@
                         "stellar.socialMedia": {
                             "twitter": "https://x.com/RefractionDAO"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 45666.67,
@@ -339,7 +338,8 @@
                                 "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 137000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -349,11 +349,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:sfx-super-money-app",
                     "projectName": "SFx Super Money app",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-16T00:00:00Z",
                     "contentURI": "",
                     "status": "Test Transaction",
                     "description": "The easiest way for foreign residents in Turkey and Cyprus to receive money and spend overseas, powered by Circle’s USDC and EURC",
-                    "fundsApprovedInUSD": 55000.0,
                     "extensions": {
                         "stellar.productsAndServices": "SFx Super Money app food and grocery delivery marketplace built on the Stellar Network.\n\n-   Onboarding of both individual and business vendors from Turkey and Cyprus through our Web-application platform.\n    \n-   Onchain, Decentralized Ledger: All payment activity on our marketplace is recorded on the Stellar Network, an ultra-fast, very cheap blockchain, ensuring a secure and transparent decentralized ledger.\n    \n-   Stellar Wallet Support: We provide only support for Stellar wallets for vendors, enabling both individual and business vendors to manage their funds directly.\n    \n-   Turkish Lira On/Off-Ramp: We facilitate easy and efficient on/off-ramps for the Turkish Lira, allowing Turkish and Cypriot businesses to convert Turkish Lira to USDC on the stellar network and vice versa.\n    \n-   Turkish Lira Cash-Out locations: We provide a seamless and efficient cash-out service for USDC, on the stellar network, allowing foreign residents and businesses in Turkey to easily withdraw Turkish Lira. Our extensive network includes over 30 licensed crypto-merchant locations across the country, where you can convert USDC on stellar network to physical cash at no extra commission.",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1UuExwnHPIlj_0X6vMUVkBhEY32yXFbAT/edit?usp=sharing&ouid=116371331792260706804&rtpof=true&sd=true",
@@ -364,6 +363,7 @@
                         "stellar.tranche2Testnet": "Tranche 2 (Deliverable Roadmap) - Testnet\n=========================================\n\nMonth 5&6 : Pilot Launch : $10,000\n\nDeliverable 1: Pilot launch\n\nUser Story:\n\nAs a food and grocery vendor in Turkey, i will be able to create an account on the SFx money web-app https://www.sfxchange.co/en/signup , receive a stellar custodial wallet to collect USDC payments, and be able to add images and descriptions of my food or grocery offerings, include prices for each inventory, have my digital store visible on the SFx money app discover marketplace section and start collecting payments.\n\nHow:\n\n-   Create an account as a first time business using social logins, and configuring a 2FA for added security.\n    \n-   Complete Know Your Business on the business platform.\n    \n-   Receive my Stellar USDC address.\n    \n-   SFx Money app will take high definition photos of product inventory and provide AI tools (e.g gpt-image-1 model via API) to help business vendors improve inventory appearance\n    \n-   Begin uploading images and include inventory descriptions.\n    \n-   View my store on the SFx money app discover marketplace.\n    \n-   Budget : $10,000\n    \n-   Target: 5 Food and Grocery vendors\n    \n-   Date of completion and launch : 2 Weeks.",
                         "stellar.tranche3Mainnet": "Tranche 3 (Deliverable Roadmap) - Mainnet\n=========================================\n\n  \n**Month 6: Full LAUNCH and growth: $15,000  \n**\n\nDeliverable 1: Full production launch\n\nUser Story:\n\nAs a food and grocery vendor in Turkey, i will be able to create an account on the SFx money web-app https://www.sfxchange.co/en/signup , receive a stellar custodial wallet to collect USDC payments, and be able to add images and descriptions of my food or grocery offerings, include prices for each inventory, have my digital store visible on the SFx money app discover marketplace section and start collecting payments in USDC or Turkish Lira.  \n\nHow:\n\n-   Create an account as a first time business using social logins, and configuring a 2FA for added security.\n    \n-   Complete Know Your Business on the business platform.\n    \n-   Receive Stellar USDC wallet, for USDC custody on the Stellar Network.\n    \n-   SFx Money app will take high definition photos of product inventory and provide AI tools on the SFx money web-app (e.g gpt-image-1 model via API) to help business vendors improve inventory appearance.\n    \n-   View my store on the SFx money app discover marketplace.\n    \n-   Collect payments denominated in Turkish Lira and receive USDC in exchange in my USDC stellar wallet.\n    \n-   Budget: $10,000\n    \n-   Target: 15 Food and Grocery vendors",
                         "stellar.teamMembers": "Martins Chiwenyte Chidume, Henry, Muqaddis Kolawole, Ogbaje Leo Arome, Peter Japhet Okpanachi, Joel ikenga inyama , Stephen Udeh , Acor",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://www.sfxchange.co/en",
                             "codeRepository": "https://github.com/InfluencerSFX/SFX-MOBILE-APP-VERSION-2.1-Current",
@@ -374,7 +374,6 @@
                             "twitter": "https://x.com/usesfxmoneyapp",
                             "discord": "https://discord.gg/vbueuy4Z"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 18333.33,
@@ -385,7 +384,8 @@
                                 "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 55000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -395,11 +395,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:kasi-money",
                     "projectName": "Kasi Money",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-17T00:00:00Z",
                     "contentURI": "",
                     "status": "Information Collection",
                     "description": "Migrant workers send fiat from bank account and family gets cash cheaper + faster via USDC on Stellar.No crypto complexity",
-                    "fundsApprovedInUSD": 150000.0,
                     "extensions": {
                         "stellar.productsAndServices": "Kasi Money is a digital banking platform built for gig workers, freelancers, and the two out of three South African workers who earn irregular income. We are the official banking partner for Bolt, South Africa’s largest ride-hailing platform, and already serve over 50 000 customers. Our users receive a fully featured bank account and debit card to receive income, spend, and save. We also offer short term lending and automatic investing into a money market fund, giving customers both liquidity and yield.\n\n  \nOver 40% of our customer base are migrant workers from other African countries. For this group, the most requested feature is an affordable, fast way to send money home. Currently, they must withdraw funds from their Kasi Money account, visit a separate remittance provider, and pay 5 to 10 percent in fees, with some providers taking up to two days for settlement.\n\nThis project will add instant, low-cost remittances directly from the bank account they already receive their income in.  \n  \nCustomers will send fiat (ZAR) from their account, which is converted to USDC using a licensed South African crypto exchange. The USDC is then sent over Stellar and delivered via MoneyGram’s payout network for instant cash out in the recipient’s local currency. By integrating on-ramp, blockchain settlement, and off-ramp in one seamless flow, we eliminate multiple intermediaries, reduce costs to a fraction of current rates, and settle in minutes without exposing users to crypto complexity.  \n\nHow the new service will work:\n\n1.  Customer selects “Global Pay” from their Kasi Money account.\n    \n1.  Enters recipient details and payout country.\n    \n1.  ZAR is converted to USDC via a licensed South African exchange.\n    \n1.  USDC is transferred over Stellar to a Crossmint wallet linked to the sender.\n    \n1.  Recipient details together with USDC are transferred to MoneyGram dedicated wallet\n    \n1.  MoneyGram’s Stellar-based payout network instantly makes cash available in the recipient’s local currency.\n    \n1.  Recipient receives an SMS with pickup instructions for their nearest MoneyGram location.  \n    \n\nIn the initial phase, our Stellar integration will leverage native protocol features including:\n\n-   Payments for fast and low-cost USDC transfers\n    \n-   Trustlines to manage asset custody within Crossmint wallets\n    \n-   Multisig and pre-authorized transactions to maintain compliance and control over wallet movements\n    \n-   Memo fields to embed KYC-linked transaction references  \n    \n\nThese capabilities allow us to execute the full flow from ZAR → USDC → local-currency cash-out instantly, while meeting compliance requirements.  \n\nLooking ahead (not in this project scope), we will integrate Soroban smart contracts to:\n\n-   Implement programmable escrow logic for staged payouts or regulatory holds\n    \n-   Enable dynamic liquidity routing to optimize FX rates and provider selection by corridor\n    \n\nThis phased approach delivers immediate value to our customers and partners using Stellar’s proven core protocol, while building toward a programmable, scalable remittance infrastructure that can expand across Africa.",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1LQDMIRbyA0B7hf1_MGZvQ-iZ9Mi7Hqz26vI2O58kb10/edit?usp=sharing",
@@ -410,6 +409,7 @@
                         "stellar.tranche2Testnet": "Goal: Connect the backend and UI built in Tranche 1 to Stellar testnet, integrate Crossmint for remittance moneyflow, and complete all compliance and audit readiness steps. This stage will use test wallets and sandbox payout flow but will be fully functional for simulated remittances  \n\nDeliverable 1 Crossmint Wallet Provisioning and Identity Mapping\n\n• Use Crossmint API to create custodial wallets\n\n• Sender wallets: one per Kasi user; map to user_id, bank account, and username\n\n• Recipient wallets: ephemeral (per transfer) or reusable (per recipient phone), as supported\n\n• Persist Crossmint wallet IDs and link to Global Pay ledger\n\n• Pass sender KYC (from Kasi onboarding) to Crossmint in required schema\n\nBudget: $16,000\n\nCompletion Date: 18 Nov 2025  \n\nDeliverable 2 KYC and Compliance Passthrough\n\n• Map Kasi KYC data fields to Crossmint requirements\n\n• Ensure sender identity, transaction monitoring, and corridor-specific compliance data is passed to Crossmint for each transaction\n\n• Complete compliance documentation and prepare for Stellar ecosystem audit\n\nBudget: $12,000\n\nCompletion Date: 20 Nov 2025  \n\nDeliverable 3 Remittance Moneyflow Simulation\n\n• Build backend logic to execute ZAR to USDC conversion from treasury preloads and send USDC to recipient wallets via Crossmint\n\n• Integrate Crossmint with MoneyGram sandbox for simulated payout completion\n\n• Trigger SMS to recipient once simulated payout reference is generated\n\nBudget: $22,000\n\nCompletion Date: 28 Nov 2025  \n\nDeliverable 4 Testnet End-to-End Verification and Documentation\n\n• Run full transaction flow from Kasi Money UI to Stellar testnet settlement and MoneyGram sandbox payout\n\n• Document APIs, ledger schemas, and operational steps for mainnet readiness\n\nBudget: $0 (documentation and verification included in above deliverables)\n\nCompletion Date: 30 Nov 2025\n\nTotal Tranche 2: $50,000",
                         "stellar.tranche3Mainnet": "Tranche 3 — Mainnet Launch and First Live Transactions\n----------------------------------------------------------\n\nGoal: Deploy Global Pay on Stellar mainnet with Crossmint and MoneyGram integration, connect live backend and UI, process first customer remittance transactions, and enable full operational support  \n\nDeliverable 1 Mainnet Deployment and Backend/UI Integration\n\n• Deploy Stellar and Crossmint integrations to Stellar mainnet\n\n• Connect backend and mobile UI from Tranche 1 to mainnet transaction flow\n\n• Set up corporate USDC wallets and VALR liquidity processes for live payouts\n\nBudget: $20,000\n\nCompletion Date: 16 Dec 2025  \n\nDeliverable 2 Website and Help Center Updates\n\n• Update Kasi Money website and help center with Global Pay product pages, FAQs, and corridor specific instructions\n\n• No marketing or promotional content included in scope\n\nBudget: $2,000\n\nCompletion Date: 18 Dec 2025  \n\nDeliverable 3 Support Dashboard for Live Operations\n\n• Build internal dashboard for support team to view transaction history, statuses, and failure reasons\n\n• Include search and filtering by user, corridor, date, and transaction status\n\n• Add ability to trigger resend or manual resolution for failed payouts\n\nBudget: $6,000\n\nCompletion Date: 18 Dec 2025  \n\nDeliverable 4 First Live Transactions + Post Go-Live Bug Fixes/Enhancements\n\n• Process first $100k live customer transactions to Malawi and DRC corridors\n\n• Monitor end to end payout success, reconciliation, and customer feedback\n\nBudget: $22,000\n\nCompletion Date: 30 Jan 2026\n\nTotal Tranche 3: $50,000",
                         "stellar.teamMembers": "Thami",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://kasi.money/",
                             "codeRepository": "https://docs.google.com/document/d/1bZLh__HK6eZX3sCWap6hyjftJCeFZWMqXbI8dfinaEk/edit?tab=t.0",
@@ -418,14 +418,18 @@
                         "stellar.socialMedia": {
                             "linkedIn": "https://www.linkedin.com/company/kasimoneyapp"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 50000.0,
                                 "denomination": "USD"
+                            },
+                            {
+                                "amount": 129645.25,
+                                "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 150000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -439,7 +443,6 @@
                     "contentURI": "",
                     "status": "Information Collection",
                     "description": "A global, community-driven Stellar merch platform blending premium physical products with blockchain-native features like NFT-based proof of authenticity, creator royalties, and community-driven governance.",
-                    "fundsApprovedInUSD": 105000.0,
                     "extensions": {
                         "stellar.productsAndServices": "The Stellar Merch Shop will be a global, official merch platform combining premium physical products with blockchain-native features.  \n\n-   Official Stellar Merch: for this project, we are in collaboration with the Stellar Development Foundation to build a high-quality, globally accessible storefront (Shopify-based) with limited drops, exclusive collaborations, and localized production through verified suppliers.\n    \n-   NFT-Linked Products: each item will carry a unique NFT (QR/UUID tag) serving as proof of authenticity, enabling resale and unlocking utilities such as access to exclusive collections, community events, or future reward programs.\n    \n-   Creator & Ecosystem Support: independent designers and Stellar ecosystem projects will be able to launch their own branded merch lines, with automated royalties on primary and secondary sales.\n    \n-   Community Governance: a DAO layer will let the community co-select new designs, vote on collaborations, and participate in co-creation contests.\n    \n-   Collection Management dApp: users will manage, trade, and showcase their NFT-backed merch in a dedicated dApp with Web2-like onboarding.\n    \n-   Open-Source Modules: core components (NFT minting, royalty engine, governance) will be released as reusable building blocks, encouraging other Stellar marketplace initiatives to build on top.",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1y8tlgZi5UyObRoe0pXJfjQWrKpAOz19NLrQar7pi7sU/edit?usp=sharing",
@@ -450,12 +453,13 @@
                         "stellar.tranche2Testnet": "1.  Non Fungible Tokens backend;\n    \n    -   Custom NFT contract allowing SKUs to be on-chain.\n        \n    -   Logic to create a NFT which can be traded, used for \n        \n    -   W1 to W5\n        \n    -   USD 15K\n        \n1.  Non Fungible Tokens link with merch;\n    \n    -   Bind NFTs to SKUs,\n        \n    -   We can add a SKU and a NFT is created. Single items from a series can be traced back on-chain,\n        \n    -   W1 to W8\n        \n    -   USD 5K\n        \n1.  Non Fungible Tokens frontend;\n    \n    -   Build an experience around the NFT and Merch on the platform,\n        \n    -   It can be transferred, traded, viewed, directly from the platform,\n        \n    -   W3 to W8\n        \n    -   USD 15K",
                         "stellar.tranche3Mainnet": "1.  Decentralized organization backend;\n    \n    -   Create a decentralized organization for content creators and the community,\n        \n    -   Make a proposal of design and be able to execute a vote,\n        \n    -   W1 to W3\n        \n    -   USD 15K\n        \n1.  Decentralized organization;\n    \n    -   Frontend for the DAO with different flows for content creators and community,\n        \n    -   We can use the DAO though the dapp, creators can propose new design,\n        \n    -   W3 to W8\n        \n    -   USD 15K\n        \n1.  QA and scale up;\n    \n    -   Platform stabilization (testing, maintainability, documentation),\n        \n    -   Code is in a good state and all features are stable,\n        \n    -   W3 to W8\n        \n    -   USD 5K",
                         "stellar.teamMembers": "Tupui, Barth Houot",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://www.canva.com/design/DAGvqViz_jY/SHMC1PklN_o6qUO-pjRpUQ/view?utm_content=DAGvqViz_jY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6111e02b9f",
                             "videoURL": "https://youtu.be/yhxx18oONqQ"
-                        },
-                        "org.stellar.communityfund.awardType": "Build"
-                    }
+                        }
+                    },
+                    "fundsApprovedInUSD": 105000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -469,7 +473,6 @@
                     "contentURI": "",
                     "status": "Information Collection",
                     "description": "Offers Stellar payment orchestration to help businesses manage custody, compliance, and flows with KYT, payment links & policies",
-                    "fundsApprovedInUSD": 118000.0,
                     "extensions": {
                         "stellar.productsAndServices": "1.  Create Stellar Wallets with KMS: Businesses can CREATE Stellar wallets directly in Arrel. Private keys are secured via our internal KMS, ensuring full control stays with the client. [Already deployed on mainnet after SCF#37 (Check Notion workspace - link )].\n    \n1.  Unified Asset & Updated Wallet Aggregation Dashboard: Businesses can connect both newly created and existing Stellar wallets, and track balances, tokenized assets, and transactions from a unified dashboard. Fully coded → To be deployed under SCF38.\n    \n1.  Payment Links: Merchants, PSPs, NGOs, or fintechs can create one-time or recurring payment links to receive Stellar assets like USDC or XLM. Links can be embedded in websites or apps, or shared as standalone URLs\n    \n1.  Compliance Monitoring (KYT)= Each transaction is KYT-eligible. Through our Chainalysis integration, users can automatically generate compliance reports. Examples available in our shared Notion workspace ( link )\n    \n1.  Custody Options and User Controls: Businesses can choose between using self-managed wallets or integrating a custodian via API with our partner Fireblocks. In both cases, they can enforce rules such as transaction approval workflows, limits, and time-based controls.\n    \n\nWhat this unlocks for our clients:\n\n→ Create a Stellar treasury wallet instantly\n\n→ Accept stablecoin payments or donations in USDC, EURC, while staying compliant.\n\n→ Enforce compliance (KYT) at transaction level\n\n→ Rebalance funds automatically in Arrel, or auto-transfer funds to 15+ CEXs\n\n→ Slash off-ramping costs from 1–5% to a flat amount in local currency (e.g. 1 EUR per SEPA withdrawal for any amount, no extra integrations or KYC from service providers)\n\n→ Keep treasury in stablecoins, BENJI, or FX-hedged assets\n\n→ Automate asset swaps, rebalancing, or tactical trading — no devs required\n\nEcosystem Impact:\n\n→ Brings real-world businesses, payment providers, NGOs, and fintechs into Stellar\n\n→ Increases on-chain stablecoin flows and anchored fiat volume",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1-nso4pxYsiwoJdukUkukfqClqEdIXQaGjwxpgb1yQZ8/",
@@ -480,6 +483,7 @@
                         "stellar.tranche2Testnet": "Estimated Completion: November 31, 2025\n\nBudget: $30,000\n\nBrief Description:\n\nThis tranche refines and automates the full payment link flow on Stellar Testnet, allowing assets to be received and routed with compliance checks. It introduces a policy rules engine where businesses define events off KYT triggers, a custody configuration interface for selecting wallet type (self-custody or Fireblocks), and a detailed wallet dashboard showing balances, transaction history, and compliance status.\n\nHow to Measure Completion:\n\n-   Payment links function end-to-end on Testnet with auto-routing\n    \n-   Custom rules block or flag test transactions based on user-defined logic\n    \n-   Custody mode toggle works as expected per wallet\n    \n-   Wallet dashboard displays live data with transaction breakdown and KYT status",
                         "stellar.tranche3Mainnet": "Estimated Completion: January 8, 2026\n\nBudget: $30,000\n\nBrief Description:\n\nThis tranche activates Arrel’s Stellar infrastructure in production, enabling real institutional clients to create, monitor, and operate wallets live on Mainnet. It includes the deployment of full wallet analytics (real-time flow insights and KYT history), full off-ramp execution with one merchant (USDC/XLM → CEX → fiat), and monitoring tools with exportable audit logs.\n\nHow to Measure Completion:\n\n-   Mainnet wallets live and functional in production\n    \n-   Analytics dashboard tracks inflows, asset types, and KYT outcomes\n    \n-   At least one merchant completes end-to-end off-ramp to fiat\n    \n-   Monitoring tools active; audit logs downloadable;",
                         "stellar.teamMembers": "Nicholas Allen",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://www.arreltech.com/",
                             "codeRepository": "https://docs.google.com/document/d/1SIM4684uAjwq2zBfqegS8XFQlxR9L92i_zlXu16ffKQ/edit?usp=sharing",
@@ -487,9 +491,9 @@
                         },
                         "stellar.socialMedia": {
                             "linkedIn": "https://www.linkedin.com/company/arrel-technology/"
-                        },
-                        "org.stellar.communityfund.awardType": "Build"
-                    }
+                        }
+                    },
+                    "fundsApprovedInUSD": 118000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -499,11 +503,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:webacy-inc",
                     "projectName": "Webacy Inc.",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-17T00:00:00Z",
                     "contentURI": "",
                     "status": "Test Transaction",
                     "description": "Offers real-time wallet and token risk scoring to help Stellar ecosystem be safer using DD’s on-chain threat intelligence.",
-                    "fundsApprovedInUSD": 150000.0,
                     "extensions": {
                         "stellar.productsAndServices": "Webacy’s DD platform provides real-time risk scoring for wallets and tokens, enabling Stellar-based applications wallets, block explorers, DEXs, and even the Stellar team itself to identify scams, phishing attempts, and malicious activity before user harm occurs. By integrating with Stellar, DD will power a trust layer across the ecosystem, allowing developers to query wallet and token safety scores and display warnings or take action before transactions are executed. This infrastructure will make Stellar network safer and more resilient for new users, institutions, and for on-chain finance.\n\nWe have a number of services, but here are some of the highlights:\n\n-   Fund Flow analysis: screen wallets, transactions, and protocols for malicious or risky fund flows, helping platforms stay compliant, fight malicious behavior, and keep users safe\n    \n-   Wallet and Token scoring: DD any address on chain, giving users and builders insights into financial, behavioral, and code-based risks to make better decisions\n    \n-   Transaction Simulation: industry-best tx simulation to catch issues before they're executed on-chain\n    \n\nWe have a ton of other services and products and are excited to bring them to Stellar!",
                         "stellar.technicalArchitecture": "https://drive.google.com/file/d/186-2p8KCfbWrMZS9Lhv602Ut8YRcdCXh/view?usp=sharing",
@@ -514,6 +517,7 @@
                         "stellar.tranche2Testnet": "Since our technologies are not smart contracts themselves, it would actually make more sense for us to build and deploy directly on Stellar mainnet. This way, all of our technologies, data sets, and ML models are trained on real data, where real financial risks and economic/behavioral patterns can be observed.\n\n  \nFor this portion of the Tranche, we will improve on data redundancy, integrate multiple data providers for Stellar data (in case one goes down or is sending problematic data), and reinforce our risk engine with cross-chain intelligence from our current data pipelines.",
                         "stellar.tranche3Mainnet": "1. [Deliverable 1]: Live Launch with Protocol Partners\n\n-   Brief Description: Live integration of DD technologies into projects built on Stellar\n    \n-   How to Measure Completion: Integrations launched with at least 2 projects on Stellar (block explorers, wallets, dex, etc.)\n    \n-   Estimated Date of Completion: Tranche 2 + 60 days (pending partner integration timeline)\n    \n-   Budget:  \n    $20,000  \n    (API cost subsidy to partners to fund the integration)\n    \n\n2. [Deliverable 2]: Stellar Integration into DD.xyz\n\n-   Brief Description: Get full Stellar DD results in our UI dashboard at DD.xyz\n    \n-   How to Measure Completion: Ability to view DD analysis on Stellar blockchain live on DD.xyz app\n    \n-   Estimated Date of Completion: Tranche 2 + 60 days\n    \n-   Budget: $20,000  \n    (Front-end engineering, Stellar integration into dashboard UI/UX, internal QA testing)",
                         "stellar.teamMembers": "Maika, Brian Wong",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "http://dd.xyz/",
                             "codeRepository": "https://webacy.readme.io/reference/webacy-api-overview",
@@ -523,14 +527,18 @@
                             "linkedIn": "https://www.linkedin.com/company/webacy/",
                             "twitter": "https://x.com/mywebacy"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 50000.0,
                                 "denomination": "USD"
+                            },
+                            {
+                                "amount": 129645.25,
+                                "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 150000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -540,11 +548,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:hito-wallet",
                     "projectName": "Hito Wallet",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-16T00:00:00Z",
                     "contentURI": "",
                     "status": "Information Collection",
                     "description": "Enable the Hito hardware wallet to support Stellar. Hito, currently supports Bitcoin, Ethereum, Solana and NEAR and has sold more than 5,000 customized wallets.",
-                    "fundsApprovedInUSD": 50000.0,
                     "extensions": {
                         "stellar.productsAndServices": "Deliverables:\n\n1.  Open-Source Stellar Firmware:\n    \n    -   Dedicated secure firmware for XLM and Soroban interactions.\n        \n    -   Transparent, community-driven codebase for security audits and feature enhancements.\n        \n1.  Hardware Wallet Production:\n    \n    -   Manufacture and distribute an initial batch of 100 custom-branded wallets targeting Stellar development and community users.\n        \n1.  Customized Software\n    \n    -   Secure on-device transaction signing including Moneygram integration.\n        \n    -   User-friendly Stellar-specific UI, NFC, Bluetooth connectivity, compact form factor, and extended battery life compared to competitors.\n        \n\n  \n\nWhy Stellar? (Value Proposition):\n\n-   Like Stellar, Hito Wallet is on a mission to empower users to easily and securely manage their crypto holdings with a full color screen to see swaps, yields, tap to sign\n    \n-   Addresses a significant gap due to limited customized native hardware wallet support for Stellar - completely wireless (power-glitching resistant) hardware crypto wallet with double security, full-color touch screen and a beautiful design.\n    \n-   Supports secure treasury management and multi-sig wallet solutions for organizations within Stellar.\n    \n-   Superior intuitive UX/UI over existing Stellar wallets (Freighter, Lobstr, XBull), significantly enhancing user adoption.\n    \n-   Critical solution for users in emerging markets (particularly Asia, Africa, and Latin America) facing government corruption, financial instability, and hyperinflation. \n    \n\n  \n\nTechnical Architecture:\n\n-   Open-source Stellar-specific firmware development hosted on GitHub.\n    \n-   Clearly documented Stellar integration, supported by detailed wireframes showcasing interaction flows (XLM transactions, Soroban contracts execution).",
                         "stellar.technicalArchitecture": "https://hito.xyz/hito_stellar_technical_architecture.md",
@@ -555,6 +562,7 @@
                         "stellar.tranche2Testnet": "Tranche 2 - Testnet Integration & Market Feedback\n\nDescription: Deploy Beta Stellar Hito wallets to key users test Stellar testnet and Soroban features, \n\nGoals:\n\n-   Gather real-world usability feedback to drive customization/messaging\n    \n\nHow to Measure Completion:\n\n-   Successful Stellar testnet transaction logs and user interaction data.\n    \n-   Structured user feedback reports highlighting specific issues for fixing/development \n    \n\nEstimated Completion Date:\n\n-   Month 4 (from project start)\n    \n\nBudget:\n\n-   $10,000\n    \n-   Founder/primary engineer and designer for testnet implementation  @ $50/hour for ~200 hours: $10,000",
                         "stellar.tranche3Mainnet": "Tranche 3 - Mainnet Launch & Full Deployment\n\nDescription:\n\n-   Finalize and launch fully-functional firmware optimized for Stellar mainnet and complete Soroban integration.\n    \n-   Manufacture and distribute 100 branded Hito wallets, specifically tailored to the feedback gathered during the testnet phase.\n    \n-   Establish local partnerships to enhance adoption and market penetration in targeted Asian communities.\n    \n\nHow to Measure Completion:\n\n-   Firmware publicly released on GitHub with proven mainnet functionality.\n    \n-   Successful manufacturing and deployment of 100 wallets informed by user feedback.\n    \n-   Documentation demonstrating active wallet usage and positive market response.\n    \n\nEstimated Completion Date:\n\n-   Month 6 (from project start)\n    \n\nBudget:\n\n-   $15,000\n    \n-   Founder/primary engineer and designer  @ $50/hour for ~80 hours: $4,000\n    \n-   production manager @$35/hour for 100 hours: ~3,000\n    \n-   Sponsored review videos: ~$8,000",
                         "stellar.teamMembers": "Mikhail Kirillov",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://hito.xyz",
                             "codeRepository": "https://github.com/mishabunte/",
@@ -564,7 +572,6 @@
                             "linkedIn": "https://www.linkedin.com/company/hitoxyz",
                             "twitter": "https://x.com/hito_xyz"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 16666.67,
@@ -575,7 +582,8 @@
                                 "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 50000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -585,11 +593,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:agnostic",
                     "projectName": "Agnostic",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-17T00:00:00Z",
                     "contentURI": "",
                     "status": "Test Transaction",
                     "description": "Offers a real-time analytics platform to help Stellar developers access and explore on-chain data easily with SQL-powered tools",
-                    "fundsApprovedInUSD": 121000.0,
                     "extensions": {
                         "stellar.productsAndServices": "What Agnostic Is\n\nAgnostic is a real-time analytics platform purpose-built for blockchain data. It allows developers, analysts, and enterprises to query, visualize, and share insights on-chain—without building custom data pipelines or managing low-level infrastructure.\n\nAgnostic is now going all-in on Stellar. We are building a dedicated indexing and analytics stack for the Stellar blockchain, providing a unified interface for accessing both core ledger data and emerging smart contract activity via Soroban.\n\nOur mission is to make Stellar data programmable, observable, and shareable, using the full power of ClickHouse, SQL, and AI-assisted interfaces. Agnostic abstracts the raw complexity of blockchain data into intuitive analytics layers—enabling everything from simple balance lookups to cross-asset liquidity analytics or compliance dashboards\n\nThe Problem\n\nStellar is one of the most efficient and mature blockchain infrastructures, particularly suited for payments and stablecoins. However, visibility into Stellar’s on-chain activity remains fragmented and underutilized: - No common query language (Horizon is REST only) - No native SQL or BI integrations - Difficult to track smart contracts (Soroban) - Limited support for reproducible research\n\nFor developers and analysts accustomed to tools like Dune or Flipside on EVM, Stellar’s data tooling remains underdeveloped.\n\nThe Solution\n\nAgnostic builds a complete data analytics stack for Stellar:\n\n-   ch-stellar: A set of high-performance user-defined functions that enrich ClickHouse with Stellar-specific capabilities.\n    \n-   Open analytics tables: A set of analytics table in Apache Iceberg format produced by our ClickHouse-based ETL engine (AGT)\n    \n-   AGX: A data exploration UI leveraging ClickHouse that allows users to explore and query Stellar tables with SQL. AGX also empower users with an AI-powered query generation companion.\n    \n-   DGN: A collaborative platform for users to share and collaborate on Stellar data\n    \n\nAgnostic reduces development time and unlocks visibility for developers, liquidity providers, researchers, and institutions building on Stellar.",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1DrJcAY5WPEWMSjeq1jm9rfTRfVzvAZCTY_ogpHhZbaM/edit?tab=t.0",
@@ -600,6 +607,7 @@
                         "stellar.tranche2Testnet": "Objective: Build all Stellar public datasets for testnet\n\nDeliverable 3: Full testnet Galexie export\n\nBrief description: Run a production-ready deployment of Galexie that continuously produce an export of testnet data and make it's output publicly accessible for pipelines reproductibility.\n\nHow to measure completion:A continuously updated set of XDR files forming a testnet export on a publicly accessible S3-compatible bucket.\n\nEstimated Completion: Nov 4, 2025\n\nEstimated Cost: $2,000\n\nDeliverable 4: Public Stellar tables for testnet\n\nBrief description: The pipelines for all previosuly mentionned tables are deployed in a production-ready-setup against testnet.\n\nThe set of Apache Iceberg tables is bacfilled and continuously updated, and is accessible on a public S3-compatible bucket for the community to use.\n\nHow to measure completion: all tables are publicly accessible and queryable from an Iceberg-compatible engine (eg: local ClickHouse installation or duckdb).\n\nEstimated Completion: Nov 24, 2025\n\nEstimated Cost: $10,000\n\nDeliverable 5: AGX deployment\n\nBrief description: An publicly accessible instance of AGX is deployed for the community to use.\n\nAnyone can query and chart the public Stellar tables from there.\n\nHow to measure completion: Anyone can run query and create charts against the public testnet tables\n\nEstimated Completion: Dec 15, 2025\n\nEstimated Cost: $10,000",
                         "stellar.tranche3Mainnet": "Objective: Pubnet launch\n\nDeliverable 6: Full pubnet Galexie export\n\nBrief description: Run a production-ready deployment of Galexie that continuously produce an export of pubnet data and make it's output publicly accessible for pipelines reproductibility.\n\nHow to measure completion: A continuously updated set of XDR files forming a pubnet export on a publicly accessible S3-compatible bucket.\n\nEstimated Completion: Jan 2, 2026\n\nEstimated Cost: $4,000\n\nDeliverable 7: Public Stellar tables for pubnet\n\nBrief description:\n\nThe pipelines for all previosuly mentionned tables are deployed in a production-ready-setup against pubnet.\n\nThe set of Apache Iceberg tables is bacfilled and continuously updated, and is accessible on a public S3-compatible bucket for the community to use.\n\nHow to measure completion: all tables are publicly accessible and queryable from an Iceberg-compatible engine (eg: local ClickHouse installation or duckdb).\n\nEstimated Completion: Jan 21, 2026\n\nEstimated Cost: $20,000\n\nDeliverable 8: DGN deployment\n\nBrief description: A publicly accessible instance of DGN is deployed for the community to use.\n\nHow to measure completion: Anyone can create and share analytics dahsboards and notebooks with the community or privately.\n\nEstimated Completion: Feb 9, 2026\n\nEstimated Cost: $10,000\n\nDeliverable 9: Public Dashboards\n\nBrief description: Create and maintain a core set of DGN dashboards for Stellar most important metrics.\n\nHow to measure completion: the dashboards are created on the community DGN instance and publicly accessible.\n\nEstimated Completion: Feb 20, 2026\n\nEstimated Cost: $5,000",
                         "stellar.teamMembers": "Didier Franc",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://youtu.be/OMolw_9VvFc",
                             "codeRepository": "https://github.com/agnosticeng",
@@ -609,14 +617,18 @@
                             "linkedIn": "https://www.linkedin.com/company/agnostic",
                             "twitter": "https://x.com/agnosticeng"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 40333.33,
                                 "denomination": "USD"
+                            },
+                            {
+                                "amount": 104580.49,
+                                "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 121000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -630,7 +642,6 @@
                     "contentURI": "",
                     "status": "Information Collection",
                     "description": "Token Terminal seeks to partner with Stellar to make its blockchain data transparent, standardized, and accessible to both institutional and retail stakeholders, driving ecosystem growth and adoption.",
-                    "fundsApprovedInUSD": 150000.0,
                     "extensions": {
                         "stellar.productsAndServices": "Token Terminal is integrating Stellar into its institutional-grade data platform to make Stellar’s onchain activity accessible, standardized, and comparable across the broader crypto ecosystem.\n\nThis integration includes:\n\n-   Custom data pipeline: A dedicated ELT pipeline will extract raw data from Stellar Core and Horizon nodes, process it, and store it in a queryable data warehouse.\n    \n-   Standardized metrics: Core KPIs such as protocol revenue, transaction count, stablecoin supply, and active addresses will be calculated using Token Terminal’s unified methodology—enabling apples-to-apples comparison with networks like Aptos and Solana.\n    \n-   Project & market sector pages: dApps built on Stellar will have individual dashboards with detailed metrics, visualizations, and benchmarking. Stellar will also be featured on relevant market sector pages (e.g., Blockchains (L1s)), increasing its visibility across ecosystem-wide analytics.\n    \n-   Data access: All Stellar data will be available via Token Terminal’s:\n    \n    -   Web Platform – Dashboards with visualized metrics, charts, and benchmarks.\n        \n    -   Sheets Plug‑in (Google Sheets & Excel) – Seamless spreadsheet integrations using built-in functions to pull Token Terminal metrics directly into financial models and workflows.\n        \n    -   API – Programmatic access for developers, analysts, and institutional users.\n        \n    -   Data Room – SQL-based access for custom queries across raw and standardized datasets.\n        \n-   Third-party distribution: Token Terminal’s data powers key industry platforms such as CoinGecko, Binance, Messari, and Focal. Stellar’s integration ensures its metrics are surfaced across these widely-used research and analytics channels.\n    \n-   Eligibility for indexes: XLM becomes eligible to be included in Token Terminal-powered cryptoasset indexes, launched by MarketVector and CF Benchmarks.\n    \n\nThis initiative significantly boosts Stellar’s discoverability, transparency, and credibility within capital markets—empowering analysts, investors, and developers to better understand and engage with the ecosystem.",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1--n_kYgldGKhz0P6aPeViyhxu2VRp8WlG9Vn0AxL90g/edit?usp=sharing",
@@ -641,15 +652,16 @@
                         "stellar.tranche2Testnet": "Brief description:  \nDevelop foundational data models, including an onchain price feed sourced from top DEX liquidity, and create data abstractions such as token/native transfers and other higher-level datasets to enable richer metric calculations.\n\nHow to measure completion:\n\n-   Onchain price feed is live, pulling and aggregating data from top DEX liquidity sources.\n    \n-   Abstraction datasets (e.g., token/native transfers, higher-level metrics) are fully generated and verified for accuracy.\n    \n-   Internal QA completed with documented feedback and issue resolutions.\n    \n\nEstimated date of completion:  \nNovember 15, 2025\n\nBudget:  \n$50,000",
                         "stellar.tranche3Mainnet": "Brief description:  \nLaunch Stellar protocol and ecosystem dashboards publicly on tokenterminal.com, with full API support for institutional and retail users. Expand coverage to key Stellar ecosystem projects.\n\nHow to measure completion:\n\n-   Stellar protocol dashboard live on the main Token Terminal site.\n    \n-   API endpoints for Stellar data publicly available and documented.\n    \n-   Minimum of 10 Stellar ecosystem projects listed and updated weekly.\n    \n\nEstimated date of completion:  \nDecember 31, 2025\n\nBudget:  \n$50,000",
                         "stellar.teamMembers": "Sebastian M",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://www.tokenterminal.com",
                             "videoURL": "https://www.youtube.com/watch?v=MbyEPYTjgH0"
                         },
                         "stellar.socialMedia": {
                             "twitter": "https://x.com/tokenterminal"
-                        },
-                        "org.stellar.communityfund.awardType": "Build"
-                    }
+                        }
+                    },
+                    "fundsApprovedInUSD": 150000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -659,11 +671,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:aerochain",
                     "projectName": "Aerochain",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-16T00:00:00Z",
                     "contentURI": "",
                     "status": "Information Collection",
                     "description": "Provides a blockchain protocol to help aerospace actors ensure part traceability and compliance with Soroban",
-                    "fundsApprovedInUSD": 128000.0,
                     "extensions": {
                         "stellar.productsAndServices": "Explore AeroChain in action through our live resources: the public Testnet API documentation and an interactive front-end demo\n\nAeroChain is building a decentralized protocol and infrastructure suite that enables aircraft manufacturers (OEM), airlines, and MROs to track the full lifecycle of aircraft parts using blockchain technology.\n\nWith this Stellar Build submission, we will:\n\n1.  Finalize and deploy Soroban smart contracts for parts traceability: Each aircraft part will be registered on-chain with a unique identifier. Ownership, certification status, usage metrics, and transfer events will be immutably recorded.\n    \n    ✅ Stellar Use: Uses Soroban to anchor verifiable part metadata and status updates on-chain.\n    \n    🎯 Impact: Brings transparency, combats counterfeit parts, and simplifies audits.\n    \n1.  Develop a REST API to simplify interactions with the Soroban smart contracts: AeroChain will expose an API layer for third-party integration. OEMs, MROs, Operators (Airlines) can push events like inspections, installations, and certifications without directly managing smart contracts.\n    \n    ✅ Stellar Use: The API wraps Stellar’s transaction logic, enabling role-specific operations via Soroban contracts.\n    \n    🎯 Impact: Lowers the barrier to adoption by integrating with existing ERP and maintenance tools.\n    \n1.  Launch a reference app (AeroChain App) tailored to MROs: This front-end application will allow MROs to register parts, update their status, and view certified histories. Additional dashboards for OEMs and regulators will follow.\n    \n    ✅ Stellar Use: Reads contract state via Horizon/Soroban RPC and pushes certified updates to Soroban.\n    \n    🎯 Impact: Enables rapid onboarding and provides an off-the-shelf solution for early adopters.\n    \n1.  Offer a developer SDK (Rust + Typescript): The SDK abstracts away the complexity of the Soroban environment and exposes typed helpers to build on-chain workflows faster.\n    \n    ✅ Stellar Use: Wraps Soroban logic with tested client libraries.\n    \n    🎯 Impact: Facilitates third-party integrations and encourages an ecosystem of complementary apps.\n    \n\nYou can also watch a demo of our current app here",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1NMIcfWTZ-h6koSZZo_RGIu2alixsf0wC_KTL5-Symcg/edit?tab=t.0#heading=h.kdh0u3ye3ybd",
@@ -674,12 +685,12 @@
                         "stellar.tranche2Testnet": "Note: Audit and infrastructure credits will be requested via Stellar LaunchKit.\n\n[Deliverable 1: Smart Contract Testing Suite]\n\n-   Brief description: Build a comprehensive test suite to validate the end-to-end workflows across all stakeholder roles (OEM, MRO, Airline). Includes regression tests, edge case handling, and gas optimization analysis.\n    \n-   How to measure completion: At least 500 transactions executed on Stellar Testnet across all smart contract functions; coverage report >90%; performance metrics logged.\n    \n-   Estimated date of completion: October 15, 2025\n    \n-   Budget: $15,000\n    \n\n[Deliverable 2: Developer SDK (Python + Rust)]\n\n-   Brief description: Release an open-source SDK to abstract interactions with Soroban smart contracts. Includes a Python client for integration with ERP systems and backend tools, and Rust utilities for lower-level integration and performance-critical workflows.\n    \n-   How to measure completion: SDK published on GitHub with documentation, test suite, usage examples (ERP integration, document signing, ownership transfer).\n    \n-   Estimated date of completion: November 1, 2025\n    \n-   Budget: $15,000\n    \n\n[Deliverable 3: Pilot Program with Industry Stakeholders]\n\n-   Brief description: Launch a live testnet pilot with at least 3 aerospace partners (e.g. ERP vendors, OEMs, or MROs). Includes setup, training, feedback collection, and iterative adjustments.\n    \n-   How to measure completion: Signed pilot agreements; feedback forms; 3+ organizations actively using testnet platform with verified transactions and participation in user testing sessions.\n    \n-   Estimated date of completion: November 15, 2025\n    \n-   Budget: $15,000",
                         "stellar.tranche3Mainnet": "[Deliverable 1: Soroban Contract Deployment on Mainnet]\n\n-   Brief description: Deploy the finalized version of the AeroChain smart contract suite to the Stellar Mainnet, including lifecycle management, document hashing, ownership transfer, and permission layers.\n    \n-   How to measure completion: Verified contract address on Stellar Mainnet with publicly visible interactions from at least 3 live organizations. Explorer links and transaction logs provided.\n    \n-   Estimated date of completion: November 30, 2025\n    \n-   Budget: $20,000\n    \n\n[Deliverable 2: Production API + MRO Frontend Launch]\n\n-   Brief description: Finalize and launch the production-grade REST API and MRO-facing dashboard, with full error handling, rate-limiting, telemetry, and logging. Designed to support real-world load and client integration.\n    \n-   How to measure completion: Live uptime metrics (>99%), integrated error monitoring (e.g. Sentry, Grafana), and successful onboarding of at least 2 real industry users.\n    \n-   Estimated date of completion: January 31, 2026\n    \n-   Budget: $15,000\n    \n\n[Deliverable 3: Developer Documentation Portal & Dev Tools]\n\n-   Brief description: Build a public-facing documentation portal for developers and integrators, featuring API references, SDK usage, tutorials, and a knowledge base for adoption across the ecosystem.\n    \n-   How to measure completion: Live portal with 10+ documented use cases, tutorials, FAQ, GitHub repo links, and live contract/spec viewer.\n    \n-   Estimated date of completion: January 31, 2026\n    \n-   Budget: $5,000",
                         "stellar.teamMembers": "Vincent Montesano",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://drive.google.com/file/d/14wyCbw4nK7rP8zW8FnNB4IXdDhqXwFKH/view",
                             "codeRepository": "https://github.com/SebWingleet/Aerochain-Stellar",
                             "videoURL": "https://www.loom.com/share/82f27389979441e381b67def84f1163e?sid=e2578479-9e05-4f63-8ba6-63c9b45edc42"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 42666.67,
@@ -690,7 +701,8 @@
                                 "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 128000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -704,7 +716,6 @@
                     "contentURI": "",
                     "status": "Information Collection",
                     "description": "Expand Stellar’s gaming ecosystem by integrating with Beamable to enable devs to rapidly build & launch games on Stellar.",
-                    "fundsApprovedInUSD": 150000.0,
                     "extensions": {
                         "stellar.productsAndServices": "Beamable provides a full-stack game services solution for game developers to rapidly add social, commerce, content, multiplayer, and custom APIs to their game projects. With this funding, Beamable will add support for Stellar assets (FTs, NFTs) so game developers can bring their projects on-chain with relatively little effort. This includes:  \n  \n1. Sample projects - Unity, Unreal, and JavaScript (HTML5) examples of a full game implementation on Steller.  \n2. Clear documentation - Developer docs that help any developer get started in the Stellar ecosystem with the Beamable stack. \n\n3. Developer support - specialized hands-on support via Discord and Slack to game devs for any questions they have about Stellar, integration, and building a successful commercial game. \n\n4. Hands-on-keyboard Support - Opportunity to upsell developers to an integration package for our team to do the integration for them directly and accelerate their roadmaps.",
                         "stellar.technicalArchitecture": "https://docs.google.com/presentation/d/1pUh3DzvdCaCaj_duoLyJYiZWEyzeXGsaO5U-AHLaHGo/edit?usp=sharing",
@@ -715,6 +726,7 @@
                         "stellar.tranche2Testnet": "**Month 2 & 3**  \nOne (1) Web3 Dev  \nOne (1) Unity Dev  \nOne (1) Unreal Dev  \nOne (1) HTML5/JavaScript Dev  \n$80,000  \nDeliverable: Three playable games that demonstrate Stellar integration with C#Microservice  \n  \n1. Complete three (3) sample projects for Unity / Unreal / HTML5 that demonstrate in a working game how the C# microservice integration functions.  \n2. All sample projects include a playable single-player game that includes frictionless wallets/ID, multiple in-game currencies, a \"shop\" to purchase on-chain assets, a gameplay loop to demonstrate integrated on-chain/off-chain game content, and player inventory.\n\n3. All three games integrate the C# Microservice/custom API from the Tranche1/MVP phase to enable on-chain features.",
                         "stellar.tranche3Mainnet": "**Month 4**  \nOne (1) Web3 Dev  \nOne (1) Documentation Engineer  \n$34,000  \nDeliverable: Developer-ready documentation to allow for any Unity, Unreal, or HTML5 game dev to get started on Stellar  \n  \n1. Complete all “Getting Started” documentation for the sample projects and C# Microservice install, and make the Git repositories available to Stellar game developers.  \n2. Documentation will be hosted at readme.com and in the Readme of the Git repositories  \n3. Documentation will also exist inside the sample projects (Unity, Unreal, HTML5) for game devs to understand integration points.",
                         "stellar.teamMembers": "Trapper Markelz",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://beamable.com",
                             "codeRepository": "https://github.com/beamable",
@@ -724,9 +736,9 @@
                             "linkedIn": "https://www.linkedin.com/company/beamable",
                             "twitter": "https://x.com/Beamable",
                             "discord": "https://discord.gg/beamable"
-                        },
-                        "org.stellar.communityfund.awardType": "Build"
-                    }
+                        }
+                    },
+                    "fundsApprovedInUSD": 150000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -740,7 +752,6 @@
                     "contentURI": "",
                     "status": "Information Collection",
                     "description": "Shipping Soroban straight to your browser. No clutter. No delays. No dev drama.",
-                    "fundsApprovedInUSD": 60000.0,
                     "extensions": {
                         "stellar.productsAndServices": "WebSoroban is a browser-based, AI-powered IDE designed to make building on Stellar with Soroban smart contracts effortless.\n\nEverything Developers Need, Nothing They Don’t\n\n-   Zero-Setup Development – Write, compile and deploy Soroban contracts directly in your browser - no CLI or SDK required. Contracts are deployed instantly to Stellar’s testnet or mainnet, enabling developer onboarding in minutes.\n    \n\n-   AI Copilot – Generate, debug, and optimize Soroban-ready Rust code using natural language. Every output is validated for Stellar compatibility, reducing the learning curve for new and cross-chain developers.\n    \n\n-   One-Click Deployment - Launch contracts to Stellar’s network in seconds, accelerating iteration and time-to-market for DeFi, NFT and enterprise applications.\n    \n\n-   Live Simulation & Debugging – Test transactions, monitor gas usage and troubleshoot in real-time on Stellar, improving code quality and reducing deployment risks.\n    \n\n-   Community Templates – Access a growing library of pre-built, Stellar-compliant contract templates for common use cases, speeding up project initiation and ecosystem expansion.\n    \n\nOur mission: Remove friction from smart contract development so developers can focus on innovation, not setup. Every hour saved in tooling is an hour invested in building value on Stellar.",
                         "stellar.technicalArchitecture": "https://drive.google.com/drive/folders/17s_r37BavkveK5NIhXkCdkRgj-dHhffW?usp=sharing",
@@ -751,6 +762,7 @@
                         "stellar.tranche2Testnet": "Deliverable 3: Community Contract Templates Library\n\nDescription: Create a repository of at least 10 tested, documented Stellar-compliant Soroban contract templates for DeFi, NFT, and institutional finance use cases.\n\nHow to Measure Completion:\n\n-   10+ tested and documented templates available\n    \n-   Templates deployed successfully by 5+ community developers\n    \n-   Documentation hosted publicly with clear usage guides\n    \n\nEstimated Completion Date: 6 Weeks\n\nBudget Allocation: $12,000 USD\n\nDeliverable 4: Workshop & Hackathon Integrations\n\nDescription: Integrate WebSoroban into Stellar hackathons and workshops, enabling “code in the browser” experiences for rapid onboarding.\n\nHow to Measure Completion:\n\n-   WebSoroban used in at least 3 Stellar events\n    \n-   150+ developers onboarded live\n    \n-   ≥80% satisfaction rate in feedback surveys\n    \n\nEstimated Completion Date: 12 Weeks\n\nBudget Allocation: $8,500 USD",
                         "stellar.tranche3Mainnet": "Deliverable 5: AI Copilot for Soroban\n\nDescription: Integrate AI assistant capable of generating, debugging, and optimizing Soroban Rust contracts from natural language prompts, validated for Stellar compatibility and security.\n\nHow to Measure Completion:\n\n-   AI generates fully functional Soroban contracts\n    \n-   At least 30+ AI-generated contracts deployed to testnet\n    \n-   ≥70% positive feedback from pilot testers\n    \n\nEstimated Completion Date: 24 Weeks\n\nBudget Allocation: $15,500 USD\n\nDeliverable 6: Mainnet Launch & Developer Adoption Milestone\n\nDescription: Public launch of WebSoroban with full features (IDE, templates, live simulation, AI Copilot), plus adoption campaigns and case studies.\n\nHow to Measure Completion:\n\n-   Fully operational platform live on mainnet\n    \n-   500+ developers onboarded in first month post-launch\n    \n-   At least 125+ contracts deployed to mainnet\n    \n\nEstimated Completion Date: 8 Weeks\n\nBudget Allocation: $4,000 USD",
                         "stellar.teamMembers": "Akash Panda, Aaditi Bhambhani",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://web-soroban.vercel.app",
                             "codeRepository": "https://github.com/orgs/WebSoroban/repositories",
@@ -758,9 +770,9 @@
                         },
                         "stellar.socialMedia": {
                             "twitter": "https://x.com/WebSoroban"
-                        },
-                        "org.stellar.communityfund.awardType": "Build"
-                    }
+                        }
+                    },
+                    "fundsApprovedInUSD": 60000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -770,11 +782,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:rozo-one-tap-to-pay",
                     "projectName": "ROZO - One Tap to Pay",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-10T00:00:00Z",
                     "contentURI": "",
                     "status": "Awarded",
                     "description": "Stablecoin Abstraction for Real-World Commerce. Any coin. Any Chain.",
-                    "fundsApprovedInUSD": 150000.0,
                     "extensions": {
                         "stellar.productsAndServices": "ROZO is the Visa layer for stablecoins. Our product is divided into two parts:\n\n1. QR-Code One-Tap Checkout\n\n-   How Stellar Is Used: Acts as our settlement rail for USDC payments—regardless of originating chain, funds route via Stellar’s fast, low-fee network.\n    \n-   Impact: Enables truly chain-agnostic, one-tap in-person payments: users simply scan a QR code, and settlement finalizes in seconds.\n    \n\n2. Cross-Chain Stablecoin Abstraction API\n\n-   How Stellar Is Used: Powers our cross-chain routing layer alongside CCTP, automatically bridging any stablecoin into USDC on Stellar before payout.\n    \n-   Impact: Unlike CCTP’s multi-minute settlement, we achieve sub-second finality, making Stellar USDC truly viable for real-life consumer payments.",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1wfSwYG9Pj06aNWAgImX1BzquGYaS6s1ZICXNxR2vMnY/edit?usp=sharing",
@@ -785,6 +796,7 @@
                         "stellar.tranche2Testnet": "Deliverable: Bi-directional Stellar ↔ Base Testnet\n\n-   Brief description:\n    \n    Deploy and configure cross-chain engine on Stellar Testnet and Base Sepolia to support transfers in both directions, with automated CCTP rebalancing and basic observability.\n    \n-   How to measure completion:\n    \n    -   Published testnet contract addresses & ABIs\n        \n    -   ≥ 300 successful Stellar→Base and Base→Stellar test transfers with ≥ 99% success\n        \n    -   Monitoring dashboard tracking latency (P95 < 10 s) and pool balances\n        \n-   Estimated date of completion: 2025-10-31\n    \n-   Budget: $50 000\n    \n    -   Engineering: $45,000\n        \n    -   Infrastructure/Ops (testnets, log/metrics pipelines, CI scale-up): $5,000",
                         "stellar.tranche3Mainnet": "Deliverable: Stellar Liquidity Pool/Escrow + SDK 1.0 for Wallets/Merchants\n\n-   Brief description:\n    \n    Launch a Soroban-based liquidity pool/escrow on Stellar Mainnet to support $50M monthly volume, and publish SDK 1.0 for easy integration into wallets.\n    \n-   How to measure completion:\n    \n    -   Mainnet pool contract address published\n        \n    -   Protocol supports 1M+ monthly transactions\n        \n    -   Published contracts, docs\n        \n    -   SDK 1.0 released on NPM/GitHub with sample integrations with wallets or Rozo App\n        \n-   Estimated date of completion: 2026-01-31\n    \n-   Budget: $50 000\n    \n    -   Engineering: $45,000\n        \n    -   Infrastructure/Ops (prod RPC, alerting, indexers, dashboards, SRE runbooks): $5,000",
                         "stellar.teamMembers": "Sky Muggle, Shawn Yu",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://www.rozo.ai/",
                             "codeRepository": "https://github.com/RozoAI/rozo-tap-to-pay",
@@ -795,7 +807,6 @@
                             "twitter": "https://x.com/ROZOai",
                             "discord": "https://discord.gg/9NXS7VPE"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 50000.0,
@@ -806,7 +817,8 @@
                                 "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 150000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -816,11 +828,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:peridot-finance",
                     "projectName": "Peridot Finance",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-16T00:00:00Z",
                     "contentURI": "",
                     "status": "Test Transaction",
                     "description": "Offers cross-chain DeFi with fintech-grade UX, lending, perpetuals, and AI guidance, built on Soroban and powered by Axelar & Wormhole.",
-                    "fundsApprovedInUSD": 91750.0,
                     "extensions": {
                         "stellar.productsAndServices": "Products and Services\n-------------------------\n\nPeridot is a cross-chain DeFi protocol enabling lending, borrowing, and dual investments from its earliest stage.  \nOur main app is live at finance/app, and we have deployed a Stellar-based example at peridot-soroban13.vercel.app.  \nWe are continuously enhancing the platform, with a strong focus on cross-chain capabilities as a core feature.\n\nScope of This Submission\n\nThis proposal will deliver six production-ready components, moving Peridot from proof-of-concept to a full-scale cross-chain lending platform.\n\n1. Lending & Borrowing Suite\n\n-   Technology: Full Soroban WASM smart contracts\n    \n-   Functions: Collateral management, interest rate calculations, liquidation handling for fractional tokens\n    \n-   Settlement: All repayments and liquidations settle in XLM, leveraging Stellar’s speed and cost efficiency\n    \n-   Impact: Generates protocol revenue while showcasing Stellar’s performance\n    \n\n2. Cross-Chain Bridge Integration\n\n-   Current Tech: Wormhole-based bridge\n    \n-   Functionality: Seamless movement of fractional tokens between Stellar and other chains (Ethereum, Sui, etc.)\n    \n-   Future Focus: Development of a simpler, more user-friendly bridging solution\n    \n\n3. AI Strategy Agent (MVP)\n\n-   Purpose: On-chain, data-driven assistant for users\n    \n-   Capabilities: Guides toward yield-optimised, risk-adjusted positions\n    \n-   Target Users: Ideal for DeFi newcomers and capital-efficiency seekers\n    \n\n4. Oracle Layer\n\n-   Providers: Witnet or Pyth price feeds\n    \n-   Role: Real-time updates of collateral valuations\n    \n-   Goal: Maintain accurate loan-to-value ratios, protect lenders against stale or manipulated pricing\n    \n\n5. Stellar-Optimised Frontend\n\n-   Design: Tailored for Freighter and LOBSTR wallets\n    \n-   User Experience: One-click interactions that hide cross-chain complexity\n    \n-   Advantage: Turns Soroban’s fast confirmations into a smooth, Web2-like experience\n    \n\nOutcome:  \nThese upgrades will:\n\n-   Broaden asset access for a wider range of users\n    \n-   Deepen Stellar liquidity\n    \n-   Position Stellar at the core of the emerging cross-chain lending economy",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1QlU_RbT-Uoti5YnhgW1NkCVEnO7b0bGJ/edit?tab=t.0#heading=h.30j0zll",
@@ -831,12 +842,12 @@
                         "stellar.tranche2Testnet": "Deliverable 4 – Frontend Testnet Integration\n\nDescription:\n\n-   Connect Soroban contracts to a React-based frontend\n    \n-   Enable key testnet actions: wallet connect, deposit, borrow, repay\n    \n\nCompletion Criteria:\n\n-   Fully functional flow from wallet connection to successful loan repayment on Stellar testnet\n    \n\nBudget: $10,410  \nEstimated Completion: 06 Nov 2025\n\nDeliverable 5 – AI Agent MVP (Strategy Helper)\n\nDescription:\n\n-   Develop a frontend component offering investment strategies (e.g. low risk / high return)\n    \n-   Use mock backend or preset logic for recommendations\n    \n\nCompletion Criteria:\n\n-   Users can select a strategy\n    \n-   System displays recommended actions based on user balance and preferences\n    \n\nBudget: $10,150  \nEstimated Completion: 27 Nov 2025\n\nDeliverable 6 – Liquidation Engine Deployment to Testnet\n\nDescription:\n\n-   Finalize and deploy an off-chain liquidation bot monitoring loan positions\n    \n-   Bot initiates liquidation transactions on testnet when required\n    \n\nCompletion Criteria:\n\n-   Bot runs continuously without interruption\n    \n-   Successful liquidation transactions executed on Stellar testnet when criteria are met\n    \n\nBudget: $10,250  \nEstimated Completion: 17 Dec 2025",
                         "stellar.tranche3Mainnet": "Deliverable 7 – Mainnet Smart Contract Deployment\n\nDescription:\n\n-   Finalize audit-reviewed smart contracts\n    \n-   Deploy to Soroban mainnet\n    \n\nCompletion Criteria:\n\n-   Public contract addresses published\n    \n-   Deployment verified, with accessible and verified source code\n    \n\nBudget: $11,190  \nEstimated Completion: 13 Jan 2026\n\nDeliverable 8 – Frontend Mainnet Launch + Wallet Integrations\n\nDescription:\n\n-   Launch fully functional frontend UI connected to live Soroban contracts\n    \n-   Full support for Soroban-compatible wallets\n    \n\nCompletion Criteria:\n\n-   Successful transaction confirmations from the live UI using real accounts\n    \n\nBudget: $10,750  \nEstimated Completion: 03 Feb 2026\n\nDeliverable 9 – AI Agent Live Integration\n\nDescription:\n\n-   Deploy final version of the AI strategy assistant\n    \n-   Features: interaction memory, improved strategy flows, and real-time feedback\n    \n\nCompletion Criteria:\n\n-   Used by at least 10 real test accounts\n    \n-   Logs and user feedback confirm successful assistance\n    \n\nBudget: $12,420  \nEstimated Completion: 24 Feb 2026",
                         "stellar.teamMembers": "Joshua , Nakamo Toe, Joshua Schiemann",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://peridotsoroban13.vercel.app/",
                             "codeRepository": "https://github.com/PeridotFinance/Peridot-Soroban/tree/main",
                             "videoURL": "https://youtu.be/syvW-AGyMm4?si=504EIN8kLm4Sbbwn"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 30583.33,
@@ -847,7 +858,8 @@
                                 "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 91750.0
                 },
                 {
                     "type": "GrantApplication",
@@ -857,11 +869,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:minah",
                     "projectName": "Minah",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-17T00:00:00Z",
                     "contentURI": "",
                     "status": "Test Transaction",
                     "description": "Minah offers Africa-focused RWA investments to help Afro optimist investors fund projects with DeFi-powered, low-cost Stellar rails.  Minah.io is an investment platform transforming the investment landscape for Real World Assets (RWA) in West Africa, solving the pain point of funding capital in the region thanks to blockchain efficiency.   With this submission, we want to seamleassly integrate DeFi opportunities for the general public (staking, bond's interest reinvestment, etc).",
-                    "fundsApprovedInUSD": 97500.0,
                     "extensions": {
                         "stellar.productsAndServices": "Minah.io – On-Chain Investment Platform for Africa\n-----------------------------------------------------------------------------\n\n  \nMinah.io is launching a fully on-chain investment platform enabling global investors – particularly Afro optimist investors – to support Real-World Asset (RWA) projects in West Africa through secure, transparent, and tokenized investment flows.  \nA first investment strategy has already been deployed and is available as a working demo.\n\nThe platform leverages the fast, low-cost, and compliance-friendly Stellar blockchain, along with its extensive coverage across Africa, to deliver an end-to-end investment experience.\n\nKey Features to Be Developed or Enhanced\n--------------------------------------------\n\n1. Regulated Tokenized Investment Vehicles\n\nWe will issue a fully compliant security token representing a €500,000 loan pool, incorporating built-in logic to manage subscriptions, redemptions, and coupon payments.  \nThis token will be registered and distributed in accordance with applicable French and OHADA financial regulations.\n\n2. Investor Access & Onboarding\n\nUsing Stellar-compatible wallets (e.g., Freighter), investors in Europe and North America will be able to connect, complete KYC via Sumsub, and invest directly in vetted projects in Togo and Ghana.\n\nFor individuals indirectly impacted by our funding—such as tenants in financed buildings or suppliers in supported agribusinesses—we will onboard them to manage their cash flow on-chain.\n\nThis will involve integrating user-friendly wallets like Vibrant or Lobstr, enabling seamless conversion between local fiat currencies and on-chain assets.\n\nFor each loan pool, we anticipate a transaction volume approximately three times the invested capital; for example, a €500,000 pool is expected to generate around €1.5M in on-chain transactions.\n\n3. DeFi Integration for Yield Optimization\n\nWe plan to integrate staking, automated reinvestment of bond interest, and potential liquidity solutions—allowing users to maximize returns through DeFi-native strategies.\n\n4. On-Chain Monitoring & Transparency\n\nAll key events—including loan repayments, collateral updates, and social impact indicators—will be recorded immutably on-chain.  \nInvestors will have access to a transparent dashboard displaying real-time KPIs and financial flows.\n\n4 bis. On-Chain Local Integration with the Real Economy\n\nFor investments tied to OHADA economic participants, key financial transactions will also be executed on-chain.\n\nFor example, rent from the primary tenant in the first financed building will be paid directly on-chain, ensuring complete transparency from mobile money to wallet.\n\nThis model will onboard new Web3 users and generate recurring transaction volumes, as the entire payment infrastructure (e.g., rent collection systems) will be blockchain-based.\n\n  \n5. High-Impact Use of Funds\n\nFunds will be allocated to carefully selected infrastructure, renewable energy, and agricultural value chain projects.\n\nThese sectors were chosen for their strong multiplier effect on employment, supply chain resilience, and sustainable development.\n\nWe have also identified sustainability KPIs to monitor and ensure long-term impact.",
                         "stellar.technicalArchitecture": "https://www.dropbox.com/scl/fi/fuwfrzuupf16obqiwksbq/Minah-Technical-Architecture.docx?rlkey=ogkzibewxp6vtge6opk6i34xx&st=df9814io&dl=0",
@@ -872,6 +883,7 @@
                         "stellar.tranche2Testnet": "Deliverable 1: Soroban Smart Contract Development\n\nDescription  \nBuild and deploy the core Soroban smart contract to manage tokenized investment products, coupon logic, and distributions on Stellar testnet.  \nThis includes contract design, coding, internal testing, and implementation of all investment flow logic.\n\nHow to Measure Completion\n\n-   End-to-end investment flow validated on testnet.\n    \n-   Smart contract internally audited and functional with demo users.\n    \n\n  \nEstimated Completion Date  \n18 October 2025\n\n  \nBudget  \n$15,600\n\n  \nDeliverable 2: On-Chain & Fiat Payment Integration\n\nDescription\n\n1.  On-Chain Payment Integration (Stripe & MtPelerin)  \n    Integrate fiat-to-crypto and crypto-to-crypto gateways to allow users to invest with fiat and receive crypto returns. Freighter may be used to handle Stellar holders.\n    \n1.  Manual SEPA Wire Support  \n    Enable users to make SEPA wire and card payments (via MtPelerin) to Coinhouse for fiat onboarding.  \n    Payments will be tracked through the Compilot dashboard and reconciled with Fireblocks and Coinhouse custody.\n    \n\nNote: Displaying fiat subscriptions instantly on the dashboard will require additional implementation work.\n\n  \nHow to Measure Completion\n\n-   Users can complete a payment (on-chain or fiat) and see updated investment status in the dashboard.\n    \n-   Internal admin interface confirms payment reception and wallet link.\n    \n\n  \nEstimated Completion Date  \n12 November 2025\n\n  \nBudget  \n$14,300",
                         "stellar.tranche3Mainnet": "Deliverable 1: Public Investment Page & Returns Dashboard\n\nDescription\n\n-   Landing Page for New Strategy: Publish an updated landing front-end environment providing a complete overview of available investment strategies, FAQs, and regulatory disclaimers.\n    \n-   Returns Tracking Dashboard: Enable users to view real-time ROI projections, investment status, and coupon distribution data directly in their profile.\n    \n\n  \nHow to Measure Completion\n\n-   Public access to the landing page with active waitlist or onboarding functionality.\n    \n-   Returns dashboard fully functional, pulling live data from deployed contracts.\n    \n\n  \nEstimated Completion Date  \n25 November 2025\n\n  \nBudget  \n$13,600\n\n  \nDeliverable 2: Bond Coupon Collection & Fiat Subscription Integration\n\nDescription\n\n-   Bond Coupon Collection Mechanism: Automate periodic coupon claims through user-initiated smart contract calls or auto-distribution. Process flows from Orabank to Wewire and then to the Minah.io platform.\n    \n-   Coinhouse Fiat Subscription Management: Fully integrate with Coinhouse for fiat onboarding (SEPA, card, wire) and connect to wallet issuance on Stellar.\n    \n\nHow to Measure Completion\n\n-   Users can subscribe to investment products in fiat.\n    \n-   Coupon claims processed seamlessly through a single, user-friendly interface.\n    \n\n  \nEstimated Completion Date  \n5 December 2025\n\n  \nBudget  \n$16,800\n\n  \nDeliverable 3: Monitoring & Admin Interface\n\nDescription  \nDeploy an analytics and observability layer via Minah.io’s admin interface to monitor on-chain flows, user actions, errors, and system performance in real-time.\n\n  \nHow to Measure Completion\n\n-   Real-time dashboard available for admins to monitor KPIs, wallet activity, and coupon payouts.\n    \n-   Alert system operational for failed transactions or abnormal activity.\n    \n\n  \nEstimated Completion Date  \n22 December 2025\n\n  \nBudget  \n$13,800",
                         "stellar.teamMembers": "Julien Gakpe, Hervé Gakpé",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://minah.io/",
                             "videoURL": "https://www.youtube.com/watch?v=AXIXgrnC1ck"
@@ -880,14 +892,18 @@
                             "linkedIn": "https://www.linkedin.com/company/minahio",
                             "twitter": "https://x.com/MinahLabs"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 32500.0,
                                 "denomination": "USD"
+                            },
+                            {
+                                "amount": 84269.41,
+                                "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 97500.0
                 },
                 {
                     "type": "GrantApplication",
@@ -897,11 +913,10 @@
                     "projectsURI": "",
                     "projectId": "daoip-5:stellar:project:yieldbackcash",
                     "projectName": "YieldBack.Cash",
-                    "createdAt": "2024-12-01T00:00:00Z",
+                    "createdAt": "2025-09-17T00:00:00Z",
                     "contentURI": "",
                     "status": "Test Transaction",
                     "description": "YieldBack.Cash allows users to issue coupon bonds, sponsors deposit coupons that guarantee users fixed income while they earn the pool’s interest, boosting TVL.",
-                    "fundsApprovedInUSD": 125000.0,
                     "extensions": {
                         "stellar.productsAndServices": "YieldBack.cash is a smart-contract system that brings fixed-income bonds and interest rate swaps to the Stellar DeFi ecosystem.\n\nFixed-Income Bonds: Sponsors deposit a coupon reserve, guaranteeing users a fixed payout at maturity while the sponsor earns the floating yield from Blend pools. This creates zero-coupon or fixed-rate note structures that provide predictable income for investors and stickier TVL for Blend.\n\nInterest Rate Swaps:  A peer-to-peer mechanism for exchanging fixed and floating interest payments on a notional amount without transferring principal. This enables users to hedge or speculate on rate movements with minimal capital requirements.\n\nCapital Efficiency:  Both products are designed to maximize yield and minimize idle collateral, creating sustainable liquidity incentives for protocols while giving users transparent, on-chain access to traditional finance-style instruments.",
                         "stellar.technicalArchitecture": "https://docs.google.com/document/d/1zDDTGlYb2IJrF_wGHKo_joCWvJMGWwX2bLrUARX8HwE/edit?tab=t.ca53gsd54p5u",
@@ -912,19 +927,24 @@
                         "stellar.tranche2Testnet": "Budget: $40,000 \n\nBudget Breakdown: \n\nTestnet deployment & configuration – $12,000 \n\nFunctional and unit testing – $13,000 \n\nFrontend development (deposit, swap creation, redemption) – $15,000 \n\nScope: Deploy the complete system to Stellar Testnet with all planned features active. Conduct functional and unit testing of bond issuance, coupon payouts, and swap settlements. Simulate scenarios with varying interest rates to ensure accurate settlement. Finalize frontend for user deposits, swap creation, and redemption flows.",
                         "stellar.tranche3Mainnet": "Budget: $35,000\n\nBudget Breakdown: \n\nResolve medium/high vulnerabilities/issues from security audit – $8,000 \n\nMainnet smart contract deployment & final optimizations – $18,000 \n\nFinalize UI and configure for mainnet - $9,000\n\nScope: Resolve all medium/high severity security vulnerabilities/issues from security audit. Deploy to Stellar Mainnet with production-grade UI/UX.",
                         "stellar.teamMembers": "Ben Pekurovski",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://yieldback.cash/",
                             "codeRepository": "https://github.com/YieldBack-Cash/yieldback",
                             "videoURL": "https://www.youtube.com/watch?v=ug_NVod6n2o"
                         },
-                        "org.stellar.communityfund.awardType": "Build",
                         "org.stellar.communityfund.fundsPaid": [
                             {
                                 "amount": 41666.67,
                                 "denomination": "USD"
+                            },
+                            {
+                                "amount": 108037.72,
+                                "denomination": "XLM"
                             }
                         ]
-                    }
+                    },
+                    "fundsApprovedInUSD": 125000.0
                 },
                 {
                     "type": "GrantApplication",
@@ -938,7 +958,6 @@
                     "contentURI": "",
                     "status": "Information Collection",
                     "description": "Empowers crypto & pro traders to borrow 10x capital, trade multiple markets, and hedge with risk management tools",
-                    "fundsApprovedInUSD": 145000.0,
                     "extensions": {
                         "stellar.productsAndServices": "Vanna is a dual-sided, high performance DeFi proprietary trading protocol deployed on Soroban, architected to deliver undercollateralized margin lending, composable leverage execution, and integrated risk optimization across aggregated Stellar DeFi platforms. The system serves two primary stakeholder classes — Liquidity Providers (LPs) on the supply side and Traders/Borrowers on the demand side via an account-abstraction driven margin infrastructure directly connected to multiple derivatives and lending protocols.\n\nA) Liquidity Providers (Supply Side)\n\n-   Isolated Lending Pools: LPs supply assets (XLM, USDC, EURC) into protocol-isolated pools, eliminating cross-asset contagion and impermanent loss risks typical of AMM LPing.\n    \n-   Superior Yield Mechanics:\n    \n    a.  High Utilization Rates from leveraged borrowing demand (up to 10x capital amplification per trader), driving sustained borrow APRs above baseline market rates.\n        \n    a.  Liquidation Penalty Distribution, where penalties from leveraged position liquidations are shared directly with LPs in addition to interest income.\n        \n-   Capital Protection: Borrower funds remain in Vanna’s smart accounts, which operate under predefined protocol rules that control every action. All borrower interactions are processed through the risk engine, ensuring lenders’ capital is protected and lending risk remains fully contained within each isolated pool.\n    \n\nB) Traders / Borrowers (Demand Side)\n\n-   Account Abstraction Margin Accounts: Traders open Soroban-native smart accounts capable of managing multi-venue leveraged positions.\n    \n-   Undercollateralized Borrowing: Deposit initial margin and borrow up to 10x additional capital. Combined margin and debt can be programmatically allocated across supported markets:\n    \n    -   Leveraged LP Yields: Soroswap & Aquarius AMM LP positions with borrowed capital.\n        \n    -   Leveraged Spot Trading: Direct execution on Soroswap and Aquarius spot markets.\n        \n    -   Leveraged Lending Strategies: Yield generation via Blend lending pools.\n        \n-   Risk Optimization Layer: Professional-grade monitoring and hedging through an integrated dashboard, allowing you to track all active positions with payoff graphs and risk parameters, while enabling delta-neutral, leverage farming, looping leverage, and custom hedging strategies.\n    \n-   CEX-Grade UX On-Chain: Mimics traditional proprietary trading desks’ leverage workflows, fully ported on-chain through Soroban smart accounts.\n    \n\nProtocol Architecture (Soroban)\n-----------------------------------\n\nThe protocol architecture is built as a multi-layered execution and risk infrastructure with strict modular separation to optimize for security, composability, and protocol-integrated strategy automation.\n\n1. Core Infrastructure Layer\n\n-   Lending Pools Module: Supports XLM, USDC, EURC with isolated reserve logic and utilization-based dynamic interest rate curves.\n    \n-   Account Manager Module: Central transaction arbiter validating every margin operation, ensuring pre-execution health factor compliance.\n    \n-   Margin Account Module: Permission-gated, per-user contract instances supporting only protocol-approved leverage functions; enforces margin integrity.\n    \n-   Risk Engine Module: Real-time solvency computation for both overcollateralized and undercollateralized positions, integrated with liquidation automation triggers.\n    \n-   Interest Rate Model Module: Dynamic non-linear borrow/lend rate calculations (inspired by Sentiment Protocol), adapting to utilization changes.\n    \n-   Protocol Registry Module: On-chain mapping of all live controllers, adaptors, and integrated markets for deterministic protocol-level calls.\n    \n\n2. Leverage Execution Layer\n\n-   Controllers & Adaptors: Dedicated per-protocol controllers for Soroswap, Blend, Aquarius; abstract venue-specific logic while enforcing risk & leverage constraints.\n    \n-   Oracle Integration: Primary integration with Stellar Oracle SEP to source standardized, time-weighted price data for supported assets. Includes contingency for custom or third-party oracle providers if SEP coverage, latency, or reliability thresholds are not met, ensuring accurate pricing and robust failover in volatile markets.\n    \n-   Cross-Protocol Position Management: Enables simultaneous leverage allocation across LP, spot, and lending venues within a single health factor envelope.\n    \n\n3. User Interaction & Risk Visualization Layer\n\n-   Lending-Side Interface: Deposit, withdraw, and real-time pool utilization monitoring.\n    \n-   Margin-Side Interface: Create margin account, deposit collateral, borrow, repay, withdraw and dynamically reallocate leverage.\n    \n-   Trading-Side Interface: Customised, one-click execution for leveraged LP, leveraged spot, and leveraged lending positions.\n    \n-   Risk Management Dashboard: Continuous monitoring of live leveraged positions with health factor metrics, payoff curves and strategy simulation tools, all directly integrated with smart account operations\n    \n\nEngineering Scope & Execution Requirements\n\nThe Soroban deployment of Vanna demands a ground-up engineering approach due to the absence of pre-built EVM-equivalent standards and tooling. The build requires:\n\n-   Custom Lending Pools: Isolated accounting logic with utilization-based dynamic rates for XLM, USDC, EURC.\n    \n-   Account Abstraction Layer: Soroban-native margin accounts with protocol-enforced leverage permissions.\n    \n-   Cross-Venue Leverage Modules: Controller and adaptor contracts for Soroswap, Blend, and Aquarius with integrated risk constraints.\n    \n-   Multi-Source Oracles: Aggregated price feeds with failover handling for on-chain solvency checks.\n    \n-   GraphQL-Powered Indexing: Off-chain infrastructure to feed real-time position, health factor, and Greeks analytics to the risk dashboard.\n    \n\nThe execution plan includes full-cycle development — contract authoring, venue integrations, indexer and frontend implementation, stress testing under high-LTV scenarios, and multi-layer economic risk modelling — ensuring that the protocol meets the operational and economic security standards required for production deployment on Stellar.",
                         "stellar.technicalArchitecture": "https://best-glue-0c8.notion.site/Technical-Architecture-249846d6f559806292b8e57691c00920?source=copy_link",
@@ -949,6 +968,7 @@
                         "stellar.tranche2Testnet": "Production-Ready Testnet (Months 4–5) | $50K\n\nObjective: Consolidate multi-protocol execution into a unified trading interface, expand analytics, and complete independent Economic Risk Assessment & Validation ahead of mainnet.\n\nEngineering Scope:\n\n-   Unified Trading UI/UX: Cross-market execution, portfolio view, and leverage routing.\n    \n-   Cross-Protocol Position Management: Allocate margin across LP, spot, and lending within one health factor envelope.\n    \n-   Protocol Registry Module Update: Add new market adaptors and trading pairs based on testnet feedback.\n    \n-   Controllers & Adaptors Enhancements: Optimize execution logic for Soroswap, Aquarius, and Blend; add new strategies where possible.\n    \n-   Oracle SEP Enhancements: Implement redundancy, latency detection, and failover configuration, or integrate alternative oracle providers if needed.\n    \n-   Expanded Data Indexing: Add new datasets for trading activity breakdowns, protocol-level PnL aggregation, and liquidation cascade mapping.\n    \n-   Dune Dashboards (Testnet): Public dashboards for LP/TVL metrics, borrowing volumes, trading activity, liquidations, and risk factor trends.\n    \n-   Full Economic Risk Assessment & Parameter Tuning (3rd party):\n    \n    -   Scope: Comprehensive solvency modelling using live testnet telemetry, including extreme market shock simulations.\n        \n    -   Clarification: This is not a smart contract security audit — it focuses exclusively on solvency, parameter robustness, and market-shock resilience, which audit banks do not cover.\n        \n    -   Outputs: Public Economic Risk Assessment Report, calibrated final parameter set, and governance recommendations.\n        \n-   Performance Optimization: Stress testing under simulated high-load multi-market trading scenarios.\n    \n-   Community Beta Program: Structured user testing with incentives to gather feedback for final mainnet adjustments.",
                         "stellar.tranche3Mainnet": "Mainnet Launch (Month 6) | $35K\n\nObjective: Deploy the production-tested protocol on Stellar mainnet with transparency tooling live and risk controls implemented per assessment recommendations.\n\nEngineering Scope:\n\n-   Mainnet Deployment: Lending pools, margin accounts, account manager, risk engine, and partner integrations (Soroswap, Blend, Aquarius).\n    \n-   Implement Assessment Recommendations: Apply the final parameter set, liquidation penalties, reserve factor, interest rate curve breakpoints, and circuit-breakers.\n    \n-   Mainnet Dashboards: Publish periodic analytics on LP, borrower, and trader metrics segmented by protocol, market type, and leverage tier; include risk heatmaps and liquidation probability summaries.",
                         "stellar.teamMembers": "Opinder Preet Singh, vatsal salkiya",
+                        "org.stellar.communityfund.awardType": "Build",
                         "stellar.urls": {
                             "website": "https://vanna.finance",
                             "codeRepository": "https://github.com/vannafinance/Protocol_V1_Soroban",
@@ -958,9 +978,9 @@
                             "linkedIn": "https://www.linkedin.com/company/vannaprotocol",
                             "twitter": "https://x.com/vannaprotocol",
                             "discord": "https://discord.gg/2GCy9YaECT"
-                        },
-                        "org.stellar.communityfund.awardType": "Build"
-                    }
+                        }
+                    },
+                    "fundsApprovedInUSD": 145000.0
                 }
             ]
         }
