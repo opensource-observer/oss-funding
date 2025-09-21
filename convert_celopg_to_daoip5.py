@@ -190,28 +190,31 @@ def convert_application_to_daoip5(app_data, round_id):
         question_id = answer.get('questionId', '')
         
         if question and answer_text:
+            # Convert answer_text to string if it's a list or other type
+            answer_str = str(answer_text) if not isinstance(answer_text, str) else answer_text
+            
             # Clean question for use as key
             clean_question = re.sub(r'[^a-zA-Z0-9\s]', '', question)
             clean_question = re.sub(r'\s+', '_', clean_question.strip().lower())
-            extensions['celopg.answers'][clean_question] = answer_text
+            extensions['celopg.answers'][clean_question] = answer_str
             
             # Extract specific fields
             if 'email' in question.lower():
-                extensions['celopg.emailAddress'] = answer_text
+                extensions['celopg.emailAddress'] = answer_str
             elif 'funding' in question.lower() and 'source' in question.lower():
-                extensions['celopg.fundingSources'] = answer_text
+                extensions['celopg.fundingSources'] = answer_str
             elif 'team' in question.lower() and 'size' in question.lower():
-                extensions['celopg.teamSize'] = normalize_amount(answer_text)
+                extensions['celopg.teamSize'] = normalize_amount(answer_str)
             elif 'website' in question.lower() or 'url' in question.lower():
-                extensions['celopg.urls']['website'] = answer_text
+                extensions['celopg.urls']['website'] = answer_str
             elif 'github' in question.lower() or 'repository' in question.lower():
-                extensions['celopg.urls']['codeRepository'] = answer_text
-            elif 'twitter' in question.lower() or 'x.com' in answer_text.lower():
-                extensions['celopg.socialMedia']['twitter'] = answer_text
+                extensions['celopg.urls']['codeRepository'] = answer_str
+            elif 'twitter' in question.lower() or ('x.com' in answer_str.lower()):
+                extensions['celopg.socialMedia']['twitter'] = answer_str
             elif 'linkedin' in question.lower():
-                extensions['celopg.socialMedia']['linkedIn'] = answer_text
+                extensions['celopg.socialMedia']['linkedIn'] = answer_str
             elif 'discord' in question.lower():
-                extensions['celopg.socialMedia']['discord'] = answer_text
+                extensions['celopg.socialMedia']['discord'] = answer_str
     
     # Add donation details if available
     donations = app_data.get('donations', [])

@@ -1,0 +1,78 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Celo Public Goods Round 24 Applications",
+    "type": "Entity",
+    "grantPools": [
+        {
+            "type": "GrantPool",
+            "id": "daoip-5:celopg:grantPool:round_24",
+            "name": "round_24",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:celopg:grantPool:round_24:grantApplication:0",
+                    "grantPoolId": "daoip-5:celopg:grantPool:round_24",
+                    "grantPoolName": "round_24",
+                    "projectsURI": "",
+                    "projectId": "daoip-5:celopg:project:application-0",
+                    "projectName": "Application 0",
+                    "createdAt": "2024-01-01T00:00:00Z",
+                    "contentURI": "",
+                    "status": "Submitted",
+                    "description": "",
+                    "fundsApprovedInUSD": 0.0,
+                    "extensions": {
+                        "celopg.anchorAddress": "0x05D90e6Fe5B06167b03E4E6bc0084eeD9F2bd8c5",
+                        "celopg.createdByAddress": "0xF1Ec938a362138ff0CC5268EC32690d9a137e83A",
+                        "celopg.chainId": 42220,
+                        "celopg.createdAtBlock": 30538687,
+                        "celopg.donationsCount": 0,
+                        "celopg.signature": "0xc649fb9b82b89531f220e5ab9b20bced9f08e5d53050ac8696d5007f7042950100e3075041353c70033773ecd5b233348f4835eac39acc06e0e1c229b7cef8811c",
+                        "celopg.answers": {
+                            "email_address": "alex@cascadiacarbon.com",
+                            "annual_funding": "50000",
+                            "team_size": "99",
+                            "what_is_your_projects_vision_for_a_more_vibrant_resilient_or_participatory_front_range_community_ecosystem": "Plant more trees. "
+                        },
+                        "celopg.urls": {},
+                        "celopg.socialMedia": {},
+                        "celopg.emailAddress": "alex@cascadiacarbon.com",
+                        "celopg.teamSize": 99.0
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:celopg:grantPool:round_24:grantApplication:1",
+                    "grantPoolId": "daoip-5:celopg:grantPool:round_24",
+                    "grantPoolName": "round_24",
+                    "projectsURI": "",
+                    "projectId": "daoip-5:celopg:project:application-1",
+                    "projectName": "Application 1",
+                    "createdAt": "2024-01-01T00:00:00Z",
+                    "contentURI": "",
+                    "status": "Submitted",
+                    "description": "",
+                    "fundsApprovedInUSD": 0.0,
+                    "extensions": {
+                        "celopg.anchorAddress": "0x530Dc80137328Ea72d3515E500c5569c4006287f",
+                        "celopg.createdByAddress": "0x2E157C1C9697946c52A8A3e46e1Fa71E84caF232",
+                        "celopg.chainId": 42220,
+                        "celopg.createdAtBlock": 30551792,
+                        "celopg.donationsCount": 0,
+                        "celopg.signature": "0xafd1c087d88d09604037b82357403005cda491c29afb184a4fec18b2c9019e942aab989dd8e38e3bd129b3348d8043465fad00b9d641745769f39bfa6b2b44471c",
+                        "celopg.answers": {
+                            "email_address": "omoruanlaura@gmail.com",
+                            "annual_funding": "$10000",
+                            "team_size": "5",
+                            "what_is_your_projects_vision_for_a_more_vibrant_resilient_or_participatory_front_range_community_ecosystem": "Our vision for the Front Range community is to foster trust, inclusivity, and financial empowerment through zScore\u2019s privacy-preserving reputation system. By leveraging blockchain and decentralized identity verification, we aim to enhance financial access, support local economies, and promote participatory decision-making. Using tools like zkTLS and Celo, we ensure secure, tamper-proof reputation records that reduce fraud and build trust. Through quadratic funding and participatory budgeting, we enable transparent, community-driven governance, creating a resilient and equitable digital and financial ecosystem."
+                        },
+                        "celopg.urls": {},
+                        "celopg.socialMedia": {},
+                        "celopg.emailAddress": "omoruanlaura@gmail.com",
+                        "celopg.teamSize": 5.0
+                    }
+                }
+            ]
+        }
+    ]
+}

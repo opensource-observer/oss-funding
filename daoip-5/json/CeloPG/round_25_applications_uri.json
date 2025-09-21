@@ -1,0 +1,255 @@
+{
+    "@context": "http://www.daostar.org/schemas",
+    "name": "Celo Public Goods Round 25 Applications",
+    "type": "Entity",
+    "grantPools": [
+        {
+            "type": "GrantPool",
+            "id": "daoip-5:celopg:grantPool:round_25",
+            "name": "round_25",
+            "applications": [
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:celopg:grantPool:round_25:grantApplication:6",
+                    "grantPoolId": "daoip-5:celopg:grantPool:round_25",
+                    "grantPoolName": "round_25",
+                    "projectsURI": "",
+                    "projectId": "daoip-5:celopg:project:application-6",
+                    "projectName": "Application 6",
+                    "createdAt": "2024-01-01T00:00:00Z",
+                    "contentURI": "",
+                    "status": "Submitted",
+                    "description": "",
+                    "fundsApprovedInUSD": 0.0,
+                    "extensions": {
+                        "celopg.anchorAddress": "0x8cDD3943471AaF9b50BeEDa740856e770e1e2FC7",
+                        "celopg.createdByAddress": "0x6e026B2a2dfAdaE30B46fE65570585CdC3EfC019",
+                        "celopg.chainId": 42220,
+                        "celopg.createdAtBlock": 36262070,
+                        "celopg.donationsCount": 0,
+                        "celopg.signature": "0xe9f6e9e9d71c17cf7c8c7426db94a71768765f9a8b6adfd6a2270b5765ca4c2b4e55f6484da30d66bff39673b1a8e473205c026f9e7c85d038440c3e369d79691c",
+                        "celopg.answers": {
+                            "email_address": "info@gate33.net",
+                            "application_detail": "Gate33 aims to become the leading hub for web3 professionals, with a strong focus on security and innovation.\n\nIn response to the growing number of scams involving fraudulent job offers, we are building a platform that rigorously controls and monitors all job postings and microtask opportunities. \n\nOur system thoroughly validates every company that posts an offer and closely tracks their activities both on and off the platform.\n\nGate33 also introduces the concept of microtasks to the web3 space, enabling companies to request small services, select candidates, and securely process payments through smart contracts, this approach safeguards the interests of both companies and service providers.But Gate33 is more than just a job board. \n\nWe are committed to driving security and innovation, setting a new standard for trust and opportunity in the web3 workforce.",
+                            "milestones": "Gate33 is a fully operational platform featuring five advanced dashboards tailored for seekers, companies, administration, support, and system monitoring.\n\nWe leverage three distinct smart contracts\u2014covering general payments, microtasks, and Learn2Earn\u2014deployed across five different blockchains. This robust, multi-chain infrastructure ensures security, scalability, and seamless user experience, positioning Gate33 at the forefront of Web3 innovation."
+                        },
+                        "celopg.urls": {},
+                        "celopg.socialMedia": {},
+                        "celopg.emailAddress": "info@gate33.net"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:celopg:grantPool:round_25:grantApplication:0",
+                    "grantPoolId": "daoip-5:celopg:grantPool:round_25",
+                    "grantPoolName": "round_25",
+                    "projectsURI": "",
+                    "projectId": "daoip-5:celopg:project:application-0",
+                    "projectName": "Application 0",
+                    "createdAt": "2024-01-01T00:00:00Z",
+                    "contentURI": "",
+                    "status": "Submitted",
+                    "description": "",
+                    "fundsApprovedInUSD": 0.0,
+                    "extensions": {
+                        "celopg.anchorAddress": "0xC092a1dED728Caed6DBb9609016059484faD46Fc",
+                        "celopg.createdByAddress": "0xa1599790B763E537bd15b5b912012e5Fb65491a3",
+                        "celopg.chainId": 42220,
+                        "celopg.createdAtBlock": 30944835,
+                        "celopg.donationsCount": 0,
+                        "celopg.signature": "0xf46356aed72460c11373a2a5e119bdd834a97a841bdd6604d2b0cf9e812e3c8f633abcfdb4c30af3eba499bb170c6ed1e6f6a4d371b9696e7a056e44f2c76e581b",
+                        "celopg.answers": {
+                            "email_address": "nasihudeen04@gmail.com",
+                            "application_detail": "### **AfriCycle Application Details**\n\n**Project Overview**  \nAfriCycle is a blockchain-based platform on the **Celo blockchain** that addresses Africa\u2019s waste management crisis. It connects **waste collectors**, **recycling facilities**, and **corporate partners** through tokenized rewards, promoting sustainability and economic inclusion.\n\n**Key Features**  \n- **Tokenized Rewards**: Waste collectors are paid in **cUSD** for verified collections.\n- **Blockchain Verification**: Transparent tracking and verification of collected waste.\n- **Sustainability Credits**: Corporations earn verified credits for their recycling efforts.\n- **Recycling Marketplace**: Platform for trading recycled materials and carbon offsets.\n\n**Technology**  \n- **Blockchain**: Built on **Celo**, providing low-cost, mobile-first transactions.\n- **Smart Contracts**: Ensures transparent, secure waste management actions.\n- **Mobile App (PWA)**: Offline-enabled for waste collectors in low-connectivity areas.\n- **Wallet Integration**: Supports **Metamask** and **Valora** for payments in cUSD.\n\n**Current Status**  \n- **MVP Completion**: Frontend integration and testing in progress; MVP to be completed in 1 month.\n- **Beta Testing**: Planned for Q2 with 10-20 early users for real-world testing.",
+                            "milestones": "## **1. Finalizing MVP & Preparing for Launch**  \n**Goal:**  \n- **Complete frontend development** and fully integrate it with the backend and blockchain to deliver a **functional MVP**.  \n\n**Objectives:**  \n- Fix any **bugs** and ensure **seamless integration** between the smart contract and frontend.  \n- Conduct thorough **end-to-end testing** to confirm platform stability and usability.  \n- Ensure **cUSD payment flows** function properly for waste collectors, recycling facilities, and corporate partners.  \n\n**Milestones:**  \n- **Smart contract integration completed** (DONE)  \n- **Ongoing testing** \u2013 Fix critical issues (Q1)  \n- **Finalize frontend and complete MVP by next month** (Q2)  \n- **Run internal testing with core team before beta launch** (Q2)  \n---\n## **2. Beta Testing & Early Adopter Onboarding**  \n**Goal:**  \n- Conduct **real-world beta testing** with a small group of waste collectors, recycling facilities, and partners.  \n\n**Objectives:**  \n- Onboard **10-20 waste collectors** and at least **2-3 recycling facilities** to test the platform in real conditions.  \n- Ensure smooth **cUSD transactions** and confirm blockchain-based verification works as intended.  \n- Gather user feedback and fix any UX/UI or performance issues.  \n\n**Milestones:**  \n- **Beta launch with early users** (Q2)  \n- **Gather feedback & iterate on MVP** (Q2)  \n- **Fix any reported issues & optimize user experience** (Q2)  \n---\n## **3. Marketing & Community Building**  \n**Goal:**  \n- Create awareness and build an engaged **community** before the full platform launch.  \n\n**Objectives:**  \n- Develop and launch **social media campaigns** highlighting AfriCycle\u2019s impact and innovation.  \n- Create **educational content** to explain the platform to potential users and partners.  \n- Conduct **live demos & AMAs (Ask Me Anything) sessions** with potential users.  \n\n**Milestones:**  \n- **Start marketing campaign (social media, PR, website updates) by Q2**  \n- **Grow community engagement (target: 1000+ followers across platforms by Q3)**  \n- **Host first live demo/AMA session before full launch** (Q2-Q3)  \n---\n## **4. Strengthening Corporate & Recycling Partnerships**  \n**Goal:**  \n- Secure **corporate partnerships** for sustainability credits and ensure **a reliable recycling network**.  \n\n**Objectives:**  \n- Finalize agreements with **at least 3-5 corporate partners** who need verified recycling credits.  \n- Expand partnerships with **recycling centers** for proper waste processing and verification.  \n- Establish collaborations with **local authorities and NGOs** to increase reach.  \n\n**Milestones:**  \n- **Secure first 3-5 corporate partners by Q3**  \n- **Expand recycling facility network** (Q3-Q4)  \n- **Sign agreements with government/NGOs for long-term support** (Q3)  \n---\n## **5. Preparing for Full Platform Launch & Scaling**  \n**Goal:**  \n- Use beta testing results to improve the platform and **prepare for a large-scale rollout**.  \n\n**Objectives:**  \n- Optimize platform performance based on user feedback.  \n- Expand the number of **waste collectors, recycling facilities, and corporate users** onboarded.  \n- Start discussions with **impact investors** for funding expansion.  \n\n**Milestones:**  \n- **Optimize platform & fix all major bugs from beta testing** (Q2-Q3)  \n- **Upgrade platform based on beta feedback & add necessary features** (Q3)  \n- **Secure funding for scaling operations** (Q3-Q4)  \n- **Full public launch of AfriCycle** (Q4)  "
+                        },
+                        "celopg.urls": {},
+                        "celopg.socialMedia": {},
+                        "celopg.emailAddress": "nasihudeen04@gmail.com"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:celopg:grantPool:round_25:grantApplication:3",
+                    "grantPoolId": "daoip-5:celopg:grantPool:round_25",
+                    "grantPoolName": "round_25",
+                    "projectsURI": "",
+                    "projectId": "daoip-5:celopg:project:application-3",
+                    "projectName": "Application 3",
+                    "createdAt": "2024-01-01T00:00:00Z",
+                    "contentURI": "",
+                    "status": "Submitted",
+                    "description": "",
+                    "fundsApprovedInUSD": 0.0,
+                    "extensions": {
+                        "celopg.anchorAddress": "0xEAcDb3147fB8b6c895624c90Ab828174A85C9193",
+                        "celopg.createdByAddress": "0x18A725aD96aE6a8b6e8DbE3FB3a8eb042e2F8879",
+                        "celopg.chainId": 42220,
+                        "celopg.createdAtBlock": 33682773,
+                        "celopg.donationsCount": 0,
+                        "celopg.signature": "0x494a3e29240a0557b9e8909fbd803dabb40e671295456b5e9eeca41821d1c0df22b9e160681e7970df83862f7ee853ed46d754bda020f703a9903f57df8bf28e1b",
+                        "celopg.answers": {
+                            "email_address": "mathieson@seedrocket.io",
+                            "application_detail": "MeansOfProduction is software to power and federate libraries of things (tools, toys, anything!).  It also will enable Web3 techs by creating federated labor tokens, which will be used to allow line skipping in participating libraries.\n\nIn addition to the software, the project aims to launch pilot libraries in Barcelona, Spain.",
+                            "milestones": "- complete basic library server and software\n- federation module\n- basic search across federation\n- opening of test library in Barcelona"
+                        },
+                        "celopg.urls": {},
+                        "celopg.socialMedia": {},
+                        "celopg.emailAddress": "mathieson@seedrocket.io"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:celopg:grantPool:round_25:grantApplication:1",
+                    "grantPoolId": "daoip-5:celopg:grantPool:round_25",
+                    "grantPoolName": "round_25",
+                    "projectsURI": "",
+                    "projectId": "daoip-5:celopg:project:application-1",
+                    "projectName": "Application 1",
+                    "createdAt": "2024-01-01T00:00:00Z",
+                    "contentURI": "",
+                    "status": "Submitted",
+                    "description": "",
+                    "fundsApprovedInUSD": 0.0,
+                    "extensions": {
+                        "celopg.anchorAddress": "0xcaF5914f760C4D7362A56dfddF7AAd8E576465d9",
+                        "celopg.createdByAddress": "0x7916Dba3A610B020d77c0CCFd4Bd717ee400A5f2",
+                        "celopg.chainId": 42220,
+                        "celopg.createdAtBlock": 32407233,
+                        "celopg.donationsCount": 0,
+                        "celopg.signature": "0x7e94ce1a948d2ad3d554a18248f4cf15f1a43bb81b6149f30e619068297f4e4060a29d0605409b021e4e97eebe459a93b8da64dcc666adef30d438259cdf444a1c",
+                        "celopg.answers": {
+                            "email_address": "mahesh@karmahq.xyz",
+                            "application_detail": "We have collaborated closely with Monty on implementing the MVP of the Common Impact Data Standard in Karma GAP. We have currently built a way for any project to post activities that includes Metrics/Outputs and Deliverables. We would like to continue building out the features of impact measurement to help program managers measure the outcomes of their funding and help projects effectively document their activities and outcomes. The milestones below explain the features we plan to add in the next few weeks.\n",
+                            "milestones": "We plan to implement the following in the next few weeks:\n\nConsolidate milestone, grant, project updates and roadmap and streamline the entire flow to make it easy for builders to share their progress updates\n\nEnhance admin functionality to group all the outputs into activities and outcomes and be able to visually see them and analyze.\n\nConsolidate and rethink the entire impact tab by consolidating current impact feature and the new Common approach impact data standard features.\n\nEnhance Karma AI - the AI assistant which can be used by funders to discover and analyze projects. We would like to enhance the AI to understand impact data entered by users and automatically fetched from github and onchain metrics.\n"
+                        },
+                        "celopg.urls": {},
+                        "celopg.socialMedia": {},
+                        "celopg.emailAddress": "mahesh@karmahq.xyz",
+                        "celopg.payouts": [
+                            {
+                                "amount": 1e+18,
+                                "amountInUsd": 1.00022,
+                                "timestamp": "2025-04-24T16:17:16Z"
+                            },
+                            {
+                                "amount": 2e+22,
+                                "amountInUsd": 19988.97803,
+                                "timestamp": "2025-04-25T16:31:05Z"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:celopg:grantPool:round_25:grantApplication:2",
+                    "grantPoolId": "daoip-5:celopg:grantPool:round_25",
+                    "grantPoolName": "round_25",
+                    "projectsURI": "",
+                    "projectId": "daoip-5:celopg:project:application-2",
+                    "projectName": "Application 2",
+                    "createdAt": "2024-01-01T00:00:00Z",
+                    "contentURI": "",
+                    "status": "Submitted",
+                    "description": "",
+                    "fundsApprovedInUSD": 0.0,
+                    "extensions": {
+                        "celopg.anchorAddress": "0x78dd9bad85B32C580f81d4E51FdA4b8FC5d54f4e",
+                        "celopg.createdByAddress": "0xeADe5F65F6413758b3b29b6EE4514f787AECe468",
+                        "celopg.chainId": 42220,
+                        "celopg.createdAtBlock": 32732598,
+                        "celopg.donationsCount": 0,
+                        "celopg.signature": "0x0a5cbf75287f06795a1b84e279dfbda6894cdf6fcf22407d234498162fb47ee35804eb833d2f8264fc4b2b13f7b075018fb3b38c4c8dc3860b6e71e7f7d5b0cf1c",
+                        "celopg.answers": {
+                            "email_address": "tomislav.mamic.st@gmail.com",
+                            "application_detail": "Scope of this application are the immediate activities in this quarter. Our main focus is to launch the initial pilot program in collaboration with the City of Split. Following recent discussions and adjustments to our initial strategy, we will proceed without incorporating stablecoins due to complexities identified. Instead, we will deploy an unlisted ERC20 token on the Celo network specifically for this pilot.\n\nUsers will be able to purchase this token via credit card directly within our application. The token's sole utility will be for donating to pre-approved local environmental projects listed within the platform. This approach simplifies the legal and technical requirements, allowing us to concentrate on delivering the core functionality: enabling citizen participation in funding local green initiatives.\n\nThe $5k grant from Regen Coordination Digital Public Goods will be allocated overwhelmingly to development efforts, covering the necessary technical work to build the token mechanism, integrate the credit card payment gateway, and refine the user interface for the pilot launch. Smaller amount of funds will be allocated to round management efforts.\n\nThis aligns with our agreement to prioritize development resources to ensure a successful pilot, which will serve as a foundation for future, potentially more complex, iterations involving on-chain matching and broader web3 integrations. We aim to demonstrate the viability of this model and gather user feedback to inform subsequent phases.",
+                            "milestones": "Based on our revised pilot plan focusing on a custom Celo token and credit card integration, our key milestones achievable with the requested $5k grant (potentially supplemented by other funding up to ~$10k total) are:\n\n*   **Milestone 1: Core Pilot Development (April-May):**\n    *   Migrate to 4337 smart account implementation of Cometh Connect\n    *   Develop and deploy the e-money token smart contract on the Celo network.\n    *   Integrate a credit card payment gateway (Stripe) for users to purchase the custom token.\n    *   Configure Allo Protocol V2 contracts for the donation round mechanism.\n    *   Refine the user interface for project discovery, token purchase, and donation flow.\n    *   Set up required operational multisig wallets.\n\n*   **Milestone 2: Pilot Setup & Launch Readiness (May):**\n    *   Finalize essential legal documentation (Terms, Privacy Policy, Program Rules) compliant with the E-money Directive for the token model.\n    *   Onboard the initial set of approved local environmental projects provided by the City of Split Parks Company.\n    *   Configure and test the first donation round within the application.\n    *   Coordinate with the City of Split for basic marketing and communication planning.\n\n*   **Milestone 3: Pilot Execution & Evaluation (May-June):**\n    *   Launch the pilot program to Split citizens.\n    *   Monitor platform stability, transaction processing, and user engagement during the initial round.\n    *   Collect user feedback on the platform and donation experience.\n    *   Provide an initial report on pilot outcomes and key learnings to inform future iterations."
+                        },
+                        "celopg.urls": {},
+                        "celopg.socialMedia": {},
+                        "celopg.emailAddress": "tomislav.mamic.st@gmail.com",
+                        "celopg.payouts": [
+                            {
+                                "amount": 1e+18,
+                                "amountInUsd": 1.00022,
+                                "timestamp": "2025-04-24T14:45:03Z"
+                            },
+                            {
+                                "amount": 5e+21,
+                                "amountInUsd": 4997.24451,
+                                "timestamp": "2025-04-25T16:33:41Z"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:celopg:grantPool:round_25:grantApplication:4",
+                    "grantPoolId": "daoip-5:celopg:grantPool:round_25",
+                    "grantPoolName": "round_25",
+                    "projectsURI": "",
+                    "projectId": "daoip-5:celopg:project:application-4",
+                    "projectName": "Application 4",
+                    "createdAt": "2024-01-01T00:00:00Z",
+                    "contentURI": "",
+                    "status": "Submitted",
+                    "description": "",
+                    "fundsApprovedInUSD": 0.0,
+                    "extensions": {
+                        "celopg.anchorAddress": "0xbE6E7eA07459dC10ED0F777af7503c6c254321e5",
+                        "celopg.createdByAddress": "0x0877EE1914B37C74c07759274D085D47F09fA613",
+                        "celopg.chainId": 42220,
+                        "celopg.createdAtBlock": 34169246,
+                        "celopg.donationsCount": 0,
+                        "celopg.signature": "0x3e553bf1135bf7b94eacba3302c69fb95c783514dc4cffa203ec95c69b10bd32507bb83d094fd89ad082887fcb810597cce8d12019893c975b8af2a5a76fc96f1b",
+                        "celopg.answers": {
+                            "email_address": "help@reforestrees.org",
+                            "application_detail": "We are Reforest Trees, a transparent Web3 reforestation initiative working directly in forgotten rural areas of Peru. Our mission is to regenerate ecosystems, empower indigenous communities, and offset global carbon emissions through blockchain technology.\n\nOur platform will allow donors to adopt trees and track their growth in real-time. Through integration with Open Forest Protocol (OFP) and explorer.land, we ensure public traceability and monitoring of our reforestation zones. We are building a DApp that includes smart contracts, a donor dashboard, NFT certificates, and AI tools to measure environmental impact. This project democratizes climate action by allowing anyone to offset their carbon footprint in a verifiable and certified way.",
+                            "milestones": "Launch Smart Contract (Month 1)\nDeploy and audit a smart contract on Ethereum to link each donation to a unique tree adoption.\n\nBuild Donor Dashboard (Month 2\u20133)\nDevelop an interactive dashboard with geolocated maps, photos, and CO\u2082 tracking for each tree.\n\nIssue NFT Certificates (Month 3)\nGenerate and send unique NFT carbon offset certificates to all verified donors.\n\nIntegrate AI CO\u2082 Estimator (Month 4)\nLaunch AI-based tools to calculate real-time carbon capture per tree.\n\nImplement IPFS Storage (Month 4)\nEnsure secure decentralized storage of images, growth data, and environmental reports.\n\nETH Payment Gateway (Month 5)\nActivate Ethereum donations to enable community support and Web3 engagement."
+                        },
+                        "celopg.urls": {},
+                        "celopg.socialMedia": {},
+                        "celopg.emailAddress": "help@reforestrees.org"
+                    }
+                },
+                {
+                    "type": "GrantApplication",
+                    "id": "daoip-5:celopg:grantPool:round_25:grantApplication:5",
+                    "grantPoolId": "daoip-5:celopg:grantPool:round_25",
+                    "grantPoolName": "round_25",
+                    "projectsURI": "",
+                    "projectId": "daoip-5:celopg:project:application-5",
+                    "projectName": "Application 5",
+                    "createdAt": "2024-01-01T00:00:00Z",
+                    "contentURI": "",
+                    "status": "Submitted",
+                    "description": "",
+                    "fundsApprovedInUSD": 0.0,
+                    "extensions": {
+                        "celopg.anchorAddress": "0x99003825ef4eDAbD20c58083694C3c61Ad2ED00C",
+                        "celopg.createdByAddress": "0x7340F1a1e4e38F43d2FCC85cdb2b764de36B40c0",
+                        "celopg.chainId": 42220,
+                        "celopg.createdAtBlock": 34717985,
+                        "celopg.donationsCount": 0,
+                        "celopg.signature": "0xaea8854cc07bab4a224fc61a4f9706ed0a9655ec9c18646b4b1086102bbeadf12fd814e771d1de9654d0e87047fde07c0e62eca8fcbe1be7b429e8f527351e781b",
+                        "celopg.answers": {
+                            "email_address": "luizfernandolfsg@gmail.com",
+                            "application_detail": "We're requesting funds to seed the Local ReFi Toolkit Funding Pool on Gardens.fund - to fund the creation and expansion of practical toolkits, playbooks, and workshops that provide step-by-step guidance for communities to launch regenerative economies and initiatives using Web3 tools. \n",
+                            "milestones": "**May:**\n- Open community for Regen Coordination on Gardens\n- Setup Local ReFi Toolkit Funding Pool\n- Apply for additional matching from Gardens GG23 round\n- Plan activation and adoption of funding pool\n\n**June onwards:**\n- Start funding initiatives\n- Compiling resources on https://www.regencoordination.xyz/local-refi-toolkit\n- Look for and secure additional funds to further fund initiatives"
+                        },
+                        "celopg.urls": {},
+                        "celopg.socialMedia": {},
+                        "celopg.emailAddress": "luizfernandolfsg@gmail.com",
+                        "celopg.payouts": [
+                            {
+                                "amount": 2.5e+21,
+                                "amountInUsd": 2500.25055,
+                                "timestamp": "2025-05-07T17:15:50Z"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
