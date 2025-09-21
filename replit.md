@@ -28,6 +28,9 @@ The system includes comprehensive data quality validation scripts that check sch
 ### Output Format Support
 The architecture supports multiple output formats including structured JSON files conforming to DAOIP-5, CSV exports for analysis tools, and integration with Google Sheets for collaborative access. The JSON outputs are organized by grant system with separate files for grant pools and applications to optimize for different access patterns.
 
+### File Naming Conventions
+All applications URI files maintain consistent naming format using `round_{number}_applications_uri.json` structure. This standardization ensures predictable file references across the system and simplifies automated processing. Grant pool files reference these application files through consistent URL patterns in their applicationsURI fields.
+
 ## External Dependencies
 
 - **Python Libraries**: pandas for data manipulation, PyYAML for configuration parsing, requests for API validation
