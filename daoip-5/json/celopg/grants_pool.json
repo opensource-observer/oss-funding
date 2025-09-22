@@ -491,6 +491,72 @@
                     ]
                 }
             }
+        },
+        {
+            "type": "GrantPool",
+            "id": "daoip-5:celopg:grantPool:mint_growth",
+            "name": "mint_growth",
+            "description": "The Growth pool supports established projects with proven traction looking to scale and expand their impact within the Celo ecosystem. These grants focus on projects that can demonstrate significant user adoption, revenue generation, or ecosystem growth potential.",
+            "isOpen": false,
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celopg/mint_growth_applications_uri.json",
+            "requiredCredentials": [
+                "KYC",
+                "Project Verification"
+            ],
+            "extensions": {
+                "celopg.round": "Mint",
+                "celopg.quarter": "Q4 2024",
+                "celopg.poolType": "Growth",
+                "celopg.grantManagementTool": "Prezenti",
+                "celopg.forumURL": "https://forum.celo.org/t/prezenti-opens-mint-round-for-applications/9139",
+                "celopg.totalApplications": 22,
+                "celopg.awardedApplications": 3,
+                "celopg.successRate": 13.6
+            }
+        },
+        {
+            "type": "GrantPool",
+            "id": "daoip-5:celopg:grantPool:mint_pilot",
+            "name": "mint_pilot",
+            "description": "The Pilot pool funds experimental projects and early-stage initiatives that show promise for innovation within the Celo ecosystem. These grants support teams testing new concepts, building prototypes, or exploring novel use cases for blockchain technology.",
+            "isOpen": false,
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celopg/mint_pilot_applications_uri.json",
+            "requiredCredentials": [
+                "KYC",
+                "Project Verification"
+            ],
+            "extensions": {
+                "celopg.round": "Mint",
+                "celopg.quarter": "Q4 2024",
+                "celopg.poolType": "Pilot",
+                "celopg.grantManagementTool": "Prezenti",
+                "celopg.forumURL": "https://forum.celo.org/t/prezenti-opens-mint-round-for-applications/9139",
+                "celopg.totalApplications": 30,
+                "celopg.awardedApplications": 7,
+                "celopg.successRate": 23.3
+            }
+        },
+        {
+            "type": "GrantPool",
+            "id": "daoip-5:celopg:grantPool:mint_micro",
+            "name": "mint_micro",
+            "description": "The Micro pool provides smaller grants for grassroots projects, community initiatives, and individual contributors. These grants are designed to lower barriers to entry and support diverse voices within the Celo ecosystem.",
+            "isOpen": false,
+            "applicationsURI": "https://raw.githubusercontent.com/opensource-observer/oss-funding/refs/heads/main/daoip-5/json/celopg/mint_micro_applications_uri.json",
+            "requiredCredentials": [
+                "KYC",
+                "Project Verification"
+            ],
+            "extensions": {
+                "celopg.round": "Mint",
+                "celopg.quarter": "Q4 2024",
+                "celopg.poolType": "Micro",
+                "celopg.grantManagementTool": "Prezenti",
+                "celopg.forumURL": "https://forum.celo.org/t/prezenti-opens-mint-round-for-applications/9139",
+                "celopg.totalApplications": 30,
+                "celopg.awardedApplications": 7,
+                "celopg.successRate": 23.3
+            }
         }
     ]
 }
