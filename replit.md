@@ -17,7 +17,7 @@ The repository uses a file-based data storage approach with standardized CSV inp
 The system employs Python-based data processing scripts that handle CSV ingestion, data validation, and format conversion. Key processing includes data cleaning, schema standardization, and multi-format output generation. The pipeline supports both individual funder data processing and bulk operations across all grant systems.
 
 ### DAOIP-5 Implementation
-The architecture implements a comprehensive DAOIP-5 grants management system with four main components: grant systems (top-level organizations), grant pools (funding rounds), projects (recipients), and applications (individual funding requests). Each component supports an extensions field for implementation-specific metadata while maintaining core schema compliance.
+The architecture implements a comprehensive DAOIP-5 grants management system with four main components: grant systems (top-level organizations), grant pools (funding rounds), projects (recipients), and applications (individual funding requests). Each component supports an extensions field for implementation-specific metadata while maintaining core schema compliance. Grant pools include comprehensive extensions with funding metrics, timeline data, and Stellar-specific metadata extracted from round management systems.
 
 ### Funder Management System
 Funders are organized in a hierarchical directory structure where each funder has its own directory containing YAML configuration files and CSV upload folders. This design enables distributed data management while maintaining centralized schema consistency. Each funder profile includes metadata about the organization and references to their grant pools.
