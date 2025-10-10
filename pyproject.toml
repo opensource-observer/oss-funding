@@ -12,6 +12,7 @@ license = "Apache-2.0"
 dependencies = [
     "jsonschema>=4.22.0,<5",
     "oss-directory>=0.2.5",
+    "pandas>=2.2.3",
     "pyoso>=0.4.0,<0.5",
 ]
 
