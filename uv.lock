@@ -170,6 +170,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "jsonschema" },
     { name = "oss-directory" },
+    { name = "pandas" },
     { name = "pyoso" },
 ]
 
@@ -177,6 +178,7 @@ dependencies = [
 requires-dist = [
     { name = "jsonschema", specifier = ">=4.22.0,<5" },
     { name = "oss-directory", specifier = ">=0.2.5" },
+    { name = "pandas", specifier = ">=2.2.3" },
     { name = "pyoso", specifier = ">=0.4.0,<0.5" },
 ]
 
