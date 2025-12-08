@@ -59,7 +59,9 @@ jobs:
             TOTAL_FILES=$((TOTAL_FILES + 1))
             FILENAME=$(basename "$file")
 
+            set +e
             OUTPUT=$(uv run src/validate_csv.py "$file")
+            set -e
 
             INVALID_COUNT=$(echo "$OUTPUT" | grep "Invalid projects:" | sed 's/Invalid projects: //')
 
