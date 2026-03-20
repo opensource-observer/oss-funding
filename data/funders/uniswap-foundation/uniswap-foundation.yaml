@@ -1,0 +1,16 @@
+version: 1
+name: uniswap-foundation
+type: Foundation
+display_name: Uniswap Foundation
+grant_pools:
+  - name: ugp
+  - name: wave_1
+  - name: wave_2
+  - name: direct_grants
+  - name: ufsf_cohort_1
+  - name: ufsf_cohort_2
+  - name: unichain_hackathon
+  - name: unichain_retro_grants
+  - name: uagp_cohort_1
+  - name: uagp_cohort_2
+  - name: cfm
